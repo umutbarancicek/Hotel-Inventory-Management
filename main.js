@@ -1,4 +1,4 @@
-﻿import * as XLSX from 'xlsx';
+import * as XLSX from 'xlsx';
 import './style.css';
 import { DataService } from './dataService.js';
 
@@ -455,29 +455,29 @@ window.qeRemoveProduct = (product) => {
   renderVeri();
 };
 
-window.qeSave = () => {
-  const priceMap = {};
-  qeState.selectedProducts.forEach(p => { priceMap[p.product] = p; });
-  let saved = 0;
-  Object.entries(qeState.kilos).forEach(([product, kiloStr]) => {
-    const kilo = Number(kiloStr);
-    if (!kilo || kilo <= 0) return;
-    const p = priceMap[product];
-    const buyPrice = p ? (typeof p.price==='number' ? p.price : parseFloat(String(p.price).replace(/\./g,'').replace(',','.'))) : 0;
-    DataService.addTransaction({ date: qeState.date, supplier: qeState.supplier, hotel: qeState.hotel, product, qty: kilo, adet: '-', buyPrice, supplyPrice: buyPrice });
-    saved++;
-  });
-  qeState.kilos = {};
-  qeState.selectedProducts = [];
-  renderVeri();
-  renderDashboard();
-  const toast = document.createElement('div');
-  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#10b981;color:white;padding:16px 24px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);';
-  toast.innerHTML = `<i class="fa-solid fa-check" style="margin-right:8px;"></i>${saved} kalem kaydedildi!`;
-  document.body.appendChild(toast);
-  setTimeout(() => toast.remove(), 3000);
-};
-
+window.qeSave = () => {
+  const priceMap = {};
+  qeState.selectedProducts.forEach(p => { priceMap[p.product] = p; });
+  let saved = 0;
+  Object.entries(qeState.kilos).forEach(([product, kiloStr]) => {
+    const kilo = Number(kiloStr);
+    if (!kilo || kilo <= 0) return;
+    const p = priceMap[product];
+    const buyPrice = p ? (typeof p.price==='number' ? p.price : parseFloat(String(p.price).replace(/\./g,'').replace(',','.'))) : 0;
+    DataService.addTransaction({ date: qeState.date, supplier: qeState.supplier, hotel: qeState.hotel, product, qty: kilo, adet: '-', buyPrice, supplyPrice: buyPrice });
+    saved++;
+  });
+  // Do NOT clear qeState.kilos and qeState.selectedProducts here!
+  // This allows the user to easily change the hotel and click Save again.
+  renderVeri();
+  renderDashboard();
+  const toast = document.createElement('div');
+  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#10b981;color:white;padding:16px 24px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:slideIn 0.3s ease;';
+  toast.innerHTML = `<i class="fa-solid fa-check" style="margin-right:8px;"></i>${saved} kalem kaydedildi! Ekran temizlenmedi, başka otel için devam edebilirsiniz.`;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 4000);
+};
+
 window.qeClear = () => { qeState.kilos = {}; qeState.selectedProducts = []; renderVeri(); };
 
 
