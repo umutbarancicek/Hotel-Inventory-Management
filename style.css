@@ -544,7 +544,7 @@ th.desc::after {
   border-color: #3b82f6;
 }
 .top-filter-group select option {
-  background: var(--surface);
-  color: var(--text-color);
+  background-color: #000000;
+  color: #ffffff;
   padding: 10px;
 }
