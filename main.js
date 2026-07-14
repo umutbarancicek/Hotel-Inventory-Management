@@ -190,10 +190,41 @@ document.querySelectorAll('.dash-btn[data-nav]').forEach(btn => {
   });
 });
 
+window.renderDropdownHtml = (title, items, currentVal, fnName, keyName) => `
+    <div class="top-filter-group">
+      <label>${title}</label>
+      <select onchange="window.${fnName}('${keyName}', this.value === 'Tümü' ? null : this.value)">
+        <option value="Tümü" ${currentVal === null ? 'selected' : ''}>Tümü</option>
+        ${items.map(i => `<option value="${i}" ${currentVal === i ? 'selected' : ''}>${i}</option>`).join('')}
+      </select>
+    </div>
+`;
+
+let veriFilters = { supplier: null, hotel: null, product: null };
+window.setVeriFilter = (key, val) => { veriFilters[key] = val; renderVeri(); };
+
 function renderVeri() {
   viewTitle.innerText = 'VERİ (İşlemler)';
-  const txs = DataService.getData().transactions;
-  let html = `<table>
+  const allTxs = DataService.getData().transactions;
+  
+  const suppliers = [...new Set(allTxs.map(t => t.supplier))].sort();
+  const hotels = [...new Set(allTxs.map(t => t.hotel))].sort();
+  const prods = [...new Set(allTxs.map(t => t.product))].sort();
+  
+  const txs = allTxs.filter(t => {
+    if (veriFilters.supplier && t.supplier !== veriFilters.supplier) return false;
+    if (veriFilters.hotel && t.hotel !== veriFilters.hotel) return false;
+    if (veriFilters.product && t.product !== veriFilters.product) return false;
+    return true;
+  });
+
+  let html = `
+    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px;">
+      ${renderDropdownHtml('MÜSTAHSİL', suppliers, veriFilters.supplier, 'setVeriFilter', 'supplier')}
+      ${renderDropdownHtml('GİTTİĞİ YER', hotels, veriFilters.hotel, 'setVeriFilter', 'hotel')}
+      ${renderDropdownHtml('MAL', prods, veriFilters.product, 'setVeriFilter', 'product')}
+    </div>
+    <table>
     <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>ADET (TÜTED)</th><th>ALIŞ FİAT</th><th>TEDA FİAT</th><th>HAL TUTAR</th><th>TEDARİK TUTAR</th><th>FARK</th></tr></thead>
     <tbody>`;
   txs.reverse().forEach(tx => {
@@ -211,10 +242,25 @@ function renderVeri() {
   initTableFeatures();
 }
 
+let odemeFilters = { account: null };
+window.setOdemeFilter = (key, val) => { odemeFilters[key] = val; renderOdemeler(); };
+
 function renderOdemeler() {
   viewTitle.innerText = 'ÖDEMELER';
-  const py = DataService.getData().payments;
-  let html = `<table>
+  const allPy = DataService.getData().payments;
+  
+  const accounts = [...new Set(allPy.map(p => p.account))].sort();
+  
+  const py = allPy.filter(p => {
+    if (odemeFilters.account && p.account !== odemeFilters.account) return false;
+    return true;
+  });
+
+  let html = `
+    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px;">
+      ${renderDropdownHtml('CARİ ADI', accounts, odemeFilters.account, 'setOdemeFilter', 'account')}
+    </div>
+    <table>
     <thead><tr><th>TARİH</th><th>CARİ ADI</th><th>ÖDEME TUTARI</th><th>AÇIKLAMA</th></tr></thead>
     <tbody>`;
   py.reverse().forEach(p => {
@@ -225,10 +271,28 @@ function renderOdemeler() {
   initTableFeatures();
 }
 
+let fiyatFilters = { date: null, product: null };
+window.setFiyatFilter = (key, val) => { fiyatFilters[key] = val; renderFiyat(); };
+
 function renderFiyat() {
   viewTitle.innerText = 'FİYAT LİSTESİ';
-  const pr = DataService.getData().prices;
-  let html = `<table>
+  const allPr = DataService.getData().prices;
+  
+  const dates = [...new Set(allPr.map(p => p.date))].sort((a,b)=>b.localeCompare(a));
+  const prods = [...new Set(allPr.map(p => p.product))].sort();
+  
+  const pr = allPr.filter(p => {
+    if (fiyatFilters.date && p.date !== fiyatFilters.date) return false;
+    if (fiyatFilters.product && p.product !== fiyatFilters.product) return false;
+    return true;
+  });
+
+  let html = `
+    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px;">
+      ${renderDropdownHtml('TARİH', dates, fiyatFilters.date, 'setFiyatFilter', 'date')}
+      ${renderDropdownHtml('MAL', prods, fiyatFilters.product, 'setFiyatFilter', 'product')}
+    </div>
+    <table>
     <thead><tr><th>TARİH</th><th>MAL</th><th>BİRİM</th><th>FİYAT</th></tr></thead>
     <tbody>`;
   pr.forEach(p => {
@@ -244,10 +308,26 @@ function renderFiyat() {
   initTableFeatures();
 }
 
+let ozetFilters = { type: null };
+window.setOzetFilter = (key, val) => { ozetFilters[key] = val; renderOzet(); };
+
 function renderOzet() {
   viewTitle.innerText = 'CARİ HESAP ÖZETLERİ';
-  const balances = DataService.getAccountBalances();
-  let html = `<table>
+  const allBalances = DataService.getAccountBalances();
+  
+  const types = ['Tedarikçi', 'Müşteri'];
+  
+  const balances = allBalances.filter(b => {
+    const tName = b.type === 'supplier' ? 'Tedarikçi' : 'Müşteri';
+    if (ozetFilters.type && tName !== ozetFilters.type) return false;
+    return true;
+  });
+
+  let html = `
+    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px;">
+      ${renderDropdownHtml('CARİ TİPİ', types, ozetFilters.type, 'setOzetFilter', 'type')}
+    </div>
+    <table>
     <thead><tr><th>CARİ TİPİ</th><th>CARİ ADI</th><th>İŞLEM HACMİ</th><th>ÖDENEN</th><th>BAKİYE</th></tr></thead>
     <tbody>`;
   balances.forEach(b => {
