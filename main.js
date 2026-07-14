@@ -17,6 +17,12 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
 // Format Currency
 const formatCurrency = (val) => new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY' }).format(val);
 
+const formatAppDate = (isoDate) => {
+  if (!isoDate) return '-';
+  const [y, m, d] = isoDate.split('-');
+  return `${d}.${m}.${y}`;
+};
+
 function renderDashboard() {
   const data = DataService.getData();
   const stats = DataService.getDashboardStats();
@@ -136,7 +142,7 @@ function renderVeri() {
     const hal = tx.qty * tx.buyPrice;
     const ted = tx.qty * tx.supplyPrice;
     html += `<tr>
-      <td>${tx.date}</td><td>${tx.supplier}</td><td>${tx.product}</td><td>${tx.qty}</td><td>${tx.hotel}</td>
+      <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td><td>${tx.qty}</td><td>${tx.hotel}</td>
       <td>${formatCurrency(tx.buyPrice)}</td><td>${formatCurrency(tx.supplyPrice)}</td>
       <td>${formatCurrency(hal)}</td><td>${formatCurrency(ted)}</td>
       <td><span class="${ted-hal >= 0 ? 'success' : 'danger'}">${formatCurrency(ted-hal)}</span></td>
@@ -153,7 +159,7 @@ function renderOdemeler() {
     <thead><tr><th>TARİH</th><th>CARİ ADI</th><th>ÖDEME TUTARI</th><th>AÇIKLAMA</th></tr></thead>
     <tbody>`;
   py.reverse().forEach(p => {
-    html += `<tr><td>${p.date}</td><td>${p.account}</td><td>${formatCurrency(p.amount)}</td><td>${p.description}</td></tr>`;
+    html += `<tr><td>${formatAppDate(p.date)}</td><td>${p.account}</td><td>${formatCurrency(p.amount)}</td><td>${p.description}</td></tr>`;
   });
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
@@ -219,7 +225,7 @@ function showAccountDetail(acc) {
   ].sort((a,b) => new Date(b.date) - new Date(a.date));
   
   allEvents.forEach(e => {
-    html += `<tr><td>${e.date}</td><td>${e.desc}</td><td>${formatCurrency(e.amount)}</td><td>${e.type}</td></tr>`;
+    html += `<tr><td>${formatAppDate(e.date)}</td><td>${e.desc}</td><td>${formatCurrency(e.amount)}</td><td>${e.type}</td></tr>`;
   });
   
   html += `</tbody></table>`;
