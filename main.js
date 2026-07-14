@@ -131,6 +131,7 @@ document.querySelectorAll('.dash-btn[data-nav]').forEach(btn => {
     else if (nav === 'fiyat') renderFiyat();
     else if (nav === 'pivot') renderPivot();
     else if (nav === 'ozet') renderOzet();
+    else if (nav === 'sevk') renderSevk();
     else {
       viewTitle.innerText = nav.toUpperCase();
       viewContent.innerHTML = '<p>Bu modül yapım aşamasındadır.</p>';
@@ -251,6 +252,95 @@ function showAccountDetail(acc) {
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
   initTableFeatures();
+}
+
+let sevkDate = new Date().toISOString().split('T')[0];
+function renderSevk() {
+  viewTitle.innerText = 'SEVK RAPORU';
+  const data = DataService.getData();
+  
+  // Filter by date
+  const filtered = data.transactions.filter(t => t.date === sevkDate);
+  
+  // Group by Hotel -> Product
+  const grouped = {};
+  filtered.forEach(t => {
+    if (!grouped[t.hotel]) grouped[t.hotel] = { sumKg: 0, sumTed: 0, sumHal: 0, prods: {} };
+    if (!grouped[t.hotel].prods[t.product]) grouped[t.hotel].prods[t.product] = { sumKg: 0, sumTed: 0, sumHal: 0 };
+    
+    const hal = t.qty * t.buyPrice;
+    const ted = t.qty * t.supplyPrice;
+    
+    grouped[t.hotel].prods[t.product].sumKg += t.qty;
+    grouped[t.hotel].prods[t.product].sumHal += hal;
+    grouped[t.hotel].prods[t.product].sumTed += ted;
+    
+    grouped[t.hotel].sumKg += t.qty;
+    grouped[t.hotel].sumHal += hal;
+    grouped[t.hotel].sumTed += ted;
+  });
+  
+  let html = `
+    <div style="margin-bottom: 20px; background: rgba(0,0,0,0.2); padding: 16px; border-radius: 8px; display: flex; align-items: center; gap: 16px;">
+       <strong>Rapor Tarihi Seçin:</strong>
+       <input type="date" id="sevk-date-picker" value="${sevkDate}" class="form-control" style="max-width: 200px; padding: 10px; background: rgba(255,255,255,0.1); color: white; border: 1px solid var(--panel-border); border-radius: 6px;">
+       <button id="btn-sevk-filter" class="dash-btn btn-green" style="margin-bottom: 0;"><i class="fa-solid fa-filter"></i> Raporu Getir</button>
+    </div>
+  `;
+  
+  if (Object.keys(grouped).length === 0) {
+     html += `<p style="text-align: center; padding: 40px; color: #9ca3af; font-size: 1.1rem;">${formatAppDate(sevkDate)} tarihinde herhangi bir sevkiyat (işlem) bulunmamaktadır.</p>`;
+     viewContent.innerHTML = html;
+  } else {
+     html += `<table>
+       <thead>
+         <tr><th>Satır Etiketleri</th><th>Toplam KİLO</th><th>Toplam TEDARİK</th><th>Toplam HAL</th><th>Toplam FARK</th></tr>
+       </thead>
+       <tbody>
+     `;
+     
+     let gKg = 0, gHal = 0, gTed = 0;
+     
+     Object.keys(grouped).sort().forEach(h => {
+       const d = grouped[h];
+       const hFark = d.sumTed - d.sumHal;
+       gKg += d.sumKg; gHal += d.sumHal; gTed += d.sumTed;
+       
+       html += `<tr class="pivot-row-group">
+         <td><i class="fa-solid fa-hotel" style="margin-right: 8px;"></i> ${h}</td>
+         <td>${d.sumKg}</td><td>${formatCurrency(d.sumTed)}</td><td>${formatCurrency(d.sumHal)}</td><td><span class="${hFark >= 0 ? 'success' : 'danger'}">${formatCurrency(hFark)}</span></td>
+       </tr>`;
+       
+       Object.keys(d.prods).sort().forEach(p => {
+         const pd = d.prods[p];
+         const pFark = pd.sumTed - pd.sumHal;
+         html += `<tr>
+           <td style="padding-left: 32px;"><i class="fa-solid fa-angle-right" style="font-size: 0.8rem; opacity: 0.5; margin-right: 6px;"></i> ${p}</td>
+           <td>${pd.sumKg}</td><td>${formatCurrency(pd.sumTed)}</td><td>${formatCurrency(pd.sumHal)}</td><td><span class="${pFark >= 0 ? 'success' : 'danger'}">${formatCurrency(pFark)}</span></td>
+         </tr>`;
+       });
+     });
+     
+     const gFark = gTed - gHal;
+     html += `<tr class="pivot-row-group" style="background: rgba(96, 165, 250, 0.2);">
+         <td>GENEL TOPLAM</td>
+         <td>${gKg}</td><td>${formatCurrency(gTed)}</td><td>${formatCurrency(gHal)}</td><td><span class="${gFark >= 0 ? 'success' : 'danger'}">${formatCurrency(gFark)}</span></td>
+       </tr></tbody></table>`;
+     
+     viewContent.innerHTML = html;
+     initTableFeatures();
+  }
+  
+  // Attach event listener
+  setTimeout(() => {
+     const btn = document.getElementById('btn-sevk-filter');
+     if (btn) {
+         btn.onclick = () => {
+             sevkDate = document.getElementById('sevk-date-picker').value;
+             renderSevk();
+         };
+     }
+  }, 50);
 }
 
 let pivotFilters = { hotel: null, supplier: null, product: null };
