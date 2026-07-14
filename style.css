@@ -333,3 +333,45 @@ th {
   font-weight: 700;
   background: rgba(255,255,255,0.05);
 }
+
+.table-search {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--panel-border);
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--text-primary);
+  font-size: 1rem;
+  outline: none;
+}
+.table-search::placeholder {
+  color: var(--text-secondary);
+}
+body.light-theme .table-search {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+th {
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+th:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+th.asc::after {
+  content: " \f0de";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-left: 8px;
+  color: #3b82f6;
+}
+th.desc::after {
+  content: " \f0dd";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-left: 8px;
+  color: #3b82f6;
+}

@@ -2,7 +2,7 @@ export const INITIAL_DATA = {
   "transactions": [
     {
       "id": 2,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -12,7 +12,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 3,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER DOLMA",
@@ -22,7 +22,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 4,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -32,7 +32,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 5,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -42,7 +42,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 6,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -52,7 +52,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 7,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -62,7 +62,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 8,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -72,7 +72,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 9,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER SİVRİ",
@@ -82,7 +82,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 10,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -92,7 +92,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 11,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER DOLMA",
@@ -102,7 +102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 12,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
@@ -112,7 +112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 13,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
@@ -122,7 +122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 14,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -132,7 +132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 15,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
@@ -142,7 +142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 16,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -152,7 +152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 17,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -162,7 +162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 18,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -172,7 +172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 19,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -182,7 +182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 20,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -192,7 +192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 21,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -202,7 +202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 22,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
@@ -212,7 +212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 23,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
@@ -222,7 +222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 24,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -232,7 +232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 25,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -242,7 +242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 26,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
@@ -252,7 +252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 27,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -262,7 +262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 28,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -272,7 +272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 29,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -282,7 +282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 30,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -292,7 +292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 31,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
@@ -302,7 +302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 32,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "KABAK BAL DEKORLUK",
@@ -312,7 +312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 33,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -322,7 +322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 34,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -332,7 +332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 35,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "ELMA STARKING",
@@ -342,7 +342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 36,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
@@ -352,7 +352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 37,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
@@ -362,7 +362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 38,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
@@ -372,7 +372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 39,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -382,7 +382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 40,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -392,7 +392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 41,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -402,7 +402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 42,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
@@ -412,7 +412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 43,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -422,7 +422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 44,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -432,7 +432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 45,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -442,7 +442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 46,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -452,7 +452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 47,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -462,7 +462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 48,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -472,7 +472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 49,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -482,7 +482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 50,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -492,7 +492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 51,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -502,7 +502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 52,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -512,7 +512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 53,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -522,7 +522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 54,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -532,7 +532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 55,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -542,7 +542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 58,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -552,7 +552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 59,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -562,7 +562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 60,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "ELMA STARKING",
@@ -572,7 +572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 62,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
@@ -582,7 +582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 64,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "GREYFURT",
@@ -592,7 +592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 65,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -602,7 +602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 66,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -612,7 +612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 67,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
@@ -622,7 +622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 68,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
@@ -632,7 +632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 69,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -642,7 +642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 70,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -652,7 +652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 71,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -662,7 +662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 72,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -672,7 +672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 73,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -682,7 +682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 74,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -692,7 +692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 75,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
@@ -702,7 +702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 76,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
@@ -712,7 +712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 77,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES CHERRY",
@@ -722,7 +722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 78,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
@@ -732,7 +732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 79,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -742,7 +742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 80,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -752,7 +752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 81,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER DOLMA",
@@ -762,7 +762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 82,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES PEMBE",
@@ -772,7 +772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 83,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
@@ -782,7 +782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 84,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -792,7 +792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 85,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -802,7 +802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 86,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -812,7 +812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 87,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -822,7 +822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 88,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES CHERRY",
@@ -832,7 +832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 89,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -842,7 +842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 90,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -852,7 +852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 91,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -862,7 +862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 93,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES PEMBE",
@@ -872,7 +872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 94,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
@@ -882,7 +882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 95,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -892,7 +892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 96,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES PEMBE",
@@ -902,7 +902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 97,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -912,7 +912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 98,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -922,7 +922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 99,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -932,7 +932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 100,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -942,7 +942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 101,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "ELMA STARKING",
@@ -952,7 +952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 102,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -962,7 +962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 103,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -972,7 +972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 104,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -982,7 +982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 105,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -992,7 +992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 106,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -1002,7 +1002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 107,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -1012,7 +1012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 108,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -1022,7 +1022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 109,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -1032,7 +1032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 110,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -1042,7 +1042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 111,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -1052,7 +1052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 112,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -1062,7 +1062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 113,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -1072,7 +1072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 114,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -1082,7 +1082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 115,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -1092,7 +1092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 116,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -1102,7 +1102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 117,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -1112,7 +1112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 118,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -1122,7 +1122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 119,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
@@ -1132,7 +1132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 120,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
@@ -1142,7 +1142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 121,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -1152,7 +1152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 122,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
@@ -1162,7 +1162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 123,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
@@ -1172,7 +1172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 124,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES PEMBE",
@@ -1182,7 +1182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 125,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -1192,7 +1192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 126,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -1202,7 +1202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 127,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
@@ -1212,7 +1212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 128,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -1222,7 +1222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 129,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "ELMA STARKING",
@@ -1232,7 +1232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 130,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -1242,7 +1242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 131,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -1252,7 +1252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 132,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -1262,7 +1262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 134,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -1272,7 +1272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 135,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -1282,7 +1282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 136,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -1292,7 +1292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 137,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -1302,7 +1302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 138,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -1312,7 +1312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 139,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "LOLOROSSO",
@@ -1322,7 +1322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 140,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -1332,7 +1332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 141,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -1342,7 +1342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 142,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
@@ -1352,7 +1352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 143,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -1362,7 +1362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 144,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -1372,7 +1372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 145,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
@@ -1382,7 +1382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 146,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -1392,7 +1392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 147,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -1402,7 +1402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 148,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -1412,7 +1412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 149,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
@@ -1422,7 +1422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 150,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -1432,7 +1432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 152,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -1442,7 +1442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 153,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TURP JAPON",
@@ -1452,7 +1452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 154,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LOLOROSSO",
@@ -1462,7 +1462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 155,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -1472,7 +1472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 156,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -1482,7 +1482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 157,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -1492,7 +1492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 158,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ÇİLEK",
@@ -1502,7 +1502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 159,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
@@ -1512,7 +1512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 160,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -1522,7 +1522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 161,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -1532,7 +1532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 162,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -1542,7 +1542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 163,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -1552,7 +1552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 164,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -1562,7 +1562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 165,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -1572,7 +1572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 166,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -1582,7 +1582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 167,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
@@ -1592,7 +1592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 168,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -1602,7 +1602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 169,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -1612,7 +1612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 170,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -1622,7 +1622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 171,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "MANDALİNA PAKET",
@@ -1632,7 +1632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 172,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "NEKTARİN",
@@ -1642,7 +1642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 173,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "KAYISI",
@@ -1652,7 +1652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 174,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
@@ -1662,7 +1662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 175,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
@@ -1672,7 +1672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 176,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -1682,7 +1682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 177,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -1692,7 +1692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 178,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -1702,7 +1702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 179,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -1712,7 +1712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 180,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -1722,7 +1722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 181,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -1732,7 +1732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 182,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -1742,7 +1742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 183,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -1752,7 +1752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 184,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -1762,7 +1762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 185,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -1772,7 +1772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 187,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -1782,7 +1782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 188,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -1792,7 +1792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 189,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -1802,7 +1802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 190,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
@@ -1812,7 +1812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 191,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
@@ -1822,7 +1822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 192,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -1832,7 +1832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 193,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -1842,7 +1842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 194,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -1852,7 +1852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 195,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -1862,7 +1862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 196,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -1872,7 +1872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 197,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -1882,7 +1882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 198,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -1892,7 +1892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 199,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
@@ -1902,7 +1902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 201,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -1912,7 +1912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 202,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -1922,7 +1922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 203,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
@@ -1932,7 +1932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 204,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "MANDALİNA PAKET",
@@ -1942,7 +1942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 205,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
@@ -1952,7 +1952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 206,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -1962,7 +1962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 207,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
@@ -1972,7 +1972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 209,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -1982,7 +1982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 210,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ISPANAK",
@@ -1992,7 +1992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 211,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PIRASA",
@@ -2002,7 +2002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 212,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "ELMA STARKING",
@@ -2012,7 +2012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 213,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
@@ -2022,7 +2022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 214,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "SEAPHORİA",
       "product": "GREYFURT",
@@ -2032,7 +2032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 215,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -2042,7 +2042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 216,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES CHERRY",
@@ -2052,7 +2052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 217,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -2062,7 +2062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 218,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
@@ -2072,7 +2072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 219,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -2082,7 +2082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 220,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER DOLMA",
@@ -2092,7 +2092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 221,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -2102,7 +2102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 222,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER SİVRİ",
@@ -2112,7 +2112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 223,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -2122,7 +2122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 224,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -2132,7 +2132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 225,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES CHERRY",
@@ -2142,7 +2142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 226,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
@@ -2152,7 +2152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 227,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
@@ -2162,7 +2162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 228,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER DOLMA",
@@ -2172,7 +2172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 229,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MANDALİNA PAKET",
@@ -2182,7 +2182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 230,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -2192,7 +2192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 231,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -2202,7 +2202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 232,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
@@ -2212,7 +2212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 233,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
@@ -2222,7 +2222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 234,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -2232,7 +2232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 235,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -2242,7 +2242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 236,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES CHERRY",
@@ -2252,7 +2252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 237,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
@@ -2262,7 +2262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 238,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
@@ -2272,7 +2272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 239,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
@@ -2282,7 +2282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 240,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
@@ -2292,7 +2292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 241,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -2302,7 +2302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 242,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -2312,7 +2312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 243,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
@@ -2322,7 +2322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 244,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "ÜRETİCİ",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -2332,7 +2332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 245,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
@@ -2342,7 +2342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 246,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -2352,7 +2352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 247,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -2362,7 +2362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 248,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -2372,7 +2372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 249,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -2382,7 +2382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 250,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -2392,7 +2392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 251,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -2402,7 +2402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 252,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -2412,7 +2412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 253,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -2422,7 +2422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 254,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -2432,7 +2432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 255,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -2442,7 +2442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 256,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -2452,7 +2452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 257,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -2462,7 +2462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 258,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -2472,7 +2472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 259,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
@@ -2482,7 +2482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 260,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LOLOROSSO",
@@ -2492,7 +2492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 261,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -2502,7 +2502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 262,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ÇİLEK",
@@ -2512,7 +2512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 263,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "KAYISI",
@@ -2522,7 +2522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 264,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SARIMSAK KURU",
@@ -2532,7 +2532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 265,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
@@ -2542,7 +2542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 266,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -2552,7 +2552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 267,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
@@ -2562,7 +2562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 268,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -2572,7 +2572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 269,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "ÜRETİCİ",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -2582,7 +2582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 270,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -2592,7 +2592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 271,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -2602,7 +2602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 272,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -2612,7 +2612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 275,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
@@ -2622,7 +2622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 276,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
@@ -2632,7 +2632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 277,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -2642,7 +2642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 279,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -2652,7 +2652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 280,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -2662,7 +2662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 281,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -2672,7 +2672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 282,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -2682,7 +2682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 283,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -2692,7 +2692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 284,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -2702,7 +2702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 285,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -2712,7 +2712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 286,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
@@ -2722,7 +2722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 287,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
@@ -2732,7 +2732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 288,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -2742,7 +2742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 290,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -2752,7 +2752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 291,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "GREYFURT",
@@ -2762,7 +2762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 292,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
@@ -2772,7 +2772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 293,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -2782,7 +2782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 294,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -2792,7 +2792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 295,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -2802,7 +2802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 296,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
@@ -2812,7 +2812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 297,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -2822,7 +2822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 298,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -2832,7 +2832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 299,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -2842,7 +2842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 300,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -2852,7 +2852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 301,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
@@ -2862,7 +2862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 302,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -2872,7 +2872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 303,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -2882,7 +2882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 304,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -2892,7 +2892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 305,
-      "date": "2026-05-19",
+      "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -2902,7 +2902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 306,
-      "date": "2026-05-19",
+      "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES PEMBE",
@@ -2912,7 +2912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 307,
-      "date": "2026-05-19",
+      "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -2922,7 +2922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 308,
-      "date": "2026-05-19",
+      "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -2932,7 +2932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 309,
-      "date": "2026-05-19",
+      "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -2942,7 +2942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 310,
-      "date": "2026-05-19",
+      "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
@@ -2952,7 +2952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 311,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -2962,7 +2962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 312,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES PEMBE",
@@ -2972,7 +2972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 313,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES CHERRY",
@@ -2982,7 +2982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 314,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -2992,7 +2992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 315,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
@@ -3002,7 +3002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 317,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
@@ -3012,7 +3012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 318,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
@@ -3022,7 +3022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 319,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
@@ -3032,7 +3032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 320,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "ÜRETİCİ",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -3042,7 +3042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 321,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAVUN",
@@ -3052,7 +3052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 322,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
@@ -3062,7 +3062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 323,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES PEMBE",
@@ -3072,7 +3072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 324,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES CHERRY",
@@ -3082,7 +3082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 325,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "SALATALIK SİLOR PAKET",
@@ -3092,7 +3092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 326,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "BİBER KAPYA",
@@ -3102,7 +3102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 327,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "BİBER SİVRİ",
@@ -3112,7 +3112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 328,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "BİBER ÇARLİSTON",
@@ -3122,7 +3122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 329,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PATLICAN",
@@ -3132,7 +3132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 330,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KABAK SAKIZ",
@@ -3142,7 +3142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 333,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "DOMATES",
@@ -3152,7 +3152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 334,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "DOMATES PEMBE",
@@ -3162,7 +3162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 335,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "DOMATES CHERRY",
@@ -3172,7 +3172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 336,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -3182,7 +3182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 337,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "BİBER KAPYA",
@@ -3192,7 +3192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 338,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "BİBER SİVRİ",
@@ -3202,7 +3202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 339,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "BİBER ÇARLİSTON",
@@ -3212,7 +3212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 340,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "PATLICAN",
@@ -3222,7 +3222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 341,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "KABAK SAKIZ",
@@ -3232,7 +3232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 342,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "ÜRETİCİ",
       "hotel": "ASTORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -3242,7 +3242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 344,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "DOMATES",
@@ -3252,7 +3252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 345,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "DOMATES PEMBE",
@@ -3262,7 +3262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 346,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "DOMATES CHERRY",
@@ -3272,7 +3272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 347,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
@@ -3282,7 +3282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 348,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "BİBER KAPYA",
@@ -3292,7 +3292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 349,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "BİBER SİVRİ",
@@ -3302,7 +3302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 350,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "BİBER ÇARLİSTON",
@@ -3312,7 +3312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 353,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "ÜRETİCİ",
       "hotel": "STELLA",
       "product": "PORTAKAL SIKMALIK",
@@ -3322,7 +3322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 355,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -3332,7 +3332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 356,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES PEMBE",
@@ -3342,7 +3342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 357,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES CHERRY",
@@ -3352,7 +3352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 358,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -3362,7 +3362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 359,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
@@ -3372,7 +3372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 360,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER SİVRİ",
@@ -3382,7 +3382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 361,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -3392,7 +3392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 362,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -3402,7 +3402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 363,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -3412,7 +3412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 364,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "ÜRETİCİ",
       "hotel": "AMBASSADOR",
       "product": "PORTAKAL SIKMALIK",
@@ -3422,7 +3422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 365,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAVUN",
@@ -3432,7 +3432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 366,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -3442,7 +3442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 367,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES PEMBE",
@@ -3452,7 +3452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 368,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
@@ -3462,7 +3462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 369,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -3472,7 +3472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 370,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -3482,7 +3482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 371,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -3492,7 +3492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 372,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -3502,7 +3502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 373,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -3512,7 +3512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 374,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
@@ -3522,7 +3522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 375,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "ÜRETİCİ",
       "hotel": "CASAFORA",
       "product": "PORTAKAL MEYVELİK PAKET",
@@ -3532,7 +3532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 376,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -3542,7 +3542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 377,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES PEMBE",
@@ -3552,7 +3552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 378,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -3562,7 +3562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 379,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -3572,7 +3572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 380,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -3582,7 +3582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 381,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -3592,7 +3592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 382,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -3602,7 +3602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 383,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -3612,7 +3612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 384,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -3622,7 +3622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 385,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "ÜRETİCİ",
       "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -3632,7 +3632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 386,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LOLOROSSO",
@@ -3642,7 +3642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 387,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
@@ -3652,7 +3652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 388,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -3662,7 +3662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 389,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TERE",
@@ -3672,7 +3672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 390,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -3682,7 +3682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 391,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -3692,7 +3692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 392,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -3702,7 +3702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 393,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -3712,7 +3712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 394,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -3722,7 +3722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 395,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -3732,7 +3732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 396,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -3742,7 +3742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 398,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -3752,7 +3752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 399,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -3762,7 +3762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 400,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -3772,7 +3772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 403,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -3782,7 +3782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 404,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -3792,7 +3792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 405,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
@@ -3802,7 +3802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 406,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -3812,7 +3812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 407,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -3822,7 +3822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 408,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
@@ -3832,7 +3832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 409,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
@@ -3842,7 +3842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 410,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
@@ -3852,7 +3852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 411,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
@@ -3862,7 +3862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 412,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "NEKTARİN",
@@ -3872,7 +3872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 413,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
@@ -3882,7 +3882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 414,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -3892,7 +3892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 415,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "GREYFURT",
@@ -3902,7 +3902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 416,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
@@ -3912,7 +3912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 417,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
@@ -3922,7 +3922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 418,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
@@ -3932,7 +3932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 419,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
@@ -3942,7 +3942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 420,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
@@ -3952,7 +3952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 421,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -3962,7 +3962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 422,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
@@ -3972,7 +3972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 423,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KAYISI",
@@ -3982,7 +3982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 424,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ÇİLEK",
@@ -3992,7 +3992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 425,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KIRMIZI",
@@ -4002,7 +4002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 426,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -4012,7 +4012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 427,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -4022,7 +4022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 428,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -4032,7 +4032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 429,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LOLOROSSO",
@@ -4042,7 +4042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 430,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TERE",
@@ -4052,7 +4052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 431,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -4062,7 +4062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 432,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -4072,7 +4072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 433,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
@@ -4082,7 +4082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 434,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -4092,7 +4092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 435,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -4102,7 +4102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 436,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -4112,7 +4112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 437,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -4122,7 +4122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 438,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -4132,7 +4132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 439,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PIRASA",
@@ -4142,7 +4142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 440,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TURP JAPON",
@@ -4152,7 +4152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 441,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
@@ -4162,7 +4162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 442,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -4172,7 +4172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 444,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -4182,7 +4182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 445,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
@@ -4192,7 +4192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 448,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -4202,7 +4202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 449,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -4212,7 +4212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 450,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -4222,7 +4222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 452,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -4232,7 +4232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 453,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -4242,7 +4242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 455,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -4252,7 +4252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 463,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -4262,7 +4262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 464,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -4272,7 +4272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 465,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
@@ -4282,7 +4282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 466,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "ÜRETİCİ",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -4292,7 +4292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 467,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "supplier": "ÜRETİCİ",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -4302,7 +4302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 468,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -4312,7 +4312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 469,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -4322,7 +4322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 470,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -4332,7 +4332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 471,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -4342,7 +4342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 472,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -4352,7 +4352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 473,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -4362,7 +4362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 474,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -4372,7 +4372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 475,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -4382,7 +4382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 476,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -4392,7 +4392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 477,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -4402,7 +4402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 478,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -4412,7 +4412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 479,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -4422,7 +4422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 480,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -4432,7 +4432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 481,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -4442,7 +4442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 482,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
@@ -4452,7 +4452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 483,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
@@ -4462,7 +4462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 484,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
@@ -4472,7 +4472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 485,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER DOLMA",
@@ -4482,7 +4482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 486,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
@@ -4492,7 +4492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 487,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAVUN",
@@ -4502,7 +4502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 488,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -4512,7 +4512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 489,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -4522,7 +4522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 490,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -4532,7 +4532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 491,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -4542,7 +4542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 492,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -4552,7 +4552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 493,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
@@ -4562,7 +4562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 494,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER DOLMA",
@@ -4572,7 +4572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 495,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -4582,7 +4582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 497,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
       "hotel": "ASTORİA",
       "product": "DOMATES",
@@ -4592,7 +4592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 498,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -4602,7 +4602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 499,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "PATLICAN",
@@ -4612,7 +4612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 500,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "BİBER ÇARLİSTON",
@@ -4622,7 +4622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 501,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "BİBER KAPYA",
@@ -4632,7 +4632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 503,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "ASTORİA",
       "product": "KABAK SAKIZ",
@@ -4642,7 +4642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 505,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
@@ -4652,7 +4652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 506,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "SALATALIK SİLOR PAKET",
@@ -4662,7 +4662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 507,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PATLICAN",
@@ -4672,7 +4672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 508,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "BİBER ÇARLİSTON",
@@ -4682,7 +4682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 509,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "BİBER KAPYA",
@@ -4692,7 +4692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 510,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "BİBER DOLMA",
@@ -4702,7 +4702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 511,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KABAK SAKIZ",
@@ -4712,7 +4712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 513,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
       "hotel": "STELLA",
       "product": "DOMATES",
@@ -4722,7 +4722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 514,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
@@ -4732,7 +4732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 515,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "PATLICAN",
@@ -4742,7 +4742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 516,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "BİBER ÇARLİSTON",
@@ -4752,7 +4752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 517,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "BİBER KAPYA",
@@ -4762,7 +4762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 521,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -4772,7 +4772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 522,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -4782,7 +4782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 523,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -4792,7 +4792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 524,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -4802,7 +4802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 525,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -4812,7 +4812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 526,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -4822,7 +4822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 527,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -4832,7 +4832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 528,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -4842,7 +4842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 529,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -4852,7 +4852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 530,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -4862,7 +4862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 531,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -4872,7 +4872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 532,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -4882,7 +4882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 533,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -4892,7 +4892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 534,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -4902,7 +4902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 535,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
@@ -4912,7 +4912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 536,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LOLOROSSO",
@@ -4922,7 +4922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 537,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SARIMSAK KURU",
@@ -4932,7 +4932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 538,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
@@ -4942,7 +4942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 539,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -4952,7 +4952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 540,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -4962,7 +4962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 541,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "NEKTARİN",
@@ -4972,7 +4972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 542,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "KAYISI",
@@ -4982,7 +4982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 543,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ÇİLEK",
@@ -4992,7 +4992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 544,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
@@ -5002,7 +5002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 545,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
@@ -5012,7 +5012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 546,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
@@ -5022,7 +5022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 552,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
@@ -5032,7 +5032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 553,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
@@ -5042,7 +5042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 554,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -5052,7 +5052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 555,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -5062,7 +5062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 556,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -5072,7 +5072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 557,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
@@ -5082,7 +5082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 560,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -5092,7 +5092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 561,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -5102,7 +5102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 562,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -5112,7 +5112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 563,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -5122,7 +5122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 565,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
@@ -5132,7 +5132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 566,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -5142,7 +5142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 568,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SARIMSAK KURU",
@@ -5152,7 +5152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 569,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -5162,7 +5162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 571,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -5172,7 +5172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 572,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
@@ -5182,7 +5182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 573,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -5192,7 +5192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 574,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
@@ -5202,7 +5202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 575,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
@@ -5212,7 +5212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 577,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
@@ -5222,7 +5222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 578,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PIRASA",
@@ -5232,7 +5232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 579,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
@@ -5242,7 +5242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 580,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KIRMIZI",
@@ -5252,7 +5252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 581,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES BABY",
@@ -5262,7 +5262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 582,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "TURP JAPON",
@@ -5272,7 +5272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 583,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -5282,7 +5282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 584,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -5292,7 +5292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 585,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -5302,7 +5302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 586,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "TERE",
@@ -5312,7 +5312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 587,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
@@ -5322,7 +5322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 588,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -5332,7 +5332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 589,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -5342,7 +5342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 590,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -5352,7 +5352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 591,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -5362,7 +5362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 592,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -5372,7 +5372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 593,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -5382,7 +5382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 594,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -5392,7 +5392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 595,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TERE",
@@ -5402,7 +5402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 596,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -5412,7 +5412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 597,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
@@ -5422,7 +5422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 598,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -5432,7 +5432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 599,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -5442,7 +5442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 600,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -5452,7 +5452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 601,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
@@ -5462,7 +5462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 602,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -5472,7 +5472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 603,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -5482,7 +5482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 604,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -5492,7 +5492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 605,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -5502,7 +5502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 606,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -5512,7 +5512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 607,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -5522,7 +5522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 608,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
@@ -5532,7 +5532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 609,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -5542,7 +5542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 610,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -5552,7 +5552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 611,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -5562,7 +5562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 612,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
@@ -5572,7 +5572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 613,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "DOMATES",
@@ -5582,7 +5582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 614,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
@@ -5592,7 +5592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 615,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "KABAK SAKIZ",
@@ -5602,7 +5602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 616,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KABAK SAKIZ",
@@ -5612,7 +5612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 617,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
@@ -5622,7 +5622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 618,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -5632,7 +5632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 619,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "BİBER KAPYA",
@@ -5642,7 +5642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 620,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "BİBER KAPYA",
@@ -5652,7 +5652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 621,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
@@ -5662,7 +5662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 622,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
@@ -5672,7 +5672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 623,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "STELLA",
       "product": "DOMATES CHERRY",
@@ -5682,7 +5682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 624,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "BİBER SİVRİ",
@@ -5692,7 +5692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 625,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
@@ -5702,7 +5702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 626,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
@@ -5712,7 +5712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 627,
-      "date": "2026-06-05",
+      "date": "2026-06-06",
       "supplier": "ÜRETİCİ",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -5722,7 +5722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 628,
-      "date": "2026-06-05",
+      "date": "2026-06-06",
       "supplier": "ÜRETİCİ",
       "hotel": "STELLA",
       "product": "DOMATES",
@@ -5732,7 +5732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 629,
-      "date": "2026-06-05",
+      "date": "2026-06-06",
       "supplier": "ÜRETİCİ",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -5742,7 +5742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 630,
-      "date": "2026-06-05",
+      "date": "2026-06-06",
       "supplier": "ÜRETİCİ",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
@@ -5752,7 +5752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 631,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -5762,7 +5762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 632,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -5772,7 +5772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 633,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
@@ -5782,7 +5782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 634,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -5792,7 +5792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 635,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -5802,7 +5802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 636,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
@@ -5812,7 +5812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 637,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA STARKING",
@@ -5822,7 +5822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 638,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
@@ -5832,7 +5832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 639,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -5842,7 +5842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 640,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
@@ -5852,7 +5852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 641,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "HAVUÇ BEYPAZARI",
@@ -5862,7 +5862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 642,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ÜRETİCİ",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -5872,7 +5872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 643,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
@@ -5882,7 +5882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 645,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
@@ -5892,7 +5892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 646,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -5902,7 +5902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 647,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -5912,7 +5912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 648,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "GREYFURT",
@@ -5922,7 +5922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 649,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ELMA STARKING",
@@ -5932,7 +5932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 650,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -5942,7 +5942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 651,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LİMON",
@@ -5952,7 +5952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 652,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
@@ -5962,7 +5962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 653,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
@@ -5972,7 +5972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 654,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ÜRETİCİ",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -5982,7 +5982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 655,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MUZ YERLİ",
@@ -5992,7 +5992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 656,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LAHANA BEYAZ",
@@ -6002,7 +6002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 657,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
@@ -6012,7 +6012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 658,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
@@ -6022,7 +6022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 659,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
@@ -6032,7 +6032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 660,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -6042,7 +6042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 661,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DEREOTU",
@@ -6052,7 +6052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 662,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -6062,7 +6062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 663,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NANE",
@@ -6072,7 +6072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 664,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "TERE",
@@ -6082,7 +6082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 665,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
@@ -6092,7 +6092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 666,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -6102,7 +6102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 667,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL DÜZ",
@@ -6112,7 +6112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 668,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LAHANA KIRMIZI",
@@ -6122,7 +6122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 669,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -6132,7 +6132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 670,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "NEKTARİN",
@@ -6142,7 +6142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 671,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "KAYISI",
@@ -6152,7 +6152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 672,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ARMUT SANDAMARİA",
@@ -6162,7 +6162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 673,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ŞEFTALİ",
@@ -6172,7 +6172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 674,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
@@ -6182,7 +6182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 675,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ELMA STARKING",
@@ -6192,7 +6192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 676,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "LİMON",
@@ -6202,7 +6202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 677,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ERİK PAPAZ",
@@ -6212,7 +6212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 678,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "HAVUÇ BEYPAZARI",
@@ -6222,7 +6222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 679,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "SEMİZOTU",
@@ -6232,7 +6232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 680,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ROKA",
@@ -6242,7 +6242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 681,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "NANE",
@@ -6252,7 +6252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 682,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "TERE",
@@ -6262,7 +6262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 683,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "MARUL KIVIRCIK",
@@ -6272,7 +6272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 684,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "MAYDONOZ",
@@ -6282,7 +6282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 685,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "MARUL DÜZ",
@@ -6292,7 +6292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 686,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "BİBER DOLMA",
@@ -6302,7 +6302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 687,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "PATLICAN",
@@ -6312,7 +6312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 688,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ÜRETİCİ",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -6322,7 +6322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 689,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "ÜRETİCİ",
       "hotel": "STELLA",
       "product": "DOMATES",
@@ -6332,7 +6332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 690,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PIRASA",
@@ -6342,7 +6342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 691,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -6352,7 +6352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 693,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -6362,7 +6362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 694,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -6372,7 +6372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 695,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "TURP KIRMIZI",
@@ -6382,7 +6382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 696,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "TURP JAPON",
@@ -6392,7 +6392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 697,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
@@ -6402,7 +6402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 698,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -6412,7 +6412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 699,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -6422,7 +6422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 700,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -6432,7 +6432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 701,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -6442,7 +6442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 702,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -6452,7 +6452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 703,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -6462,7 +6462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 704,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "TERE",
@@ -6472,7 +6472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 705,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PAZI YAPRAGI",
@@ -6482,7 +6482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 706,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
@@ -6492,7 +6492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 707,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -6502,7 +6502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 708,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -6512,7 +6512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 709,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -6522,7 +6522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 710,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -6532,7 +6532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 711,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER CİN (BİBERİYE)",
@@ -6542,7 +6542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 712,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -6552,7 +6552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 713,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -6562,7 +6562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 714,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -6572,7 +6572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 715,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -6582,7 +6582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 716,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -6592,7 +6592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 717,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -6602,7 +6602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 718,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
@@ -6612,7 +6612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 719,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
@@ -6622,7 +6622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 720,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SARIMSAK KURU",
@@ -6632,7 +6632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 721,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -6642,7 +6642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 722,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "GREYFURT",
@@ -6652,7 +6652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 723,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
@@ -6662,7 +6662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 724,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
@@ -6672,7 +6672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 725,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
@@ -6682,7 +6682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 726,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
@@ -6692,7 +6692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 727,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -6702,7 +6702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 728,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ERİK PAPAZ",
@@ -6712,7 +6712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 730,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -6722,7 +6722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 731,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -6732,7 +6732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 736,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -6742,7 +6742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 738,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -6752,7 +6752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 739,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -6762,7 +6762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 740,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -6772,7 +6772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 741,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -6782,7 +6782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 742,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -6792,7 +6792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 743,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TERE",
@@ -6802,7 +6802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 745,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -6812,7 +6812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 748,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -6822,7 +6822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 750,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER CİN (BİBERİYE)",
@@ -6832,7 +6832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 752,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -6842,7 +6842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 753,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -6852,7 +6852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 755,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -6862,7 +6862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 756,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -6872,7 +6872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 758,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -6882,7 +6882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 760,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
@@ -6892,7 +6892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 761,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -6902,7 +6902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 762,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
@@ -6912,7 +6912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 763,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "NEKTARİN",
@@ -6922,7 +6922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 764,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ÇİLEK",
@@ -6932,7 +6932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 765,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
@@ -6942,7 +6942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 766,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -6952,7 +6952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 767,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
@@ -6962,7 +6962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 768,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "METİN DALKIRAN",
       "hotel": "AMBASSADOR",
       "product": "KARPUZ",
@@ -6972,7 +6972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 769,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "METİN DALKIRAN",
       "hotel": "GRAND MİRAMOR",
       "product": "KARPUZ",
@@ -6982,7 +6982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 770,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "METİN DALKIRAN",
       "hotel": "STELLA",
       "product": "KARPUZ",
@@ -6992,7 +6992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 771,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "supplier": "METİN DALKIRAN",
       "hotel": "MİRAMOR GARDEN",
       "product": "KARPUZ",
@@ -7002,7 +7002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 772,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -7012,7 +7012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 773,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -7022,7 +7022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 774,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -7032,7 +7032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 775,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
@@ -7042,7 +7042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 776,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
@@ -7052,7 +7052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 777,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
@@ -7062,7 +7062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 778,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
@@ -7072,7 +7072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 779,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ÜRETİCİ",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -7082,7 +7082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 780,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -7092,7 +7092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 781,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
@@ -7102,7 +7102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 782,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ÜRETİCİ",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -7112,7 +7112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 783,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
@@ -7122,7 +7122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 784,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
@@ -7132,7 +7132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 785,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "METİN DALKIRAN",
       "hotel": "SEAPHORİA",
       "product": "KARPUZ",
@@ -7142,7 +7142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 786,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "supplier": "METİN DALKIRAN",
       "hotel": "CASAFORA",
       "product": "KARPUZ",
@@ -7152,7 +7152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 787,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
@@ -7162,7 +7162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 788,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
@@ -7172,7 +7172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 789,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -7182,7 +7182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 790,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -7192,7 +7192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 791,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -7202,7 +7202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 792,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -7212,7 +7212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 793,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -7222,7 +7222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 794,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -7232,7 +7232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 795,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -7242,7 +7242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 796,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -7252,7 +7252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 797,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -7262,7 +7262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 798,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -7272,7 +7272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 799,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -7282,7 +7282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 800,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -7292,7 +7292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 801,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -7302,7 +7302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 802,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -7312,7 +7312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 803,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TERE",
@@ -7322,7 +7322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 804,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LOLOROSSO",
@@ -7332,7 +7332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 805,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -7342,7 +7342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 806,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -7352,7 +7352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 807,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KARNABAHAR",
@@ -7362,7 +7362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 817,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -7372,7 +7372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 818,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
@@ -7382,7 +7382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 819,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "NEKTARİN",
@@ -7392,7 +7392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 820,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "KAYISI",
@@ -7402,7 +7402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 824,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
@@ -7412,7 +7412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 825,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -7422,7 +7422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 826,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -7432,7 +7432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 827,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -7442,7 +7442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 828,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -7452,7 +7452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 829,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -7462,7 +7462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 830,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -7472,7 +7472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 831,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -7482,7 +7482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 833,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -7492,7 +7492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 834,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -7502,7 +7502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 835,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
@@ -7512,7 +7512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 836,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -7522,7 +7522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 837,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -7532,7 +7532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 838,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -7542,7 +7542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 839,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -7552,7 +7552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 840,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -7562,7 +7562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 843,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -7572,7 +7572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 844,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "GREYFURT",
@@ -7582,7 +7582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 845,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KARNABAHAR",
@@ -7592,7 +7592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 846,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
@@ -7602,7 +7602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 847,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -7612,7 +7612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 848,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
@@ -7622,7 +7622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 849,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KEREVİZ",
@@ -7632,7 +7632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 850,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN ARPACIK",
@@ -7642,7 +7642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 851,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KIRMIZI",
@@ -7652,7 +7652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 852,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -7662,7 +7662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 853,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -7672,7 +7672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 854,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -7682,7 +7682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 855,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -7692,7 +7692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 856,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
@@ -7702,7 +7702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 857,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
@@ -7712,7 +7712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 858,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -7722,7 +7722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 859,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
@@ -7732,7 +7732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 860,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "MUZ İTHAL",
@@ -7742,7 +7742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 861,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KİVİ",
@@ -7752,7 +7752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 862,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ERİK PAPAZ",
@@ -7762,7 +7762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 863,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "HAVUÇ BEYPAZARI",
@@ -7772,7 +7772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 864,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MARUL KIVIRCIK",
@@ -7782,7 +7782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 865,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MARUL DÜZ",
@@ -7792,7 +7792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 866,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "SEMİZOTU",
@@ -7802,7 +7802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 867,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MARUL ICEBERG",
@@ -7812,7 +7812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 868,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MAYDONOZ",
@@ -7822,7 +7822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 869,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NANE",
@@ -7832,7 +7832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 870,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DEREOTU",
@@ -7842,7 +7842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 871,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "FESLEĞEN",
@@ -7852,7 +7852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 872,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ROKA",
@@ -7862,7 +7862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 873,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LOLOROSSO",
@@ -7872,7 +7872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 874,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "TERE",
@@ -7882,7 +7882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 875,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
@@ -7892,7 +7892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 876,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
@@ -7902,7 +7902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 877,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
@@ -7912,7 +7912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 879,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -7922,7 +7922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 880,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "YENİDÜNYA KIRMIZI",
@@ -7932,7 +7932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 882,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
@@ -7942,7 +7942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 883,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
@@ -7952,7 +7952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 884,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
@@ -7962,7 +7962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 885,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
@@ -7972,7 +7972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 886,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL DÜZ",
@@ -7982,7 +7982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 887,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -7992,7 +7992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 888,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
@@ -8002,7 +8002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 889,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -8012,7 +8012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 890,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NANE",
@@ -8022,7 +8022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 891,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DEREOTU",
@@ -8032,7 +8032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 892,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
@@ -8042,7 +8042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 893,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -8052,7 +8052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 894,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
@@ -8062,7 +8062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 895,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "TERE",
@@ -8072,7 +8072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 896,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -8082,7 +8082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 897,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAYISI",
@@ -8092,7 +8092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 898,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -8102,7 +8102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 899,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PAZI YAPRAGI",
@@ -8112,7 +8112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 900,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
@@ -8122,7 +8122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 901,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "YENİDÜNYA KIRMIZI",
@@ -8132,7 +8132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 902,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
@@ -8142,7 +8142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 903,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
@@ -8152,7 +8152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 904,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LİMON",
@@ -8162,7 +8162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 905,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
@@ -8172,7 +8172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 906,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
@@ -8182,7 +8182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 908,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -8192,7 +8192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 909,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
@@ -8202,7 +8202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 910,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -8212,7 +8212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 911,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NANE",
@@ -8222,7 +8222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 912,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DEREOTU",
@@ -8232,7 +8232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 913,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
@@ -8242,7 +8242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 914,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -8252,7 +8252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 915,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
@@ -8262,7 +8262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 916,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "TERE",
@@ -8272,7 +8272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 917,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -8282,7 +8282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 918,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAYISI",
@@ -8292,7 +8292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 919,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -8302,7 +8302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 922,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "YENİDÜNYA KIRMIZI",
@@ -8312,7 +8312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 923,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
@@ -8322,7 +8322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 924,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
@@ -8332,7 +8332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 925,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LİMON",
@@ -8342,7 +8342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 926,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "METİN DALKIRAN",
       "hotel": "GRAND MİRAMOR",
       "product": "KARPUZ",
@@ -8352,7 +8352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 927,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "METİN DALKIRAN",
       "hotel": "MİRAMOR GARDEN",
       "product": "KARPUZ",
@@ -8362,7 +8362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 928,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "METİN DALKIRAN",
       "hotel": "ASTORİA",
       "product": "KARPUZ",
@@ -8372,7 +8372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 929,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "METİN DALKIRAN",
       "hotel": "STELLA",
       "product": "KARPUZ",
@@ -8382,7 +8382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 930,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "METİN DALKIRAN",
       "hotel": "AMBASSADOR",
       "product": "KARPUZ",
@@ -8392,7 +8392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 931,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES BEEF",
@@ -8402,7 +8402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 932,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -8412,7 +8412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 933,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -8422,7 +8422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 934,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "TERE",
@@ -8432,7 +8432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 935,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ROKA",
@@ -8442,7 +8442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 936,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MARUL KIVIRCIK",
@@ -8452,7 +8452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 937,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "SEMİZOTU",
@@ -8462,7 +8462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 938,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NANE",
@@ -8472,7 +8472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 939,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MAYDONOZ",
@@ -8482,7 +8482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 940,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MARUL DÜZ",
@@ -8492,7 +8492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 941,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES CHERRY",
@@ -8502,7 +8502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 942,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
@@ -8512,7 +8512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 943,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -8522,7 +8522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 944,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PATATES TAZE",
@@ -8532,7 +8532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 945,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "BİBER DOLMA",
@@ -8542,7 +8542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 946,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KİVİ",
@@ -8552,7 +8552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 947,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "SALATALIK SİLOR PAKET",
@@ -8562,7 +8562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 948,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
@@ -8572,7 +8572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 949,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PATLICAN",
@@ -8582,7 +8582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 954,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DEREOTU",
@@ -8592,7 +8592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 962,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "TERE",
@@ -8602,7 +8602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 963,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "ROKA",
@@ -8612,7 +8612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 967,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "MAYDONOZ",
@@ -8622,7 +8622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 972,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "PATATES TAZE",
@@ -8632,7 +8632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 975,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -8642,7 +8642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 977,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "PATLICAN",
@@ -8652,7 +8652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 978,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "SOĞAN KURU",
@@ -8662,7 +8662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 979,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "DOMATES",
@@ -8672,7 +8672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 980,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "KABAK SAKIZ",
@@ -8682,7 +8682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 981,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "LİMON",
@@ -8692,7 +8692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 983,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "BİBER KAPYA",
@@ -8702,7 +8702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 990,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "TERE",
@@ -8712,7 +8712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 991,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -8722,7 +8722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 992,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
@@ -8732,7 +8732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 993,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -8742,7 +8742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 995,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -8752,7 +8752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 996,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL DÜZ",
@@ -8762,7 +8762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 997,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES CHERRY",
@@ -8772,7 +8772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 999,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
@@ -8782,7 +8782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1000,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATATES TAZE",
@@ -8792,7 +8792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1002,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KİVİ",
@@ -8802,7 +8802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1003,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -8812,7 +8812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1006,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SOĞAN KURU",
@@ -8822,7 +8822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1007,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -8832,7 +8832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1008,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -8842,7 +8842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1009,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LİMON",
@@ -8852,7 +8852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1010,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DEREOTU",
@@ -8862,7 +8862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1011,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
@@ -8872,7 +8872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1012,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -8882,7 +8882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1013,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
@@ -8892,7 +8892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1014,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAYISI",
@@ -8902,7 +8902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1015,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
@@ -8912,7 +8912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1016,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KUZU KULAĞI",
@@ -8922,7 +8922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1018,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KİVİ",
@@ -8932,7 +8932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1019,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
@@ -8942,7 +8942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1020,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
@@ -8952,7 +8952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1021,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -8962,7 +8962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1022,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -8972,7 +8972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1023,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -8982,7 +8982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1024,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
@@ -8992,7 +8992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1025,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
@@ -9002,7 +9002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1026,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MANGO",
@@ -9012,7 +9012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1027,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -9022,7 +9022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1028,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -9032,7 +9032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1029,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -9042,7 +9042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1030,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -9052,7 +9052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1031,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -9062,7 +9062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1032,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -9072,7 +9072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1033,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -9082,7 +9082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1034,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -9092,7 +9092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1035,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -9102,7 +9102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1036,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -9112,7 +9112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1037,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -9122,7 +9122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1038,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -9132,7 +9132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1039,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -9142,7 +9142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1046,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
@@ -9152,7 +9152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1047,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -9162,7 +9162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1048,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
@@ -9172,7 +9172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1049,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -9182,7 +9182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1050,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
@@ -9192,7 +9192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1055,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -9202,7 +9202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1056,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -9212,7 +9212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1057,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -9222,7 +9222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1059,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PANCAR KIRMIZI",
@@ -9232,7 +9232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1061,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -9242,7 +9242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1062,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -9252,7 +9252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1063,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -9262,7 +9262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1064,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -9272,7 +9272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1065,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -9282,7 +9282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1067,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -9292,7 +9292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1071,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -9302,7 +9302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1072,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -9312,7 +9312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1073,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -9322,7 +9322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1074,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
@@ -9332,7 +9332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1075,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -9342,7 +9342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1076,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -9352,7 +9352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1077,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
@@ -9362,7 +9362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1078,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -9372,7 +9372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1079,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -9382,7 +9382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1080,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "NEKTARİN",
@@ -9392,7 +9392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1081,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "KAYISI",
@@ -9402,7 +9402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1082,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ÇİLEK",
@@ -9412,7 +9412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1083,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -9422,7 +9422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1084,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
@@ -9432,7 +9432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1085,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
@@ -9442,7 +9442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1086,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -9452,7 +9452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1087,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
@@ -9462,7 +9462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1088,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
@@ -9472,7 +9472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1089,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "METİN DALKIRAN",
       "hotel": "CASAFORA",
       "product": "KARPUZ",
@@ -9482,7 +9482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1090,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "supplier": "METİN DALKIRAN",
       "hotel": "SEAPHORİA",
       "product": "KARPUZ",
@@ -9492,7 +9492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1091,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NANE",
@@ -9502,7 +9502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1092,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ROKA",
@@ -9512,7 +9512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1093,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MAYDONOZ",
@@ -9522,7 +9522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1094,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DEREOTU",
@@ -9532,7 +9532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1095,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SEMİZOTU",
@@ -9542,7 +9542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1096,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "TERE",
@@ -9552,7 +9552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1097,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
@@ -9562,7 +9562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1098,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -9572,7 +9572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1099,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -9582,7 +9582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1100,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
@@ -9592,7 +9592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1101,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
@@ -9602,7 +9602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1102,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
@@ -9612,7 +9612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1103,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -9622,7 +9622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1104,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
@@ -9632,7 +9632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1105,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -9642,7 +9642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1106,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SARIMSAK KURU",
@@ -9652,7 +9652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1116,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
@@ -9662,7 +9662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1117,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
@@ -9672,7 +9672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1119,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
@@ -9682,7 +9682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1121,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
@@ -9692,7 +9692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1122,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
@@ -9702,7 +9702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1123,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
@@ -9712,7 +9712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1124,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "SARIMSAK KURU",
@@ -9722,7 +9722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1125,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -9732,7 +9732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1126,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
@@ -9742,7 +9742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1128,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -9752,7 +9752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1129,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -9762,7 +9762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1130,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DEREOTU",
@@ -9772,7 +9772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1131,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -9782,7 +9782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1132,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "TERE",
@@ -9792,7 +9792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1135,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -9802,7 +9802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1136,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "GREYFURT",
@@ -9812,7 +9812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1137,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -9822,7 +9822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1139,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
@@ -9832,7 +9832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1143,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
@@ -9842,7 +9842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1145,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "NANE",
@@ -9852,7 +9852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1146,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ROKA",
@@ -9862,7 +9862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1147,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "MAYDONOZ",
@@ -9872,7 +9872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1148,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "DEREOTU",
@@ -9882,7 +9882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1149,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "SEMİZOTU",
@@ -9892,7 +9892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1152,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "LİMON",
@@ -9902,7 +9902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1153,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ŞEFTALİ",
@@ -9912,7 +9912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1156,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ERİK PAPAZ",
@@ -9922,7 +9922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1160,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "SARIMSAK KURU",
@@ -9932,7 +9932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1163,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -9942,7 +9942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1164,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAVUN",
@@ -9952,7 +9952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1165,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KAVUN",
@@ -9962,7 +9962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1166,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAVUN",
@@ -9972,7 +9972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1167,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "METİN DALKIRAN",
       "hotel": "MİRAMOR GARDEN",
       "product": "KARPUZ",
@@ -9982,7 +9982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1168,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "METİN DALKIRAN",
       "hotel": "MİRAMOR GARDEN",
       "product": "KARPUZ",
@@ -9992,7 +9992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1169,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -10002,7 +10002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1170,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
@@ -10012,7 +10012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1171,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -10022,7 +10022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1172,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
@@ -10032,7 +10032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1173,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
@@ -10042,7 +10042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1174,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
@@ -10052,7 +10052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1175,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
@@ -10062,7 +10062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1176,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
@@ -10072,7 +10072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1177,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MANDALİNA PAKET",
@@ -10082,7 +10082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1178,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KUZU KULAĞI",
@@ -10092,7 +10092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1179,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NANE",
@@ -10102,7 +10102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1180,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "TERE",
@@ -10112,7 +10112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1181,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MAYDONOZ",
@@ -10122,7 +10122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1182,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ROKA",
@@ -10132,7 +10132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1183,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DEREOTU",
@@ -10142,7 +10142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1184,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MARUL DÜZ",
@@ -10152,7 +10152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1185,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "SEMİZOTU",
@@ -10162,7 +10162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1186,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MARUL KIVIRCIK",
@@ -10172,7 +10172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1187,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "FESLEĞEN",
@@ -10182,7 +10182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1195,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -10192,7 +10192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1198,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -10202,7 +10202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1199,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MANDALİNA PAKET",
@@ -10212,7 +10212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1203,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MAYDONOZ",
@@ -10222,7 +10222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1204,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ROKA",
@@ -10232,7 +10232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1205,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DEREOTU",
@@ -10242,7 +10242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1207,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "SEMİZOTU",
@@ -10252,7 +10252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1208,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MARUL KIVIRCIK",
@@ -10262,7 +10262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1210,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
@@ -10272,7 +10272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1211,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -10282,7 +10282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1212,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -10292,7 +10292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1216,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ERİK PAPAZ",
@@ -10302,7 +10302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1217,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ŞEFTALİ",
@@ -10312,7 +10312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1220,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "KAYISI",
@@ -10322,7 +10322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1225,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "MAYDONOZ",
@@ -10332,7 +10332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1226,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ROKA",
@@ -10342,7 +10342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1227,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "DEREOTU",
@@ -10352,7 +10352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1229,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "SEMİZOTU",
@@ -10362,7 +10362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1230,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "MARUL KIVIRCIK",
@@ -10372,7 +10372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1232,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "GREYFURT",
@@ -10382,7 +10382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1234,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "NEKTARİN",
@@ -10392,7 +10392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1235,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "LOLOROSSO",
@@ -10402,7 +10402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1236,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "MARUL ICEBERG",
@@ -10412,7 +10412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1237,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "PORTAKAL SIKMALIK",
@@ -10422,7 +10422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1245,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NANE",
@@ -10432,7 +10432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1247,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -10442,7 +10442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1248,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -10452,7 +10452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1249,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DEREOTU",
@@ -10462,7 +10462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1251,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -10472,7 +10472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1252,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
@@ -10482,7 +10482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1253,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
@@ -10492,7 +10492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1254,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "GREYFURT",
@@ -10502,7 +10502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1258,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
@@ -10512,7 +10512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1260,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "METİN DALKIRAN",
       "hotel": "CASAFORA",
       "product": "KARPUZ",
@@ -10522,7 +10522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1261,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -10532,7 +10532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1262,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
@@ -10542,7 +10542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1263,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -10552,7 +10552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1264,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -10562,7 +10562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1265,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -10572,7 +10572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1266,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -10582,7 +10582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1267,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -10592,7 +10592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1268,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -10602,7 +10602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1270,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -10612,7 +10612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1272,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -10622,7 +10622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1273,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -10632,7 +10632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1276,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -10642,7 +10642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1277,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -10652,7 +10652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1278,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -10662,7 +10662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1279,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -10672,7 +10672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1281,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LOLOROSSO",
@@ -10682,7 +10682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1282,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -10692,7 +10692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1283,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -10702,7 +10702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1284,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
@@ -10712,7 +10712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1285,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -10722,7 +10722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1286,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -10732,7 +10732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1287,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -10742,7 +10742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1288,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -10752,7 +10752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1289,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "METİN DALKIRAN",
       "hotel": "SEAPHORİA",
       "product": "KARPUZ",
@@ -10762,7 +10762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1290,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -10772,7 +10772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1291,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -10782,7 +10782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1292,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -10792,7 +10792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1293,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -10802,7 +10802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1294,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -10812,7 +10812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1295,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -10822,7 +10822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1296,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
@@ -10832,7 +10832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1297,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
@@ -10842,7 +10842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1298,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KEREVİZ",
@@ -10852,7 +10852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1299,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -10862,7 +10862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1300,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
@@ -10872,7 +10872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1301,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -10882,7 +10882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1302,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -10892,7 +10892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1303,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN TAZE",
@@ -10902,7 +10902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1304,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "TURP KIRMIZI",
@@ -10912,7 +10912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1305,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
@@ -10922,7 +10922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1306,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -10932,7 +10932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1307,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -10942,7 +10942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1308,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -10952,7 +10952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1309,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -10962,7 +10962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1310,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -10972,7 +10972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1311,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -10982,7 +10982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1312,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -10992,7 +10992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1318,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "NEKTARİN",
@@ -11002,7 +11002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1319,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
@@ -11012,7 +11012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1320,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
@@ -11022,7 +11022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1321,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -11032,7 +11032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1322,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "KAYISI",
@@ -11042,7 +11042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1323,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
@@ -11052,7 +11052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1324,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "MANDALİNA PAKET",
@@ -11062,7 +11062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1325,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
@@ -11072,7 +11072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1326,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "BİBER CİN (BİBERİYE)",
@@ -11082,7 +11082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1327,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
@@ -11092,7 +11092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1328,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "KİVİ",
@@ -11102,7 +11102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1329,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -11112,7 +11112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1330,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ÇİLEK",
@@ -11122,7 +11122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1331,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "KİRAZ",
@@ -11132,7 +11132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1332,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
@@ -11142,7 +11142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1333,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "KARPUZ",
@@ -11152,7 +11152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1334,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
@@ -11162,7 +11162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1335,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -11172,7 +11172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1336,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
@@ -11182,7 +11182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1337,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -11192,7 +11192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1338,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -11202,7 +11202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1339,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
@@ -11212,7 +11212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1340,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "MANDALİNA PAKET",
@@ -11222,7 +11222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1341,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ERİK PAPAZ",
@@ -11232,7 +11232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1342,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "BİBER CİN (BİBERİYE)",
@@ -11242,7 +11242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1343,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
@@ -11252,7 +11252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1344,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KİVİ",
@@ -11262,7 +11262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1345,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "GREYFURT",
@@ -11272,7 +11272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1346,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
@@ -11282,7 +11282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1347,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KİRAZ",
@@ -11292,7 +11292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1350,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "METİN DALKIRAN",
       "hotel": "MİRAMOR GARDEN",
       "product": "KARPUZ",
@@ -11302,7 +11302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1351,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "supplier": "METİN DALKIRAN",
       "hotel": "AMBASSADOR",
       "product": "KARPUZ",
@@ -11312,7 +11312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1352,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
@@ -11322,7 +11322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1353,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "HAVUÇ BEYPAZARI",
@@ -11332,7 +11332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1354,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -11342,7 +11342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1355,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LOLOROSSO",
@@ -11352,7 +11352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1356,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "FESLEĞEN",
@@ -11362,7 +11362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1357,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
@@ -11372,7 +11372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1358,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -11382,7 +11382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1359,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
@@ -11392,7 +11392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1360,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -11402,7 +11402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1361,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -11412,7 +11412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1362,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
@@ -11422,7 +11422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1373,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -11432,7 +11432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1375,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
@@ -11442,7 +11442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1376,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LOLOROSSO",
@@ -11452,7 +11452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1378,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
@@ -11462,7 +11462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1379,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
@@ -11472,7 +11472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1380,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
@@ -11482,7 +11482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1382,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
@@ -11492,7 +11492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1383,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
@@ -11502,7 +11502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1384,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "SEMİZOTU",
@@ -11512,7 +11512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1385,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MARUL KIVIRCIK",
@@ -11522,7 +11522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1386,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DEREOTU",
@@ -11532,7 +11532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1387,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ROKA",
@@ -11542,7 +11542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1388,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NANE",
@@ -11552,7 +11552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1389,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MARUL ICEBERG",
@@ -11562,7 +11562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1395,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
@@ -11572,7 +11572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1397,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
@@ -11582,7 +11582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1398,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
@@ -11592,7 +11592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1404,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -11602,7 +11602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1405,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -11612,7 +11612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1406,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
@@ -11622,7 +11622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1407,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DEREOTU",
@@ -11632,7 +11632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1408,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -11642,7 +11642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1409,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NANE",
@@ -11652,7 +11652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1411,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -11662,7 +11662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1412,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PANCAR KIRMIZI",
@@ -11672,7 +11672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1413,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KEREVİZ",
@@ -11682,7 +11682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1414,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PAZI YAPRAGI",
@@ -11692,7 +11692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1415,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -11702,7 +11702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1416,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
@@ -11712,7 +11712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1417,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -11722,7 +11722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1418,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -11732,7 +11732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1419,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -11742,7 +11742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1420,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -11752,7 +11752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1421,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
@@ -11762,7 +11762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1422,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -11772,7 +11772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1423,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -11782,7 +11782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1424,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -11792,7 +11792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1425,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -11802,7 +11802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1426,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
@@ -11812,7 +11812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1427,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -11822,7 +11822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1428,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -11832,7 +11832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1429,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -11842,7 +11842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1430,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -11852,7 +11852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1431,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -11862,7 +11862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1432,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -11872,7 +11872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1433,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
@@ -11882,7 +11882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1434,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -11892,7 +11892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1435,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ FRENK",
@@ -11902,7 +11902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1436,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KEKİK TAZE",
@@ -11912,7 +11912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1437,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -11922,7 +11922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1438,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -11932,7 +11932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1441,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -11942,7 +11942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1443,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -11952,7 +11952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1444,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -11962,7 +11962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1445,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -11972,7 +11972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1446,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -11982,7 +11982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1448,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -11992,7 +11992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1449,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -12002,7 +12002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1450,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -12012,7 +12012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1451,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -12022,7 +12022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1452,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -12032,7 +12032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1454,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -12042,7 +12042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1455,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -12052,7 +12052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1456,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -12062,7 +12062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1457,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -12072,7 +12072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1460,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LOLOROSSO",
@@ -12082,7 +12082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1465,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -12092,7 +12092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1466,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KIRMIZI",
@@ -12102,7 +12102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1467,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -12112,7 +12112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1468,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PIRASA",
@@ -12122,7 +12122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1469,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -12132,7 +12132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1470,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
@@ -12142,7 +12142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1471,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -12152,7 +12152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1472,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
@@ -12162,7 +12162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1473,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
@@ -12172,7 +12172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1474,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -12182,7 +12182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1475,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
@@ -12192,7 +12192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1476,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
@@ -12202,7 +12202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1477,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
@@ -12212,7 +12212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1478,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
@@ -12222,7 +12222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1479,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -12232,7 +12232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1480,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -12242,7 +12242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1482,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ŞEFTALİ",
@@ -12252,7 +12252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1483,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "GREYFURT",
@@ -12262,7 +12262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1484,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "MUZ YERLİ",
@@ -12272,7 +12272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1485,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "KAYISI",
@@ -12282,7 +12282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1487,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "KİRAZ",
@@ -12292,7 +12292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1488,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ERİK PAPAZ",
@@ -12302,7 +12302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1490,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "LİMON",
@@ -12312,7 +12312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1491,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "PORTAKAL SIKMALIK",
@@ -12322,7 +12322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1492,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -12332,7 +12332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1493,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
@@ -12342,7 +12342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1495,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
@@ -12352,7 +12352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1496,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
@@ -12362,7 +12362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1497,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
@@ -12372,7 +12372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1498,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
@@ -12382,7 +12382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1499,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
@@ -12392,7 +12392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1500,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
@@ -12402,7 +12402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1501,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
@@ -12412,7 +12412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1502,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
@@ -12422,7 +12422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1503,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
@@ -12432,7 +12432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1504,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -12442,7 +12442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1505,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "GREYFURT",
@@ -12452,7 +12452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1506,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MUZ YERLİ",
@@ -12462,7 +12462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1510,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
@@ -12472,7 +12472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1511,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ERİK ANJELİKA",
@@ -12482,7 +12482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1513,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PORTAKAL SIKMALIK",
@@ -12492,7 +12492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1514,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -12502,7 +12502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1515,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -12512,7 +12512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1516,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -12522,7 +12522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1517,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN BOSTAN",
@@ -12532,7 +12532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1518,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -12542,7 +12542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1519,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
@@ -12552,7 +12552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1520,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -12562,7 +12562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1521,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -12572,7 +12572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1522,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -12582,7 +12582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1523,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -12592,7 +12592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1524,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -12602,7 +12602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1525,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -12612,7 +12612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1526,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -12622,7 +12622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1527,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
@@ -12632,7 +12632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1528,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -12642,7 +12642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1529,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -12652,7 +12652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1530,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -12662,7 +12662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1531,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES CHERRY PAKET",
@@ -12672,7 +12672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1532,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES KOKTEYL",
@@ -12682,7 +12682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1539,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -12692,7 +12692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1540,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -12702,7 +12702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1541,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -12712,7 +12712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1542,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
@@ -12722,7 +12722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1543,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -12732,7 +12732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1546,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -12742,7 +12742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1547,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -12752,7 +12752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1548,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -12762,7 +12762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1549,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -12772,7 +12772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1550,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -12782,7 +12782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1551,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -12792,7 +12792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1553,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
@@ -12802,7 +12802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1554,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -12812,7 +12812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1556,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY PAKET",
@@ -12822,7 +12822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1557,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES KOKTEYL",
@@ -12832,7 +12832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1558,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -12842,7 +12842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1559,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -12852,7 +12852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1560,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -12862,7 +12862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1561,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -12872,7 +12872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1562,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -12882,7 +12882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1563,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -12892,7 +12892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1564,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DEREOTU",
@@ -12902,7 +12902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1565,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -12912,7 +12912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1566,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NANE",
@@ -12922,7 +12922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1567,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "TERE",
@@ -12932,7 +12932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1568,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -12942,7 +12942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1569,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -12952,7 +12952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1570,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KİRAZ",
@@ -12962,7 +12962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1571,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LAHANA KIRMIZI",
@@ -12972,7 +12972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1572,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SOĞAN KURU",
@@ -12982,7 +12982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1573,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAVUN",
@@ -12992,7 +12992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1574,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -13002,7 +13002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1575,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -13012,7 +13012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1576,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -13022,7 +13022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1577,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -13032,7 +13032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1578,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KEREVİZ",
@@ -13042,7 +13042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1579,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
@@ -13052,7 +13052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1580,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
@@ -13062,7 +13062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1581,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
@@ -13072,7 +13072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1582,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
@@ -13082,7 +13082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1583,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -13092,7 +13092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1584,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -13102,7 +13102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1585,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
@@ -13112,7 +13112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1586,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ERİK ANJELİKA",
@@ -13122,7 +13122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1587,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -13132,7 +13132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1588,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
@@ -13142,7 +13142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1589,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "GREYFURT",
@@ -13152,7 +13152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1590,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
@@ -13162,7 +13162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1591,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LİMON",
@@ -13172,7 +13172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1592,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MUZ İTHAL",
@@ -13182,7 +13182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1593,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SOĞAN KIRMIZI",
@@ -13192,7 +13192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1594,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAYISI",
@@ -13202,7 +13202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1595,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DEREOTU",
@@ -13212,7 +13212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1596,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ROKA",
@@ -13222,7 +13222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1597,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NANE",
@@ -13232,7 +13232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1598,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "TERE",
@@ -13242,7 +13242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1612,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "FESLEĞEN",
@@ -13252,7 +13252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1614,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MAYDONOZ",
@@ -13262,7 +13262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1626,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -13272,7 +13272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1627,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
@@ -13282,7 +13282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1628,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
@@ -13292,7 +13292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1629,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
@@ -13302,7 +13302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1630,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -13312,7 +13312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1631,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
@@ -13322,7 +13322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1632,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
@@ -13332,7 +13332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1633,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -13342,7 +13342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1634,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
@@ -13352,7 +13352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1635,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -13362,7 +13362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1636,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
@@ -13372,7 +13372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1637,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -13382,7 +13382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1638,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
@@ -13392,7 +13392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1639,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
@@ -13402,7 +13402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1640,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
@@ -13412,7 +13412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1641,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
@@ -13422,7 +13422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1642,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
@@ -13432,7 +13432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1644,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
@@ -13442,7 +13442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1645,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
@@ -13452,7 +13452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1646,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
@@ -13462,7 +13462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1647,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
@@ -13472,7 +13472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1648,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -13482,7 +13482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1650,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "NEKTARİN",
@@ -13492,7 +13492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1651,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ERİK ANJELİKA",
@@ -13502,7 +13502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1653,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "KİRAZ",
@@ -13512,7 +13512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1654,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "PORTAKAL SIKMALIK",
@@ -13522,7 +13522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1655,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "GREYFURT",
@@ -13532,7 +13532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1657,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ŞEFTALİ",
@@ -13542,7 +13542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1658,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ELMA GOLDEN",
@@ -13552,7 +13552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1659,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "LİMON",
@@ -13562,7 +13562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1661,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "KAYISI",
@@ -13572,7 +13572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1662,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "METİN DALKIRAN",
       "hotel": "GRAND MİRAMOR",
       "product": "KARPUZ",
@@ -13582,7 +13582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1663,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "METİN DALKIRAN",
       "hotel": "CASAFORA",
       "product": "KARPUZ",
@@ -13592,7 +13592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1664,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "METİN DALKIRAN",
       "hotel": "AMBASSADOR",
       "product": "KARPUZ",
@@ -13602,7 +13602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1665,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "METİN DALKIRAN",
       "hotel": "MİRAMOR GARDEN",
       "product": "KARPUZ",
@@ -13612,7 +13612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1666,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "supplier": "METİN DALKIRAN",
       "hotel": "ASTORİA",
       "product": "KARPUZ",
@@ -13622,7 +13622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1667,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LAHANA KIRMIZI",
@@ -13632,7 +13632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1668,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
@@ -13642,7 +13642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1669,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -13652,7 +13652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1670,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -13662,7 +13662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1671,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -13672,7 +13672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1672,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SOĞAN KURU",
@@ -13682,7 +13682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1673,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATATES TAZE",
@@ -13692,7 +13692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1674,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -13702,7 +13702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1675,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
@@ -13712,7 +13712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1676,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAYISI",
@@ -13722,7 +13722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1677,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KİRAZ",
@@ -13732,7 +13732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1678,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
@@ -13742,7 +13742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1679,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "GREYFURT",
@@ -13752,7 +13752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1680,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -13762,7 +13762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1681,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NANE",
@@ -13772,7 +13772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1682,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
@@ -13782,7 +13782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1683,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
@@ -13792,7 +13792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1684,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -13802,7 +13802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1685,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -13812,7 +13812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1686,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -13822,7 +13822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1693,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "LAHANA KIRMIZI",
@@ -13832,7 +13832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1694,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "BİBER KAPYA",
@@ -13842,7 +13842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1695,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "KABAK SAKIZ",
@@ -13852,7 +13852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1696,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "PATLICAN",
@@ -13862,7 +13862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1697,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "DOMATES",
@@ -13872,7 +13872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1698,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "SOĞAN KURU",
@@ -13882,7 +13882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1699,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "PATATES TAZE",
@@ -13892,7 +13892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1704,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "NEKTARİN",
@@ -13902,7 +13902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1705,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "GREYFURT",
@@ -13912,7 +13912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1706,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "SEMİZOTU",
@@ -13922,7 +13922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1709,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "MARUL KIVIRCIK",
@@ -13932,7 +13932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1710,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "MAYDONOZ",
@@ -13942,7 +13942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1711,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "ROKA",
@@ -13952,7 +13952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1712,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -13962,7 +13962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1713,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "LAHANA BEYAZ",
@@ -13972,7 +13972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1714,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "ELMA GOLDEN",
@@ -13982,7 +13982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1715,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -13992,7 +13992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1716,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "LİMON",
@@ -14002,7 +14002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1717,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "SARIMSAK KURU",
@@ -14012,7 +14012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1718,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "MARUL DÜZ",
@@ -14022,7 +14022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1719,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -14032,7 +14032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1720,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES BEEF",
@@ -14042,7 +14042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1721,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -14052,7 +14052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1722,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -14062,7 +14062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1723,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
@@ -14072,7 +14072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1724,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -14082,7 +14082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1725,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -14092,7 +14092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1726,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -14102,7 +14102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1727,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK BAL DEKORLUK",
@@ -14112,7 +14112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1728,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -14122,7 +14122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1729,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -14132,7 +14132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1730,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -14142,7 +14142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1731,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -14152,7 +14152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1732,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -14162,7 +14162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1733,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -14172,7 +14172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1734,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -14182,7 +14182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1735,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -14192,7 +14192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1736,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -14202,7 +14202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1737,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -14212,7 +14212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1738,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -14222,7 +14222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1739,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -14232,7 +14232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1740,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -14242,7 +14242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1741,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -14252,7 +14252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1742,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
@@ -14262,7 +14262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1743,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ÇİLEK",
@@ -14272,7 +14272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1744,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
@@ -14282,7 +14282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1745,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
@@ -14292,7 +14292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1746,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
@@ -14302,7 +14302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1747,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
@@ -14312,7 +14312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1748,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -14322,7 +14322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1749,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -14332,7 +14332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1750,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
@@ -14342,7 +14342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1751,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "METİN DALKIRAN",
       "hotel": "CASAFORA",
       "product": "KARPUZ",
@@ -14352,7 +14352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1752,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "supplier": "METİN DALKIRAN",
       "hotel": "SEAPHORİA",
       "product": "KARPUZ",
@@ -14362,7 +14362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1753,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
@@ -14372,7 +14372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1754,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
@@ -14382,7 +14382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1755,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -14392,7 +14392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1756,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
@@ -14402,7 +14402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1757,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
@@ -14412,7 +14412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1758,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -14422,7 +14422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1759,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
@@ -14432,7 +14432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1760,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -14442,7 +14442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1761,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
@@ -14452,7 +14452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1762,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -14462,7 +14462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1763,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
@@ -14472,7 +14472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1764,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
@@ -14482,7 +14482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1766,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
@@ -14492,7 +14492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1767,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
@@ -14502,7 +14502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1770,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
@@ -14512,7 +14512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1771,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
@@ -14522,7 +14522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1772,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
@@ -14532,7 +14532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1773,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
@@ -14542,7 +14542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1774,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
@@ -14552,7 +14552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1775,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
@@ -14562,7 +14562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1776,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
@@ -14572,7 +14572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1777,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
@@ -14582,7 +14582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1778,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -14592,7 +14592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1779,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "supplier": "METİN DALKIRAN",
       "hotel": "GRAND MİRAMOR",
       "product": "KARPUZ",
@@ -14602,7 +14602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1780,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -14612,7 +14612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1781,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
@@ -14622,7 +14622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1782,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES KOKTEYL",
@@ -14632,7 +14632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1783,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LİMON",
@@ -14642,7 +14642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1784,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SOĞAN KURU",
@@ -14652,7 +14652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1785,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATATES TAZE",
@@ -14662,7 +14662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1786,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -14672,7 +14672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1787,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
@@ -14682,7 +14682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1788,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
@@ -14692,7 +14692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1789,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -14702,7 +14702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1790,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "PATLICAN",
@@ -14712,7 +14712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1791,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -14722,7 +14722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1792,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
@@ -14732,7 +14732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1793,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
@@ -14742,7 +14742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1794,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
@@ -14752,7 +14752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1795,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
@@ -14762,7 +14762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1796,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
@@ -14772,7 +14772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1797,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DEREOTU",
@@ -14782,7 +14782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1798,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ROKA",
@@ -14792,7 +14792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1799,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NANE",
@@ -14802,7 +14802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1800,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "TERE",
@@ -14812,7 +14812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1801,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
@@ -14822,7 +14822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1802,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
@@ -14832,7 +14832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1803,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
@@ -14842,7 +14842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1804,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KUZU KULAĞI",
@@ -14852,7 +14852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1805,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -14862,7 +14862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1806,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "GREYFURT",
@@ -14872,7 +14872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1807,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -14882,7 +14882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1808,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KİRAZ",
@@ -14892,7 +14892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1809,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
@@ -14902,7 +14902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1810,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -14912,7 +14912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1811,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
@@ -14922,7 +14922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1812,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
@@ -14932,7 +14932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1813,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "ERİK ANJELİKA",
@@ -14942,7 +14942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1814,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
@@ -14952,7 +14952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1815,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -14962,7 +14962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1816,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -14972,7 +14972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1817,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -14982,7 +14982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1818,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -14992,7 +14992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1819,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
@@ -15002,7 +15002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1820,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
@@ -15012,7 +15012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1821,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -15022,7 +15022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1822,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -15032,7 +15032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1823,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
@@ -15042,7 +15042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1824,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -15052,7 +15052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1825,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
       "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
@@ -15062,7 +15062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1826,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -15072,7 +15072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1827,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -15082,7 +15082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1828,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -15092,7 +15092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1829,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -15102,7 +15102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1830,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -15112,7 +15112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1831,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -15122,7 +15122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1832,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -15132,7 +15132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1833,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -15142,7 +15142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1840,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -15152,7 +15152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1848,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -15162,7 +15162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1849,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -15172,7 +15172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1851,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -15182,7 +15182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1852,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -15192,7 +15192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1854,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -15202,7 +15202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1855,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -15212,7 +15212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1856,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -15222,7 +15222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1859,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -15232,7 +15232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1860,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -15242,7 +15242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1861,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -15252,7 +15252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1862,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -15262,7 +15262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1863,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -15272,7 +15272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1865,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -15282,7 +15282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1867,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -15292,7 +15292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1868,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -15302,7 +15302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1869,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -15312,7 +15312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1870,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -15322,7 +15322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1871,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
@@ -15332,7 +15332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1872,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES BEEF",
@@ -15342,7 +15342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1873,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
@@ -15352,7 +15352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1874,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -15362,7 +15362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1875,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
@@ -15372,7 +15372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1876,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
@@ -15382,7 +15382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1877,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
@@ -15392,7 +15392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1878,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
@@ -15402,7 +15402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1879,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
@@ -15412,7 +15412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1882,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "ELMA GOLDEN",
@@ -15422,7 +15422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1884,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "DOMATES",
@@ -15432,7 +15432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1887,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "ŞEFTALİ",
@@ -15442,7 +15442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1888,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "NEKTARİN",
@@ -15452,7 +15452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1889,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "ERİK PAPAZ",
@@ -15462,7 +15462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1890,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "LİMON",
@@ -15472,7 +15472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1891,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "KAYISI",
@@ -15482,7 +15482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1892,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "PORTAKAL SIKMALIK",
@@ -15492,7 +15492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1894,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES BEEF",
@@ -15502,7 +15502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1896,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
@@ -15512,7 +15512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1898,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -15522,7 +15522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1903,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -15532,7 +15532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1904,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
@@ -15542,7 +15542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1905,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES BEEF",
@@ -15552,7 +15552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1906,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -15562,7 +15562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1907,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
@@ -15572,7 +15572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1908,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -15582,7 +15582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1909,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -15592,7 +15592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1910,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
@@ -15602,7 +15602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1911,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
@@ -15612,7 +15612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1913,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAYISI",
@@ -15622,7 +15622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1915,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -15632,7 +15632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1916,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -15642,7 +15642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1917,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -15652,7 +15652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1918,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
@@ -15662,7 +15662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1919,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -15672,7 +15672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1920,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
@@ -15682,7 +15682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1921,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
@@ -15692,7 +15692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1922,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
@@ -15702,7 +15702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1923,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "GREYFURT",
@@ -15712,7 +15712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1924,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÜZÜM BEYAZ",
@@ -15722,7 +15722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1925,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
@@ -15732,7 +15732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1926,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
@@ -15742,7 +15742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1927,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
@@ -15752,7 +15752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1929,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
@@ -15762,7 +15762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1930,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
@@ -15772,7 +15772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1931,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -15782,7 +15782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1933,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
@@ -15792,7 +15792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1934,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
@@ -15802,7 +15802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1935,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ÜZÜM BEYAZ",
@@ -15812,7 +15812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1936,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -15822,7 +15822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1938,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -15832,7 +15832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1939,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -15842,7 +15842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1940,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÜZÜM BEYAZ",
@@ -15852,7 +15852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1941,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -15862,7 +15862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1942,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "GREYFURT",
@@ -15872,7 +15872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1943,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "LİMON",
@@ -15882,7 +15882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1944,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES PEMBE",
@@ -15892,7 +15892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1945,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES",
@@ -15902,7 +15902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1946,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES KOKTEYL",
@@ -15912,7 +15912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1947,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
@@ -15922,7 +15922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1948,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
@@ -15932,7 +15932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1949,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
@@ -15942,7 +15942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1950,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
@@ -15952,7 +15952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1951,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -15962,7 +15962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1952,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
@@ -15972,7 +15972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1953,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -15982,7 +15982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1954,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
@@ -15992,7 +15992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1955,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
@@ -16002,7 +16002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1956,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -16012,7 +16012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1957,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN TAZE",
@@ -16022,7 +16022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1958,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -16032,7 +16032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1959,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
@@ -16042,7 +16042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1960,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
@@ -16052,7 +16052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1961,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
@@ -16062,7 +16062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1962,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
@@ -16072,7 +16072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1963,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -16082,7 +16082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1964,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -16092,7 +16092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1965,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -16102,7 +16102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1966,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -16112,7 +16112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1967,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -16122,7 +16122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1968,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -16132,7 +16132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1969,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "GREYFURT",
@@ -16142,7 +16142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1970,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NEKTARİN",
@@ -16152,7 +16152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1971,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KAYISI",
@@ -16162,7 +16162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1972,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
@@ -16172,7 +16172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1973,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
@@ -16182,7 +16182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1978,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES PEMBE",
@@ -16192,7 +16192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1980,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES KOKTEYL",
@@ -16202,7 +16202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1981,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -16212,7 +16212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1982,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -16222,7 +16222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1983,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -16232,7 +16232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1984,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -16242,7 +16242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1985,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -16252,7 +16252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1986,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -16262,7 +16262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1989,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -16272,7 +16272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1990,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -16282,7 +16282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1992,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -16292,7 +16292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1993,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "TURP KIRMIZI",
@@ -16302,7 +16302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1994,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
@@ -16312,7 +16312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1995,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -16322,7 +16322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1997,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -16332,7 +16332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1998,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -16342,7 +16342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 1999,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -16352,7 +16352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2000,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -16362,7 +16362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2001,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -16372,7 +16372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2004,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
@@ -16382,7 +16382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2005,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -16392,7 +16392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2006,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
@@ -16402,7 +16402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2007,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
@@ -16412,7 +16412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2008,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER CİN (BİBERİYE)",
@@ -16422,7 +16422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2009,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -16432,7 +16432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2010,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -16442,7 +16442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2011,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -16452,7 +16452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2012,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "METİN DALKIRAN",
       "hotel": "MİRAMOR GARDEN",
       "product": "KARPUZ",
@@ -16462,7 +16462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2013,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "METİN DALKIRAN",
       "hotel": "ASTORİA",
       "product": "KARPUZ",
@@ -16472,7 +16472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2014,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "METİN DALKIRAN",
       "hotel": "GRAND MİRAMOR",
       "product": "KARPUZ",
@@ -16482,7 +16482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2015,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "METİN DALKIRAN",
       "hotel": "AMBASSADOR",
       "product": "KARPUZ",
@@ -16492,7 +16492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2016,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "supplier": "METİN DALKIRAN",
       "hotel": "STELLA",
       "product": "KARPUZ",
@@ -16502,7 +16502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2017,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "supplier": "METİN DALKIRAN",
       "hotel": "GRAND MİRAMOR",
       "product": "KARPUZ",
@@ -16512,7 +16512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2018,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -16522,7 +16522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2019,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -16532,7 +16532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2020,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -16542,7 +16542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2021,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
@@ -16552,7 +16552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2022,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
@@ -16562,7 +16562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2023,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -16572,7 +16572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2024,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
@@ -16582,7 +16582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2025,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KABAK BAL DEKORLUK",
@@ -16592,7 +16592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2026,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
@@ -16602,7 +16602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2027,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -16612,7 +16612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2029,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
@@ -16622,7 +16622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2030,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
@@ -16632,7 +16632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2032,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "GREYFURT",
@@ -16642,7 +16642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2035,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
@@ -16652,7 +16652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2037,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
@@ -16662,7 +16662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2038,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
@@ -16672,7 +16672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2039,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
@@ -16682,7 +16682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2040,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "METİN DALKIRAN",
       "hotel": "GRAND MİRAMOR",
       "product": "KARPUZ",
@@ -16692,7 +16692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2041,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "METİN DALKIRAN",
       "hotel": "MİRAMOR GARDEN",
       "product": "KARPUZ",
@@ -16702,7 +16702,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2042,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "METİN DALKIRAN",
       "hotel": "AMBASSADOR",
       "product": "KARPUZ",
@@ -16712,7 +16712,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2043,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "METİN DALKIRAN",
       "hotel": "ASTORİA",
       "product": "KARPUZ",
@@ -16722,7 +16722,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2044,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "supplier": "ÜRETİCİ",
       "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
@@ -16732,7 +16732,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2045,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -16742,7 +16742,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2046,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
@@ -16752,7 +16752,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2047,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "GREYFURT",
@@ -16762,7 +16762,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2048,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "KAYISI",
@@ -16772,7 +16772,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2049,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ERİK ANJELİKA",
@@ -16782,7 +16782,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2050,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -16792,7 +16792,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2051,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "LİMON",
@@ -16802,7 +16802,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2052,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
@@ -16812,7 +16812,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2053,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
@@ -16822,7 +16822,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2054,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
@@ -16832,7 +16832,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2055,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
@@ -16842,7 +16842,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2056,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
@@ -16852,7 +16852,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2057,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
@@ -16862,7 +16862,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2058,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "KAYISI",
@@ -16872,7 +16872,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2059,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "DOMATES",
@@ -16882,7 +16882,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2060,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "LİMON",
@@ -16892,7 +16892,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2061,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ELMA GOLDEN",
@@ -16902,7 +16902,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2062,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "NEKTARİN",
@@ -16912,7 +16912,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2063,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "STELLA",
       "product": "ARMUT SANDAMARİA",
@@ -16922,7 +16922,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2064,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
@@ -16932,7 +16932,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2065,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "SALATALIK SİLOR PAKET",
@@ -16942,7 +16942,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2066,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
@@ -16952,7 +16952,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2067,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -16962,7 +16962,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2068,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -16972,7 +16972,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2069,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "DOMATES",
@@ -16982,7 +16982,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2070,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
       "hotel": "ASTORİA",
       "product": "ELMA GOLDEN",
@@ -16992,7 +16992,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2071,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES",
@@ -17002,7 +17002,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2072,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES PEMBE",
@@ -17012,7 +17012,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2073,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DOMATES KOKTEYL",
@@ -17022,7 +17022,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2074,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
@@ -17032,7 +17032,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2075,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
@@ -17042,7 +17042,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2076,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
@@ -17052,7 +17052,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2077,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
@@ -17062,7 +17062,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2078,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
@@ -17072,7 +17072,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2079,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN",
@@ -17082,7 +17082,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2080,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
@@ -17092,7 +17092,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2081,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
@@ -17102,7 +17102,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2082,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
@@ -17112,7 +17112,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2083,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KEREVİZ",
@@ -17122,7 +17122,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2084,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
@@ -17132,7 +17132,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2085,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
@@ -17142,7 +17142,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2086,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
@@ -17152,7 +17152,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2087,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "TURP KIRMIZI",
@@ -17162,7 +17162,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2088,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
@@ -17172,7 +17172,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2089,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
@@ -17182,7 +17182,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2090,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
@@ -17192,7 +17192,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2091,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "DEREOTU",
@@ -17202,7 +17202,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2092,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NANE",
@@ -17212,7 +17212,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2093,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ROKA",
@@ -17222,7 +17222,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2094,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
@@ -17232,7 +17232,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2095,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
@@ -17242,7 +17242,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2096,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
@@ -17252,7 +17252,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2097,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "LİMON",
@@ -17262,7 +17262,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2098,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
@@ -17272,7 +17272,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2099,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
@@ -17282,7 +17282,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2100,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "KAYISI",
@@ -17292,7 +17292,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2101,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
@@ -17302,7 +17302,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2102,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "SEAPHORİA",
       "product": "FASULYE",
@@ -17312,7 +17312,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2103,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "METİN DALKIRAN",
       "hotel": "SEAPHORİA",
       "product": "KARPUZ",
@@ -17322,7 +17322,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2105,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES PEMBE",
@@ -17332,7 +17332,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2106,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DOMATES KOKTEYL",
@@ -17342,7 +17342,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2110,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
@@ -17352,7 +17352,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2112,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATLICAN",
@@ -17362,7 +17362,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2115,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
@@ -17372,7 +17372,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2118,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
@@ -17382,7 +17382,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2119,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "PATATES TAZE",
@@ -17392,7 +17392,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2122,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "SEMİZOTU",
@@ -17402,7 +17402,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2123,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "MAYDONOZ",
@@ -17412,7 +17412,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2124,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "DEREOTU",
@@ -17422,7 +17422,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2125,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NANE",
@@ -17432,7 +17432,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2126,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ROKA",
@@ -17442,7 +17442,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2127,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "FESLEĞEN",
@@ -17452,7 +17452,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2130,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "LİMON",
@@ -17462,7 +17462,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2131,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
@@ -17472,7 +17472,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2132,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "NEKTARİN",
@@ -17482,7 +17482,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2133,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "KAYISI",
@@ -17492,7 +17492,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2134,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
       "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
@@ -17502,7 +17502,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2136,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "supplier": "METİN DALKIRAN",
       "hotel": "CASAFORA",
       "product": "KARPUZ",
@@ -17512,7 +17512,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2137,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
@@ -17522,7 +17522,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2138,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
@@ -17532,7 +17532,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2139,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
@@ -17542,7 +17542,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2140,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
@@ -17552,7 +17552,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2141,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
@@ -17562,7 +17562,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2142,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
@@ -17572,7 +17572,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2143,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
@@ -17582,7 +17582,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2144,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
@@ -17592,7 +17592,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2145,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
@@ -17602,7 +17602,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2146,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
@@ -17612,7 +17612,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2147,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
@@ -17622,7 +17622,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2148,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
@@ -17632,7 +17632,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2149,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
@@ -17642,7 +17642,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2150,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
@@ -17652,7 +17652,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2151,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
@@ -17662,7 +17662,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2152,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
@@ -17672,7 +17672,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2154,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
@@ -17682,7 +17682,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2155,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "DOMATES",
@@ -17692,7 +17692,7 @@ export const INITIAL_DATA = {
     },
     {
       "id": 2156,
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
       "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
@@ -17704,343 +17704,343 @@ export const INITIAL_DATA = {
   "payments": [
     {
       "id": 2,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "account": "KUMLUCA HAL",
       "amount": 30695,
       "description": "NAKİT"
     },
     {
       "id": 3,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "account": "KUMLUCA HAL",
       "amount": 32125,
       "description": "NAKİT"
     },
     {
       "id": 4,
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "account": "KUMLUCA HAL",
       "amount": 50000,
       "description": "NAKİT"
     },
     {
       "id": 5,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "account": "KUMLUCA HAL",
       "amount": 30000,
       "description": "NAKİT"
     },
     {
       "id": 6,
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "account": "KUMLUCA HAL",
       "amount": 50000,
       "description": "NAKİT"
     },
     {
       "id": 7,
-      "date": "2026-05-19",
+      "date": "2026-05-20",
       "account": "KUMLUCA HAL",
       "amount": 18900,
       "description": "HAVALE"
     },
     {
       "id": 8,
-      "date": "2026-05-19",
+      "date": "2026-05-20",
       "account": "KUMLUCA HAL",
       "amount": 9100,
       "description": "NAKİT"
     },
     {
       "id": 9,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "account": "KUMLUCA HAL",
       "amount": 4500,
       "description": "NAKİT"
     },
     {
       "id": 10,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "account": "KUMLUCA HAL",
       "amount": 9000,
       "description": "NAKİT"
     },
     {
       "id": 11,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "account": "KUMLUCA HAL",
       "amount": 38000,
       "description": "NAKİT"
     },
     {
       "id": 12,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "account": "KUMLUCA HAL",
       "amount": 70000,
       "description": "NAKİT"
     },
     {
       "id": 13,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "account": "KUMLUCA HAL",
       "amount": 85000,
       "description": "NAKİT"
     },
     {
       "id": 14,
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "account": "SÜLEYMAN ASKEROĞLU",
       "amount": 18058,
       "description": "HAVALE"
     },
     {
       "id": 15,
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "account": "SÜLEYMAN ASKEROĞLU",
       "amount": 300682,
       "description": "HAVALE"
     },
     {
       "id": 16,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "account": "SÜLEYMAN ASKEROĞLU",
       "amount": 47514,
       "description": "HAVALE"
     },
     {
       "id": 17,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "account": "SÜLEYMAN ASKEROĞLU",
       "amount": 92200,
       "description": "HAVALE"
     },
     {
       "id": 18,
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "account": "SÜLEYMAN ASKEROĞLU",
       "amount": 120000,
       "description": "NAKİT"
     },
     {
       "id": 19,
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "account": "ANTALYA HAL",
       "amount": 47228,
       "description": "NAKİT"
     },
     {
       "id": 20,
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "account": "ANTALYA HAL",
       "amount": 61130,
       "description": "NAKİT"
     },
     {
       "id": 21,
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "account": "ANTALYA HAL",
       "amount": 30985,
       "description": "NAKİT"
     },
     {
       "id": 22,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "account": "ANTALYA HAL",
       "amount": 9530,
       "description": "NAKİT"
     },
     {
       "id": 23,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "account": "ANTALYA HAL",
       "amount": 68611,
       "description": "NAKİT"
     },
     {
       "id": 24,
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "account": "ANTALYA HAL",
       "amount": 49100,
       "description": "NAKİT"
     },
     {
       "id": 25,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "account": "ANTALYA HAL",
       "amount": 94450,
       "description": "NAKİT"
     },
     {
       "id": 26,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "account": "ANTALYA HAL",
       "amount": 45417,
       "description": "NAKİT"
     },
     {
       "id": 27,
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "account": "ANTALYA HAL",
       "amount": 114015,
       "description": "NAKİT"
     },
     {
       "id": 28,
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "account": "ANTALYA HAL",
       "amount": 65670,
       "description": "NAKİT"
     },
     {
       "id": 29,
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "account": "ANTALYA HAL",
       "amount": 50915,
       "description": "NAKİT"
     },
     {
       "id": 30,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "account": "ANTALYA HAL",
       "amount": 72680,
       "description": "NAKİT"
     },
     {
       "id": 31,
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "account": "ANTALYA HAL",
       "amount": 61060,
       "description": "NAKİT"
     },
     {
       "id": 32,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "account": "ANTALYA HAL",
       "amount": 73940,
       "description": "NAKİT"
     },
     {
       "id": 33,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "account": "ANTALYA HAL",
       "amount": 50240,
       "description": "NAKİT"
     },
     {
       "id": 34,
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "account": "MSD07 TAR ÜR",
       "amount": 62000,
       "description": "HAVALE"
     },
     {
       "id": 35,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "account": "MSD07 TAR ÜR",
       "amount": 119118,
       "description": "HAVALE"
     },
     {
       "id": 36,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "account": "MSD07 TAR ÜR",
       "amount": 91809,
       "description": "HAVALE"
     },
     {
       "id": 37,
-      "date": "2026-06-14",
+      "date": "2026-06-15",
       "account": "MSD07 TAR ÜR",
       "amount": 160401,
       "description": "HAVALE"
     },
     {
       "id": 38,
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "account": "MSD07 TAR ÜR",
       "amount": 277190,
       "description": "HAVALE"
     },
     {
       "id": 39,
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "account": "MSD07 TAR ÜR",
       "amount": 97570,
       "description": "HAVALE"
     },
     {
       "id": 40,
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "account": "ÜRETİCİ",
       "amount": 40000,
       "description": "NAKİT"
     },
     {
       "id": 41,
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "account": "ÜRETİCİ",
       "amount": 29985,
       "description": "NAKİT"
     },
     {
       "id": 42,
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "account": "ÜRETİCİ",
       "amount": 51000,
       "description": "NAKİT"
     },
     {
       "id": 43,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "account": "ANTALYA HAL",
       "amount": 59990,
       "description": "NAKİT"
     },
     {
       "id": 44,
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "account": "ANTALYA HAL",
       "amount": 43350,
       "description": "NAKİT"
     },
     {
       "id": 45,
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "account": "ANTALYA HAL",
       "amount": 56730,
       "description": "NAKİT"
     },
     {
       "id": 46,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "account": "ANTALYA HAL",
       "amount": 51990,
       "description": "NAKİT"
     },
     {
       "id": 47,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "account": "ÜRETİCİ",
       "amount": 5200,
       "description": "NAKİT"
     },
     {
       "id": 48,
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "account": "ANTALYA HAL",
       "amount": 51990,
       "description": "NAKİT"
     },
     {
       "id": 49,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "account": "ANTALYA HAL",
       "amount": 49550,
       "description": "NAKİT"
     },
     {
       "id": 50,
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "account": "ANTALYA HAL",
       "amount": 64970,
       "description": "NAKİT"

@@ -150,6 +150,7 @@ function renderVeri() {
   });
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
+  initTableFeatures();
 }
 
 function renderOdemeler() {
@@ -163,6 +164,7 @@ function renderOdemeler() {
   });
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
+  initTableFeatures();
 }
 
 function renderFiyat() {
@@ -176,6 +178,7 @@ function renderFiyat() {
   });
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
+  initTableFeatures();
 }
 
 function renderOzet() {
@@ -195,6 +198,7 @@ function renderOzet() {
   });
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
+  initTableFeatures();
 }
 
 function showAccountDetail(acc) {
@@ -230,6 +234,7 @@ function showAccountDetail(acc) {
   
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
+  initTableFeatures();
 }
 
 let pivotFilters = { hotel: null, supplier: null, product: null };
@@ -331,3 +336,57 @@ window.setPivotFilter = (key, val) => {
 
 // Init
 renderDashboard();
+
+function initTableFeatures() {
+   const container = document.getElementById('view-content');
+   const table = container.querySelector('table');
+   if(!table) return;
+   
+   if(!document.getElementById('table-search-box')) {
+      const searchBox = document.createElement('input');
+      searchBox.id = 'table-search-box';
+      searchBox.placeholder = 'Tabloda ara...';
+      searchBox.className = 'table-search';
+      searchBox.onkeyup = function(e) {
+         const val = e.target.value.toLowerCase();
+         const rows = table.querySelectorAll('tbody tr:not(.pivot-row-group)');
+         rows.forEach(r => {
+             const text = r.innerText.toLowerCase();
+             r.style.display = text.includes(val) ? '' : 'none';
+         });
+      };
+      table.parentNode.insertBefore(searchBox, table);
+   }
+
+   const ths = table.querySelectorAll('th');
+   ths.forEach((th, idx) => {
+       th.onclick = () => {
+          const tbody = table.querySelector('tbody');
+          const rows = Array.from(tbody.querySelectorAll('tr:not(.pivot-row-group)'));
+          
+          let isAsc = th.classList.contains('asc');
+          ths.forEach(t => t.classList.remove('asc', 'desc'));
+          th.classList.add(isAsc ? 'desc' : 'asc');
+          
+          rows.sort((a, b) => {
+             let valA = a.cells[idx].innerText.trim();
+             let valB = b.cells[idx].innerText.trim();
+             
+             let numA = parseFloat(valA.replace(/[₺. ]/g, '').replace(',','.'));
+             let numB = parseFloat(valB.replace(/[₺. ]/g, '').replace(',','.'));
+             
+             if (valA.match(/^\d{2}\.\d{2}\.\d{4}$/)) {
+                numA = parseInt(valA.split('.').reverse().join(''));
+                numB = parseInt(valB.split('.').reverse().join(''));
+             }
+
+             if(!isNaN(numA) && !isNaN(numB)) {
+                 return isAsc ? numB - numA : numA - numB;
+             }
+             return isAsc ? valB.localeCompare(valA) : valA.localeCompare(valB);
+          });
+          
+          rows.forEach(r => tbody.appendChild(r));
+       };
+   });
+}
