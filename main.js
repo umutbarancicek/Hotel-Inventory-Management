@@ -564,7 +564,8 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
        // 2. Find excel link
        const match = htmlText.match(/href="(\/Fiyat\/Index\?p=excel&id=\d+)"/);
        if (!match) throw new Error('Güncel Excel dosyası bulunamadı!');
-       const excelUrl = 'https://corsproxy.io/?https://antalyatuted.org.tr' + match[1];
+       const targetExcelUrl = 'https://antalyatuted.org.tr' + match[1];
+       const excelUrl = 'https://corsproxy.io/?' + encodeURIComponent(targetExcelUrl);
        
        // 3. Fetch excel file
        const excelRes = await fetch(excelUrl);
