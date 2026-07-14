@@ -59,8 +59,28 @@ export const DataService = {
     data.payments.push(payment);
     this.saveData(data);
   },
+
+  // Save a full price list snapshot for a given date
+  savePriceList(dateStr, prices) {
+    const data = this.getData();
+    if (!data.priceLists) data.priceLists = {};
+    data.priceLists[dateStr] = prices;
+    // Also keep a flat prices[] for backward compat (used by quick-entry form)
+    data.prices = prices;
+    this.saveData(data);
+  },
+
+  // Return the latest price list as a flat array (for forms/dropdowns)
+  getLatestPrices() {
+    const data = this.getData();
+    if (data.priceLists) {
+      const dates = Object.keys(data.priceLists).sort((a,b) => b.localeCompare(a));
+      if (dates.length > 0) return data.priceLists[dates[0]];
+    }
+    return data.prices || [];
+  },
   
-  getAccountBalances() {
+  getAccountBalances(dateFrom, dateTo) {
     const data = this.getData();
     const balances = {};
     
@@ -68,27 +88,29 @@ export const DataService = {
       balances[acc.name] = { name: acc.name, type: acc.type, totalBought: 0, totalPaid: 0, balance: 0 };
     });
     
-    // Calculate from transactions
-    data.transactions.forEach(tx => {
-      const supplyTotal = tx.qty * tx.supplyPrice; // Otel'e satış tutarı
-      const halTotal = tx.qty * tx.buyPrice; // Hal'den alış tutarı
-      
-      // Supplier (Müstahsil) balance (We buy from them)
-      if (balances[tx.supplier]) {
-        balances[tx.supplier].totalBought += halTotal;
-      }
-      
-      // Hotel balance (We sell to them)
-      if (balances[tx.hotel]) {
-        balances[tx.hotel].totalBought += supplyTotal;
-      }
+    // Filter transactions by date range if provided
+    const txs = data.transactions.filter(tx => {
+      if (dateFrom && tx.date < dateFrom) return false;
+      if (dateTo && tx.date > dateTo) return false;
+      return true;
+    });
+
+    txs.forEach(tx => {
+      const supplyTotal = tx.qty * tx.supplyPrice;
+      const halTotal = tx.qty * tx.buyPrice;
+      if (balances[tx.supplier]) balances[tx.supplier].totalBought += halTotal;
+      if (balances[tx.hotel]) balances[tx.hotel].totalBought += supplyTotal;
     });
     
-    // Calculate from payments
-    data.payments.forEach(p => {
+    // Filter payments by date range if provided
+    const pays = data.payments.filter(p => {
+      if (dateFrom && p.date < dateFrom) return false;
+      if (dateTo && p.date > dateTo) return false;
+      return true;
+    });
+
+    pays.forEach(p => {
       if (balances[p.account]) {
-        // If we pay supplier, it decreases our debt. 
-        // For simplicity: balance = totalBought - totalPaid
         balances[p.account].totalPaid += Number(p.amount);
       }
     });

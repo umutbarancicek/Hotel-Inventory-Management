@@ -203,44 +203,217 @@ window.renderDropdownHtml = (title, items, currentVal, fnName, keyName) => `
 let veriFilters = { supplier: null, hotel: null, product: null };
 window.setVeriFilter = (key, val) => { veriFilters[key] = val; renderVeri(); };
 
+// Quick entry state (persists between renders)
+let qeState = {
+  date: new Date().toISOString().split('T')[0],
+  supplier: null,
+  hotel: null,
+  kilos: {} // productName -> kilo value
+};
+
 function renderVeri() {
   viewTitle.innerText = 'VERİ (İşlemler)';
-  const allTxs = DataService.getData().transactions;
-  
-  const suppliers = [...new Set(allTxs.map(t => t.supplier))].sort();
-  const hotels = [...new Set(allTxs.map(t => t.hotel))].sort();
-  const prods = [...new Set(allTxs.map(t => t.product))].sort();
-  
-  const txs = allTxs.filter(t => {
+  const data = DataService.getData();
+  const allTxs = data.transactions;
+  const latestPrices = DataService.getLatestPrices();
+
+  const suppliers = data.accounts.filter(a => a.type === 'supplier').map(a => a.name).sort();
+  const hotels = data.accounts.filter(a => a.type === 'hotel').map(a => a.name).sort();
+
+  if (!qeState.supplier && suppliers.length > 0) qeState.supplier = suppliers[0];
+  if (!qeState.hotel && hotels.length > 0) qeState.hotel = hotels[0];
+
+  // --- Product Cards ---
+  const parsePrice = (str) => {
+    if (typeof str === 'number') return str;
+    return parseFloat(String(str).replace(/\./g, '').replace(',', '.')) || 0;
+  };
+
+  const productCards = latestPrices.map(p => {
+    const kilo = qeState.kilos[p.product] || '';
+    const priceVal = parsePrice(p.price);
+    const hasKilo = kilo && Number(kilo) > 0;
+    return `
+      <div class="qe-card ${hasKilo ? 'qe-card-selected' : ''}" id="qecard-${p.product.replace(/\s+/g,'-').replace(/[^a-zA-Z0-9-]/g,'')}">
+        <div class="qe-card-name">${p.product}</div>
+        <div class="qe-card-price">${formatCurrency(priceVal)}<span style="font-size:0.7rem;opacity:0.7">/${p.unit}</span></div>
+        <input 
+          type="number" 
+          class="qe-kilo-input" 
+          placeholder="kg" 
+          value="${kilo}"
+          min="0"
+          onchange="window.qeSetKilo('${p.product.replace(/'/g,"\\'")}', this.value)"
+          oninput="window.qeSetKilo('${p.product.replace(/'/g,"\\'")}', this.value)"
+          onclick="this.select()"
+        >
+        ${hasKilo ? `<div class="qe-card-total">${formatCurrency(priceVal * Number(kilo))}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+
+  // Count pending entries
+  const pendingCount = Object.values(qeState.kilos).filter(v => v && Number(v) > 0).length;
+
+  // --- TX Filter & List ---
+  const txSuppliers = [...new Set(allTxs.map(t => t.supplier))].sort();
+  const txHotels = [...new Set(allTxs.map(t => t.hotel))].sort();
+  const txProds = [...new Set(allTxs.map(t => t.product))].sort();
+
+  const txs = [...allTxs].filter(t => {
     if (veriFilters.supplier && t.supplier !== veriFilters.supplier) return false;
     if (veriFilters.hotel && t.hotel !== veriFilters.hotel) return false;
     if (veriFilters.product && t.product !== veriFilters.product) return false;
     return true;
-  });
+  }).reverse();
 
-  let html = `
-    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px;">
-      ${renderDropdownHtml('MÜSTAHSİL', suppliers, veriFilters.supplier, 'setVeriFilter', 'supplier')}
-      ${renderDropdownHtml('GİTTİĞİ YER', hotels, veriFilters.hotel, 'setVeriFilter', 'hotel')}
-      ${renderDropdownHtml('MAL', prods, veriFilters.product, 'setVeriFilter', 'product')}
-    </div>
-    <table>
-    <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>ADET (TÜTED)</th><th>ALIŞ FİAT</th><th>TEDA FİAT</th><th>HAL TUTAR</th><th>TEDARİK TUTAR</th><th>FARK</th></tr></thead>
-    <tbody>`;
-  txs.reverse().forEach(tx => {
+  let txRows = txs.map(tx => {
     const hal = tx.qty * tx.buyPrice;
     const ted = tx.qty * tx.supplyPrice;
-    html += `<tr>
+    return `<tr>
       <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td><td>${tx.qty}</td><td>${tx.hotel}</td><td>${tx.adet || '-'}</td>
       <td>${formatCurrency(tx.buyPrice)}</td><td>${formatCurrency(tx.supplyPrice)}</td>
       <td>${formatCurrency(hal)}</td><td>${formatCurrency(ted)}</td>
       <td><span class="${ted-hal >= 0 ? 'success' : 'danger'}">${formatCurrency(ted-hal)}</span></td>
     </tr>`;
-  });
-  html += `</tbody></table>`;
-  viewContent.innerHTML = html;
+  }).join('');
+
+  viewContent.innerHTML = `
+    <!-- QUICK ENTRY STUDIO -->
+    <div class="glass-panel qe-studio">
+      <div class="qe-header">
+        <div class="qe-header-title"><i class="fa-solid fa-bolt"></i> HIZLI VERİ GİRİŞİ</div>
+        <div class="qe-controls">
+          <div class="top-filter-group">
+            <label>TARİH</label>
+            <input type="date" value="${qeState.date}" onchange="window.qeSet('date', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;">
+          </div>
+          <div class="top-filter-group">
+            <label>MÜSTAHSİL</label>
+            <select onchange="window.qeSet('supplier', this.value)" style="min-width:160px;">
+              ${suppliers.map(s => `<option value="${s}" ${qeState.supplier === s ? 'selected' : ''}>${s}</option>`).join('')}
+            </select>
+          </div>
+          <div class="top-filter-group">
+            <label>GİTTİĞİ YER</label>
+            <select onchange="window.qeSet('hotel', this.value)" style="min-width:160px;">
+              ${hotels.map(h => `<option value="${h}" ${qeState.hotel === h ? 'selected' : ''}>${h}</option>`).join('')}
+            </select>
+          </div>
+          <div class="top-filter-group" style="align-self:flex-end;">
+            <button onclick="window.qeSave()" class="dash-btn btn-green" style="margin:0;padding:10px 20px;" ${pendingCount === 0 ? 'disabled style="opacity:0.4;cursor:not-allowed;"' : ''}>
+              <i class="fa-solid fa-floppy-disk"></i> KAYDET (${pendingCount} mal)
+            </button>
+          </div>
+          <div class="top-filter-group" style="align-self:flex-end;">
+            <button onclick="window.qeClear()" style="background:rgba(255,255,255,0.08);color:#9ca3af;border:1px solid var(--panel-border);border-radius:8px;padding:10px 16px;cursor:pointer;font-family:'Outfit',sans-serif;">
+              <i class="fa-solid fa-rotate-left"></i> Temizle
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="qe-products-grid">
+        ${latestPrices.length > 0 ? productCards : '<p style="color:#9ca3af;padding:20px;">Önce Fiyat Listesi sayfasından TUTED fiyatları çekin.</p>'}
+      </div>
+    </div>
+
+    <!-- TRANSACTION LIST -->
+    <div class="glass-panel" style="margin-top: 16px;">
+      <div class="top-filter-bar" style="margin-bottom:12px;flex-wrap:wrap;">
+        ${renderDropdownHtml('MÜSTAHSİL', txSuppliers, veriFilters.supplier, 'setVeriFilter', 'supplier')}
+        ${renderDropdownHtml('GİTTİĞİ YER', txHotels, veriFilters.hotel, 'setVeriFilter', 'hotel')}
+        ${renderDropdownHtml('MAL', txProds, veriFilters.product, 'setVeriFilter', 'product')}
+      </div>
+      <table>
+        <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>ADET</th><th>ALIŞ F.</th><th>TEDA F.</th><th>HAL TUTAR</th><th>TEDARİK TUTAR</th><th>FARK</th></tr></thead>
+        <tbody>${txRows}</tbody>
+      </table>
+    </div>
+  `;
   initTableFeatures();
 }
+
+window.qeSet = (key, val) => {
+  qeState[key] = val;
+  renderVeri();
+};
+
+window.qeSetKilo = (product, val) => {
+  qeState.kilos[product] = val;
+  // Just update the card visually without full re-render
+  const cardId = 'qecard-' + product.replace(/\s+/g,'-').replace(/[^a-zA-Z0-9-]/g,'');
+  const card = document.getElementById(cardId);
+  if (card) {
+    const hasKilo = val && Number(val) > 0;
+    card.classList.toggle('qe-card-selected', hasKilo);
+    // Update total display
+    let totalEl = card.querySelector('.qe-card-total');
+    const priceEl = card.querySelector('.qe-card-price');
+    const priceText = priceEl ? priceEl.innerText.replace(/[₺\s]/g,'').replace(/\./g,'').replace(',','.') : '0';
+    const priceNum = parseFloat(priceText) || 0;
+    if (hasKilo) {
+      if (!totalEl) {
+        totalEl = document.createElement('div');
+        totalEl.className = 'qe-card-total';
+        card.appendChild(totalEl);
+      }
+      totalEl.innerText = formatCurrency(priceNum * Number(val));
+    } else if (totalEl) {
+      totalEl.remove();
+    }
+    // Update save button count
+    const pendingCount = Object.values(qeState.kilos).filter(v => v && Number(v) > 0).length;
+    const saveBtn = document.querySelector('.qe-controls .dash-btn.btn-green');
+    if (saveBtn) {
+      saveBtn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> KAYDET (${pendingCount} mal)`;
+      saveBtn.disabled = pendingCount === 0;
+      saveBtn.style.opacity = pendingCount === 0 ? '0.4' : '1';
+    }
+  }
+};
+
+window.qeSave = () => {
+  const latestPrices = DataService.getLatestPrices();
+  const priceMap = {};
+  latestPrices.forEach(p => { priceMap[p.product] = p; });
+
+  let saved = 0;
+  Object.entries(qeState.kilos).forEach(([product, kiloStr]) => {
+    const kilo = Number(kiloStr);
+    if (!kilo || kilo <= 0) return;
+    const priceData = priceMap[product];
+    const buyPrice = priceData ? (typeof priceData.price === 'number' ? priceData.price : parseFloat(String(priceData.price).replace(/\./g,'').replace(',','.'))) : 0;
+    DataService.addTransaction({
+      date: qeState.date,
+      supplier: qeState.supplier,
+      hotel: qeState.hotel,
+      product: product,
+      qty: kilo,
+      adet: '-',
+      buyPrice: buyPrice,
+      supplyPrice: buyPrice // same as buy by default; user can edit in table if needed
+    });
+    saved++;
+  });
+  // Clear kilos only
+  qeState.kilos = {};
+  renderVeri();
+  renderDashboard();
+  // Toast notification
+  const toast = document.createElement('div');
+  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#10b981;color:white;padding:16px 24px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:slideIn 0.3s ease;';
+  toast.innerHTML = `<i class="fa-solid fa-check" style="margin-right:8px;"></i>${saved} kalem kaydedildi!`;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 3000);
+};
+
+window.qeClear = () => {
+  qeState.kilos = {};
+  renderVeri();
+};
+
+
+
 
 let odemeFilters = { account: null };
 window.setOdemeFilter = (key, val) => { odemeFilters[key] = val; renderOdemeler(); };
@@ -271,61 +444,113 @@ function renderOdemeler() {
   initTableFeatures();
 }
 
-let fiyatFilters = { date: null, product: null };
-window.setFiyatFilter = (key, val) => { fiyatFilters[key] = val; renderFiyat(); };
+let selectedFiyatDate = null;
 
 function renderFiyat() {
   viewTitle.innerText = 'FİYAT LİSTESİ';
-  const allPr = DataService.getData().prices;
-  
-  const dates = [...new Set(allPr.map(p => p.date))].sort((a,b)=>b.localeCompare(a));
-  const prods = [...new Set(allPr.map(p => p.product))].sort();
-  
-  const pr = allPr.filter(p => {
-    if (fiyatFilters.date && p.date !== fiyatFilters.date) return false;
-    if (fiyatFilters.product && p.product !== fiyatFilters.product) return false;
-    return true;
-  });
+  const data = DataService.getData();
+  const priceLists = data.priceLists || {};
+  // Fallback: if no priceLists yet but old prices[] exist
+  if (Object.keys(priceLists).length === 0 && data.prices && data.prices.length > 0) {
+    const fallbackDate = data.prices[0].date || new Date().toISOString().split('T')[0];
+    priceLists[fallbackDate] = data.prices;
+  }
 
-  let html = `
-    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px;">
-      ${renderDropdownHtml('TARİH', dates, fiyatFilters.date, 'setFiyatFilter', 'date')}
-      ${renderDropdownHtml('MAL', prods, fiyatFilters.product, 'setFiyatFilter', 'product')}
+  const sortedDates = Object.keys(priceLists).sort((a, b) => b.localeCompare(a));
+
+  if (!selectedFiyatDate || !priceLists[selectedFiyatDate]) {
+    selectedFiyatDate = sortedDates[0] || null;
+  }
+
+  const currentList = selectedFiyatDate ? priceLists[selectedFiyatDate] : [];
+
+  const dateCards = sortedDates.map(d => `
+    <div class="price-date-card ${d === selectedFiyatDate ? 'active' : ''}" onclick="window.selectFiyatDate('${d}')">
+      <i class="fa-solid fa-calendar-days"></i>
+      <div>
+        <div class="pdc-label">TUTED</div>
+        <div class="pdc-date">${formatAppDate(d)}</div>
+        <div class="pdc-count">${priceLists[d].length} ürün</div>
+      </div>
     </div>
-    <table>
-    <thead><tr><th>TARİH</th><th>MAL</th><th>BİRİM</th><th>FİYAT</th></tr></thead>
+  `).join('');
+
+  let tableHtml = '';
+  if (currentList.length > 0) {
+    tableHtml = `<table>
+    <thead><tr><th>MAL</th><th>BİRİM</th><th>FİYAT</th></tr></thead>
     <tbody>`;
-  pr.forEach(p => {
-    let priceVal = p.price;
-    if (typeof priceVal === 'string') {
-      priceVal = parseFloat(priceVal.replace(/\./g, '').replace(',', '.'));
-    }
-    if (isNaN(priceVal)) priceVal = 0;
-    html += `<tr><td>${formatAppDate(p.date)}</td><td>${p.product}</td><td>${p.unit}</td><td>${formatCurrency(priceVal)}</td></tr>`;
-  });
-  html += `</tbody></table>`;
-  viewContent.innerHTML = html;
+    currentList.forEach(p => {
+      let priceVal = p.price;
+      if (typeof priceVal === 'string') {
+        priceVal = parseFloat(priceVal.replace(/\./g, '').replace(',', '.'));
+      }
+      if (isNaN(priceVal)) priceVal = 0;
+      tableHtml += `<tr><td>${p.product}</td><td>${p.unit}</td><td>${formatCurrency(priceVal)}</td></tr>`;
+    });
+    tableHtml += `</tbody></table>`;
+  } else {
+    tableHtml = `<p style="text-align:center;padding:40px;color:#9ca3af;">Henüz fiyat listesi çekilmemiş.<br><br>Fiyat Listesi sayfasından <strong>GÜNLÜK FİYATLARI ÇEK (TUTED)</strong> butonuna basin.</p>`;
+  }
+
+  viewContent.innerHTML = `
+    <div class="fiyat-archive-layout">
+      <div class="fiyat-date-panel glass-panel">
+        <div style="font-weight:700;font-size:0.85rem;color:var(--text-secondary);margin-bottom:12px;">FİYAT LİSTESİ ARŞİVİ</div>
+        ${sortedDates.length > 0 ? dateCards : '<p style="color:#9ca3af;font-size:0.85rem;">Henüz kayıt yok</p>'}
+      </div>
+      <div class="fiyat-table-panel glass-panel">
+        ${selectedFiyatDate ? `<h3 style="margin-bottom:16px;">TUTED — ${formatAppDate(selectedFiyatDate)} Fiyatları</h3>` : ''}
+        ${tableHtml}
+      </div>
+    </div>
+  `;
   initTableFeatures();
 }
 
-let ozetFilters = { type: null };
+window.selectFiyatDate = (d) => {
+  selectedFiyatDate = d;
+  renderFiyat();
+};
+
+let ozetFilters = { type: null, dateFrom: null, dateTo: null };
 window.setOzetFilter = (key, val) => { ozetFilters[key] = val; renderOzet(); };
 
 function renderOzet() {
   viewTitle.innerText = 'CARİ HESAP ÖZETLERİ';
-  const allBalances = DataService.getAccountBalances();
-  
+
+  // Default: current month
+  if (!ozetFilters.dateFrom) {
+    const now = new Date();
+    ozetFilters.dateFrom = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-01`;
+    ozetFilters.dateTo = now.toISOString().split('T')[0];
+  }
+
+  const allBalances = DataService.getAccountBalances(ozetFilters.dateFrom, ozetFilters.dateTo);
   const types = ['Tedarikçi', 'Müşteri'];
   
   const balances = allBalances.filter(b => {
+    if (b.totalBought === 0 && b.totalPaid === 0) return false; // hide empty
     const tName = b.type === 'supplier' ? 'Tedarikçi' : 'Müşteri';
     if (ozetFilters.type && tName !== ozetFilters.type) return false;
     return true;
   });
 
   let html = `
-    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px;">
+    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px; flex-wrap: wrap; gap: 16px;">
       ${renderDropdownHtml('CARİ TİPİ', types, ozetFilters.type, 'setOzetFilter', 'type')}
+      <div class="top-filter-group">
+        <label>BAŞLA</label>
+        <input type="date" id="ozet-from" value="${ozetFilters.dateFrom}" onchange="window.setOzetFilter('dateFrom', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+      </div>
+      <div class="top-filter-group">
+        <label>BİTİŞ</label>
+        <input type="date" id="ozet-to" value="${ozetFilters.dateTo}" onchange="window.setOzetFilter('dateTo', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+      </div>
+      <div class="top-filter-group">
+        <label>&nbsp;</label>
+        <button onclick="window.setOzetFilter('dateFrom', null); ozetFilters.dateFrom = null; renderOzet();" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;">Tüm Zamanlar</button>
+      </div>
     </div>
     <table>
     <thead><tr><th>CARİ TİPİ</th><th>CARİ ADI</th><th>İŞLEM HACMİ</th><th>ÖDENEN</th><th>BAKİYE</th></tr></thead>
@@ -336,7 +561,7 @@ function renderOzet() {
       <td><strong>${b.name}</strong></td>
       <td>${formatCurrency(b.totalBought)}</td>
       <td>${formatCurrency(b.totalPaid)}</td>
-      <td>${formatCurrency(b.balance)}</td>
+      <td><span class="${b.balance >= 0 ? 'success' : 'danger'}">${formatCurrency(b.balance)}</span></td>
     </tr>`;
   });
   html += `</tbody></table>`;
@@ -680,46 +905,33 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
        
        if (newPrices.length === 0) throw new Error('Excel dosyasının içinde fiyat verisi bulunamadı.');
        
-       // 6. Merge with existing data
-       const appData = DataService.getData();
-       const currentPrices = appData.prices || [];
+       // 6. Save as archive snapshot & compute changes vs latest list
+       const prevPrices = DataService.getLatestPrices();
+       const prevMap = {};
+       prevPrices.forEach(p => { prevMap[p.product.trim()] = p; });
+
        const changes = [];
-       let addedCount = 0;
-       
        newPrices.forEach(np => {
-           const existingIndex = currentPrices.findIndex(cp => cp.product.trim() === np.product);
-           
-           if (existingIndex === -1) {
-               // New product
-               currentPrices.push(np);
+           const prev = prevMap[np.product];
+           const parseP = (str) => {
+               if (typeof str === 'number') return str;
+               return parseFloat(String(str).replace(/\./g, '').replace(',', '.'));
+           };
+           if (!prev) {
                changes.push(`- [YENİ] ${np.product} eklendi: ₺${np.price}`);
-               addedCount++;
-           } else {
-               // Existing product
-               const oldP = currentPrices[existingIndex].price;
-               const newP = np.price;
-               
-               // Compare numerically
-               const parseP = (str) => {
-                 if (typeof str === 'number') return str;
-                 return parseFloat(str.replace(/\./g, '').replace(',', '.'));
-               };
-               
-               if (parseP(oldP) !== parseP(newP)) {
-                   changes.push(`- [GÜNCELLENDİ] ${np.product}: ₺${oldP} -> ₺${newP}`);
-                   currentPrices[existingIndex].price = newP;
-                   currentPrices[existingIndex].date = np.date;
-               }
+           } else if (parseP(prev.price) !== parseP(np.price)) {
+               changes.push(`- [GÜNCELLENDİ] ${np.product}: ₺${prev.price} → ₺${np.price}`);
            }
        });
-       
-       appData.prices = currentPrices;
-       DataService.saveData(appData);
-       
-       if (changes.length === 0 && addedCount === 0) {
-           alert(`${formatAppDate(listDateStr)} tarihli güncel fiyatlar çekildi. Ancak fiyatlarda hiçbir değişiklik yok!`);
+
+       // Save snapshot — always saves even if no changes (new date = new archive entry)
+       DataService.savePriceList(listDateStr, newPrices);
+       selectedFiyatDate = listDateStr; // auto-select the new date
+
+       if (changes.length === 0) {
+           alert(`${formatAppDate(listDateStr)} tarihli fiyatlar arşive kaydedildi. Fiyatlarda değişiklik yok.`);
        } else {
-           alert(`Başarılı! ${formatAppDate(listDateStr)} tarihli liste işlendi.\n\nDeğişiklikler:\n${changes.join('\n')}`);
+           alert(`Başarılı! ${formatAppDate(listDateStr)} tarihli liste arşive kaydedildi.\n\nDeğişiklikler:\n${changes.slice(0, 20).join('\n')}${changes.length > 20 ? `\n... ve ${changes.length - 20} değişiklik daha` : ''}`);
        }
        
        renderFiyat();
