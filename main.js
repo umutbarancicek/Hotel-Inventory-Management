@@ -1,3 +1,4 @@
+import * as XLSX from 'xlsx';
 import './style.css';
 import { DataService } from './dataService.js';
 
@@ -120,6 +121,10 @@ document.querySelectorAll('.dash-btn[data-nav]').forEach(btn => {
     const nav = e.target.dataset.nav;
     viewDash.classList.remove('active');
     viewOther.classList.add('active');
+    
+    // Manage fetch button visibility
+    const tutedBtn = document.getElementById('btn-fetch-tuted');
+    tutedBtn.style.display = nav === 'fiyat' ? 'block' : 'none';
     
     if (nav === 'veri') renderVeri();
     else if (nav === 'odemeler') renderOdemeler();
@@ -401,3 +406,64 @@ function initTableFeatures() {
        };
    });
 }
+
+// TUTED FETCH LOGIC
+document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) => {
+   const btn = e.target;
+   const originalText = btn.innerHTML;
+   btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Lütfen bekleyin, veriler çekiliyor...';
+   btn.disabled = true;
+   
+   try {
+       // 1. Fetch index page
+       const response = await fetch('/tuted-api/Fiyat/Index');
+       if (!response.ok) throw new Error('Ağa bağlanılamadı');
+       const htmlText = await response.text();
+       
+       // 2. Find excel link
+       const match = htmlText.match(/href="(\/Fiyat\/Index\?p=excel&id=\d+)"/);
+       if (!match) throw new Error('Güncel Excel dosyası bulunamadı!');
+       const excelUrl = '/tuted-api' + match[1];
+       
+       // 3. Fetch excel file
+       const excelRes = await fetch(excelUrl);
+       if (!excelRes.ok) throw new Error('Excel dosyası indirilemedi');
+       const arrayBuffer = await excelRes.arrayBuffer();
+       
+       // 4. Parse with XLSX
+       const wb = XLSX.read(arrayBuffer, {type: 'array'});
+       const sheetName = wb.SheetNames[0];
+       const sheet = wb.Sheets[sheetName];
+       const data = XLSX.utils.sheet_to_json(sheet, {header: 1});
+       
+       // 5. Extract prices
+       // Format: [ "Sebzeler", 46216, "BİBER KALİFORNİYA", "Kg", "480,00" ]
+       const newPrices = [];
+       for (let i = 2; i < data.length; i++) {
+           const row = data[i];
+           if (!row || !row[2] || !row[3] || !row[4]) continue;
+           newPrices.push({
+               product: row[2],
+               unit: row[3],
+               price: row[4].toString()
+           });
+       }
+       
+       if (newPrices.length === 0) throw new Error('Excel dosyasının içinde fiyat verisi bulunamadı.');
+       
+       // 6. Save and re-render
+       const appData = DataService.getData();
+       appData.prices = newPrices;
+       DataService.saveData(appData);
+       
+       alert(`Başarılı! Toplam ${newPrices.length} ürün fiyatı çekildi.`);
+       renderFiyat();
+       renderDashboard(); // Re-render selects etc
+   } catch (err) {
+       alert('Hata: ' + err.message);
+       console.error(err);
+   } finally {
+       btn.innerHTML = originalText;
+       btn.disabled = false;
+   }
+});
