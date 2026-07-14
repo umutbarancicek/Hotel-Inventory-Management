@@ -234,6 +234,7 @@ body {
   position: relative;
   overflow: hidden;
   padding: 16px;
+  min-height: 0;
 }
 
 .view-container {
@@ -241,6 +242,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-y: auto;
+  padding-bottom: 24px;
 }
 .view-container.active {
   display: block;
@@ -547,4 +549,165 @@ th.desc::after {
   background-color: #000000;
   color: #ffffff;
   padding: 10px;
+}
+
+/* =============================================
+   QUICK ENTRY STUDIO (Hızlı Veri Girişi)
+   ============================================= */
+.qe-studio {
+  margin-bottom: 0;
+}
+.qe-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--panel-border);
+}
+.qe-header-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #3b82f6;
+  letter-spacing: 1px;
+}
+.qe-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+}
+.qe-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+  max-height: 340px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+.qe-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color 0.2s, background 0.2s, transform 0.1s;
+  cursor: default;
+}
+.qe-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateY(-1px);
+}
+.qe-card-selected {
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.12) !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+.qe-card-name {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  line-height: 1.2;
+}
+.qe-card-price {
+  font-size: 0.95rem;
+  color: #60a5fa;
+  font-weight: 600;
+}
+.qe-kilo-input {
+  width: 100%;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.qe-kilo-input:focus {
+  border-color: #3b82f6;
+}
+.qe-kilo-input::-webkit-outer-spin-button,
+.qe-kilo-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.qe-card-total {
+  font-size: 0.8rem;
+  color: #10b981;
+  font-weight: 700;
+}
+
+/* =============================================
+   FİYAT LİSTESİ ARŞİVİ LAYOUT
+   ============================================= */
+.fiyat-archive-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 16px;
+  min-height: 400px;
+}
+.fiyat-date-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+  max-height: 70vh;
+}
+.fiyat-table-panel {
+  overflow-y: auto;
+  max-height: 70vh;
+}
+.price-date-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.price-date-card:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: #3b82f6;
+}
+.price-date-card.active {
+  background: rgba(59,130,246,0.15);
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.3);
+}
+.price-date-card i {
+  font-size: 1.2rem;
+  color: #3b82f6;
+  flex-shrink: 0;
+}
+.pdc-label {
+  font-size: 0.65rem;
+  color: var(--text-secondary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.pdc-date {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.pdc-count {
+  font-size: 0.75rem;
+  color: #60a5fa;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
