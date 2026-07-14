@@ -4,6 +4,41 @@ import { DataService } from './dataService.js';
 
 DataService.init();
 
+// AUTHENTICATION LOGIC
+const appContainer = document.getElementById('app');
+const loginContainer = document.getElementById('login-container');
+
+if (sessionStorage.getItem('otel_auth') === 'true') {
+  appContainer.style.display = 'block';
+  loginContainer.style.display = 'none';
+} else {
+  appContainer.style.display = 'none';
+  loginContainer.style.display = 'flex';
+}
+
+document.getElementById('btn-login').addEventListener('click', () => {
+  const id = document.getElementById('login-id').value;
+  const pass = document.getElementById('login-pass').value;
+  if (id === 'mcakir' && pass === '1234') {
+    sessionStorage.setItem('otel_auth', 'true');
+    appContainer.style.display = 'block';
+    loginContainer.style.display = 'none';
+    document.getElementById('login-error').style.display = 'none';
+    renderDashboard();
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+  }
+});
+
+document.getElementById('login-pass').addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') document.getElementById('btn-login').click();
+});
+
+document.getElementById('btn-logout').addEventListener('click', () => {
+  sessionStorage.removeItem('otel_auth');
+  window.location.reload();
+});
+
 const body = document.body;
 document.getElementById('theme-toggle').addEventListener('click', () => {
   body.classList.toggle('light-theme');
@@ -441,7 +476,9 @@ window.setPivotFilter = (key, val) => {
 };
 
 // Init
-renderDashboard();
+if (sessionStorage.getItem('otel_auth') === 'true') {
+  renderDashboard();
+}
 
 function initTableFeatures() {
    const container = document.getElementById('view-content');

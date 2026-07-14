@@ -9,7 +9,41 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   </head>
   <body class="dark-theme">
-    <div id="app">
+    <!-- LOGIN SCREEN -->
+    <div id="login-container">
+      <div class="login-card">
+        
+        <div class="login-header">
+          <img src="/logo.jpg" alt="Logo" class="login-icon" onerror="this.outerHTML='<div class=\\'login-icon-fallback\\'>🏨</div>'">
+          <h1 class="login-title">Grand Miramor</h1>
+          <p class="login-subtitle">HOTEL MANAGEMENT</p>
+        </div>
+        
+        <div class="login-divider"></div>
+        
+        <h2 class="login-prompt">Giriş Yapın</h2>
+        
+        <div class="input-group-premium">
+          <label>KULLANICI ADI</label>
+          <input type="text" id="login-id" placeholder="Kullanıcı adınız" autocomplete="off">
+        </div>
+        
+        <div class="input-group-premium">
+          <label>ŞİFRE</label>
+          <input type="password" id="login-pass" placeholder="••••••••" autocomplete="off">
+        </div>
+        
+        <button id="btn-login" class="btn-gold">Giriş Yap</button>
+        <div id="login-error" style="color: #ef4444; margin-top: 16px; font-size: 0.85rem; display: none; text-align: center;">Kullanıcı ID veya Şifre Hatalı!</div>
+        
+        <div class="login-footer">
+          Grand Miramor Hotel Management v2.0
+        </div>
+
+      </div>
+    </div>
+
+    <div id="app" style="display: none;">
       <!-- TOP HEADER -->
       <header class="app-header">
         <div class="logo">
@@ -17,11 +51,10 @@
         </div>
         <div class="user-info">
           <span class="user-name"><span class="blue-text">M</span>MUHAMMET ÇAKIROĞLU</span>
+          <button id="btn-logout" class="icon-btn" title="Güvenli Çıkış" style="margin-right: 12px; color: var(--danger);"><i class="fa-solid fa-power-off"></i></button>
           <button id="theme-toggle" class="icon-btn" title="Tema Değiştir"><i class="fa-solid fa-sun"></i></button>
         </div>
       </header>
-
-      <!-- SUMMARY BAR -->
       <div class="summary-bar" id="summary-bar">
         <div class="summary-item">
           <div class="summary-label">TARİH</div>
@@ -169,6 +202,7 @@
 
       </main>
     </div>
+    
     <script type="module" src="/main.js"></script>
   </body>
 </html>
