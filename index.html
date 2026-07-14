@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Otel Tedarik Yönetimi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  </head>
+  <body class="dark-theme">
+    <div id="app">
+      <!-- TOP HEADER -->
+      <header class="app-header">
+        <div class="logo">
+          <h1><span class="blue-circle"></span> OTEL TEDARİK VE CARİ YÖNETİM SİSTEMİ</h1>
+        </div>
+        <div class="user-info">
+          <span class="user-name"><span class="blue-text">M</span>MUHAMMET ÇAKIROĞLU</span>
+          <button id="theme-toggle" class="icon-btn" title="Tema Değiştir"><i class="fa-solid fa-sun"></i></button>
+        </div>
+      </header>
+
+      <!-- SUMMARY BAR -->
+      <div class="summary-bar" id="summary-bar">
+        <div class="summary-item">
+          <div class="summary-label">TARİH</div>
+          <div class="summary-value" id="sum-date">-</div>
+        </div>
+        <div class="summary-item">
+          <div class="summary-label">TOPLAM KG</div>
+          <div class="summary-value" id="sum-kg">0</div>
+        </div>
+        <div class="summary-item">
+          <div class="summary-label">TEDARİK TUTARI</div>
+          <div class="summary-value" id="sum-tedarik">₺ 0</div>
+        </div>
+        <div class="summary-item">
+          <div class="summary-label">ALIŞ TUTARI</div>
+          <div class="summary-value" id="sum-alis">₺ 0</div>
+        </div>
+        <div class="summary-item">
+          <div class="summary-label">FARK</div>
+          <div class="summary-value" id="sum-fark">₺ 0</div>
+        </div>
+      </div>
+
+      <main class="main-content">
+        <!-- DASHBOARD VIEW -->
+        <div id="view-dashboard" class="view-container active">
+          <div class="dashboard-grid-layout">
+            
+            <!-- Column 1: Blue Buttons -->
+            <div class="dash-col col-blue">
+              <button class="dash-btn btn-blue" data-nav="pivot">PİVOT</button>
+              <button class="dash-btn btn-blue" data-nav="veri">VERİ</button>
+              <button class="dash-btn btn-blue" data-nav="sevk">SEVK RAPORU</button>
+              <button class="dash-btn btn-blue" data-nav="odemeler">ÖDEMELER</button>
+              <button class="dash-btn btn-blue" data-nav="fiyat">FİYAT LİSTESİ</button>
+              <button class="dash-btn btn-blue" data-nav="ozet">ÖZET</button>
+            </div>
+
+            <!-- Column 2: Green Buttons (Suppliers) -->
+            <div class="dash-col col-green" id="supplier-buttons">
+              <!-- Dynamically populated -->
+            </div>
+
+            <!-- Column 3: Black Buttons (Hotels) -->
+            <div class="dash-col col-black" id="hotel-buttons">
+              <!-- Dynamically populated -->
+            </div>
+
+            <!-- Column 4: Quick Entry Form -->
+            <div class="dash-col col-form">
+              <div class="quick-form-container">
+                
+                <div class="form-tabs">
+                  <button class="form-tab active" data-tab="odeme">ÖDEME GİRİŞİ</button>
+                  <button class="form-tab" data-tab="veri">VERİ GİRİŞİ</button>
+                </div>
+                
+                <!-- ODEME TAB -->
+                <div class="form-body active" id="tab-odeme">
+                  <div class="yellow-bg">
+                    <div class="input-row">
+                      <label>TARİH</label>
+                      <input type="date" id="q-p-date">
+                    </div>
+                    <div class="input-row">
+                      <label>CARİ ADI</label>
+                      <select id="q-p-account"></select>
+                    </div>
+                    <div class="input-row">
+                      <label>ÖDEME TUTARI</label>
+                      <input type="number" id="q-p-amount" step="0.01">
+                    </div>
+                    <div class="input-row">
+                      <label>AÇIKLAMA</label>
+                      <input type="text" id="q-p-desc" value="NAKİT">
+                    </div>
+                  </div>
+                  <div class="white-bg">
+                    <button class="btn-action red-text" id="q-p-save">KAYDET</button>
+                    <button class="btn-action blue-bg">AYARLAR</button>
+                    <button class="btn-action" id="q-p-new">YENİ KAYIT EKLE</button>
+                    <button class="btn-action bottom-btn" id="q-p-update">GÜNCELLE</button>
+                  </div>
+                </div>
+
+                <!-- VERI TAB -->
+                <div class="form-body" id="tab-veri">
+                  <div class="yellow-bg" style="background-color: #3b82f6;">
+                    <div class="input-row">
+                      <label>TARİH</label>
+                      <input type="date" id="q-v-date">
+                    </div>
+                    <div class="input-row">
+                      <label>MÜSTAHSİL</label>
+                      <select id="q-v-supplier"></select>
+                    </div>
+                    <div class="input-row">
+                      <label>OTEL</label>
+                      <select id="q-v-hotel"></select>
+                    </div>
+                    <div class="input-row">
+                      <label>MAL</label>
+                      <select id="q-v-product"></select>
+                    </div>
+                    <div class="input-row">
+                      <label>KİLO</label>
+                      <input type="number" id="q-v-qty">
+                    </div>
+                    <div class="input-row">
+                      <label>ALIŞ F.</label>
+                      <input type="number" id="q-v-buy" step="0.01">
+                    </div>
+                    <div class="input-row">
+                      <label>TEDA F.</label>
+                      <input type="number" id="q-v-supply" step="0.01">
+                    </div>
+                  </div>
+                  <div class="white-bg">
+                    <button class="btn-action red-text" id="q-v-save">KAYDET</button>
+                    <button class="btn-action" id="q-v-new">TEMİZLE</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- OTHER VIEWS -->
+        <div id="view-other" class="view-container">
+          <div class="view-header">
+            <button class="btn-back" id="btn-back-home"><i class="fa-solid fa-arrow-left"></i> ANA SAYFA</button>
+            <h2 id="view-title">Başlık</h2>
+          </div>
+          <div id="view-content" class="glass-panel">
+            <!-- Dynamic Content -->
+          </div>
+        </div>
+
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
