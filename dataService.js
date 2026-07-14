@@ -13,8 +13,13 @@ export const DataService = {
       if (docSnap.exists()) {
         localData = docSnap.data();
       } else {
-        localData = INITIAL_DATA;
-        await setDoc(docRef, INITIAL_DATA);
+        const existingLocalData = localStorage.getItem('otel_app_data_v8');
+        if (existingLocalData) {
+          localData = JSON.parse(existingLocalData);
+        } else {
+          localData = INITIAL_DATA;
+        }
+        await setDoc(docRef, localData);
       }
     } catch (error) {
       console.error("Firebase connection error:", error);
