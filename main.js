@@ -556,7 +556,7 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
    
    try {
        // 1. Fetch index page using cors proxy to bypass CORS on GitHub Pages
-       const indexUrl = 'https://corsproxy.io/?https://antalyatuted.org.tr/Fiyat/Index';
+       const indexUrl = 'https://corsfix.com/?https://antalyatuted.org.tr/Fiyat/Index';
        const response = await fetch(indexUrl);
        if (!response.ok) throw new Error('Ağa bağlanılamadı');
        const htmlText = await response.text();
@@ -565,7 +565,7 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
        const match = htmlText.match(/href="(\/Fiyat\/Index\?p=excel&id=\d+)"/);
        if (!match) throw new Error('Güncel Excel dosyası bulunamadı!');
        const targetExcelUrl = 'https://antalyatuted.org.tr' + match[1];
-       const excelUrl = 'https://corsproxy.io/?' + encodeURIComponent(targetExcelUrl);
+       const excelUrl = 'https://corsfix.com/?' + encodeURIComponent(targetExcelUrl);
        
        // 3. Fetch excel file
        const excelRes = await fetch(excelUrl);
