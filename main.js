@@ -175,7 +175,12 @@ function renderFiyat() {
     <thead><tr><th>MAL</th><th>BİRİM</th><th>FİYAT</th></tr></thead>
     <tbody>`;
   pr.forEach(p => {
-    html += `<tr><td>${p.product}</td><td>${p.unit}</td><td>${formatCurrency(p.price)}</td></tr>`;
+    let priceVal = p.price;
+    if (typeof priceVal === 'string') {
+      priceVal = parseFloat(priceVal.replace(/\./g, '').replace(',', '.'));
+    }
+    if (isNaN(priceVal)) priceVal = 0;
+    html += `<tr><td>${p.product}</td><td>${p.unit}</td><td>${formatCurrency(priceVal)}</td></tr>`;
   });
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
