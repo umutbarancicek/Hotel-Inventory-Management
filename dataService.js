@@ -2,17 +2,17 @@ import { INITIAL_DATA } from './initialData.js';
 
 export const DataService = {
   init() {
-    if (!localStorage.getItem('otel_app_data_v7')) {
-      localStorage.setItem('otel_app_data_v7', JSON.stringify(INITIAL_DATA));
+    if (!localStorage.getItem('otel_app_data_v8')) {
+      localStorage.setItem('otel_app_data_v8', JSON.stringify(INITIAL_DATA));
     }
   },
   
   getData() {
-    return JSON.parse(localStorage.getItem('otel_app_data_v7'));
+    return JSON.parse(localStorage.getItem('otel_app_data_v8'));
   },
   
   saveData(data) {
-    localStorage.setItem('otel_app_data_v7', JSON.stringify(data));
+    localStorage.setItem('otel_app_data_v8', JSON.stringify(data));
   },
   
   addTransaction(tx) {

@@ -24053,4171 +24053,5005 @@ export const INITIAL_DATA = {
   ],
   "prices": [
     {
+      "date": "2026-07-14",
       "product": "BİBER KALİFORNİYA",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-05",
       "product": "BİBER CİN (BİBERİYE)",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-05",
       "product": "BİBER DOLMA",
       "unit": "Kg",
       "price": "300,00"
     },
     {
+      "date": "2026-07-05",
       "product": "BİBER KAPYA",
       "unit": "Kg",
       "price": "260,00"
     },
     {
+      "date": "2026-07-05",
       "product": "BİBER ÇARLİSTON",
       "unit": "Kg",
       "price": "450,00"
     },
     {
+      "date": "2026-07-05",
       "product": "BİBER SİVRİ",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-05",
       "product": "BİBER ÜÇBURUN(KÖY)",
       "unit": "Kg",
       "price": "360,00"
     },
     {
+      "date": "2026-07-05",
       "product": "BROKOLİ",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-05",
       "product": "FASULYE",
       "unit": "Kg",
       "price": "450,00"
     },
     {
+      "date": "2026-07-05",
       "product": "DOMATES",
       "unit": "Kg",
       "price": "165,00"
     },
     {
+      "date": "2026-07-05",
       "product": "DOMATES BEEF",
       "unit": "Kg",
       "price": "170,00"
     },
     {
+      "date": "2026-07-05",
       "product": "DOMATES CHERRY",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-05",
       "product": "DOMATES KOKTEYL",
       "unit": "Kg",
       "price": "240,00"
     },
     {
+      "date": "2026-07-05",
       "product": "DOMATES PEMBE",
       "unit": "Kg",
       "price": "300,00"
     },
     {
+      "date": "2026-07-05",
       "product": "HAVUÇ BEYPAZARI",
       "unit": "Kg",
       "price": "170,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SALATALIK SİLOR PAKET",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-05",
       "product": "HIYAR YAYLA",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ISPANAK",
       "unit": "Kg",
       "price": "450,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KABAK BAL DEKORLUK",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KABAK SAKIZ",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KARNABAHAR",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-05",
       "product": "LAHANA BEYAZ",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-05",
       "product": "LAHANA KIRMIZI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MANTAR TAZE",
       "unit": "Kg",
       "price": "410,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PANCAR KIRMIZI",
       "unit": "Kg",
       "price": "160,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PATATES BABY",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PATATES TAZE",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PATATES KUMPİR",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PATLICAN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PATLICAN BOSTAN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PIRASA",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SOĞAN ARPACIK",
       "unit": "Kg",
       "price": "160,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SOĞAN KIRMIZI",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SOĞAN KURU",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SOĞAN TAZE",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-05",
       "product": "TURP JAPON",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-05",
       "product": "TURP KIRMIZI",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KEREVİZ",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SARIMSAK KURU",
       "unit": "Kg ",
       "price": "700,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MISIR SOYULMUŞ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ÜZÜM SİYAH",
       "unit": "Kg",
       "price": "600,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ÜZÜM BEYAZ",
       "unit": "Kg",
       "price": "600,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KARPUZ",
       "unit": "Kg",
       "price": "125,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KAVUN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KİRAZ",
       "unit": "Kg",
       "price": "600,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KAYISI",
       "unit": "Kg",
       "price": "320,00"
     },
     {
+      "date": "2026-07-05",
       "product": "NEKTARİN",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ŞEFTALİ",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ERİK PAPAZ",
       "unit": "Kg",
       "price": "580,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ERİK ANJELİKA",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ÇİLEK",
       "unit": "Kg",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MUZ YERLİ",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-05",
       "product": "GREYFURT",
       "unit": "Kg",
       "price": "150,00"
     },
     {
+      "date": "2026-07-05",
       "product": "LİMON",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ARMUT SANDAMARİA",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ELMA GOLDEN",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ELMA STARKING",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PORTAKAL MEYVELİK PAKET",
       "unit": "Kg",
       "price": "185,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PORTAKAL SIKMALIK",
       "unit": "Kg",
       "price": "150,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ANANAS İTHAL",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-05",
       "product": "AVAKADO İTHAL",
       "unit": "Adet",
       "price": "300,00"
     },
     {
+      "date": "2026-07-05",
       "product": "HİNDİSTAN CEVİZİ",
       "unit": "Adet",
       "price": "400,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PEPİNO",
       "unit": "Adet",
       "price": "650,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MANGO",
       "unit": "Adet",
       "price": "600,00"
     },
     {
+      "date": "2026-07-05",
       "product": "BLUE BERRY",
       "unit": "Pk / 125 Gr",
       "price": "350,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PAPAYA",
       "unit": "Adet",
       "price": "1.000,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ALTIN ÇİLEK",
       "unit": "Pk / 100 Gr",
       "price": "220,00"
     },
     {
+      "date": "2026-07-05",
       "product": "RED BERRY",
       "unit": "Pk / 125 Gr",
       "price": "1.400,00"
     },
     {
+      "date": "2026-07-05",
       "product": "AHUDUDU",
       "unit": "Pk / 125 Gr",
       "price": "900,00"
     },
     {
+      "date": "2026-07-05",
       "product": "BÖĞÜRTLEN",
       "unit": "Pk / 125 Gr",
       "price": "480,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ELMA GRANSİMİT",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KİVİ",
       "unit": "Kg",
       "price": "800,00"
     },
     {
+      "date": "2026-07-05",
       "product": "LİMON LİME",
       "unit": "Kg",
       "price": "800,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MUZ İTHAL",
       "unit": "Kg",
       "price": "470,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SARIMSAK İTHAL",
       "unit": "Kg",
       "price": "660,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ZENCEFİL",
       "unit": "Kg",
       "price": "850,00"
     },
     {
+      "date": "2026-07-05",
       "product": "DOMATES CHERRY PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-05",
       "product": "DOMATES CHERRY SARI PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KEKİK TAZE",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-05",
       "product": "FESLEĞEN PAKET",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-05",
       "product": "FESLEĞEN KIRMIZI",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MAYDONOZ FRENK",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KİŞNİŞ",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ROZMARİN",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ADAÇAYI",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ŞİNİKLAV",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "LİMON ÇİÇEĞİ",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MAJARON",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "TARHUN OTU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "OREGANO KEKİK",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KEKİK LİMONLU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SEBZE FİLİZİ",
       "unit": "25 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ENDİVYEN",
       "unit": "Adet",
       "price": "330,00"
     },
     {
+      "date": "2026-07-05",
       "product": "LOLOROSSO",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-05",
       "product": "LOLOROSSO YEŞİL",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KIRMIZI YAPRAK",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PALAMUT",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-05",
       "product": "CORN SALAT",
       "unit": "Adet",
       "price": "360,00"
     },
     {
+      "date": "2026-07-05",
       "product": "FENÇEL",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-05",
       "product": "POLOROSSO",
       "unit": "Adet",
       "price": "430,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KEREVİZ SAP",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PAKCOY",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MİNİ YEDİKULE",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-05",
       "product": "DENİZ BÖRÜLCESİ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
       "unit": "Adet",
       "price": "520,00"
     },
     {
+      "date": "2026-07-05",
       "product": "LİMON GRASS",
       "unit": "Bağ",
       "price": "770,00"
     },
     {
+      "date": "2026-07-05",
       "product": "YENİLEBİLİR ÇİÇEK",
       "unit": "Pk",
       "price": "390,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MİCRO FİLİZİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KABAK ÇİÇEĞİ",
       "unit": "Pk",
       "price": "820,00"
     },
     {
+      "date": "2026-07-05",
       "product": "HAVUÇ MİNİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KABAK MİNİ",
       "unit": "250 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KABAK MİNİ SARI",
       "unit": "250 Gr",
       "price": "990,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PATLICAN MİNİ",
       "unit": "200 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-05",
       "product": "AKDENİZ SALATA",
       "unit": "150 Gr",
       "price": "520,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KUZU KULAGI PAKET",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MASKOLİN SALAT",
       "unit": "150 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MİNİ ISPANAK",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-05",
       "product": "EGE OTLARI",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-05",
       "product": "CİBES",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-05",
       "product": "EBE GÖMECİ",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-05",
       "product": "HARDAL OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ISIRGAN OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-05",
       "product": "RADİKA",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SOYA FİLİZİ",
       "unit": "Kg",
       "price": "2.650,00"
     },
     {
+      "date": "2026-07-05",
       "product": "DEREOTU",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-05",
       "product": "FESLEĞEN",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-05",
       "product": "LAHANA KARADENİZ",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-05",
       "product": "KUZU KULAĞI",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MARUL ICEBERG",
       "unit": "Adet",
       "price": "120,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MARUL DÜZ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MARUL KIVIRCIK",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-05",
       "product": "MAYDONOZ",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-05",
       "product": "NANE",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-05",
       "product": "PAZI YAPRAGI",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-05",
       "product": "ROKA",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-05",
       "product": "SEMİZOTU",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-05",
       "product": "TERE",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-05",
       "product": "TERE SU",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-05",
       "product": "TURP FINDIK",
       "unit": "Bağ",
       "price": "125,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BİBER KALİFORNİYA",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BİBER CİN (BİBERİYE)",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BİBER DOLMA",
       "unit": "Kg",
       "price": "320,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BİBER KAPYA",
       "unit": "Kg",
       "price": "270,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BİBER ÇARLİSTON",
       "unit": "Kg",
       "price": "490,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BİBER SİVRİ",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BİBER ÜÇBURUN(KÖY)",
       "unit": "Kg",
       "price": "390,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BROKOLİ",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-06",
       "product": "FASULYE",
       "unit": "Kg",
       "price": "450,00"
     },
     {
+      "date": "2026-07-06",
       "product": "DOMATES",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-06",
       "product": "DOMATES BEEF",
       "unit": "Kg",
       "price": "215,00"
     },
     {
+      "date": "2026-07-06",
       "product": "DOMATES CHERRY",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-06",
       "product": "DOMATES KOKTEYL",
       "unit": "Kg",
       "price": "260,00"
     },
     {
+      "date": "2026-07-06",
       "product": "DOMATES PEMBE",
       "unit": "Kg",
       "price": "300,00"
     },
     {
+      "date": "2026-07-06",
       "product": "HAVUÇ BEYPAZARI",
       "unit": "Kg",
       "price": "170,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SALATALIK SİLOR PAKET",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-06",
       "product": "HIYAR YAYLA",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ISPANAK",
       "unit": "Kg",
       "price": "450,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KABAK BAL DEKORLUK",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KABAK SAKIZ",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KARNABAHAR",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-06",
       "product": "LAHANA BEYAZ",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-06",
       "product": "LAHANA KIRMIZI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MANTAR TAZE",
       "unit": "Kg",
       "price": "410,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PANCAR KIRMIZI",
       "unit": "Kg",
       "price": "170,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PATATES BABY",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PATATES TAZE",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PATATES KUMPİR",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PATLICAN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PATLICAN BOSTAN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PIRASA",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SOĞAN ARPACIK",
       "unit": "Kg",
       "price": "160,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SOĞAN KIRMIZI",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SOĞAN KURU",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SOĞAN TAZE",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-06",
       "product": "TURP JAPON",
       "unit": "Kg",
       "price": "310,00"
     },
     {
+      "date": "2026-07-06",
       "product": "TURP KIRMIZI",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KEREVİZ",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SARIMSAK KURU",
       "unit": "Kg ",
       "price": "700,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MISIR SOYULMUŞ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ÜZÜM SİYAH",
       "unit": "Kg",
       "price": "600,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ÜZÜM BEYAZ",
       "unit": "Kg",
       "price": "600,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KARPUZ",
       "unit": "Kg",
       "price": "125,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KAVUN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KİRAZ",
       "unit": "Kg",
       "price": "600,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KAYISI",
       "unit": "Kg",
       "price": "320,00"
     },
     {
+      "date": "2026-07-06",
       "product": "NEKTARİN",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ŞEFTALİ",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ERİK PAPAZ",
       "unit": "Kg",
       "price": "630,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ERİK ANJELİKA",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ÇİLEK",
       "unit": "Kg",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MUZ YERLİ",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-06",
       "product": "GREYFURT",
       "unit": "Kg",
       "price": "150,00"
     },
     {
+      "date": "2026-07-06",
       "product": "LİMON",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ARMUT SANDAMARİA",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ELMA GOLDEN",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ELMA STARKING",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PORTAKAL MEYVELİK PAKET",
       "unit": "Kg",
       "price": "185,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PORTAKAL SIKMALIK",
       "unit": "Kg",
       "price": "150,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ANANAS İTHAL",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-06",
       "product": "AVAKADO İTHAL",
       "unit": "Adet",
       "price": "300,00"
     },
     {
+      "date": "2026-07-06",
       "product": "HİNDİSTAN CEVİZİ",
       "unit": "Adet",
       "price": "400,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PEPİNO",
       "unit": "Adet",
       "price": "650,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MANGO",
       "unit": "Adet",
       "price": "600,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BLUE BERRY",
       "unit": "Pk / 125 Gr",
       "price": "350,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PAPAYA",
       "unit": "Adet",
       "price": "1.000,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ALTIN ÇİLEK",
       "unit": "Pk / 100 Gr",
       "price": "220,00"
     },
     {
+      "date": "2026-07-06",
       "product": "RED BERRY",
       "unit": "Pk / 125 Gr",
       "price": "1.400,00"
     },
     {
+      "date": "2026-07-06",
       "product": "AHUDUDU",
       "unit": "Pk / 125 Gr",
       "price": "900,00"
     },
     {
+      "date": "2026-07-06",
       "product": "BÖĞÜRTLEN",
       "unit": "Pk / 125 Gr",
       "price": "480,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ELMA GRANSİMİT",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KİVİ",
       "unit": "Kg",
       "price": "800,00"
     },
     {
+      "date": "2026-07-06",
       "product": "LİMON LİME",
       "unit": "Kg",
       "price": "800,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MUZ İTHAL",
       "unit": "Kg",
       "price": "470,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SARIMSAK İTHAL",
       "unit": "Kg",
       "price": "660,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ZENCEFİL",
       "unit": "Kg",
       "price": "850,00"
     },
     {
+      "date": "2026-07-06",
       "product": "DOMATES CHERRY PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-06",
       "product": "DOMATES CHERRY SARI PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KEKİK TAZE",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-06",
       "product": "FESLEĞEN PAKET",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-06",
       "product": "FESLEĞEN KIRMIZI",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MAYDONOZ FRENK",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KİŞNİŞ",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ROZMARİN",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ADAÇAYI",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ŞİNİKLAV",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "LİMON ÇİÇEĞİ",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MAJARON",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "TARHUN OTU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "OREGANO KEKİK",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KEKİK LİMONLU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SEBZE FİLİZİ",
       "unit": "25 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ENDİVYEN",
       "unit": "Adet",
       "price": "330,00"
     },
     {
+      "date": "2026-07-06",
       "product": "LOLOROSSO",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-06",
       "product": "LOLOROSSO YEŞİL",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KIRMIZI YAPRAK",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PALAMUT",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-06",
       "product": "CORN SALAT",
       "unit": "Adet",
       "price": "360,00"
     },
     {
+      "date": "2026-07-06",
       "product": "FENÇEL",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-06",
       "product": "POLOROSSO",
       "unit": "Adet",
       "price": "430,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KEREVİZ SAP",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PAKCOY",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MİNİ YEDİKULE",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-06",
       "product": "DENİZ BÖRÜLCESİ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
       "unit": "Adet",
       "price": "520,00"
     },
     {
+      "date": "2026-07-06",
       "product": "LİMON GRASS",
       "unit": "Bağ",
       "price": "770,00"
     },
     {
+      "date": "2026-07-06",
       "product": "YENİLEBİLİR ÇİÇEK",
       "unit": "Pk",
       "price": "390,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MİCRO FİLİZİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KABAK ÇİÇEĞİ",
       "unit": "Pk",
       "price": "820,00"
     },
     {
+      "date": "2026-07-06",
       "product": "HAVUÇ MİNİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KABAK MİNİ",
       "unit": "250 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KABAK MİNİ SARI",
       "unit": "250 Gr",
       "price": "990,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PATLICAN MİNİ",
       "unit": "200 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-06",
       "product": "AKDENİZ SALATA",
       "unit": "150 Gr",
       "price": "520,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KUZU KULAGI PAKET",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MASKOLİN SALAT",
       "unit": "150 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MİNİ ISPANAK",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-06",
       "product": "EGE OTLARI",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-06",
       "product": "CİBES",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-06",
       "product": "EBE GÖMECİ",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-06",
       "product": "HARDAL OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ISIRGAN OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-06",
       "product": "RADİKA",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SOYA FİLİZİ",
       "unit": "Kg",
       "price": "2.650,00"
     },
     {
+      "date": "2026-07-06",
       "product": "DEREOTU",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-06",
       "product": "FESLEĞEN",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-06",
       "product": "LAHANA KARADENİZ",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-06",
       "product": "KUZU KULAĞI",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MARUL ICEBERG",
       "unit": "Adet",
       "price": "120,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MARUL DÜZ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MARUL KIVIRCIK",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-06",
       "product": "MAYDONOZ",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-06",
       "product": "NANE",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-06",
       "product": "PAZI YAPRAGI",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-06",
       "product": "ROKA",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-06",
       "product": "SEMİZOTU",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-06",
       "product": "TERE",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-06",
       "product": "TERE SU",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-06",
       "product": "TURP FINDIK",
       "unit": "Bağ",
       "price": "125,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BİBER KALİFORNİYA",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BİBER CİN (BİBERİYE)",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BİBER DOLMA",
       "unit": "Kg",
       "price": "320,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BİBER KAPYA",
       "unit": "Kg",
       "price": "270,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BİBER ÇARLİSTON",
       "unit": "Kg",
       "price": "490,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BİBER SİVRİ",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BİBER ÜÇBURUN(KÖY)",
       "unit": "Kg",
       "price": "390,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BROKOLİ",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-07",
       "product": "FASULYE",
       "unit": "Kg",
       "price": "440,00"
     },
     {
+      "date": "2026-07-07",
       "product": "DOMATES",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-07",
       "product": "DOMATES BEEF",
       "unit": "Kg",
       "price": "215,00"
     },
     {
+      "date": "2026-07-07",
       "product": "DOMATES CHERRY",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-07",
       "product": "DOMATES KOKTEYL",
       "unit": "Kg",
       "price": "260,00"
     },
     {
+      "date": "2026-07-07",
       "product": "DOMATES PEMBE",
       "unit": "Kg",
       "price": "300,00"
     },
     {
+      "date": "2026-07-07",
       "product": "HAVUÇ BEYPAZARI",
       "unit": "Kg",
       "price": "170,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SALATALIK SİLOR PAKET",
       "unit": "Kg",
       "price": "190,00"
     },
     {
+      "date": "2026-07-07",
       "product": "HIYAR YAYLA",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ISPANAK",
       "unit": "Kg",
       "price": "450,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KABAK BAL DEKORLUK",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KABAK SAKIZ",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KARNABAHAR",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-07",
       "product": "LAHANA BEYAZ",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-07",
       "product": "LAHANA KIRMIZI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MANTAR TAZE",
       "unit": "Kg",
       "price": "410,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PANCAR KIRMIZI",
       "unit": "Kg",
       "price": "170,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PATATES BABY",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PATATES TAZE",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PATATES KUMPİR",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PATLICAN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PATLICAN BOSTAN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PIRASA",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SOĞAN ARPACIK",
       "unit": "Kg",
       "price": "160,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SOĞAN KIRMIZI",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SOĞAN KURU",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SOĞAN TAZE",
       "unit": "Kg",
       "price": "490,00"
     },
     {
+      "date": "2026-07-07",
       "product": "TURP JAPON",
       "unit": "Kg",
       "price": "310,00"
     },
     {
+      "date": "2026-07-07",
       "product": "TURP KIRMIZI",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KEREVİZ",
       "unit": "Kg",
       "price": "330,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SARIMSAK KURU",
       "unit": "Kg ",
       "price": "700,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MISIR SOYULMUŞ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ÜZÜM SİYAH",
       "unit": "Kg",
       "price": "580,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ÜZÜM BEYAZ",
       "unit": "Kg",
       "price": "580,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KARPUZ",
       "unit": "Kg",
       "price": "125,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KAVUN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KİRAZ",
       "unit": "Kg",
       "price": "600,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KAYISI",
       "unit": "Kg",
       "price": "320,00"
     },
     {
+      "date": "2026-07-07",
       "product": "NEKTARİN",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ŞEFTALİ",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ERİK PAPAZ",
       "unit": "Kg",
       "price": "630,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ERİK ANJELİKA",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ÇİLEK",
       "unit": "Kg",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MUZ YERLİ",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-07",
       "product": "GREYFURT",
       "unit": "Kg",
       "price": "150,00"
     },
     {
+      "date": "2026-07-07",
       "product": "LİMON",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ARMUT SANDAMARİA",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ELMA GOLDEN",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ELMA STARKING",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PORTAKAL MEYVELİK PAKET",
       "unit": "Kg",
       "price": "185,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PORTAKAL SIKMALIK",
       "unit": "Kg",
       "price": "150,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ANANAS İTHAL",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-07",
       "product": "AVAKADO İTHAL",
       "unit": "Adet",
       "price": "300,00"
     },
     {
+      "date": "2026-07-07",
       "product": "HİNDİSTAN CEVİZİ",
       "unit": "Adet",
       "price": "400,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PEPİNO",
       "unit": "Adet",
       "price": "650,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MANGO",
       "unit": "Adet",
       "price": "600,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BLUE BERRY",
       "unit": "Pk / 125 Gr",
       "price": "350,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PAPAYA",
       "unit": "Adet",
       "price": "1.000,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ALTIN ÇİLEK",
       "unit": "Pk / 100 Gr",
       "price": "220,00"
     },
     {
+      "date": "2026-07-07",
       "product": "RED BERRY",
       "unit": "Pk / 125 Gr",
       "price": "1.400,00"
     },
     {
+      "date": "2026-07-07",
       "product": "AHUDUDU",
       "unit": "Pk / 125 Gr",
       "price": "900,00"
     },
     {
+      "date": "2026-07-07",
       "product": "BÖĞÜRTLEN",
       "unit": "Pk / 125 Gr",
       "price": "480,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ELMA GRANSİMİT",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KİVİ",
       "unit": "Kg",
       "price": "800,00"
     },
     {
+      "date": "2026-07-07",
       "product": "LİMON LİME",
       "unit": "Kg",
       "price": "800,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MUZ İTHAL",
       "unit": "Kg",
       "price": "470,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SARIMSAK İTHAL",
       "unit": "Kg",
       "price": "660,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ZENCEFİL",
       "unit": "Kg",
       "price": "850,00"
     },
     {
+      "date": "2026-07-07",
       "product": "DOMATES CHERRY PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-07",
       "product": "DOMATES CHERRY SARI PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KEKİK TAZE",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-07",
       "product": "FESLEĞEN PAKET",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-07",
       "product": "FESLEĞEN KIRMIZI",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MAYDONOZ FRENK",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KİŞNİŞ",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ROZMARİN",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ADAÇAYI",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ŞİNİKLAV",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "LİMON ÇİÇEĞİ",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MAJARON",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "TARHUN OTU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "OREGANO KEKİK",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KEKİK LİMONLU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SEBZE FİLİZİ",
       "unit": "25 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ENDİVYEN",
       "unit": "Adet",
       "price": "330,00"
     },
     {
+      "date": "2026-07-07",
       "product": "LOLOROSSO",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-07",
       "product": "LOLOROSSO YEŞİL",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KIRMIZI YAPRAK",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PALAMUT",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-07",
       "product": "CORN SALAT",
       "unit": "Adet",
       "price": "360,00"
     },
     {
+      "date": "2026-07-07",
       "product": "FENÇEL",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-07",
       "product": "POLOROSSO",
       "unit": "Adet",
       "price": "430,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KEREVİZ SAP",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PAKCOY",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MİNİ YEDİKULE",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-07",
       "product": "DENİZ BÖRÜLCESİ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
       "unit": "Adet",
       "price": "520,00"
     },
     {
+      "date": "2026-07-07",
       "product": "LİMON GRASS",
       "unit": "Bağ",
       "price": "770,00"
     },
     {
+      "date": "2026-07-07",
       "product": "YENİLEBİLİR ÇİÇEK",
       "unit": "Pk",
       "price": "390,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MİCRO FİLİZİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KABAK ÇİÇEĞİ",
       "unit": "Pk",
       "price": "820,00"
     },
     {
+      "date": "2026-07-07",
       "product": "HAVUÇ MİNİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KABAK MİNİ",
       "unit": "250 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KABAK MİNİ SARI",
       "unit": "250 Gr",
       "price": "990,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PATLICAN MİNİ",
       "unit": "200 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-07",
       "product": "AKDENİZ SALATA",
       "unit": "150 Gr",
       "price": "520,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KUZU KULAGI PAKET",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MASKOLİN SALAT",
       "unit": "150 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MİNİ ISPANAK",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-07",
       "product": "EGE OTLARI",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-07",
       "product": "CİBES",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-07",
       "product": "EBE GÖMECİ",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-07",
       "product": "HARDAL OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ISIRGAN OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-07",
       "product": "RADİKA",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SOYA FİLİZİ",
       "unit": "Kg",
       "price": "2.650,00"
     },
     {
+      "date": "2026-07-07",
       "product": "DEREOTU",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-07",
       "product": "FESLEĞEN",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-07",
       "product": "LAHANA KARADENİZ",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-07",
       "product": "KUZU KULAĞI",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MARUL ICEBERG",
       "unit": "Adet",
       "price": "120,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MARUL DÜZ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MARUL KIVIRCIK",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-07",
       "product": "MAYDONOZ",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-07",
       "product": "NANE",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-07",
       "product": "PAZI YAPRAGI",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-07",
       "product": "ROKA",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-07",
       "product": "SEMİZOTU",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-07",
       "product": "TERE",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-07",
       "product": "TERE SU",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-07",
       "product": "TURP FINDIK",
       "unit": "Bağ",
       "price": "125,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BİBER KALİFORNİYA",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BİBER CİN (BİBERİYE)",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BİBER DOLMA",
       "unit": "Kg",
       "price": "360,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BİBER KAPYA",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BİBER ÇARLİSTON",
       "unit": "Kg",
       "price": "490,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BİBER SİVRİ",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BİBER ÜÇBURUN(KÖY)",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BROKOLİ",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-09",
       "product": "FASULYE",
       "unit": "Kg",
       "price": "440,00"
     },
     {
+      "date": "2026-07-09",
       "product": "DOMATES",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-09",
       "product": "DOMATES BEEF",
       "unit": "Kg",
       "price": "215,00"
     },
     {
+      "date": "2026-07-09",
       "product": "DOMATES CHERRY",
       "unit": "Kg",
       "price": "480,00"
     },
     {
+      "date": "2026-07-09",
       "product": "DOMATES KOKTEYL",
       "unit": "Kg",
       "price": "260,00"
     },
     {
+      "date": "2026-07-09",
       "product": "DOMATES PEMBE",
       "unit": "Kg",
       "price": "300,00"
     },
     {
+      "date": "2026-07-09",
       "product": "HAVUÇ BEYPAZARI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SALATALIK SİLOR PAKET",
       "unit": "Kg",
       "price": "190,00"
     },
     {
+      "date": "2026-07-09",
       "product": "HIYAR YAYLA",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ISPANAK",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KABAK BAL DEKORLUK",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KABAK SAKIZ",
       "unit": "Kg",
       "price": "170,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KARNABAHAR",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-09",
       "product": "LAHANA BEYAZ",
       "unit": "Kg",
       "price": "140,00"
     },
     {
+      "date": "2026-07-09",
       "product": "LAHANA KIRMIZI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MANTAR TAZE",
       "unit": "Kg",
       "price": "410,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PANCAR KIRMIZI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PATATES BABY",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PATATES TAZE",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PATATES KUMPİR",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PATLICAN",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PATLICAN BOSTAN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PIRASA",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SOĞAN ARPACIK",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SOĞAN KIRMIZI",
       "unit": "Kg",
       "price": "240,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SOĞAN KURU",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SOĞAN TAZE",
       "unit": "Kg",
       "price": "490,00"
     },
     {
+      "date": "2026-07-09",
       "product": "TURP JAPON",
       "unit": "Kg",
       "price": "360,00"
     },
     {
+      "date": "2026-07-09",
       "product": "TURP KIRMIZI",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KEREVİZ",
       "unit": "Kg",
       "price": "300,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SARIMSAK KURU",
       "unit": "Kg ",
       "price": "700,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MISIR SOYULMUŞ",
       "unit": "Adet",
       "price": "140,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ÜZÜM SİYAH",
       "unit": "Kg",
       "price": "560,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ÜZÜM BEYAZ",
       "unit": "Kg",
       "price": "560,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KARPUZ",
       "unit": "Kg",
       "price": "125,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KAVUN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KİRAZ",
       "unit": "Kg",
       "price": "600,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KAYISI",
       "unit": "Kg",
       "price": "330,00"
     },
     {
+      "date": "2026-07-09",
       "product": "NEKTARİN",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ŞEFTALİ",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ERİK PAPAZ",
       "unit": "Kg",
       "price": "630,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ERİK ANJELİKA",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ÇİLEK",
       "unit": "Kg",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MUZ YERLİ",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-09",
       "product": "GREYFURT",
       "unit": "Kg",
       "price": "160,00"
     },
     {
+      "date": "2026-07-09",
       "product": "LİMON",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ARMUT SANDAMARİA",
       "unit": "Kg",
       "price": "410,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ELMA GOLDEN",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ELMA STARKING",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PORTAKAL MEYVELİK PAKET",
       "unit": "Kg",
       "price": "185,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PORTAKAL SIKMALIK",
       "unit": "Kg",
       "price": "150,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ANANAS İTHAL",
       "unit": "Adet",
       "price": "500,00"
     },
     {
+      "date": "2026-07-09",
       "product": "AVAKADO İTHAL",
       "unit": "Adet",
       "price": "300,00"
     },
     {
+      "date": "2026-07-09",
       "product": "HİNDİSTAN CEVİZİ",
       "unit": "Adet",
       "price": "400,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PEPİNO",
       "unit": "Adet",
       "price": "650,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MANGO",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BLUE BERRY",
       "unit": "Pk / 125 Gr",
       "price": "360,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PAPAYA",
       "unit": "Adet",
       "price": "1.000,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ALTIN ÇİLEK",
       "unit": "Pk / 100 Gr",
       "price": "220,00"
     },
     {
+      "date": "2026-07-09",
       "product": "RED BERRY",
       "unit": "Pk / 125 Gr",
       "price": "1.400,00"
     },
     {
+      "date": "2026-07-09",
       "product": "AHUDUDU",
       "unit": "Pk / 125 Gr",
       "price": "900,00"
     },
     {
+      "date": "2026-07-09",
       "product": "BÖĞÜRTLEN",
       "unit": "Pk / 125 Gr",
       "price": "480,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ELMA GRANSİMİT",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KİVİ",
       "unit": "Kg",
       "price": "850,00"
     },
     {
+      "date": "2026-07-09",
       "product": "LİMON LİME",
       "unit": "Kg",
       "price": "840,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MUZ İTHAL",
       "unit": "Kg",
       "price": "480,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SARIMSAK İTHAL",
       "unit": "Kg",
       "price": "660,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ZENCEFİL",
       "unit": "Kg",
       "price": "860,00"
     },
     {
+      "date": "2026-07-09",
       "product": "DOMATES CHERRY PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-09",
       "product": "DOMATES CHERRY SARI PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KEKİK TAZE",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-09",
       "product": "FESLEĞEN PAKET",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-09",
       "product": "FESLEĞEN KIRMIZI",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MAYDONOZ FRENK",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KİŞNİŞ",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ROZMARİN",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ADAÇAYI",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ŞİNİKLAV",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "LİMON ÇİÇEĞİ",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MAJARON",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "TARHUN OTU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "OREGANO KEKİK",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KEKİK LİMONLU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SEBZE FİLİZİ",
       "unit": "25 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ENDİVYEN",
       "unit": "Adet",
       "price": "330,00"
     },
     {
+      "date": "2026-07-09",
       "product": "LOLOROSSO",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-09",
       "product": "LOLOROSSO YEŞİL",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KIRMIZI YAPRAK",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PALAMUT",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-09",
       "product": "CORN SALAT",
       "unit": "Adet",
       "price": "360,00"
     },
     {
+      "date": "2026-07-09",
       "product": "FENÇEL",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-09",
       "product": "POLOROSSO",
       "unit": "Adet",
       "price": "430,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KEREVİZ SAP",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PAKCOY",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MİNİ YEDİKULE",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-09",
       "product": "DENİZ BÖRÜLCESİ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
       "unit": "Adet",
       "price": "520,00"
     },
     {
+      "date": "2026-07-09",
       "product": "LİMON GRASS",
       "unit": "Bağ",
       "price": "770,00"
     },
     {
+      "date": "2026-07-09",
       "product": "YENİLEBİLİR ÇİÇEK",
       "unit": "Pk",
       "price": "390,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MİCRO FİLİZİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KABAK ÇİÇEĞİ",
       "unit": "Pk",
       "price": "820,00"
     },
     {
+      "date": "2026-07-09",
       "product": "HAVUÇ MİNİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KABAK MİNİ",
       "unit": "250 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KABAK MİNİ SARI",
       "unit": "250 Gr",
       "price": "990,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PATLICAN MİNİ",
       "unit": "200 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-09",
       "product": "AKDENİZ SALATA",
       "unit": "150 Gr",
       "price": "520,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KUZU KULAGI PAKET",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MASKOLİN SALAT",
       "unit": "150 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MİNİ ISPANAK",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-09",
       "product": "EGE OTLARI",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-09",
       "product": "CİBES",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-09",
       "product": "EBE GÖMECİ",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-09",
       "product": "HARDAL OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ISIRGAN OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-09",
       "product": "RADİKA",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SOYA FİLİZİ",
       "unit": "Kg",
       "price": "2.650,00"
     },
     {
+      "date": "2026-07-09",
       "product": "DEREOTU",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-09",
       "product": "FESLEĞEN",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-09",
       "product": "LAHANA KARADENİZ",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-09",
       "product": "KUZU KULAĞI",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MARUL ICEBERG",
       "unit": "Adet",
       "price": "120,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MARUL DÜZ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MARUL KIVIRCIK",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-09",
       "product": "MAYDONOZ",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-09",
       "product": "NANE",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-09",
       "product": "PAZI YAPRAGI",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-09",
       "product": "ROKA",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-09",
       "product": "SEMİZOTU",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-09",
       "product": "TERE",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-09",
       "product": "TERE SU",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-09",
       "product": "TURP FINDIK",
       "unit": "Bağ",
       "price": "125,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BİBER KALİFORNİYA",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BİBER CİN (BİBERİYE)",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BİBER DOLMA",
       "unit": "Kg",
       "price": "360,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BİBER KAPYA",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BİBER ÇARLİSTON",
       "unit": "Kg",
       "price": "490,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BİBER SİVRİ",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BİBER ÜÇBURUN(KÖY)",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BROKOLİ",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-10",
       "product": "FASULYE",
       "unit": "Kg",
       "price": "440,00"
     },
     {
+      "date": "2026-07-10",
       "product": "DOMATES",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-10",
       "product": "DOMATES BEEF",
       "unit": "Kg",
       "price": "215,00"
     },
     {
+      "date": "2026-07-10",
       "product": "DOMATES CHERRY",
       "unit": "Kg",
       "price": "480,00"
     },
     {
+      "date": "2026-07-10",
       "product": "DOMATES KOKTEYL",
       "unit": "Kg",
       "price": "260,00"
     },
     {
+      "date": "2026-07-10",
       "product": "DOMATES PEMBE",
       "unit": "Kg",
       "price": "300,00"
     },
     {
+      "date": "2026-07-10",
       "product": "HAVUÇ BEYPAZARI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SALATALIK SİLOR PAKET",
       "unit": "Kg",
       "price": "190,00"
     },
     {
+      "date": "2026-07-10",
       "product": "HIYAR YAYLA",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ISPANAK",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KABAK BAL DEKORLUK",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KABAK SAKIZ",
       "unit": "Kg",
       "price": "170,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KARNABAHAR",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-10",
       "product": "LAHANA BEYAZ",
       "unit": "Kg",
       "price": "140,00"
     },
     {
+      "date": "2026-07-10",
       "product": "LAHANA KIRMIZI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MANTAR TAZE",
       "unit": "Kg",
       "price": "410,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PANCAR KIRMIZI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PATATES BABY",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PATATES TAZE",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PATATES KUMPİR",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PATLICAN",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PATLICAN BOSTAN",
       "unit": "Kg",
       "price": "190,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PIRASA",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SOĞAN ARPACIK",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SOĞAN KIRMIZI",
       "unit": "Kg",
       "price": "240,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SOĞAN KURU",
       "unit": "Kg",
       "price": "260,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SOĞAN TAZE",
       "unit": "Kg",
       "price": "520,00"
     },
     {
+      "date": "2026-07-10",
       "product": "TURP JAPON",
       "unit": "Kg",
       "price": "360,00"
     },
     {
+      "date": "2026-07-10",
       "product": "TURP KIRMIZI",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KEREVİZ",
       "unit": "Kg",
       "price": "300,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SARIMSAK KURU",
       "unit": "Kg ",
       "price": "700,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MISIR SOYULMUŞ",
       "unit": "Adet",
       "price": "140,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ÜZÜM SİYAH",
       "unit": "Kg",
       "price": "560,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ÜZÜM BEYAZ",
       "unit": "Kg",
       "price": "560,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KARPUZ",
       "unit": "Kg",
       "price": "125,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KAVUN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KİRAZ",
       "unit": "Kg",
       "price": "600,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KAYISI",
       "unit": "Kg",
       "price": "330,00"
     },
     {
+      "date": "2026-07-10",
       "product": "NEKTARİN",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ŞEFTALİ",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ERİK PAPAZ",
       "unit": "Kg",
       "price": "630,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ERİK ANJELİKA",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ÇİLEK",
       "unit": "Kg",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MUZ YERLİ",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-10",
       "product": "GREYFURT",
       "unit": "Kg",
       "price": "160,00"
     },
     {
+      "date": "2026-07-10",
       "product": "LİMON",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ARMUT SANDAMARİA",
       "unit": "Kg",
       "price": "410,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ELMA GOLDEN",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ELMA STARKING",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PORTAKAL MEYVELİK PAKET",
       "unit": "Kg",
       "price": "185,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PORTAKAL SIKMALIK",
       "unit": "Kg",
       "price": "150,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ANANAS İTHAL",
       "unit": "Adet",
       "price": "500,00"
     },
     {
+      "date": "2026-07-10",
       "product": "AVAKADO İTHAL",
       "unit": "Adet",
       "price": "300,00"
     },
     {
+      "date": "2026-07-10",
       "product": "HİNDİSTAN CEVİZİ",
       "unit": "Adet",
       "price": "400,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PEPİNO",
       "unit": "Adet",
       "price": "650,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MANGO",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BLUE BERRY",
       "unit": "Pk / 125 Gr",
       "price": "360,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PAPAYA",
       "unit": "Adet",
       "price": "1.000,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ALTIN ÇİLEK",
       "unit": "Pk / 100 Gr",
       "price": "230,00"
     },
     {
+      "date": "2026-07-10",
       "product": "RED BERRY",
       "unit": "Pk / 125 Gr",
       "price": "1.400,00"
     },
     {
+      "date": "2026-07-10",
       "product": "AHUDUDU",
       "unit": "Pk / 125 Gr",
       "price": "900,00"
     },
     {
+      "date": "2026-07-10",
       "product": "BÖĞÜRTLEN",
       "unit": "Pk / 125 Gr",
       "price": "480,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ELMA GRANSİMİT",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KİVİ",
       "unit": "Kg",
       "price": "850,00"
     },
     {
+      "date": "2026-07-10",
       "product": "LİMON LİME",
       "unit": "Kg",
       "price": "950,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MUZ İTHAL",
       "unit": "Kg",
       "price": "480,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SARIMSAK İTHAL",
       "unit": "Kg",
       "price": "660,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ZENCEFİL",
       "unit": "Kg",
       "price": "860,00"
     },
     {
+      "date": "2026-07-10",
       "product": "DOMATES CHERRY PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-10",
       "product": "DOMATES CHERRY SARI PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KEKİK TAZE",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-10",
       "product": "FESLEĞEN PAKET",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-10",
       "product": "FESLEĞEN KIRMIZI",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MAYDONOZ FRENK",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KİŞNİŞ",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ROZMARİN",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ADAÇAYI",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ŞİNİKLAV",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "LİMON ÇİÇEĞİ",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MAJARON",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "TARHUN OTU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "OREGANO KEKİK",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KEKİK LİMONLU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SEBZE FİLİZİ",
       "unit": "25 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ENDİVYEN",
       "unit": "Adet",
       "price": "330,00"
     },
     {
+      "date": "2026-07-10",
       "product": "LOLOROSSO",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-10",
       "product": "LOLOROSSO YEŞİL",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KIRMIZI YAPRAK",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PALAMUT",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-10",
       "product": "CORN SALAT",
       "unit": "Adet",
       "price": "360,00"
     },
     {
+      "date": "2026-07-10",
       "product": "FENÇEL",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-10",
       "product": "POLOROSSO",
       "unit": "Adet",
       "price": "430,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KEREVİZ SAP",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PAKCOY",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MİNİ YEDİKULE",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-10",
       "product": "DENİZ BÖRÜLCESİ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
       "unit": "Adet",
       "price": "520,00"
     },
     {
+      "date": "2026-07-10",
       "product": "LİMON GRASS",
       "unit": "Bağ",
       "price": "770,00"
     },
     {
+      "date": "2026-07-10",
       "product": "YENİLEBİLİR ÇİÇEK",
       "unit": "Pk",
       "price": "390,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MİCRO FİLİZİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KABAK ÇİÇEĞİ",
       "unit": "Pk",
       "price": "820,00"
     },
     {
+      "date": "2026-07-10",
       "product": "HAVUÇ MİNİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KABAK MİNİ",
       "unit": "250 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KABAK MİNİ SARI",
       "unit": "250 Gr",
       "price": "990,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PATLICAN MİNİ",
       "unit": "200 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-10",
       "product": "AKDENİZ SALATA",
       "unit": "150 Gr",
       "price": "520,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KUZU KULAGI PAKET",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MASKOLİN SALAT",
       "unit": "150 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MİNİ ISPANAK",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-10",
       "product": "EGE OTLARI",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-10",
       "product": "CİBES",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-10",
       "product": "EBE GÖMECİ",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-10",
       "product": "HARDAL OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ISIRGAN OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-10",
       "product": "RADİKA",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SOYA FİLİZİ",
       "unit": "Kg",
       "price": "2.650,00"
     },
     {
+      "date": "2026-07-10",
       "product": "DEREOTU",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-10",
       "product": "FESLEĞEN",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-10",
       "product": "LAHANA KARADENİZ",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-10",
       "product": "KUZU KULAĞI",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MARUL ICEBERG",
       "unit": "Adet",
       "price": "120,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MARUL DÜZ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MARUL KIVIRCIK",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-10",
       "product": "MAYDONOZ",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-10",
       "product": "NANE",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-10",
       "product": "PAZI YAPRAGI",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-10",
       "product": "ROKA",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-10",
       "product": "SEMİZOTU",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-10",
       "product": "TERE",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-10",
       "product": "TERE SU",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-10",
       "product": "TURP FINDIK",
       "unit": "Bağ",
       "price": "125,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BİBER KALİFORNİYA",
       "unit": "Kg",
       "price": "480,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BİBER CİN (BİBERİYE)",
       "unit": "Kg",
       "price": "370,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BİBER DOLMA",
       "unit": "Kg",
       "price": "370,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BİBER KAPYA",
       "unit": "Kg",
       "price": "330,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BİBER ÇARLİSTON",
       "unit": "Kg",
       "price": "450,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BİBER SİVRİ",
       "unit": "Kg",
       "price": "410,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BİBER ÜÇBURUN(KÖY)",
       "unit": "Kg",
       "price": "370,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BROKOLİ",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-12",
       "product": "FASULYE",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-12",
       "product": "DOMATES",
       "unit": "Kg",
       "price": "210,00"
     },
     {
+      "date": "2026-07-12",
       "product": "DOMATES BEEF",
       "unit": "Kg",
       "price": "215,00"
     },
     {
+      "date": "2026-07-12",
       "product": "DOMATES CHERRY",
       "unit": "Kg",
       "price": "460,00"
     },
     {
+      "date": "2026-07-12",
       "product": "DOMATES KOKTEYL",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-12",
       "product": "DOMATES PEMBE",
       "unit": "Kg",
       "price": "270,00"
     },
     {
+      "date": "2026-07-12",
       "product": "HAVUÇ BEYPAZARI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SALATALIK SİLOR PAKET",
       "unit": "Kg",
       "price": "190,00"
     },
     {
+      "date": "2026-07-12",
       "product": "HIYAR YAYLA",
       "unit": "Kg",
       "price": "120,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ISPANAK",
       "unit": "Kg",
       "price": "400,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KABAK BAL DEKORLUK",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KABAK SAKIZ",
       "unit": "Kg",
       "price": "170,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KARNABAHAR",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-12",
       "product": "LAHANA BEYAZ",
       "unit": "Kg",
       "price": "140,00"
     },
     {
+      "date": "2026-07-12",
       "product": "LAHANA KIRMIZI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MANTAR TAZE",
       "unit": "Kg",
       "price": "490,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PANCAR KIRMIZI",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PATATES BABY",
       "unit": "Kg",
       "price": "190,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PATATES TAZE",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PATATES KUMPİR",
       "unit": "Kg",
       "price": "220,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PATLICAN",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PATLICAN BOSTAN",
       "unit": "Kg",
       "price": "190,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PIRASA",
       "unit": "Kg",
       "price": "360,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SOĞAN ARPACIK",
       "unit": "Kg",
       "price": "190,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SOĞAN KIRMIZI",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SOĞAN KURU",
       "unit": "Kg",
       "price": "280,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SOĞAN TAZE",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-12",
       "product": "TURP JAPON",
       "unit": "Kg",
       "price": "360,00"
     },
     {
+      "date": "2026-07-12",
       "product": "TURP KIRMIZI",
       "unit": "Kg",
       "price": "340,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KEREVİZ",
       "unit": "Kg",
       "price": "300,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SARIMSAK KURU",
       "unit": "Kg ",
       "price": "700,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MISIR SOYULMUŞ",
       "unit": "Adet",
       "price": "140,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ÜZÜM SİYAH",
       "unit": "Kg",
       "price": "520,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ÜZÜM BEYAZ",
       "unit": "Kg",
       "price": "520,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KARPUZ",
       "unit": "Kg",
       "price": "125,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KAVUN",
       "unit": "Kg",
       "price": "200,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KİRAZ",
       "unit": "Kg",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KAYISI",
       "unit": "Kg",
       "price": "330,00"
     },
     {
+      "date": "2026-07-12",
       "product": "NEKTARİN",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ŞEFTALİ",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ERİK PAPAZ",
       "unit": "Kg",
       "price": "630,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ERİK ANJELİKA",
       "unit": "Kg",
       "price": "330,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ÇİLEK",
       "unit": "Kg",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MUZ YERLİ",
       "unit": "Kg",
       "price": "250,00"
     },
     {
+      "date": "2026-07-12",
       "product": "GREYFURT",
       "unit": "Kg",
       "price": "180,00"
     },
     {
+      "date": "2026-07-12",
       "product": "LİMON",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ARMUT SANDAMARİA",
       "unit": "Kg",
       "price": "420,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ELMA GOLDEN",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ELMA STARKING",
       "unit": "Kg",
       "price": "350,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PORTAKAL MEYVELİK PAKET",
       "unit": "Kg",
       "price": "185,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PORTAKAL SIKMALIK",
       "unit": "Kg",
       "price": "150,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ANANAS İTHAL",
       "unit": "Adet",
       "price": "500,00"
     },
     {
+      "date": "2026-07-12",
       "product": "AVAKADO İTHAL",
       "unit": "Adet",
       "price": "300,00"
     },
     {
+      "date": "2026-07-12",
       "product": "HİNDİSTAN CEVİZİ",
       "unit": "Adet",
       "price": "400,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PEPİNO",
       "unit": "Adet",
       "price": "650,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MANGO",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BLUE BERRY",
       "unit": "Pk / 125 Gr",
       "price": "360,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PAPAYA",
       "unit": "Adet",
       "price": "1.000,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ALTIN ÇİLEK",
       "unit": "Pk / 100 Gr",
       "price": "250,00"
     },
     {
+      "date": "2026-07-12",
       "product": "RED BERRY",
       "unit": "Pk / 125 Gr",
       "price": "1.300,00"
     },
     {
+      "date": "2026-07-12",
       "product": "AHUDUDU",
       "unit": "Pk / 125 Gr",
       "price": "900,00"
     },
     {
+      "date": "2026-07-12",
       "product": "BÖĞÜRTLEN",
       "unit": "Pk / 125 Gr",
       "price": "480,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ELMA GRANSİMİT",
       "unit": "Kg",
       "price": "500,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KİVİ",
       "unit": "Kg",
       "price": "850,00"
     },
     {
+      "date": "2026-07-12",
       "product": "LİMON LİME",
       "unit": "Kg",
       "price": "980,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MUZ İTHAL",
       "unit": "Kg",
       "price": "490,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SARIMSAK İTHAL",
       "unit": "Kg",
       "price": "660,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ZENCEFİL",
       "unit": "Kg",
       "price": "860,00"
     },
     {
+      "date": "2026-07-12",
       "product": "DOMATES CHERRY PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-12",
       "product": "DOMATES CHERRY SARI PAKET",
       "unit": "250 Gr",
       "price": "430,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KEKİK TAZE",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-12",
       "product": "FESLEĞEN PAKET",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-12",
       "product": "FESLEĞEN KIRMIZI",
       "unit": "25 Gr",
       "price": "260,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MAYDONOZ FRENK",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KİŞNİŞ",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ROZMARİN",
       "unit": "25 Gr",
       "price": "300,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ADAÇAYI",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ŞİNİKLAV",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "LİMON ÇİÇEĞİ",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MAJARON",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "TARHUN OTU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "OREGANO KEKİK",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KEKİK LİMONLU",
       "unit": "25 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SEBZE FİLİZİ",
       "unit": "25 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ENDİVYEN",
       "unit": "Adet",
       "price": "330,00"
     },
     {
+      "date": "2026-07-12",
       "product": "LOLOROSSO",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-12",
       "product": "LOLOROSSO YEŞİL",
       "unit": "Adet",
       "price": "230,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KIRMIZI YAPRAK",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PALAMUT",
       "unit": "Adet",
       "price": "440,00"
     },
     {
+      "date": "2026-07-12",
       "product": "CORN SALAT",
       "unit": "Adet",
       "price": "360,00"
     },
     {
+      "date": "2026-07-12",
       "product": "FENÇEL",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-12",
       "product": "POLOROSSO",
       "unit": "Adet",
       "price": "430,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KEREVİZ SAP",
       "unit": "Adet",
       "price": "490,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PAKCOY",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MİNİ YEDİKULE",
       "unit": "Adet",
       "price": "620,00"
     },
     {
+      "date": "2026-07-12",
       "product": "DENİZ BÖRÜLCESİ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
       "unit": "Adet",
       "price": "520,00"
     },
     {
+      "date": "2026-07-12",
       "product": "LİMON GRASS",
       "unit": "Bağ",
       "price": "770,00"
     },
     {
+      "date": "2026-07-12",
       "product": "YENİLEBİLİR ÇİÇEK",
       "unit": "Pk",
       "price": "390,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MİCRO FİLİZİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KABAK ÇİÇEĞİ",
       "unit": "Pk",
       "price": "820,00"
     },
     {
+      "date": "2026-07-12",
       "product": "HAVUÇ MİNİ",
       "unit": "Pk",
       "price": "720,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KABAK MİNİ",
       "unit": "250 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KABAK MİNİ SARI",
       "unit": "250 Gr",
       "price": "990,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PATLICAN MİNİ",
       "unit": "200 Gr",
       "price": "720,00"
     },
     {
+      "date": "2026-07-12",
       "product": "AKDENİZ SALATA",
       "unit": "150 Gr",
       "price": "520,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KUZU KULAGI PAKET",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MASKOLİN SALAT",
       "unit": "150 Gr",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MİNİ ISPANAK",
       "unit": "Pk",
       "price": "550,00"
     },
     {
+      "date": "2026-07-12",
       "product": "EGE OTLARI",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-12",
       "product": "CİBES",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-12",
       "product": "EBE GÖMECİ",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-12",
       "product": "HARDAL OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ISIRGAN OTU",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-12",
       "product": "RADİKA",
       "unit": "Pk",
       "price": "690,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SOYA FİLİZİ",
       "unit": "Kg",
       "price": "2.650,00"
     },
     {
+      "date": "2026-07-12",
       "product": "DEREOTU",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-12",
       "product": "FESLEĞEN",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-12",
       "product": "LAHANA KARADENİZ",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-12",
       "product": "KUZU KULAĞI",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MARUL ICEBERG",
       "unit": "Adet",
       "price": "120,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MARUL DÜZ",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MARUL KIVIRCIK",
       "unit": "Adet",
       "price": "150,00"
     },
     {
+      "date": "2026-07-12",
       "product": "MAYDONOZ",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-12",
       "product": "NANE",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-12",
       "product": "PAZI YAPRAGI",
       "unit": "Bağ",
       "price": "90,00"
     },
     {
+      "date": "2026-07-12",
       "product": "ROKA",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-12",
       "product": "SEMİZOTU",
       "unit": "Bağ",
       "price": "85,00"
     },
     {
+      "date": "2026-07-12",
       "product": "TERE",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-12",
       "product": "TERE SU",
       "unit": "Bağ",
       "price": "100,00"
     },
     {
+      "date": "2026-07-12",
       "product": "TURP FINDIK",
       "unit": "Bağ",
       "price": "125,00"

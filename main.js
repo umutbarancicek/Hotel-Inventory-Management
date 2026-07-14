@@ -177,7 +177,7 @@ function renderFiyat() {
   viewTitle.innerText = 'FİYAT LİSTESİ';
   const pr = DataService.getData().prices;
   let html = `<table>
-    <thead><tr><th>MAL</th><th>BİRİM</th><th>FİYAT</th></tr></thead>
+    <thead><tr><th>TARİH</th><th>MAL</th><th>BİRİM</th><th>FİYAT</th></tr></thead>
     <tbody>`;
   pr.forEach(p => {
     let priceVal = p.price;
@@ -185,7 +185,7 @@ function renderFiyat() {
       priceVal = parseFloat(priceVal.replace(/\./g, '').replace(',', '.'));
     }
     if (isNaN(priceVal)) priceVal = 0;
-    html += `<tr><td>${p.product}</td><td>${p.unit}</td><td>${formatCurrency(priceVal)}</td></tr>`;
+    html += `<tr><td>${formatAppDate(p.date)}</td><td>${p.product}</td><td>${p.unit}</td><td>${formatCurrency(priceVal)}</td></tr>`;
   });
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
@@ -437,26 +437,69 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
        const data = XLSX.utils.sheet_to_json(sheet, {header: 1});
        
        // 5. Extract prices
-       // Format: [ "Sebzeler", 46216, "BİBER KALİFORNİYA", "Kg", "480,00" ]
+       // Try to extract date from the first row (e.g., '13.07.2026 Antalya...')
+       let listDateStr = new Date().toISOString().split('T')[0];
+       if (data[0] && data[0][0]) {
+           const dMatch = data[0][0].toString().match(/(\d{2})\.(\d{2})\.(\d{4})/);
+           if (dMatch) listDateStr = `${dMatch[3]}-${dMatch[2]}-${dMatch[1]}`;
+       }
+       
        const newPrices = [];
        for (let i = 2; i < data.length; i++) {
            const row = data[i];
            if (!row || !row[2] || !row[3] || !row[4]) continue;
            newPrices.push({
-               product: row[2],
+               date: listDateStr,
+               product: row[2].trim(),
                unit: row[3],
-               price: row[4].toString()
+               price: row[4].toString().trim()
            });
        }
        
        if (newPrices.length === 0) throw new Error('Excel dosyasının içinde fiyat verisi bulunamadı.');
        
-       // 6. Save and re-render
+       // 6. Merge with existing data
        const appData = DataService.getData();
-       appData.prices = newPrices;
+       const currentPrices = appData.prices || [];
+       const changes = [];
+       let addedCount = 0;
+       
+       newPrices.forEach(np => {
+           const existingIndex = currentPrices.findIndex(cp => cp.product.trim() === np.product);
+           
+           if (existingIndex === -1) {
+               // New product
+               currentPrices.push(np);
+               changes.push(`- [YENİ] ${np.product} eklendi: ₺${np.price}`);
+               addedCount++;
+           } else {
+               // Existing product
+               const oldP = currentPrices[existingIndex].price;
+               const newP = np.price;
+               
+               // Compare numerically
+               const parseP = (str) => {
+                 if (typeof str === 'number') return str;
+                 return parseFloat(str.replace(/\./g, '').replace(',', '.'));
+               };
+               
+               if (parseP(oldP) !== parseP(newP)) {
+                   changes.push(`- [GÜNCELLENDİ] ${np.product}: ₺${oldP} -> ₺${newP}`);
+                   currentPrices[existingIndex].price = newP;
+                   currentPrices[existingIndex].date = np.date;
+               }
+           }
+       });
+       
+       appData.prices = currentPrices;
        DataService.saveData(appData);
        
-       alert(`Başarılı! Toplam ${newPrices.length} ürün fiyatı çekildi.`);
+       if (changes.length === 0 && addedCount === 0) {
+           alert(`${formatAppDate(listDateStr)} tarihli güncel fiyatlar çekildi. Ancak fiyatlarda hiçbir değişiklik yok!`);
+       } else {
+           alert(`Başarılı! ${formatAppDate(listDateStr)} tarihli liste işlendi.\n\nDeğişiklikler:\n${changes.join('\n')}`);
+       }
+       
        renderFiyat();
        renderDashboard(); // Re-render selects etc
    } catch (err) {
