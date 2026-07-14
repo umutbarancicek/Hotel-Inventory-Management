@@ -242,7 +242,9 @@ body {
   height: 100%;
   width: 100%;
   overflow-y: auto;
-  padding-bottom: 24px;
+  overflow-x: hidden;
+  padding-bottom: 40px;
+  box-sizing: border-box;
 }
 .view-container.active {
   display: block;
@@ -552,11 +554,79 @@ th.desc::after {
 }
 
 /* =============================================
-   QUICK ENTRY STUDIO (Hızlı Veri Girişi)
+   QUICK ENTRY (Hızlı Veri Girişi) - TABLE STYLE
    ============================================= */
-.qe-studio {
-  margin-bottom: 0;
+.qe-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--panel-border);
 }
+.qe-top-bar-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+.qe-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-end;
+}
+.qe-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.qe-table thead th {
+  background: rgba(59, 130, 246, 0.1);
+  color: #60a5fa;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 10px 12px;
+  border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+}
+.qe-table tbody tr {
+  border-bottom: 1px solid var(--panel-border);
+  transition: background 0.15s;
+}
+.qe-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+.qe-row-selected {
+  background: rgba(59, 130, 246, 0.08) !important;
+  border-left: 3px solid #3b82f6 !important;
+}
+.qe-table td {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+}
+.qe-table-input {
+  width: 100%;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.15s;
+  text-align: center;
+}
+.qe-table-input:focus {
+  border-color: #3b82f6;
+  background: rgba(59,130,246,0.1);
+}
+.qe-table-input::-webkit-outer-spin-button,
+.qe-table-input::-webkit-inner-spin-button { -webkit-appearance: none; }
 .qe-header {
   display: flex;
   flex-direction: column;

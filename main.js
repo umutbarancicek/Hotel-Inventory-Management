@@ -1,4 +1,4 @@
-import * as XLSX from 'xlsx';
+﻿import * as XLSX from 'xlsx';
 import './style.css';
 import { DataService } from './dataService.js';
 
@@ -212,7 +212,7 @@ let qeState = {
 };
 
 function renderVeri() {
-  viewTitle.innerText = 'VERİ (İşlemler)';
+  viewTitle.innerText = 'VER\u0130 (\u0130\u015flemler)';
   const data = DataService.getData();
   const allTxs = data.transactions;
   const latestPrices = DataService.getLatestPrices();
@@ -223,39 +223,31 @@ function renderVeri() {
   if (!qeState.supplier && suppliers.length > 0) qeState.supplier = suppliers[0];
   if (!qeState.hotel && hotels.length > 0) qeState.hotel = hotels[0];
 
-  // --- Product Cards ---
   const parsePrice = (str) => {
     if (typeof str === 'number') return str;
     return parseFloat(String(str).replace(/\./g, '').replace(',', '.')) || 0;
   };
 
-  const productCards = latestPrices.map(p => {
-    const kilo = qeState.kilos[p.product] || '';
-    const priceVal = parsePrice(p.price);
-    const hasKilo = kilo && Number(kilo) > 0;
-    return `
-      <div class="qe-card ${hasKilo ? 'qe-card-selected' : ''}" id="qecard-${p.product.replace(/\s+/g,'-').replace(/[^a-zA-Z0-9-]/g,'')}">
-        <div class="qe-card-name">${p.product}</div>
-        <div class="qe-card-price">${formatCurrency(priceVal)}<span style="font-size:0.7rem;opacity:0.7">/${p.unit}</span></div>
-        <input 
-          type="number" 
-          class="qe-kilo-input" 
-          placeholder="kg" 
-          value="${kilo}"
-          min="0"
-          onchange="window.qeSetKilo('${p.product.replace(/'/g,"\\'")}', this.value)"
-          oninput="window.qeSetKilo('${p.product.replace(/'/g,"\\'")}', this.value)"
-          onclick="this.select()"
-        >
-        ${hasKilo ? `<div class="qe-card-total">${formatCurrency(priceVal * Number(kilo))}</div>` : ''}
-      </div>
-    `;
-  }).join('');
-
-  // Count pending entries
   const pendingCount = Object.values(qeState.kilos).filter(v => v && Number(v) > 0).length;
 
-  // --- TX Filter & List ---
+  const productRows = latestPrices.map(p => {
+    const kilo = qeState.kilos[p.product] || '';
+    const priceVal = parsePrice(p.price);
+    const total = kilo && Number(kilo) > 0 ? formatCurrency(priceVal * Number(kilo)) : '';
+    const rowId = 'qerow-' + p.product.replace(/\s+/g,'-').replace(/[^a-zA-Z0-9-]/g,'');
+    return `<tr id="${rowId}" class="${kilo && Number(kilo) > 0 ? 'qe-row-selected' : ''}">
+      <td style="font-weight:600;">${p.product}</td>
+      <td style="color:#60a5fa;">${formatCurrency(priceVal)}<span style="color:#6b7280;font-size:0.8rem"> /${p.unit}</span></td>
+      <td style="width:110px;padding:6px 12px;">
+        <input type="number" class="qe-table-input" placeholder="0" value="${kilo}" min="0"
+          onchange="window.qeSetKilo('${p.product.replace(/'/g,"\\'")}', this.value)"
+          oninput="window.qeSetKilo('${p.product.replace(/'/g,"\\'")}', this.value)"
+          onclick="this.select()">
+      </td>
+      <td class="qe-row-total" style="color:#10b981;font-weight:700;width:120px;">${total}</td>
+    </tr>`;
+  }).join('');
+
   const txSuppliers = [...new Set(allTxs.map(t => t.supplier))].sort();
   const txHotels = [...new Set(allTxs.map(t => t.hotel))].sort();
   const txProds = [...new Set(allTxs.map(t => t.product))].sort();
@@ -267,11 +259,11 @@ function renderVeri() {
     return true;
   }).reverse();
 
-  let txRows = txs.map(tx => {
+  const txRows = txs.map(tx => {
     const hal = tx.qty * tx.buyPrice;
     const ted = tx.qty * tx.supplyPrice;
     return `<tr>
-      <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td><td>${tx.qty}</td><td>${tx.hotel}</td><td>${tx.adet || '-'}</td>
+      <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td><td>${tx.qty}</td><td>${tx.hotel}</td>
       <td>${formatCurrency(tx.buyPrice)}</td><td>${formatCurrency(tx.supplyPrice)}</td>
       <td>${formatCurrency(hal)}</td><td>${formatCurrency(ted)}</td>
       <td><span class="${ted-hal >= 0 ? 'success' : 'danger'}">${formatCurrency(ted-hal)}</span></td>
@@ -279,53 +271,53 @@ function renderVeri() {
   }).join('');
 
   viewContent.innerHTML = `
-    <!-- QUICK ENTRY STUDIO -->
-    <div class="glass-panel qe-studio">
-      <div class="qe-header">
-        <div class="qe-header-title"><i class="fa-solid fa-bolt"></i> HIZLI VERİ GİRİŞİ</div>
+    <div class="glass-panel" style="margin-bottom:16px;">
+      <div class="qe-top-bar">
+        <span class="qe-top-bar-title"><i class="fa-solid fa-bolt" style="color:#3b82f6;margin-right:8px;"></i>HIZLI VER\u0130 G\u0130R\u0130\u015e\u0130</span>
         <div class="qe-controls">
           <div class="top-filter-group">
-            <label>TARİH</label>
-            <input type="date" value="${qeState.date}" onchange="window.qeSet('date', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;">
+            <label>TAR\u0130H</label>
+            <input type="date" value="${qeState.date}" onchange="window.qeSet('date', this.value)"
+              style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;">
           </div>
           <div class="top-filter-group">
-            <label>MÜSTAHSİL</label>
-            <select onchange="window.qeSet('supplier', this.value)" style="min-width:160px;">
-              ${suppliers.map(s => `<option value="${s}" ${qeState.supplier === s ? 'selected' : ''}>${s}</option>`).join('')}
+            <label>M\u00dcSTAHS\u0130L</label>
+            <select onchange="window.qeSet('supplier', this.value)">
+              ${suppliers.map(s => `<option value="${s}" ${qeState.supplier===s?'selected':''}>${s}</option>`).join('')}
             </select>
           </div>
           <div class="top-filter-group">
-            <label>GİTTİĞİ YER</label>
-            <select onchange="window.qeSet('hotel', this.value)" style="min-width:160px;">
-              ${hotels.map(h => `<option value="${h}" ${qeState.hotel === h ? 'selected' : ''}>${h}</option>`).join('')}
+            <label>G\u0130TT\u0130\u011e\u0130 YER</label>
+            <select onchange="window.qeSet('hotel', this.value)">
+              ${hotels.map(h => `<option value="${h}" ${qeState.hotel===h?'selected':''}>${h}</option>`).join('')}
             </select>
           </div>
-          <div class="top-filter-group" style="align-self:flex-end;">
-            <button onclick="window.qeSave()" class="dash-btn btn-green" style="margin:0;padding:10px 20px;" ${pendingCount === 0 ? 'disabled style="opacity:0.4;cursor:not-allowed;"' : ''}>
-              <i class="fa-solid fa-floppy-disk"></i> KAYDET (${pendingCount} mal)
+          <div style="display:flex;gap:8px;align-self:flex-end;">
+            <button onclick="window.qeSave()" class="dash-btn btn-green" style="margin:0;padding:10px 20px;" ${pendingCount===0?'disabled':''}>
+              <i class="fa-solid fa-floppy-disk"></i> KAYDET (${pendingCount})
             </button>
-          </div>
-          <div class="top-filter-group" style="align-self:flex-end;">
-            <button onclick="window.qeClear()" style="background:rgba(255,255,255,0.08);color:#9ca3af;border:1px solid var(--panel-border);border-radius:8px;padding:10px 16px;cursor:pointer;font-family:'Outfit',sans-serif;">
-              <i class="fa-solid fa-rotate-left"></i> Temizle
+            <button onclick="window.qeClear()" title="Temizle" style="background:rgba(255,255,255,0.07);color:#9ca3af;border:1px solid var(--panel-border);border-radius:8px;padding:10px 14px;cursor:pointer;font-family:'Outfit',sans-serif;">
+              <i class="fa-solid fa-xmark"></i>
             </button>
           </div>
         </div>
       </div>
-      <div class="qe-products-grid">
-        ${latestPrices.length > 0 ? productCards : '<p style="color:#9ca3af;padding:20px;">Önce Fiyat Listesi sayfasından TUTED fiyatları çekin.</p>'}
-      </div>
+      ${latestPrices.length > 0 ? `
+        <table class="qe-table">
+          <thead><tr><th>MAL</th><th>F\u0130YAT</th><th>K\u0130LO (kg)</th><th>TUTAR</th></tr></thead>
+          <tbody>${productRows}</tbody>
+        </table>
+      ` : `<p style="color:#9ca3af;padding:20px;text-align:center;">Önce <strong>Fiyat Listesi</strong> sayfasından TUTED fiyatları çekin.</p>`}
     </div>
 
-    <!-- TRANSACTION LIST -->
-    <div class="glass-panel" style="margin-top: 16px;">
+    <div class="glass-panel">
       <div class="top-filter-bar" style="margin-bottom:12px;flex-wrap:wrap;">
-        ${renderDropdownHtml('MÜSTAHSİL', txSuppliers, veriFilters.supplier, 'setVeriFilter', 'supplier')}
-        ${renderDropdownHtml('GİTTİĞİ YER', txHotels, veriFilters.hotel, 'setVeriFilter', 'hotel')}
+        ${renderDropdownHtml('M\u00dcSTAHS\u0130L', txSuppliers, veriFilters.supplier, 'setVeriFilter', 'supplier')}
+        ${renderDropdownHtml('G\u0130TT\u0130\u011e\u0130 YER', txHotels, veriFilters.hotel, 'setVeriFilter', 'hotel')}
         ${renderDropdownHtml('MAL', txProds, veriFilters.product, 'setVeriFilter', 'product')}
       </div>
       <table>
-        <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>ADET</th><th>ALIŞ F.</th><th>TEDA F.</th><th>HAL TUTAR</th><th>TEDARİK TUTAR</th><th>FARK</th></tr></thead>
+        <thead><tr><th>TAR\u0130H</th><th>M\u00dcSTAHS\u0130L</th><th>MAL</th><th>K\u0130LO</th><th>G\u0130TT\u0130\u011e\u0130 YER</th><th>ALI\u015e F.</th><th>TEDA F.</th><th>HAL TUTAR</th><th>TEDAR\u0130K</th><th>FARK</th></tr></thead>
         <tbody>${txRows}</tbody>
       </table>
     </div>
@@ -333,41 +325,30 @@ function renderVeri() {
   initTableFeatures();
 }
 
-window.qeSet = (key, val) => {
-  qeState[key] = val;
-  renderVeri();
-};
+window.qeSet = (key, val) => { qeState[key] = val; renderVeri(); };
 
 window.qeSetKilo = (product, val) => {
   qeState.kilos[product] = val;
-  // Just update the card visually without full re-render
-  const cardId = 'qecard-' + product.replace(/\s+/g,'-').replace(/[^a-zA-Z0-9-]/g,'');
-  const card = document.getElementById(cardId);
-  if (card) {
+  const rowId = 'qerow-' + product.replace(/\s+/g,'-').replace(/[^a-zA-Z0-9-]/g,'');
+  const row = document.getElementById(rowId);
+  if (row) {
     const hasKilo = val && Number(val) > 0;
-    card.classList.toggle('qe-card-selected', hasKilo);
-    // Update total display
-    let totalEl = card.querySelector('.qe-card-total');
-    const priceEl = card.querySelector('.qe-card-price');
-    const priceText = priceEl ? priceEl.innerText.replace(/[₺\s]/g,'').replace(/\./g,'').replace(',','.') : '0';
-    const priceNum = parseFloat(priceText) || 0;
-    if (hasKilo) {
-      if (!totalEl) {
-        totalEl = document.createElement('div');
-        totalEl.className = 'qe-card-total';
-        card.appendChild(totalEl);
+    row.classList.toggle('qe-row-selected', hasKilo);
+    const totalCell = row.querySelector('.qe-row-total');
+    if (totalCell) {
+      if (hasKilo) {
+        const priceCell = row.cells[1];
+        const priceText = priceCell ? priceCell.innerText.replace(/[₺\s]/g,'').replace(/\./g,'').replace(',','.') : '0';
+        totalCell.innerText = formatCurrency((parseFloat(priceText)||0) * Number(val));
+      } else {
+        totalCell.innerText = '';
       }
-      totalEl.innerText = formatCurrency(priceNum * Number(val));
-    } else if (totalEl) {
-      totalEl.remove();
     }
-    // Update save button count
     const pendingCount = Object.values(qeState.kilos).filter(v => v && Number(v) > 0).length;
-    const saveBtn = document.querySelector('.qe-controls .dash-btn.btn-green');
+    const saveBtn = document.querySelector('.qe-controls .dash-btn.btn-green, .dash-btn.btn-green');
     if (saveBtn) {
-      saveBtn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> KAYDET (${pendingCount} mal)`;
+      saveBtn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> KAYDET (${pendingCount})`;
       saveBtn.disabled = pendingCount === 0;
-      saveBtn.style.opacity = pendingCount === 0 ? '0.4' : '1';
     }
   }
 };
@@ -376,41 +357,27 @@ window.qeSave = () => {
   const latestPrices = DataService.getLatestPrices();
   const priceMap = {};
   latestPrices.forEach(p => { priceMap[p.product] = p; });
-
   let saved = 0;
   Object.entries(qeState.kilos).forEach(([product, kiloStr]) => {
     const kilo = Number(kiloStr);
     if (!kilo || kilo <= 0) return;
     const priceData = priceMap[product];
-    const buyPrice = priceData ? (typeof priceData.price === 'number' ? priceData.price : parseFloat(String(priceData.price).replace(/\./g,'').replace(',','.'))) : 0;
-    DataService.addTransaction({
-      date: qeState.date,
-      supplier: qeState.supplier,
-      hotel: qeState.hotel,
-      product: product,
-      qty: kilo,
-      adet: '-',
-      buyPrice: buyPrice,
-      supplyPrice: buyPrice // same as buy by default; user can edit in table if needed
-    });
+    const buyPrice = priceData ? parseFloat(String(priceData.price).replace(/\./g,'').replace(',','.')) : 0;
+    DataService.addTransaction({ date: qeState.date, supplier: qeState.supplier, hotel: qeState.hotel, product, qty: kilo, adet: '-', buyPrice, supplyPrice: buyPrice });
     saved++;
   });
-  // Clear kilos only
   qeState.kilos = {};
   renderVeri();
   renderDashboard();
-  // Toast notification
   const toast = document.createElement('div');
-  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#10b981;color:white;padding:16px 24px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:slideIn 0.3s ease;';
+  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#10b981;color:white;padding:16px 24px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);';
   toast.innerHTML = `<i class="fa-solid fa-check" style="margin-right:8px;"></i>${saved} kalem kaydedildi!`;
   document.body.appendChild(toast);
   setTimeout(() => toast.remove(), 3000);
 };
 
-window.qeClear = () => {
-  qeState.kilos = {};
-  renderVeri();
-};
+window.qeClear = () => { qeState.kilos = {}; renderVeri(); };
+
 
 
 
@@ -944,3 +911,4 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
        btn.disabled = false;
    }
 });
+
