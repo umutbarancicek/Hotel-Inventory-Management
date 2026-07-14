@@ -500,3 +500,51 @@ th.desc::after {
   margin-left: 8px;
   color: #3b82f6;
 }
+
+/* TOP HORIZONTAL FILTER BAR FOR DASHBOARD */
+.pivot-layout-new {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: calc(100vh - 120px);
+}
+.top-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 16px 24px;
+  align-items: center;
+}
+.top-filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.top-filter-group label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.top-filter-group select {
+  padding: 8px 16px;
+  background: var(--surface);
+  border: 1px solid var(--panel-border);
+  color: var(--text-color);
+  border-radius: 6px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  outline: none;
+  min-width: 200px;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+.top-filter-group select:focus {
+  border-color: #3b82f6;
+}
+.top-filter-group select option {
+  background: var(--surface);
+  color: var(--text-color);
+  padding: 10px;
+}

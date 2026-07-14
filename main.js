@@ -404,13 +404,13 @@ function renderPivot() {
   const suppliers = [...new Set(data.transactions.map(t => t.supplier))];
   const prods = [...new Set(data.transactions.map(t => t.product))];
   
-  const renderSlicer = (title, items, key) => `
-    <div class="slicer-group">
-      <div class="slicer-header">${title} <i class="fa-solid fa-filter"></i></div>
-      <div class="slicer-list">
-        <div class="slicer-item ${pivotFilters[key] === null ? 'active' : ''}" onclick="window.setPivotFilter('${key}', null)">(Tümü)</div>
-        ${items.map(i => `<div class="slicer-item ${pivotFilters[key] === i ? 'active' : ''}" onclick="window.setPivotFilter('${key}', '${i}')">${i}</div>`).join('')}
-      </div>
+  const renderDropdownSlicer = (title, items, key) => `
+    <div class="top-filter-group">
+      <label>${title}</label>
+      <select onchange="window.setPivotFilter('${key}', this.value === 'Tümü' ? null : this.value)">
+        <option value="Tümü" ${pivotFilters[key] === null ? 'selected' : ''}>Tümü</option>
+        ${items.map(i => `<option value="${i}" ${pivotFilters[key] === i ? 'selected' : ''}>${i}</option>`).join('')}
+      </select>
     </div>
   `;
   
@@ -473,13 +473,13 @@ function renderPivot() {
     </tr></tbody></table>`;
 
   viewContent.innerHTML = `
-    <div class="pivot-layout">
-      <div class="slicer-panel">
-        ${renderSlicer('GİTTİĞİ YER', hotels, 'hotel')}
-        ${renderSlicer('MÜSTAHSİL', suppliers, 'supplier')}
-        ${renderSlicer('MAL', prods, 'product')}
+    <div class="pivot-layout-new">
+      <div class="top-filter-bar glass-panel">
+        ${renderDropdownSlicer('GİTTİĞİ YER', hotels, 'hotel')}
+        ${renderDropdownSlicer('MÜSTAHSİL', suppliers, 'supplier')}
+        ${renderDropdownSlicer('MAL', prods, 'product')}
       </div>
-      <div class="pivot-table-container glass-panel">
+      <div class="pivot-table-container glass-panel" style="margin-top:0;">
         ${tableHtml}
       </div>
     </div>
