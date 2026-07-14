@@ -4,9 +4,10 @@ export const INITIAL_DATA = {
       "id": 2,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 170,
+      "hotel": "AMBASSADOR",
+      "adet": 470,
       "buyPrice": 50,
       "supplyPrice": 84.6
     },
@@ -14,9 +15,10 @@ export const INITIAL_DATA = {
       "id": 3,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER DOLMA",
       "qty": 28,
+      "hotel": "AMBASSADOR",
+      "adet": 250,
       "buyPrice": 80,
       "supplyPrice": 45
     },
@@ -24,9 +26,10 @@ export const INITIAL_DATA = {
       "id": 4,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 155,
       "buyPrice": 25,
       "supplyPrice": 27.9
     },
@@ -34,9 +37,10 @@ export const INITIAL_DATA = {
       "id": 5,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 33,
+      "hotel": "AMBASSADOR",
+      "adet": 115,
       "buyPrice": 5,
       "supplyPrice": 20.7
     },
@@ -44,9 +48,10 @@ export const INITIAL_DATA = {
       "id": 6,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 35,
+      "hotel": "AMBASSADOR",
+      "adet": 190,
       "buyPrice": 20,
       "supplyPrice": 34.199999999999996
     },
@@ -54,9 +59,10 @@ export const INITIAL_DATA = {
       "id": 7,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 41,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 23.4
     },
@@ -64,9 +70,10 @@ export const INITIAL_DATA = {
       "id": 8,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 90,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 114,
       "buyPrice": 14,
       "supplyPrice": 20.52
     },
@@ -74,9 +81,10 @@ export const INITIAL_DATA = {
       "id": 9,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER SİVRİ",
       "qty": 12,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 175,
       "buyPrice": 25,
       "supplyPrice": 31.5
     },
@@ -84,9 +92,10 @@ export const INITIAL_DATA = {
       "id": 10,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 236,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 470,
       "buyPrice": 50,
       "supplyPrice": 84.6
     },
@@ -94,9 +103,10 @@ export const INITIAL_DATA = {
       "id": 11,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER DOLMA",
       "qty": 24,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 250,
       "buyPrice": 80,
       "supplyPrice": 45
     },
@@ -104,9 +114,10 @@ export const INITIAL_DATA = {
       "id": 12,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 21,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 155,
       "buyPrice": 25,
       "supplyPrice": 27.9
     },
@@ -114,9 +125,10 @@ export const INITIAL_DATA = {
       "id": 13,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
       "qty": 55,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 115,
       "buyPrice": 5,
       "supplyPrice": 20.7
     },
@@ -124,9 +136,10 @@ export const INITIAL_DATA = {
       "id": 14,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 60,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 190,
       "buyPrice": 20,
       "supplyPrice": 34.199999999999996
     },
@@ -134,9 +147,10 @@ export const INITIAL_DATA = {
       "id": 15,
       "date": "2026-04-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
       "qty": 96,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 23.4
     },
@@ -144,9 +158,10 @@ export const INITIAL_DATA = {
       "id": 16,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 13,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -154,9 +169,10 @@ export const INITIAL_DATA = {
       "id": 17,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 35,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 13,
       "supplyPrice": 15.4
     },
@@ -164,9 +180,10 @@ export const INITIAL_DATA = {
       "id": 18,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 52,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -174,9 +191,10 @@ export const INITIAL_DATA = {
       "id": 19,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 106,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -184,9 +202,10 @@ export const INITIAL_DATA = {
       "id": 20,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 740,
       "buyPrice": 50,
       "supplyPrice": 162.8
     },
@@ -194,9 +213,10 @@ export const INITIAL_DATA = {
       "id": 21,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 56,
+      "hotel": "CASAFORA",
+      "adet": 260,
       "buyPrice": 40,
       "supplyPrice": 57.2
     },
@@ -204,9 +224,10 @@ export const INITIAL_DATA = {
       "id": 22,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
       "qty": 56,
+      "hotel": "CASAFORA",
+      "adet": 1000,
       "buyPrice": 50,
       "supplyPrice": 220
     },
@@ -214,9 +235,10 @@ export const INITIAL_DATA = {
       "id": 23,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 250,
       "buyPrice": 40,
       "supplyPrice": 55
     },
@@ -224,9 +246,10 @@ export const INITIAL_DATA = {
       "id": 24,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 132,
+      "hotel": "CASAFORA",
+      "adet": 450,
       "buyPrice": 70,
       "supplyPrice": 99
     },
@@ -234,9 +257,10 @@ export const INITIAL_DATA = {
       "id": 25,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 35,
       "supplyPrice": 44
     },
@@ -244,9 +268,10 @@ export const INITIAL_DATA = {
       "id": 26,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
       "qty": 43,
+      "hotel": "CASAFORA",
+      "adet": 250,
       "buyPrice": 40,
       "supplyPrice": 55
     },
@@ -254,9 +279,10 @@ export const INITIAL_DATA = {
       "id": 27,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 90,
       "buyPrice": 5,
       "supplyPrice": 19.8
     },
@@ -264,9 +290,10 @@ export const INITIAL_DATA = {
       "id": 28,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 16,
+      "hotel": "CASAFORA",
+      "adet": 65,
       "buyPrice": 5,
       "supplyPrice": 14.3
     },
@@ -274,9 +301,10 @@ export const INITIAL_DATA = {
       "id": 29,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 10,
       "supplyPrice": 24.2
     },
@@ -284,9 +312,10 @@ export const INITIAL_DATA = {
       "id": 30,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 26.4
     },
@@ -294,9 +323,10 @@ export const INITIAL_DATA = {
       "id": 31,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
       "qty": 12,
+      "hotel": "CASAFORA",
+      "adet": 210,
       "buyPrice": 40,
       "supplyPrice": 46.2
     },
@@ -304,9 +334,10 @@ export const INITIAL_DATA = {
       "id": 32,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "KABAK BAL DEKORLUK",
       "qty": 14,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -314,9 +345,10 @@ export const INITIAL_DATA = {
       "id": 33,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 68,
+      "hotel": "CASAFORA",
+      "adet": 180,
       "buyPrice": 25,
       "supplyPrice": 39.6
     },
@@ -324,9 +356,10 @@ export const INITIAL_DATA = {
       "id": 34,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -334,9 +367,10 @@ export const INITIAL_DATA = {
       "id": 35,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "ELMA STARKING",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 30,
       "supplyPrice": 77
     },
@@ -344,9 +378,10 @@ export const INITIAL_DATA = {
       "id": 36,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
       "qty": 42,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 30,
       "supplyPrice": 77
     },
@@ -354,9 +389,10 @@ export const INITIAL_DATA = {
       "id": 37,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 30,
       "supplyPrice": 77
     },
@@ -364,9 +400,10 @@ export const INITIAL_DATA = {
       "id": 38,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 20,
       "supplyPrice": 52.8
     },
@@ -374,9 +411,10 @@ export const INITIAL_DATA = {
       "id": 39,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 30,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 15,
       "supplyPrice": 28.6
     },
@@ -384,9 +422,10 @@ export const INITIAL_DATA = {
       "id": 40,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 16,
       "supplyPrice": 26.4
     },
@@ -394,9 +433,10 @@ export const INITIAL_DATA = {
       "id": 41,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 15,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 52.8
     },
@@ -404,9 +444,10 @@ export const INITIAL_DATA = {
       "id": 42,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
       "qty": 7,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -414,9 +455,10 @@ export const INITIAL_DATA = {
       "id": 43,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 13,
       "supplyPrice": 15.4
     },
@@ -424,9 +466,10 @@ export const INITIAL_DATA = {
       "id": 44,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -434,9 +477,10 @@ export const INITIAL_DATA = {
       "id": 45,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -444,9 +488,10 @@ export const INITIAL_DATA = {
       "id": 46,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 10,
+      "hotel": "SEAPHORİA",
+      "adet": 740,
       "buyPrice": 50,
       "supplyPrice": 162.8
     },
@@ -454,9 +499,10 @@ export const INITIAL_DATA = {
       "id": 47,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 260,
       "buyPrice": 40,
       "supplyPrice": 57.2
     },
@@ -464,9 +510,10 @@ export const INITIAL_DATA = {
       "id": 48,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 43,
+      "hotel": "SEAPHORİA",
+      "adet": 1000,
       "buyPrice": 50,
       "supplyPrice": 220
     },
@@ -474,9 +521,10 @@ export const INITIAL_DATA = {
       "id": 49,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 116,
+      "hotel": "SEAPHORİA",
+      "adet": 450,
       "buyPrice": 70,
       "supplyPrice": 99
     },
@@ -484,9 +532,10 @@ export const INITIAL_DATA = {
       "id": 50,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
       "buyPrice": 35,
       "supplyPrice": 44
     },
@@ -494,9 +543,10 @@ export const INITIAL_DATA = {
       "id": 51,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 13,
+      "hotel": "SEAPHORİA",
+      "adet": 250,
       "buyPrice": 40,
       "supplyPrice": 55
     },
@@ -504,9 +554,10 @@ export const INITIAL_DATA = {
       "id": 52,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 0,
       "buyPrice": 5,
       "supplyPrice": 0
     },
@@ -514,9 +565,10 @@ export const INITIAL_DATA = {
       "id": 53,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 65,
       "buyPrice": 5,
       "supplyPrice": 14.3
     },
@@ -524,9 +576,10 @@ export const INITIAL_DATA = {
       "id": 54,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 28,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 10,
       "supplyPrice": 24.2
     },
@@ -534,19 +587,43 @@ export const INITIAL_DATA = {
       "id": 55,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 26.4
+    },
+    {
+      "id": 56,
+      "date": "2026-04-28",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 210,
+      "buyPrice": 40,
+      "supplyPrice": 46.2
+    },
+    {
+      "id": 57,
+      "date": "2026-04-28",
+      "supplier": "ANTALYA HAL",
+      "product": "KABAK BAL DEKORLUK",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
+      "buyPrice": 40,
+      "supplyPrice": 77
     },
     {
       "id": 58,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 48,
+      "hotel": "SEAPHORİA",
+      "adet": 180,
       "buyPrice": 25,
       "supplyPrice": 39.6
     },
@@ -554,9 +631,10 @@ export const INITIAL_DATA = {
       "id": 59,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 25,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -564,9 +642,21 @@ export const INITIAL_DATA = {
       "id": 60,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "ELMA STARKING",
       "qty": 21,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
+      "buyPrice": 30,
+      "supplyPrice": 77
+    },
+    {
+      "id": 61,
+      "date": "2026-04-28",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
       "buyPrice": 30,
       "supplyPrice": 77
     },
@@ -574,19 +664,32 @@ export const INITIAL_DATA = {
       "id": 62,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
       "qty": 21,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
       "buyPrice": 30,
       "supplyPrice": 77
+    },
+    {
+      "id": 63,
+      "date": "2026-04-28",
+      "supplier": "ANTALYA HAL",
+      "product": "TURP KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
+      "buyPrice": 20,
+      "supplyPrice": 52.8
     },
     {
       "id": 64,
       "date": "2026-04-28",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "GREYFURT",
       "qty": 12,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 15,
       "supplyPrice": 28.6
     },
@@ -594,9 +697,10 @@ export const INITIAL_DATA = {
       "id": 65,
       "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 305,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 420,
       "buyPrice": 75,
       "supplyPrice": 75.6
     },
@@ -604,9 +708,10 @@ export const INITIAL_DATA = {
       "id": 66,
       "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 152,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
       "buyPrice": 17,
       "supplyPrice": 30.599999999999998
     },
@@ -614,9 +719,10 @@ export const INITIAL_DATA = {
       "id": 67,
       "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 131,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 23.4
     },
@@ -624,9 +730,10 @@ export const INITIAL_DATA = {
       "id": 68,
       "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
       "qty": 225,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 110,
       "buyPrice": 8,
       "supplyPrice": 19.8
     },
@@ -634,9 +741,10 @@ export const INITIAL_DATA = {
       "id": 69,
       "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 73,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 25,
       "supplyPrice": 19.8
     },
@@ -644,9 +752,10 @@ export const INITIAL_DATA = {
       "id": 70,
       "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 183,
+      "hotel": "AMBASSADOR",
+      "adet": 420,
       "buyPrice": 75,
       "supplyPrice": 75.6
     },
@@ -654,9 +763,10 @@ export const INITIAL_DATA = {
       "id": 71,
       "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 85,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 17,
       "supplyPrice": 30.599999999999998
     },
@@ -664,9 +774,10 @@ export const INITIAL_DATA = {
       "id": 72,
       "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 106,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 23.4
     },
@@ -674,9 +785,10 @@ export const INITIAL_DATA = {
       "id": 73,
       "date": "2026-04-29",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 145,
+      "hotel": "AMBASSADOR",
+      "adet": 145,
       "buyPrice": 8,
       "supplyPrice": 26.099999999999998
     },
@@ -684,9 +796,10 @@ export const INITIAL_DATA = {
       "id": 74,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 50,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
       "buyPrice": 10,
       "supplyPrice": 30.599999999999998
     },
@@ -694,9 +807,10 @@ export const INITIAL_DATA = {
       "id": 75,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
       "qty": 148,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 110,
       "buyPrice": 12,
       "supplyPrice": 19.8
     },
@@ -704,9 +818,10 @@ export const INITIAL_DATA = {
       "id": 76,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 171,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
       "buyPrice": 12,
       "supplyPrice": 27
     },
@@ -714,9 +829,10 @@ export const INITIAL_DATA = {
       "id": 77,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES CHERRY",
       "qty": 158,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 750,
       "buyPrice": 25,
       "supplyPrice": 135
     },
@@ -724,9 +840,10 @@ export const INITIAL_DATA = {
       "id": 78,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
       "qty": 202,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 110,
       "buyPrice": 5,
       "supplyPrice": 19.8
     },
@@ -734,9 +851,10 @@ export const INITIAL_DATA = {
       "id": 79,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 140,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
       "buyPrice": 5,
       "supplyPrice": 30.599999999999998
     },
@@ -744,9 +862,10 @@ export const INITIAL_DATA = {
       "id": 80,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 118,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 420,
       "buyPrice": 40,
       "supplyPrice": 75.6
     },
@@ -754,9 +873,10 @@ export const INITIAL_DATA = {
       "id": 81,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER DOLMA",
       "qty": 22,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 200,
       "buyPrice": 10,
       "supplyPrice": 36
     },
@@ -764,9 +884,10 @@ export const INITIAL_DATA = {
       "id": 82,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES PEMBE",
       "qty": 39,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 440,
       "buyPrice": 20,
       "supplyPrice": 79.2
     },
@@ -774,9 +895,10 @@ export const INITIAL_DATA = {
       "id": 83,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
       "qty": 60,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 770,
       "buyPrice": 80,
       "supplyPrice": 138.6
     },
@@ -784,9 +906,10 @@ export const INITIAL_DATA = {
       "id": 84,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 80,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 420,
       "buyPrice": 1,
       "supplyPrice": 75.6
     },
@@ -794,9 +917,10 @@ export const INITIAL_DATA = {
       "id": 85,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 10,
       "supplyPrice": 30.599999999999998
     },
@@ -804,9 +928,10 @@ export const INITIAL_DATA = {
       "id": 86,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 63,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 12,
       "supplyPrice": 19.8
     },
@@ -814,9 +939,10 @@ export const INITIAL_DATA = {
       "id": 87,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 28,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 12,
       "supplyPrice": 27
     },
@@ -824,9 +950,10 @@ export const INITIAL_DATA = {
       "id": 88,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES CHERRY",
       "qty": 50,
+      "hotel": "AMBASSADOR",
+      "adet": 750,
       "buyPrice": 25,
       "supplyPrice": 135
     },
@@ -834,9 +961,10 @@ export const INITIAL_DATA = {
       "id": 89,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 41,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 5,
       "supplyPrice": 19.8
     },
@@ -844,9 +972,10 @@ export const INITIAL_DATA = {
       "id": 90,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 77,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 5,
       "supplyPrice": 30.599999999999998
     },
@@ -854,19 +983,32 @@ export const INITIAL_DATA = {
       "id": 91,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 92,
+      "hotel": "AMBASSADOR",
+      "adet": 420,
       "buyPrice": 40,
       "supplyPrice": 75.6
+    },
+    {
+      "id": 92,
+      "date": "2026-05-04",
+      "supplier": "KUMLUCA HAL",
+      "product": "BİBER DOLMA",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 200,
+      "buyPrice": 10,
+      "supplyPrice": 36
     },
     {
       "id": 93,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES PEMBE",
       "qty": 23,
+      "hotel": "AMBASSADOR",
+      "adet": 440,
       "buyPrice": 20,
       "supplyPrice": 79.2
     },
@@ -874,9 +1016,10 @@ export const INITIAL_DATA = {
       "id": 94,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
       "qty": 35,
+      "hotel": "AMBASSADOR",
+      "adet": 770,
       "buyPrice": 80,
       "supplyPrice": 138.6
     },
@@ -884,9 +1027,10 @@ export const INITIAL_DATA = {
       "id": 95,
       "date": "2026-05-04",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 120,
+      "hotel": "AMBASSADOR",
+      "adet": 420,
       "buyPrice": 1,
       "supplyPrice": 75.6
     },
@@ -894,9 +1038,10 @@ export const INITIAL_DATA = {
       "id": 96,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES PEMBE",
       "qty": 74,
+      "hotel": "SEAPHORİA",
+      "adet": 480,
       "buyPrice": 75,
       "supplyPrice": 105.6
     },
@@ -904,9 +1049,10 @@ export const INITIAL_DATA = {
       "id": 97,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 88,
+      "hotel": "SEAPHORİA",
+      "adet": 460,
       "buyPrice": 30,
       "supplyPrice": 101.2
     },
@@ -914,9 +1060,10 @@ export const INITIAL_DATA = {
       "id": 98,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 22,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 10,
       "supplyPrice": 33
     },
@@ -924,9 +1071,10 @@ export const INITIAL_DATA = {
       "id": 99,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 58,
+      "hotel": "SEAPHORİA",
+      "adet": 740,
       "buyPrice": 25,
       "supplyPrice": 162.8
     },
@@ -934,9 +1082,10 @@ export const INITIAL_DATA = {
       "id": 100,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 47,
+      "hotel": "SEAPHORİA",
+      "adet": 290,
       "buyPrice": 30,
       "supplyPrice": 63.8
     },
@@ -944,9 +1093,10 @@ export const INITIAL_DATA = {
       "id": 101,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "ELMA STARKING",
       "qty": 31,
+      "hotel": "SEAPHORİA",
+      "adet": 330,
       "buyPrice": 30,
       "supplyPrice": 72.6
     },
@@ -954,9 +1104,10 @@ export const INITIAL_DATA = {
       "id": 102,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 11,
       "supplyPrice": 30.8
     },
@@ -964,9 +1115,10 @@ export const INITIAL_DATA = {
       "id": 103,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 77,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 24.2
     },
@@ -974,9 +1126,10 @@ export const INITIAL_DATA = {
       "id": 104,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 15,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 12,
       "supplyPrice": 24.2
     },
@@ -984,9 +1137,10 @@ export const INITIAL_DATA = {
       "id": 105,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 0,
       "supplyPrice": 15.4
     },
@@ -994,9 +1148,10 @@ export const INITIAL_DATA = {
       "id": 106,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 98,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 5,
       "supplyPrice": 22
     },
@@ -1004,9 +1159,10 @@ export const INITIAL_DATA = {
       "id": 107,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 25,
       "supplyPrice": 37.4
     },
@@ -1014,9 +1170,10 @@ export const INITIAL_DATA = {
       "id": 108,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 60,
+      "hotel": "SEAPHORİA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -1024,9 +1181,10 @@ export const INITIAL_DATA = {
       "id": 109,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -1034,9 +1192,10 @@ export const INITIAL_DATA = {
       "id": 110,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 24,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 37.4
     },
@@ -1044,9 +1203,10 @@ export const INITIAL_DATA = {
       "id": 111,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 12,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 52.8
     },
@@ -1054,9 +1214,10 @@ export const INITIAL_DATA = {
       "id": 112,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 12,
       "supplyPrice": 15.4
     },
@@ -1064,9 +1225,10 @@ export const INITIAL_DATA = {
       "id": 113,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -1074,9 +1236,10 @@ export const INITIAL_DATA = {
       "id": 114,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 6,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 35,
       "supplyPrice": 33
     },
@@ -1084,9 +1247,10 @@ export const INITIAL_DATA = {
       "id": 115,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 17.6
     },
@@ -1094,9 +1258,10 @@ export const INITIAL_DATA = {
       "id": 116,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 9,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -1104,9 +1269,10 @@ export const INITIAL_DATA = {
       "id": 117,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 42,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -1114,9 +1280,10 @@ export const INITIAL_DATA = {
       "id": 118,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 9,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
       "buyPrice": 15,
       "supplyPrice": 44
     },
@@ -1124,9 +1291,10 @@ export const INITIAL_DATA = {
       "id": 119,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
       "qty": 11,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 20,
       "supplyPrice": 24.2
     },
@@ -1134,9 +1302,10 @@ export const INITIAL_DATA = {
       "id": 120,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
       "qty": 21,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 26.4
     },
@@ -1144,9 +1313,10 @@ export const INITIAL_DATA = {
       "id": 121,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 110,
+      "hotel": "SEAPHORİA",
+      "adet": 90,
       "buyPrice": 15,
       "supplyPrice": 19.8
     },
@@ -1154,9 +1324,10 @@ export const INITIAL_DATA = {
       "id": 122,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 180,
       "buyPrice": 50,
       "supplyPrice": 39.6
     },
@@ -1164,9 +1335,10 @@ export const INITIAL_DATA = {
       "id": 123,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
       "qty": 6,
+      "hotel": "SEAPHORİA",
+      "adet": 400,
       "buyPrice": 40,
       "supplyPrice": 88
     },
@@ -1174,9 +1346,10 @@ export const INITIAL_DATA = {
       "id": 124,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES PEMBE",
       "qty": 232,
+      "hotel": "CASAFORA",
+      "adet": 480,
       "buyPrice": 75,
       "supplyPrice": 105.6
     },
@@ -1184,9 +1357,10 @@ export const INITIAL_DATA = {
       "id": 125,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 247,
+      "hotel": "CASAFORA",
+      "adet": 460,
       "buyPrice": 30,
       "supplyPrice": 101.2
     },
@@ -1194,9 +1368,10 @@ export const INITIAL_DATA = {
       "id": 126,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 10,
       "supplyPrice": 33
     },
@@ -1204,9 +1379,10 @@ export const INITIAL_DATA = {
       "id": 127,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
       "qty": 128,
+      "hotel": "CASAFORA",
+      "adet": 740,
       "buyPrice": 25,
       "supplyPrice": 162.8
     },
@@ -1214,9 +1390,10 @@ export const INITIAL_DATA = {
       "id": 128,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 43,
+      "hotel": "CASAFORA",
+      "adet": 290,
       "buyPrice": 30,
       "supplyPrice": 63.8
     },
@@ -1224,9 +1401,10 @@ export const INITIAL_DATA = {
       "id": 129,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "ELMA STARKING",
       "qty": 10,
+      "hotel": "CASAFORA",
+      "adet": 330,
       "buyPrice": 30,
       "supplyPrice": 72.6
     },
@@ -1234,9 +1412,10 @@ export const INITIAL_DATA = {
       "id": 130,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 79,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 11,
       "supplyPrice": 30.8
     },
@@ -1244,9 +1423,10 @@ export const INITIAL_DATA = {
       "id": 131,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 69,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 24.2
     },
@@ -1254,19 +1434,32 @@ export const INITIAL_DATA = {
       "id": 132,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 12,
       "supplyPrice": 24.2
+    },
+    {
+      "id": 133,
+      "date": "2026-05-05",
+      "supplier": "ANTALYA HAL",
+      "product": "SOĞAN KURU",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 70,
+      "buyPrice": 0,
+      "supplyPrice": 15.4
     },
     {
       "id": 134,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 117,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 5,
       "supplyPrice": 22
     },
@@ -1274,9 +1467,10 @@ export const INITIAL_DATA = {
       "id": 135,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 36,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 25,
       "supplyPrice": 37.4
     },
@@ -1284,9 +1478,10 @@ export const INITIAL_DATA = {
       "id": 136,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -1294,9 +1489,10 @@ export const INITIAL_DATA = {
       "id": 137,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -1304,9 +1500,10 @@ export const INITIAL_DATA = {
       "id": 138,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 30,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 37.4
     },
@@ -1314,9 +1511,10 @@ export const INITIAL_DATA = {
       "id": 139,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "LOLOROSSO",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 52.8
     },
@@ -1324,9 +1522,10 @@ export const INITIAL_DATA = {
       "id": 140,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 12,
       "supplyPrice": 15.4
     },
@@ -1334,9 +1533,10 @@ export const INITIAL_DATA = {
       "id": 141,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -1344,9 +1544,10 @@ export const INITIAL_DATA = {
       "id": 142,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
       "qty": 30,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 35,
       "supplyPrice": 33
     },
@@ -1354,9 +1555,10 @@ export const INITIAL_DATA = {
       "id": 143,
       "date": "2026-05-05",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 17.6
     },
@@ -1364,9 +1566,10 @@ export const INITIAL_DATA = {
       "id": 144,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 365,
+      "hotel": "CASAFORA",
+      "adet": 420,
       "buyPrice": 43,
       "supplyPrice": 92.4
     },
@@ -1374,9 +1577,10 @@ export const INITIAL_DATA = {
       "id": 145,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
       "qty": 128,
+      "hotel": "CASAFORA",
+      "adet": 670,
       "buyPrice": 24,
       "supplyPrice": 147.4
     },
@@ -1384,9 +1588,10 @@ export const INITIAL_DATA = {
       "id": 146,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 39,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 10,
       "supplyPrice": 37.4
     },
@@ -1394,9 +1599,10 @@ export const INITIAL_DATA = {
       "id": 147,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 13,
+      "hotel": "CASAFORA",
+      "adet": 770,
       "buyPrice": 80,
       "supplyPrice": 169.4
     },
@@ -1404,9 +1610,10 @@ export const INITIAL_DATA = {
       "id": 148,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 162,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 9,
       "supplyPrice": 24.2
     },
@@ -1414,9 +1621,10 @@ export const INITIAL_DATA = {
       "id": 149,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
       "qty": 27,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 5,
       "supplyPrice": 37.4
     },
@@ -1424,19 +1632,32 @@ export const INITIAL_DATA = {
       "id": 150,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 38,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 7,
       "supplyPrice": 28.6
+    },
+    {
+      "id": 151,
+      "date": "2026-05-11",
+      "supplier": "KUMLUCA HAL",
+      "product": "BİBER SİVRİ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 150,
+      "buyPrice": 5,
+      "supplyPrice": 33
     },
     {
       "id": 152,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 38,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 4,
       "supplyPrice": 24.2
     },
@@ -1444,9 +1665,10 @@ export const INITIAL_DATA = {
       "id": 153,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TURP JAPON",
       "qty": 14,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 45,
       "supplyPrice": 35.2
     },
@@ -1454,9 +1676,10 @@ export const INITIAL_DATA = {
       "id": 154,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LOLOROSSO",
       "qty": 32,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 35,
       "supplyPrice": 52.8
     },
@@ -1464,9 +1687,10 @@ export const INITIAL_DATA = {
       "id": 155,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 64,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -1474,9 +1698,10 @@ export const INITIAL_DATA = {
       "id": 156,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 15,
       "supplyPrice": 30.8
     },
@@ -1484,9 +1709,10 @@ export const INITIAL_DATA = {
       "id": 157,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -1494,9 +1720,10 @@ export const INITIAL_DATA = {
       "id": 158,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ÇİLEK",
       "qty": 2,
+      "hotel": "CASAFORA",
+      "adet": 500,
       "buyPrice": 50,
       "supplyPrice": 110
     },
@@ -1504,9 +1731,10 @@ export const INITIAL_DATA = {
       "id": 159,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
       "qty": 24,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 30,
       "supplyPrice": 30.8
     },
@@ -1514,9 +1742,10 @@ export const INITIAL_DATA = {
       "id": 160,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -1524,9 +1753,10 @@ export const INITIAL_DATA = {
       "id": 161,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 13,
       "supplyPrice": 15.4
     },
@@ -1534,9 +1764,10 @@ export const INITIAL_DATA = {
       "id": 162,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 150,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 9,
       "supplyPrice": 13.2
     },
@@ -1544,9 +1775,10 @@ export const INITIAL_DATA = {
       "id": 163,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -1554,9 +1786,10 @@ export const INITIAL_DATA = {
       "id": 164,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 8,
       "supplyPrice": 13.2
     },
@@ -1564,9 +1797,10 @@ export const INITIAL_DATA = {
       "id": 165,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 25,
       "supplyPrice": 28.6
     },
@@ -1574,9 +1808,10 @@ export const INITIAL_DATA = {
       "id": 166,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 19,
+      "hotel": "CASAFORA",
+      "adet": 340,
       "buyPrice": 100,
       "supplyPrice": 74.8
     },
@@ -1584,9 +1819,10 @@ export const INITIAL_DATA = {
       "id": 167,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
       "qty": 8,
+      "hotel": "CASAFORA",
+      "adet": 250,
       "buyPrice": 45,
       "supplyPrice": 55
     },
@@ -1594,9 +1830,10 @@ export const INITIAL_DATA = {
       "id": 168,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 111,
+      "hotel": "CASAFORA",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -1604,9 +1841,10 @@ export const INITIAL_DATA = {
       "id": 169,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 76,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -1614,9 +1852,10 @@ export const INITIAL_DATA = {
       "id": 170,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 57,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 30,
       "supplyPrice": 26.4
     },
@@ -1624,9 +1863,10 @@ export const INITIAL_DATA = {
       "id": 171,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "MANDALİNA PAKET",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 35,
       "supplyPrice": 35.2
     },
@@ -1634,9 +1874,10 @@ export const INITIAL_DATA = {
       "id": 172,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "NEKTARİN",
       "qty": 25,
+      "hotel": "CASAFORA",
+      "adet": 500,
       "buyPrice": 45,
       "supplyPrice": 110
     },
@@ -1644,9 +1885,10 @@ export const INITIAL_DATA = {
       "id": 173,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "KAYISI",
       "qty": 26,
+      "hotel": "CASAFORA",
+      "adet": 320,
       "buyPrice": 40,
       "supplyPrice": 70.4
     },
@@ -1654,9 +1896,10 @@ export const INITIAL_DATA = {
       "id": 174,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
       "qty": 65,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 60,
       "supplyPrice": 66
     },
@@ -1664,9 +1907,10 @@ export const INITIAL_DATA = {
       "id": 175,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 40,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -1674,9 +1918,10 @@ export const INITIAL_DATA = {
       "id": 176,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 146,
+      "hotel": "CASAFORA",
+      "adet": 320,
       "buyPrice": 25,
       "supplyPrice": 70.4
     },
@@ -1684,9 +1929,10 @@ export const INITIAL_DATA = {
       "id": 177,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 128,
+      "hotel": "SEAPHORİA",
+      "adet": 420,
       "buyPrice": 43,
       "supplyPrice": 92.4
     },
@@ -1694,9 +1940,10 @@ export const INITIAL_DATA = {
       "id": 178,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 23,
+      "hotel": "SEAPHORİA",
+      "adet": 670,
       "buyPrice": 24,
       "supplyPrice": 147.4
     },
@@ -1704,9 +1951,10 @@ export const INITIAL_DATA = {
       "id": 179,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 38,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 10,
       "supplyPrice": 37.4
     },
@@ -1714,9 +1962,10 @@ export const INITIAL_DATA = {
       "id": 180,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 14,
+      "hotel": "SEAPHORİA",
+      "adet": 770,
       "buyPrice": 80,
       "supplyPrice": 169.4
     },
@@ -1724,9 +1973,10 @@ export const INITIAL_DATA = {
       "id": 181,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 150,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 9,
       "supplyPrice": 24.2
     },
@@ -1734,9 +1984,10 @@ export const INITIAL_DATA = {
       "id": 182,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 28,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 5,
       "supplyPrice": 37.4
     },
@@ -1744,9 +1995,10 @@ export const INITIAL_DATA = {
       "id": 183,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 15,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 7,
       "supplyPrice": 28.6
     },
@@ -1754,9 +2006,10 @@ export const INITIAL_DATA = {
       "id": 184,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 16,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 5,
       "supplyPrice": 33
     },
@@ -1764,19 +2017,32 @@ export const INITIAL_DATA = {
       "id": 185,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 65,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 4,
       "supplyPrice": 24.2
+    },
+    {
+      "id": 186,
+      "date": "2026-05-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP JAPON",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
+      "buyPrice": 45,
+      "supplyPrice": 35.2
     },
     {
       "id": 187,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 16,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 35,
       "supplyPrice": 52.8
     },
@@ -1784,9 +2050,10 @@ export const INITIAL_DATA = {
       "id": 188,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 32,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -1794,9 +2061,10 @@ export const INITIAL_DATA = {
       "id": 189,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 15,
       "supplyPrice": 30.8
     },
@@ -1804,9 +2072,10 @@ export const INITIAL_DATA = {
       "id": 190,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
       "qty": 5,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -1814,9 +2083,10 @@ export const INITIAL_DATA = {
       "id": 191,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
       "qty": 2,
+      "hotel": "SEAPHORİA",
+      "adet": 500,
       "buyPrice": 50,
       "supplyPrice": 110
     },
@@ -1824,9 +2094,10 @@ export const INITIAL_DATA = {
       "id": 192,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 30,
       "supplyPrice": 30.8
     },
@@ -1834,9 +2105,10 @@ export const INITIAL_DATA = {
       "id": 193,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 60,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -1844,9 +2116,10 @@ export const INITIAL_DATA = {
       "id": 194,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 13,
       "supplyPrice": 15.4
     },
@@ -1854,9 +2127,10 @@ export const INITIAL_DATA = {
       "id": 195,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 60,
       "buyPrice": 9,
       "supplyPrice": 13.2
     },
@@ -1864,9 +2138,10 @@ export const INITIAL_DATA = {
       "id": 196,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -1874,9 +2149,10 @@ export const INITIAL_DATA = {
       "id": 197,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 60,
       "buyPrice": 8,
       "supplyPrice": 13.2
     },
@@ -1884,9 +2160,10 @@ export const INITIAL_DATA = {
       "id": 198,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 25,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 25,
       "supplyPrice": 28.6
     },
@@ -1894,19 +2171,32 @@ export const INITIAL_DATA = {
       "id": 199,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
       "qty": 21,
+      "hotel": "SEAPHORİA",
+      "adet": 340,
       "buyPrice": 100,
       "supplyPrice": 74.8
+    },
+    {
+      "id": 200,
+      "date": "2026-05-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 250,
+      "buyPrice": 45,
+      "supplyPrice": 55
     },
     {
       "id": 201,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 109,
+      "hotel": "SEAPHORİA",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -1914,9 +2204,10 @@ export const INITIAL_DATA = {
       "id": 202,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 79,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -1924,9 +2215,10 @@ export const INITIAL_DATA = {
       "id": 203,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 30,
       "supplyPrice": 26.4
     },
@@ -1934,9 +2226,10 @@ export const INITIAL_DATA = {
       "id": 204,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "MANDALİNA PAKET",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 35,
       "supplyPrice": 35.2
     },
@@ -1944,9 +2237,10 @@ export const INITIAL_DATA = {
       "id": 205,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
       "qty": 11,
+      "hotel": "SEAPHORİA",
+      "adet": 500,
       "buyPrice": 45,
       "supplyPrice": 110
     },
@@ -1954,9 +2248,10 @@ export const INITIAL_DATA = {
       "id": 206,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 10,
+      "hotel": "SEAPHORİA",
+      "adet": 320,
       "buyPrice": 40,
       "supplyPrice": 70.4
     },
@@ -1964,19 +2259,32 @@ export const INITIAL_DATA = {
       "id": 207,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
       "qty": 19,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
       "buyPrice": 60,
       "supplyPrice": 66
+    },
+    {
+      "id": 208,
+      "date": "2026-05-11",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 22
     },
     {
       "id": 209,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 55,
+      "hotel": "SEAPHORİA",
+      "adet": 320,
       "buyPrice": 25,
       "supplyPrice": 70.4
     },
@@ -1984,9 +2292,10 @@ export const INITIAL_DATA = {
       "id": 210,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ISPANAK",
       "qty": 11,
+      "hotel": "SEAPHORİA",
+      "adet": 210,
       "buyPrice": 40,
       "supplyPrice": 46.2
     },
@@ -1994,9 +2303,10 @@ export const INITIAL_DATA = {
       "id": 211,
       "date": "2026-05-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PIRASA",
       "qty": 10,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 40,
       "supplyPrice": 26.4
     },
@@ -2004,9 +2314,10 @@ export const INITIAL_DATA = {
       "id": 212,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "ELMA STARKING",
       "qty": 31,
+      "hotel": "SEAPHORİA",
+      "adet": 330,
       "buyPrice": 40,
       "supplyPrice": 72.6
     },
@@ -2014,9 +2325,10 @@ export const INITIAL_DATA = {
       "id": 213,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
       "qty": 24,
+      "hotel": "SEAPHORİA",
+      "adet": 340,
       "buyPrice": 40,
       "supplyPrice": 74.8
     },
@@ -2024,9 +2336,10 @@ export const INITIAL_DATA = {
       "id": 214,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "SEAPHORİA",
       "product": "GREYFURT",
       "qty": 22,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -2034,9 +2347,10 @@ export const INITIAL_DATA = {
       "id": 215,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 142,
+      "hotel": "AMBASSADOR",
+      "adet": 420,
       "buyPrice": 43,
       "supplyPrice": 75.6
     },
@@ -2044,9 +2358,10 @@ export const INITIAL_DATA = {
       "id": 216,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES CHERRY",
       "qty": 81,
+      "hotel": "AMBASSADOR",
+      "adet": 670,
       "buyPrice": 24,
       "supplyPrice": 120.6
     },
@@ -2054,9 +2369,10 @@ export const INITIAL_DATA = {
       "id": 217,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 59,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 10,
       "supplyPrice": 30.599999999999998
     },
@@ -2064,9 +2380,10 @@ export const INITIAL_DATA = {
       "id": 218,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
       "qty": 28,
+      "hotel": "AMBASSADOR",
+      "adet": 770,
       "buyPrice": 80,
       "supplyPrice": 138.6
     },
@@ -2074,9 +2391,10 @@ export const INITIAL_DATA = {
       "id": 219,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 127,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 9,
       "supplyPrice": 19.8
     },
@@ -2084,9 +2402,10 @@ export const INITIAL_DATA = {
       "id": 220,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER DOLMA",
       "qty": 50,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 5,
       "supplyPrice": 30.599999999999998
     },
@@ -2094,9 +2413,10 @@ export const INITIAL_DATA = {
       "id": 221,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 48,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 7,
       "supplyPrice": 23.4
     },
@@ -2104,9 +2424,10 @@ export const INITIAL_DATA = {
       "id": 222,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER SİVRİ",
       "qty": 14,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 5,
       "supplyPrice": 27
     },
@@ -2114,9 +2435,10 @@ export const INITIAL_DATA = {
       "id": 223,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 71,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 4,
       "supplyPrice": 19.8
     },
@@ -2124,9 +2446,10 @@ export const INITIAL_DATA = {
       "id": 224,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 150,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 420,
       "buyPrice": 43,
       "supplyPrice": 75.6
     },
@@ -2134,9 +2457,10 @@ export const INITIAL_DATA = {
       "id": 225,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES CHERRY",
       "qty": 88,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 670,
       "buyPrice": 24,
       "supplyPrice": 120.6
     },
@@ -2144,9 +2468,10 @@ export const INITIAL_DATA = {
       "id": 226,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
       "qty": 27,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 770,
       "buyPrice": 80,
       "supplyPrice": 138.6
     },
@@ -2154,9 +2479,10 @@ export const INITIAL_DATA = {
       "id": 227,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
       "qty": 21,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 110,
       "buyPrice": 9,
       "supplyPrice": 19.8
     },
@@ -2164,9 +2490,10 @@ export const INITIAL_DATA = {
       "id": 228,
       "date": "2026-05-11",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER DOLMA",
       "qty": 47,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
       "buyPrice": 5,
       "supplyPrice": 30.599999999999998
     },
@@ -2174,9 +2501,10 @@ export const INITIAL_DATA = {
       "id": 229,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MANDALİNA PAKET",
       "qty": 125,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 160,
       "buyPrice": 35,
       "supplyPrice": 28.799999999999997
     },
@@ -2184,9 +2512,10 @@ export const INITIAL_DATA = {
       "id": 230,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 27,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 500,
       "buyPrice": 45,
       "supplyPrice": 90
     },
@@ -2194,9 +2523,10 @@ export const INITIAL_DATA = {
       "id": 231,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 54,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 320,
       "buyPrice": 40,
       "supplyPrice": 57.599999999999994
     },
@@ -2204,9 +2534,10 @@ export const INITIAL_DATA = {
       "id": 232,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
       "qty": 53,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 300,
       "buyPrice": 60,
       "supplyPrice": 54
     },
@@ -2214,9 +2545,10 @@ export const INITIAL_DATA = {
       "id": 233,
       "date": "2026-05-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
       "qty": 20,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 500,
       "buyPrice": 50,
       "supplyPrice": 90
     },
@@ -2224,9 +2556,10 @@ export const INITIAL_DATA = {
       "id": 234,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 400,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 440,
       "buyPrice": 27,
       "supplyPrice": 79.2
     },
@@ -2234,9 +2567,10 @@ export const INITIAL_DATA = {
       "id": 235,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 174,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
       "buyPrice": 7,
       "supplyPrice": 27
     },
@@ -2244,9 +2578,10 @@ export const INITIAL_DATA = {
       "id": 236,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES CHERRY",
       "qty": 77,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 700,
       "buyPrice": 10,
       "supplyPrice": 126
     },
@@ -2254,9 +2589,10 @@ export const INITIAL_DATA = {
       "id": 237,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
       "qty": 46,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 900,
       "buyPrice": 80,
       "supplyPrice": 162
     },
@@ -2264,9 +2600,10 @@ export const INITIAL_DATA = {
       "id": 238,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
       "qty": 133,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
       "buyPrice": 9,
       "supplyPrice": 18
     },
@@ -2274,9 +2611,10 @@ export const INITIAL_DATA = {
       "id": 239,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
       "qty": 82,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
       "buyPrice": 5,
       "supplyPrice": 18
     },
@@ -2284,9 +2622,10 @@ export const INITIAL_DATA = {
       "id": 240,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 93,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 110,
       "buyPrice": 7,
       "supplyPrice": 19.8
     },
@@ -2294,9 +2633,10 @@ export const INITIAL_DATA = {
       "id": 241,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 275,
+      "hotel": "AMBASSADOR",
+      "adet": 440,
       "buyPrice": 27,
       "supplyPrice": 79.2
     },
@@ -2304,9 +2644,10 @@ export const INITIAL_DATA = {
       "id": 242,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 74,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 7,
       "supplyPrice": 27
     },
@@ -2314,9 +2655,10 @@ export const INITIAL_DATA = {
       "id": 243,
       "date": "2026-05-15",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
       "qty": 29,
+      "hotel": "AMBASSADOR",
+      "adet": 900,
       "buyPrice": 80,
       "supplyPrice": 162
     },
@@ -2324,9 +2666,10 @@ export const INITIAL_DATA = {
       "id": 244,
       "date": "2026-05-18",
       "supplier": "ÜRETİCİ",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 400,
+      "hotel": "CASAFORA",
+      "adet": 310,
       "buyPrice": 30,
       "supplyPrice": 68.2
     },
@@ -2334,9 +2677,10 @@ export const INITIAL_DATA = {
       "id": 245,
       "date": "2026-05-18",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
       "qty": 25,
+      "hotel": "CASAFORA",
+      "adet": 550,
       "buyPrice": 15,
       "supplyPrice": 121
     },
@@ -2344,9 +2688,10 @@ export const INITIAL_DATA = {
       "id": 246,
       "date": "2026-05-18",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 200,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 7,
       "supplyPrice": 24.2
     },
@@ -2354,9 +2699,10 @@ export const INITIAL_DATA = {
       "id": 247,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 196,
+      "hotel": "CASAFORA",
+      "adet": 84,
       "buyPrice": 9,
       "supplyPrice": 18.48
     },
@@ -2364,9 +2710,10 @@ export const INITIAL_DATA = {
       "id": 248,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 275,
+      "hotel": "CASAFORA",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -2374,9 +2721,10 @@ export const INITIAL_DATA = {
       "id": 249,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 15,
+      "hotel": "CASAFORA",
+      "adet": 880,
       "buyPrice": 120,
       "supplyPrice": 193.6
     },
@@ -2384,9 +2732,10 @@ export const INITIAL_DATA = {
       "id": 250,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 30,
       "supplyPrice": 26.4
     },
@@ -2394,9 +2743,10 @@ export const INITIAL_DATA = {
       "id": 251,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 17,
+      "hotel": "CASAFORA",
+      "adet": 360,
       "buyPrice": 100,
       "supplyPrice": 79.2
     },
@@ -2404,9 +2754,10 @@ export const INITIAL_DATA = {
       "id": 252,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 16,
+      "hotel": "CASAFORA",
+      "adet": 90,
       "buyPrice": 25,
       "supplyPrice": 19.8
     },
@@ -2414,9 +2765,10 @@ export const INITIAL_DATA = {
       "id": 253,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 70,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 30,
       "supplyPrice": 33
     },
@@ -2424,9 +2776,10 @@ export const INITIAL_DATA = {
       "id": 254,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -2434,9 +2787,10 @@ export const INITIAL_DATA = {
       "id": 255,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 16.5
     },
@@ -2444,9 +2798,10 @@ export const INITIAL_DATA = {
       "id": 256,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -2454,9 +2809,10 @@ export const INITIAL_DATA = {
       "id": 257,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 15.4
     },
@@ -2464,9 +2820,10 @@ export const INITIAL_DATA = {
       "id": 258,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 40,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 15.4
     },
@@ -2474,9 +2831,10 @@ export const INITIAL_DATA = {
       "id": 259,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
       "qty": 24,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 25,
       "supplyPrice": 28.6
     },
@@ -2484,9 +2842,10 @@ export const INITIAL_DATA = {
       "id": 260,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LOLOROSSO",
       "qty": 32,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
     },
@@ -2494,9 +2853,10 @@ export const INITIAL_DATA = {
       "id": 261,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 5,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 17.6
     },
@@ -2504,9 +2864,10 @@ export const INITIAL_DATA = {
       "id": 262,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ÇİLEK",
       "qty": 2,
+      "hotel": "CASAFORA",
+      "adet": 500,
       "buyPrice": 130,
       "supplyPrice": 110
     },
@@ -2514,9 +2875,10 @@ export const INITIAL_DATA = {
       "id": 263,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "KAYISI",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 320,
       "buyPrice": 50,
       "supplyPrice": 70.4
     },
@@ -2524,9 +2886,10 @@ export const INITIAL_DATA = {
       "id": 264,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SARIMSAK KURU",
       "qty": 19,
+      "hotel": "CASAFORA",
+      "adet": 580,
       "buyPrice": 110,
       "supplyPrice": 127.6
     },
@@ -2534,9 +2897,10 @@ export const INITIAL_DATA = {
       "id": 265,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 85,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -2544,9 +2908,10 @@ export const INITIAL_DATA = {
       "id": 266,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 25,
       "supplyPrice": 22
     },
@@ -2554,9 +2919,10 @@ export const INITIAL_DATA = {
       "id": 267,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
       "qty": 40,
+      "hotel": "CASAFORA",
+      "adet": 340,
       "buyPrice": 60,
       "supplyPrice": 74.8
     },
@@ -2564,9 +2930,10 @@ export const INITIAL_DATA = {
       "id": 268,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 27,
+      "hotel": "CASAFORA",
+      "adet": 330,
       "buyPrice": 70,
       "supplyPrice": 72.6
     },
@@ -2574,9 +2941,10 @@ export const INITIAL_DATA = {
       "id": 269,
       "date": "2026-05-18",
       "supplier": "ÜRETİCİ",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 160,
+      "hotel": "SEAPHORİA",
+      "adet": 310,
       "buyPrice": 30,
       "supplyPrice": 68.2
     },
@@ -2584,9 +2952,10 @@ export const INITIAL_DATA = {
       "id": 270,
       "date": "2026-05-18",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 125,
+      "hotel": "SEAPHORİA",
+      "adet": 550,
       "buyPrice": 15,
       "supplyPrice": 121
     },
@@ -2594,9 +2963,10 @@ export const INITIAL_DATA = {
       "id": 271,
       "date": "2026-05-18",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 125,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 7,
       "supplyPrice": 24.2
     },
@@ -2604,19 +2974,43 @@ export const INITIAL_DATA = {
       "id": 272,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 77,
+      "hotel": "SEAPHORİA",
+      "adet": 84,
       "buyPrice": 9,
       "supplyPrice": 18.48
+    },
+    {
+      "id": 273,
+      "date": "2026-05-18",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PATATES TAZE",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 0,
+      "buyPrice": 10,
+      "supplyPrice": 0
+    },
+    {
+      "id": 274,
+      "date": "2026-05-18",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER KAPYA",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 0,
+      "buyPrice": 120,
+      "supplyPrice": 0
     },
     {
       "id": 275,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 30,
       "supplyPrice": 26.4
     },
@@ -2624,9 +3018,10 @@ export const INITIAL_DATA = {
       "id": 276,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
       "qty": 15,
+      "hotel": "SEAPHORİA",
+      "adet": 360,
       "buyPrice": 100,
       "supplyPrice": 79.2
     },
@@ -2634,19 +3029,32 @@ export const INITIAL_DATA = {
       "id": 277,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 25,
+      "hotel": "SEAPHORİA",
+      "adet": 90,
       "buyPrice": 25,
       "supplyPrice": 19.8
+    },
+    {
+      "id": 278,
+      "date": "2026-05-18",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "HAVUÇ BEYPAZARI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
+      "buyPrice": 30,
+      "supplyPrice": 33
     },
     {
       "id": 279,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -2654,9 +3062,10 @@ export const INITIAL_DATA = {
       "id": 280,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 16.5
     },
@@ -2664,9 +3073,10 @@ export const INITIAL_DATA = {
       "id": 281,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -2674,9 +3084,10 @@ export const INITIAL_DATA = {
       "id": 282,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 15.4
     },
@@ -2684,9 +3095,10 @@ export const INITIAL_DATA = {
       "id": 283,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 15.4
     },
@@ -2694,9 +3106,10 @@ export const INITIAL_DATA = {
       "id": 284,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 25,
       "supplyPrice": 28.6
     },
@@ -2704,9 +3117,10 @@ export const INITIAL_DATA = {
       "id": 285,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 70,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
     },
@@ -2714,9 +3128,10 @@ export const INITIAL_DATA = {
       "id": 286,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 17.6
     },
@@ -2724,9 +3139,10 @@ export const INITIAL_DATA = {
       "id": 287,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
       "qty": 2,
+      "hotel": "SEAPHORİA",
+      "adet": 500,
       "buyPrice": 130,
       "supplyPrice": 110
     },
@@ -2734,19 +3150,32 @@ export const INITIAL_DATA = {
       "id": 288,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 21,
+      "hotel": "SEAPHORİA",
+      "adet": 320,
       "buyPrice": 50,
       "supplyPrice": 70.4
+    },
+    {
+      "id": 289,
+      "date": "2026-05-18",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SARIMSAK KURU",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 580,
+      "buyPrice": 110,
+      "supplyPrice": 127.6
     },
     {
       "id": 290,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -2754,9 +3183,10 @@ export const INITIAL_DATA = {
       "id": 291,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "GREYFURT",
       "qty": 60,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 25,
       "supplyPrice": 22
     },
@@ -2764,9 +3194,10 @@ export const INITIAL_DATA = {
       "id": 292,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
       "qty": 12,
+      "hotel": "SEAPHORİA",
+      "adet": 340,
       "buyPrice": 60,
       "supplyPrice": 74.8
     },
@@ -2774,9 +3205,10 @@ export const INITIAL_DATA = {
       "id": 293,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 60,
+      "hotel": "SEAPHORİA",
+      "adet": 330,
       "buyPrice": 70,
       "supplyPrice": 72.6
     },
@@ -2784,9 +3216,10 @@ export const INITIAL_DATA = {
       "id": 294,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 28,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
     },
@@ -2794,9 +3227,10 @@ export const INITIAL_DATA = {
       "id": 295,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 21,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
     },
@@ -2804,9 +3238,10 @@ export const INITIAL_DATA = {
       "id": 296,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
       "qty": 16,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 10,
       "supplyPrice": 22
     },
@@ -2814,9 +3249,10 @@ export const INITIAL_DATA = {
       "id": 297,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 26,
+      "hotel": "SEAPHORİA",
+      "adet": 90,
       "buyPrice": 6,
       "supplyPrice": 19.8
     },
@@ -2824,9 +3260,10 @@ export const INITIAL_DATA = {
       "id": 298,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 17,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 20,
       "supplyPrice": 24.2
     },
@@ -2834,9 +3271,10 @@ export const INITIAL_DATA = {
       "id": 299,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 23,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 20,
       "supplyPrice": 24.2
     },
@@ -2844,9 +3282,10 @@ export const INITIAL_DATA = {
       "id": 300,
       "date": "2026-05-18",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 40,
       "supplyPrice": 33
     },
@@ -2854,9 +3293,10 @@ export const INITIAL_DATA = {
       "id": 301,
       "date": "2026-05-18",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 310,
       "buyPrice": 40,
       "supplyPrice": 68.2
     },
@@ -2864,9 +3304,10 @@ export const INITIAL_DATA = {
       "id": 302,
       "date": "2026-05-18",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 167,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 370,
       "buyPrice": 15,
       "supplyPrice": 66.6
     },
@@ -2874,9 +3315,10 @@ export const INITIAL_DATA = {
       "id": 303,
       "date": "2026-05-18",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 85,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 57.599999999999994
     },
@@ -2884,9 +3326,10 @@ export const INITIAL_DATA = {
       "id": 304,
       "date": "2026-05-18",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 90,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 330,
       "buyPrice": 45,
       "supplyPrice": 59.4
     },
@@ -2894,9 +3337,10 @@ export const INITIAL_DATA = {
       "id": 305,
       "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 118,
+      "hotel": "AMBASSADOR",
+      "adet": 90,
       "buyPrice": 4,
       "supplyPrice": 16.2
     },
@@ -2904,9 +3348,10 @@ export const INITIAL_DATA = {
       "id": 306,
       "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES PEMBE",
       "qty": 212,
+      "hotel": "AMBASSADOR",
+      "adet": 255,
       "buyPrice": 25,
       "supplyPrice": 45.9
     },
@@ -2914,9 +3359,10 @@ export const INITIAL_DATA = {
       "id": 307,
       "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 53,
+      "hotel": "AMBASSADOR",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
     },
@@ -2924,9 +3370,10 @@ export const INITIAL_DATA = {
       "id": 308,
       "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 126,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 8,
       "supplyPrice": 19.8
     },
@@ -2934,9 +3381,10 @@ export const INITIAL_DATA = {
       "id": 309,
       "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 114,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 7,
       "supplyPrice": 23.4
     },
@@ -2944,9 +3392,10 @@ export const INITIAL_DATA = {
       "id": 310,
       "date": "2026-05-20",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
       "qty": 15,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 880,
       "buyPrice": 80,
       "supplyPrice": 158.4
     },
@@ -2954,9 +3403,10 @@ export const INITIAL_DATA = {
       "id": 311,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 236,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 0,
       "buyPrice": 15,
       "supplyPrice": 0
     },
@@ -2964,9 +3414,10 @@ export const INITIAL_DATA = {
       "id": 312,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES PEMBE",
       "qty": 279,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 0,
       "buyPrice": 25,
       "supplyPrice": 0
     },
@@ -2974,9 +3425,10 @@ export const INITIAL_DATA = {
       "id": 313,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES CHERRY",
       "qty": 185,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 0,
       "buyPrice": 20,
       "supplyPrice": 0
     },
@@ -2984,9 +3436,10 @@ export const INITIAL_DATA = {
       "id": 314,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 235,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 190,
       "buyPrice": 20,
       "supplyPrice": 34.199999999999996
     },
@@ -2994,19 +3447,32 @@ export const INITIAL_DATA = {
       "id": 315,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
       "qty": 94,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 750,
       "buyPrice": 70,
       "supplyPrice": 135
+    },
+    {
+      "id": 316,
+      "date": "2026-05-23",
+      "supplier": "KUMLUCA HAL",
+      "product": "BİBER SİVRİ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 110,
+      "buyPrice": 6,
+      "supplyPrice": 19.8
     },
     {
       "id": 317,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 92,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 19.8
     },
@@ -3014,9 +3480,10 @@ export const INITIAL_DATA = {
       "id": 318,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
       "qty": 504,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 21.599999999999998
     },
@@ -3024,9 +3491,10 @@ export const INITIAL_DATA = {
       "id": 319,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
       "qty": 121,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
     },
@@ -3034,9 +3502,10 @@ export const INITIAL_DATA = {
       "id": 320,
       "date": "2026-05-23",
       "supplier": "ÜRETİCİ",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 182,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 18
     },
@@ -3044,9 +3513,10 @@ export const INITIAL_DATA = {
       "id": 321,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAVUN",
       "qty": 250,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 210,
       "buyPrice": 25,
       "supplyPrice": 37.8
     },
@@ -3054,9 +3524,10 @@ export const INITIAL_DATA = {
       "id": 322,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
       "qty": 125,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 43.199999999999996
     },
@@ -3064,9 +3535,10 @@ export const INITIAL_DATA = {
       "id": 323,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES PEMBE",
       "qty": 130,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 255,
       "buyPrice": 25,
       "supplyPrice": 45.9
     },
@@ -3074,9 +3546,10 @@ export const INITIAL_DATA = {
       "id": 324,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES CHERRY",
       "qty": 40,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 550,
       "buyPrice": 20,
       "supplyPrice": 99
     },
@@ -3084,9 +3557,10 @@ export const INITIAL_DATA = {
       "id": 325,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 215,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 190,
       "buyPrice": 20,
       "supplyPrice": 34.199999999999996
     },
@@ -3094,9 +3568,10 @@ export const INITIAL_DATA = {
       "id": 326,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "BİBER KAPYA",
       "qty": 36,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 750,
       "buyPrice": 70,
       "supplyPrice": 135
     },
@@ -3104,9 +3579,10 @@ export const INITIAL_DATA = {
       "id": 327,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "BİBER SİVRİ",
       "qty": 92,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 19.8
     },
@@ -3114,9 +3590,10 @@ export const INITIAL_DATA = {
       "id": 328,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "BİBER ÇARLİSTON",
       "qty": 53,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 19.8
     },
@@ -3124,9 +3601,10 @@ export const INITIAL_DATA = {
       "id": 329,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PATLICAN",
       "qty": 253,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 21.599999999999998
     },
@@ -3134,19 +3612,43 @@ export const INITIAL_DATA = {
       "id": 330,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KABAK SAKIZ",
       "qty": 120,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
+    },
+    {
+      "id": 331,
+      "date": "2026-05-23",
+      "supplier": "ÜRETİCİ",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 0,
+      "buyPrice": 20,
+      "supplyPrice": 0
+    },
+    {
+      "id": 332,
+      "date": "2026-05-23",
+      "supplier": "KUMLUCA HAL",
+      "product": "KAVUN",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 0,
+      "buyPrice": 25,
+      "supplyPrice": 0
     },
     {
       "id": 333,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "DOMATES",
       "qty": 25,
+      "hotel": "ASTORİA",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 43.199999999999996
     },
@@ -3154,9 +3656,10 @@ export const INITIAL_DATA = {
       "id": 334,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "DOMATES PEMBE",
       "qty": 60,
+      "hotel": "ASTORİA",
+      "adet": 0,
       "buyPrice": 25,
       "supplyPrice": 0
     },
@@ -3164,9 +3667,10 @@ export const INITIAL_DATA = {
       "id": 335,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "DOMATES CHERRY",
       "qty": 15,
+      "hotel": "ASTORİA",
+      "adet": 550,
       "buyPrice": 20,
       "supplyPrice": 99
     },
@@ -3174,9 +3678,10 @@ export const INITIAL_DATA = {
       "id": 336,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 55,
+      "hotel": "ASTORİA",
+      "adet": 190,
       "buyPrice": 20,
       "supplyPrice": 34.199999999999996
     },
@@ -3184,9 +3689,10 @@ export const INITIAL_DATA = {
       "id": 337,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "BİBER KAPYA",
       "qty": 13,
+      "hotel": "ASTORİA",
+      "adet": 750,
       "buyPrice": 70,
       "supplyPrice": 135
     },
@@ -3194,9 +3700,10 @@ export const INITIAL_DATA = {
       "id": 338,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "BİBER SİVRİ",
       "qty": 20,
+      "hotel": "ASTORİA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 19.8
     },
@@ -3204,9 +3711,10 @@ export const INITIAL_DATA = {
       "id": 339,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 25,
+      "hotel": "ASTORİA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 19.8
     },
@@ -3214,9 +3722,10 @@ export const INITIAL_DATA = {
       "id": 340,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "PATLICAN",
       "qty": 180,
+      "hotel": "ASTORİA",
+      "adet": 0,
       "buyPrice": 10,
       "supplyPrice": 0
     },
@@ -3224,9 +3733,10 @@ export const INITIAL_DATA = {
       "id": 341,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "KABAK SAKIZ",
       "qty": 40,
+      "hotel": "ASTORİA",
+      "adet": 0,
       "buyPrice": 10,
       "supplyPrice": 0
     },
@@ -3234,19 +3744,32 @@ export const INITIAL_DATA = {
       "id": 342,
       "date": "2026-05-23",
       "supplier": "ÜRETİCİ",
-      "hotel": "ASTORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 68,
+      "hotel": "ASTORİA",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 18
+    },
+    {
+      "id": 343,
+      "date": "2026-05-23",
+      "supplier": "KUMLUCA HAL",
+      "product": "KAVUN",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 210,
+      "buyPrice": 25,
+      "supplyPrice": 37.8
     },
     {
       "id": 344,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "DOMATES",
       "qty": 12,
+      "hotel": "STELLA",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 43.199999999999996
     },
@@ -3254,9 +3777,10 @@ export const INITIAL_DATA = {
       "id": 345,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "DOMATES PEMBE",
       "qty": 13,
+      "hotel": "STELLA",
+      "adet": 255,
       "buyPrice": 25,
       "supplyPrice": 45.9
     },
@@ -3264,9 +3788,10 @@ export const INITIAL_DATA = {
       "id": 346,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "DOMATES CHERRY",
       "qty": 5,
+      "hotel": "STELLA",
+      "adet": 550,
       "buyPrice": 20,
       "supplyPrice": 99
     },
@@ -3274,9 +3799,10 @@ export const INITIAL_DATA = {
       "id": 347,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 5,
+      "hotel": "STELLA",
+      "adet": 0,
       "buyPrice": 20,
       "supplyPrice": 0
     },
@@ -3284,9 +3810,10 @@ export const INITIAL_DATA = {
       "id": 348,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "BİBER KAPYA",
       "qty": 5,
+      "hotel": "STELLA",
+      "adet": 750,
       "buyPrice": 70,
       "supplyPrice": 135
     },
@@ -3294,9 +3821,10 @@ export const INITIAL_DATA = {
       "id": 349,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "BİBER SİVRİ",
       "qty": 10,
+      "hotel": "STELLA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 19.8
     },
@@ -3304,29 +3832,65 @@ export const INITIAL_DATA = {
       "id": 350,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "BİBER ÇARLİSTON",
       "qty": 10,
+      "hotel": "STELLA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 19.8
+    },
+    {
+      "id": 351,
+      "date": "2026-05-23",
+      "supplier": "KUMLUCA HAL",
+      "product": "PATLICAN",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 120,
+      "buyPrice": 10,
+      "supplyPrice": 21.599999999999998
+    },
+    {
+      "id": 352,
+      "date": "2026-05-23",
+      "supplier": "KUMLUCA HAL",
+      "product": "KABAK SAKIZ",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 90,
+      "buyPrice": 10,
+      "supplyPrice": 16.2
     },
     {
       "id": 353,
       "date": "2026-05-23",
       "supplier": "ÜRETİCİ",
-      "hotel": "STELLA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 55,
+      "hotel": "STELLA",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 18
+    },
+    {
+      "id": 354,
+      "date": "2026-05-23",
+      "supplier": "KUMLUCA HAL",
+      "product": "KAVUN",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 210,
+      "buyPrice": 25,
+      "supplyPrice": 37.8
     },
     {
       "id": 355,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 150,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 43.199999999999996
     },
@@ -3334,9 +3898,10 @@ export const INITIAL_DATA = {
       "id": 356,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES PEMBE",
       "qty": 305,
+      "hotel": "AMBASSADOR",
+      "adet": 255,
       "buyPrice": 25,
       "supplyPrice": 45.9
     },
@@ -3344,9 +3909,10 @@ export const INITIAL_DATA = {
       "id": 357,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES CHERRY",
       "qty": 45,
+      "hotel": "AMBASSADOR",
+      "adet": 550,
       "buyPrice": 20,
       "supplyPrice": 99
     },
@@ -3354,9 +3920,10 @@ export const INITIAL_DATA = {
       "id": 358,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 170,
+      "hotel": "AMBASSADOR",
+      "adet": 190,
       "buyPrice": 20,
       "supplyPrice": 34.199999999999996
     },
@@ -3364,9 +3931,10 @@ export const INITIAL_DATA = {
       "id": 359,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
       "qty": 87,
+      "hotel": "AMBASSADOR",
+      "adet": 0,
       "buyPrice": 70,
       "supplyPrice": 0
     },
@@ -3374,9 +3942,10 @@ export const INITIAL_DATA = {
       "id": 360,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER SİVRİ",
       "qty": 75,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 19.8
     },
@@ -3384,9 +3953,10 @@ export const INITIAL_DATA = {
       "id": 361,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 19.8
     },
@@ -3394,9 +3964,10 @@ export const INITIAL_DATA = {
       "id": 362,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 400,
+      "hotel": "AMBASSADOR",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 21.599999999999998
     },
@@ -3404,9 +3975,10 @@ export const INITIAL_DATA = {
       "id": 363,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 75,
+      "hotel": "AMBASSADOR",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
     },
@@ -3414,9 +3986,10 @@ export const INITIAL_DATA = {
       "id": 364,
       "date": "2026-05-23",
       "supplier": "ÜRETİCİ",
-      "hotel": "AMBASSADOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 287,
+      "hotel": "AMBASSADOR",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 18
     },
@@ -3424,9 +3997,10 @@ export const INITIAL_DATA = {
       "id": 365,
       "date": "2026-05-23",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAVUN",
       "qty": 215,
+      "hotel": "AMBASSADOR",
+      "adet": 210,
       "buyPrice": 25,
       "supplyPrice": 37.8
     },
@@ -3434,9 +4008,10 @@ export const INITIAL_DATA = {
       "id": 366,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 343,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 52.8
     },
@@ -3444,9 +4019,10 @@ export const INITIAL_DATA = {
       "id": 367,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES PEMBE",
       "qty": 235,
+      "hotel": "CASAFORA",
+      "adet": 255,
       "buyPrice": 25,
       "supplyPrice": 56.1
     },
@@ -3454,9 +4030,10 @@ export const INITIAL_DATA = {
       "id": 368,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 550,
       "buyPrice": 20,
       "supplyPrice": 121
     },
@@ -3464,9 +4041,10 @@ export const INITIAL_DATA = {
       "id": 369,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 187,
+      "hotel": "CASAFORA",
+      "adet": 190,
       "buyPrice": 20,
       "supplyPrice": 41.8
     },
@@ -3474,9 +4052,10 @@ export const INITIAL_DATA = {
       "id": 370,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 95,
+      "hotel": "CASAFORA",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -3484,9 +4063,10 @@ export const INITIAL_DATA = {
       "id": 371,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 135,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 24.2
     },
@@ -3494,9 +4074,10 @@ export const INITIAL_DATA = {
       "id": 372,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 40,
+      "hotel": "CASAFORA",
+      "adet": 750,
       "buyPrice": 60,
       "supplyPrice": 165
     },
@@ -3504,9 +4085,10 @@ export const INITIAL_DATA = {
       "id": 373,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 153,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 26.4
     },
@@ -3514,9 +4096,10 @@ export const INITIAL_DATA = {
       "id": 374,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
       "qty": 58,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 24.2
     },
@@ -3524,9 +4107,10 @@ export const INITIAL_DATA = {
       "id": 375,
       "date": "2026-05-24",
       "supplier": "ÜRETİCİ",
-      "hotel": "CASAFORA",
       "product": "PORTAKAL MEYVELİK PAKET",
       "qty": 210,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 30.8
     },
@@ -3534,9 +4118,10 @@ export const INITIAL_DATA = {
       "id": 376,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 52.8
     },
@@ -3544,9 +4129,10 @@ export const INITIAL_DATA = {
       "id": 377,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES PEMBE",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 255,
       "buyPrice": 25,
       "supplyPrice": 56.1
     },
@@ -3554,9 +4140,10 @@ export const INITIAL_DATA = {
       "id": 378,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 550,
       "buyPrice": 20,
       "supplyPrice": 121
     },
@@ -3564,9 +4151,10 @@ export const INITIAL_DATA = {
       "id": 379,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 110,
+      "hotel": "SEAPHORİA",
+      "adet": 190,
       "buyPrice": 20,
       "supplyPrice": 41.8
     },
@@ -3574,9 +4162,10 @@ export const INITIAL_DATA = {
       "id": 380,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 65,
+      "hotel": "SEAPHORİA",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -3584,9 +4173,10 @@ export const INITIAL_DATA = {
       "id": 381,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 24.2
     },
@@ -3594,9 +4184,10 @@ export const INITIAL_DATA = {
       "id": 382,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 15,
+      "hotel": "SEAPHORİA",
+      "adet": 750,
       "buyPrice": 60,
       "supplyPrice": 165
     },
@@ -3604,9 +4195,10 @@ export const INITIAL_DATA = {
       "id": 383,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 55,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 26.4
     },
@@ -3614,9 +4206,10 @@ export const INITIAL_DATA = {
       "id": 384,
       "date": "2026-05-24",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 25,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 6,
       "supplyPrice": 24.2
     },
@@ -3624,9 +4217,10 @@ export const INITIAL_DATA = {
       "id": 385,
       "date": "2026-05-24",
       "supplier": "ÜRETİCİ",
-      "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 84,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 22
     },
@@ -3634,9 +4228,10 @@ export const INITIAL_DATA = {
       "id": 386,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LOLOROSSO",
       "qty": 24,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
     },
@@ -3644,9 +4239,10 @@ export const INITIAL_DATA = {
       "id": 387,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
       "qty": 48,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 25,
       "supplyPrice": 28.6
     },
@@ -3654,9 +4250,10 @@ export const INITIAL_DATA = {
       "id": 388,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -3664,9 +4261,10 @@ export const INITIAL_DATA = {
       "id": 389,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TERE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 15.4
     },
@@ -3674,9 +4272,10 @@ export const INITIAL_DATA = {
       "id": 390,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 15.4
     },
@@ -3684,9 +4283,10 @@ export const INITIAL_DATA = {
       "id": 391,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 17.6
     },
@@ -3694,9 +4294,10 @@ export const INITIAL_DATA = {
       "id": 392,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 16.5
     },
@@ -3704,9 +4305,10 @@ export const INITIAL_DATA = {
       "id": 393,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -3714,9 +4316,10 @@ export const INITIAL_DATA = {
       "id": 394,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 35,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 30.8
     },
@@ -3724,9 +4327,10 @@ export const INITIAL_DATA = {
       "id": 395,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 35,
+      "hotel": "CASAFORA",
+      "adet": 0,
       "buyPrice": 20,
       "supplyPrice": 0
     },
@@ -3734,19 +4338,32 @@ export const INITIAL_DATA = {
       "id": 396,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 300,
+      "hotel": "CASAFORA",
+      "adet": 0,
       "buyPrice": 10,
       "supplyPrice": 0
+    },
+    {
+      "id": 397,
+      "date": "2026-05-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PATATES TAZE",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 22
     },
     {
       "id": 398,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 17.6
     },
@@ -3754,9 +4371,10 @@ export const INITIAL_DATA = {
       "id": 399,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 16.5
     },
@@ -3764,19 +4382,43 @@ export const INITIAL_DATA = {
       "id": 400,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
+    },
+    {
+      "id": 401,
+      "date": "2026-05-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 30.8
+    },
+    {
+      "id": 402,
+      "date": "2026-05-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 30.8
     },
     {
       "id": 403,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 84,
       "buyPrice": 10,
       "supplyPrice": 18.48
     },
@@ -3784,9 +4426,10 @@ export const INITIAL_DATA = {
       "id": 404,
       "date": "2026-05-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -3794,9 +4437,10 @@ export const INITIAL_DATA = {
       "id": 405,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
       "qty": 621,
+      "hotel": "CASAFORA",
+      "adet": 310,
       "buyPrice": 40,
       "supplyPrice": 68.2
     },
@@ -3804,9 +4448,10 @@ export const INITIAL_DATA = {
       "id": 406,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 235,
+      "hotel": "CASAFORA",
+      "adet": 360,
       "buyPrice": 60,
       "supplyPrice": 79.2
     },
@@ -3814,9 +4459,10 @@ export const INITIAL_DATA = {
       "id": 407,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 22
     },
@@ -3824,9 +4470,10 @@ export const INITIAL_DATA = {
       "id": 408,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
       "qty": 203,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 50,
       "supplyPrice": 66
     },
@@ -3834,9 +4481,10 @@ export const INITIAL_DATA = {
       "id": 409,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
       "qty": 278,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -3844,9 +4492,10 @@ export const INITIAL_DATA = {
       "id": 410,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
       "qty": 147,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 60,
       "supplyPrice": 77
     },
@@ -3854,9 +4503,10 @@ export const INITIAL_DATA = {
       "id": 411,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
       "qty": 321,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -3864,9 +4514,10 @@ export const INITIAL_DATA = {
       "id": 412,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "NEKTARİN",
       "qty": 345,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -3874,9 +4525,10 @@ export const INITIAL_DATA = {
       "id": 413,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
       "qty": 225,
+      "hotel": "SEAPHORİA",
+      "adet": 310,
       "buyPrice": 40,
       "supplyPrice": 68.2
     },
@@ -3884,9 +4536,10 @@ export const INITIAL_DATA = {
       "id": 414,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 106,
+      "hotel": "SEAPHORİA",
+      "adet": 360,
       "buyPrice": 60,
       "supplyPrice": 79.2
     },
@@ -3894,9 +4547,10 @@ export const INITIAL_DATA = {
       "id": 415,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "GREYFURT",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 22
     },
@@ -3904,9 +4558,10 @@ export const INITIAL_DATA = {
       "id": 416,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
       "qty": 72,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
       "buyPrice": 50,
       "supplyPrice": 66
     },
@@ -3914,9 +4569,10 @@ export const INITIAL_DATA = {
       "id": 417,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
       "qty": 102,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -3924,9 +4580,10 @@ export const INITIAL_DATA = {
       "id": 418,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
       "qty": 75,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
       "buyPrice": 60,
       "supplyPrice": 77
     },
@@ -3934,9 +4591,10 @@ export const INITIAL_DATA = {
       "id": 419,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
       "qty": 67,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -3944,9 +4602,10 @@ export const INITIAL_DATA = {
       "id": 420,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
       "qty": 138,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -3954,9 +4613,10 @@ export const INITIAL_DATA = {
       "id": 421,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 96,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 360,
       "buyPrice": 60,
       "supplyPrice": 79.2
     },
@@ -3964,9 +4624,10 @@ export const INITIAL_DATA = {
       "id": 422,
       "date": "2026-05-24",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
       "qty": 129,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 300,
       "buyPrice": 50,
       "supplyPrice": 66
     },
@@ -3974,9 +4635,10 @@ export const INITIAL_DATA = {
       "id": 423,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KAYISI",
       "qty": 112,
+      "hotel": "CASAFORA",
+      "adet": 330,
       "buyPrice": 40,
       "supplyPrice": 72.6
     },
@@ -3984,9 +4646,10 @@ export const INITIAL_DATA = {
       "id": 424,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ÇİLEK",
       "qty": 5,
+      "hotel": "CASAFORA",
+      "adet": 500,
       "buyPrice": 0,
       "supplyPrice": 110
     },
@@ -3994,9 +4657,10 @@ export const INITIAL_DATA = {
       "id": 425,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KIRMIZI",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 145,
       "buyPrice": 40,
       "supplyPrice": 31.9
     },
@@ -4004,9 +4668,10 @@ export const INITIAL_DATA = {
       "id": 426,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 166,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 14,
       "supplyPrice": 22
     },
@@ -4014,9 +4679,10 @@ export const INITIAL_DATA = {
       "id": 427,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 56,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 30,
       "supplyPrice": 30.8
     },
@@ -4024,9 +4690,10 @@ export const INITIAL_DATA = {
       "id": 428,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 16.5
     },
@@ -4034,9 +4701,10 @@ export const INITIAL_DATA = {
       "id": 429,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LOLOROSSO",
       "qty": 56,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 35,
       "supplyPrice": 52.8
     },
@@ -4044,9 +4712,10 @@ export const INITIAL_DATA = {
       "id": 430,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TERE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 12,
       "supplyPrice": 15.4
     },
@@ -4054,9 +4723,10 @@ export const INITIAL_DATA = {
       "id": 431,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -4064,9 +4734,10 @@ export const INITIAL_DATA = {
       "id": 432,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 56,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 30,
       "supplyPrice": 30.8
     },
@@ -4074,9 +4745,10 @@ export const INITIAL_DATA = {
       "id": 433,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
       "qty": 48,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 30,
       "supplyPrice": 28.6
     },
@@ -4084,9 +4756,10 @@ export const INITIAL_DATA = {
       "id": 434,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 12,
       "supplyPrice": 15.4
     },
@@ -4094,9 +4767,10 @@ export const INITIAL_DATA = {
       "id": 435,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 45,
+      "hotel": "CASAFORA",
+      "adet": 410,
       "buyPrice": 75,
       "supplyPrice": 90.2
     },
@@ -4104,9 +4778,10 @@ export const INITIAL_DATA = {
       "id": 436,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 200,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
     },
@@ -4114,9 +4789,10 @@ export const INITIAL_DATA = {
       "id": 437,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 45,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 40,
       "supplyPrice": 26.4
     },
@@ -4124,9 +4800,10 @@ export const INITIAL_DATA = {
       "id": 438,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 29,
+      "hotel": "CASAFORA",
+      "adet": 330,
       "buyPrice": 70,
       "supplyPrice": 72.6
     },
@@ -4134,9 +4811,10 @@ export const INITIAL_DATA = {
       "id": 439,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PIRASA",
       "qty": 35,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 40,
       "supplyPrice": 44
     },
@@ -4144,9 +4822,10 @@ export const INITIAL_DATA = {
       "id": 440,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TURP JAPON",
       "qty": 18,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 50,
       "supplyPrice": 26.4
     },
@@ -4154,9 +4833,10 @@ export const INITIAL_DATA = {
       "id": 441,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
       "qty": 36,
+      "hotel": "CASAFORA",
+      "adet": 250,
       "buyPrice": 45,
       "supplyPrice": 55
     },
@@ -4164,19 +4844,32 @@ export const INITIAL_DATA = {
       "id": 442,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 13,
       "supplyPrice": 18.7
+    },
+    {
+      "id": 443,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "ROKA",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 70,
+      "buyPrice": 8,
+      "supplyPrice": 15.4
     },
     {
       "id": 444,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 42,
+      "hotel": "SEAPHORİA",
+      "adet": 330,
       "buyPrice": 40,
       "supplyPrice": 72.6
     },
@@ -4184,19 +4877,43 @@ export const INITIAL_DATA = {
       "id": 445,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
       "qty": 5,
+      "hotel": "SEAPHORİA",
+      "adet": 500,
       "buyPrice": 0,
       "supplyPrice": 110
+    },
+    {
+      "id": 446,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SOĞAN KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 145,
+      "buyPrice": 40,
+      "supplyPrice": 31.9
+    },
+    {
+      "id": 447,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PATATES TAZE",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
+      "buyPrice": 14,
+      "supplyPrice": 22
     },
     {
       "id": 448,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 64,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 30,
       "supplyPrice": 30.8
     },
@@ -4204,9 +4921,10 @@ export const INITIAL_DATA = {
       "id": 449,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 250,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 16.5
     },
@@ -4214,19 +4932,32 @@ export const INITIAL_DATA = {
       "id": 450,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 32,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 35,
       "supplyPrice": 52.8
+    },
+    {
+      "id": 451,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TERE",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
+      "buyPrice": 12,
+      "supplyPrice": 15.4
     },
     {
       "id": 452,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 150,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -4234,29 +4965,120 @@ export const INITIAL_DATA = {
       "id": 453,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 64,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 30,
       "supplyPrice": 30.8
+    },
+    {
+      "id": 454,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
+      "buyPrice": 30,
+      "supplyPrice": 28.6
     },
     {
       "id": 455,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 150,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 12,
       "supplyPrice": 15.4
+    },
+    {
+      "id": 456,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MANTAR TAZE",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 410,
+      "buyPrice": 75,
+      "supplyPrice": 90.2
+    },
+    {
+      "id": 457,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "HAVUÇ BEYPAZARI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
+      "buyPrice": 25,
+      "supplyPrice": 30.8
+    },
+    {
+      "id": 458,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA BEYAZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
+      "buyPrice": 40,
+      "supplyPrice": 26.4
+    },
+    {
+      "id": 459,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 330,
+      "buyPrice": 70,
+      "supplyPrice": 72.6
+    },
+    {
+      "id": 460,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PIRASA",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
+      "buyPrice": 40,
+      "supplyPrice": 44
+    },
+    {
+      "id": 461,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP JAPON",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
+      "buyPrice": 50,
+      "supplyPrice": 26.4
+    },
+    {
+      "id": 462,
+      "date": "2026-05-25",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 250,
+      "buyPrice": 45,
+      "supplyPrice": 55
     },
     {
       "id": 463,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 13,
       "supplyPrice": 18.7
     },
@@ -4264,9 +5086,10 @@ export const INITIAL_DATA = {
       "id": 464,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 200,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 15.4
     },
@@ -4274,9 +5097,10 @@ export const INITIAL_DATA = {
       "id": 465,
       "date": "2026-05-25",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -4284,9 +5108,10 @@ export const INITIAL_DATA = {
       "id": 466,
       "date": "2026-05-25",
       "supplier": "ÜRETİCİ",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 880,
+      "hotel": "CASAFORA",
+      "adet": 195,
       "buyPrice": 20,
       "supplyPrice": 42.9
     },
@@ -4294,9 +5119,10 @@ export const INITIAL_DATA = {
       "id": 467,
       "date": "2026-05-25",
       "supplier": "ÜRETİCİ",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 290,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 195,
       "buyPrice": 20,
       "supplyPrice": 35.1
     },
@@ -4304,9 +5130,10 @@ export const INITIAL_DATA = {
       "id": 468,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 710,
+      "hotel": "CASAFORA",
+      "adet": 195,
       "buyPrice": 10,
       "supplyPrice": 42.9
     },
@@ -4314,9 +5141,10 @@ export const INITIAL_DATA = {
       "id": 469,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 500,
+      "hotel": "CASAFORA",
+      "adet": 220,
       "buyPrice": 5,
       "supplyPrice": 48.4
     },
@@ -4324,9 +5152,10 @@ export const INITIAL_DATA = {
       "id": 470,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 375,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 26.4
     },
@@ -4334,9 +5163,10 @@ export const INITIAL_DATA = {
       "id": 471,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 110,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 10,
       "supplyPrice": 24.2
     },
@@ -4344,9 +5174,10 @@ export const INITIAL_DATA = {
       "id": 472,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 115,
+      "hotel": "CASAFORA",
+      "adet": 700,
       "buyPrice": 40,
       "supplyPrice": 154
     },
@@ -4354,9 +5185,10 @@ export const INITIAL_DATA = {
       "id": 473,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 200,
+      "hotel": "CASAFORA",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -4364,9 +5196,10 @@ export const INITIAL_DATA = {
       "id": 474,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 200,
+      "hotel": "SEAPHORİA",
+      "adet": 195,
       "buyPrice": 10,
       "supplyPrice": 42.9
     },
@@ -4374,9 +5207,10 @@ export const INITIAL_DATA = {
       "id": 475,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 235,
+      "hotel": "SEAPHORİA",
+      "adet": 220,
       "buyPrice": 5,
       "supplyPrice": 48.4
     },
@@ -4384,9 +5218,10 @@ export const INITIAL_DATA = {
       "id": 476,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 192,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 26.4
     },
@@ -4394,9 +5229,10 @@ export const INITIAL_DATA = {
       "id": 477,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 54,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 10,
       "supplyPrice": 24.2
     },
@@ -4404,9 +5240,10 @@ export const INITIAL_DATA = {
       "id": 478,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 60,
+      "hotel": "SEAPHORİA",
+      "adet": 700,
       "buyPrice": 40,
       "supplyPrice": 154
     },
@@ -4414,9 +5251,10 @@ export const INITIAL_DATA = {
       "id": 479,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 55,
+      "hotel": "SEAPHORİA",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -4424,9 +5262,10 @@ export const INITIAL_DATA = {
       "id": 480,
       "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 650,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 195,
       "buyPrice": 10,
       "supplyPrice": 35.1
     },
@@ -4434,9 +5273,10 @@ export const INITIAL_DATA = {
       "id": 481,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 257,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 220,
       "buyPrice": 5,
       "supplyPrice": 39.6
     },
@@ -4444,9 +5284,10 @@ export const INITIAL_DATA = {
       "id": 482,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PATLICAN",
       "qty": 679,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 120,
       "buyPrice": 8,
       "supplyPrice": 21.599999999999998
     },
@@ -4454,9 +5295,10 @@ export const INITIAL_DATA = {
       "id": 483,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 138,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 110,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -4464,9 +5306,10 @@ export const INITIAL_DATA = {
       "id": 484,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
       "qty": 170,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 700,
       "buyPrice": 40,
       "supplyPrice": 126
     },
@@ -4474,9 +5317,10 @@ export const INITIAL_DATA = {
       "id": 485,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER DOLMA",
       "qty": 44,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
       "buyPrice": 20,
       "supplyPrice": 27
     },
@@ -4484,9 +5328,10 @@ export const INITIAL_DATA = {
       "id": 486,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
       "qty": 70,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
     },
@@ -4494,9 +5339,10 @@ export const INITIAL_DATA = {
       "id": 487,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAVUN",
       "qty": 307,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 210,
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -4504,9 +5350,10 @@ export const INITIAL_DATA = {
       "id": 488,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 280,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 18
     },
@@ -4514,9 +5361,10 @@ export const INITIAL_DATA = {
       "id": 489,
       "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 303,
+      "hotel": "AMBASSADOR",
+      "adet": 195,
       "buyPrice": 10,
       "supplyPrice": 35.1
     },
@@ -4524,9 +5372,10 @@ export const INITIAL_DATA = {
       "id": 490,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 306,
+      "hotel": "AMBASSADOR",
+      "adet": 220,
       "buyPrice": 5,
       "supplyPrice": 39.6
     },
@@ -4534,9 +5383,10 @@ export const INITIAL_DATA = {
       "id": 491,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 135,
+      "hotel": "AMBASSADOR",
+      "adet": 120,
       "buyPrice": 8,
       "supplyPrice": 21.599999999999998
     },
@@ -4544,9 +5394,10 @@ export const INITIAL_DATA = {
       "id": 492,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 142,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -4554,9 +5405,10 @@ export const INITIAL_DATA = {
       "id": 493,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
       "qty": 56,
+      "hotel": "AMBASSADOR",
+      "adet": 700,
       "buyPrice": 40,
       "supplyPrice": 126
     },
@@ -4564,9 +5416,10 @@ export const INITIAL_DATA = {
       "id": 494,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER DOLMA",
       "qty": 52,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 20,
       "supplyPrice": 27
     },
@@ -4574,19 +5427,32 @@ export const INITIAL_DATA = {
       "id": 495,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 64,
+      "hotel": "AMBASSADOR",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
+    },
+    {
+      "id": 496,
+      "date": "2026-05-30",
+      "supplier": "KUMLUCA HAL",
+      "product": "KAVUN",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 210,
+      "buyPrice": 15,
+      "supplyPrice": 37.8
     },
     {
       "id": 497,
       "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
-      "hotel": "ASTORİA",
       "product": "DOMATES",
       "qty": 77,
+      "hotel": "ASTORİA",
+      "adet": 195,
       "buyPrice": 10,
       "supplyPrice": 35.1
     },
@@ -4594,9 +5460,10 @@ export const INITIAL_DATA = {
       "id": 498,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 78,
+      "hotel": "ASTORİA",
+      "adet": 220,
       "buyPrice": 5,
       "supplyPrice": 39.6
     },
@@ -4604,9 +5471,10 @@ export const INITIAL_DATA = {
       "id": 499,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "PATLICAN",
       "qty": 67,
+      "hotel": "ASTORİA",
+      "adet": 120,
       "buyPrice": 8,
       "supplyPrice": 21.599999999999998
     },
@@ -4614,9 +5482,10 @@ export const INITIAL_DATA = {
       "id": 500,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 27,
+      "hotel": "ASTORİA",
+      "adet": 110,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -4624,29 +5493,54 @@ export const INITIAL_DATA = {
       "id": 501,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "BİBER KAPYA",
       "qty": 23,
+      "hotel": "ASTORİA",
+      "adet": 700,
       "buyPrice": 40,
       "supplyPrice": 126
+    },
+    {
+      "id": 502,
+      "date": "2026-05-30",
+      "supplier": "KUMLUCA HAL",
+      "product": "BİBER DOLMA",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 150,
+      "buyPrice": 20,
+      "supplyPrice": 27
     },
     {
       "id": 503,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "ASTORİA",
       "product": "KABAK SAKIZ",
       "qty": 36,
+      "hotel": "ASTORİA",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
+    },
+    {
+      "id": 504,
+      "date": "2026-05-30",
+      "supplier": "KUMLUCA HAL",
+      "product": "KAVUN",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 210,
+      "buyPrice": 15,
+      "supplyPrice": 37.8
     },
     {
       "id": 505,
       "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
       "qty": 170,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 195,
       "buyPrice": 10,
       "supplyPrice": 35.1
     },
@@ -4654,9 +5548,10 @@ export const INITIAL_DATA = {
       "id": 506,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 160,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 220,
       "buyPrice": 5,
       "supplyPrice": 39.6
     },
@@ -4664,9 +5559,10 @@ export const INITIAL_DATA = {
       "id": 507,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PATLICAN",
       "qty": 77,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 120,
       "buyPrice": 8,
       "supplyPrice": 21.599999999999998
     },
@@ -4674,9 +5570,10 @@ export const INITIAL_DATA = {
       "id": 508,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "BİBER ÇARLİSTON",
       "qty": 81,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 110,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -4684,9 +5581,10 @@ export const INITIAL_DATA = {
       "id": 509,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "BİBER KAPYA",
       "qty": 56,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 700,
       "buyPrice": 40,
       "supplyPrice": 126
     },
@@ -4694,9 +5592,10 @@ export const INITIAL_DATA = {
       "id": 510,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "BİBER DOLMA",
       "qty": 24,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 150,
       "buyPrice": 20,
       "supplyPrice": 27
     },
@@ -4704,19 +5603,32 @@ export const INITIAL_DATA = {
       "id": 511,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KABAK SAKIZ",
       "qty": 82,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
+    },
+    {
+      "id": 512,
+      "date": "2026-05-30",
+      "supplier": "KUMLUCA HAL",
+      "product": "KAVUN",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 210,
+      "buyPrice": 15,
+      "supplyPrice": 37.8
     },
     {
       "id": 513,
       "date": "2026-05-30",
       "supplier": "ÜRETİCİ",
-      "hotel": "STELLA",
       "product": "DOMATES",
       "qty": 65,
+      "hotel": "STELLA",
+      "adet": 195,
       "buyPrice": 10,
       "supplyPrice": 35.1
     },
@@ -4724,9 +5636,10 @@ export const INITIAL_DATA = {
       "id": 514,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 40,
+      "hotel": "STELLA",
+      "adet": 220,
       "buyPrice": 5,
       "supplyPrice": 39.6
     },
@@ -4734,9 +5647,10 @@ export const INITIAL_DATA = {
       "id": 515,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "PATLICAN",
       "qty": 20,
+      "hotel": "STELLA",
+      "adet": 120,
       "buyPrice": 8,
       "supplyPrice": 21.599999999999998
     },
@@ -4744,9 +5658,10 @@ export const INITIAL_DATA = {
       "id": 516,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "BİBER ÇARLİSTON",
       "qty": 27,
+      "hotel": "STELLA",
+      "adet": 110,
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -4754,19 +5669,54 @@ export const INITIAL_DATA = {
       "id": 517,
       "date": "2026-05-30",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "BİBER KAPYA",
       "qty": 24,
+      "hotel": "STELLA",
+      "adet": 700,
       "buyPrice": 40,
       "supplyPrice": 126
+    },
+    {
+      "id": 518,
+      "date": "2026-05-30",
+      "supplier": "KUMLUCA HAL",
+      "product": "BİBER DOLMA",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 150,
+      "buyPrice": 20,
+      "supplyPrice": 27
+    },
+    {
+      "id": 519,
+      "date": "2026-05-30",
+      "supplier": "KUMLUCA HAL",
+      "product": "KABAK SAKIZ",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 90,
+      "buyPrice": 10,
+      "supplyPrice": 16.2
+    },
+    {
+      "id": 520,
+      "date": "2026-05-30",
+      "supplier": "KUMLUCA HAL",
+      "product": "KAVUN",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 210,
+      "buyPrice": 15,
+      "supplyPrice": 37.8
     },
     {
       "id": 521,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 106,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 40,
       "supplyPrice": 26.4
     },
@@ -4774,9 +5724,10 @@ export const INITIAL_DATA = {
       "id": 522,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 34,
+      "hotel": "CASAFORA",
+      "adet": 330,
       "buyPrice": 60,
       "supplyPrice": 72.6
     },
@@ -4784,9 +5735,10 @@ export const INITIAL_DATA = {
       "id": 523,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 101,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 35,
       "supplyPrice": 30.8
     },
@@ -4794,9 +5746,10 @@ export const INITIAL_DATA = {
       "id": 524,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 290,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 10,
       "supplyPrice": 28.6
     },
@@ -4804,9 +5757,10 @@ export const INITIAL_DATA = {
       "id": 525,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 324,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 12,
       "supplyPrice": 28.6
     },
@@ -4814,9 +5768,10 @@ export const INITIAL_DATA = {
       "id": 526,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 72,
+      "hotel": "CASAFORA",
+      "adet": 410,
       "buyPrice": 80,
       "supplyPrice": 90.2
     },
@@ -4824,9 +5779,10 @@ export const INITIAL_DATA = {
       "id": 527,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 105,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
     },
@@ -4834,9 +5790,10 @@ export const INITIAL_DATA = {
       "id": 528,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 70,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
     },
@@ -4844,9 +5801,10 @@ export const INITIAL_DATA = {
       "id": 529,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -4854,9 +5812,10 @@ export const INITIAL_DATA = {
       "id": 530,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 16.5
     },
@@ -4864,9 +5823,10 @@ export const INITIAL_DATA = {
       "id": 531,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 18.7
     },
@@ -4874,9 +5834,10 @@ export const INITIAL_DATA = {
       "id": 532,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 15.4
     },
@@ -4884,9 +5845,10 @@ export const INITIAL_DATA = {
       "id": 533,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -4894,9 +5856,10 @@ export const INITIAL_DATA = {
       "id": 534,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -4904,9 +5867,10 @@ export const INITIAL_DATA = {
       "id": 535,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
       "qty": 64,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 25,
       "supplyPrice": 28.6
     },
@@ -4914,9 +5878,10 @@ export const INITIAL_DATA = {
       "id": 536,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LOLOROSSO",
       "qty": 24,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
     },
@@ -4924,9 +5889,10 @@ export const INITIAL_DATA = {
       "id": 537,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SARIMSAK KURU",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 580,
       "buyPrice": 110,
       "supplyPrice": 127.6
     },
@@ -4934,9 +5900,10 @@ export const INITIAL_DATA = {
       "id": 538,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 244,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 22
     },
@@ -4944,9 +5911,10 @@ export const INITIAL_DATA = {
       "id": 539,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 133,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 20,
       "supplyPrice": 24.2
     },
@@ -4954,9 +5922,10 @@ export const INITIAL_DATA = {
       "id": 540,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 365,
+      "hotel": "CASAFORA",
+      "adet": 370,
       "buyPrice": 60,
       "supplyPrice": 81.4
     },
@@ -4964,9 +5933,10 @@ export const INITIAL_DATA = {
       "id": 541,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "NEKTARİN",
       "qty": 382,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -4974,9 +5944,10 @@ export const INITIAL_DATA = {
       "id": 542,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "KAYISI",
       "qty": 342,
+      "hotel": "CASAFORA",
+      "adet": 330,
       "buyPrice": 60,
       "supplyPrice": 72.6
     },
@@ -4984,9 +5955,10 @@ export const INITIAL_DATA = {
       "id": 543,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ÇİLEK",
       "qty": 112,
+      "hotel": "CASAFORA",
+      "adet": 500,
       "buyPrice": 80,
       "supplyPrice": 110
     },
@@ -4994,9 +5966,10 @@ export const INITIAL_DATA = {
       "id": 544,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
       "qty": 336,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 50,
       "supplyPrice": 66
     },
@@ -5004,9 +5977,10 @@ export const INITIAL_DATA = {
       "id": 545,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
       "qty": 234,
+      "hotel": "CASAFORA",
+      "adet": 368,
       "buyPrice": 80,
       "supplyPrice": 80.96
     },
@@ -5014,19 +5988,76 @@ export const INITIAL_DATA = {
       "id": 546,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
       "qty": 197,
+      "hotel": "CASAFORA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
+    },
+    {
+      "id": 547,
+      "date": "2026-05-30",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PIRASA",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 200,
+      "buyPrice": 40,
+      "supplyPrice": 44
+    },
+    {
+      "id": 548,
+      "date": "2026-05-30",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PANCAR KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 170,
+      "buyPrice": 60,
+      "supplyPrice": 37.4
+    },
+    {
+      "id": 549,
+      "date": "2026-05-30",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SOĞAN KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 145,
+      "buyPrice": 40,
+      "supplyPrice": 31.9
+    },
+    {
+      "id": 550,
+      "date": "2026-05-30",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PATATES BABY",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 150,
+      "buyPrice": 15,
+      "supplyPrice": 33
+    },
+    {
+      "id": 551,
+      "date": "2026-05-30",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP JAPON",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 120,
+      "buyPrice": 50,
+      "supplyPrice": 26.4
     },
     {
       "id": 552,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
       "qty": 27,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 40,
       "supplyPrice": 26.4
     },
@@ -5034,9 +6065,10 @@ export const INITIAL_DATA = {
       "id": 553,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
       "qty": 17,
+      "hotel": "SEAPHORİA",
+      "adet": 330,
       "buyPrice": 60,
       "supplyPrice": 72.6
     },
@@ -5044,9 +6076,10 @@ export const INITIAL_DATA = {
       "id": 554,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 35,
       "supplyPrice": 30.8
     },
@@ -5054,9 +6087,10 @@ export const INITIAL_DATA = {
       "id": 555,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 144,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 10,
       "supplyPrice": 28.6
     },
@@ -5064,9 +6098,10 @@ export const INITIAL_DATA = {
       "id": 556,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 166,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 12,
       "supplyPrice": 28.6
     },
@@ -5074,19 +6109,43 @@ export const INITIAL_DATA = {
       "id": 557,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
       "qty": 9,
+      "hotel": "SEAPHORİA",
+      "adet": 410,
       "buyPrice": 80,
       "supplyPrice": 90.2
+    },
+    {
+      "id": 558,
+      "date": "2026-05-30",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
+      "buyPrice": 25,
+      "supplyPrice": 30.8
+    },
+    {
+      "id": 559,
+      "date": "2026-05-30",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
+      "buyPrice": 25,
+      "supplyPrice": 30.8
     },
     {
       "id": 560,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -5094,9 +6153,10 @@ export const INITIAL_DATA = {
       "id": 561,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 16.5
     },
@@ -5104,9 +6164,10 @@ export const INITIAL_DATA = {
       "id": 562,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 18.7
     },
@@ -5114,19 +6175,32 @@ export const INITIAL_DATA = {
       "id": 563,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 10,
+      "supplyPrice": 15.4
+    },
+    {
+      "id": 564,
+      "date": "2026-05-30",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "ROKA",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
+      "buyPrice": 9,
       "supplyPrice": 15.4
     },
     {
       "id": 565,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -5134,19 +6208,32 @@ export const INITIAL_DATA = {
       "id": 566,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 36,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 25,
       "supplyPrice": 28.6
+    },
+    {
+      "id": 567,
+      "date": "2026-05-30",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
+      "buyPrice": 25,
+      "supplyPrice": 52.8
     },
     {
       "id": 568,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SARIMSAK KURU",
       "qty": 10,
+      "hotel": "SEAPHORİA",
+      "adet": 580,
       "buyPrice": 110,
       "supplyPrice": 127.6
     },
@@ -5154,19 +6241,32 @@ export const INITIAL_DATA = {
       "id": 569,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 179,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 22
+    },
+    {
+      "id": 570,
+      "date": "2026-05-30",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
+      "buyPrice": 20,
+      "supplyPrice": 24.2
     },
     {
       "id": 571,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 162,
+      "hotel": "SEAPHORİA",
+      "adet": 370,
       "buyPrice": 60,
       "supplyPrice": 81.4
     },
@@ -5174,9 +6274,10 @@ export const INITIAL_DATA = {
       "id": 572,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
       "qty": 61,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -5184,9 +6285,10 @@ export const INITIAL_DATA = {
       "id": 573,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 64,
+      "hotel": "SEAPHORİA",
+      "adet": 330,
       "buyPrice": 60,
       "supplyPrice": 72.6
     },
@@ -5194,9 +6296,10 @@ export const INITIAL_DATA = {
       "id": 574,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
       "qty": 17,
+      "hotel": "SEAPHORİA",
+      "adet": 500,
       "buyPrice": 80,
       "supplyPrice": 110
     },
@@ -5204,19 +6307,32 @@ export const INITIAL_DATA = {
       "id": 575,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
       "qty": 70,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
       "buyPrice": 50,
       "supplyPrice": 66
+    },
+    {
+      "id": 576,
+      "date": "2026-05-30",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 368,
+      "buyPrice": 80,
+      "supplyPrice": 80.96
     },
     {
       "id": 577,
       "date": "2026-05-30",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
       "qty": 61,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -5224,9 +6340,10 @@ export const INITIAL_DATA = {
       "id": 578,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PIRASA",
       "qty": 13,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
       "buyPrice": 40,
       "supplyPrice": 44
     },
@@ -5234,9 +6351,10 @@ export const INITIAL_DATA = {
       "id": 579,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
       "qty": 23,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 60,
       "supplyPrice": 37.4
     },
@@ -5244,9 +6362,10 @@ export const INITIAL_DATA = {
       "id": 580,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KIRMIZI",
       "qty": 16,
+      "hotel": "SEAPHORİA",
+      "adet": 145,
       "buyPrice": 40,
       "supplyPrice": 31.9
     },
@@ -5254,9 +6373,10 @@ export const INITIAL_DATA = {
       "id": 581,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES BABY",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -5264,9 +6384,10 @@ export const INITIAL_DATA = {
       "id": 582,
       "date": "2026-05-30",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "TURP JAPON",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 50,
       "supplyPrice": 26.4
     },
@@ -5274,9 +6395,10 @@ export const INITIAL_DATA = {
       "id": 583,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
     },
@@ -5284,9 +6406,10 @@ export const INITIAL_DATA = {
       "id": 584,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -5294,9 +6417,10 @@ export const INITIAL_DATA = {
       "id": 585,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 60,
       "buyPrice": 8,
       "supplyPrice": 13.2
     },
@@ -5304,9 +6428,10 @@ export const INITIAL_DATA = {
       "id": 586,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "TERE",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 12,
       "supplyPrice": 15.4
     },
@@ -5314,9 +6439,10 @@ export const INITIAL_DATA = {
       "id": 587,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -5324,9 +6450,10 @@ export const INITIAL_DATA = {
       "id": 588,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -5334,9 +6461,10 @@ export const INITIAL_DATA = {
       "id": 589,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 48,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -5344,9 +6472,10 @@ export const INITIAL_DATA = {
       "id": 590,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -5354,9 +6483,10 @@ export const INITIAL_DATA = {
       "id": 591,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -5364,9 +6494,10 @@ export const INITIAL_DATA = {
       "id": 592,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 15.4
     },
@@ -5374,9 +6505,10 @@ export const INITIAL_DATA = {
       "id": 593,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 10,
       "supplyPrice": 13.2
     },
@@ -5384,9 +6516,10 @@ export const INITIAL_DATA = {
       "id": 594,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 60,
       "buyPrice": 8,
       "supplyPrice": 13.2
     },
@@ -5394,9 +6527,10 @@ export const INITIAL_DATA = {
       "id": 595,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TERE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 12,
       "supplyPrice": 15.4
     },
@@ -5404,9 +6538,10 @@ export const INITIAL_DATA = {
       "id": 596,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -5414,9 +6549,10 @@ export const INITIAL_DATA = {
       "id": 597,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL ICEBERG",
       "qty": 24,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
     },
@@ -5424,9 +6560,10 @@ export const INITIAL_DATA = {
       "id": 598,
       "date": "2026-06-03",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 12,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -5434,9 +6571,10 @@ export const INITIAL_DATA = {
       "id": 599,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 500,
+      "hotel": "CASAFORA",
+      "adet": 420,
       "buyPrice": 10,
       "supplyPrice": 92.4
     },
@@ -5444,9 +6582,10 @@ export const INITIAL_DATA = {
       "id": 600,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 200,
+      "hotel": "SEAPHORİA",
+      "adet": 420,
       "buyPrice": 10,
       "supplyPrice": 92.4
     },
@@ -5454,9 +6593,10 @@ export const INITIAL_DATA = {
       "id": 601,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
       "qty": 150,
+      "hotel": "CASAFORA",
+      "adet": 670,
       "buyPrice": 10,
       "supplyPrice": 147.4
     },
@@ -5464,9 +6604,10 @@ export const INITIAL_DATA = {
       "id": 602,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 27,
+      "hotel": "SEAPHORİA",
+      "adet": 670,
       "buyPrice": 10,
       "supplyPrice": 147.4
     },
@@ -5474,9 +6615,10 @@ export const INITIAL_DATA = {
       "id": 603,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 320,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 5,
       "supplyPrice": 37.4
     },
@@ -5484,9 +6626,10 @@ export const INITIAL_DATA = {
       "id": 604,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 200,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 5,
       "supplyPrice": 37.4
     },
@@ -5494,9 +6637,10 @@ export const INITIAL_DATA = {
       "id": 605,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 5,
       "supplyPrice": 24.2
     },
@@ -5504,9 +6648,10 @@ export const INITIAL_DATA = {
       "id": 606,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 85,
+      "hotel": "CASAFORA",
+      "adet": 220,
       "buyPrice": 40,
       "supplyPrice": 48.4
     },
@@ -5514,9 +6659,10 @@ export const INITIAL_DATA = {
       "id": 607,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 22,
+      "hotel": "SEAPHORİA",
+      "adet": 220,
       "buyPrice": 40,
       "supplyPrice": 48.4
     },
@@ -5524,9 +6670,10 @@ export const INITIAL_DATA = {
       "id": 608,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
       "qty": 90,
+      "hotel": "CASAFORA",
+      "adet": 165,
       "buyPrice": 15,
       "supplyPrice": 36.3
     },
@@ -5534,9 +6681,10 @@ export const INITIAL_DATA = {
       "id": 609,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 165,
       "buyPrice": 15,
       "supplyPrice": 36.3
     },
@@ -5544,9 +6692,10 @@ export const INITIAL_DATA = {
       "id": 610,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 55,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 26.4
     },
@@ -5554,9 +6703,10 @@ export const INITIAL_DATA = {
       "id": 611,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 28,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 10,
       "supplyPrice": 26.4
     },
@@ -5564,9 +6714,10 @@ export const INITIAL_DATA = {
       "id": 612,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
       "qty": 55,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 10,
       "supplyPrice": 28.6
     },
@@ -5574,9 +6725,10 @@ export const INITIAL_DATA = {
       "id": 613,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "DOMATES",
       "qty": 85,
+      "hotel": "STELLA",
+      "adet": 150,
       "buyPrice": 10,
       "supplyPrice": 27
     },
@@ -5584,9 +6736,10 @@ export const INITIAL_DATA = {
       "id": 614,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 85,
+      "hotel": "STELLA",
+      "adet": 165,
       "buyPrice": 5,
       "supplyPrice": 29.7
     },
@@ -5594,9 +6747,10 @@ export const INITIAL_DATA = {
       "id": 615,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "KABAK SAKIZ",
       "qty": 40,
+      "hotel": "STELLA",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
     },
@@ -5604,9 +6758,10 @@ export const INITIAL_DATA = {
       "id": 616,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KABAK SAKIZ",
       "qty": 69,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
     },
@@ -5614,9 +6769,10 @@ export const INITIAL_DATA = {
       "id": 617,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KABAK SAKIZ",
       "qty": 74,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
     },
@@ -5624,9 +6780,10 @@ export const INITIAL_DATA = {
       "id": 618,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 74,
+      "hotel": "AMBASSADOR",
+      "adet": 90,
       "buyPrice": 10,
       "supplyPrice": 16.2
     },
@@ -5634,9 +6791,10 @@ export const INITIAL_DATA = {
       "id": 619,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "BİBER KAPYA",
       "qty": 35,
+      "hotel": "STELLA",
+      "adet": 220,
       "buyPrice": 40,
       "supplyPrice": 39.6
     },
@@ -5644,9 +6802,10 @@ export const INITIAL_DATA = {
       "id": 620,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "BİBER KAPYA",
       "qty": 28,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 0,
       "buyPrice": 40,
       "supplyPrice": 0
     },
@@ -5654,9 +6813,10 @@ export const INITIAL_DATA = {
       "id": 621,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER KAPYA",
       "qty": 45,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 220,
       "buyPrice": 40,
       "supplyPrice": 39.6
     },
@@ -5664,9 +6824,10 @@ export const INITIAL_DATA = {
       "id": 622,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
       "qty": 65,
+      "hotel": "AMBASSADOR",
+      "adet": 220,
       "buyPrice": 40,
       "supplyPrice": 39.6
     },
@@ -5674,9 +6835,10 @@ export const INITIAL_DATA = {
       "id": 623,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "STELLA",
       "product": "DOMATES CHERRY",
       "qty": 35,
+      "hotel": "STELLA",
+      "adet": 500,
       "buyPrice": 10,
       "supplyPrice": 90
     },
@@ -5684,9 +6846,10 @@ export const INITIAL_DATA = {
       "id": 624,
       "date": "2026-06-03",
       "supplier": "KUMLUCA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "BİBER SİVRİ",
       "qty": 50,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 130,
       "buyPrice": 10,
       "supplyPrice": 23.4
     },
@@ -5694,9 +6857,10 @@ export const INITIAL_DATA = {
       "id": 625,
       "date": "2026-06-03",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
       "qty": 200,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 0,
       "buyPrice": 50,
       "supplyPrice": 0
     },
@@ -5704,9 +6868,10 @@ export const INITIAL_DATA = {
       "id": 626,
       "date": "2026-06-03",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
       "qty": 3,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 0,
       "buyPrice": 0,
       "supplyPrice": 0
     },
@@ -5714,9 +6879,10 @@ export const INITIAL_DATA = {
       "id": 627,
       "date": "2026-06-06",
       "supplier": "ÜRETİCİ",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 150,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -5724,9 +6890,10 @@ export const INITIAL_DATA = {
       "id": 628,
       "date": "2026-06-06",
       "supplier": "ÜRETİCİ",
-      "hotel": "STELLA",
       "product": "DOMATES",
       "qty": 220,
+      "hotel": "STELLA",
+      "adet": 170,
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -5734,9 +6901,10 @@ export const INITIAL_DATA = {
       "id": 629,
       "date": "2026-06-06",
       "supplier": "ÜRETİCİ",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 275,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -5744,9 +6912,10 @@ export const INITIAL_DATA = {
       "id": 630,
       "date": "2026-06-06",
       "supplier": "ÜRETİCİ",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
       "qty": 520,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 170,
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -5754,9 +6923,10 @@ export const INITIAL_DATA = {
       "id": 631,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 58,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 255,
       "buyPrice": 40,
       "supplyPrice": 45.9
     },
@@ -5764,9 +6934,10 @@ export const INITIAL_DATA = {
       "id": 632,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 124,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 330,
       "buyPrice": 45,
       "supplyPrice": 59.4
     },
@@ -5774,9 +6945,10 @@ export const INITIAL_DATA = {
       "id": 633,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 81,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 345,
       "buyPrice": 60,
       "supplyPrice": 62.099999999999994
     },
@@ -5784,9 +6956,10 @@ export const INITIAL_DATA = {
       "id": 634,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 20,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 285,
       "buyPrice": 55,
       "supplyPrice": 51.3
     },
@@ -5794,9 +6967,10 @@ export const INITIAL_DATA = {
       "id": 635,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 45,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 210,
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -5804,9 +6978,10 @@ export const INITIAL_DATA = {
       "id": 636,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
       "qty": 46,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 110,
       "buyPrice": 30,
       "supplyPrice": 19.8
     },
@@ -5814,9 +6989,10 @@ export const INITIAL_DATA = {
       "id": 637,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA STARKING",
       "qty": 95,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 310,
       "buyPrice": 25,
       "supplyPrice": 55.8
     },
@@ -5824,9 +7000,10 @@ export const INITIAL_DATA = {
       "id": 638,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
       "qty": 22,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 400,
       "buyPrice": 75,
       "supplyPrice": 72
     },
@@ -5834,9 +7011,10 @@ export const INITIAL_DATA = {
       "id": 639,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 30,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 370,
       "buyPrice": 60,
       "supplyPrice": 66.6
     },
@@ -5844,9 +7022,10 @@ export const INITIAL_DATA = {
       "id": 640,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
       "qty": 37,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 450,
       "buyPrice": 40,
       "supplyPrice": 81
     },
@@ -5854,9 +7033,10 @@ export const INITIAL_DATA = {
       "id": 641,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 38,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
       "buyPrice": 35,
       "supplyPrice": 30.599999999999998
     },
@@ -5864,9 +7044,10 @@ export const INITIAL_DATA = {
       "id": 642,
       "date": "2026-06-08",
       "supplier": "ÜRETİCİ",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 650,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -5874,19 +7055,32 @@ export const INITIAL_DATA = {
       "id": 643,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
       "qty": 48,
+      "hotel": "AMBASSADOR",
+      "adet": 255,
       "buyPrice": 40,
       "supplyPrice": 45.9
+    },
+    {
+      "id": 644,
+      "date": "2026-06-08",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 330,
+      "buyPrice": 45,
+      "supplyPrice": 59.4
     },
     {
       "id": 645,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 45,
+      "hotel": "AMBASSADOR",
+      "adet": 345,
       "buyPrice": 60,
       "supplyPrice": 62.099999999999994
     },
@@ -5894,9 +7088,10 @@ export const INITIAL_DATA = {
       "id": 646,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 28,
+      "hotel": "AMBASSADOR",
+      "adet": 285,
       "buyPrice": 55,
       "supplyPrice": 51.3
     },
@@ -5904,9 +7099,10 @@ export const INITIAL_DATA = {
       "id": 647,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 140,
+      "hotel": "AMBASSADOR",
+      "adet": 210,
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -5914,9 +7110,10 @@ export const INITIAL_DATA = {
       "id": 648,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "GREYFURT",
       "qty": 32,
+      "hotel": "AMBASSADOR",
+      "adet": 110,
       "buyPrice": 30,
       "supplyPrice": 19.8
     },
@@ -5924,9 +7121,10 @@ export const INITIAL_DATA = {
       "id": 649,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ELMA STARKING",
       "qty": 138,
+      "hotel": "AMBASSADOR",
+      "adet": 310,
       "buyPrice": 25,
       "supplyPrice": 55.8
     },
@@ -5934,9 +7132,10 @@ export const INITIAL_DATA = {
       "id": 650,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 22,
+      "hotel": "AMBASSADOR",
+      "adet": 400,
       "buyPrice": 75,
       "supplyPrice": 72
     },
@@ -5944,9 +7143,10 @@ export const INITIAL_DATA = {
       "id": 651,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LİMON",
       "qty": 73,
+      "hotel": "AMBASSADOR",
+      "adet": 370,
       "buyPrice": 60,
       "supplyPrice": 66.6
     },
@@ -5954,9 +7154,10 @@ export const INITIAL_DATA = {
       "id": 652,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
       "qty": 25,
+      "hotel": "AMBASSADOR",
+      "adet": 450,
       "buyPrice": 40,
       "supplyPrice": 81
     },
@@ -5964,9 +7165,10 @@ export const INITIAL_DATA = {
       "id": 653,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 58,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 35,
       "supplyPrice": 30.599999999999998
     },
@@ -5974,9 +7176,10 @@ export const INITIAL_DATA = {
       "id": 654,
       "date": "2026-06-08",
       "supplier": "ÜRETİCİ",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 110,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -5984,9 +7187,10 @@ export const INITIAL_DATA = {
       "id": 655,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MUZ YERLİ",
       "qty": 16,
+      "hotel": "AMBASSADOR",
+      "adet": 300,
       "buyPrice": 45,
       "supplyPrice": 54
     },
@@ -5994,9 +7198,10 @@ export const INITIAL_DATA = {
       "id": 656,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LAHANA BEYAZ",
       "qty": 35,
+      "hotel": "AMBASSADOR",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 21.599999999999998
     },
@@ -6004,9 +7209,10 @@ export const INITIAL_DATA = {
       "id": 657,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
       "qty": 24,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
       "buyPrice": 20,
       "supplyPrice": 43.199999999999996
     },
@@ -6014,9 +7220,10 @@ export const INITIAL_DATA = {
       "id": 658,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
       "qty": 10,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -6024,9 +7231,10 @@ export const INITIAL_DATA = {
       "id": 659,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
       "qty": 24,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 17,
       "supplyPrice": 23.4
     },
@@ -6034,9 +7242,10 @@ export const INITIAL_DATA = {
       "id": 660,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -6044,9 +7253,10 @@ export const INITIAL_DATA = {
       "id": 661,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DEREOTU",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 15.299999999999999
     },
@@ -6054,9 +7264,10 @@ export const INITIAL_DATA = {
       "id": 662,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 70,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -6064,9 +7275,10 @@ export const INITIAL_DATA = {
       "id": 663,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NANE",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -6074,9 +7286,10 @@ export const INITIAL_DATA = {
       "id": 664,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "TERE",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -6084,9 +7297,10 @@ export const INITIAL_DATA = {
       "id": 665,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 15,
       "supplyPrice": 25.2
     },
@@ -6094,9 +7308,10 @@ export const INITIAL_DATA = {
       "id": 666,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 70,
+      "hotel": "AMBASSADOR",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 13.5
     },
@@ -6104,9 +7319,10 @@ export const INITIAL_DATA = {
       "id": 667,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL DÜZ",
       "qty": 12,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 16,
       "supplyPrice": 25.2
     },
@@ -6114,9 +7330,10 @@ export const INITIAL_DATA = {
       "id": 668,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LAHANA KIRMIZI",
       "qty": 66,
+      "hotel": "AMBASSADOR",
+      "adet": 205,
       "buyPrice": 40,
       "supplyPrice": 36.9
     },
@@ -6124,9 +7341,10 @@ export const INITIAL_DATA = {
       "id": 669,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 118,
+      "hotel": "AMBASSADOR",
+      "adet": 135,
       "buyPrice": 15,
       "supplyPrice": 24.3
     },
@@ -6134,9 +7352,10 @@ export const INITIAL_DATA = {
       "id": 670,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "NEKTARİN",
       "qty": 18,
+      "hotel": "STELLA",
+      "adet": 255,
       "buyPrice": 40,
       "supplyPrice": 45.9
     },
@@ -6144,9 +7363,10 @@ export const INITIAL_DATA = {
       "id": 671,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "KAYISI",
       "qty": 19,
+      "hotel": "STELLA",
+      "adet": 330,
       "buyPrice": 45,
       "supplyPrice": 59.4
     },
@@ -6154,9 +7374,10 @@ export const INITIAL_DATA = {
       "id": 672,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ARMUT SANDAMARİA",
       "qty": 22,
+      "hotel": "STELLA",
+      "adet": 345,
       "buyPrice": 60,
       "supplyPrice": 62.099999999999994
     },
@@ -6164,9 +7385,10 @@ export const INITIAL_DATA = {
       "id": 673,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ŞEFTALİ",
       "qty": 17,
+      "hotel": "STELLA",
+      "adet": 285,
       "buyPrice": 55,
       "supplyPrice": 51.3
     },
@@ -6174,9 +7396,10 @@ export const INITIAL_DATA = {
       "id": 674,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 36,
+      "hotel": "STELLA",
+      "adet": 210,
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -6184,9 +7407,10 @@ export const INITIAL_DATA = {
       "id": 675,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ELMA STARKING",
       "qty": 85,
+      "hotel": "STELLA",
+      "adet": 310,
       "buyPrice": 25,
       "supplyPrice": 55.8
     },
@@ -6194,9 +7418,10 @@ export const INITIAL_DATA = {
       "id": 676,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "LİMON",
       "qty": 22,
+      "hotel": "STELLA",
+      "adet": 370,
       "buyPrice": 60,
       "supplyPrice": 66.6
     },
@@ -6204,9 +7429,10 @@ export const INITIAL_DATA = {
       "id": 677,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ERİK PAPAZ",
       "qty": 15,
+      "hotel": "STELLA",
+      "adet": 450,
       "buyPrice": 40,
       "supplyPrice": 81
     },
@@ -6214,9 +7440,10 @@ export const INITIAL_DATA = {
       "id": 678,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 19,
+      "hotel": "STELLA",
+      "adet": 170,
       "buyPrice": 35,
       "supplyPrice": 30.599999999999998
     },
@@ -6224,9 +7451,10 @@ export const INITIAL_DATA = {
       "id": 679,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "SEMİZOTU",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -6234,9 +7462,10 @@ export const INITIAL_DATA = {
       "id": 680,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ROKA",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -6244,9 +7473,10 @@ export const INITIAL_DATA = {
       "id": 681,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "NANE",
       "qty": 40,
+      "hotel": "STELLA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -6254,9 +7484,10 @@ export const INITIAL_DATA = {
       "id": 682,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "TERE",
       "qty": 10,
+      "hotel": "STELLA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -6264,9 +7495,10 @@ export const INITIAL_DATA = {
       "id": 683,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "MARUL KIVIRCIK",
       "qty": 6,
+      "hotel": "STELLA",
+      "adet": 140,
       "buyPrice": 15,
       "supplyPrice": 25.2
     },
@@ -6274,9 +7506,10 @@ export const INITIAL_DATA = {
       "id": 684,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "MAYDONOZ",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 13.5
     },
@@ -6284,9 +7517,10 @@ export const INITIAL_DATA = {
       "id": 685,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "MARUL DÜZ",
       "qty": 12,
+      "hotel": "STELLA",
+      "adet": 140,
       "buyPrice": 16,
       "supplyPrice": 25.2
     },
@@ -6294,9 +7528,10 @@ export const INITIAL_DATA = {
       "id": 686,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "BİBER DOLMA",
       "qty": 18,
+      "hotel": "STELLA",
+      "adet": 160,
       "buyPrice": 18,
       "supplyPrice": 28.799999999999997
     },
@@ -6304,9 +7539,10 @@ export const INITIAL_DATA = {
       "id": 687,
       "date": "2026-06-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "PATLICAN",
       "qty": 52,
+      "hotel": "STELLA",
+      "adet": 135,
       "buyPrice": 15,
       "supplyPrice": 24.3
     },
@@ -6314,9 +7550,10 @@ export const INITIAL_DATA = {
       "id": 688,
       "date": "2026-06-08",
       "supplier": "ÜRETİCİ",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 383,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -6324,9 +7561,10 @@ export const INITIAL_DATA = {
       "id": 689,
       "date": "2026-06-08",
       "supplier": "ÜRETİCİ",
-      "hotel": "STELLA",
       "product": "DOMATES",
       "qty": 93,
+      "hotel": "STELLA",
+      "adet": 170,
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -6334,9 +7572,10 @@ export const INITIAL_DATA = {
       "id": 690,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PIRASA",
       "qty": 19,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
       "buyPrice": 40,
       "supplyPrice": 44
     },
@@ -6344,19 +7583,32 @@ export const INITIAL_DATA = {
       "id": 691,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 57,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 35,
       "supplyPrice": 37.4
+    },
+    {
+      "id": 692,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
+      "buyPrice": 25,
+      "supplyPrice": 30.8
     },
     {
       "id": 693,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 92,
+      "hotel": "SEAPHORİA",
+      "adet": 155,
       "buyPrice": 25,
       "supplyPrice": 34.1
     },
@@ -6364,9 +7616,10 @@ export const INITIAL_DATA = {
       "id": 694,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 186,
+      "hotel": "SEAPHORİA",
+      "adet": 142,
       "buyPrice": 25,
       "supplyPrice": 31.24
     },
@@ -6374,9 +7627,10 @@ export const INITIAL_DATA = {
       "id": 695,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "TURP KIRMIZI",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 210,
       "buyPrice": 45,
       "supplyPrice": 46.2
     },
@@ -6384,9 +7638,10 @@ export const INITIAL_DATA = {
       "id": 696,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "TURP JAPON",
       "qty": 22,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 30,
       "supplyPrice": 26.4
     },
@@ -6394,9 +7649,10 @@ export const INITIAL_DATA = {
       "id": 697,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 410,
       "buyPrice": 80,
       "supplyPrice": 90.2
     },
@@ -6404,9 +7660,10 @@ export const INITIAL_DATA = {
       "id": 698,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 21,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
     },
@@ -6414,9 +7671,10 @@ export const INITIAL_DATA = {
       "id": 699,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -6424,9 +7682,10 @@ export const INITIAL_DATA = {
       "id": 700,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 16.5
     },
@@ -6434,9 +7693,10 @@ export const INITIAL_DATA = {
       "id": 701,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -6444,9 +7704,10 @@ export const INITIAL_DATA = {
       "id": 702,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 15.4
     },
@@ -6454,9 +7715,10 @@ export const INITIAL_DATA = {
       "id": 703,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -6464,9 +7726,10 @@ export const INITIAL_DATA = {
       "id": 704,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "TERE",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 12,
       "supplyPrice": 15.4
     },
@@ -6474,9 +7737,10 @@ export const INITIAL_DATA = {
       "id": 705,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PAZI YAPRAGI",
       "qty": 25,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 25,
       "supplyPrice": 15.4
     },
@@ -6484,9 +7748,10 @@ export const INITIAL_DATA = {
       "id": 706,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
     },
@@ -6494,9 +7759,10 @@ export const INITIAL_DATA = {
       "id": 707,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 25,
       "supplyPrice": 28.6
     },
@@ -6504,9 +7770,10 @@ export const INITIAL_DATA = {
       "id": 708,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
     },
@@ -6514,9 +7781,10 @@ export const INITIAL_DATA = {
       "id": 709,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 318,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 18,
       "supplyPrice": 37.4
     },
@@ -6524,9 +7792,10 @@ export const INITIAL_DATA = {
       "id": 710,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 88,
+      "hotel": "SEAPHORİA",
+      "adet": 500,
       "buyPrice": 40,
       "supplyPrice": 110
     },
@@ -6534,9 +7803,10 @@ export const INITIAL_DATA = {
       "id": 711,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER CİN (BİBERİYE)",
       "qty": 7,
+      "hotel": "SEAPHORİA",
+      "adet": 340,
       "buyPrice": 85,
       "supplyPrice": 74.8
     },
@@ -6544,9 +7814,10 @@ export const INITIAL_DATA = {
       "id": 712,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 47,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 28.6
     },
@@ -6554,9 +7825,10 @@ export const INITIAL_DATA = {
       "id": 713,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 37,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 20,
       "supplyPrice": 33
     },
@@ -6564,9 +7836,10 @@ export const INITIAL_DATA = {
       "id": 714,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 220,
       "buyPrice": 35,
       "supplyPrice": 48.4
     },
@@ -6574,9 +7847,10 @@ export const INITIAL_DATA = {
       "id": 715,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 36,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 35.2
     },
@@ -6584,9 +7858,10 @@ export const INITIAL_DATA = {
       "id": 716,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 135,
       "buyPrice": 12,
       "supplyPrice": 29.7
     },
@@ -6594,9 +7869,10 @@ export const INITIAL_DATA = {
       "id": 717,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 57,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 25,
       "supplyPrice": 24.2
     },
@@ -6604,9 +7880,10 @@ export const INITIAL_DATA = {
       "id": 718,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
       "qty": 47,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 35,
       "supplyPrice": 26.4
     },
@@ -6614,9 +7891,10 @@ export const INITIAL_DATA = {
       "id": 719,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 205,
       "buyPrice": 50,
       "supplyPrice": 45.1
     },
@@ -6624,9 +7902,10 @@ export const INITIAL_DATA = {
       "id": 720,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SARIMSAK KURU",
       "qty": 10,
+      "hotel": "SEAPHORİA",
+      "adet": 580,
       "buyPrice": 110,
       "supplyPrice": 127.6
     },
@@ -6634,9 +7913,10 @@ export const INITIAL_DATA = {
       "id": 721,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 87,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -6644,9 +7924,10 @@ export const INITIAL_DATA = {
       "id": 722,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "GREYFURT",
       "qty": 82,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 20,
       "supplyPrice": 24.2
     },
@@ -6654,9 +7935,10 @@ export const INITIAL_DATA = {
       "id": 723,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
       "qty": 52,
+      "hotel": "SEAPHORİA",
+      "adet": 285,
       "buyPrice": 30,
       "supplyPrice": 62.7
     },
@@ -6664,9 +7946,10 @@ export const INITIAL_DATA = {
       "id": 724,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
       "qty": 78,
+      "hotel": "SEAPHORİA",
+      "adet": 255,
       "buyPrice": 30,
       "supplyPrice": 56.1
     },
@@ -6674,9 +7957,10 @@ export const INITIAL_DATA = {
       "id": 725,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
       "qty": 29,
+      "hotel": "SEAPHORİA",
+      "adet": 400,
       "buyPrice": 45,
       "supplyPrice": 88
     },
@@ -6684,9 +7968,10 @@ export const INITIAL_DATA = {
       "id": 726,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
       "qty": 73,
+      "hotel": "SEAPHORİA",
+      "adet": 310,
       "buyPrice": 35,
       "supplyPrice": 68.2
     },
@@ -6694,9 +7979,10 @@ export const INITIAL_DATA = {
       "id": 727,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 61,
+      "hotel": "SEAPHORİA",
+      "adet": 370,
       "buyPrice": 70,
       "supplyPrice": 81.4
     },
@@ -6704,19 +7990,32 @@ export const INITIAL_DATA = {
       "id": 728,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ERİK PAPAZ",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 450,
       "buyPrice": 60,
       "supplyPrice": 99
+    },
+    {
+      "id": 729,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PIRASA",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 200,
+      "buyPrice": 40,
+      "supplyPrice": 44
     },
     {
       "id": 730,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 104,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 35,
       "supplyPrice": 37.4
     },
@@ -6724,29 +8023,87 @@ export const INITIAL_DATA = {
       "id": 731,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 35,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
+    },
+    {
+      "id": 732,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SOĞAN KURU",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 155,
+      "buyPrice": 25,
+      "supplyPrice": 34.1
+    },
+    {
+      "id": 733,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PATATES TAZE",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 142,
+      "buyPrice": 25,
+      "supplyPrice": 31.24
+    },
+    {
+      "id": 734,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 210,
+      "buyPrice": 45,
+      "supplyPrice": 46.2
+    },
+    {
+      "id": 735,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP JAPON",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 120,
+      "buyPrice": 30,
+      "supplyPrice": 26.4
     },
     {
       "id": 736,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 36,
+      "hotel": "CASAFORA",
+      "adet": 410,
       "buyPrice": 80,
       "supplyPrice": 90.2
+    },
+    {
+      "id": 737,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 140,
+      "buyPrice": 25,
+      "supplyPrice": 30.8
     },
     {
       "id": 738,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -6754,9 +8111,10 @@ export const INITIAL_DATA = {
       "id": 739,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 16.5
     },
@@ -6764,9 +8122,10 @@ export const INITIAL_DATA = {
       "id": 740,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -6774,9 +8133,10 @@ export const INITIAL_DATA = {
       "id": 741,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 15.4
     },
@@ -6784,9 +8144,10 @@ export const INITIAL_DATA = {
       "id": 742,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -6794,49 +8155,109 @@ export const INITIAL_DATA = {
       "id": 743,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TERE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 12,
+      "supplyPrice": 15.4
+    },
+    {
+      "id": 744,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PAZI YAPRAGI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 70,
+      "buyPrice": 25,
       "supplyPrice": 15.4
     },
     {
       "id": 745,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 17.6
+    },
+    {
+      "id": 746,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 130,
+      "buyPrice": 25,
+      "supplyPrice": 28.6
+    },
+    {
+      "id": 747,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 240,
+      "buyPrice": 25,
+      "supplyPrice": 52.8
     },
     {
       "id": 748,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 545,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 18,
       "supplyPrice": 37.4
+    },
+    {
+      "id": 749,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "DOMATES CHERRY",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 500,
+      "buyPrice": 40,
+      "supplyPrice": 110
     },
     {
       "id": 750,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER CİN (BİBERİYE)",
       "qty": 22,
+      "hotel": "CASAFORA",
+      "adet": 340,
       "buyPrice": 85,
       "supplyPrice": 74.8
+    },
+    {
+      "id": 751,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER SİVRİ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 130,
+      "buyPrice": 20,
+      "supplyPrice": 28.6
     },
     {
       "id": 752,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 96,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 20,
       "supplyPrice": 33
     },
@@ -6844,19 +8265,32 @@ export const INITIAL_DATA = {
       "id": 753,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 91,
+      "hotel": "CASAFORA",
+      "adet": 220,
       "buyPrice": 35,
       "supplyPrice": 48.4
+    },
+    {
+      "id": 754,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER DOLMA",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 160,
+      "buyPrice": 30,
+      "supplyPrice": 35.2
     },
     {
       "id": 755,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 52,
+      "hotel": "CASAFORA",
+      "adet": 135,
       "buyPrice": 12,
       "supplyPrice": 29.7
     },
@@ -6864,29 +8298,54 @@ export const INITIAL_DATA = {
       "id": 756,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 81,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 25,
       "supplyPrice": 24.2
+    },
+    {
+      "id": 757,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA BEYAZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 120,
+      "buyPrice": 35,
+      "supplyPrice": 26.4
     },
     {
       "id": 758,
       "date": "2026-06-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 38,
+      "hotel": "CASAFORA",
+      "adet": 205,
       "buyPrice": 50,
       "supplyPrice": 45.1
+    },
+    {
+      "id": 759,
+      "date": "2026-06-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SARIMSAK KURU",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 580,
+      "buyPrice": 110,
+      "supplyPrice": 127.6
     },
     {
       "id": 760,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 141,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -6894,9 +8353,10 @@ export const INITIAL_DATA = {
       "id": 761,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 64,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 20,
       "supplyPrice": 24.2
     },
@@ -6904,9 +8364,10 @@ export const INITIAL_DATA = {
       "id": 762,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
       "qty": 147,
+      "hotel": "CASAFORA",
+      "adet": 285,
       "buyPrice": 30,
       "supplyPrice": 62.7
     },
@@ -6914,9 +8375,10 @@ export const INITIAL_DATA = {
       "id": 763,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "NEKTARİN",
       "qty": 122,
+      "hotel": "CASAFORA",
+      "adet": 255,
       "buyPrice": 30,
       "supplyPrice": 56.1
     },
@@ -6924,9 +8386,10 @@ export const INITIAL_DATA = {
       "id": 764,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ÇİLEK",
       "qty": 23,
+      "hotel": "CASAFORA",
+      "adet": 400,
       "buyPrice": 45,
       "supplyPrice": 88
     },
@@ -6934,9 +8397,10 @@ export const INITIAL_DATA = {
       "id": 765,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
       "qty": 251,
+      "hotel": "CASAFORA",
+      "adet": 310,
       "buyPrice": 35,
       "supplyPrice": 68.2
     },
@@ -6944,9 +8408,10 @@ export const INITIAL_DATA = {
       "id": 766,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 69,
+      "hotel": "CASAFORA",
+      "adet": 370,
       "buyPrice": 70,
       "supplyPrice": 81.4
     },
@@ -6954,49 +8419,54 @@ export const INITIAL_DATA = {
       "id": 767,
       "date": "2026-06-08",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
       "qty": 69,
+      "hotel": "CASAFORA",
+      "adet": 450,
       "buyPrice": 60,
       "supplyPrice": 99
     },
     {
       "id": 768,
       "date": "2026-06-08",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "AMBASSADOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 500,
+      "hotel": "AMBASSADOR",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 22.5
     },
     {
       "id": 769,
       "date": "2026-06-08",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "GRAND MİRAMOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 830,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 22.5
     },
     {
       "id": 770,
       "date": "2026-06-08",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "STELLA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 230,
+      "hotel": "STELLA",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 22.5
     },
     {
       "id": 771,
       "date": "2026-06-08",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "MİRAMOR GARDEN",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 740,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 22.5
     },
@@ -7004,9 +8474,10 @@ export const INITIAL_DATA = {
       "id": 772,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 90,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 285,
       "buyPrice": 35,
       "supplyPrice": 51.3
     },
@@ -7014,9 +8485,10 @@ export const INITIAL_DATA = {
       "id": 773,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 225,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 255,
       "buyPrice": 25,
       "supplyPrice": 45.9
     },
@@ -7024,9 +8496,10 @@ export const INITIAL_DATA = {
       "id": 774,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 200,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 330,
       "buyPrice": 40,
       "supplyPrice": 59.4
     },
@@ -7034,9 +8507,10 @@ export const INITIAL_DATA = {
       "id": 775,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
       "qty": 150,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 300,
       "buyPrice": 45,
       "supplyPrice": 54
     },
@@ -7044,9 +8518,10 @@ export const INITIAL_DATA = {
       "id": 776,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 133,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 345,
       "buyPrice": 30,
       "supplyPrice": 62.099999999999994
     },
@@ -7054,9 +8529,10 @@ export const INITIAL_DATA = {
       "id": 777,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
       "qty": 106,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 450,
       "buyPrice": 30,
       "supplyPrice": 81
     },
@@ -7064,9 +8540,10 @@ export const INITIAL_DATA = {
       "id": 778,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
       "qty": 251,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 310,
       "buyPrice": 30,
       "supplyPrice": 55.8
     },
@@ -7074,9 +8551,10 @@ export const INITIAL_DATA = {
       "id": 779,
       "date": "2026-06-10",
       "supplier": "ÜRETİCİ",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 220,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 18
     },
@@ -7084,9 +8562,10 @@ export const INITIAL_DATA = {
       "id": 780,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 75,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 255,
       "buyPrice": 25,
       "supplyPrice": 45.9
     },
@@ -7094,9 +8573,10 @@ export const INITIAL_DATA = {
       "id": 781,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 67,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 345,
       "buyPrice": 30,
       "supplyPrice": 62.099999999999994
     },
@@ -7104,9 +8584,10 @@ export const INITIAL_DATA = {
       "id": 782,
       "date": "2026-06-10",
       "supplier": "ÜRETİCİ",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 500,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
       "buyPrice": 20,
       "supplyPrice": 18
     },
@@ -7114,9 +8595,10 @@ export const INITIAL_DATA = {
       "id": 783,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
       "qty": 42,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 450,
       "buyPrice": 30,
       "supplyPrice": 81
     },
@@ -7124,29 +8606,32 @@ export const INITIAL_DATA = {
       "id": 784,
       "date": "2026-06-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
       "qty": 191,
+      "hotel": "AMBASSADOR",
+      "adet": 310,
       "buyPrice": 30,
       "supplyPrice": 55.8
     },
     {
       "id": 785,
       "date": "2026-06-10",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "SEAPHORİA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1000,
+      "hotel": "SEAPHORİA",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 27.5
     },
     {
       "id": 786,
       "date": "2026-06-10",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "CASAFORA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1000,
+      "hotel": "CASAFORA",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 27.5
     },
@@ -7154,9 +8639,10 @@ export const INITIAL_DATA = {
       "id": 787,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
       "qty": 81,
+      "hotel": "CASAFORA",
+      "adet": 450,
       "buyPrice": 25,
       "supplyPrice": 99
     },
@@ -7164,9 +8650,10 @@ export const INITIAL_DATA = {
       "id": 788,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
       "qty": 33,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 26.4
     },
@@ -7174,9 +8661,10 @@ export const INITIAL_DATA = {
       "id": 789,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 450,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 17,
       "supplyPrice": 35.2
     },
@@ -7184,9 +8672,10 @@ export const INITIAL_DATA = {
       "id": 790,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 119,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 26.4
     },
@@ -7194,9 +8683,10 @@ export const INITIAL_DATA = {
       "id": 791,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 98,
+      "hotel": "CASAFORA",
+      "adet": 220,
       "buyPrice": 35,
       "supplyPrice": 48.4
     },
@@ -7204,9 +8694,10 @@ export const INITIAL_DATA = {
       "id": 792,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 84,
+      "hotel": "CASAFORA",
+      "adet": 135,
       "buyPrice": 20,
       "supplyPrice": 29.7
     },
@@ -7214,9 +8705,10 @@ export const INITIAL_DATA = {
       "id": 793,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 84,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 17,
       "supplyPrice": 24.2
     },
@@ -7224,9 +8716,10 @@ export const INITIAL_DATA = {
       "id": 794,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 34,
+      "hotel": "CASAFORA",
+      "adet": 190,
       "buyPrice": 45,
       "supplyPrice": 41.8
     },
@@ -7234,9 +8727,10 @@ export const INITIAL_DATA = {
       "id": 795,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 42,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 37.4
     },
@@ -7244,9 +8738,10 @@ export const INITIAL_DATA = {
       "id": 796,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 211,
+      "hotel": "CASAFORA",
+      "adet": 155,
       "buyPrice": 30,
       "supplyPrice": 34.1
     },
@@ -7254,9 +8749,10 @@ export const INITIAL_DATA = {
       "id": 797,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 108,
+      "hotel": "CASAFORA",
+      "adet": 410,
       "buyPrice": 80,
       "supplyPrice": 90.2
     },
@@ -7264,9 +8760,10 @@ export const INITIAL_DATA = {
       "id": 798,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 200,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -7274,9 +8771,10 @@ export const INITIAL_DATA = {
       "id": 799,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 16.5
     },
@@ -7284,9 +8782,10 @@ export const INITIAL_DATA = {
       "id": 800,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -7294,9 +8793,10 @@ export const INITIAL_DATA = {
       "id": 801,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 150,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -7304,9 +8804,10 @@ export const INITIAL_DATA = {
       "id": 802,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 15.4
     },
@@ -7314,9 +8815,10 @@ export const INITIAL_DATA = {
       "id": 803,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TERE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -7324,9 +8826,10 @@ export const INITIAL_DATA = {
       "id": 804,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LOLOROSSO",
       "qty": 30,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
     },
@@ -7334,9 +8837,10 @@ export const INITIAL_DATA = {
       "id": 805,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 82,
+      "hotel": "CASAFORA",
+      "adet": 370,
       "buyPrice": 70,
       "supplyPrice": 81.4
     },
@@ -7344,9 +8848,10 @@ export const INITIAL_DATA = {
       "id": 806,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 35,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 26.4
     },
@@ -7354,19 +8859,120 @@ export const INITIAL_DATA = {
       "id": 807,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KARNABAHAR",
       "qty": 107,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 10,
+      "supplyPrice": 28.6
+    },
+    {
+      "id": 808,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PANCAR KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 170,
+      "buyPrice": 45,
+      "supplyPrice": 37.4
+    },
+    {
+      "id": 809,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER DOLMA",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 140,
+      "buyPrice": 25,
+      "supplyPrice": 30.8
+    },
+    {
+      "id": 810,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA BEYAZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 120,
+      "buyPrice": 30,
+      "supplyPrice": 26.4
+    },
+    {
+      "id": 811,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KEREVİZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 400,
+      "buyPrice": 65,
+      "supplyPrice": 88
+    },
+    {
+      "id": 812,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SOĞAN ARPACIK",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 140,
+      "buyPrice": 30,
+      "supplyPrice": 30.8
+    },
+    {
+      "id": 813,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SOĞAN KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 170,
+      "buyPrice": 50,
+      "supplyPrice": 37.4
+    },
+    {
+      "id": 814,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PATATES TAZE",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 142,
+      "buyPrice": 30,
+      "supplyPrice": 31.24
+    },
+    {
+      "id": 815,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 30.8
+    },
+    {
+      "id": 816,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 130,
+      "buyPrice": 20,
       "supplyPrice": 28.6
     },
     {
       "id": 817,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 105,
+      "hotel": "CASAFORA",
+      "adet": 370,
       "buyPrice": 70,
       "supplyPrice": 81.4
     },
@@ -7374,9 +8980,10 @@ export const INITIAL_DATA = {
       "id": 818,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
       "qty": 30,
+      "hotel": "CASAFORA",
+      "adet": 285,
       "buyPrice": 40,
       "supplyPrice": 62.7
     },
@@ -7384,9 +8991,10 @@ export const INITIAL_DATA = {
       "id": 819,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "NEKTARİN",
       "qty": 199,
+      "hotel": "CASAFORA",
+      "adet": 255,
       "buyPrice": 40,
       "supplyPrice": 56.1
     },
@@ -7394,19 +9002,54 @@ export const INITIAL_DATA = {
       "id": 820,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "KAYISI",
       "qty": 104,
+      "hotel": "CASAFORA",
+      "adet": 320,
       "buyPrice": 40,
       "supplyPrice": 70.4
+    },
+    {
+      "id": 821,
+      "date": "2026-06-11",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 300,
+      "buyPrice": 35,
+      "supplyPrice": 66
+    },
+    {
+      "id": 822,
+      "date": "2026-06-11",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "MUZ İTHAL",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 420,
+      "buyPrice": 40,
+      "supplyPrice": 92.4
+    },
+    {
+      "id": 823,
+      "date": "2026-06-11",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "KİVİ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 410,
+      "buyPrice": 95,
+      "supplyPrice": 90.2
     },
     {
       "id": 824,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
       "qty": 177,
+      "hotel": "CASAFORA",
+      "adet": 460,
       "buyPrice": 50,
       "supplyPrice": 101.2
     },
@@ -7414,9 +9057,10 @@ export const INITIAL_DATA = {
       "id": 825,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 68,
+      "hotel": "SEAPHORİA",
+      "adet": 450,
       "buyPrice": 25,
       "supplyPrice": 99
     },
@@ -7424,9 +9068,10 @@ export const INITIAL_DATA = {
       "id": 826,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 32,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 26.4
     },
@@ -7434,9 +9079,10 @@ export const INITIAL_DATA = {
       "id": 827,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 254,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 17,
       "supplyPrice": 35.2
     },
@@ -7444,9 +9090,10 @@ export const INITIAL_DATA = {
       "id": 828,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 60,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 26.4
     },
@@ -7454,9 +9101,10 @@ export const INITIAL_DATA = {
       "id": 829,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 42,
+      "hotel": "SEAPHORİA",
+      "adet": 220,
       "buyPrice": 35,
       "supplyPrice": 48.4
     },
@@ -7464,9 +9112,10 @@ export const INITIAL_DATA = {
       "id": 830,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 85,
+      "hotel": "SEAPHORİA",
+      "adet": 135,
       "buyPrice": 20,
       "supplyPrice": 29.7
     },
@@ -7474,19 +9123,32 @@ export const INITIAL_DATA = {
       "id": 831,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 88,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 17,
       "supplyPrice": 24.2
+    },
+    {
+      "id": 832,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 190,
+      "buyPrice": 45,
+      "supplyPrice": 41.8
     },
     {
       "id": 833,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 63,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 37.4
     },
@@ -7494,9 +9156,10 @@ export const INITIAL_DATA = {
       "id": 834,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 146,
+      "hotel": "SEAPHORİA",
+      "adet": 155,
       "buyPrice": 30,
       "supplyPrice": 34.1
     },
@@ -7504,9 +9167,10 @@ export const INITIAL_DATA = {
       "id": 835,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
       "qty": 47,
+      "hotel": "SEAPHORİA",
+      "adet": 410,
       "buyPrice": 80,
       "supplyPrice": 90.2
     },
@@ -7514,9 +9178,10 @@ export const INITIAL_DATA = {
       "id": 836,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -7524,9 +9189,10 @@ export const INITIAL_DATA = {
       "id": 837,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 16.5
     },
@@ -7534,9 +9200,10 @@ export const INITIAL_DATA = {
       "id": 838,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -7544,9 +9211,10 @@ export const INITIAL_DATA = {
       "id": 839,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -7554,19 +9222,43 @@ export const INITIAL_DATA = {
       "id": 840,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 15.4
+    },
+    {
+      "id": 841,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TERE",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
+      "buyPrice": 9,
+      "supplyPrice": 15.4
+    },
+    {
+      "id": 842,
+      "date": "2026-06-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
+      "buyPrice": 25,
+      "supplyPrice": 52.8
     },
     {
       "id": 843,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 86,
+      "hotel": "SEAPHORİA",
+      "adet": 370,
       "buyPrice": 70,
       "supplyPrice": 81.4
     },
@@ -7574,9 +9266,10 @@ export const INITIAL_DATA = {
       "id": 844,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "GREYFURT",
       "qty": 64,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 26.4
     },
@@ -7584,9 +9277,10 @@ export const INITIAL_DATA = {
       "id": 845,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KARNABAHAR",
       "qty": 104,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 10,
       "supplyPrice": 28.6
     },
@@ -7594,9 +9288,10 @@ export const INITIAL_DATA = {
       "id": 846,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
       "qty": 25,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 45,
       "supplyPrice": 37.4
     },
@@ -7604,9 +9299,10 @@ export const INITIAL_DATA = {
       "id": 847,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 57,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 25,
       "supplyPrice": 30.8
     },
@@ -7614,9 +9310,10 @@ export const INITIAL_DATA = {
       "id": 848,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
       "qty": 35,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 30,
       "supplyPrice": 26.4
     },
@@ -7624,9 +9321,10 @@ export const INITIAL_DATA = {
       "id": 849,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KEREVİZ",
       "qty": 16,
+      "hotel": "SEAPHORİA",
+      "adet": 400,
       "buyPrice": 65,
       "supplyPrice": 88
     },
@@ -7634,9 +9332,10 @@ export const INITIAL_DATA = {
       "id": 850,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN ARPACIK",
       "qty": 13,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 30,
       "supplyPrice": 30.8
     },
@@ -7644,9 +9343,10 @@ export const INITIAL_DATA = {
       "id": 851,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KIRMIZI",
       "qty": 22,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 50,
       "supplyPrice": 37.4
     },
@@ -7654,9 +9354,10 @@ export const INITIAL_DATA = {
       "id": 852,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 110,
+      "hotel": "SEAPHORİA",
+      "adet": 142,
       "buyPrice": 30,
       "supplyPrice": 31.24
     },
@@ -7664,9 +9365,10 @@ export const INITIAL_DATA = {
       "id": 853,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 35,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 30.8
     },
@@ -7674,9 +9376,10 @@ export const INITIAL_DATA = {
       "id": 854,
       "date": "2026-06-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 12,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 28.6
     },
@@ -7684,9 +9387,10 @@ export const INITIAL_DATA = {
       "id": 855,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 60,
+      "hotel": "SEAPHORİA",
+      "adet": 370,
       "buyPrice": 70,
       "supplyPrice": 81.4
     },
@@ -7694,9 +9398,10 @@ export const INITIAL_DATA = {
       "id": 856,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 285,
       "buyPrice": 40,
       "supplyPrice": 62.7
     },
@@ -7704,9 +9409,10 @@ export const INITIAL_DATA = {
       "id": 857,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
       "qty": 31,
+      "hotel": "SEAPHORİA",
+      "adet": 255,
       "buyPrice": 40,
       "supplyPrice": 56.1
     },
@@ -7714,9 +9420,10 @@ export const INITIAL_DATA = {
       "id": 858,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 41,
+      "hotel": "SEAPHORİA",
+      "adet": 320,
       "buyPrice": 40,
       "supplyPrice": 70.4
     },
@@ -7724,9 +9431,10 @@ export const INITIAL_DATA = {
       "id": 859,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
       "qty": 23,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
       "buyPrice": 35,
       "supplyPrice": 66
     },
@@ -7734,9 +9442,10 @@ export const INITIAL_DATA = {
       "id": 860,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "MUZ İTHAL",
       "qty": 69,
+      "hotel": "SEAPHORİA",
+      "adet": 420,
       "buyPrice": 40,
       "supplyPrice": 92.4
     },
@@ -7744,9 +9453,10 @@ export const INITIAL_DATA = {
       "id": 861,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KİVİ",
       "qty": 13,
+      "hotel": "SEAPHORİA",
+      "adet": 410,
       "buyPrice": 95,
       "supplyPrice": 90.2
     },
@@ -7754,9 +9464,10 @@ export const INITIAL_DATA = {
       "id": 862,
       "date": "2026-06-11",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ERİK PAPAZ",
       "qty": 53,
+      "hotel": "SEAPHORİA",
+      "adet": 460,
       "buyPrice": 50,
       "supplyPrice": 101.2
     },
@@ -7764,9 +9475,10 @@ export const INITIAL_DATA = {
       "id": 863,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 80,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 170,
       "buyPrice": 20,
       "supplyPrice": 30.599999999999998
     },
@@ -7774,9 +9486,10 @@ export const INITIAL_DATA = {
       "id": 864,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MARUL KIVIRCIK",
       "qty": 30,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -7784,9 +9497,10 @@ export const INITIAL_DATA = {
       "id": 865,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MARUL DÜZ",
       "qty": 30,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -7794,9 +9508,10 @@ export const INITIAL_DATA = {
       "id": 866,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "SEMİZOTU",
       "qty": 40,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -7804,9 +9519,10 @@ export const INITIAL_DATA = {
       "id": 867,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MARUL ICEBERG",
       "qty": 24,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 130,
       "buyPrice": 15,
       "supplyPrice": 23.4
     },
@@ -7814,9 +9530,10 @@ export const INITIAL_DATA = {
       "id": 868,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MAYDONOZ",
       "qty": 60,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 75,
       "buyPrice": 8,
       "supplyPrice": 13.5
     },
@@ -7824,9 +9541,10 @@ export const INITIAL_DATA = {
       "id": 869,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NANE",
       "qty": 40,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -7834,9 +9552,10 @@ export const INITIAL_DATA = {
       "id": 870,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DEREOTU",
       "qty": 60,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 15.299999999999999
     },
@@ -7844,9 +9563,10 @@ export const INITIAL_DATA = {
       "id": 871,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 14.399999999999999
     },
@@ -7854,9 +9574,10 @@ export const INITIAL_DATA = {
       "id": 872,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -7864,9 +9585,10 @@ export const INITIAL_DATA = {
       "id": 873,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LOLOROSSO",
       "qty": 24,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 240,
       "buyPrice": 17,
       "supplyPrice": 43.199999999999996
     },
@@ -7874,9 +9596,10 @@ export const INITIAL_DATA = {
       "id": 874,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "TERE",
       "qty": 20,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -7884,9 +9607,10 @@ export const INITIAL_DATA = {
       "id": 875,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
       "qty": 5,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 400,
       "buyPrice": 60,
       "supplyPrice": 72
     },
@@ -7894,9 +9618,10 @@ export const INITIAL_DATA = {
       "id": 876,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
       "qty": 100,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 320,
       "buyPrice": 32,
       "supplyPrice": 57.599999999999994
     },
@@ -7904,19 +9629,32 @@ export const INITIAL_DATA = {
       "id": 877,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
       "qty": 110,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 285,
       "buyPrice": 35,
       "supplyPrice": 51.3
+    },
+    {
+      "id": 878,
+      "date": "2026-06-12",
+      "supplier": "ANTALYA HAL",
+      "product": "PAZI YAPRAGI",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
+      "buyPrice": 15,
+      "supplyPrice": 12.6
     },
     {
       "id": 879,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 43,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
     },
@@ -7924,19 +9662,32 @@ export const INITIAL_DATA = {
       "id": 880,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "YENİDÜNYA KIRMIZI",
       "qty": 87,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 350,
       "buyPrice": 20,
       "supplyPrice": 63
+    },
+    {
+      "id": 881,
+      "date": "2026-06-12",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 300,
+      "buyPrice": 30,
+      "supplyPrice": 54
     },
     {
       "id": 882,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
       "qty": 100,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 255,
       "buyPrice": 40,
       "supplyPrice": 45.9
     },
@@ -7944,9 +9695,10 @@ export const INITIAL_DATA = {
       "id": 883,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
       "qty": 73,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 370,
       "buyPrice": 50,
       "supplyPrice": 66.6
     },
@@ -7954,9 +9706,10 @@ export const INITIAL_DATA = {
       "id": 884,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 20,
       "supplyPrice": 30.599999999999998
     },
@@ -7964,9 +9717,10 @@ export const INITIAL_DATA = {
       "id": 885,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
       "qty": 36,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -7974,9 +9728,10 @@ export const INITIAL_DATA = {
       "id": 886,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL DÜZ",
       "qty": 12,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -7984,9 +9739,10 @@ export const INITIAL_DATA = {
       "id": 887,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -7994,9 +9750,10 @@ export const INITIAL_DATA = {
       "id": 888,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 15,
       "supplyPrice": 23.4
     },
@@ -8004,9 +9761,10 @@ export const INITIAL_DATA = {
       "id": 889,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 75,
       "buyPrice": 8,
       "supplyPrice": 13.5
     },
@@ -8014,9 +9772,10 @@ export const INITIAL_DATA = {
       "id": 890,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NANE",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8024,9 +9783,10 @@ export const INITIAL_DATA = {
       "id": 891,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DEREOTU",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 15.299999999999999
     },
@@ -8034,9 +9794,10 @@ export const INITIAL_DATA = {
       "id": 892,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 14.399999999999999
     },
@@ -8044,9 +9805,10 @@ export const INITIAL_DATA = {
       "id": 893,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8054,9 +9816,10 @@ export const INITIAL_DATA = {
       "id": 894,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
       "qty": 24,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
       "buyPrice": 17,
       "supplyPrice": 43.199999999999996
     },
@@ -8064,9 +9827,10 @@ export const INITIAL_DATA = {
       "id": 895,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "TERE",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8074,9 +9838,10 @@ export const INITIAL_DATA = {
       "id": 896,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 21,
+      "hotel": "AMBASSADOR",
+      "adet": 400,
       "buyPrice": 60,
       "supplyPrice": 72
     },
@@ -8084,9 +9849,10 @@ export const INITIAL_DATA = {
       "id": 897,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAYISI",
       "qty": 72,
+      "hotel": "AMBASSADOR",
+      "adet": 320,
       "buyPrice": 32,
       "supplyPrice": 57.599999999999994
     },
@@ -8094,9 +9860,10 @@ export const INITIAL_DATA = {
       "id": 898,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 150,
+      "hotel": "AMBASSADOR",
+      "adet": 285,
       "buyPrice": 35,
       "supplyPrice": 51.3
     },
@@ -8104,9 +9871,10 @@ export const INITIAL_DATA = {
       "id": 899,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PAZI YAPRAGI",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 15,
       "supplyPrice": 12.6
     },
@@ -8114,9 +9882,10 @@ export const INITIAL_DATA = {
       "id": 900,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 65,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
     },
@@ -8124,9 +9893,10 @@ export const INITIAL_DATA = {
       "id": 901,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "YENİDÜNYA KIRMIZI",
       "qty": 103,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
       "buyPrice": 20,
       "supplyPrice": 63
     },
@@ -8134,9 +9904,10 @@ export const INITIAL_DATA = {
       "id": 902,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
       "qty": 200,
+      "hotel": "AMBASSADOR",
+      "adet": 300,
       "buyPrice": 30,
       "supplyPrice": 54
     },
@@ -8144,9 +9915,10 @@ export const INITIAL_DATA = {
       "id": 903,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
       "qty": 135,
+      "hotel": "AMBASSADOR",
+      "adet": 255,
       "buyPrice": 40,
       "supplyPrice": 45.9
     },
@@ -8154,9 +9926,10 @@ export const INITIAL_DATA = {
       "id": 904,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LİMON",
       "qty": 47,
+      "hotel": "AMBASSADOR",
+      "adet": 370,
       "buyPrice": 50,
       "supplyPrice": 66.6
     },
@@ -8164,9 +9937,10 @@ export const INITIAL_DATA = {
       "id": 905,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 20,
       "supplyPrice": 30.599999999999998
     },
@@ -8174,9 +9948,21 @@ export const INITIAL_DATA = {
       "id": 906,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
       "qty": 54,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 25.2
+    },
+    {
+      "id": 907,
+      "date": "2026-06-12",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -8184,9 +9970,10 @@ export const INITIAL_DATA = {
       "id": 908,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 90,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -8194,9 +9981,10 @@ export const INITIAL_DATA = {
       "id": 909,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
       "qty": 96,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 15,
       "supplyPrice": 23.4
     },
@@ -8204,9 +9992,10 @@ export const INITIAL_DATA = {
       "id": 910,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 140,
+      "hotel": "AMBASSADOR",
+      "adet": 75,
       "buyPrice": 8,
       "supplyPrice": 13.5
     },
@@ -8214,9 +10003,10 @@ export const INITIAL_DATA = {
       "id": 911,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NANE",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8224,9 +10014,10 @@ export const INITIAL_DATA = {
       "id": 912,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DEREOTU",
       "qty": 90,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 15.299999999999999
     },
@@ -8234,9 +10025,10 @@ export const INITIAL_DATA = {
       "id": 913,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 14.399999999999999
     },
@@ -8244,9 +10036,10 @@ export const INITIAL_DATA = {
       "id": 914,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 110,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8254,9 +10047,10 @@ export const INITIAL_DATA = {
       "id": 915,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
       "qty": 48,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
       "buyPrice": 17,
       "supplyPrice": 43.199999999999996
     },
@@ -8264,9 +10058,10 @@ export const INITIAL_DATA = {
       "id": 916,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "TERE",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8274,9 +10069,10 @@ export const INITIAL_DATA = {
       "id": 917,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 400,
       "buyPrice": 60,
       "supplyPrice": 72
     },
@@ -8284,9 +10080,10 @@ export const INITIAL_DATA = {
       "id": 918,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAYISI",
       "qty": 132,
+      "hotel": "AMBASSADOR",
+      "adet": 320,
       "buyPrice": 32,
       "supplyPrice": 57.599999999999994
     },
@@ -8294,19 +10091,43 @@ export const INITIAL_DATA = {
       "id": 919,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 285,
       "buyPrice": 35,
       "supplyPrice": 51.3
+    },
+    {
+      "id": 920,
+      "date": "2026-06-12",
+      "supplier": "ANTALYA HAL",
+      "product": "PAZI YAPRAGI",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
+      "buyPrice": 15,
+      "supplyPrice": 12.6
+    },
+    {
+      "id": 921,
+      "date": "2026-06-12",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
+      "buyPrice": 35,
+      "supplyPrice": 63
     },
     {
       "id": 922,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "YENİDÜNYA KIRMIZI",
       "qty": 170,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
       "buyPrice": 20,
       "supplyPrice": 63
     },
@@ -8314,9 +10135,10 @@ export const INITIAL_DATA = {
       "id": 923,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 300,
       "buyPrice": 30,
       "supplyPrice": 54
     },
@@ -8324,9 +10146,10 @@ export const INITIAL_DATA = {
       "id": 924,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
       "qty": 125,
+      "hotel": "AMBASSADOR",
+      "adet": 255,
       "buyPrice": 40,
       "supplyPrice": 45.9
     },
@@ -8334,59 +10157,65 @@ export const INITIAL_DATA = {
       "id": 925,
       "date": "2026-06-12",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LİMON",
       "qty": 110,
+      "hotel": "AMBASSADOR",
+      "adet": 370,
       "buyPrice": 50,
       "supplyPrice": 66.6
     },
     {
       "id": 926,
       "date": "2026-06-12",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "GRAND MİRAMOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 770,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 22.5
     },
     {
       "id": 927,
       "date": "2026-06-12",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "MİRAMOR GARDEN",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 480,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 22.5
     },
     {
       "id": 928,
       "date": "2026-06-12",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "ASTORİA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 190,
+      "hotel": "ASTORİA",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 22.5
     },
     {
       "id": 929,
       "date": "2026-06-12",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "STELLA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 330,
+      "hotel": "STELLA",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 22.5
     },
     {
       "id": 930,
       "date": "2026-06-12",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "AMBASSADOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1180,
+      "hotel": "AMBASSADOR",
+      "adet": 125,
       "buyPrice": 12,
       "supplyPrice": 22.5
     },
@@ -8394,9 +10223,10 @@ export const INITIAL_DATA = {
       "id": 931,
       "date": "2026-06-12",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES BEEF",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": 165,
       "buyPrice": 16,
       "supplyPrice": 36.3
     },
@@ -8404,9 +10234,10 @@ export const INITIAL_DATA = {
       "id": 932,
       "date": "2026-06-12",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 280,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 10,
       "supplyPrice": 35.2
     },
@@ -8414,9 +10245,10 @@ export const INITIAL_DATA = {
       "id": 933,
       "date": "2026-06-12",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 387,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 12,
       "supplyPrice": 52.8
     },
@@ -8424,9 +10256,10 @@ export const INITIAL_DATA = {
       "id": 934,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "TERE",
       "qty": 60,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8434,9 +10267,10 @@ export const INITIAL_DATA = {
       "id": 935,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ROKA",
       "qty": 100,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8444,9 +10278,10 @@ export const INITIAL_DATA = {
       "id": 936,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MARUL KIVIRCIK",
       "qty": 18,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -8454,9 +10289,10 @@ export const INITIAL_DATA = {
       "id": 937,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "SEMİZOTU",
       "qty": 20,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -8464,9 +10300,10 @@ export const INITIAL_DATA = {
       "id": 938,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NANE",
       "qty": 60,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 12.6
     },
@@ -8474,9 +10311,10 @@ export const INITIAL_DATA = {
       "id": 939,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MAYDONOZ",
       "qty": 20,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 13.5
     },
@@ -8484,9 +10322,10 @@ export const INITIAL_DATA = {
       "id": 940,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MARUL DÜZ",
       "qty": 24,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -8494,9 +10333,10 @@ export const INITIAL_DATA = {
       "id": 941,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES CHERRY",
       "qty": 30,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 380,
       "buyPrice": 20,
       "supplyPrice": 68.39999999999999
     },
@@ -8504,9 +10344,10 @@ export const INITIAL_DATA = {
       "id": 942,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
       "qty": 103,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 255,
       "buyPrice": 30,
       "supplyPrice": 45.9
     },
@@ -8514,9 +10355,10 @@ export const INITIAL_DATA = {
       "id": 943,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 35,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 63
     },
@@ -8524,9 +10366,10 @@ export const INITIAL_DATA = {
       "id": 944,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PATATES TAZE",
       "qty": 130,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 142,
       "buyPrice": 29,
       "supplyPrice": 25.56
     },
@@ -8534,9 +10377,10 @@ export const INITIAL_DATA = {
       "id": 945,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "BİBER DOLMA",
       "qty": 22,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 150,
       "buyPrice": 20,
       "supplyPrice": 27
     },
@@ -8544,9 +10388,10 @@ export const INITIAL_DATA = {
       "id": 946,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KİVİ",
       "qty": 9,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 410,
       "buyPrice": 30,
       "supplyPrice": 73.8
     },
@@ -8554,9 +10399,10 @@ export const INITIAL_DATA = {
       "id": 947,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 13,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 210,
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -8564,9 +10410,10 @@ export const INITIAL_DATA = {
       "id": 948,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
       "qty": 53,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 100,
       "buyPrice": 12,
       "supplyPrice": 18
     },
@@ -8574,29 +10421,153 @@ export const INITIAL_DATA = {
       "id": 949,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PATLICAN",
       "qty": 114,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 135,
       "buyPrice": 15,
       "supplyPrice": 24.3
+    },
+    {
+      "id": 950,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "SOĞAN KURU",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 155,
+      "buyPrice": 33,
+      "supplyPrice": 27.9
+    },
+    {
+      "id": 951,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "DOMATES",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 140,
+      "buyPrice": 10,
+      "supplyPrice": 25.2
+    },
+    {
+      "id": 952,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "KABAK SAKIZ",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 130,
+      "buyPrice": 20,
+      "supplyPrice": 23.4
+    },
+    {
+      "id": 953,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 370,
+      "buyPrice": 40,
+      "supplyPrice": 66.6
     },
     {
       "id": 954,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DEREOTU",
       "qty": 30,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
+    },
+    {
+      "id": 955,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "BİBER KAPYA",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 200,
+      "buyPrice": 0,
+      "supplyPrice": 36
+    },
+    {
+      "id": 956,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "BİBER ÇARLİSTON",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 180,
+      "buyPrice": 15,
+      "supplyPrice": 32.4
+    },
+    {
+      "id": 957,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK PAPAZ",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 470,
+      "buyPrice": 30,
+      "supplyPrice": 84.6
+    },
+    {
+      "id": 958,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 300,
+      "buyPrice": 25,
+      "supplyPrice": 54
+    },
+    {
+      "id": 959,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 240,
+      "buyPrice": 20,
+      "supplyPrice": 43.199999999999996
+    },
+    {
+      "id": 960,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "KUZU KULAĞI",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
+      "buyPrice": 25,
+      "supplyPrice": 12.6
+    },
+    {
+      "id": 961,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 300,
+      "buyPrice": 30,
+      "supplyPrice": 54
     },
     {
       "id": 962,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "TERE",
       "qty": 20,
+      "hotel": "ASTORİA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8604,49 +10575,164 @@ export const INITIAL_DATA = {
       "id": 963,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "ROKA",
       "qty": 30,
+      "hotel": "ASTORİA",
+      "adet": 70,
       "buyPrice": 9,
+      "supplyPrice": 12.6
+    },
+    {
+      "id": 964,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 25.2
+    },
+    {
+      "id": 965,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "SEMİZOTU",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 80,
+      "buyPrice": 12,
+      "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 966,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 70,
+      "buyPrice": 10,
       "supplyPrice": 12.6
     },
     {
       "id": 967,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "MAYDONOZ",
       "qty": 20,
+      "hotel": "ASTORİA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 13.5
+    },
+    {
+      "id": 968,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 25.2
+    },
+    {
+      "id": 969,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "DOMATES CHERRY",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 380,
+      "buyPrice": 20,
+      "supplyPrice": 68.39999999999999
+    },
+    {
+      "id": 970,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "NEKTARİN",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 255,
+      "buyPrice": 30,
+      "supplyPrice": 45.9
+    },
+    {
+      "id": 971,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 350,
+      "buyPrice": 40,
+      "supplyPrice": 63
     },
     {
       "id": 972,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "PATATES TAZE",
       "qty": 44,
+      "hotel": "ASTORİA",
+      "adet": 142,
       "buyPrice": 29,
       "supplyPrice": 25.56
+    },
+    {
+      "id": 973,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "BİBER DOLMA",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 150,
+      "buyPrice": 20,
+      "supplyPrice": 27
+    },
+    {
+      "id": 974,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "KİVİ",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 410,
+      "buyPrice": 30,
+      "supplyPrice": 73.8
     },
     {
       "id": 975,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 21,
+      "hotel": "ASTORİA",
+      "adet": 210,
       "buyPrice": 15,
       "supplyPrice": 37.8
+    },
+    {
+      "id": 976,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 100,
+      "buyPrice": 12,
+      "supplyPrice": 18
     },
     {
       "id": 977,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "PATLICAN",
       "qty": 34,
+      "hotel": "ASTORİA",
+      "adet": 135,
       "buyPrice": 15,
       "supplyPrice": 24.3
     },
@@ -8654,9 +10740,10 @@ export const INITIAL_DATA = {
       "id": 978,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "SOĞAN KURU",
       "qty": 30,
+      "hotel": "ASTORİA",
+      "adet": 155,
       "buyPrice": 33,
       "supplyPrice": 27.9
     },
@@ -8664,9 +10751,10 @@ export const INITIAL_DATA = {
       "id": 979,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "DOMATES",
       "qty": 50,
+      "hotel": "ASTORİA",
+      "adet": 140,
       "buyPrice": 10,
       "supplyPrice": 25.2
     },
@@ -8674,9 +10762,10 @@ export const INITIAL_DATA = {
       "id": 980,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "KABAK SAKIZ",
       "qty": 19,
+      "hotel": "ASTORİA",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 23.4
     },
@@ -8684,29 +10773,109 @@ export const INITIAL_DATA = {
       "id": 981,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "LİMON",
       "qty": 18,
+      "hotel": "ASTORİA",
+      "adet": 370,
       "buyPrice": 40,
       "supplyPrice": 66.6
+    },
+    {
+      "id": 982,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "DEREOTU",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 85,
+      "buyPrice": 12,
+      "supplyPrice": 15.299999999999999
     },
     {
       "id": 983,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "BİBER KAPYA",
       "qty": 15,
+      "hotel": "ASTORİA",
+      "adet": 200,
       "buyPrice": 0,
       "supplyPrice": 36
+    },
+    {
+      "id": 984,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "BİBER ÇARLİSTON",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 180,
+      "buyPrice": 15,
+      "supplyPrice": 32.4
+    },
+    {
+      "id": 985,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK PAPAZ",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 470,
+      "buyPrice": 30,
+      "supplyPrice": 84.6
+    },
+    {
+      "id": 986,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 300,
+      "buyPrice": 25,
+      "supplyPrice": 54
+    },
+    {
+      "id": 987,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 240,
+      "buyPrice": 20,
+      "supplyPrice": 43.199999999999996
+    },
+    {
+      "id": 988,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "KUZU KULAĞI",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 70,
+      "buyPrice": 25,
+      "supplyPrice": 12.6
+    },
+    {
+      "id": 989,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 300,
+      "buyPrice": 30,
+      "supplyPrice": 54
     },
     {
       "id": 990,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "TERE",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8714,9 +10883,10 @@ export const INITIAL_DATA = {
       "id": 991,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 12.6
     },
@@ -8724,9 +10894,10 @@ export const INITIAL_DATA = {
       "id": 992,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
       "qty": 18,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -8734,19 +10905,32 @@ export const INITIAL_DATA = {
       "id": 993,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 30,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 994,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
+      "buyPrice": 10,
+      "supplyPrice": 12.6
     },
     {
       "id": 995,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 13.5
     },
@@ -8754,9 +10938,10 @@ export const INITIAL_DATA = {
       "id": 996,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL DÜZ",
       "qty": 12,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -8764,19 +10949,32 @@ export const INITIAL_DATA = {
       "id": 997,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES CHERRY",
       "qty": 16,
+      "hotel": "AMBASSADOR",
+      "adet": 380,
       "buyPrice": 20,
       "supplyPrice": 68.39999999999999
+    },
+    {
+      "id": 998,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "NEKTARİN",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 255,
+      "buyPrice": 30,
+      "supplyPrice": 45.9
     },
     {
       "id": 999,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 61,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 63
     },
@@ -8784,19 +10982,32 @@ export const INITIAL_DATA = {
       "id": 1000,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATATES TAZE",
       "qty": 46,
+      "hotel": "AMBASSADOR",
+      "adet": 142,
       "buyPrice": 29,
       "supplyPrice": 25.56
+    },
+    {
+      "id": 1001,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "BİBER DOLMA",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
+      "buyPrice": 20,
+      "supplyPrice": 27
     },
     {
       "id": 1002,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KİVİ",
       "qty": 21,
+      "hotel": "AMBASSADOR",
+      "adet": 410,
       "buyPrice": 30,
       "supplyPrice": 73.8
     },
@@ -8804,19 +11015,43 @@ export const INITIAL_DATA = {
       "id": 1003,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 34,
+      "hotel": "AMBASSADOR",
+      "adet": 210,
       "buyPrice": 15,
       "supplyPrice": 37.8
+    },
+    {
+      "id": 1004,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 100,
+      "buyPrice": 12,
+      "supplyPrice": 18
+    },
+    {
+      "id": 1005,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "PATLICAN",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 135,
+      "buyPrice": 15,
+      "supplyPrice": 24.3
     },
     {
       "id": 1006,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SOĞAN KURU",
       "qty": 32,
+      "hotel": "AMBASSADOR",
+      "adet": 155,
       "buyPrice": 33,
       "supplyPrice": 27.9
     },
@@ -8824,9 +11059,10 @@ export const INITIAL_DATA = {
       "id": 1007,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 132,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 10,
       "supplyPrice": 25.2
     },
@@ -8834,9 +11070,10 @@ export const INITIAL_DATA = {
       "id": 1008,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 70,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 23.4
     },
@@ -8844,9 +11081,10 @@ export const INITIAL_DATA = {
       "id": 1009,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LİMON",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 370,
       "buyPrice": 40,
       "supplyPrice": 66.6
     },
@@ -8854,9 +11092,10 @@ export const INITIAL_DATA = {
       "id": 1010,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DEREOTU",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -8864,9 +11103,10 @@ export const INITIAL_DATA = {
       "id": 1011,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
       "qty": 31,
+      "hotel": "AMBASSADOR",
+      "adet": 200,
       "buyPrice": 0,
       "supplyPrice": 36
     },
@@ -8874,9 +11114,10 @@ export const INITIAL_DATA = {
       "id": 1012,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 67,
+      "hotel": "AMBASSADOR",
+      "adet": 180,
       "buyPrice": 15,
       "supplyPrice": 32.4
     },
@@ -8884,9 +11125,10 @@ export const INITIAL_DATA = {
       "id": 1013,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
       "qty": 34,
+      "hotel": "AMBASSADOR",
+      "adet": 470,
       "buyPrice": 30,
       "supplyPrice": 84.6
     },
@@ -8894,9 +11136,10 @@ export const INITIAL_DATA = {
       "id": 1014,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAYISI",
       "qty": 57,
+      "hotel": "AMBASSADOR",
+      "adet": 300,
       "buyPrice": 25,
       "supplyPrice": 54
     },
@@ -8904,9 +11147,10 @@ export const INITIAL_DATA = {
       "id": 1015,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
       "qty": 30,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
       "buyPrice": 20,
       "supplyPrice": 43.199999999999996
     },
@@ -8914,19 +11158,32 @@ export const INITIAL_DATA = {
       "id": 1016,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KUZU KULAĞI",
       "qty": 25,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 25,
       "supplyPrice": 12.6
+    },
+    {
+      "id": 1017,
+      "date": "2026-06-15",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 300,
+      "buyPrice": 30,
+      "supplyPrice": 54
     },
     {
       "id": 1018,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KİVİ",
       "qty": 19,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 410,
       "buyPrice": 30,
       "supplyPrice": 73.8
     },
@@ -8934,9 +11191,10 @@ export const INITIAL_DATA = {
       "id": 1019,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 42,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 180,
       "buyPrice": 15,
       "supplyPrice": 32.4
     },
@@ -8944,9 +11202,10 @@ export const INITIAL_DATA = {
       "id": 1020,
       "date": "2026-06-15",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
       "qty": 86,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 300,
       "buyPrice": 30,
       "supplyPrice": 54
     },
@@ -8954,9 +11213,10 @@ export const INITIAL_DATA = {
       "id": 1021,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 39,
+      "hotel": "SEAPHORİA",
+      "adet": 180,
       "buyPrice": 20,
       "supplyPrice": 39.6
     },
@@ -8964,9 +11224,10 @@ export const INITIAL_DATA = {
       "id": 1022,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 61,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
       "buyPrice": 30,
       "supplyPrice": 44
     },
@@ -8974,9 +11235,10 @@ export const INITIAL_DATA = {
       "id": 1023,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 122,
+      "hotel": "SEAPHORİA",
+      "adet": 135,
       "buyPrice": 12,
       "supplyPrice": 29.7
     },
@@ -8984,9 +11246,10 @@ export const INITIAL_DATA = {
       "id": 1024,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
       "qty": 17,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 37.4
     },
@@ -8994,9 +11257,10 @@ export const INITIAL_DATA = {
       "id": 1025,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
       "qty": 15,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 40,
       "supplyPrice": 37.4
     },
@@ -9004,9 +11268,10 @@ export const INITIAL_DATA = {
       "id": 1026,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MANGO",
       "qty": 45,
+      "hotel": "SEAPHORİA",
+      "adet": 400,
       "buyPrice": 85,
       "supplyPrice": 88
     },
@@ -9014,9 +11279,10 @@ export const INITIAL_DATA = {
       "id": 1027,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 35,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 17,
       "supplyPrice": 30.8
     },
@@ -9024,9 +11290,10 @@ export const INITIAL_DATA = {
       "id": 1028,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 35,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 17,
       "supplyPrice": 30.8
     },
@@ -9034,9 +11301,10 @@ export const INITIAL_DATA = {
       "id": 1029,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -9044,9 +11312,10 @@ export const INITIAL_DATA = {
       "id": 1030,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 16.5
     },
@@ -9054,9 +11323,10 @@ export const INITIAL_DATA = {
       "id": 1031,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -9064,9 +11334,10 @@ export const INITIAL_DATA = {
       "id": 1032,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -9074,9 +11345,10 @@ export const INITIAL_DATA = {
       "id": 1033,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
     },
@@ -9084,9 +11356,10 @@ export const INITIAL_DATA = {
       "id": 1034,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 36,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 28.6
     },
@@ -9094,9 +11367,10 @@ export const INITIAL_DATA = {
       "id": 1035,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 52.8
     },
@@ -9104,9 +11378,10 @@ export const INITIAL_DATA = {
       "id": 1036,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 19,
+      "hotel": "SEAPHORİA",
+      "adet": 370,
       "buyPrice": 85,
       "supplyPrice": 81.4
     },
@@ -9114,9 +11389,10 @@ export const INITIAL_DATA = {
       "id": 1037,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 97,
+      "hotel": "SEAPHORİA",
+      "adet": 155,
       "buyPrice": 35,
       "supplyPrice": 34.1
     },
@@ -9124,9 +11400,10 @@ export const INITIAL_DATA = {
       "id": 1038,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 137,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 17,
       "supplyPrice": 30.8
     },
@@ -9134,19 +11411,87 @@ export const INITIAL_DATA = {
       "id": 1039,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 110,
+      "hotel": "SEAPHORİA",
+      "adet": 142,
       "buyPrice": 30,
       "supplyPrice": 31.24
+    },
+    {
+      "id": 1040,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER SİVRİ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
+      "buyPrice": 20,
+      "supplyPrice": 26.4
+    },
+    {
+      "id": 1041,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KABAK SAKIZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
+      "buyPrice": 20,
+      "supplyPrice": 28.6
+    },
+    {
+      "id": 1042,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "FESLEĞEN",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
+      "buyPrice": 13,
+      "supplyPrice": 17.6
+    },
+    {
+      "id": 1043,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 22
+    },
+    {
+      "id": 1044,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
+      "buyPrice": 20,
+      "supplyPrice": 26.4
+    },
+    {
+      "id": 1045,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA BEYAZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
+      "buyPrice": 30,
+      "supplyPrice": 26.4
     },
     {
       "id": 1046,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
       "qty": 55,
+      "hotel": "SEAPHORİA",
+      "adet": 255,
       "buyPrice": 30,
       "supplyPrice": 56.1
     },
@@ -9154,9 +11499,10 @@ export const INITIAL_DATA = {
       "id": 1047,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 60,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
       "buyPrice": 40,
       "supplyPrice": 66
     },
@@ -9164,9 +11510,10 @@ export const INITIAL_DATA = {
       "id": 1048,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
       "qty": 37,
+      "hotel": "SEAPHORİA",
+      "adet": 400,
       "buyPrice": 35,
       "supplyPrice": 88
     },
@@ -9174,9 +11521,10 @@ export const INITIAL_DATA = {
       "id": 1049,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 27,
+      "hotel": "SEAPHORİA",
+      "adet": 370,
       "buyPrice": 60,
       "supplyPrice": 81.4
     },
@@ -9184,19 +11532,65 @@ export const INITIAL_DATA = {
       "id": 1050,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
       "qty": 55,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
       "buyPrice": 40,
       "supplyPrice": 66
+    },
+    {
+      "id": 1051,
+      "date": "2026-06-15",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 22
+    },
+    {
+      "id": 1052,
+      "date": "2026-06-15",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
+      "buyPrice": 20,
+      "supplyPrice": 26.4
+    },
+    {
+      "id": 1053,
+      "date": "2026-06-15",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
+      "buyPrice": 30,
+      "supplyPrice": 66
+    },
+    {
+      "id": 1054,
+      "date": "2026-06-15",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "ERİK PAPAZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 470,
+      "buyPrice": 35,
+      "supplyPrice": 103.4
     },
     {
       "id": 1055,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 49,
+      "hotel": "CASAFORA",
+      "adet": 180,
       "buyPrice": 20,
       "supplyPrice": 39.6
     },
@@ -9204,9 +11598,10 @@ export const INITIAL_DATA = {
       "id": 1056,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 54,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 30,
       "supplyPrice": 44
     },
@@ -9214,29 +11609,54 @@ export const INITIAL_DATA = {
       "id": 1057,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 200,
+      "hotel": "CASAFORA",
+      "adet": 135,
       "buyPrice": 12,
       "supplyPrice": 29.7
+    },
+    {
+      "id": 1058,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 170,
+      "buyPrice": 30,
+      "supplyPrice": 37.4
     },
     {
       "id": 1059,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PANCAR KIRMIZI",
       "qty": 19,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 40,
       "supplyPrice": 37.4
+    },
+    {
+      "id": 1060,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MANGO",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 400,
+      "buyPrice": 85,
+      "supplyPrice": 88
     },
     {
       "id": 1061,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 105,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 17,
       "supplyPrice": 30.8
     },
@@ -9244,9 +11664,10 @@ export const INITIAL_DATA = {
       "id": 1062,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 56,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 17,
       "supplyPrice": 30.8
     },
@@ -9254,9 +11675,10 @@ export const INITIAL_DATA = {
       "id": 1063,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -9264,9 +11686,10 @@ export const INITIAL_DATA = {
       "id": 1064,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 16.5
     },
@@ -9274,29 +11697,76 @@ export const INITIAL_DATA = {
       "id": 1065,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
+    },
+    {
+      "id": 1066,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 70,
+      "buyPrice": 9,
+      "supplyPrice": 15.4
     },
     {
       "id": 1067,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 70,
+      "hotel": "CASAFORA",
+      "adet": 70,
       "buyPrice": 9,
       "supplyPrice": 15.4
+    },
+    {
+      "id": 1068,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 130,
+      "buyPrice": 20,
+      "supplyPrice": 28.6
+    },
+    {
+      "id": 1069,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 240,
+      "buyPrice": 30,
+      "supplyPrice": 52.8
+    },
+    {
+      "id": 1070,
+      "date": "2026-06-15",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 370,
+      "buyPrice": 85,
+      "supplyPrice": 81.4
     },
     {
       "id": 1071,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 98,
+      "hotel": "CASAFORA",
+      "adet": 155,
       "buyPrice": 35,
       "supplyPrice": 34.1
     },
@@ -9304,9 +11774,10 @@ export const INITIAL_DATA = {
       "id": 1072,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 270,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 17,
       "supplyPrice": 30.8
     },
@@ -9314,9 +11785,10 @@ export const INITIAL_DATA = {
       "id": 1073,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": 142,
       "buyPrice": 30,
       "supplyPrice": 31.24
     },
@@ -9324,9 +11796,10 @@ export const INITIAL_DATA = {
       "id": 1074,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
       "qty": 24,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 20,
       "supplyPrice": 26.4
     },
@@ -9334,9 +11807,10 @@ export const INITIAL_DATA = {
       "id": 1075,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 29,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 20,
       "supplyPrice": 28.6
     },
@@ -9344,9 +11818,10 @@ export const INITIAL_DATA = {
       "id": 1076,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 13,
       "supplyPrice": 17.6
     },
@@ -9354,9 +11829,10 @@ export const INITIAL_DATA = {
       "id": 1077,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 67,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -9364,9 +11840,10 @@ export const INITIAL_DATA = {
       "id": 1078,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 52,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 20,
       "supplyPrice": 26.4
     },
@@ -9374,9 +11851,10 @@ export const INITIAL_DATA = {
       "id": 1079,
       "date": "2026-06-15",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 22,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 30,
       "supplyPrice": 26.4
     },
@@ -9384,9 +11862,10 @@ export const INITIAL_DATA = {
       "id": 1080,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "NEKTARİN",
       "qty": 210,
+      "hotel": "CASAFORA",
+      "adet": 255,
       "buyPrice": 30,
       "supplyPrice": 56.1
     },
@@ -9394,9 +11873,10 @@ export const INITIAL_DATA = {
       "id": 1081,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "KAYISI",
       "qty": 202,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 40,
       "supplyPrice": 66
     },
@@ -9404,9 +11884,10 @@ export const INITIAL_DATA = {
       "id": 1082,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ÇİLEK",
       "qty": 14,
+      "hotel": "CASAFORA",
+      "adet": 400,
       "buyPrice": 35,
       "supplyPrice": 88
     },
@@ -9414,9 +11895,10 @@ export const INITIAL_DATA = {
       "id": 1083,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 68,
+      "hotel": "CASAFORA",
+      "adet": 370,
       "buyPrice": 60,
       "supplyPrice": 81.4
     },
@@ -9424,9 +11906,10 @@ export const INITIAL_DATA = {
       "id": 1084,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
       "qty": 65,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 40,
       "supplyPrice": 66
     },
@@ -9434,9 +11917,10 @@ export const INITIAL_DATA = {
       "id": 1085,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 263,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -9444,9 +11928,10 @@ export const INITIAL_DATA = {
       "id": 1086,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 96,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 20,
       "supplyPrice": 26.4
     },
@@ -9454,9 +11939,10 @@ export const INITIAL_DATA = {
       "id": 1087,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
       "qty": 275,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 30,
       "supplyPrice": 66
     },
@@ -9464,29 +11950,32 @@ export const INITIAL_DATA = {
       "id": 1088,
       "date": "2026-06-15",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
       "qty": 71,
+      "hotel": "CASAFORA",
+      "adet": 470,
       "buyPrice": 35,
       "supplyPrice": 103.4
     },
     {
       "id": 1089,
       "date": "2026-06-15",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "CASAFORA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1700,
+      "hotel": "CASAFORA",
+      "adet": 130,
       "buyPrice": 12,
       "supplyPrice": 28.6
     },
     {
       "id": 1090,
       "date": "2026-06-15",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "SEAPHORİA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 550,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 12,
       "supplyPrice": 28.6
     },
@@ -9494,9 +11983,10 @@ export const INITIAL_DATA = {
       "id": 1091,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NANE",
       "qty": 90,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 12.6
     },
@@ -9504,9 +11994,10 @@ export const INITIAL_DATA = {
       "id": 1092,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ROKA",
       "qty": 90,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 12.6
     },
@@ -9514,9 +12005,10 @@ export const INITIAL_DATA = {
       "id": 1093,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MAYDONOZ",
       "qty": 90,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 75,
       "buyPrice": 8,
       "supplyPrice": 13.5
     },
@@ -9524,9 +12016,10 @@ export const INITIAL_DATA = {
       "id": 1094,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DEREOTU",
       "qty": 60,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -9534,9 +12027,10 @@ export const INITIAL_DATA = {
       "id": 1095,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SEMİZOTU",
       "qty": 90,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -9544,9 +12038,10 @@ export const INITIAL_DATA = {
       "id": 1096,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "TERE",
       "qty": 80,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 12.6
     },
@@ -9554,9 +12049,10 @@ export const INITIAL_DATA = {
       "id": 1097,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
       "qty": 140,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 290,
       "buyPrice": 35,
       "supplyPrice": 52.199999999999996
     },
@@ -9564,9 +12060,10 @@ export const INITIAL_DATA = {
       "id": 1098,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 81,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 370,
       "buyPrice": 40,
       "supplyPrice": 66.6
     },
@@ -9574,9 +12071,10 @@ export const INITIAL_DATA = {
       "id": 1099,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 96,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 280,
       "buyPrice": 25,
       "supplyPrice": 50.4
     },
@@ -9584,9 +12082,10 @@ export const INITIAL_DATA = {
       "id": 1100,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
       "qty": 112,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 27
     },
@@ -9594,9 +12093,10 @@ export const INITIAL_DATA = {
       "id": 1101,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
       "qty": 10,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 400,
       "buyPrice": 60,
       "supplyPrice": 72
     },
@@ -9604,9 +12104,10 @@ export const INITIAL_DATA = {
       "id": 1102,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
       "qty": 54,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 460,
       "buyPrice": 40,
       "supplyPrice": 82.8
     },
@@ -9614,9 +12115,10 @@ export const INITIAL_DATA = {
       "id": 1103,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 100,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 270,
       "buyPrice": 25,
       "supplyPrice": 48.6
     },
@@ -9624,9 +12126,10 @@ export const INITIAL_DATA = {
       "id": 1104,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
       "qty": 210,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 300,
       "buyPrice": 30,
       "supplyPrice": 54
     },
@@ -9634,9 +12137,10 @@ export const INITIAL_DATA = {
       "id": 1105,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 75,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 300,
       "buyPrice": 20,
       "supplyPrice": 54
     },
@@ -9644,19 +12148,120 @@ export const INITIAL_DATA = {
       "id": 1106,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SARIMSAK KURU",
       "qty": 12,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 580,
       "buyPrice": 80,
       "supplyPrice": 104.39999999999999
+    },
+    {
+      "id": 1107,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 350,
+      "buyPrice": 35,
+      "supplyPrice": 63
+    },
+    {
+      "id": 1108,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 18
+    },
+    {
+      "id": 1109,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
+      "buyPrice": 10,
+      "supplyPrice": 12.6
+    },
+    {
+      "id": 1110,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "ROKA",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
+      "buyPrice": 8,
+      "supplyPrice": 12.6
+    },
+    {
+      "id": 1111,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "MAYDONOZ",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 75,
+      "buyPrice": 8,
+      "supplyPrice": 13.5
+    },
+    {
+      "id": 1112,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "DEREOTU",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 85,
+      "buyPrice": 12,
+      "supplyPrice": 15.299999999999999
+    },
+    {
+      "id": 1113,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "SEMİZOTU",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
+      "buyPrice": 12,
+      "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1114,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "TERE",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
+      "buyPrice": 10,
+      "supplyPrice": 12.6
+    },
+    {
+      "id": 1115,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "MUZ YERLİ",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 290,
+      "buyPrice": 35,
+      "supplyPrice": 52.199999999999996
     },
     {
       "id": 1116,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
       "qty": 57,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 370,
       "buyPrice": 40,
       "supplyPrice": 66.6
     },
@@ -9664,29 +12269,54 @@ export const INITIAL_DATA = {
       "id": 1117,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
       "qty": 30,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 280,
       "buyPrice": 25,
       "supplyPrice": 50.4
+    },
+    {
+      "id": 1118,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 150,
+      "buyPrice": 25,
+      "supplyPrice": 27
     },
     {
       "id": 1119,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
       "qty": 10,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 400,
       "buyPrice": 60,
       "supplyPrice": 72
+    },
+    {
+      "id": 1120,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK PAPAZ",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 460,
+      "buyPrice": 40,
+      "supplyPrice": 82.8
     },
     {
       "id": 1121,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
       "qty": 100,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 270,
       "buyPrice": 25,
       "supplyPrice": 48.6
     },
@@ -9694,9 +12324,10 @@ export const INITIAL_DATA = {
       "id": 1122,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
       "qty": 123,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 300,
       "buyPrice": 30,
       "supplyPrice": 54
     },
@@ -9704,9 +12335,10 @@ export const INITIAL_DATA = {
       "id": 1123,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
       "qty": 95,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 300,
       "buyPrice": 20,
       "supplyPrice": 54
     },
@@ -9714,9 +12346,10 @@ export const INITIAL_DATA = {
       "id": 1124,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "SARIMSAK KURU",
       "qty": 16,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 580,
       "buyPrice": 80,
       "supplyPrice": 104.39999999999999
     },
@@ -9724,9 +12357,10 @@ export const INITIAL_DATA = {
       "id": 1125,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 82,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
     },
@@ -9734,19 +12368,32 @@ export const INITIAL_DATA = {
       "id": 1126,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
       "qty": 110,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 18
+    },
+    {
+      "id": 1127,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
+      "buyPrice": 10,
+      "supplyPrice": 12.6
     },
     {
       "id": 1128,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 12.6
     },
@@ -9754,9 +12401,10 @@ export const INITIAL_DATA = {
       "id": 1129,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 75,
       "buyPrice": 8,
       "supplyPrice": 13.5
     },
@@ -9764,9 +12412,10 @@ export const INITIAL_DATA = {
       "id": 1130,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DEREOTU",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -9774,9 +12423,10 @@ export const INITIAL_DATA = {
       "id": 1131,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -9784,19 +12434,43 @@ export const INITIAL_DATA = {
       "id": 1132,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "TERE",
       "qty": 30,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 12.6
+    },
+    {
+      "id": 1133,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "MUZ YERLİ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 290,
+      "buyPrice": 35,
+      "supplyPrice": 52.199999999999996
+    },
+    {
+      "id": 1134,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 370,
+      "buyPrice": 40,
+      "supplyPrice": 66.6
     },
     {
       "id": 1135,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 88,
+      "hotel": "AMBASSADOR",
+      "adet": 280,
       "buyPrice": 25,
       "supplyPrice": 50.4
     },
@@ -9804,9 +12478,10 @@ export const INITIAL_DATA = {
       "id": 1136,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "GREYFURT",
       "qty": 56,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 27
     },
@@ -9814,39 +12489,98 @@ export const INITIAL_DATA = {
       "id": 1137,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 10,
+      "hotel": "AMBASSADOR",
+      "adet": 400,
       "buyPrice": 60,
       "supplyPrice": 72
+    },
+    {
+      "id": 1138,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK PAPAZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 460,
+      "buyPrice": 40,
+      "supplyPrice": 82.8
     },
     {
       "id": 1139,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
       "qty": 86,
+      "hotel": "AMBASSADOR",
+      "adet": 270,
       "buyPrice": 25,
       "supplyPrice": 48.6
+    },
+    {
+      "id": 1140,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 300,
+      "buyPrice": 30,
+      "supplyPrice": 54
+    },
+    {
+      "id": 1141,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 300,
+      "buyPrice": 20,
+      "supplyPrice": 54
+    },
+    {
+      "id": 1142,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "SARIMSAK KURU",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 580,
+      "buyPrice": 80,
+      "supplyPrice": 104.39999999999999
     },
     {
       "id": 1143,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 73,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
+    },
+    {
+      "id": 1144,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 18
     },
     {
       "id": 1145,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "NANE",
       "qty": 50,
+      "hotel": "STELLA",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 12.6
     },
@@ -9854,9 +12588,10 @@ export const INITIAL_DATA = {
       "id": 1146,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ROKA",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 70,
       "buyPrice": 8,
       "supplyPrice": 12.6
     },
@@ -9864,9 +12599,10 @@ export const INITIAL_DATA = {
       "id": 1147,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "MAYDONOZ",
       "qty": 60,
+      "hotel": "STELLA",
+      "adet": 75,
       "buyPrice": 8,
       "supplyPrice": 13.5
     },
@@ -9874,9 +12610,10 @@ export const INITIAL_DATA = {
       "id": 1148,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "DEREOTU",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -9884,19 +12621,43 @@ export const INITIAL_DATA = {
       "id": 1149,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "SEMİZOTU",
       "qty": 60,
+      "hotel": "STELLA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1150,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "TERE",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 70,
+      "buyPrice": 10,
+      "supplyPrice": 12.6
+    },
+    {
+      "id": 1151,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "MUZ YERLİ",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 290,
+      "buyPrice": 35,
+      "supplyPrice": 52.199999999999996
     },
     {
       "id": 1152,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "LİMON",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 370,
       "buyPrice": 40,
       "supplyPrice": 66.6
     },
@@ -9904,39 +12665,120 @@ export const INITIAL_DATA = {
       "id": 1153,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ŞEFTALİ",
       "qty": 58,
+      "hotel": "STELLA",
+      "adet": 280,
       "buyPrice": 25,
       "supplyPrice": 50.4
+    },
+    {
+      "id": 1154,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 150,
+      "buyPrice": 25,
+      "supplyPrice": 27
+    },
+    {
+      "id": 1155,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "ÇİLEK",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 400,
+      "buyPrice": 60,
+      "supplyPrice": 72
     },
     {
       "id": 1156,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ERİK PAPAZ",
       "qty": 38,
+      "hotel": "STELLA",
+      "adet": 460,
       "buyPrice": 40,
       "supplyPrice": 82.8
+    },
+    {
+      "id": 1157,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "NEKTARİN",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 270,
+      "buyPrice": 25,
+      "supplyPrice": 48.6
+    },
+    {
+      "id": 1158,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 300,
+      "buyPrice": 30,
+      "supplyPrice": 54
+    },
+    {
+      "id": 1159,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 300,
+      "buyPrice": 20,
+      "supplyPrice": 54
     },
     {
       "id": 1160,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "SARIMSAK KURU",
       "qty": 4,
+      "hotel": "STELLA",
+      "adet": 580,
       "buyPrice": 80,
       "supplyPrice": 104.39999999999999
+    },
+    {
+      "id": 1161,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 350,
+      "buyPrice": 35,
+      "supplyPrice": 63
+    },
+    {
+      "id": 1162,
+      "date": "2026-06-17",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 18
     },
     {
       "id": 1163,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 0,
       "supplyPrice": 30.8
     },
@@ -9944,9 +12786,10 @@ export const INITIAL_DATA = {
       "id": 1164,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAVUN",
       "qty": 1300,
+      "hotel": "AMBASSADOR",
+      "adet": 180,
       "buyPrice": 20,
       "supplyPrice": 32.4
     },
@@ -9954,9 +12797,10 @@ export const INITIAL_DATA = {
       "id": 1165,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KAVUN",
       "qty": 520,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 180,
       "buyPrice": 20,
       "supplyPrice": 32.4
     },
@@ -9964,29 +12808,32 @@ export const INITIAL_DATA = {
       "id": 1166,
       "date": "2026-06-17",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAVUN",
       "qty": 470,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 180,
       "buyPrice": 20,
       "supplyPrice": 32.4
     },
     {
       "id": 1167,
       "date": "2026-06-17",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "MİRAMOR GARDEN",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 980,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 125,
       "buyPrice": 10,
       "supplyPrice": 22.5
     },
     {
       "id": 1168,
       "date": "2026-06-17",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "MİRAMOR GARDEN",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1050,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 125,
       "buyPrice": 10,
       "supplyPrice": 22.5
     },
@@ -9994,9 +12841,10 @@ export const INITIAL_DATA = {
       "id": 1169,
       "date": "2026-06-17",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 245,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 10,
       "supplyPrice": 30.8
     },
@@ -10004,9 +12852,10 @@ export const INITIAL_DATA = {
       "id": 1170,
       "date": "2026-06-17",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
       "qty": 58,
+      "hotel": "CASAFORA",
+      "adet": 380,
       "buyPrice": 40,
       "supplyPrice": 83.6
     },
@@ -10014,9 +12863,10 @@ export const INITIAL_DATA = {
       "id": 1171,
       "date": "2026-06-17",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 205,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 10,
       "supplyPrice": 44
     },
@@ -10024,9 +12874,10 @@ export const INITIAL_DATA = {
       "id": 1172,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
       "qty": 58,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 550,
       "buyPrice": 40,
       "supplyPrice": 99
     },
@@ -10034,9 +12885,10 @@ export const INITIAL_DATA = {
       "id": 1173,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
       "qty": 52,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 310,
       "buyPrice": 50,
       "supplyPrice": 55.8
     },
@@ -10044,9 +12896,10 @@ export const INITIAL_DATA = {
       "id": 1174,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
       "qty": 36,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 800,
       "buyPrice": 35,
       "supplyPrice": 144
     },
@@ -10054,9 +12907,10 @@ export const INITIAL_DATA = {
       "id": 1175,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
       "qty": 160,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 290,
       "buyPrice": 35,
       "supplyPrice": 52.199999999999996
     },
@@ -10064,9 +12918,10 @@ export const INITIAL_DATA = {
       "id": 1176,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
       "qty": 50,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 300,
       "buyPrice": 35,
       "supplyPrice": 54
     },
@@ -10074,9 +12929,10 @@ export const INITIAL_DATA = {
       "id": 1177,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MANDALİNA PAKET",
       "qty": 74,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 30.599999999999998
     },
@@ -10084,9 +12940,10 @@ export const INITIAL_DATA = {
       "id": 1178,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KUZU KULAĞI",
       "qty": 30,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 72,
       "buyPrice": 10,
       "supplyPrice": 12.959999999999999
     },
@@ -10094,9 +12951,10 @@ export const INITIAL_DATA = {
       "id": 1179,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NANE",
       "qty": 40,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 72,
       "buyPrice": 9,
       "supplyPrice": 12.959999999999999
     },
@@ -10104,9 +12962,10 @@ export const INITIAL_DATA = {
       "id": 1180,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "TERE",
       "qty": 60,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 70,
       "buyPrice": 10,
       "supplyPrice": 12.6
     },
@@ -10114,9 +12973,10 @@ export const INITIAL_DATA = {
       "id": 1181,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MAYDONOZ",
       "qty": 50,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 13.5
     },
@@ -10124,9 +12984,10 @@ export const INITIAL_DATA = {
       "id": 1182,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ROKA",
       "qty": 60,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 72,
       "buyPrice": 10,
       "supplyPrice": 12.959999999999999
     },
@@ -10134,9 +12995,10 @@ export const INITIAL_DATA = {
       "id": 1183,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -10144,9 +13006,10 @@ export const INITIAL_DATA = {
       "id": 1184,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MARUL DÜZ",
       "qty": 30,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -10154,9 +13017,10 @@ export const INITIAL_DATA = {
       "id": 1185,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -10164,9 +13028,10 @@ export const INITIAL_DATA = {
       "id": 1186,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MARUL KIVIRCIK",
       "qty": 24,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -10174,29 +13039,131 @@ export const INITIAL_DATA = {
       "id": 1187,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
       "buyPrice": 13,
       "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1188,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 150,
+      "buyPrice": 25,
+      "supplyPrice": 27
+    },
+    {
+      "id": 1189,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 370,
+      "buyPrice": 45,
+      "supplyPrice": 66.6
+    },
+    {
+      "id": 1190,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "NEKTARİN",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 300,
+      "buyPrice": 35,
+      "supplyPrice": 54
+    },
+    {
+      "id": 1191,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 240,
+      "buyPrice": 15,
+      "supplyPrice": 43.199999999999996
+    },
+    {
+      "id": 1192,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 130,
+      "buyPrice": 15,
+      "supplyPrice": 23.4
+    },
+    {
+      "id": 1193,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 18
+    },
+    {
+      "id": 1194,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK PAPAZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 550,
+      "buyPrice": 40,
+      "supplyPrice": 99
     },
     {
       "id": 1195,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 92,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 310,
       "buyPrice": 50,
       "supplyPrice": 55.8
+    },
+    {
+      "id": 1196,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "KİRAZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 800,
+      "buyPrice": 35,
+      "supplyPrice": 144
+    },
+    {
+      "id": 1197,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MUZ YERLİ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 290,
+      "buyPrice": 35,
+      "supplyPrice": 52.199999999999996
     },
     {
       "id": 1198,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 80,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 300,
       "buyPrice": 35,
       "supplyPrice": 54
     },
@@ -10204,19 +13171,54 @@ export const INITIAL_DATA = {
       "id": 1199,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MANDALİNA PAKET",
       "qty": 72,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 30.599999999999998
+    },
+    {
+      "id": 1200,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "KUZU KULAĞI",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 72,
+      "buyPrice": 10,
+      "supplyPrice": 12.959999999999999
+    },
+    {
+      "id": 1201,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 72,
+      "buyPrice": 9,
+      "supplyPrice": 12.959999999999999
+    },
+    {
+      "id": 1202,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "TERE",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 70,
+      "buyPrice": 10,
+      "supplyPrice": 12.6
     },
     {
       "id": 1203,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MAYDONOZ",
       "qty": 100,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 13.5
     },
@@ -10224,9 +13226,10 @@ export const INITIAL_DATA = {
       "id": 1204,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ROKA",
       "qty": 100,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 72,
       "buyPrice": 10,
       "supplyPrice": 12.959999999999999
     },
@@ -10234,19 +13237,32 @@ export const INITIAL_DATA = {
       "id": 1205,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
+    },
+    {
+      "id": 1206,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 25.2
     },
     {
       "id": 1207,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "SEMİZOTU",
       "qty": 60,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -10254,19 +13270,32 @@ export const INITIAL_DATA = {
       "id": 1208,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MARUL KIVIRCIK",
       "qty": 36,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
+    },
+    {
+      "id": 1209,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "FESLEĞEN",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
+      "buyPrice": 13,
+      "supplyPrice": 14.399999999999999
     },
     {
       "id": 1210,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
       "qty": 73,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 27
     },
@@ -10274,9 +13303,10 @@ export const INITIAL_DATA = {
       "id": 1211,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 100,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 370,
       "buyPrice": 45,
       "supplyPrice": 66.6
     },
@@ -10284,19 +13314,54 @@ export const INITIAL_DATA = {
       "id": 1212,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 100,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 300,
       "buyPrice": 35,
       "supplyPrice": 54
+    },
+    {
+      "id": 1213,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 240,
+      "buyPrice": 15,
+      "supplyPrice": 43.199999999999996
+    },
+    {
+      "id": 1214,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 130,
+      "buyPrice": 15,
+      "supplyPrice": 23.4
+    },
+    {
+      "id": 1215,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 18
     },
     {
       "id": 1216,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ERİK PAPAZ",
       "qty": 44,
+      "hotel": "STELLA",
+      "adet": 550,
       "buyPrice": 40,
       "supplyPrice": 99
     },
@@ -10304,29 +13369,98 @@ export const INITIAL_DATA = {
       "id": 1217,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ŞEFTALİ",
       "qty": 72,
+      "hotel": "STELLA",
+      "adet": 310,
       "buyPrice": 50,
       "supplyPrice": 55.8
+    },
+    {
+      "id": 1218,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "KİRAZ",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 800,
+      "buyPrice": 35,
+      "supplyPrice": 144
+    },
+    {
+      "id": 1219,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MUZ YERLİ",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 290,
+      "buyPrice": 35,
+      "supplyPrice": 52.199999999999996
     },
     {
       "id": 1220,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "KAYISI",
       "qty": 44,
+      "hotel": "STELLA",
+      "adet": 300,
       "buyPrice": 35,
       "supplyPrice": 54
+    },
+    {
+      "id": 1221,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MANDALİNA PAKET",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 170,
+      "buyPrice": 30,
+      "supplyPrice": 30.599999999999998
+    },
+    {
+      "id": 1222,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "KUZU KULAĞI",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 72,
+      "buyPrice": 10,
+      "supplyPrice": 12.959999999999999
+    },
+    {
+      "id": 1223,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 72,
+      "buyPrice": 9,
+      "supplyPrice": 12.959999999999999
+    },
+    {
+      "id": 1224,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "TERE",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 70,
+      "buyPrice": 10,
+      "supplyPrice": 12.6
     },
     {
       "id": 1225,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "MAYDONOZ",
       "qty": 50,
+      "hotel": "STELLA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 13.5
     },
@@ -10334,9 +13468,10 @@ export const INITIAL_DATA = {
       "id": 1226,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ROKA",
       "qty": 50,
+      "hotel": "STELLA",
+      "adet": 72,
       "buyPrice": 10,
       "supplyPrice": 12.959999999999999
     },
@@ -10344,19 +13479,32 @@ export const INITIAL_DATA = {
       "id": 1227,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "STELLA",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
+    },
+    {
+      "id": 1228,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 25.2
     },
     {
       "id": 1229,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "SEMİZOTU",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -10364,29 +13512,54 @@ export const INITIAL_DATA = {
       "id": 1230,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "MARUL KIVIRCIK",
       "qty": 45,
+      "hotel": "STELLA",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
+    },
+    {
+      "id": 1231,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "FESLEĞEN",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 80,
+      "buyPrice": 13,
+      "supplyPrice": 14.399999999999999
     },
     {
       "id": 1232,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "GREYFURT",
       "qty": 75,
+      "hotel": "STELLA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 27
+    },
+    {
+      "id": 1233,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 370,
+      "buyPrice": 45,
+      "supplyPrice": 66.6
     },
     {
       "id": 1234,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "NEKTARİN",
       "qty": 45,
+      "hotel": "STELLA",
+      "adet": 300,
       "buyPrice": 35,
       "supplyPrice": 54
     },
@@ -10394,9 +13567,10 @@ export const INITIAL_DATA = {
       "id": 1235,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "LOLOROSSO",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 43.199999999999996
     },
@@ -10404,9 +13578,10 @@ export const INITIAL_DATA = {
       "id": 1236,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "MARUL ICEBERG",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 130,
       "buyPrice": 15,
       "supplyPrice": 23.4
     },
@@ -10414,29 +13589,120 @@ export const INITIAL_DATA = {
       "id": 1237,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 45,
+      "hotel": "STELLA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 18
+    },
+    {
+      "id": 1238,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK PAPAZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 550,
+      "buyPrice": 40,
+      "supplyPrice": 99
+    },
+    {
+      "id": 1239,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "ŞEFTALİ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 310,
+      "buyPrice": 50,
+      "supplyPrice": 55.8
+    },
+    {
+      "id": 1240,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "KİRAZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 800,
+      "buyPrice": 35,
+      "supplyPrice": 144
+    },
+    {
+      "id": 1241,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MUZ YERLİ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 290,
+      "buyPrice": 35,
+      "supplyPrice": 52.199999999999996
+    },
+    {
+      "id": 1242,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 300,
+      "buyPrice": 35,
+      "supplyPrice": 54
+    },
+    {
+      "id": 1243,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MANDALİNA PAKET",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
+      "buyPrice": 30,
+      "supplyPrice": 30.599999999999998
+    },
+    {
+      "id": 1244,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "KUZU KULAĞI",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 72,
+      "buyPrice": 10,
+      "supplyPrice": 12.959999999999999
     },
     {
       "id": 1245,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NANE",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 72,
       "buyPrice": 9,
       "supplyPrice": 12.959999999999999
+    },
+    {
+      "id": 1246,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "TERE",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 70,
+      "buyPrice": 10,
+      "supplyPrice": 12.6
     },
     {
       "id": 1247,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 13.5
     },
@@ -10444,9 +13710,10 @@ export const INITIAL_DATA = {
       "id": 1248,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 72,
       "buyPrice": 10,
       "supplyPrice": 12.959999999999999
     },
@@ -10454,19 +13721,32 @@ export const INITIAL_DATA = {
       "id": 1249,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DEREOTU",
       "qty": 50,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
+    },
+    {
+      "id": 1250,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 25.2
     },
     {
       "id": 1251,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -10474,9 +13754,10 @@ export const INITIAL_DATA = {
       "id": 1252,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
       "qty": 15,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -10484,9 +13765,10 @@ export const INITIAL_DATA = {
       "id": 1253,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
       "qty": 30,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 13,
       "supplyPrice": 14.399999999999999
     },
@@ -10494,29 +13776,76 @@ export const INITIAL_DATA = {
       "id": 1254,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "GREYFURT",
       "qty": 72,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 27
+    },
+    {
+      "id": 1255,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 370,
+      "buyPrice": 45,
+      "supplyPrice": 66.6
+    },
+    {
+      "id": 1256,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "NEKTARİN",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 300,
+      "buyPrice": 35,
+      "supplyPrice": 54
+    },
+    {
+      "id": 1257,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
+      "buyPrice": 15,
+      "supplyPrice": 43.199999999999996
     },
     {
       "id": 1258,
       "date": "2026-06-20",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
       "qty": 24,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 15,
       "supplyPrice": 23.4
     },
     {
+      "id": 1259,
+      "date": "2026-06-20",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 18
+    },
+    {
       "id": 1260,
       "date": "2026-06-20",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "CASAFORA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 2030,
+      "hotel": "CASAFORA",
+      "adet": 125,
       "buyPrice": 10,
       "supplyPrice": 27.5
     },
@@ -10524,9 +13853,10 @@ export const INITIAL_DATA = {
       "id": 1261,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 590,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 18,
       "supplyPrice": 30.8
     },
@@ -10534,9 +13864,10 @@ export const INITIAL_DATA = {
       "id": 1262,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY",
       "qty": 26,
+      "hotel": "CASAFORA",
+      "adet": 400,
       "buyPrice": 40,
       "supplyPrice": 88
     },
@@ -10544,9 +13875,10 @@ export const INITIAL_DATA = {
       "id": 1263,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 51,
+      "hotel": "CASAFORA",
+      "adet": 230,
       "buyPrice": 25,
       "supplyPrice": 50.6
     },
@@ -10554,9 +13886,10 @@ export const INITIAL_DATA = {
       "id": 1264,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 125,
+      "hotel": "CASAFORA",
+      "adet": 220,
       "buyPrice": 30,
       "supplyPrice": 48.4
     },
@@ -10564,9 +13897,10 @@ export const INITIAL_DATA = {
       "id": 1265,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 186,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -10574,9 +13908,10 @@ export const INITIAL_DATA = {
       "id": 1266,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 35.2
     },
@@ -10584,9 +13919,10 @@ export const INITIAL_DATA = {
       "id": 1267,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 108,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 25,
       "supplyPrice": 24.2
     },
@@ -10594,29 +13930,54 @@ export const INITIAL_DATA = {
       "id": 1268,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 88,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 35.2
+    },
+    {
+      "id": 1269,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KEREVİZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 450,
+      "buyPrice": 70,
+      "supplyPrice": 99
     },
     {
       "id": 1270,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 35.2
+    },
+    {
+      "id": 1271,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PANCAR KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 170,
+      "buyPrice": 35,
+      "supplyPrice": 37.4
     },
     {
       "id": 1272,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 119,
+      "hotel": "CASAFORA",
+      "adet": 155,
       "buyPrice": 33,
       "supplyPrice": 34.1
     },
@@ -10624,19 +13985,43 @@ export const INITIAL_DATA = {
       "id": 1273,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 236,
+      "hotel": "CASAFORA",
+      "adet": 142,
       "buyPrice": 28,
       "supplyPrice": 31.24
+    },
+    {
+      "id": 1274,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SOĞAN TAZE",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 500,
+      "buyPrice": 80,
+      "supplyPrice": 110
+    },
+    {
+      "id": 1275,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 250,
+      "buyPrice": 35,
+      "supplyPrice": 55
     },
     {
       "id": 1276,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 54,
+      "hotel": "CASAFORA",
+      "adet": 410,
       "buyPrice": 85,
       "supplyPrice": 90.2
     },
@@ -10644,9 +14029,10 @@ export const INITIAL_DATA = {
       "id": 1277,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 105,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 17,
       "supplyPrice": 30.8
     },
@@ -10654,9 +14040,10 @@ export const INITIAL_DATA = {
       "id": 1278,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 16.5
     },
@@ -10664,19 +14051,32 @@ export const INITIAL_DATA = {
       "id": 1279,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 72,
       "buyPrice": 9,
       "supplyPrice": 15.84
+    },
+    {
+      "id": 1280,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 130,
+      "buyPrice": 15,
+      "supplyPrice": 28.6
     },
     {
       "id": 1281,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LOLOROSSO",
       "qty": 32,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
     },
@@ -10684,9 +14084,10 @@ export const INITIAL_DATA = {
       "id": 1282,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 200,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -10694,9 +14095,10 @@ export const INITIAL_DATA = {
       "id": 1283,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -10704,9 +14106,10 @@ export const INITIAL_DATA = {
       "id": 1284,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER SİVRİ",
       "qty": 67,
+      "hotel": "CASAFORA",
+      "adet": 190,
       "buyPrice": 25,
       "supplyPrice": 41.8
     },
@@ -10714,9 +14117,10 @@ export const INITIAL_DATA = {
       "id": 1285,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 210,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 15,
       "supplyPrice": 44
     },
@@ -10724,9 +14128,10 @@ export const INITIAL_DATA = {
       "id": 1286,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 72,
       "buyPrice": 9,
       "supplyPrice": 15.84
     },
@@ -10734,9 +14139,10 @@ export const INITIAL_DATA = {
       "id": 1287,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 13,
       "supplyPrice": 17.6
     },
@@ -10744,19 +14150,21 @@ export const INITIAL_DATA = {
       "id": 1288,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 105,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 15,
       "supplyPrice": 30.8
     },
     {
       "id": 1289,
       "date": "2026-06-20",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "SEAPHORİA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 500,
+      "hotel": "SEAPHORİA",
+      "adet": 125,
       "buyPrice": 10,
       "supplyPrice": 27.5
     },
@@ -10764,9 +14172,10 @@ export const INITIAL_DATA = {
       "id": 1290,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 90,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 18,
       "supplyPrice": 30.8
     },
@@ -10774,9 +14183,10 @@ export const INITIAL_DATA = {
       "id": 1291,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 15,
+      "hotel": "SEAPHORİA",
+      "adet": 400,
       "buyPrice": 40,
       "supplyPrice": 88
     },
@@ -10784,9 +14194,10 @@ export const INITIAL_DATA = {
       "id": 1292,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 24,
+      "hotel": "SEAPHORİA",
+      "adet": 230,
       "buyPrice": 25,
       "supplyPrice": 50.6
     },
@@ -10794,9 +14205,10 @@ export const INITIAL_DATA = {
       "id": 1293,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 53,
+      "hotel": "SEAPHORİA",
+      "adet": 220,
       "buyPrice": 30,
       "supplyPrice": 48.4
     },
@@ -10804,9 +14216,10 @@ export const INITIAL_DATA = {
       "id": 1294,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 28,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -10814,9 +14227,10 @@ export const INITIAL_DATA = {
       "id": 1295,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 35.2
     },
@@ -10824,9 +14238,10 @@ export const INITIAL_DATA = {
       "id": 1296,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
       "qty": 55,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
       "buyPrice": 25,
       "supplyPrice": 24.2
     },
@@ -10834,9 +14249,10 @@ export const INITIAL_DATA = {
       "id": 1297,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA KIRMIZI",
       "qty": 56,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 35.2
     },
@@ -10844,9 +14260,10 @@ export const INITIAL_DATA = {
       "id": 1298,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KEREVİZ",
       "qty": 10,
+      "hotel": "SEAPHORİA",
+      "adet": 450,
       "buyPrice": 70,
       "supplyPrice": 99
     },
@@ -10854,9 +14271,10 @@ export const INITIAL_DATA = {
       "id": 1299,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 81,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 35.2
     },
@@ -10864,9 +14282,10 @@ export const INITIAL_DATA = {
       "id": 1300,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 35,
       "supplyPrice": 37.4
     },
@@ -10874,9 +14293,10 @@ export const INITIAL_DATA = {
       "id": 1301,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 70,
+      "hotel": "SEAPHORİA",
+      "adet": 155,
       "buyPrice": 33,
       "supplyPrice": 34.1
     },
@@ -10884,9 +14304,10 @@ export const INITIAL_DATA = {
       "id": 1302,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 55,
+      "hotel": "SEAPHORİA",
+      "adet": 142,
       "buyPrice": 28,
       "supplyPrice": 31.24
     },
@@ -10894,9 +14315,10 @@ export const INITIAL_DATA = {
       "id": 1303,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN TAZE",
       "qty": 10,
+      "hotel": "SEAPHORİA",
+      "adet": 500,
       "buyPrice": 80,
       "supplyPrice": 110
     },
@@ -10904,9 +14326,10 @@ export const INITIAL_DATA = {
       "id": 1304,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "TURP KIRMIZI",
       "qty": 19,
+      "hotel": "SEAPHORİA",
+      "adet": 250,
       "buyPrice": 35,
       "supplyPrice": 55
     },
@@ -10914,9 +14337,10 @@ export const INITIAL_DATA = {
       "id": 1305,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
       "qty": 27,
+      "hotel": "SEAPHORİA",
+      "adet": 410,
       "buyPrice": 85,
       "supplyPrice": 90.2
     },
@@ -10924,9 +14348,10 @@ export const INITIAL_DATA = {
       "id": 1306,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 21,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 17,
       "supplyPrice": 30.8
     },
@@ -10934,9 +14359,10 @@ export const INITIAL_DATA = {
       "id": 1307,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 16.5
     },
@@ -10944,9 +14370,10 @@ export const INITIAL_DATA = {
       "id": 1308,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 72,
       "buyPrice": 9,
       "supplyPrice": 15.84
     },
@@ -10954,9 +14381,10 @@ export const INITIAL_DATA = {
       "id": 1309,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 12,
+      "hotel": "SEAPHORİA",
+      "adet": 130,
       "buyPrice": 15,
       "supplyPrice": 28.6
     },
@@ -10964,9 +14392,10 @@ export const INITIAL_DATA = {
       "id": 1310,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 16,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
     },
@@ -10974,9 +14403,10 @@ export const INITIAL_DATA = {
       "id": 1311,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -10984,19 +14414,76 @@ export const INITIAL_DATA = {
       "id": 1312,
       "date": "2026-06-20",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
+    },
+    {
+      "id": 1313,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER SİVRİ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 190,
+      "buyPrice": 25,
+      "supplyPrice": 41.8
+    },
+    {
+      "id": 1314,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SALATALIK SİLOR PAKET",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
+      "buyPrice": 15,
+      "supplyPrice": 44
+    },
+    {
+      "id": 1315,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 72,
+      "buyPrice": 9,
+      "supplyPrice": 15.84
+    },
+    {
+      "id": 1316,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "FESLEĞEN",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
+      "buyPrice": 13,
+      "supplyPrice": 17.6
+    },
+    {
+      "id": 1317,
+      "date": "2026-06-20",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
+      "buyPrice": 15,
+      "supplyPrice": 30.8
     },
     {
       "id": 1318,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "NEKTARİN",
       "qty": 245,
+      "hotel": "CASAFORA",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 70.4
     },
@@ -11004,9 +14491,10 @@ export const INITIAL_DATA = {
       "id": 1319,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 112,
+      "hotel": "CASAFORA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -11014,9 +14502,10 @@ export const INITIAL_DATA = {
       "id": 1320,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
       "qty": 235,
+      "hotel": "CASAFORA",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 70.4
     },
@@ -11024,9 +14513,10 @@ export const INITIAL_DATA = {
       "id": 1321,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 176,
+      "hotel": "CASAFORA",
+      "adet": 370,
       "buyPrice": 60,
       "supplyPrice": 81.4
     },
@@ -11034,9 +14524,10 @@ export const INITIAL_DATA = {
       "id": 1322,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "KAYISI",
       "qty": 284,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 35,
       "supplyPrice": 66
     },
@@ -11044,9 +14535,10 @@ export const INITIAL_DATA = {
       "id": 1323,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
       "qty": 332,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 25,
       "supplyPrice": 66
     },
@@ -11054,9 +14546,10 @@ export const INITIAL_DATA = {
       "id": 1324,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "MANDALİNA PAKET",
       "qty": 230,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 37.4
     },
@@ -11064,9 +14557,10 @@ export const INITIAL_DATA = {
       "id": 1325,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
       "qty": 150,
+      "hotel": "CASAFORA",
+      "adet": 550,
       "buyPrice": 30,
       "supplyPrice": 121
     },
@@ -11074,9 +14568,10 @@ export const INITIAL_DATA = {
       "id": 1326,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "BİBER CİN (BİBERİYE)",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": 400,
       "buyPrice": 60,
       "supplyPrice": 88
     },
@@ -11084,9 +14579,10 @@ export const INITIAL_DATA = {
       "id": 1327,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
       "qty": 237,
+      "hotel": "CASAFORA",
+      "adet": 360,
       "buyPrice": 50,
       "supplyPrice": 79.2
     },
@@ -11094,9 +14590,10 @@ export const INITIAL_DATA = {
       "id": 1328,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "KİVİ",
       "qty": 43,
+      "hotel": "CASAFORA",
+      "adet": 500,
       "buyPrice": 30,
       "supplyPrice": 110
     },
@@ -11104,9 +14601,10 @@ export const INITIAL_DATA = {
       "id": 1329,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 191,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -11114,9 +14612,10 @@ export const INITIAL_DATA = {
       "id": 1330,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ÇİLEK",
       "qty": 21,
+      "hotel": "CASAFORA",
+      "adet": 450,
       "buyPrice": 100,
       "supplyPrice": 99
     },
@@ -11124,9 +14623,10 @@ export const INITIAL_DATA = {
       "id": 1331,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "KİRAZ",
       "qty": 75,
+      "hotel": "CASAFORA",
+      "adet": 800,
       "buyPrice": 40,
       "supplyPrice": 176
     },
@@ -11134,9 +14634,10 @@ export const INITIAL_DATA = {
       "id": 1332,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
       "qty": 110,
+      "hotel": "CASAFORA",
+      "adet": 290,
       "buyPrice": 35,
       "supplyPrice": 63.8
     },
@@ -11144,9 +14645,10 @@ export const INITIAL_DATA = {
       "id": 1333,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "KARPUZ",
       "qty": 1000,
+      "hotel": "CASAFORA",
+      "adet": 125,
       "buyPrice": 0,
       "supplyPrice": 27.5
     },
@@ -11154,9 +14656,10 @@ export const INITIAL_DATA = {
       "id": 1334,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
       "qty": 75,
+      "hotel": "SEAPHORİA",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 70.4
     },
@@ -11164,9 +14667,10 @@ export const INITIAL_DATA = {
       "id": 1335,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 64,
+      "hotel": "SEAPHORİA",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 22
     },
@@ -11174,9 +14678,10 @@ export const INITIAL_DATA = {
       "id": 1336,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
       "qty": 75,
+      "hotel": "SEAPHORİA",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 70.4
     },
@@ -11184,9 +14689,10 @@ export const INITIAL_DATA = {
       "id": 1337,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 75,
+      "hotel": "SEAPHORİA",
+      "adet": 370,
       "buyPrice": 60,
       "supplyPrice": 81.4
     },
@@ -11194,9 +14700,10 @@ export const INITIAL_DATA = {
       "id": 1338,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 147,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
       "buyPrice": 35,
       "supplyPrice": 66
     },
@@ -11204,9 +14711,10 @@ export const INITIAL_DATA = {
       "id": 1339,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
       "qty": 145,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
       "buyPrice": 25,
       "supplyPrice": 66
     },
@@ -11214,9 +14722,10 @@ export const INITIAL_DATA = {
       "id": 1340,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "MANDALİNA PAKET",
       "qty": 94,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 37.4
     },
@@ -11224,9 +14733,10 @@ export const INITIAL_DATA = {
       "id": 1341,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ERİK PAPAZ",
       "qty": 87,
+      "hotel": "SEAPHORİA",
+      "adet": 550,
       "buyPrice": 30,
       "supplyPrice": 121
     },
@@ -11234,9 +14744,10 @@ export const INITIAL_DATA = {
       "id": 1342,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "BİBER CİN (BİBERİYE)",
       "qty": 10,
+      "hotel": "SEAPHORİA",
+      "adet": 400,
       "buyPrice": 60,
       "supplyPrice": 88
     },
@@ -11244,9 +14755,10 @@ export const INITIAL_DATA = {
       "id": 1343,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ARMUT SANDAMARİA",
       "qty": 94,
+      "hotel": "SEAPHORİA",
+      "adet": 360,
       "buyPrice": 50,
       "supplyPrice": 79.2
     },
@@ -11254,9 +14766,10 @@ export const INITIAL_DATA = {
       "id": 1344,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KİVİ",
       "qty": 15,
+      "hotel": "SEAPHORİA",
+      "adet": 500,
       "buyPrice": 30,
       "supplyPrice": 110
     },
@@ -11264,9 +14777,10 @@ export const INITIAL_DATA = {
       "id": 1345,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "GREYFURT",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -11274,9 +14788,10 @@ export const INITIAL_DATA = {
       "id": 1346,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
       "qty": 13,
+      "hotel": "SEAPHORİA",
+      "adet": 450,
       "buyPrice": 100,
       "supplyPrice": 99
     },
@@ -11284,29 +14799,54 @@ export const INITIAL_DATA = {
       "id": 1347,
       "date": "2026-06-22",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KİRAZ",
       "qty": 37,
+      "hotel": "SEAPHORİA",
+      "adet": 800,
       "buyPrice": 40,
       "supplyPrice": 176
     },
     {
+      "id": 1348,
+      "date": "2026-06-22",
+      "supplier": "SÜLEYMAN ASKEROĞLU",
+      "product": "MUZ YERLİ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 290,
+      "buyPrice": 35,
+      "supplyPrice": 63.8
+    },
+    {
+      "id": 1349,
+      "date": "2026-06-22",
+      "supplier": " METİN DALKIRAN",
+      "product": "KARPUZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 125,
+      "buyPrice": 0,
+      "supplyPrice": 27.5
+    },
+    {
       "id": 1350,
       "date": "2026-06-22",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "MİRAMOR GARDEN",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 685,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 1351,
       "date": "2026-06-22",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "AMBASSADOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 507,
+      "hotel": "AMBASSADOR",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
@@ -11314,9 +14854,10 @@ export const INITIAL_DATA = {
       "id": 1352,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 110,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 360,
       "buyPrice": 40,
       "supplyPrice": 64.8
     },
@@ -11324,9 +14865,10 @@ export const INITIAL_DATA = {
       "id": 1353,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 77,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 160,
       "buyPrice": 35,
       "supplyPrice": 28.799999999999997
     },
@@ -11334,9 +14876,10 @@ export const INITIAL_DATA = {
       "id": 1354,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 100,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 18
     },
@@ -11344,9 +14887,10 @@ export const INITIAL_DATA = {
       "id": 1355,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LOLOROSSO",
       "qty": 18,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 43.199999999999996
     },
@@ -11354,9 +14898,10 @@ export const INITIAL_DATA = {
       "id": 1356,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "FESLEĞEN",
       "qty": 30,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 14.399999999999999
     },
@@ -11364,9 +14909,10 @@ export const INITIAL_DATA = {
       "id": 1357,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
       "qty": 188,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 560,
       "buyPrice": 25,
       "supplyPrice": 100.8
     },
@@ -11374,9 +14920,10 @@ export const INITIAL_DATA = {
       "id": 1358,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 104,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
     },
@@ -11384,9 +14931,10 @@ export const INITIAL_DATA = {
       "id": 1359,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
       "qty": 24,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 800,
       "buyPrice": 35,
       "supplyPrice": 144
     },
@@ -11394,9 +14942,10 @@ export const INITIAL_DATA = {
       "id": 1360,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 152,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 330,
       "buyPrice": 35,
       "supplyPrice": 59.4
     },
@@ -11404,9 +14953,10 @@ export const INITIAL_DATA = {
       "id": 1361,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 105,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 57.599999999999994
     },
@@ -11414,29 +14964,153 @@ export const INITIAL_DATA = {
       "id": 1362,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
       "qty": 23,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 450,
       "buyPrice": 40,
       "supplyPrice": 81
+    },
+    {
+      "id": 1363,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "SEMİZOTU",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
+      "buyPrice": 13,
+      "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1364,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 25.2
+    },
+    {
+      "id": 1365,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "DEREOTU",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 85,
+      "buyPrice": 12,
+      "supplyPrice": 15.299999999999999
+    },
+    {
+      "id": 1366,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "ROKA",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
+      "buyPrice": 12,
+      "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1367,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
+      "buyPrice": 10,
+      "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1368,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 130,
+      "buyPrice": 18,
+      "supplyPrice": 23.4
+    },
+    {
+      "id": 1369,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "MAYDONOZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 75,
+      "buyPrice": 10,
+      "supplyPrice": 13.5
+    },
+    {
+      "id": 1370,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "PANCAR KIRMIZI",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
+      "buyPrice": 30,
+      "supplyPrice": 30.599999999999998
+    },
+    {
+      "id": 1371,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "KEREVİZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 400,
+      "buyPrice": 70,
+      "supplyPrice": 72
+    },
+    {
+      "id": 1372,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "PAZI YAPRAGI",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
+      "buyPrice": 15,
+      "supplyPrice": 14.399999999999999
     },
     {
       "id": 1373,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 66,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 360,
       "buyPrice": 40,
       "supplyPrice": 64.8
+    },
+    {
+      "id": 1374,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "HAVUÇ BEYPAZARI",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 160,
+      "buyPrice": 35,
+      "supplyPrice": 28.799999999999997
     },
     {
       "id": 1375,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
       "qty": 55,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 100,
       "buyPrice": 15,
       "supplyPrice": 18
     },
@@ -11444,19 +15118,32 @@ export const INITIAL_DATA = {
       "id": 1376,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LOLOROSSO",
       "qty": 18,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 43.199999999999996
+    },
+    {
+      "id": 1377,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "FESLEĞEN",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
+      "buyPrice": 15,
+      "supplyPrice": 14.399999999999999
     },
     {
       "id": 1378,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
       "qty": 94,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 560,
       "buyPrice": 25,
       "supplyPrice": 100.8
     },
@@ -11464,9 +15151,10 @@ export const INITIAL_DATA = {
       "id": 1379,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
       "qty": 44,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
     },
@@ -11474,19 +15162,32 @@ export const INITIAL_DATA = {
       "id": 1380,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
       "qty": 62,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 800,
       "buyPrice": 35,
       "supplyPrice": 144
+    },
+    {
+      "id": 1381,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "NEKTARİN",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 330,
+      "buyPrice": 35,
+      "supplyPrice": 59.4
     },
     {
       "id": 1382,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
       "qty": 56,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 57.599999999999994
     },
@@ -11494,9 +15195,10 @@ export const INITIAL_DATA = {
       "id": 1383,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
       "qty": 6,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 450,
       "buyPrice": 40,
       "supplyPrice": 81
     },
@@ -11504,9 +15206,10 @@ export const INITIAL_DATA = {
       "id": 1384,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "SEMİZOTU",
       "qty": 25,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
       "buyPrice": 13,
       "supplyPrice": 14.399999999999999
     },
@@ -11514,9 +15217,10 @@ export const INITIAL_DATA = {
       "id": 1385,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MARUL KIVIRCIK",
       "qty": 12,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -11524,9 +15228,10 @@ export const INITIAL_DATA = {
       "id": 1386,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -11534,9 +15239,10 @@ export const INITIAL_DATA = {
       "id": 1387,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ROKA",
       "qty": 50,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -11544,9 +15250,10 @@ export const INITIAL_DATA = {
       "id": 1388,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NANE",
       "qty": 30,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -11554,29 +15261,98 @@ export const INITIAL_DATA = {
       "id": 1389,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MARUL ICEBERG",
       "qty": 12,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 130,
       "buyPrice": 18,
       "supplyPrice": 23.4
+    },
+    {
+      "id": 1390,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "MAYDONOZ",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 75,
+      "buyPrice": 10,
+      "supplyPrice": 13.5
+    },
+    {
+      "id": 1391,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "PANCAR KIRMIZI",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 170,
+      "buyPrice": 30,
+      "supplyPrice": 30.599999999999998
+    },
+    {
+      "id": 1392,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "KEREVİZ",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 400,
+      "buyPrice": 70,
+      "supplyPrice": 72
+    },
+    {
+      "id": 1393,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "PAZI YAPRAGI",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 80,
+      "buyPrice": 15,
+      "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1394,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 360,
+      "buyPrice": 40,
+      "supplyPrice": 64.8
     },
     {
       "id": 1395,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 38,
+      "hotel": "AMBASSADOR",
+      "adet": 160,
       "buyPrice": 35,
       "supplyPrice": 28.799999999999997
+    },
+    {
+      "id": 1396,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 100,
+      "buyPrice": 15,
+      "supplyPrice": 18
     },
     {
       "id": 1397,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
       "qty": 24,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 43.199999999999996
     },
@@ -11584,19 +15360,76 @@ export const INITIAL_DATA = {
       "id": 1398,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1399,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK PAPAZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 560,
+      "buyPrice": 25,
+      "supplyPrice": 100.8
+    },
+    {
+      "id": 1400,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "ŞEFTALİ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
+      "buyPrice": 35,
+      "supplyPrice": 63
+    },
+    {
+      "id": 1401,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "KİRAZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 800,
+      "buyPrice": 35,
+      "supplyPrice": 144
+    },
+    {
+      "id": 1402,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "NEKTARİN",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 330,
+      "buyPrice": 35,
+      "supplyPrice": 59.4
+    },
+    {
+      "id": 1403,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 320,
+      "buyPrice": 35,
+      "supplyPrice": 57.599999999999994
     },
     {
       "id": 1404,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 12,
+      "hotel": "AMBASSADOR",
+      "adet": 450,
       "buyPrice": 40,
       "supplyPrice": 81
     },
@@ -11604,9 +15437,10 @@ export const INITIAL_DATA = {
       "id": 1405,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 18,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 13,
       "supplyPrice": 14.399999999999999
     },
@@ -11614,9 +15448,10 @@ export const INITIAL_DATA = {
       "id": 1406,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
       "qty": 18,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -11624,9 +15459,10 @@ export const INITIAL_DATA = {
       "id": 1407,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -11634,9 +15470,10 @@ export const INITIAL_DATA = {
       "id": 1408,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -11644,19 +15481,32 @@ export const INITIAL_DATA = {
       "id": 1409,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NANE",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1410,
+      "date": "2026-06-23",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
+      "buyPrice": 18,
+      "supplyPrice": 23.4
     },
     {
       "id": 1411,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 50,
+      "hotel": "AMBASSADOR",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 13.5
     },
@@ -11664,9 +15514,10 @@ export const INITIAL_DATA = {
       "id": 1412,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PANCAR KIRMIZI",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 30.599999999999998
     },
@@ -11674,9 +15525,10 @@ export const INITIAL_DATA = {
       "id": 1413,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KEREVİZ",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 400,
       "buyPrice": 70,
       "supplyPrice": 72
     },
@@ -11684,9 +15536,10 @@ export const INITIAL_DATA = {
       "id": 1414,
       "date": "2026-06-23",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PAZI YAPRAGI",
       "qty": 15,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 15,
       "supplyPrice": 14.399999999999999
     },
@@ -11694,9 +15547,10 @@ export const INITIAL_DATA = {
       "id": 1415,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 462,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 18,
       "supplyPrice": 30.8
     },
@@ -11704,9 +15558,10 @@ export const INITIAL_DATA = {
       "id": 1416,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY",
       "qty": 45,
+      "hotel": "SEAPHORİA",
+      "adet": 450,
       "buyPrice": 40,
       "supplyPrice": 99
     },
@@ -11714,9 +15569,10 @@ export const INITIAL_DATA = {
       "id": 1417,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 36,
+      "hotel": "SEAPHORİA",
+      "adet": 290,
       "buyPrice": 30,
       "supplyPrice": 63.8
     },
@@ -11724,9 +15580,10 @@ export const INITIAL_DATA = {
       "id": 1418,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 55,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 52.8
     },
@@ -11734,9 +15591,10 @@ export const INITIAL_DATA = {
       "id": 1419,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 105,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
       "buyPrice": 18,
       "supplyPrice": 44
     },
@@ -11744,9 +15602,10 @@ export const INITIAL_DATA = {
       "id": 1420,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 43,
+      "hotel": "SEAPHORİA",
+      "adet": 185,
       "buyPrice": 18,
       "supplyPrice": 40.7
     },
@@ -11754,9 +15613,10 @@ export const INITIAL_DATA = {
       "id": 1421,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
       "qty": 55,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 20,
       "supplyPrice": 35.2
     },
@@ -11764,9 +15624,10 @@ export const INITIAL_DATA = {
       "id": 1422,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 95,
+      "hotel": "SEAPHORİA",
+      "adet": 175,
       "buyPrice": 32,
       "supplyPrice": 38.5
     },
@@ -11774,9 +15635,10 @@ export const INITIAL_DATA = {
       "id": 1423,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 63,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 28,
       "supplyPrice": 35.2
     },
@@ -11784,9 +15646,10 @@ export const INITIAL_DATA = {
       "id": 1424,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 95,
+      "hotel": "SEAPHORİA",
+      "adet": 175,
       "buyPrice": 35,
       "supplyPrice": 38.5
     },
@@ -11794,9 +15657,10 @@ export const INITIAL_DATA = {
       "id": 1425,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 62,
+      "hotel": "SEAPHORİA",
+      "adet": 175,
       "buyPrice": 35,
       "supplyPrice": 38.5
     },
@@ -11804,9 +15668,10 @@ export const INITIAL_DATA = {
       "id": 1426,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
       "qty": 26,
+      "hotel": "SEAPHORİA",
+      "adet": 410,
       "buyPrice": 85,
       "supplyPrice": 90.2
     },
@@ -11814,9 +15679,10 @@ export const INITIAL_DATA = {
       "id": 1427,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 35,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 15,
       "supplyPrice": 16.5
     },
@@ -11824,9 +15690,10 @@ export const INITIAL_DATA = {
       "id": 1428,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 150,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -11834,9 +15701,10 @@ export const INITIAL_DATA = {
       "id": 1429,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -11844,9 +15712,10 @@ export const INITIAL_DATA = {
       "id": 1430,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -11854,9 +15723,10 @@ export const INITIAL_DATA = {
       "id": 1431,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -11864,9 +15734,10 @@ export const INITIAL_DATA = {
       "id": 1432,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -11874,9 +15745,10 @@ export const INITIAL_DATA = {
       "id": 1433,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 18.7
     },
@@ -11884,9 +15756,10 @@ export const INITIAL_DATA = {
       "id": 1434,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 28,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
     },
@@ -11894,9 +15767,10 @@ export const INITIAL_DATA = {
       "id": 1435,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ FRENK",
       "qty": 5,
+      "hotel": "SEAPHORİA",
+      "adet": 270,
       "buyPrice": 20,
       "supplyPrice": 59.4
     },
@@ -11904,9 +15778,10 @@ export const INITIAL_DATA = {
       "id": 1436,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KEKİK TAZE",
       "qty": 6,
+      "hotel": "SEAPHORİA",
+      "adet": 270,
       "buyPrice": 20,
       "supplyPrice": 59.4
     },
@@ -11914,9 +15789,10 @@ export const INITIAL_DATA = {
       "id": 1437,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 57,
+      "hotel": "SEAPHORİA",
+      "adet": 360,
       "buyPrice": 80,
       "supplyPrice": 79.2
     },
@@ -11924,29 +15800,65 @@ export const INITIAL_DATA = {
       "id": 1438,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 94,
+      "hotel": "SEAPHORİA",
+      "adet": 220,
       "buyPrice": 20,
       "supplyPrice": 48.4
+    },
+    {
+      "id": 1439,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA BEYAZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 110,
+      "buyPrice": 25,
+      "supplyPrice": 24.2
+    },
+    {
+      "id": 1440,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SOĞAN KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 210,
+      "buyPrice": 43,
+      "supplyPrice": 46.2
     },
     {
       "id": 1441,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 607,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 18,
       "supplyPrice": 30.8
+    },
+    {
+      "id": 1442,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "DOMATES CHERRY",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 450,
+      "buyPrice": 40,
+      "supplyPrice": 99
     },
     {
       "id": 1443,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 61,
+      "hotel": "CASAFORA",
+      "adet": 290,
       "buyPrice": 30,
       "supplyPrice": 63.8
     },
@@ -11954,9 +15866,10 @@ export const INITIAL_DATA = {
       "id": 1444,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 113,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 52.8
     },
@@ -11964,9 +15877,10 @@ export const INITIAL_DATA = {
       "id": 1445,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 187,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 18,
       "supplyPrice": 44
     },
@@ -11974,19 +15888,32 @@ export const INITIAL_DATA = {
       "id": 1446,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 35,
+      "hotel": "CASAFORA",
+      "adet": 185,
       "buyPrice": 18,
       "supplyPrice": 40.7
+    },
+    {
+      "id": 1447,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PATLICAN BOSTAN",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 160,
+      "buyPrice": 20,
+      "supplyPrice": 35.2
     },
     {
       "id": 1448,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 223,
+      "hotel": "CASAFORA",
+      "adet": 175,
       "buyPrice": 32,
       "supplyPrice": 38.5
     },
@@ -11994,9 +15921,10 @@ export const INITIAL_DATA = {
       "id": 1449,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 105,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 28,
       "supplyPrice": 35.2
     },
@@ -12004,9 +15932,10 @@ export const INITIAL_DATA = {
       "id": 1450,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 212,
+      "hotel": "CASAFORA",
+      "adet": 175,
       "buyPrice": 35,
       "supplyPrice": 38.5
     },
@@ -12014,9 +15943,10 @@ export const INITIAL_DATA = {
       "id": 1451,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 328,
+      "hotel": "CASAFORA",
+      "adet": 175,
       "buyPrice": 35,
       "supplyPrice": 38.5
     },
@@ -12024,19 +15954,32 @@ export const INITIAL_DATA = {
       "id": 1452,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 45,
+      "hotel": "CASAFORA",
+      "adet": 410,
       "buyPrice": 85,
       "supplyPrice": 90.2
+    },
+    {
+      "id": 1453,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 75,
+      "buyPrice": 15,
+      "supplyPrice": 16.5
     },
     {
       "id": 1454,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -12044,9 +15987,10 @@ export const INITIAL_DATA = {
       "id": 1455,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -12054,9 +15998,10 @@ export const INITIAL_DATA = {
       "id": 1456,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -12064,29 +16009,98 @@ export const INITIAL_DATA = {
       "id": 1457,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 150,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
+    },
+    {
+      "id": 1458,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "ROKA",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 80,
+      "buyPrice": 9,
+      "supplyPrice": 17.6
+    },
+    {
+      "id": 1459,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "FESLEĞEN",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 85,
+      "buyPrice": 12,
+      "supplyPrice": 18.7
     },
     {
       "id": 1460,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LOLOROSSO",
       "qty": 40,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 25,
       "supplyPrice": 52.8
+    },
+    {
+      "id": 1461,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MAYDONOZ FRENK",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 270,
+      "buyPrice": 20,
+      "supplyPrice": 59.4
+    },
+    {
+      "id": 1462,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KEKİK TAZE",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 270,
+      "buyPrice": 20,
+      "supplyPrice": 59.4
+    },
+    {
+      "id": 1463,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 360,
+      "buyPrice": 80,
+      "supplyPrice": 79.2
+    },
+    {
+      "id": 1464,
+      "date": "2026-06-24",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER SİVRİ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 220,
+      "buyPrice": 20,
+      "supplyPrice": 48.4
     },
     {
       "id": 1465,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 58,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 25,
       "supplyPrice": 24.2
     },
@@ -12094,9 +16108,10 @@ export const INITIAL_DATA = {
       "id": 1466,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KIRMIZI",
       "qty": 23,
+      "hotel": "CASAFORA",
+      "adet": 210,
       "buyPrice": 43,
       "supplyPrice": 46.2
     },
@@ -12104,9 +16119,10 @@ export const INITIAL_DATA = {
       "id": 1467,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 90,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 15,
       "supplyPrice": 44
     },
@@ -12114,9 +16130,10 @@ export const INITIAL_DATA = {
       "id": 1468,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PIRASA",
       "qty": 15,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 40,
       "supplyPrice": 44
     },
@@ -12124,9 +16141,10 @@ export const INITIAL_DATA = {
       "id": 1469,
       "date": "2026-06-24",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 8,
       "supplyPrice": 17.6
     },
@@ -12134,9 +16152,10 @@ export const INITIAL_DATA = {
       "id": 1470,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 154,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 360,
       "buyPrice": 45,
       "supplyPrice": 64.8
     },
@@ -12144,9 +16163,10 @@ export const INITIAL_DATA = {
       "id": 1471,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 90,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 380,
       "buyPrice": 30,
       "supplyPrice": 68.39999999999999
     },
@@ -12154,9 +16174,10 @@ export const INITIAL_DATA = {
       "id": 1472,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
       "qty": 64,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -12164,9 +16185,10 @@ export const INITIAL_DATA = {
       "id": 1473,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
       "qty": 88,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 270,
       "buyPrice": 30,
       "supplyPrice": 48.6
     },
@@ -12174,9 +16196,10 @@ export const INITIAL_DATA = {
       "id": 1474,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 113,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 320,
       "buyPrice": 40,
       "supplyPrice": 57.599999999999994
     },
@@ -12184,9 +16207,10 @@ export const INITIAL_DATA = {
       "id": 1475,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
       "qty": 132,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 310,
       "buyPrice": 30,
       "supplyPrice": 55.8
     },
@@ -12194,9 +16218,10 @@ export const INITIAL_DATA = {
       "id": 1476,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
       "qty": 113,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 750,
       "buyPrice": 40,
       "supplyPrice": 135
     },
@@ -12204,9 +16229,10 @@ export const INITIAL_DATA = {
       "id": 1477,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
       "qty": 60,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 560,
       "buyPrice": 35,
       "supplyPrice": 100.8
     },
@@ -12214,9 +16240,10 @@ export const INITIAL_DATA = {
       "id": 1478,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
       "qty": 64,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 63
     },
@@ -12224,9 +16251,10 @@ export const INITIAL_DATA = {
       "id": 1479,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 98,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 380,
       "buyPrice": 35,
       "supplyPrice": 68.39999999999999
     },
@@ -12234,19 +16262,32 @@ export const INITIAL_DATA = {
       "id": 1480,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 163,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 100,
       "buyPrice": 10,
       "supplyPrice": 18
+    },
+    {
+      "id": 1481,
+      "date": "2026-06-27",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 360,
+      "buyPrice": 45,
+      "supplyPrice": 64.8
     },
     {
       "id": 1482,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ŞEFTALİ",
       "qty": 42,
+      "hotel": "STELLA",
+      "adet": 380,
       "buyPrice": 30,
       "supplyPrice": 68.39999999999999
     },
@@ -12254,9 +16295,10 @@ export const INITIAL_DATA = {
       "id": 1483,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "GREYFURT",
       "qty": 35,
+      "hotel": "STELLA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -12264,9 +16306,10 @@ export const INITIAL_DATA = {
       "id": 1484,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "MUZ YERLİ",
       "qty": 26,
+      "hotel": "STELLA",
+      "adet": 270,
       "buyPrice": 30,
       "supplyPrice": 48.6
     },
@@ -12274,19 +16317,32 @@ export const INITIAL_DATA = {
       "id": 1485,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "KAYISI",
       "qty": 38,
+      "hotel": "STELLA",
+      "adet": 320,
       "buyPrice": 40,
       "supplyPrice": 57.599999999999994
+    },
+    {
+      "id": 1486,
+      "date": "2026-06-27",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 310,
+      "buyPrice": 30,
+      "supplyPrice": 55.8
     },
     {
       "id": 1487,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "KİRAZ",
       "qty": 32,
+      "hotel": "STELLA",
+      "adet": 750,
       "buyPrice": 40,
       "supplyPrice": 135
     },
@@ -12294,19 +16350,32 @@ export const INITIAL_DATA = {
       "id": 1488,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ERİK PAPAZ",
       "qty": 18,
+      "hotel": "STELLA",
+      "adet": 560,
       "buyPrice": 35,
       "supplyPrice": 100.8
+    },
+    {
+      "id": 1489,
+      "date": "2026-06-27",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK ANJELİKA",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 350,
+      "buyPrice": 40,
+      "supplyPrice": 63
     },
     {
       "id": 1490,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "LİMON",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 380,
       "buyPrice": 35,
       "supplyPrice": 68.39999999999999
     },
@@ -12314,9 +16383,10 @@ export const INITIAL_DATA = {
       "id": 1491,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 60,
+      "hotel": "STELLA",
+      "adet": 100,
       "buyPrice": 10,
       "supplyPrice": 18
     },
@@ -12324,9 +16394,10 @@ export const INITIAL_DATA = {
       "id": 1492,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 46,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 360,
       "buyPrice": 45,
       "supplyPrice": 64.8
     },
@@ -12334,19 +16405,32 @@ export const INITIAL_DATA = {
       "id": 1493,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
       "qty": 62,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 380,
       "buyPrice": 30,
       "supplyPrice": 68.39999999999999
+    },
+    {
+      "id": 1494,
+      "date": "2026-06-27",
+      "supplier": "ANTALYA HAL",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 150,
+      "buyPrice": 15,
+      "supplyPrice": 27
     },
     {
       "id": 1495,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
       "qty": 80,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 270,
       "buyPrice": 30,
       "supplyPrice": 48.6
     },
@@ -12354,9 +16438,10 @@ export const INITIAL_DATA = {
       "id": 1496,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
       "qty": 64,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 320,
       "buyPrice": 40,
       "supplyPrice": 57.599999999999994
     },
@@ -12364,9 +16449,10 @@ export const INITIAL_DATA = {
       "id": 1497,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
       "qty": 120,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 310,
       "buyPrice": 30,
       "supplyPrice": 55.8
     },
@@ -12374,9 +16460,10 @@ export const INITIAL_DATA = {
       "id": 1498,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
       "qty": 58,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 750,
       "buyPrice": 40,
       "supplyPrice": 135
     },
@@ -12384,9 +16471,10 @@ export const INITIAL_DATA = {
       "id": 1499,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
       "qty": 50,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 560,
       "buyPrice": 35,
       "supplyPrice": 100.8
     },
@@ -12394,9 +16482,10 @@ export const INITIAL_DATA = {
       "id": 1500,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
       "qty": 57,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 63
     },
@@ -12404,9 +16493,10 @@ export const INITIAL_DATA = {
       "id": 1501,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
       "qty": 29,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 380,
       "buyPrice": 35,
       "supplyPrice": 68.39999999999999
     },
@@ -12414,9 +16504,10 @@ export const INITIAL_DATA = {
       "id": 1502,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
       "qty": 64,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 100,
       "buyPrice": 10,
       "supplyPrice": 18
     },
@@ -12424,9 +16515,10 @@ export const INITIAL_DATA = {
       "id": 1503,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 31,
+      "hotel": "AMBASSADOR",
+      "adet": 360,
       "buyPrice": 45,
       "supplyPrice": 64.8
     },
@@ -12434,9 +16526,10 @@ export const INITIAL_DATA = {
       "id": 1504,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 65,
+      "hotel": "AMBASSADOR",
+      "adet": 380,
       "buyPrice": 30,
       "supplyPrice": 68.39999999999999
     },
@@ -12444,9 +16537,10 @@ export const INITIAL_DATA = {
       "id": 1505,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "GREYFURT",
       "qty": 55,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -12454,19 +16548,54 @@ export const INITIAL_DATA = {
       "id": 1506,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MUZ YERLİ",
       "qty": 13,
+      "hotel": "AMBASSADOR",
+      "adet": 270,
       "buyPrice": 30,
       "supplyPrice": 48.6
+    },
+    {
+      "id": 1507,
+      "date": "2026-06-27",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 320,
+      "buyPrice": 40,
+      "supplyPrice": 57.599999999999994
+    },
+    {
+      "id": 1508,
+      "date": "2026-06-27",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 310,
+      "buyPrice": 30,
+      "supplyPrice": 55.8
+    },
+    {
+      "id": 1509,
+      "date": "2026-06-27",
+      "supplier": "ANTALYA HAL",
+      "product": "KİRAZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 750,
+      "buyPrice": 40,
+      "supplyPrice": 135
     },
     {
       "id": 1510,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
       "qty": 30,
+      "hotel": "AMBASSADOR",
+      "adet": 560,
       "buyPrice": 35,
       "supplyPrice": 100.8
     },
@@ -12474,19 +16603,32 @@ export const INITIAL_DATA = {
       "id": 1511,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ERİK ANJELİKA",
       "qty": 62,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
       "buyPrice": 40,
       "supplyPrice": 63
+    },
+    {
+      "id": 1512,
+      "date": "2026-06-27",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 380,
+      "buyPrice": 35,
+      "supplyPrice": 68.39999999999999
     },
     {
       "id": 1513,
       "date": "2026-06-27",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 50,
+      "hotel": "AMBASSADOR",
+      "adet": 100,
       "buyPrice": 10,
       "supplyPrice": 18
     },
@@ -12494,9 +16636,10 @@ export const INITIAL_DATA = {
       "id": 1514,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 510,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 18,
       "supplyPrice": 30.8
     },
@@ -12504,9 +16647,10 @@ export const INITIAL_DATA = {
       "id": 1515,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 277,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 17,
       "supplyPrice": 44
     },
@@ -12514,9 +16658,10 @@ export const INITIAL_DATA = {
       "id": 1516,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 194,
+      "hotel": "CASAFORA",
+      "adet": 180,
       "buyPrice": 18,
       "supplyPrice": 39.6
     },
@@ -12524,9 +16669,10 @@ export const INITIAL_DATA = {
       "id": 1517,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN BOSTAN",
       "qty": 76,
+      "hotel": "CASAFORA",
+      "adet": 190,
       "buyPrice": 18,
       "supplyPrice": 41.8
     },
@@ -12534,9 +16680,10 @@ export const INITIAL_DATA = {
       "id": 1518,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 147,
+      "hotel": "CASAFORA",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 52.8
     },
@@ -12544,9 +16691,10 @@ export const INITIAL_DATA = {
       "id": 1519,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
       "qty": 56,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 48,
       "supplyPrice": 66
     },
@@ -12554,9 +16702,10 @@ export const INITIAL_DATA = {
       "id": 1520,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 99,
+      "hotel": "CASAFORA",
+      "adet": 380,
       "buyPrice": 65,
       "supplyPrice": 83.6
     },
@@ -12564,9 +16713,10 @@ export const INITIAL_DATA = {
       "id": 1521,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -12574,9 +16724,10 @@ export const INITIAL_DATA = {
       "id": 1522,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 8,
       "supplyPrice": 16.5
     },
@@ -12584,9 +16735,10 @@ export const INITIAL_DATA = {
       "id": 1523,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 56,
+      "hotel": "CASAFORA",
+      "adet": 140,
       "buyPrice": 15,
       "supplyPrice": 30.8
     },
@@ -12594,9 +16746,10 @@ export const INITIAL_DATA = {
       "id": 1524,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 40,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -12604,9 +16757,10 @@ export const INITIAL_DATA = {
       "id": 1525,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -12614,9 +16768,10 @@ export const INITIAL_DATA = {
       "id": 1526,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -12624,9 +16779,10 @@ export const INITIAL_DATA = {
       "id": 1527,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
       "qty": 10,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 10,
       "supplyPrice": 66
     },
@@ -12634,9 +16790,10 @@ export const INITIAL_DATA = {
       "id": 1528,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 45,
+      "hotel": "CASAFORA",
+      "adet": 410,
       "buyPrice": 85,
       "supplyPrice": 90.2
     },
@@ -12644,9 +16801,10 @@ export const INITIAL_DATA = {
       "id": 1529,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 36,
+      "hotel": "CASAFORA",
+      "adet": 175,
       "buyPrice": 40,
       "supplyPrice": 38.5
     },
@@ -12654,9 +16812,10 @@ export const INITIAL_DATA = {
       "id": 1530,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 34,
+      "hotel": "CASAFORA",
+      "adet": 175,
       "buyPrice": 60,
       "supplyPrice": 38.5
     },
@@ -12664,9 +16823,10 @@ export const INITIAL_DATA = {
       "id": 1531,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES CHERRY PAKET",
       "qty": 38,
+      "hotel": "CASAFORA",
+      "adet": 440,
       "buyPrice": 40,
       "supplyPrice": 96.8
     },
@@ -12674,19 +16834,87 @@ export const INITIAL_DATA = {
       "id": 1532,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES KOKTEYL",
       "qty": 1401,
+      "hotel": "CASAFORA",
+      "adet": 230,
       "buyPrice": 12,
       "supplyPrice": 50.6
+    },
+    {
+      "id": 1533,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PATATES TAZE",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 210,
+      "buyPrice": 36,
+      "supplyPrice": 46.2
+    },
+    {
+      "id": 1534,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "HAVUÇ BEYPAZARI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 160,
+      "buyPrice": 28,
+      "supplyPrice": 35.2
+    },
+    {
+      "id": 1535,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER ÇARLİSTON",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 360,
+      "buyPrice": 30,
+      "supplyPrice": 79.2
+    },
+    {
+      "id": 1536,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER SİVRİ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 240,
+      "buyPrice": 30,
+      "supplyPrice": 52.8
+    },
+    {
+      "id": 1537,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 140,
+      "buyPrice": 15,
+      "supplyPrice": 30.8
+    },
+    {
+      "id": 1538,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KABAK SAKIZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 175,
+      "buyPrice": 30,
+      "supplyPrice": 38.5
     },
     {
       "id": 1539,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 145,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 18,
       "supplyPrice": 30.8
     },
@@ -12694,9 +16922,10 @@ export const INITIAL_DATA = {
       "id": 1540,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 98,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
       "buyPrice": 17,
       "supplyPrice": 44
     },
@@ -12704,9 +16933,10 @@ export const INITIAL_DATA = {
       "id": 1541,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 180,
       "buyPrice": 18,
       "supplyPrice": 39.6
     },
@@ -12714,9 +16944,10 @@ export const INITIAL_DATA = {
       "id": 1542,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
       "qty": 61,
+      "hotel": "SEAPHORİA",
+      "adet": 190,
       "buyPrice": 18,
       "supplyPrice": 41.8
     },
@@ -12724,19 +16955,43 @@ export const INITIAL_DATA = {
       "id": 1543,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 52.8
+    },
+    {
+      "id": 1544,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER DOLMA",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
+      "buyPrice": 48,
+      "supplyPrice": 66
+    },
+    {
+      "id": 1545,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 380,
+      "buyPrice": 65,
+      "supplyPrice": 83.6
     },
     {
       "id": 1546,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -12744,9 +16999,10 @@ export const INITIAL_DATA = {
       "id": 1547,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 75,
       "buyPrice": 8,
       "supplyPrice": 16.5
     },
@@ -12754,9 +17010,10 @@ export const INITIAL_DATA = {
       "id": 1548,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 35,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 15,
       "supplyPrice": 30.8
     },
@@ -12764,9 +17021,10 @@ export const INITIAL_DATA = {
       "id": 1549,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -12774,9 +17032,10 @@ export const INITIAL_DATA = {
       "id": 1550,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "SEAPHORİA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -12784,19 +17043,32 @@ export const INITIAL_DATA = {
       "id": 1551,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
+    },
+    {
+      "id": 1552,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
+      "buyPrice": 10,
+      "supplyPrice": 66
     },
     {
       "id": 1553,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
       "qty": 27,
+      "hotel": "SEAPHORİA",
+      "adet": 410,
       "buyPrice": 85,
       "supplyPrice": 90.2
     },
@@ -12804,19 +17076,32 @@ export const INITIAL_DATA = {
       "id": 1554,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 65,
+      "hotel": "SEAPHORİA",
+      "adet": 175,
       "buyPrice": 40,
+      "supplyPrice": 38.5
+    },
+    {
+      "id": 1555,
+      "date": "2026-06-27",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KABAK SAKIZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 175,
+      "buyPrice": 60,
       "supplyPrice": 38.5
     },
     {
       "id": 1556,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES CHERRY PAKET",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": 440,
       "buyPrice": 40,
       "supplyPrice": 96.8
     },
@@ -12824,9 +17109,10 @@ export const INITIAL_DATA = {
       "id": 1557,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES KOKTEYL",
       "qty": 173,
+      "hotel": "SEAPHORİA",
+      "adet": 230,
       "buyPrice": 12,
       "supplyPrice": 50.6
     },
@@ -12834,9 +17120,10 @@ export const INITIAL_DATA = {
       "id": 1558,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 53,
+      "hotel": "SEAPHORİA",
+      "adet": 210,
       "buyPrice": 36,
       "supplyPrice": 46.2
     },
@@ -12844,9 +17131,10 @@ export const INITIAL_DATA = {
       "id": 1559,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 47,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 28,
       "supplyPrice": 35.2
     },
@@ -12854,9 +17142,10 @@ export const INITIAL_DATA = {
       "id": 1560,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 79,
+      "hotel": "SEAPHORİA",
+      "adet": 360,
       "buyPrice": 30,
       "supplyPrice": 79.2
     },
@@ -12864,9 +17153,10 @@ export const INITIAL_DATA = {
       "id": 1561,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 52.8
     },
@@ -12874,9 +17164,10 @@ export const INITIAL_DATA = {
       "id": 1562,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 42,
+      "hotel": "SEAPHORİA",
+      "adet": 140,
       "buyPrice": 15,
       "supplyPrice": 30.8
     },
@@ -12884,9 +17175,10 @@ export const INITIAL_DATA = {
       "id": 1563,
       "date": "2026-06-27",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 58,
+      "hotel": "SEAPHORİA",
+      "adet": 175,
       "buyPrice": 30,
       "supplyPrice": 38.5
     },
@@ -12894,9 +17186,10 @@ export const INITIAL_DATA = {
       "id": 1564,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -12904,9 +17197,10 @@ export const INITIAL_DATA = {
       "id": 1565,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -12914,9 +17208,10 @@ export const INITIAL_DATA = {
       "id": 1566,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NANE",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -12924,9 +17219,10 @@ export const INITIAL_DATA = {
       "id": 1567,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "TERE",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 90,
       "buyPrice": 15,
       "supplyPrice": 16.2
     },
@@ -12934,9 +17230,10 @@ export const INITIAL_DATA = {
       "id": 1568,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 135,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
       "buyPrice": 20,
       "supplyPrice": 63
     },
@@ -12944,9 +17241,10 @@ export const INITIAL_DATA = {
       "id": 1569,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 105,
+      "hotel": "AMBASSADOR",
+      "adet": 190,
       "buyPrice": 20,
       "supplyPrice": 34.199999999999996
     },
@@ -12954,9 +17252,10 @@ export const INITIAL_DATA = {
       "id": 1570,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KİRAZ",
       "qty": 132,
+      "hotel": "AMBASSADOR",
+      "adet": 750,
       "buyPrice": 35,
       "supplyPrice": 135
     },
@@ -12964,9 +17263,10 @@ export const INITIAL_DATA = {
       "id": 1571,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LAHANA KIRMIZI",
       "qty": 64,
+      "hotel": "AMBASSADOR",
+      "adet": 160,
       "buyPrice": 25,
       "supplyPrice": 28.799999999999997
     },
@@ -12974,9 +17274,10 @@ export const INITIAL_DATA = {
       "id": 1572,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SOĞAN KURU",
       "qty": 116,
+      "hotel": "AMBASSADOR",
+      "adet": 190,
       "buyPrice": 30,
       "supplyPrice": 34.199999999999996
     },
@@ -12984,9 +17285,10 @@ export const INITIAL_DATA = {
       "id": 1573,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAVUN",
       "qty": 130,
+      "hotel": "AMBASSADOR",
+      "adet": 180,
       "buyPrice": 20,
       "supplyPrice": 32.4
     },
@@ -12994,9 +17296,10 @@ export const INITIAL_DATA = {
       "id": 1574,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 12,
+      "hotel": "AMBASSADOR",
+      "adet": 480,
       "buyPrice": 50,
       "supplyPrice": 86.39999999999999
     },
@@ -13004,9 +17307,10 @@ export const INITIAL_DATA = {
       "id": 1575,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 70,
+      "hotel": "AMBASSADOR",
+      "adet": 180,
       "buyPrice": 15,
       "supplyPrice": 32.4
     },
@@ -13014,9 +17318,10 @@ export const INITIAL_DATA = {
       "id": 1576,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 270,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 15,
       "supplyPrice": 25.2
     },
@@ -13024,9 +17329,10 @@ export const INITIAL_DATA = {
       "id": 1577,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 200,
       "buyPrice": 15,
       "supplyPrice": 36
     },
@@ -13034,9 +17340,10 @@ export const INITIAL_DATA = {
       "id": 1578,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KEREVİZ",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 380,
       "buyPrice": 80,
       "supplyPrice": 68.39999999999999
     },
@@ -13044,9 +17351,10 @@ export const INITIAL_DATA = {
       "id": 1579,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 32,
       "supplyPrice": 30.599999999999998
     },
@@ -13054,9 +17362,10 @@ export const INITIAL_DATA = {
       "id": 1580,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LOLOROSSO",
       "qty": 30,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
       "buyPrice": 15,
       "supplyPrice": 43.199999999999996
     },
@@ -13064,9 +17373,10 @@ export const INITIAL_DATA = {
       "id": 1581,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
       "qty": 30,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -13074,9 +17384,10 @@ export const INITIAL_DATA = {
       "id": 1582,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": 130,
       "buyPrice": 18,
       "supplyPrice": 23.4
     },
@@ -13084,9 +17395,10 @@ export const INITIAL_DATA = {
       "id": 1583,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "AMBASSADOR",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 13.5
     },
@@ -13094,9 +17406,10 @@ export const INITIAL_DATA = {
       "id": 1584,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -13104,9 +17417,10 @@ export const INITIAL_DATA = {
       "id": 1585,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
       "qty": 24,
+      "hotel": "AMBASSADOR",
+      "adet": 140,
       "buyPrice": 20,
       "supplyPrice": 25.2
     },
@@ -13114,9 +17428,10 @@ export const INITIAL_DATA = {
       "id": 1586,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ERİK ANJELİKA",
       "qty": 65,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
     },
@@ -13124,9 +17439,10 @@ export const INITIAL_DATA = {
       "id": 1587,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 87,
+      "hotel": "AMBASSADOR",
+      "adet": 380,
       "buyPrice": 35,
       "supplyPrice": 68.39999999999999
     },
@@ -13134,9 +17450,10 @@ export const INITIAL_DATA = {
       "id": 1588,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
       "qty": 105,
+      "hotel": "AMBASSADOR",
+      "adet": 420,
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -13144,9 +17461,10 @@ export const INITIAL_DATA = {
       "id": 1589,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "GREYFURT",
       "qty": 110,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -13154,9 +17472,10 @@ export const INITIAL_DATA = {
       "id": 1590,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 90,
+      "hotel": "AMBASSADOR",
+      "adet": 360,
       "buyPrice": 45,
       "supplyPrice": 64.8
     },
@@ -13164,9 +17483,10 @@ export const INITIAL_DATA = {
       "id": 1591,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LİMON",
       "qty": 55,
+      "hotel": "AMBASSADOR",
+      "adet": 380,
       "buyPrice": 40,
       "supplyPrice": 68.39999999999999
     },
@@ -13174,9 +17494,10 @@ export const INITIAL_DATA = {
       "id": 1592,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MUZ İTHAL",
       "qty": 133,
+      "hotel": "AMBASSADOR",
+      "adet": 470,
       "buyPrice": 25,
       "supplyPrice": 84.6
     },
@@ -13184,9 +17505,10 @@ export const INITIAL_DATA = {
       "id": 1593,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SOĞAN KIRMIZI",
       "qty": 10,
+      "hotel": "AMBASSADOR",
+      "adet": 220,
       "buyPrice": 40,
       "supplyPrice": 39.6
     },
@@ -13194,9 +17516,10 @@ export const INITIAL_DATA = {
       "id": 1594,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAYISI",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 57.599999999999994
     },
@@ -13204,9 +17527,10 @@ export const INITIAL_DATA = {
       "id": 1595,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -13214,9 +17538,10 @@ export const INITIAL_DATA = {
       "id": 1596,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ROKA",
       "qty": 60,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -13224,9 +17549,10 @@ export const INITIAL_DATA = {
       "id": 1597,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NANE",
       "qty": 40,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -13234,39 +17560,318 @@ export const INITIAL_DATA = {
       "id": 1598,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "TERE",
       "qty": 30,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 90,
       "buyPrice": 15,
       "supplyPrice": 16.2
+    },
+    {
+      "id": 1599,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "BİBER ÇARLİSTON",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 350,
+      "buyPrice": 20,
+      "supplyPrice": 63
+    },
+    {
+      "id": 1600,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "PATLICAN",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 190,
+      "buyPrice": 20,
+      "supplyPrice": 34.199999999999996
+    },
+    {
+      "id": 1601,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "KİRAZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 750,
+      "buyPrice": 35,
+      "supplyPrice": 135
+    },
+    {
+      "id": 1602,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "LAHANA KIRMIZI",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 160,
+      "buyPrice": 25,
+      "supplyPrice": 28.799999999999997
+    },
+    {
+      "id": 1603,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "SOĞAN KURU",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 190,
+      "buyPrice": 30,
+      "supplyPrice": 34.199999999999996
+    },
+    {
+      "id": 1604,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "KAVUN",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 180,
+      "buyPrice": 20,
+      "supplyPrice": 32.4
+    },
+    {
+      "id": 1605,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "ÇİLEK",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 480,
+      "buyPrice": 50,
+      "supplyPrice": 86.39999999999999
+    },
+    {
+      "id": 1606,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "KABAK SAKIZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 180,
+      "buyPrice": 15,
+      "supplyPrice": 32.4
+    },
+    {
+      "id": 1607,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "DOMATES",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 140,
+      "buyPrice": 15,
+      "supplyPrice": 25.2
+    },
+    {
+      "id": 1608,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "SALATALIK SİLOR PAKET",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 200,
+      "buyPrice": 15,
+      "supplyPrice": 36
+    },
+    {
+      "id": 1609,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "KEREVİZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 380,
+      "buyPrice": 80,
+      "supplyPrice": 68.39999999999999
+    },
+    {
+      "id": 1610,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "HAVUÇ BEYPAZARI",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 170,
+      "buyPrice": 232,
+      "supplyPrice": 30.599999999999998
+    },
+    {
+      "id": 1611,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 240,
+      "buyPrice": 15,
+      "supplyPrice": 43.199999999999996
     },
     {
       "id": 1612,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1613,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 130,
+      "buyPrice": 18,
+      "supplyPrice": 23.4
     },
     {
       "id": 1614,
       "date": "2026-06-29",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MAYDONOZ",
       "qty": 40,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 13.5
+    },
+    {
+      "id": 1615,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "SEMİZOTU",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 80,
+      "buyPrice": 12,
+      "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1616,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 140,
+      "buyPrice": 20,
+      "supplyPrice": 25.2
+    },
+    {
+      "id": 1617,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK ANJELİKA",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 350,
+      "buyPrice": 35,
+      "supplyPrice": 63
+    },
+    {
+      "id": 1618,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "ŞEFTALİ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 380,
+      "buyPrice": 35,
+      "supplyPrice": 68.39999999999999
+    },
+    {
+      "id": 1619,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "NEKTARİN",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 420,
+      "buyPrice": 35,
+      "supplyPrice": 75.6
+    },
+    {
+      "id": 1620,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
+      "buyPrice": 15,
+      "supplyPrice": 27
+    },
+    {
+      "id": 1621,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 360,
+      "buyPrice": 45,
+      "supplyPrice": 64.8
+    },
+    {
+      "id": 1622,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 380,
+      "buyPrice": 40,
+      "supplyPrice": 68.39999999999999
+    },
+    {
+      "id": 1623,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "MUZ İTHAL",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 470,
+      "buyPrice": 25,
+      "supplyPrice": 84.6
+    },
+    {
+      "id": 1624,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "SOĞAN KIRMIZI",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 220,
+      "buyPrice": 40,
+      "supplyPrice": 39.6
+    },
+    {
+      "id": 1625,
+      "date": "2026-06-29",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 320,
+      "buyPrice": 35,
+      "supplyPrice": 57.599999999999994
     },
     {
       "id": 1626,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 113,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 420,
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -13274,9 +17879,10 @@ export const INITIAL_DATA = {
       "id": 1627,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
       "qty": 94,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
     },
@@ -13284,9 +17890,10 @@ export const INITIAL_DATA = {
       "id": 1628,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
       "qty": 35,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 520,
       "buyPrice": 50,
       "supplyPrice": 93.6
     },
@@ -13294,9 +17901,10 @@ export const INITIAL_DATA = {
       "id": 1629,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
       "qty": 84,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 720,
       "buyPrice": 35,
       "supplyPrice": 129.6
     },
@@ -13304,9 +17912,10 @@ export const INITIAL_DATA = {
       "id": 1630,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 110,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 21.599999999999998
     },
@@ -13314,9 +17923,10 @@ export const INITIAL_DATA = {
       "id": 1631,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
       "qty": 70,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
       "buyPrice": 30,
       "supplyPrice": 27
     },
@@ -13324,9 +17934,10 @@ export const INITIAL_DATA = {
       "id": 1632,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
       "qty": 80,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 260,
       "buyPrice": 30,
       "supplyPrice": 46.8
     },
@@ -13334,9 +17945,10 @@ export const INITIAL_DATA = {
       "id": 1633,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 110,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 380,
       "buyPrice": 35,
       "supplyPrice": 68.39999999999999
     },
@@ -13344,9 +17956,10 @@ export const INITIAL_DATA = {
       "id": 1634,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
       "qty": 126,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 320,
       "buyPrice": 30,
       "supplyPrice": 57.599999999999994
     },
@@ -13354,9 +17967,10 @@ export const INITIAL_DATA = {
       "id": 1635,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 53,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 380,
       "buyPrice": 40,
       "supplyPrice": 68.39999999999999
     },
@@ -13364,9 +17978,10 @@ export const INITIAL_DATA = {
       "id": 1636,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 120,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 360,
       "buyPrice": 40,
       "supplyPrice": 64.8
     },
@@ -13374,9 +17989,10 @@ export const INITIAL_DATA = {
       "id": 1637,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 175,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 320,
       "buyPrice": 30,
       "supplyPrice": 57.599999999999994
     },
@@ -13384,9 +18000,10 @@ export const INITIAL_DATA = {
       "id": 1638,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
       "qty": 68,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 420,
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -13394,9 +18011,10 @@ export const INITIAL_DATA = {
       "id": 1639,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
       "qty": 55,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
     },
@@ -13404,9 +18022,10 @@ export const INITIAL_DATA = {
       "id": 1640,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
       "qty": 9,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 520,
       "buyPrice": 50,
       "supplyPrice": 93.6
     },
@@ -13414,9 +18033,10 @@ export const INITIAL_DATA = {
       "id": 1641,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
       "qty": 85,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 720,
       "buyPrice": 35,
       "supplyPrice": 129.6
     },
@@ -13424,19 +18044,32 @@ export const INITIAL_DATA = {
       "id": 1642,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
       "qty": 110,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 21.599999999999998
+    },
+    {
+      "id": 1643,
+      "date": "2026-06-30",
+      "supplier": "ANTALYA HAL",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 150,
+      "buyPrice": 30,
+      "supplyPrice": 27
     },
     {
       "id": 1644,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
       "qty": 106,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 260,
       "buyPrice": 30,
       "supplyPrice": 46.8
     },
@@ -13444,9 +18077,10 @@ export const INITIAL_DATA = {
       "id": 1645,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
       "qty": 85,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 380,
       "buyPrice": 35,
       "supplyPrice": 68.39999999999999
     },
@@ -13454,9 +18088,10 @@ export const INITIAL_DATA = {
       "id": 1646,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
       "qty": 166,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 320,
       "buyPrice": 30,
       "supplyPrice": 57.599999999999994
     },
@@ -13464,9 +18099,10 @@ export const INITIAL_DATA = {
       "id": 1647,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
       "qty": 30,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 380,
       "buyPrice": 40,
       "supplyPrice": 68.39999999999999
     },
@@ -13474,19 +18110,32 @@ export const INITIAL_DATA = {
       "id": 1648,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 53,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 360,
       "buyPrice": 40,
       "supplyPrice": 64.8
+    },
+    {
+      "id": 1649,
+      "date": "2026-06-30",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 320,
+      "buyPrice": 30,
+      "supplyPrice": 57.599999999999994
     },
     {
       "id": 1650,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "NEKTARİN",
       "qty": 35,
+      "hotel": "STELLA",
+      "adet": 420,
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -13494,19 +18143,32 @@ export const INITIAL_DATA = {
       "id": 1651,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ERİK ANJELİKA",
       "qty": 30,
+      "hotel": "STELLA",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 63
+    },
+    {
+      "id": 1652,
+      "date": "2026-06-30",
+      "supplier": "ANTALYA HAL",
+      "product": "ÇİLEK",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 520,
+      "buyPrice": 50,
+      "supplyPrice": 93.6
     },
     {
       "id": 1653,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "KİRAZ",
       "qty": 42,
+      "hotel": "STELLA",
+      "adet": 720,
       "buyPrice": 35,
       "supplyPrice": 129.6
     },
@@ -13514,9 +18176,10 @@ export const INITIAL_DATA = {
       "id": 1654,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 44,
+      "hotel": "STELLA",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 21.599999999999998
     },
@@ -13524,19 +18187,32 @@ export const INITIAL_DATA = {
       "id": 1655,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "GREYFURT",
       "qty": 46,
+      "hotel": "STELLA",
+      "adet": 150,
       "buyPrice": 30,
       "supplyPrice": 27
+    },
+    {
+      "id": 1656,
+      "date": "2026-06-30",
+      "supplier": "ANTALYA HAL",
+      "product": "MUZ YERLİ",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 260,
+      "buyPrice": 30,
+      "supplyPrice": 46.8
     },
     {
       "id": 1657,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ŞEFTALİ",
       "qty": 55,
+      "hotel": "STELLA",
+      "adet": 380,
       "buyPrice": 35,
       "supplyPrice": 68.39999999999999
     },
@@ -13544,9 +18220,10 @@ export const INITIAL_DATA = {
       "id": 1658,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ELMA GOLDEN",
       "qty": 70,
+      "hotel": "STELLA",
+      "adet": 320,
       "buyPrice": 30,
       "supplyPrice": 57.599999999999994
     },
@@ -13554,69 +18231,87 @@ export const INITIAL_DATA = {
       "id": 1659,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "LİMON",
       "qty": 34,
+      "hotel": "STELLA",
+      "adet": 380,
       "buyPrice": 40,
       "supplyPrice": 68.39999999999999
+    },
+    {
+      "id": 1660,
+      "date": "2026-06-30",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "STELLA",
+      "adet": 360,
+      "buyPrice": 40,
+      "supplyPrice": 64.8
     },
     {
       "id": 1661,
       "date": "2026-06-30",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "KAYISI",
       "qty": 35,
+      "hotel": "STELLA",
+      "adet": 320,
       "buyPrice": 30,
       "supplyPrice": 57.599999999999994
     },
     {
       "id": 1662,
       "date": "2026-06-30",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "GRAND MİRAMOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 697,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 1663,
       "date": "2026-06-30",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "CASAFORA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1175,
+      "hotel": "CASAFORA",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 1664,
       "date": "2026-06-30",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "AMBASSADOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 500,
+      "hotel": "AMBASSADOR",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 1665,
       "date": "2026-06-30",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "MİRAMOR GARDEN",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 615,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 1666,
       "date": "2026-06-30",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "ASTORİA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 424,
+      "hotel": "ASTORİA",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
@@ -13624,9 +18319,10 @@ export const INITIAL_DATA = {
       "id": 1667,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LAHANA KIRMIZI",
       "qty": 18,
+      "hotel": "AMBASSADOR",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 28.799999999999997
     },
@@ -13634,9 +18330,10 @@ export const INITIAL_DATA = {
       "id": 1668,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
       "qty": 40,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
       "buyPrice": 20,
       "supplyPrice": 43.199999999999996
     },
@@ -13644,9 +18341,10 @@ export const INITIAL_DATA = {
       "id": 1669,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 180,
       "buyPrice": 15,
       "supplyPrice": 32.4
     },
@@ -13654,9 +18352,10 @@ export const INITIAL_DATA = {
       "id": 1670,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 115,
+      "hotel": "AMBASSADOR",
+      "adet": 190,
       "buyPrice": 15,
       "supplyPrice": 34.199999999999996
     },
@@ -13664,9 +18363,10 @@ export const INITIAL_DATA = {
       "id": 1671,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 185,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -13674,9 +18374,10 @@ export const INITIAL_DATA = {
       "id": 1672,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SOĞAN KURU",
       "qty": 65,
+      "hotel": "AMBASSADOR",
+      "adet": 190,
       "buyPrice": 40,
       "supplyPrice": 34.199999999999996
     },
@@ -13684,9 +18385,10 @@ export const INITIAL_DATA = {
       "id": 1673,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATATES TAZE",
       "qty": 90,
+      "hotel": "AMBASSADOR",
+      "adet": 210,
       "buyPrice": 30,
       "supplyPrice": 37.8
     },
@@ -13694,9 +18396,10 @@ export const INITIAL_DATA = {
       "id": 1674,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 75,
+      "hotel": "AMBASSADOR",
+      "adet": 380,
       "buyPrice": 35,
       "supplyPrice": 68.39999999999999
     },
@@ -13704,9 +18407,10 @@ export const INITIAL_DATA = {
       "id": 1675,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 73,
+      "hotel": "AMBASSADOR",
+      "adet": 360,
       "buyPrice": 35,
       "supplyPrice": 64.8
     },
@@ -13714,9 +18418,10 @@ export const INITIAL_DATA = {
       "id": 1676,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAYISI",
       "qty": 73,
+      "hotel": "AMBASSADOR",
+      "adet": 320,
       "buyPrice": 30,
       "supplyPrice": 57.599999999999994
     },
@@ -13724,9 +18429,10 @@ export const INITIAL_DATA = {
       "id": 1677,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KİRAZ",
       "qty": 50,
+      "hotel": "AMBASSADOR",
+      "adet": 720,
       "buyPrice": 30,
       "supplyPrice": 129.6
     },
@@ -13734,9 +18440,10 @@ export const INITIAL_DATA = {
       "id": 1678,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
       "qty": 72,
+      "hotel": "AMBASSADOR",
+      "adet": 420,
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -13744,9 +18451,10 @@ export const INITIAL_DATA = {
       "id": 1679,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "GREYFURT",
       "qty": 70,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 27
     },
@@ -13754,9 +18462,10 @@ export const INITIAL_DATA = {
       "id": 1680,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
     },
@@ -13764,9 +18473,10 @@ export const INITIAL_DATA = {
       "id": 1681,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NANE",
       "qty": 60,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -13774,9 +18484,10 @@ export const INITIAL_DATA = {
       "id": 1682,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
       "qty": 18,
+      "hotel": "AMBASSADOR",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 21.599999999999998
     },
@@ -13784,9 +18495,10 @@ export const INITIAL_DATA = {
       "id": 1683,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
       "qty": 24,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 20,
       "supplyPrice": 27
     },
@@ -13794,9 +18506,10 @@ export const INITIAL_DATA = {
       "id": 1684,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "AMBASSADOR",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 13.5
     },
@@ -13804,9 +18517,10 @@ export const INITIAL_DATA = {
       "id": 1685,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -13814,19 +18528,87 @@ export const INITIAL_DATA = {
       "id": 1686,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 150,
+      "hotel": "AMBASSADOR",
+      "adet": 200,
       "buyPrice": 15,
       "supplyPrice": 36
+    },
+    {
+      "id": 1687,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "LAHANA BEYAZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 115,
+      "buyPrice": 30,
+      "supplyPrice": 20.7
+    },
+    {
+      "id": 1688,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 320,
+      "buyPrice": 20,
+      "supplyPrice": 57.599999999999994
+    },
+    {
+      "id": 1689,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 120,
+      "buyPrice": 15,
+      "supplyPrice": 21.599999999999998
+    },
+    {
+      "id": 1690,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 380,
+      "buyPrice": 45,
+      "supplyPrice": 68.39999999999999
+    },
+    {
+      "id": 1691,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "SARIMSAK KURU",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 700,
+      "buyPrice": 80,
+      "supplyPrice": 126
+    },
+    {
+      "id": 1692,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
+      "buyPrice": 25,
+      "supplyPrice": 27
     },
     {
       "id": 1693,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "LAHANA KIRMIZI",
       "qty": 17,
+      "hotel": "ASTORİA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 28.799999999999997
     },
@@ -13834,9 +18616,10 @@ export const INITIAL_DATA = {
       "id": 1694,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "BİBER KAPYA",
       "qty": 14,
+      "hotel": "ASTORİA",
+      "adet": 240,
       "buyPrice": 20,
       "supplyPrice": 43.199999999999996
     },
@@ -13844,9 +18627,10 @@ export const INITIAL_DATA = {
       "id": 1695,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "KABAK SAKIZ",
       "qty": 50,
+      "hotel": "ASTORİA",
+      "adet": 180,
       "buyPrice": 15,
       "supplyPrice": 32.4
     },
@@ -13854,9 +18638,10 @@ export const INITIAL_DATA = {
       "id": 1696,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "PATLICAN",
       "qty": 50,
+      "hotel": "ASTORİA",
+      "adet": 190,
       "buyPrice": 15,
       "supplyPrice": 34.199999999999996
     },
@@ -13864,9 +18649,10 @@ export const INITIAL_DATA = {
       "id": 1697,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "DOMATES",
       "qty": 135,
+      "hotel": "ASTORİA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -13874,9 +18660,10 @@ export const INITIAL_DATA = {
       "id": 1698,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "SOĞAN KURU",
       "qty": 70,
+      "hotel": "ASTORİA",
+      "adet": 190,
       "buyPrice": 40,
       "supplyPrice": 34.199999999999996
     },
@@ -13884,19 +18671,65 @@ export const INITIAL_DATA = {
       "id": 1699,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "PATATES TAZE",
       "qty": 90,
+      "hotel": "ASTORİA",
+      "adet": 210,
       "buyPrice": 30,
       "supplyPrice": 37.8
+    },
+    {
+      "id": 1700,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "ŞEFTALİ",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 380,
+      "buyPrice": 35,
+      "supplyPrice": 68.39999999999999
+    },
+    {
+      "id": 1701,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 360,
+      "buyPrice": 35,
+      "supplyPrice": 64.8
+    },
+    {
+      "id": 1702,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 320,
+      "buyPrice": 30,
+      "supplyPrice": 57.599999999999994
+    },
+    {
+      "id": 1703,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "KİRAZ",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 720,
+      "buyPrice": 30,
+      "supplyPrice": 129.6
     },
     {
       "id": 1704,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "NEKTARİN",
       "qty": 35,
+      "hotel": "ASTORİA",
+      "adet": 420,
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -13904,9 +18737,10 @@ export const INITIAL_DATA = {
       "id": 1705,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "GREYFURT",
       "qty": 27,
+      "hotel": "ASTORİA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 27
     },
@@ -13914,19 +18748,43 @@ export const INITIAL_DATA = {
       "id": 1706,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "SEMİZOTU",
       "qty": 30,
+      "hotel": "ASTORİA",
+      "adet": 80,
       "buyPrice": 12,
       "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1707,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "NANE",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 80,
+      "buyPrice": 10,
+      "supplyPrice": 14.399999999999999
+    },
+    {
+      "id": 1708,
+      "date": "2026-07-01",
+      "supplier": "ANTALYA HAL",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": 120,
+      "buyPrice": 15,
+      "supplyPrice": 21.599999999999998
     },
     {
       "id": 1709,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 12,
+      "hotel": "ASTORİA",
+      "adet": 150,
       "buyPrice": 20,
       "supplyPrice": 27
     },
@@ -13934,9 +18792,10 @@ export const INITIAL_DATA = {
       "id": 1710,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "MAYDONOZ",
       "qty": 40,
+      "hotel": "ASTORİA",
+      "adet": 75,
       "buyPrice": 10,
       "supplyPrice": 13.5
     },
@@ -13944,9 +18803,10 @@ export const INITIAL_DATA = {
       "id": 1711,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "ROKA",
       "qty": 65,
+      "hotel": "ASTORİA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 14.399999999999999
     },
@@ -13954,9 +18814,10 @@ export const INITIAL_DATA = {
       "id": 1712,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 70,
+      "hotel": "ASTORİA",
+      "adet": 200,
       "buyPrice": 15,
       "supplyPrice": 36
     },
@@ -13964,9 +18825,10 @@ export const INITIAL_DATA = {
       "id": 1713,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "LAHANA BEYAZ",
       "qty": 27,
+      "hotel": "ASTORİA",
+      "adet": 115,
       "buyPrice": 30,
       "supplyPrice": 20.7
     },
@@ -13974,9 +18836,10 @@ export const INITIAL_DATA = {
       "id": 1714,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "ELMA GOLDEN",
       "qty": 53,
+      "hotel": "ASTORİA",
+      "adet": 320,
       "buyPrice": 20,
       "supplyPrice": 57.599999999999994
     },
@@ -13984,9 +18847,10 @@ export const INITIAL_DATA = {
       "id": 1715,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 15,
+      "hotel": "ASTORİA",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 21.599999999999998
     },
@@ -13994,9 +18858,10 @@ export const INITIAL_DATA = {
       "id": 1716,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "LİMON",
       "qty": 10,
+      "hotel": "ASTORİA",
+      "adet": 380,
       "buyPrice": 45,
       "supplyPrice": 68.39999999999999
     },
@@ -14004,9 +18869,10 @@ export const INITIAL_DATA = {
       "id": 1717,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "SARIMSAK KURU",
       "qty": 16,
+      "hotel": "ASTORİA",
+      "adet": 700,
       "buyPrice": 80,
       "supplyPrice": 126
     },
@@ -14014,9 +18880,10 @@ export const INITIAL_DATA = {
       "id": 1718,
       "date": "2026-07-01",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "MARUL DÜZ",
       "qty": 12,
+      "hotel": "ASTORİA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 27
     },
@@ -14024,9 +18891,10 @@ export const INITIAL_DATA = {
       "id": 1719,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 277,
+      "hotel": "CASAFORA",
+      "adet": 155,
       "buyPrice": 22,
       "supplyPrice": 34.1
     },
@@ -14034,9 +18902,10 @@ export const INITIAL_DATA = {
       "id": 1720,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES BEEF",
       "qty": 150,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 15,
       "supplyPrice": 35.2
     },
@@ -14044,9 +18913,10 @@ export const INITIAL_DATA = {
       "id": 1721,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 99,
+      "hotel": "CASAFORA",
+      "adet": 380,
       "buyPrice": 45,
       "supplyPrice": 83.6
     },
@@ -14054,9 +18924,10 @@ export const INITIAL_DATA = {
       "id": 1722,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 154,
+      "hotel": "CASAFORA",
+      "adet": 270,
       "buyPrice": 35,
       "supplyPrice": 59.4
     },
@@ -14064,9 +18935,10 @@ export const INITIAL_DATA = {
       "id": 1723,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
       "qty": 67,
+      "hotel": "CASAFORA",
+      "adet": 300,
       "buyPrice": 65,
       "supplyPrice": 66
     },
@@ -14074,9 +18946,10 @@ export const INITIAL_DATA = {
       "id": 1724,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 380,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 20,
       "supplyPrice": 44
     },
@@ -14084,9 +18957,10 @@ export const INITIAL_DATA = {
       "id": 1725,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 220,
+      "hotel": "CASAFORA",
+      "adet": 190,
       "buyPrice": 15,
       "supplyPrice": 41.8
     },
@@ -14094,9 +18968,10 @@ export const INITIAL_DATA = {
       "id": 1726,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 321,
+      "hotel": "CASAFORA",
+      "adet": 180,
       "buyPrice": 25,
       "supplyPrice": 39.6
     },
@@ -14104,9 +18979,10 @@ export const INITIAL_DATA = {
       "id": 1727,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK BAL DEKORLUK",
       "qty": 44,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 60,
       "supplyPrice": 44
     },
@@ -14114,9 +18990,10 @@ export const INITIAL_DATA = {
       "id": 1728,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 28,
+      "hotel": "CASAFORA",
+      "adet": 110,
       "buyPrice": 30,
       "supplyPrice": 24.2
     },
@@ -14124,9 +19001,10 @@ export const INITIAL_DATA = {
       "id": 1729,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 24,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 35.2
     },
@@ -14134,9 +19012,10 @@ export const INITIAL_DATA = {
       "id": 1730,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 220,
       "buyPrice": 35,
       "supplyPrice": 48.4
     },
@@ -14144,9 +19023,10 @@ export const INITIAL_DATA = {
       "id": 1731,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 206,
+      "hotel": "CASAFORA",
+      "adet": 210,
       "buyPrice": 35,
       "supplyPrice": 46.2
     },
@@ -14154,9 +19034,10 @@ export const INITIAL_DATA = {
       "id": 1732,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 54,
+      "hotel": "CASAFORA",
+      "adet": 410,
       "buyPrice": 85,
       "supplyPrice": 90.2
     },
@@ -14164,9 +19045,10 @@ export const INITIAL_DATA = {
       "id": 1733,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 105,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -14174,9 +19056,10 @@ export const INITIAL_DATA = {
       "id": 1734,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 90,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -14184,9 +19067,10 @@ export const INITIAL_DATA = {
       "id": 1735,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -14194,9 +19078,10 @@ export const INITIAL_DATA = {
       "id": 1736,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": 75,
       "buyPrice": 9,
       "supplyPrice": 16.5
     },
@@ -14204,9 +19089,10 @@ export const INITIAL_DATA = {
       "id": 1737,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": 90,
       "buyPrice": 9,
       "supplyPrice": 19.8
     },
@@ -14214,9 +19100,10 @@ export const INITIAL_DATA = {
       "id": 1738,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 9,
       "supplyPrice": 17.6
     },
@@ -14224,9 +19111,10 @@ export const INITIAL_DATA = {
       "id": 1739,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 8,
       "supplyPrice": 17.6
     },
@@ -14234,9 +19122,10 @@ export const INITIAL_DATA = {
       "id": 1740,
       "date": "2026-07-02",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 80,
       "buyPrice": 10,
       "supplyPrice": 17.6
     },
@@ -14244,9 +19133,10 @@ export const INITIAL_DATA = {
       "id": 1741,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 205,
+      "hotel": "CASAFORA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -14254,9 +19144,10 @@ export const INITIAL_DATA = {
       "id": 1742,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
       "qty": 300,
+      "hotel": "CASAFORA",
+      "adet": 380,
       "buyPrice": 35,
       "supplyPrice": 83.6
     },
@@ -14264,9 +19155,10 @@ export const INITIAL_DATA = {
       "id": 1743,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ÇİLEK",
       "qty": 9,
+      "hotel": "CASAFORA",
+      "adet": 520,
       "buyPrice": 120,
       "supplyPrice": 114.4
     },
@@ -14274,9 +19166,10 @@ export const INITIAL_DATA = {
       "id": 1744,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ARMUT SANDAMARİA",
       "qty": 155,
+      "hotel": "CASAFORA",
+      "adet": 360,
       "buyPrice": 50,
       "supplyPrice": 79.2
     },
@@ -14284,9 +19177,10 @@ export const INITIAL_DATA = {
       "id": 1745,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
       "qty": 112,
+      "hotel": "CASAFORA",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 70.4
     },
@@ -14294,9 +19188,10 @@ export const INITIAL_DATA = {
       "id": 1746,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "ERİK PAPAZ",
       "qty": 159,
+      "hotel": "CASAFORA",
+      "adet": 580,
       "buyPrice": 53,
       "supplyPrice": 127.6
     },
@@ -14304,9 +19199,10 @@ export const INITIAL_DATA = {
       "id": 1747,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
       "qty": 115,
+      "hotel": "CASAFORA",
+      "adet": 260,
       "buyPrice": 35,
       "supplyPrice": 57.2
     },
@@ -14314,9 +19210,10 @@ export const INITIAL_DATA = {
       "id": 1748,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 211,
+      "hotel": "CASAFORA",
+      "adet": 380,
       "buyPrice": 40,
       "supplyPrice": 83.6
     },
@@ -14324,9 +19221,10 @@ export const INITIAL_DATA = {
       "id": 1749,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 110,
+      "hotel": "SEAPHORİA",
+      "adet": 380,
       "buyPrice": 40,
       "supplyPrice": 83.6
     },
@@ -14334,29 +19232,32 @@ export const INITIAL_DATA = {
       "id": 1750,
       "date": "2026-07-02",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "CASAFORA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 289,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 15,
       "supplyPrice": 26.4
     },
     {
       "id": 1751,
       "date": "2026-07-02",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "CASAFORA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 980,
+      "hotel": "CASAFORA",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 27.5
     },
     {
       "id": 1752,
       "date": "2026-07-02",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "SEAPHORİA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1000,
+      "hotel": "SEAPHORİA",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 27.5
     },
@@ -14364,9 +19265,10 @@ export const INITIAL_DATA = {
       "id": 1753,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
       "qty": 22,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 550,
       "buyPrice": 40,
       "supplyPrice": 99
     },
@@ -14374,9 +19276,10 @@ export const INITIAL_DATA = {
       "id": 1754,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
       "qty": 85,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 700,
       "buyPrice": 25,
       "supplyPrice": 126
     },
@@ -14384,9 +19287,10 @@ export const INITIAL_DATA = {
       "id": 1755,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 56,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -14394,9 +19298,10 @@ export const INITIAL_DATA = {
       "id": 1756,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
       "qty": 71,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 150,
       "buyPrice": 30,
       "supplyPrice": 27
     },
@@ -14404,9 +19309,10 @@ export const INITIAL_DATA = {
       "id": 1757,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
       "qty": 63,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 250,
       "buyPrice": 30,
       "supplyPrice": 45
     },
@@ -14414,9 +19320,10 @@ export const INITIAL_DATA = {
       "id": 1758,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 200,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 360,
       "buyPrice": 30,
       "supplyPrice": 64.8
     },
@@ -14424,9 +19331,10 @@ export const INITIAL_DATA = {
       "id": 1759,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
       "qty": 212,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 350,
       "buyPrice": 30,
       "supplyPrice": 63
     },
@@ -14434,9 +19342,10 @@ export const INITIAL_DATA = {
       "id": 1760,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 73,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 420,
       "buyPrice": 45,
       "supplyPrice": 75.6
     },
@@ -14444,9 +19353,10 @@ export const INITIAL_DATA = {
       "id": 1761,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KAYISI",
       "qty": 50,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 57.599999999999994
     },
@@ -14454,9 +19364,10 @@ export const INITIAL_DATA = {
       "id": 1762,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 157,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 420,
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -14464,9 +19375,10 @@ export const INITIAL_DATA = {
       "id": 1763,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK PAPAZ",
       "qty": 130,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 580,
       "buyPrice": 25,
       "supplyPrice": 104.39999999999999
     },
@@ -14474,19 +19386,32 @@ export const INITIAL_DATA = {
       "id": 1764,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
       "qty": 110,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 340,
       "buyPrice": 20,
       "supplyPrice": 61.199999999999996
+    },
+    {
+      "id": 1765,
+      "date": "2026-07-03",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 360,
+      "buyPrice": 35,
+      "supplyPrice": 64.8
     },
     {
       "id": 1766,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
       "qty": 18,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 550,
       "buyPrice": 40,
       "supplyPrice": 99
     },
@@ -14494,19 +19419,43 @@ export const INITIAL_DATA = {
       "id": 1767,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
       "qty": 107,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 700,
       "buyPrice": 25,
       "supplyPrice": 126
+    },
+    {
+      "id": 1768,
+      "date": "2026-07-03",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 150,
+      "buyPrice": 15,
+      "supplyPrice": 27
+    },
+    {
+      "id": 1769,
+      "date": "2026-07-03",
+      "supplier": "ANTALYA HAL",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 150,
+      "buyPrice": 30,
+      "supplyPrice": 27
     },
     {
       "id": 1770,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
       "qty": 122,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 250,
       "buyPrice": 30,
       "supplyPrice": 45
     },
@@ -14514,9 +19463,10 @@ export const INITIAL_DATA = {
       "id": 1771,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
       "qty": 75,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 360,
       "buyPrice": 30,
       "supplyPrice": 64.8
     },
@@ -14524,9 +19474,10 @@ export const INITIAL_DATA = {
       "id": 1772,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
       "qty": 120,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 350,
       "buyPrice": 30,
       "supplyPrice": 63
     },
@@ -14534,9 +19485,10 @@ export const INITIAL_DATA = {
       "id": 1773,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
       "qty": 32,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 420,
       "buyPrice": 45,
       "supplyPrice": 75.6
     },
@@ -14544,9 +19496,10 @@ export const INITIAL_DATA = {
       "id": 1774,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
       "qty": 55,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 320,
       "buyPrice": 35,
       "supplyPrice": 57.599999999999994
     },
@@ -14554,9 +19507,10 @@ export const INITIAL_DATA = {
       "id": 1775,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
       "qty": 57,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 420,
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -14564,9 +19518,10 @@ export const INITIAL_DATA = {
       "id": 1776,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
       "qty": 64,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 0,
       "buyPrice": 25,
       "supplyPrice": 0
     },
@@ -14574,9 +19529,10 @@ export const INITIAL_DATA = {
       "id": 1777,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
       "qty": 53,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 340,
       "buyPrice": 20,
       "supplyPrice": 61.199999999999996
     },
@@ -14584,19 +19540,21 @@ export const INITIAL_DATA = {
       "id": 1778,
       "date": "2026-07-03",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 140,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": 360,
       "buyPrice": 35,
       "supplyPrice": 64.8
     },
     {
       "id": 1779,
       "date": "2026-07-03",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "GRAND MİRAMOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1000,
+      "hotel": "GRAND MİRAMOR",
+      "adet": 125,
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
@@ -14604,9 +19562,10 @@ export const INITIAL_DATA = {
       "id": 1780,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 10,
+      "hotel": "AMBASSADOR",
+      "adet": 550,
       "buyPrice": 50,
       "supplyPrice": 99
     },
@@ -14614,9 +19573,10 @@ export const INITIAL_DATA = {
       "id": 1781,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER ÇARLİSTON",
       "qty": 85,
+      "hotel": "AMBASSADOR",
+      "adet": 400,
       "buyPrice": 20,
       "supplyPrice": 72
     },
@@ -14624,9 +19584,10 @@ export const INITIAL_DATA = {
       "id": 1782,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES KOKTEYL",
       "qty": 15,
+      "hotel": "AMBASSADOR",
+      "adet": 240,
       "buyPrice": 30,
       "supplyPrice": 43.199999999999996
     },
@@ -14634,9 +19595,10 @@ export const INITIAL_DATA = {
       "id": 1783,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LİMON",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 420,
       "buyPrice": 40,
       "supplyPrice": 75.6
     },
@@ -14644,9 +19606,10 @@ export const INITIAL_DATA = {
       "id": 1784,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SOĞAN KURU",
       "qty": 95,
+      "hotel": "AMBASSADOR",
+      "adet": 220,
       "buyPrice": 35,
       "supplyPrice": 39.6
     },
@@ -14654,9 +19617,10 @@ export const INITIAL_DATA = {
       "id": 1785,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATATES TAZE",
       "qty": 85,
+      "hotel": "AMBASSADOR",
+      "adet": 210,
       "buyPrice": 30,
       "supplyPrice": 37.8
     },
@@ -14664,9 +19628,10 @@ export const INITIAL_DATA = {
       "id": 1786,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 123,
+      "hotel": "AMBASSADOR",
+      "adet": 420,
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -14674,9 +19639,10 @@ export const INITIAL_DATA = {
       "id": 1787,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
       "qty": 83,
+      "hotel": "AMBASSADOR",
+      "adet": 580,
       "buyPrice": 20,
       "supplyPrice": 104.39999999999999
     },
@@ -14684,9 +19650,10 @@ export const INITIAL_DATA = {
       "id": 1788,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
       "qty": 98,
+      "hotel": "AMBASSADOR",
+      "adet": 350,
       "buyPrice": 30,
       "supplyPrice": 63
     },
@@ -14694,9 +19661,10 @@ export const INITIAL_DATA = {
       "id": 1789,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 345,
+      "hotel": "AMBASSADOR",
+      "adet": 165,
       "buyPrice": 15,
       "supplyPrice": 29.7
     },
@@ -14704,9 +19672,10 @@ export const INITIAL_DATA = {
       "id": 1790,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "PATLICAN",
       "qty": 150,
+      "hotel": "AMBASSADOR",
+      "adet": 200,
       "buyPrice": 20,
       "supplyPrice": 36
     },
@@ -14714,9 +19683,10 @@ export const INITIAL_DATA = {
       "id": 1791,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 180,
+      "hotel": "AMBASSADOR",
+      "adet": 200,
       "buyPrice": 15,
       "supplyPrice": 36
     },
@@ -14724,9 +19694,10 @@ export const INITIAL_DATA = {
       "id": 1792,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KABAK SAKIZ",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 190,
       "buyPrice": 15,
       "supplyPrice": 34.199999999999996
     },
@@ -14734,9 +19705,10 @@ export const INITIAL_DATA = {
       "id": 1793,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "BİBER KAPYA",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 260,
       "buyPrice": 20,
       "supplyPrice": 57.2
     },
@@ -14744,9 +19716,10 @@ export const INITIAL_DATA = {
       "id": 1794,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL KIVIRCIK",
       "qty": 30,
+      "hotel": "AMBASSADOR",
+      "adet": 150,
       "buyPrice": 20,
       "supplyPrice": 33
     },
@@ -14754,9 +19727,10 @@ export const INITIAL_DATA = {
       "id": 1795,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SEMİZOTU",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 18.7
     },
@@ -14764,9 +19738,10 @@ export const INITIAL_DATA = {
       "id": 1796,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 15.299999999999999
     },
@@ -14774,9 +19749,10 @@ export const INITIAL_DATA = {
       "id": 1797,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DEREOTU",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 90,
       "buyPrice": 12,
       "supplyPrice": 16.2
     },
@@ -14784,9 +19760,10 @@ export const INITIAL_DATA = {
       "id": 1798,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ROKA",
       "qty": 100,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 15.299999999999999
     },
@@ -14794,9 +19771,10 @@ export const INITIAL_DATA = {
       "id": 1799,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NANE",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -14804,9 +19782,10 @@ export const INITIAL_DATA = {
       "id": 1800,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "TERE",
       "qty": 80,
+      "hotel": "AMBASSADOR",
+      "adet": 100,
       "buyPrice": 18,
       "supplyPrice": 18
     },
@@ -14814,9 +19793,10 @@ export const INITIAL_DATA = {
       "id": 1801,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "MARUL ICEBERG",
       "qty": 24,
+      "hotel": "AMBASSADOR",
+      "adet": 120,
       "buyPrice": 17,
       "supplyPrice": 21.599999999999998
     },
@@ -14824,9 +19804,10 @@ export const INITIAL_DATA = {
       "id": 1802,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "FESLEĞEN",
       "qty": 25,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -14834,9 +19815,10 @@ export const INITIAL_DATA = {
       "id": 1803,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 76,
+      "hotel": "AMBASSADOR",
+      "adet": 170,
       "buyPrice": 30,
       "supplyPrice": 30.599999999999998
     },
@@ -14844,9 +19826,10 @@ export const INITIAL_DATA = {
       "id": 1804,
       "date": "2026-07-04",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KUZU KULAĞI",
       "qty": 30,
+      "hotel": "AMBASSADOR",
+      "adet": 85,
       "buyPrice": 12,
       "supplyPrice": 15.299999999999999
     },
@@ -14854,9 +19837,10 @@ export const INITIAL_DATA = {
       "id": 1805,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 93,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -14864,9 +19848,10 @@ export const INITIAL_DATA = {
       "id": 1806,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "GREYFURT",
       "qty": 61,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -14874,9 +19859,10 @@ export const INITIAL_DATA = {
       "id": 1807,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 64,
+      "hotel": "SEAPHORİA",
+      "adet": 420,
       "buyPrice": 40,
       "supplyPrice": 92.4
     },
@@ -14884,9 +19870,10 @@ export const INITIAL_DATA = {
       "id": 1808,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KİRAZ",
       "qty": 56,
+      "hotel": "SEAPHORİA",
+      "adet": 600,
       "buyPrice": 40,
       "supplyPrice": 132
     },
@@ -14894,9 +19881,10 @@ export const INITIAL_DATA = {
       "id": 1809,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
       "qty": 60,
+      "hotel": "SEAPHORİA",
+      "adet": 420,
       "buyPrice": 35,
       "supplyPrice": 92.4
     },
@@ -14904,9 +19892,10 @@ export const INITIAL_DATA = {
       "id": 1810,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 61,
+      "hotel": "SEAPHORİA",
+      "adet": 320,
       "buyPrice": 40,
       "supplyPrice": 70.4
     },
@@ -14914,9 +19903,10 @@ export const INITIAL_DATA = {
       "id": 1811,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ÇİLEK",
       "qty": 9,
+      "hotel": "SEAPHORİA",
+      "adet": 550,
       "buyPrice": 120,
       "supplyPrice": 121
     },
@@ -14924,9 +19914,10 @@ export const INITIAL_DATA = {
       "id": 1812,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
       "qty": 62,
+      "hotel": "SEAPHORİA",
+      "adet": 350,
       "buyPrice": 35,
       "supplyPrice": 77
     },
@@ -14934,9 +19925,10 @@ export const INITIAL_DATA = {
       "id": 1813,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "ERİK ANJELİKA",
       "qty": 71,
+      "hotel": "SEAPHORİA",
+      "adet": 340,
       "buyPrice": 45,
       "supplyPrice": 74.8
     },
@@ -14944,9 +19936,10 @@ export const INITIAL_DATA = {
       "id": 1814,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
       "qty": 70,
+      "hotel": "SEAPHORİA",
+      "adet": 250,
       "buyPrice": 35,
       "supplyPrice": 55
     },
@@ -14954,9 +19947,10 @@ export const INITIAL_DATA = {
       "id": 1815,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 246,
+      "hotel": "SEAPHORİA",
+      "adet": 165,
       "buyPrice": 20,
       "supplyPrice": 36.3
     },
@@ -14964,9 +19958,10 @@ export const INITIAL_DATA = {
       "id": 1816,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 57,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
       "buyPrice": 18,
       "supplyPrice": 44
     },
@@ -14974,9 +19969,10 @@ export const INITIAL_DATA = {
       "id": 1817,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": 300,
       "buyPrice": 60,
       "supplyPrice": 66
     },
@@ -14984,9 +19980,10 @@ export const INITIAL_DATA = {
       "id": 1818,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 111,
+      "hotel": "SEAPHORİA",
+      "adet": 200,
       "buyPrice": 20,
       "supplyPrice": 44
     },
@@ -14994,9 +19991,10 @@ export const INITIAL_DATA = {
       "id": 1819,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
       "qty": 17,
+      "hotel": "SEAPHORİA",
+      "adet": 120,
       "buyPrice": 30,
       "supplyPrice": 26.4
     },
@@ -15004,9 +20002,10 @@ export const INITIAL_DATA = {
       "id": 1820,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "PANCAR KIRMIZI",
       "qty": 19,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
       "buyPrice": 40,
       "supplyPrice": 35.2
     },
@@ -15014,9 +20013,10 @@ export const INITIAL_DATA = {
       "id": 1821,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 63,
+      "hotel": "SEAPHORİA",
+      "adet": 220,
       "buyPrice": 35,
       "supplyPrice": 48.4
     },
@@ -15024,9 +20024,10 @@ export const INITIAL_DATA = {
       "id": 1822,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 154,
+      "hotel": "SEAPHORİA",
+      "adet": 210,
       "buyPrice": 35,
       "supplyPrice": 46.2
     },
@@ -15034,9 +20035,10 @@ export const INITIAL_DATA = {
       "id": 1823,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
       "qty": 22,
+      "hotel": "SEAPHORİA",
+      "adet": 410,
       "buyPrice": 85,
       "supplyPrice": 90.2
     },
@@ -15044,9 +20046,10 @@ export const INITIAL_DATA = {
       "id": 1824,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 35,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -15054,9 +20057,10 @@ export const INITIAL_DATA = {
       "id": 1825,
       "date": "2026-07-04",
       "supplier": "SÜLEYMAN ASKEROĞLU",
-      "hotel": "SEAPHORİA",
       "product": "MARUL KIVIRCIK",
       "qty": 36,
+      "hotel": "SEAPHORİA",
+      "adet": 150,
       "buyPrice": 15,
       "supplyPrice": 33
     },
@@ -15064,9 +20068,10 @@ export const INITIAL_DATA = {
       "id": 1826,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 150,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -15074,9 +20079,10 @@ export const INITIAL_DATA = {
       "id": 1827,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 160,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -15084,9 +20090,10 @@ export const INITIAL_DATA = {
       "id": 1828,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": 90,
       "buyPrice": 9,
       "supplyPrice": 19.8
     },
@@ -15094,9 +20101,10 @@ export const INITIAL_DATA = {
       "id": 1829,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 150,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -15104,9 +20112,10 @@ export const INITIAL_DATA = {
       "id": 1830,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -15114,9 +20123,10 @@ export const INITIAL_DATA = {
       "id": 1831,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 312,
+      "hotel": "SEAPHORİA",
+      "adet": 230,
       "buyPrice": 25,
       "supplyPrice": 50.6
     },
@@ -15124,9 +20134,10 @@ export const INITIAL_DATA = {
       "id": 1832,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 65,
+      "hotel": "SEAPHORİA",
+      "adet": 420,
       "buyPrice": 50,
       "supplyPrice": 92.4
     },
@@ -15134,29 +20145,175 @@ export const INITIAL_DATA = {
       "id": 1833,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 70,
+      "hotel": "SEAPHORİA",
+      "adet": 190,
       "buyPrice": 30,
       "supplyPrice": 41.8
+    },
+    {
+      "id": 1834,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER ÇARLİSTON",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 400,
+      "buyPrice": 50,
+      "supplyPrice": 88
+    },
+    {
+      "id": 1835,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 160,
+      "buyPrice": 30,
+      "supplyPrice": 35.2
+    },
+    {
+      "id": 1836,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "HAVUÇ BEYPAZARI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 170,
+      "buyPrice": 35,
+      "supplyPrice": 37.4
+    },
+    {
+      "id": 1837,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "FESLEĞEN",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": 85,
+      "buyPrice": 15,
+      "supplyPrice": 18.7
+    },
+    {
+      "id": 1838,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 150,
+      "buyPrice": 25,
+      "supplyPrice": 33
+    },
+    {
+      "id": 1839,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 150,
+      "buyPrice": 25,
+      "supplyPrice": 33
     },
     {
       "id": 1840,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 106,
+      "hotel": "CASAFORA",
+      "adet": 420,
       "buyPrice": 40,
       "supplyPrice": 92.4
+    },
+    {
+      "id": 1841,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KİRAZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 600,
+      "buyPrice": 40,
+      "supplyPrice": 132
+    },
+    {
+      "id": 1842,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "ŞEFTALİ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 420,
+      "buyPrice": 35,
+      "supplyPrice": 92.4
+    },
+    {
+      "id": 1843,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 320,
+      "buyPrice": 40,
+      "supplyPrice": 70.4
+    },
+    {
+      "id": 1844,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "ÇİLEK",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 550,
+      "buyPrice": 120,
+      "supplyPrice": 121
+    },
+    {
+      "id": 1845,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 350,
+      "buyPrice": 35,
+      "supplyPrice": 77
+    },
+    {
+      "id": 1846,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "ERİK ANJELİKA",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 340,
+      "buyPrice": 45,
+      "supplyPrice": 74.8
+    },
+    {
+      "id": 1847,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MUZ YERLİ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 250,
+      "buyPrice": 35,
+      "supplyPrice": 55
     },
     {
       "id": 1848,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 190,
+      "hotel": "CASAFORA",
+      "adet": 165,
       "buyPrice": 20,
       "supplyPrice": 36.3
     },
@@ -15164,19 +20321,32 @@ export const INITIAL_DATA = {
       "id": 1849,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 70,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 18,
       "supplyPrice": 44
+    },
+    {
+      "id": 1850,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER DOLMA",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 300,
+      "buyPrice": 60,
+      "supplyPrice": 66
     },
     {
       "id": 1851,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 200,
+      "hotel": "CASAFORA",
+      "adet": 200,
       "buyPrice": 20,
       "supplyPrice": 44
     },
@@ -15184,19 +20354,32 @@ export const INITIAL_DATA = {
       "id": 1852,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 33,
+      "hotel": "CASAFORA",
+      "adet": 120,
       "buyPrice": 30,
       "supplyPrice": 26.4
+    },
+    {
+      "id": 1853,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PANCAR KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 160,
+      "buyPrice": 40,
+      "supplyPrice": 35.2
     },
     {
       "id": 1854,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 96,
+      "hotel": "CASAFORA",
+      "adet": 220,
       "buyPrice": 35,
       "supplyPrice": 48.4
     },
@@ -15204,9 +20387,10 @@ export const INITIAL_DATA = {
       "id": 1855,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 154,
+      "hotel": "CASAFORA",
+      "adet": 210,
       "buyPrice": 35,
       "supplyPrice": 46.2
     },
@@ -15214,19 +20398,43 @@ export const INITIAL_DATA = {
       "id": 1856,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 44,
+      "hotel": "CASAFORA",
+      "adet": 410,
       "buyPrice": 85,
       "supplyPrice": 90.2
+    },
+    {
+      "id": 1857,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 150,
+      "buyPrice": 15,
+      "supplyPrice": 33
+    },
+    {
+      "id": 1858,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 150,
+      "buyPrice": 15,
+      "supplyPrice": 33
     },
     {
       "id": 1859,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -15234,9 +20442,10 @@ export const INITIAL_DATA = {
       "id": 1860,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -15244,9 +20453,10 @@ export const INITIAL_DATA = {
       "id": 1861,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "CASAFORA",
+      "adet": 90,
       "buyPrice": 9,
       "supplyPrice": 19.8
     },
@@ -15254,9 +20464,10 @@ export const INITIAL_DATA = {
       "id": 1862,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -15264,29 +20475,54 @@ export const INITIAL_DATA = {
       "id": 1863,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 9,
       "supplyPrice": 18.7
+    },
+    {
+      "id": 1864,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 230,
+      "buyPrice": 25,
+      "supplyPrice": 50.6
     },
     {
       "id": 1865,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 104,
+      "hotel": "CASAFORA",
+      "adet": 420,
       "buyPrice": 50,
       "supplyPrice": 92.4
+    },
+    {
+      "id": 1866,
+      "date": "2026-07-04",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KABAK SAKIZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": 190,
+      "buyPrice": 30,
+      "supplyPrice": 41.8
     },
     {
       "id": 1867,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 22,
+      "hotel": "CASAFORA",
+      "adet": 400,
       "buyPrice": 50,
       "supplyPrice": 88
     },
@@ -15294,9 +20530,10 @@ export const INITIAL_DATA = {
       "id": 1868,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 40,
+      "hotel": "CASAFORA",
+      "adet": 160,
       "buyPrice": 30,
       "supplyPrice": 35.2
     },
@@ -15304,9 +20541,10 @@ export const INITIAL_DATA = {
       "id": 1869,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 70,
+      "hotel": "CASAFORA",
+      "adet": 170,
       "buyPrice": 35,
       "supplyPrice": 37.4
     },
@@ -15314,9 +20552,10 @@ export const INITIAL_DATA = {
       "id": 1870,
       "date": "2026-07-04",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": 85,
       "buyPrice": 15,
       "supplyPrice": 18.7
     },
@@ -15324,9 +20563,10 @@ export const INITIAL_DATA = {
       "id": 1871,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
       "qty": 52,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "350,00",
       "buyPrice": 30,
       "supplyPrice": 63
     },
@@ -15334,9 +20574,10 @@ export const INITIAL_DATA = {
       "id": 1872,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES BEEF",
       "qty": 78,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "170,00",
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -15344,9 +20585,10 @@ export const INITIAL_DATA = {
       "id": 1873,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
       "qty": 192,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "165,00",
       "buyPrice": 8,
       "supplyPrice": 29.7
     },
@@ -15354,9 +20596,10 @@ export const INITIAL_DATA = {
       "id": 1874,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 55,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "400,00",
       "buyPrice": 35,
       "supplyPrice": 72
     },
@@ -15364,9 +20607,10 @@ export const INITIAL_DATA = {
       "id": 1875,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
       "qty": 7,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "550,00",
       "buyPrice": 80,
       "supplyPrice": 99
     },
@@ -15374,9 +20618,10 @@ export const INITIAL_DATA = {
       "id": 1876,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
       "qty": 80,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -15384,9 +20629,10 @@ export const INITIAL_DATA = {
       "id": 1877,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
       "qty": 90,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -15394,9 +20640,10 @@ export const INITIAL_DATA = {
       "id": 1878,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK PAPAZ",
       "qty": 34,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "580,00",
       "buyPrice": 20,
       "supplyPrice": 104.39999999999999
     },
@@ -15404,39 +20651,98 @@ export const INITIAL_DATA = {
       "id": 1879,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
       "qty": 34,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
       "buyPrice": 50,
       "supplyPrice": 75.6
+    },
+    {
+      "id": 1880,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "320,00",
+      "buyPrice": 35,
+      "supplyPrice": 57.599999999999994
+    },
+    {
+      "id": 1881,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "150,00",
+      "buyPrice": 15,
+      "supplyPrice": 27
     },
     {
       "id": 1882,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "ELMA GOLDEN",
       "qty": 48,
+      "hotel": "ASTORİA",
+      "adet": "350,00",
       "buyPrice": 30,
       "supplyPrice": 63
+    },
+    {
+      "id": 1883,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "DOMATES BEEF",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": "170,00",
+      "buyPrice": 15,
+      "supplyPrice": 30.599999999999998
     },
     {
       "id": 1884,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "DOMATES",
       "qty": 140,
+      "hotel": "ASTORİA",
+      "adet": "165,00",
       "buyPrice": 8,
       "supplyPrice": 29.7
+    },
+    {
+      "id": 1885,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "ARMUT SANDAMARİA",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": "400,00",
+      "buyPrice": 35,
+      "supplyPrice": 72
+    },
+    {
+      "id": 1886,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "ÇİLEK",
+      "qty": 0,
+      "hotel": "ASTORİA",
+      "adet": "550,00",
+      "buyPrice": 80,
+      "supplyPrice": 99
     },
     {
       "id": 1887,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "ŞEFTALİ",
       "qty": 31,
+      "hotel": "ASTORİA",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -15444,9 +20750,10 @@ export const INITIAL_DATA = {
       "id": 1888,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "NEKTARİN",
       "qty": 25,
+      "hotel": "ASTORİA",
+      "adet": "420,00",
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -15454,9 +20761,10 @@ export const INITIAL_DATA = {
       "id": 1889,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "ERİK PAPAZ",
       "qty": 44,
+      "hotel": "ASTORİA",
+      "adet": "580,00",
       "buyPrice": 20,
       "supplyPrice": 104.39999999999999
     },
@@ -15464,9 +20772,10 @@ export const INITIAL_DATA = {
       "id": 1890,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "LİMON",
       "qty": 10,
+      "hotel": "ASTORİA",
+      "adet": "420,00",
       "buyPrice": 50,
       "supplyPrice": 75.6
     },
@@ -15474,9 +20783,10 @@ export const INITIAL_DATA = {
       "id": 1891,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "KAYISI",
       "qty": 70,
+      "hotel": "ASTORİA",
+      "adet": "320,00",
       "buyPrice": 35,
       "supplyPrice": 57.599999999999994
     },
@@ -15484,49 +20794,131 @@ export const INITIAL_DATA = {
       "id": 1892,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "PORTAKAL SIKMALIK",
       "qty": 40,
+      "hotel": "ASTORİA",
+      "adet": "150,00",
       "buyPrice": 15,
       "supplyPrice": 27
+    },
+    {
+      "id": 1893,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "350,00",
+      "buyPrice": 30,
+      "supplyPrice": 63
     },
     {
       "id": 1894,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES BEEF",
       "qty": 196,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "170,00",
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
+    },
+    {
+      "id": 1895,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "DOMATES",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "165,00",
+      "buyPrice": 8,
+      "supplyPrice": 29.7
     },
     {
       "id": 1896,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 225,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "400,00",
       "buyPrice": 35,
       "supplyPrice": 72
+    },
+    {
+      "id": 1897,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "ÇİLEK",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "550,00",
+      "buyPrice": 80,
+      "supplyPrice": 99
     },
     {
       "id": 1898,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 134,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
+    },
+    {
+      "id": 1899,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "NEKTARİN",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
+      "buyPrice": 35,
+      "supplyPrice": 75.6
+    },
+    {
+      "id": 1900,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK PAPAZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "580,00",
+      "buyPrice": 20,
+      "supplyPrice": 104.39999999999999
+    },
+    {
+      "id": 1901,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
+      "buyPrice": 50,
+      "supplyPrice": 75.6
+    },
+    {
+      "id": 1902,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "KAYISI",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "320,00",
+      "buyPrice": 35,
+      "supplyPrice": 57.599999999999994
     },
     {
       "id": 1903,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 108,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "150,00",
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -15534,9 +20926,10 @@ export const INITIAL_DATA = {
       "id": 1904,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
       "qty": 52,
+      "hotel": "AMBASSADOR",
+      "adet": "350,00",
       "buyPrice": 30,
       "supplyPrice": 63
     },
@@ -15544,9 +20937,10 @@ export const INITIAL_DATA = {
       "id": 1905,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES BEEF",
       "qty": 20,
+      "hotel": "AMBASSADOR",
+      "adet": "170,00",
       "buyPrice": 15,
       "supplyPrice": 30.599999999999998
     },
@@ -15554,9 +20948,10 @@ export const INITIAL_DATA = {
       "id": 1906,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 250,
+      "hotel": "AMBASSADOR",
+      "adet": "165,00",
       "buyPrice": 8,
       "supplyPrice": 29.7
     },
@@ -15564,9 +20959,10 @@ export const INITIAL_DATA = {
       "id": 1907,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 75,
+      "hotel": "AMBASSADOR",
+      "adet": "400,00",
       "buyPrice": 35,
       "supplyPrice": 72
     },
@@ -15574,9 +20970,10 @@ export const INITIAL_DATA = {
       "id": 1908,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 7,
+      "hotel": "AMBASSADOR",
+      "adet": "550,00",
       "buyPrice": 80,
       "supplyPrice": 99
     },
@@ -15584,9 +20981,10 @@ export const INITIAL_DATA = {
       "id": 1909,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 73,
+      "hotel": "AMBASSADOR",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -15594,9 +20992,10 @@ export const INITIAL_DATA = {
       "id": 1910,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
       "qty": 90,
+      "hotel": "AMBASSADOR",
+      "adet": "420,00",
       "buyPrice": 35,
       "supplyPrice": 75.6
     },
@@ -15604,29 +21003,54 @@ export const INITIAL_DATA = {
       "id": 1911,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ERİK PAPAZ",
       "qty": 70,
+      "hotel": "AMBASSADOR",
+      "adet": "580,00",
       "buyPrice": 20,
       "supplyPrice": 104.39999999999999
+    },
+    {
+      "id": 1912,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": "420,00",
+      "buyPrice": 50,
+      "supplyPrice": 75.6
     },
     {
       "id": 1913,
       "date": "2026-07-06",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAYISI",
       "qty": 86,
+      "hotel": "AMBASSADOR",
+      "adet": "320,00",
       "buyPrice": 35,
       "supplyPrice": 57.599999999999994
+    },
+    {
+      "id": 1914,
+      "date": "2026-07-06",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "AMBASSADOR",
+      "adet": "150,00",
+      "buyPrice": 15,
+      "supplyPrice": 27
     },
     {
       "id": 1915,
       "date": "2026-07-06",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 11,
+      "hotel": "CASAFORA",
+      "adet": "260,00",
       "buyPrice": 30,
       "supplyPrice": 57.2
     },
@@ -15634,9 +21058,10 @@ export const INITIAL_DATA = {
       "id": 1916,
       "date": "2026-07-06",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 180,
+      "hotel": "CASAFORA",
+      "adet": "165,00",
       "buyPrice": 18,
       "supplyPrice": 36.3
     },
@@ -15644,9 +21069,10 @@ export const INITIAL_DATA = {
       "id": 1917,
       "date": "2026-07-06",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 23,
+      "hotel": "CASAFORA",
+      "adet": "450,00",
       "buyPrice": 50,
       "supplyPrice": 99
     },
@@ -15654,9 +21080,10 @@ export const INITIAL_DATA = {
       "id": 1918,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
       "qty": 66,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "340,00",
       "buyPrice": 20,
       "supplyPrice": 74.8
     },
@@ -15664,9 +21091,10 @@ export const INITIAL_DATA = {
       "id": 1919,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 100,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "400,00",
       "buyPrice": 35,
       "supplyPrice": 72
     },
@@ -15674,9 +21102,10 @@ export const INITIAL_DATA = {
       "id": 1920,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ŞEFTALİ",
       "qty": 84,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
       "buyPrice": 27,
       "supplyPrice": 75.6
     },
@@ -15684,9 +21113,10 @@ export const INITIAL_DATA = {
       "id": 1921,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
       "qty": 75,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "600,00",
       "buyPrice": 35,
       "supplyPrice": 108
     },
@@ -15694,9 +21124,10 @@ export const INITIAL_DATA = {
       "id": 1922,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
       "qty": 53,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "350,00",
       "buyPrice": 25,
       "supplyPrice": 63
     },
@@ -15704,9 +21135,10 @@ export const INITIAL_DATA = {
       "id": 1923,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "GREYFURT",
       "qty": 94,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "150,00",
       "buyPrice": 20,
       "supplyPrice": 27
     },
@@ -15714,9 +21146,10 @@ export const INITIAL_DATA = {
       "id": 1924,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÜZÜM BEYAZ",
       "qty": 103,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "580,00",
       "buyPrice": 30,
       "supplyPrice": 104.39999999999999
     },
@@ -15724,9 +21157,10 @@ export const INITIAL_DATA = {
       "id": 1925,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
       "qty": 88,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -15734,9 +21168,10 @@ export const INITIAL_DATA = {
       "id": 1926,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
       "qty": 7,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "550,00",
       "buyPrice": 80,
       "supplyPrice": 99
     },
@@ -15744,19 +21179,32 @@ export const INITIAL_DATA = {
       "id": 1927,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "PORTAKAL SIKMALIK",
       "qty": 110,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "150,00",
       "buyPrice": 15,
       "supplyPrice": 27
+    },
+    {
+      "id": 1928,
+      "date": "2026-07-08",
+      "supplier": "ANTALYA HAL",
+      "product": "LİMON",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
+      "buyPrice": 40,
+      "supplyPrice": 75.6
     },
     {
       "id": 1929,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
       "qty": 120,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "340,00",
       "buyPrice": 20,
       "supplyPrice": 61.199999999999996
     },
@@ -15764,9 +21212,10 @@ export const INITIAL_DATA = {
       "id": 1930,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 123,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "400,00",
       "buyPrice": 35,
       "supplyPrice": 72
     },
@@ -15774,19 +21223,32 @@ export const INITIAL_DATA = {
       "id": 1931,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 113,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 27,
       "supplyPrice": 75.6
+    },
+    {
+      "id": 1932,
+      "date": "2026-07-08",
+      "supplier": "ANTALYA HAL",
+      "product": "KİRAZ",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "600,00",
+      "buyPrice": 35,
+      "supplyPrice": 108
     },
     {
       "id": 1933,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
       "qty": 47,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "350,00",
       "buyPrice": 25,
       "supplyPrice": 63
     },
@@ -15794,9 +21256,10 @@ export const INITIAL_DATA = {
       "id": 1934,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
       "qty": 94,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "150,00",
       "buyPrice": 20,
       "supplyPrice": 27
     },
@@ -15804,9 +21267,10 @@ export const INITIAL_DATA = {
       "id": 1935,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ÜZÜM BEYAZ",
       "qty": 155,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "580,00",
       "buyPrice": 30,
       "supplyPrice": 104.39999999999999
     },
@@ -15814,19 +21278,32 @@ export const INITIAL_DATA = {
       "id": 1936,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 140,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
+    },
+    {
+      "id": 1937,
+      "date": "2026-07-08",
+      "supplier": "ANTALYA HAL",
+      "product": "ÇİLEK",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "550,00",
+      "buyPrice": 80,
+      "supplyPrice": 99
     },
     {
       "id": 1938,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 106,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "150,00",
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -15834,9 +21311,10 @@ export const INITIAL_DATA = {
       "id": 1939,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 96,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 75.6
     },
@@ -15844,9 +21322,10 @@ export const INITIAL_DATA = {
       "id": 1940,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÜZÜM BEYAZ",
       "qty": 55,
+      "hotel": "AMBASSADOR",
+      "adet": "580,00",
       "buyPrice": 30,
       "supplyPrice": 104.39999999999999
     },
@@ -15854,9 +21333,10 @@ export const INITIAL_DATA = {
       "id": 1941,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 7,
+      "hotel": "AMBASSADOR",
+      "adet": "550,00",
       "buyPrice": 80,
       "supplyPrice": 99
     },
@@ -15864,9 +21344,10 @@ export const INITIAL_DATA = {
       "id": 1942,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "GREYFURT",
       "qty": 20,
+      "hotel": "ASTORİA",
+      "adet": "150,00",
       "buyPrice": 20,
       "supplyPrice": 27
     },
@@ -15874,9 +21355,10 @@ export const INITIAL_DATA = {
       "id": 1943,
       "date": "2026-07-08",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "LİMON",
       "qty": 28,
+      "hotel": "ASTORİA",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 75.6
     },
@@ -15884,9 +21366,10 @@ export const INITIAL_DATA = {
       "id": 1944,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES PEMBE",
       "qty": 86,
+      "hotel": "CASAFORA",
+      "adet": "300,00",
       "buyPrice": 28,
       "supplyPrice": 66
     },
@@ -15894,9 +21377,10 @@ export const INITIAL_DATA = {
       "id": 1945,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES",
       "qty": 576,
+      "hotel": "CASAFORA",
+      "adet": "210,00",
       "buyPrice": 20,
       "supplyPrice": 46.2
     },
@@ -15904,9 +21388,10 @@ export const INITIAL_DATA = {
       "id": 1946,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES KOKTEYL",
       "qty": 28,
+      "hotel": "CASAFORA",
+      "adet": "260,00",
       "buyPrice": 50,
       "supplyPrice": 57.2
     },
@@ -15914,9 +21399,10 @@ export const INITIAL_DATA = {
       "id": 1947,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER ÇARLİSTON",
       "qty": 68,
+      "hotel": "CASAFORA",
+      "adet": "490,00",
       "buyPrice": 60,
       "supplyPrice": 107.8
     },
@@ -15924,9 +21410,10 @@ export const INITIAL_DATA = {
       "id": 1948,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER KAPYA",
       "qty": 98,
+      "hotel": "CASAFORA",
+      "adet": "270,00",
       "buyPrice": 30,
       "supplyPrice": 59.4
     },
@@ -15934,9 +21421,10 @@ export const INITIAL_DATA = {
       "id": 1949,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
       "qty": 21,
+      "hotel": "CASAFORA",
+      "adet": "320,00",
       "buyPrice": 60,
       "supplyPrice": 70.4
     },
@@ -15944,9 +21432,10 @@ export const INITIAL_DATA = {
       "id": 1950,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 208,
+      "hotel": "CASAFORA",
+      "adet": "190,00",
       "buyPrice": 15,
       "supplyPrice": 41.8
     },
@@ -15954,9 +21443,10 @@ export const INITIAL_DATA = {
       "id": 1951,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": "200,00",
       "buyPrice": 15,
       "supplyPrice": 44
     },
@@ -15964,9 +21454,10 @@ export const INITIAL_DATA = {
       "id": 1952,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KABAK SAKIZ",
       "qty": 104,
+      "hotel": "CASAFORA",
+      "adet": "200,00",
       "buyPrice": 30,
       "supplyPrice": 44
     },
@@ -15974,9 +21465,10 @@ export const INITIAL_DATA = {
       "id": 1953,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": "120,00",
       "buyPrice": 30,
       "supplyPrice": 26.4
     },
@@ -15984,9 +21476,10 @@ export const INITIAL_DATA = {
       "id": 1954,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA KIRMIZI",
       "qty": 61,
+      "hotel": "CASAFORA",
+      "adet": "180,00",
       "buyPrice": 30,
       "supplyPrice": 39.6
     },
@@ -15994,9 +21487,10 @@ export const INITIAL_DATA = {
       "id": 1955,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 94,
+      "hotel": "CASAFORA",
+      "adet": "170,00",
       "buyPrice": 28,
       "supplyPrice": 37.4
     },
@@ -16004,9 +21498,10 @@ export const INITIAL_DATA = {
       "id": 1956,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 197,
+      "hotel": "CASAFORA",
+      "adet": "250,00",
       "buyPrice": 45,
       "supplyPrice": 55
     },
@@ -16014,9 +21509,10 @@ export const INITIAL_DATA = {
       "id": 1957,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN TAZE",
       "qty": 12,
+      "hotel": "CASAFORA",
+      "adet": "490,00",
       "buyPrice": 75,
       "supplyPrice": 107.8
     },
@@ -16024,9 +21520,10 @@ export const INITIAL_DATA = {
       "id": 1958,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 106,
+      "hotel": "CASAFORA",
+      "adet": "210,00",
       "buyPrice": 40,
       "supplyPrice": 46.2
     },
@@ -16034,9 +21531,10 @@ export const INITIAL_DATA = {
       "id": 1959,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "TURP KIRMIZI",
       "qty": 19,
+      "hotel": "CASAFORA",
+      "adet": "350,00",
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -16044,9 +21542,10 @@ export const INITIAL_DATA = {
       "id": 1960,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MANTAR TAZE",
       "qty": 57,
+      "hotel": "CASAFORA",
+      "adet": "410,00",
       "buyPrice": 85,
       "supplyPrice": 90.2
     },
@@ -16054,9 +21553,10 @@ export const INITIAL_DATA = {
       "id": 1961,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL DÜZ",
       "qty": 98,
+      "hotel": "CASAFORA",
+      "adet": "150,00",
       "buyPrice": 18,
       "supplyPrice": 33
     },
@@ -16064,9 +21564,10 @@ export const INITIAL_DATA = {
       "id": 1962,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MARUL KIVIRCIK",
       "qty": 90,
+      "hotel": "CASAFORA",
+      "adet": "150,00",
       "buyPrice": 18,
       "supplyPrice": 33
     },
@@ -16074,9 +21575,10 @@ export const INITIAL_DATA = {
       "id": 1963,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 150,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -16084,9 +21586,10 @@ export const INITIAL_DATA = {
       "id": 1964,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 160,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -16094,9 +21597,10 @@ export const INITIAL_DATA = {
       "id": 1965,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": "90,00",
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -16104,9 +21608,10 @@ export const INITIAL_DATA = {
       "id": 1966,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 200,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -16114,9 +21619,10 @@ export const INITIAL_DATA = {
       "id": 1967,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -16124,9 +21630,10 @@ export const INITIAL_DATA = {
       "id": 1968,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 12,
       "supplyPrice": 18.7
     },
@@ -16134,9 +21641,10 @@ export const INITIAL_DATA = {
       "id": 1969,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "GREYFURT",
       "qty": 108,
+      "hotel": "CASAFORA",
+      "adet": "150,00",
       "buyPrice": 25,
       "supplyPrice": 33
     },
@@ -16144,9 +21652,10 @@ export const INITIAL_DATA = {
       "id": 1970,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NEKTARİN",
       "qty": 163,
+      "hotel": "CASAFORA",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 92.4
     },
@@ -16154,9 +21663,10 @@ export const INITIAL_DATA = {
       "id": 1971,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KAYISI",
       "qty": 121,
+      "hotel": "CASAFORA",
+      "adet": "320,00",
       "buyPrice": 35,
       "supplyPrice": 70.4
     },
@@ -16164,9 +21674,10 @@ export const INITIAL_DATA = {
       "id": 1972,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
       "qty": 281,
+      "hotel": "CASAFORA",
+      "adet": "350,00",
       "buyPrice": 30,
       "supplyPrice": 77
     },
@@ -16174,29 +21685,87 @@ export const INITIAL_DATA = {
       "id": 1973,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MUZ YERLİ",
       "qty": 106,
+      "hotel": "CASAFORA",
+      "adet": "250,00",
       "buyPrice": 40,
       "supplyPrice": 55
+    },
+    {
+      "id": 1974,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER CİN (BİBERİYE)",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "400,00",
+      "buyPrice": 90,
+      "supplyPrice": 88
+    },
+    {
+      "id": 1975,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER SİVRİ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "400,00",
+      "buyPrice": 60,
+      "supplyPrice": 88
+    },
+    {
+      "id": 1976,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "120,00",
+      "buyPrice": 20,
+      "supplyPrice": 26.4
+    },
+    {
+      "id": 1977,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "230,00",
+      "buyPrice": 20,
+      "supplyPrice": 50.6
     },
     {
       "id": 1978,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES PEMBE",
       "qty": 225,
+      "hotel": "SEAPHORİA",
+      "adet": "300,00",
       "buyPrice": 15,
       "supplyPrice": 66
+    },
+    {
+      "id": 1979,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "DOMATES",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": "210,00",
+      "buyPrice": 20,
+      "supplyPrice": 46.2
     },
     {
       "id": 1980,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES KOKTEYL",
       "qty": 13,
+      "hotel": "SEAPHORİA",
+      "adet": "260,00",
       "buyPrice": 50,
       "supplyPrice": 57.2
     },
@@ -16204,9 +21773,10 @@ export const INITIAL_DATA = {
       "id": 1981,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 23,
+      "hotel": "SEAPHORİA",
+      "adet": "490,00",
       "buyPrice": 60,
       "supplyPrice": 107.8
     },
@@ -16214,9 +21784,10 @@ export const INITIAL_DATA = {
       "id": 1982,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 51,
+      "hotel": "SEAPHORİA",
+      "adet": "270,00",
       "buyPrice": 30,
       "supplyPrice": 59.4
     },
@@ -16224,9 +21795,10 @@ export const INITIAL_DATA = {
       "id": 1983,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 9,
+      "hotel": "SEAPHORİA",
+      "adet": "320,00",
       "buyPrice": 60,
       "supplyPrice": 70.4
     },
@@ -16234,9 +21806,10 @@ export const INITIAL_DATA = {
       "id": 1984,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 129,
+      "hotel": "SEAPHORİA",
+      "adet": "190,00",
       "buyPrice": 15,
       "supplyPrice": 41.8
     },
@@ -16244,9 +21817,10 @@ export const INITIAL_DATA = {
       "id": 1985,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 87,
+      "hotel": "SEAPHORİA",
+      "adet": "200,00",
       "buyPrice": 15,
       "supplyPrice": 44
     },
@@ -16254,19 +21828,43 @@ export const INITIAL_DATA = {
       "id": 1986,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 37,
+      "hotel": "SEAPHORİA",
+      "adet": "200,00",
       "buyPrice": 30,
       "supplyPrice": 44
+    },
+    {
+      "id": 1987,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA BEYAZ",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": "120,00",
+      "buyPrice": 30,
+      "supplyPrice": 26.4
+    },
+    {
+      "id": 1988,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LAHANA KIRMIZI",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": "180,00",
+      "buyPrice": 30,
+      "supplyPrice": 39.6
     },
     {
       "id": 1989,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 72,
+      "hotel": "SEAPHORİA",
+      "adet": "170,00",
       "buyPrice": 28,
       "supplyPrice": 37.4
     },
@@ -16274,19 +21872,32 @@ export const INITIAL_DATA = {
       "id": 1990,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 64,
+      "hotel": "SEAPHORİA",
+      "adet": "250,00",
       "buyPrice": 45,
       "supplyPrice": 55
+    },
+    {
+      "id": 1991,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SOĞAN TAZE",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": "490,00",
+      "buyPrice": 75,
+      "supplyPrice": 107.8
     },
     {
       "id": 1992,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 52,
+      "hotel": "SEAPHORİA",
+      "adet": "210,00",
       "buyPrice": 40,
       "supplyPrice": 46.2
     },
@@ -16294,9 +21905,10 @@ export const INITIAL_DATA = {
       "id": 1993,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "TURP KIRMIZI",
       "qty": 19,
+      "hotel": "SEAPHORİA",
+      "adet": "350,00",
       "buyPrice": 40,
       "supplyPrice": 77
     },
@@ -16304,9 +21916,10 @@ export const INITIAL_DATA = {
       "id": 1994,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MANTAR TAZE",
       "qty": 33,
+      "hotel": "SEAPHORİA",
+      "adet": "410,00",
       "buyPrice": 85,
       "supplyPrice": 90.2
     },
@@ -16314,9 +21927,21 @@ export const INITIAL_DATA = {
       "id": 1995,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 42,
+      "hotel": "SEAPHORİA",
+      "adet": "150,00",
+      "buyPrice": 18,
+      "supplyPrice": 33
+    },
+    {
+      "id": 1996,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL KIVIRCIK",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": "150,00",
       "buyPrice": 18,
       "supplyPrice": 33
     },
@@ -16324,9 +21949,10 @@ export const INITIAL_DATA = {
       "id": 1997,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 150,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -16334,9 +21960,10 @@ export const INITIAL_DATA = {
       "id": 1998,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -16344,9 +21971,10 @@ export const INITIAL_DATA = {
       "id": 1999,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": "90,00",
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -16354,9 +21982,10 @@ export const INITIAL_DATA = {
       "id": 2000,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -16364,19 +21993,43 @@ export const INITIAL_DATA = {
       "id": 2001,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
+    },
+    {
+      "id": 2002,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "FESLEĞEN",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
+      "buyPrice": 12,
+      "supplyPrice": 18.7
+    },
+    {
+      "id": 2003,
+      "date": "2026-07-08",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "GREYFURT",
+      "qty": 0,
+      "hotel": "SEAPHORİA",
+      "adet": "150,00",
+      "buyPrice": 25,
+      "supplyPrice": 33
     },
     {
       "id": 2004,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
       "qty": 33,
+      "hotel": "SEAPHORİA",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 92.4
     },
@@ -16384,9 +22037,10 @@ export const INITIAL_DATA = {
       "id": 2005,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": "320,00",
       "buyPrice": 35,
       "supplyPrice": 70.4
     },
@@ -16394,9 +22048,10 @@ export const INITIAL_DATA = {
       "id": 2006,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
       "qty": 42,
+      "hotel": "SEAPHORİA",
+      "adet": "350,00",
       "buyPrice": 30,
       "supplyPrice": 77
     },
@@ -16404,9 +22059,10 @@ export const INITIAL_DATA = {
       "id": 2007,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MUZ YERLİ",
       "qty": 45,
+      "hotel": "SEAPHORİA",
+      "adet": "250,00",
       "buyPrice": 40,
       "supplyPrice": 55
     },
@@ -16414,9 +22070,10 @@ export const INITIAL_DATA = {
       "id": 2008,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER CİN (BİBERİYE)",
       "qty": 7,
+      "hotel": "SEAPHORİA",
+      "adet": "400,00",
       "buyPrice": 90,
       "supplyPrice": 88
     },
@@ -16424,9 +22081,10 @@ export const INITIAL_DATA = {
       "id": 2009,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 34,
+      "hotel": "SEAPHORİA",
+      "adet": "400,00",
       "buyPrice": 60,
       "supplyPrice": 88
     },
@@ -16434,9 +22092,10 @@ export const INITIAL_DATA = {
       "id": 2010,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 30,
+      "hotel": "SEAPHORİA",
+      "adet": "120,00",
       "buyPrice": 20,
       "supplyPrice": 26.4
     },
@@ -16444,69 +22103,76 @@ export const INITIAL_DATA = {
       "id": 2011,
       "date": "2026-07-08",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 24,
+      "hotel": "SEAPHORİA",
+      "adet": "230,00",
       "buyPrice": 20,
       "supplyPrice": 50.6
     },
     {
       "id": 2012,
       "date": "2026-07-06",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "MİRAMOR GARDEN",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 928,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 2013,
       "date": "2026-07-06",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "ASTORİA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 525,
+      "hotel": "ASTORİA",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 2014,
       "date": "2026-07-06",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "GRAND MİRAMOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 500,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 2015,
       "date": "2026-07-06",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "AMBASSADOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 995,
+      "hotel": "AMBASSADOR",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 2016,
       "date": "2026-07-06",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "STELLA",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 414,
+      "hotel": "STELLA",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
     {
       "id": 2017,
       "date": "2026-07-08",
-      "supplier": "METİN DALKIRAN",
-      "hotel": "GRAND MİRAMOR",
+      "supplier": " METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1539,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
@@ -16514,9 +22180,10 @@ export const INITIAL_DATA = {
       "id": 2018,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 256,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "210,00",
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -16524,9 +22191,10 @@ export const INITIAL_DATA = {
       "id": 2019,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 83,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 75.6
     },
@@ -16534,9 +22202,10 @@ export const INITIAL_DATA = {
       "id": 2020,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 107,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "150,00",
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -16544,9 +22213,10 @@ export const INITIAL_DATA = {
       "id": 2021,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
       "qty": 55,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "160,00",
       "buyPrice": 20,
       "supplyPrice": 28.799999999999997
     },
@@ -16554,9 +22224,10 @@ export const INITIAL_DATA = {
       "id": 2022,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
       "qty": 121,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "350,00",
       "buyPrice": 25,
       "supplyPrice": 63
     },
@@ -16564,9 +22235,10 @@ export const INITIAL_DATA = {
       "id": 2023,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 134,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -16574,9 +22246,10 @@ export const INITIAL_DATA = {
       "id": 2024,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 100,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "410,00",
       "buyPrice": 35,
       "supplyPrice": 73.8
     },
@@ -16584,9 +22257,10 @@ export const INITIAL_DATA = {
       "id": 2025,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KABAK BAL DEKORLUK",
       "qty": 125,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "200,00",
       "buyPrice": 40,
       "supplyPrice": 36
     },
@@ -16594,9 +22268,10 @@ export const INITIAL_DATA = {
       "id": 2026,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "MUZ YERLİ",
       "qty": 40,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "250,00",
       "buyPrice": 30,
       "supplyPrice": 45
     },
@@ -16604,19 +22279,32 @@ export const INITIAL_DATA = {
       "id": 2027,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 171,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
+    },
+    {
+      "id": 2028,
+      "date": "2026-07-10",
+      "supplier": "ANTALYA HAL",
+      "product": "ERİK ANJELİKA",
+      "qty": 0,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "340,00",
+      "buyPrice": 20,
+      "supplyPrice": 61.199999999999996
     },
     {
       "id": 2029,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
       "qty": 500,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "210,00",
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -16624,39 +22312,87 @@ export const INITIAL_DATA = {
       "id": 2030,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
       "qty": 42,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 75.6
+    },
+    {
+      "id": 2031,
+      "date": "2026-07-10",
+      "supplier": "ANTALYA HAL",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "150,00",
+      "buyPrice": 15,
+      "supplyPrice": 27
     },
     {
       "id": 2032,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "GREYFURT",
       "qty": 10,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "160,00",
       "buyPrice": 20,
       "supplyPrice": 28.799999999999997
+    },
+    {
+      "id": 2033,
+      "date": "2026-07-10",
+      "supplier": "ANTALYA HAL",
+      "product": "ELMA GOLDEN",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "350,00",
+      "buyPrice": 25,
+      "supplyPrice": 63
+    },
+    {
+      "id": 2034,
+      "date": "2026-07-10",
+      "supplier": "ANTALYA HAL",
+      "product": "ŞEFTALİ",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
+      "buyPrice": 30,
+      "supplyPrice": 75.6
     },
     {
       "id": 2035,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ARMUT SANDAMARİA",
       "qty": 80,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "410,00",
       "buyPrice": 35,
       "supplyPrice": 73.8
+    },
+    {
+      "id": 2036,
+      "date": "2026-07-10",
+      "supplier": "ANTALYA HAL",
+      "product": "KABAK BAL DEKORLUK",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "200,00",
+      "buyPrice": 40,
+      "supplyPrice": 36
     },
     {
       "id": 2037,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "MUZ YERLİ",
       "qty": 35,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "250,00",
       "buyPrice": 30,
       "supplyPrice": 45
     },
@@ -16664,9 +22400,10 @@ export const INITIAL_DATA = {
       "id": 2038,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
       "qty": 95,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -16674,9 +22411,10 @@ export const INITIAL_DATA = {
       "id": 2039,
       "date": "2026-07-10",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
       "qty": 35,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "340,00",
       "buyPrice": 20,
       "supplyPrice": 61.199999999999996
     },
@@ -16684,9 +22422,10 @@ export const INITIAL_DATA = {
       "id": 2040,
       "date": "2026-07-10",
       "supplier": "METİN DALKIRAN",
-      "hotel": "GRAND MİRAMOR",
       "product": "KARPUZ",
       "qty": 583,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
@@ -16694,9 +22433,10 @@ export const INITIAL_DATA = {
       "id": 2041,
       "date": "2026-07-10",
       "supplier": "METİN DALKIRAN",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KARPUZ",
       "qty": 1430,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
@@ -16704,9 +22444,10 @@ export const INITIAL_DATA = {
       "id": 2042,
       "date": "2026-07-10",
       "supplier": "METİN DALKIRAN",
-      "hotel": "AMBASSADOR",
       "product": "KARPUZ",
       "qty": 500,
+      "hotel": "AMBASSADOR",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
@@ -16714,9 +22455,10 @@ export const INITIAL_DATA = {
       "id": 2043,
       "date": "2026-07-10",
       "supplier": "METİN DALKIRAN",
-      "hotel": "ASTORİA",
       "product": "KARPUZ",
       "qty": 264,
+      "hotel": "ASTORİA",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 22.5
     },
@@ -16724,9 +22466,10 @@ export const INITIAL_DATA = {
       "id": 2044,
       "date": "2026-07-10",
       "supplier": "ÜRETİCİ",
-      "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
       "qty": 260,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "600,00",
       "buyPrice": 20,
       "supplyPrice": 108
     },
@@ -16734,9 +22477,10 @@ export const INITIAL_DATA = {
       "id": 2045,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 18,
+      "hotel": "AMBASSADOR",
+      "adet": "550,00",
       "buyPrice": 50,
       "supplyPrice": 99
     },
@@ -16744,9 +22488,10 @@ export const INITIAL_DATA = {
       "id": 2046,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 198,
+      "hotel": "AMBASSADOR",
+      "adet": "190,00",
       "buyPrice": 15,
       "supplyPrice": 34.199999999999996
     },
@@ -16754,9 +22499,10 @@ export const INITIAL_DATA = {
       "id": 2047,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "GREYFURT",
       "qty": 117,
+      "hotel": "AMBASSADOR",
+      "adet": "160,00",
       "buyPrice": 10,
       "supplyPrice": 28.799999999999997
     },
@@ -16764,9 +22510,10 @@ export const INITIAL_DATA = {
       "id": 2048,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "KAYISI",
       "qty": 133,
+      "hotel": "AMBASSADOR",
+      "adet": "330,00",
       "buyPrice": 35,
       "supplyPrice": 59.4
     },
@@ -16774,9 +22521,10 @@ export const INITIAL_DATA = {
       "id": 2049,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ERİK ANJELİKA",
       "qty": 35,
+      "hotel": "AMBASSADOR",
+      "adet": "340,00",
       "buyPrice": 0,
       "supplyPrice": 61.199999999999996
     },
@@ -16784,9 +22532,10 @@ export const INITIAL_DATA = {
       "id": 2050,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 233,
+      "hotel": "AMBASSADOR",
+      "adet": "210,00",
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -16794,9 +22543,10 @@ export const INITIAL_DATA = {
       "id": 2051,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "LİMON",
       "qty": 89,
+      "hotel": "AMBASSADOR",
+      "adet": "420,00",
       "buyPrice": 45,
       "supplyPrice": 75.6
     },
@@ -16804,9 +22554,10 @@ export const INITIAL_DATA = {
       "id": 2052,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ELMA GOLDEN",
       "qty": 188,
+      "hotel": "AMBASSADOR",
+      "adet": "350,00",
       "buyPrice": 25,
       "supplyPrice": 63
     },
@@ -16814,9 +22565,10 @@ export const INITIAL_DATA = {
       "id": 2053,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
       "qty": 124,
+      "hotel": "AMBASSADOR",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -16824,9 +22576,10 @@ export const INITIAL_DATA = {
       "id": 2054,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "NEKTARİN",
       "qty": 37,
+      "hotel": "AMBASSADOR",
+      "adet": "420,00",
       "buyPrice": 0,
       "supplyPrice": 75.6
     },
@@ -16834,9 +22587,10 @@ export const INITIAL_DATA = {
       "id": 2055,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ARMUT SANDAMARİA",
       "qty": 125,
+      "hotel": "AMBASSADOR",
+      "adet": "410,00",
       "buyPrice": 35,
       "supplyPrice": 73.8
     },
@@ -16844,9 +22598,10 @@ export const INITIAL_DATA = {
       "id": 2056,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ŞEFTALİ",
       "qty": 77,
+      "hotel": "AMBASSADOR",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -16854,9 +22609,10 @@ export const INITIAL_DATA = {
       "id": 2057,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 75,
+      "hotel": "STELLA",
+      "adet": "190,00",
       "buyPrice": 15,
       "supplyPrice": 34.199999999999996
     },
@@ -16864,9 +22620,10 @@ export const INITIAL_DATA = {
       "id": 2058,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "KAYISI",
       "qty": 65,
+      "hotel": "STELLA",
+      "adet": "330,00",
       "buyPrice": 35,
       "supplyPrice": 59.4
     },
@@ -16874,9 +22631,10 @@ export const INITIAL_DATA = {
       "id": 2059,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "DOMATES",
       "qty": 109,
+      "hotel": "STELLA",
+      "adet": "210,00",
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -16884,9 +22642,10 @@ export const INITIAL_DATA = {
       "id": 2060,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "LİMON",
       "qty": 35,
+      "hotel": "STELLA",
+      "adet": "420,00",
       "buyPrice": 45,
       "supplyPrice": 75.6
     },
@@ -16894,9 +22653,10 @@ export const INITIAL_DATA = {
       "id": 2061,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ELMA GOLDEN",
       "qty": 80,
+      "hotel": "STELLA",
+      "adet": "350,00",
       "buyPrice": 25,
       "supplyPrice": 63
     },
@@ -16904,9 +22664,10 @@ export const INITIAL_DATA = {
       "id": 2062,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "NEKTARİN",
       "qty": 70,
+      "hotel": "STELLA",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -16914,9 +22675,10 @@ export const INITIAL_DATA = {
       "id": 2063,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "STELLA",
       "product": "ARMUT SANDAMARİA",
       "qty": 35,
+      "hotel": "STELLA",
+      "adet": "410,00",
       "buyPrice": 35,
       "supplyPrice": 73.8
     },
@@ -16924,9 +22686,10 @@ export const INITIAL_DATA = {
       "id": 2064,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
       "qty": 12,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "550,00",
       "buyPrice": 50,
       "supplyPrice": 99
     },
@@ -16934,9 +22697,10 @@ export const INITIAL_DATA = {
       "id": 2065,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 182,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "190,00",
       "buyPrice": 15,
       "supplyPrice": 34.199999999999996
     },
@@ -16944,9 +22708,10 @@ export const INITIAL_DATA = {
       "id": 2066,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KAYISI",
       "qty": 170,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "330,00",
       "buyPrice": 35,
       "supplyPrice": 59.4
     },
@@ -16954,9 +22719,10 @@ export const INITIAL_DATA = {
       "id": 2067,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 330,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "210,00",
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -16964,9 +22730,10 @@ export const INITIAL_DATA = {
       "id": 2068,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 44,
+      "hotel": "ASTORİA",
+      "adet": "190,00",
       "buyPrice": 15,
       "supplyPrice": 34.199999999999996
     },
@@ -16974,9 +22741,10 @@ export const INITIAL_DATA = {
       "id": 2069,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "DOMATES",
       "qty": 140,
+      "hotel": "ASTORİA",
+      "adet": "210,00",
       "buyPrice": 15,
       "supplyPrice": 37.8
     },
@@ -16984,9 +22752,10 @@ export const INITIAL_DATA = {
       "id": 2070,
       "date": "2026-07-11",
       "supplier": "ANTALYA HAL",
-      "hotel": "ASTORİA",
       "product": "ELMA GOLDEN",
       "qty": 42,
+      "hotel": "ASTORİA",
+      "adet": "350,00",
       "buyPrice": 25,
       "supplyPrice": 63
     },
@@ -16994,9 +22763,10 @@ export const INITIAL_DATA = {
       "id": 2071,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES",
       "qty": 122,
+      "hotel": "SEAPHORİA",
+      "adet": "210,00",
       "buyPrice": 15,
       "supplyPrice": 46.2
     },
@@ -17004,9 +22774,10 @@ export const INITIAL_DATA = {
       "id": 2072,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES PEMBE",
       "qty": 107,
+      "hotel": "SEAPHORİA",
+      "adet": "300,00",
       "buyPrice": 20,
       "supplyPrice": 66
     },
@@ -17014,9 +22785,10 @@ export const INITIAL_DATA = {
       "id": 2073,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DOMATES KOKTEYL",
       "qty": 29,
+      "hotel": "SEAPHORİA",
+      "adet": "260,00",
       "buyPrice": 50,
       "supplyPrice": 57.2
     },
@@ -17024,9 +22796,10 @@ export const INITIAL_DATA = {
       "id": 2074,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER SİVRİ",
       "qty": 23,
+      "hotel": "SEAPHORİA",
+      "adet": "400,00",
       "buyPrice": 60,
       "supplyPrice": 88
     },
@@ -17034,9 +22807,10 @@ export const INITIAL_DATA = {
       "id": 2075,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER ÇARLİSTON",
       "qty": 53,
+      "hotel": "SEAPHORİA",
+      "adet": "490,00",
       "buyPrice": 60,
       "supplyPrice": 107.8
     },
@@ -17044,9 +22818,10 @@ export const INITIAL_DATA = {
       "id": 2076,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER KAPYA",
       "qty": 36,
+      "hotel": "SEAPHORİA",
+      "adet": "340,00",
       "buyPrice": 60,
       "supplyPrice": 74.8
     },
@@ -17054,9 +22829,10 @@ export const INITIAL_DATA = {
       "id": 2077,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "BİBER DOLMA",
       "qty": 12,
+      "hotel": "SEAPHORİA",
+      "adet": "360,00",
       "buyPrice": 60,
       "supplyPrice": 79.2
     },
@@ -17064,9 +22840,10 @@ export const INITIAL_DATA = {
       "id": 2078,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SALATALIK SİLOR PAKET",
       "qty": 99,
+      "hotel": "SEAPHORİA",
+      "adet": "190,00",
       "buyPrice": 15,
       "supplyPrice": 41.8
     },
@@ -17074,9 +22851,10 @@ export const INITIAL_DATA = {
       "id": 2079,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN",
       "qty": 72,
+      "hotel": "SEAPHORİA",
+      "adet": "180,00",
       "buyPrice": 20,
       "supplyPrice": 39.6
     },
@@ -17084,9 +22862,10 @@ export const INITIAL_DATA = {
       "id": 2080,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATLICAN BOSTAN",
       "qty": 14,
+      "hotel": "SEAPHORİA",
+      "adet": "190,00",
       "buyPrice": 15,
       "supplyPrice": 41.8
     },
@@ -17094,9 +22873,10 @@ export const INITIAL_DATA = {
       "id": 2081,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KABAK SAKIZ",
       "qty": 68,
+      "hotel": "SEAPHORİA",
+      "adet": "170,00",
       "buyPrice": 30,
       "supplyPrice": 37.4
     },
@@ -17104,9 +22884,10 @@ export const INITIAL_DATA = {
       "id": 2082,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LAHANA BEYAZ",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": "140,00",
       "buyPrice": 30,
       "supplyPrice": 30.8
     },
@@ -17114,9 +22895,10 @@ export const INITIAL_DATA = {
       "id": 2083,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KEREVİZ",
       "qty": 17,
+      "hotel": "SEAPHORİA",
+      "adet": "300,00",
       "buyPrice": 75,
       "supplyPrice": 66
     },
@@ -17124,9 +22906,10 @@ export const INITIAL_DATA = {
       "id": 2084,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "HAVUÇ BEYPAZARI",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": "180,00",
       "buyPrice": 30,
       "supplyPrice": 39.6
     },
@@ -17134,9 +22917,10 @@ export const INITIAL_DATA = {
       "id": 2085,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SOĞAN KURU",
       "qty": 95,
+      "hotel": "SEAPHORİA",
+      "adet": "260,00",
       "buyPrice": 50,
       "supplyPrice": 57.2
     },
@@ -17144,9 +22928,10 @@ export const INITIAL_DATA = {
       "id": 2086,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "PATATES TAZE",
       "qty": 52,
+      "hotel": "SEAPHORİA",
+      "adet": "210,00",
       "buyPrice": 40,
       "supplyPrice": 46.2
     },
@@ -17154,9 +22939,10 @@ export const INITIAL_DATA = {
       "id": 2087,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "TURP KIRMIZI",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": "340,00",
       "buyPrice": 40,
       "supplyPrice": 74.8
     },
@@ -17164,9 +22950,10 @@ export const INITIAL_DATA = {
       "id": 2088,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL DÜZ",
       "qty": 35,
+      "hotel": "SEAPHORİA",
+      "adet": "150,00",
       "buyPrice": 20,
       "supplyPrice": 33
     },
@@ -17174,9 +22961,10 @@ export const INITIAL_DATA = {
       "id": 2089,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -17184,9 +22972,10 @@ export const INITIAL_DATA = {
       "id": 2090,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -17194,9 +22983,10 @@ export const INITIAL_DATA = {
       "id": 2091,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "DEREOTU",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": "90,00",
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -17204,9 +22994,10 @@ export const INITIAL_DATA = {
       "id": 2092,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NANE",
       "qty": 50,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -17214,9 +23005,10 @@ export const INITIAL_DATA = {
       "id": 2093,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ROKA",
       "qty": 80,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -17224,9 +23016,10 @@ export const INITIAL_DATA = {
       "id": 2094,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "SEAPHORİA",
+      "adet": "85,00",
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -17234,9 +23027,10 @@ export const INITIAL_DATA = {
       "id": 2095,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "MARUL ICEBERG",
       "qty": 18,
+      "hotel": "SEAPHORİA",
+      "adet": "120,00",
       "buyPrice": 20,
       "supplyPrice": 26.4
     },
@@ -17244,9 +23038,10 @@ export const INITIAL_DATA = {
       "id": 2096,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LOLOROSSO",
       "qty": 24,
+      "hotel": "SEAPHORİA",
+      "adet": "230,00",
       "buyPrice": 20,
       "supplyPrice": 50.6
     },
@@ -17254,9 +23049,10 @@ export const INITIAL_DATA = {
       "id": 2097,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "LİMON",
       "qty": 42,
+      "hotel": "SEAPHORİA",
+      "adet": "420,00",
       "buyPrice": 60,
       "supplyPrice": 92.4
     },
@@ -17264,9 +23060,10 @@ export const INITIAL_DATA = {
       "id": 2098,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ŞEFTALİ",
       "qty": 36,
+      "hotel": "SEAPHORİA",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 92.4
     },
@@ -17274,9 +23071,10 @@ export const INITIAL_DATA = {
       "id": 2099,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "NEKTARİN",
       "qty": 38,
+      "hotel": "SEAPHORİA",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 92.4
     },
@@ -17284,9 +23082,10 @@ export const INITIAL_DATA = {
       "id": 2100,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "KAYISI",
       "qty": 33,
+      "hotel": "SEAPHORİA",
+      "adet": "330,00",
       "buyPrice": 40,
       "supplyPrice": 72.6
     },
@@ -17294,9 +23093,10 @@ export const INITIAL_DATA = {
       "id": 2101,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "ELMA GOLDEN",
       "qty": 40,
+      "hotel": "SEAPHORİA",
+      "adet": "350,00",
       "buyPrice": 35,
       "supplyPrice": 77
     },
@@ -17304,9 +23104,10 @@ export const INITIAL_DATA = {
       "id": 2102,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "SEAPHORİA",
       "product": "FASULYE",
       "qty": 11,
+      "hotel": "SEAPHORİA",
+      "adet": "440,00",
       "buyPrice": 80,
       "supplyPrice": 96.8
     },
@@ -17314,19 +23115,32 @@ export const INITIAL_DATA = {
       "id": 2103,
       "date": "2026-07-11",
       "supplier": "METİN DALKIRAN",
-      "hotel": "SEAPHORİA",
       "product": "KARPUZ",
       "qty": 1000,
+      "hotel": "SEAPHORİA",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 27.5
+    },
+    {
+      "id": 2104,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "DOMATES",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "210,00",
+      "buyPrice": 15,
+      "supplyPrice": 46.2
     },
     {
       "id": 2105,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES PEMBE",
       "qty": 470,
+      "hotel": "CASAFORA",
+      "adet": "300,00",
       "buyPrice": 20,
       "supplyPrice": 66
     },
@@ -17334,49 +23148,142 @@ export const INITIAL_DATA = {
       "id": 2106,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DOMATES KOKTEYL",
       "qty": 37,
+      "hotel": "CASAFORA",
+      "adet": "260,00",
       "buyPrice": 50,
       "supplyPrice": 57.2
+    },
+    {
+      "id": 2107,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER SİVRİ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "400,00",
+      "buyPrice": 60,
+      "supplyPrice": 88
+    },
+    {
+      "id": 2108,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER ÇARLİSTON",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "490,00",
+      "buyPrice": 60,
+      "supplyPrice": 107.8
+    },
+    {
+      "id": 2109,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "BİBER KAPYA",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "340,00",
+      "buyPrice": 60,
+      "supplyPrice": 74.8
     },
     {
       "id": 2110,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "BİBER DOLMA",
       "qty": 60,
+      "hotel": "CASAFORA",
+      "adet": "360,00",
       "buyPrice": 60,
       "supplyPrice": 79.2
+    },
+    {
+      "id": 2111,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "SALATALIK SİLOR PAKET",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "190,00",
+      "buyPrice": 15,
+      "supplyPrice": 41.8
     },
     {
       "id": 2112,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATLICAN",
       "qty": 150,
+      "hotel": "CASAFORA",
+      "adet": "180,00",
       "buyPrice": 20,
       "supplyPrice": 39.6
+    },
+    {
+      "id": 2113,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "PATLICAN BOSTAN",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "190,00",
+      "buyPrice": 15,
+      "supplyPrice": 41.8
+    },
+    {
+      "id": 2114,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KABAK SAKIZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "170,00",
+      "buyPrice": 30,
+      "supplyPrice": 37.4
     },
     {
       "id": 2115,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LAHANA BEYAZ",
       "qty": 37,
+      "hotel": "CASAFORA",
+      "adet": "140,00",
       "buyPrice": 30,
       "supplyPrice": 30.8
+    },
+    {
+      "id": 2116,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "KEREVİZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "300,00",
+      "buyPrice": 75,
+      "supplyPrice": 66
+    },
+    {
+      "id": 2117,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "HAVUÇ BEYPAZARI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "180,00",
+      "buyPrice": 30,
+      "supplyPrice": 39.6
     },
     {
       "id": 2118,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SOĞAN KURU",
       "qty": 126,
+      "hotel": "CASAFORA",
+      "adet": "260,00",
       "buyPrice": 50,
       "supplyPrice": 57.2
     },
@@ -17384,19 +23291,43 @@ export const INITIAL_DATA = {
       "id": 2119,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "PATATES TAZE",
       "qty": 312,
+      "hotel": "CASAFORA",
+      "adet": "210,00",
       "buyPrice": 40,
       "supplyPrice": 46.2
+    },
+    {
+      "id": 2120,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "TURP KIRMIZI",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "340,00",
+      "buyPrice": 40,
+      "supplyPrice": 74.8
+    },
+    {
+      "id": 2121,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL DÜZ",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "150,00",
+      "buyPrice": 20,
+      "supplyPrice": 33
     },
     {
       "id": 2122,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "SEMİZOTU",
       "qty": 50,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 10,
       "supplyPrice": 18.7
     },
@@ -17404,9 +23335,10 @@ export const INITIAL_DATA = {
       "id": 2123,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "MAYDONOZ",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -17414,9 +23346,10 @@ export const INITIAL_DATA = {
       "id": 2124,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "DEREOTU",
       "qty": 80,
+      "hotel": "CASAFORA",
+      "adet": "90,00",
       "buyPrice": 10,
       "supplyPrice": 19.8
     },
@@ -17424,9 +23357,10 @@ export const INITIAL_DATA = {
       "id": 2125,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NANE",
       "qty": 100,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -17434,9 +23368,10 @@ export const INITIAL_DATA = {
       "id": 2126,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ROKA",
       "qty": 120,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 9,
       "supplyPrice": 18.7
     },
@@ -17444,19 +23379,43 @@ export const INITIAL_DATA = {
       "id": 2127,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "FESLEĞEN",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": "85,00",
       "buyPrice": 10,
       "supplyPrice": 18.7
+    },
+    {
+      "id": 2128,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "MARUL ICEBERG",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "120,00",
+      "buyPrice": 20,
+      "supplyPrice": 26.4
+    },
+    {
+      "id": 2129,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "LOLOROSSO",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "230,00",
+      "buyPrice": 20,
+      "supplyPrice": 50.6
     },
     {
       "id": 2130,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "LİMON",
       "qty": 48,
+      "hotel": "CASAFORA",
+      "adet": "420,00",
       "buyPrice": 60,
       "supplyPrice": 92.4
     },
@@ -17464,9 +23423,10 @@ export const INITIAL_DATA = {
       "id": 2131,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ŞEFTALİ",
       "qty": 81,
+      "hotel": "CASAFORA",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 92.4
     },
@@ -17474,9 +23434,10 @@ export const INITIAL_DATA = {
       "id": 2132,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "NEKTARİN",
       "qty": 76,
+      "hotel": "CASAFORA",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 92.4
     },
@@ -17484,9 +23445,10 @@ export const INITIAL_DATA = {
       "id": 2133,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "KAYISI",
       "qty": 64,
+      "hotel": "CASAFORA",
+      "adet": "330,00",
       "buyPrice": 40,
       "supplyPrice": 72.6
     },
@@ -17494,19 +23456,32 @@ export const INITIAL_DATA = {
       "id": 2134,
       "date": "2026-07-11",
       "supplier": "MSD07 TAR ÜR",
-      "hotel": "CASAFORA",
       "product": "ELMA GOLDEN",
       "qty": 20,
+      "hotel": "CASAFORA",
+      "adet": "350,00",
       "buyPrice": 35,
       "supplyPrice": 77
+    },
+    {
+      "id": 2135,
+      "date": "2026-07-11",
+      "supplier": "MSD07 TAR ÜR",
+      "product": "FASULYE",
+      "qty": 0,
+      "hotel": "CASAFORA",
+      "adet": "440,00",
+      "buyPrice": 80,
+      "supplyPrice": 96.8
     },
     {
       "id": 2136,
       "date": "2026-07-11",
       "supplier": "METİN DALKIRAN",
-      "hotel": "CASAFORA",
       "product": "KARPUZ",
       "qty": 1200,
+      "hotel": "CASAFORA",
+      "adet": "125,00",
       "buyPrice": 8,
       "supplyPrice": 27.5
     },
@@ -17514,9 +23489,10 @@ export const INITIAL_DATA = {
       "id": 2137,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "DOMATES",
       "qty": 271,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "210,00",
       "buyPrice": 20,
       "supplyPrice": 37.8
     },
@@ -17524,9 +23500,10 @@ export const INITIAL_DATA = {
       "id": 2138,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "PORTAKAL SIKMALIK",
       "qty": 102,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "150,00",
       "buyPrice": 15,
       "supplyPrice": 27
     },
@@ -17534,9 +23511,10 @@ export const INITIAL_DATA = {
       "id": 2139,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "GREYFURT",
       "qty": 79,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "180,00",
       "buyPrice": 15,
       "supplyPrice": 32.4
     },
@@ -17544,9 +23522,10 @@ export const INITIAL_DATA = {
       "id": 2140,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ÇİLEK",
       "qty": 12,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "550,00",
       "buyPrice": 50,
       "supplyPrice": 99
     },
@@ -17554,9 +23533,10 @@ export const INITIAL_DATA = {
       "id": 2141,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "NEKTARİN",
       "qty": 104,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -17564,9 +23544,10 @@ export const INITIAL_DATA = {
       "id": 2142,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "KİRAZ",
       "qty": 104,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "550,00",
       "buyPrice": 35,
       "supplyPrice": 99
     },
@@ -17574,9 +23555,10 @@ export const INITIAL_DATA = {
       "id": 2143,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ELMA GOLDEN",
       "qty": 142,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "350,00",
       "buyPrice": 30,
       "supplyPrice": 63
     },
@@ -17584,9 +23566,10 @@ export const INITIAL_DATA = {
       "id": 2144,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ERİK ANJELİKA",
       "qty": 85,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "330,00",
       "buyPrice": 20,
       "supplyPrice": 59.4
     },
@@ -17594,9 +23577,10 @@ export const INITIAL_DATA = {
       "id": 2145,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "ŞEFTALİ",
       "qty": 136,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -17604,9 +23588,10 @@ export const INITIAL_DATA = {
       "id": 2146,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "GRAND MİRAMOR",
       "product": "LİMON",
       "qty": 41,
+      "hotel": "GRAND MİRAMOR",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 75.6
     },
@@ -17614,9 +23599,10 @@ export const INITIAL_DATA = {
       "id": 2147,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "DOMATES",
       "qty": 217,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "210,00",
       "buyPrice": 20,
       "supplyPrice": 37.8
     },
@@ -17624,9 +23610,10 @@ export const INITIAL_DATA = {
       "id": 2148,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ÇİLEK",
       "qty": 6,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "550,00",
       "buyPrice": 50,
       "supplyPrice": 99
     },
@@ -17634,9 +23621,10 @@ export const INITIAL_DATA = {
       "id": 2149,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "NEKTARİN",
       "qty": 90,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
       "buyPrice": 30,
       "supplyPrice": 75.6
     },
@@ -17644,9 +23632,10 @@ export const INITIAL_DATA = {
       "id": 2150,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "KİRAZ",
       "qty": 107,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "550,00",
       "buyPrice": 35,
       "supplyPrice": 99
     },
@@ -17654,9 +23643,10 @@ export const INITIAL_DATA = {
       "id": 2151,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ELMA GOLDEN",
       "qty": 135,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "350,00",
       "buyPrice": 30,
       "supplyPrice": 63
     },
@@ -17664,19 +23654,32 @@ export const INITIAL_DATA = {
       "id": 2152,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "ERİK ANJELİKA",
       "qty": 40,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "330,00",
       "buyPrice": 20,
       "supplyPrice": 59.4
+    },
+    {
+      "id": 2153,
+      "date": "2026-07-13",
+      "supplier": "ANTALYA HAL",
+      "product": "ŞEFTALİ",
+      "qty": 0,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
+      "buyPrice": 30,
+      "supplyPrice": 75.6
     },
     {
       "id": 2154,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "MİRAMOR GARDEN",
       "product": "LİMON",
       "qty": 39,
+      "hotel": "MİRAMOR GARDEN",
+      "adet": "420,00",
       "buyPrice": 40,
       "supplyPrice": 75.6
     },
@@ -17684,9 +23687,10 @@ export const INITIAL_DATA = {
       "id": 2155,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "DOMATES",
       "qty": 178,
+      "hotel": "AMBASSADOR",
+      "adet": "210,00",
       "buyPrice": 20,
       "supplyPrice": 37.8
     },
@@ -17694,9 +23698,10 @@ export const INITIAL_DATA = {
       "id": 2156,
       "date": "2026-07-13",
       "supplier": "ANTALYA HAL",
-      "hotel": "AMBASSADOR",
       "product": "ÇİLEK",
       "qty": 12,
+      "hotel": "AMBASSADOR",
+      "adet": "550,00",
       "buyPrice": 50,
       "supplyPrice": 99
     }
@@ -18048,892 +24053,4232 @@ export const INITIAL_DATA = {
   ],
   "prices": [
     {
-      "id": 1,
-      "product": "BİBER CİN (BİBERİYE)",
-      "unit": "Kg",
-      "price": 400
-    },
-    {
-      "id": 2,
-      "product": "BİBER DOLMA",
-      "unit": "Kg",
-      "price": 300
-    },
-    {
-      "id": 3,
-      "product": "BİBER KAPYA",
-      "unit": "Kg",
-      "price": 260
-    },
-    {
-      "id": 4,
-      "product": "BİBER ÇARLİSTON",
-      "unit": "Kg",
-      "price": 450
-    },
-    {
-      "id": 5,
-      "product": "BİBER SİVRİ",
-      "unit": "Kg",
-      "price": 400
-    },
-    {
-      "id": 6,
-      "product": "BİBER ÜÇBURUN(KÖY)",
-      "unit": "Kg",
-      "price": 360
-    },
-    {
-      "id": 7,
-      "product": "BROKOLİ",
-      "unit": "Kg",
-      "price": 340
-    },
-    {
-      "id": 8,
-      "product": "FASULYE",
-      "unit": "Kg",
-      "price": 450
-    },
-    {
-      "id": 9,
-      "product": "DOMATES",
-      "unit": "Kg",
-      "price": 165
-    },
-    {
-      "id": 10,
-      "product": "DOMATES BEEF",
-      "unit": "Kg",
-      "price": 170
-    },
-    {
-      "id": 11,
-      "product": "DOMATES CHERRY",
-      "unit": "Kg",
-      "price": 500
-    },
-    {
-      "id": 12,
-      "product": "DOMATES KOKTEYL",
-      "unit": "Kg",
-      "price": 240
-    },
-    {
-      "id": 13,
-      "product": "DOMATES PEMBE",
-      "unit": "Kg",
-      "price": 300
-    },
-    {
-      "id": 14,
-      "product": "HAVUÇ BEYPAZARI",
-      "unit": "Kg",
-      "price": 170
-    },
-    {
-      "id": 15,
-      "product": "SALATALIK SİLOR PAKET",
-      "unit": "Kg",
-      "price": 200
-    },
-    {
-      "id": 16,
-      "product": "HIYAR YAYLA",
-      "unit": "Kg",
-      "price": 120
-    },
-    {
-      "id": 17,
-      "product": "ISPANAK",
-      "unit": "Kg",
-      "price": 450
-    },
-    {
-      "id": 18,
-      "product": "KABAK BAL DEKORLUK",
-      "unit": "Kg",
-      "price": 200
-    },
-    {
-      "id": 19,
-      "product": "KABAK SAKIZ",
-      "unit": "Kg",
-      "price": 210
-    },
-    {
-      "id": 20,
-      "product": "KARNABAHAR",
-      "unit": "Kg",
-      "price": 210
-    },
-    {
-      "id": 21,
-      "product": "LAHANA BEYAZ",
-      "unit": "Kg",
-      "price": 120
-    },
-    {
-      "id": 22,
-      "product": "LAHANA KIRMIZI",
-      "unit": "Kg",
-      "price": 180
-    },
-    {
-      "id": 23,
-      "product": "MANTAR TAZE",
-      "unit": "Kg",
-      "price": 410
-    },
-    {
-      "id": 24,
-      "product": "PANCAR KIRMIZI",
-      "unit": "Kg",
-      "price": 160
-    },
-    {
-      "id": 25,
-      "product": "PATATES BABY",
-      "unit": "Kg",
-      "price": 180
-    },
-    {
-      "id": 26,
-      "product": "PATATES TAZE",
-      "unit": "Kg",
-      "price": 210
-    },
-    {
-      "id": 27,
-      "product": "PATATES KUMPİR",
-      "unit": "Kg",
-      "price": 220
-    },
-    {
-      "id": 28,
-      "product": "PATLICAN",
-      "unit": "Kg",
-      "price": 200
-    },
-    {
-      "id": 29,
-      "product": "PATLICAN BOSTAN",
-      "unit": "Kg",
-      "price": 200
-    },
-    {
-      "id": 30,
-      "product": "PIRASA",
-      "unit": "Kg",
-      "price": 350
-    },
-    {
-      "id": 31,
-      "product": "SOĞAN ARPACIK",
-      "unit": "Kg",
-      "price": 160
-    },
-    {
-      "id": 32,
-      "product": "SOĞAN KIRMIZI",
-      "unit": "Kg",
-      "price": 220
-    },
-    {
-      "id": 33,
-      "product": "SOĞAN KURU",
-      "unit": "Kg",
-      "price": 250
-    },
-    {
-      "id": 34,
-      "product": "SOĞAN TAZE",
-      "unit": "Kg",
-      "price": 500
-    },
-    {
-      "id": 35,
-      "product": "TURP JAPON",
-      "unit": "Kg",
-      "price": 120
-    },
-    {
-      "id": 36,
-      "product": "TURP KIRMIZI",
-      "unit": "Kg",
-      "price": 350
-    },
-    {
-      "id": 37,
-      "product": "KEREVİZ",
-      "unit": "Kg",
-      "price": 340
-    },
-    {
-      "id": 38,
-      "product": "SARIMSAK KURU",
-      "unit": "Kg",
-      "price": 700
-    },
-    {
-      "id": 39,
-      "product": "MISIR SOYULMUŞ",
-      "unit": "Adet",
-      "price": 150
-    },
-    {
-      "id": 40,
-      "product": "ÜZÜM SİYAH",
-      "unit": "Kg",
-      "price": 600
-    },
-    {
-      "id": 41,
-      "product": "ÜZÜM BEYAZ",
-      "unit": "Kg",
-      "price": 600
-    },
-    {
-      "id": 42,
-      "product": "KARPUZ",
-      "unit": "Kg",
-      "price": 125
-    },
-    {
-      "id": 43,
-      "product": "KAVUN",
-      "unit": "Kg",
-      "price": 200
-    },
-    {
-      "id": 44,
-      "product": "KİRAZ",
-      "unit": "Kg",
-      "price": 600
-    },
-    {
-      "id": 45,
-      "product": "KAYISI",
-      "unit": "Kg",
-      "price": 320
-    },
-    {
-      "id": 46,
-      "product": "NEKTARİN",
-      "unit": "Kg",
-      "price": 420
-    },
-    {
-      "id": 47,
-      "product": "ŞEFTALİ",
-      "unit": "Kg",
-      "price": 420
-    },
-    {
-      "id": 48,
-      "product": "ERİK PAPAZ",
-      "unit": "Kg",
-      "price": 580
-    },
-    {
-      "id": 49,
-      "product": "ERİK ANJELİKA",
-      "unit": "Kg",
-      "price": 340
-    },
-    {
-      "id": 50,
-      "product": "ÇİLEK",
-      "unit": "Kg",
-      "price": 550
-    },
-    {
-      "id": 51,
-      "product": "MUZ YERLİ",
-      "unit": "Kg",
-      "price": 250
-    },
-    {
-      "id": 52,
-      "product": "GREYFURT",
-      "unit": "Kg",
-      "price": 150
-    },
-    {
-      "id": 53,
-      "product": "LİMON",
-      "unit": "Kg",
-      "price": 420
-    },
-    {
-      "id": 54,
-      "product": "ARMUT SANDAMARİA",
-      "unit": "Kg",
-      "price": 400
-    },
-    {
-      "id": 55,
-      "product": "ELMA GOLDEN",
-      "unit": "Kg",
-      "price": 350
-    },
-    {
-      "id": 56,
-      "product": "ELMA STARKING",
-      "unit": "Kg",
-      "price": 350
-    },
-    {
-      "id": 57,
-      "product": "PORTAKAL MEYVELİK PAKET",
-      "unit": "Kg",
-      "price": 185
-    },
-    {
-      "id": 58,
-      "product": "PORTAKAL SIKMALIK",
-      "unit": "Kg",
-      "price": 150
-    },
-    {
-      "id": 59,
-      "product": "ANANAS İTHAL",
-      "unit": "Adet",
-      "price": 490
-    },
-    {
-      "id": 60,
-      "product": "AVAKADO İTHAL",
-      "unit": "Adet",
-      "price": 300
-    },
-    {
-      "id": 61,
-      "product": "HİNDİSTAN CEVİZİ",
-      "unit": "Adet",
-      "price": 400
-    },
-    {
-      "id": 62,
-      "product": "PEPİNO",
-      "unit": "Adet",
-      "price": 650
-    },
-    {
-      "id": 63,
-      "product": "MANGO",
-      "unit": "Adet",
-      "price": 600
-    },
-    {
-      "id": 64,
-      "product": "BLUE BERRY",
-      "unit": "Pk / 125 Gr",
-      "price": 350
-    },
-    {
-      "id": 65,
-      "product": "PAPAYA",
-      "unit": "Adet",
-      "price": 1000
-    },
-    {
-      "id": 66,
-      "product": "ALTIN ÇİLEK",
-      "unit": "Pk / 100 Gr",
-      "price": 220
-    },
-    {
-      "id": 67,
-      "product": "RED BERRY",
-      "unit": "Pk / 125 Gr",
-      "price": 1400
-    },
-    {
-      "id": 68,
-      "product": "AHUDUDU",
-      "unit": "Pk / 125 Gr",
-      "price": 900
-    },
-    {
-      "id": 69,
-      "product": "BÖĞÜRTLEN",
-      "unit": "Pk / 125 Gr",
-      "price": 480
-    },
-    {
-      "id": 70,
-      "product": "ELMA GRANSİMİT",
-      "unit": "Kg",
-      "price": 500
-    },
-    {
-      "id": 71,
-      "product": "KİVİ",
-      "unit": "Kg",
-      "price": 800
-    },
-    {
-      "id": 72,
-      "product": "LİMON LİME",
-      "unit": "Kg",
-      "price": 800
-    },
-    {
-      "id": 73,
-      "product": "MUZ İTHAL",
-      "unit": "Kg",
-      "price": 470
-    },
-    {
-      "id": 74,
-      "product": "SARIMSAK İTHAL",
-      "unit": "Kg",
-      "price": 660
-    },
-    {
-      "id": 75,
-      "product": "ZENCEFİL",
-      "unit": "Kg",
-      "price": 850
-    },
-    {
-      "id": 76,
-      "product": "DOMATES CHERRY PAKET",
-      "unit": "250 Gr",
-      "price": 430
-    },
-    {
-      "id": 77,
-      "product": "DOMATES CHERRY SARI PAKET",
-      "unit": "250 Gr",
-      "price": 430
-    },
-    {
-      "id": 78,
-      "product": "KEKİK TAZE",
-      "unit": "25 Gr",
-      "price": 300
-    },
-    {
-      "id": 79,
-      "product": "FESLEĞEN PAKET",
-      "unit": "25 Gr",
-      "price": 260
-    },
-    {
-      "id": 80,
-      "product": "FESLEĞEN KIRMIZI",
-      "unit": "25 Gr",
-      "price": 260
-    },
-    {
-      "id": 81,
-      "product": "MAYDONOZ FRENK",
-      "unit": "25 Gr",
-      "price": 300
-    },
-    {
-      "id": 82,
-      "product": "KİŞNİŞ",
-      "unit": "25 Gr",
-      "price": 300
-    },
-    {
-      "id": 83,
-      "product": "ROZMARİN",
-      "unit": "25 Gr",
-      "price": 300
-    },
-    {
-      "id": 84,
-      "product": "ADAÇAYI",
-      "unit": "25 Gr",
-      "price": 550
-    },
-    {
-      "id": 85,
-      "product": "ŞİNİKLAV",
-      "unit": "25 Gr",
-      "price": 550
-    },
-    {
-      "id": 86,
-      "product": "LİMON ÇİÇEĞİ",
-      "unit": "25 Gr",
-      "price": 550
-    },
-    {
-      "id": 87,
-      "product": "MAJARON",
-      "unit": "25 Gr",
-      "price": 550
-    },
-    {
-      "id": 88,
-      "product": "TARHUN OTU",
-      "unit": "25 Gr",
-      "price": 550
-    },
-    {
-      "id": 89,
-      "product": "OREGANO KEKİK",
-      "unit": "25 Gr",
-      "price": 550
-    },
-    {
-      "id": 90,
-      "product": "KEKİK LİMONLU",
-      "unit": "25 Gr",
-      "price": 550
-    },
-    {
-      "id": 91,
-      "product": "SEBZE FİLİZİ",
-      "unit": "25 Gr",
-      "price": 720
-    },
-    {
-      "id": 92,
-      "product": "ENDİVYEN",
-      "unit": "Adet",
-      "price": 330
-    },
-    {
-      "id": 93,
-      "product": "LOLOROSSO",
-      "unit": "Adet",
-      "price": 230
-    },
-    {
-      "id": 94,
-      "product": "LOLOROSSO YEŞİL",
-      "unit": "Adet",
-      "price": 230
-    },
-    {
-      "id": 95,
-      "product": "KIRMIZI YAPRAK",
-      "unit": "Adet",
-      "price": 440
-    },
-    {
-      "id": 96,
-      "product": "PALAMUT",
-      "unit": "Adet",
-      "price": 440
-    },
-    {
-      "id": 97,
-      "product": "CORN SALAT",
-      "unit": "Adet",
-      "price": 360
-    },
-    {
-      "id": 98,
-      "product": "FENÇEL",
-      "unit": "Adet",
-      "price": 490
-    },
-    {
-      "id": 99,
-      "product": "POLOROSSO",
-      "unit": "Adet",
-      "price": 430
-    },
-    {
-      "id": 100,
-      "product": "KEREVİZ SAP",
-      "unit": "Adet",
-      "price": 490
-    },
-    {
-      "id": 101,
-      "product": "PAKCOY",
-      "unit": "Adet",
-      "price": 620
-    },
-    {
-      "id": 102,
-      "product": "MİNİ YEDİKULE",
-      "unit": "Adet",
-      "price": 620
-    },
-    {
-      "id": 103,
-      "product": "DENİZ BÖRÜLCESİ",
-      "unit": "Adet",
-      "price": 150
-    },
-    {
-      "id": 104,
-      "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
-      "unit": "Adet",
-      "price": 520
-    },
-    {
-      "id": 105,
-      "product": "LİMON GRASS",
-      "unit": "Bağ",
-      "price": 770
-    },
-    {
-      "id": 106,
-      "product": "YENİLEBİLİR ÇİÇEK",
-      "unit": "Pk",
-      "price": 390
-    },
-    {
-      "id": 107,
-      "product": "MİCRO FİLİZİ",
-      "unit": "Pk",
-      "price": 720
-    },
-    {
-      "id": 108,
-      "product": "KABAK ÇİÇEĞİ",
-      "unit": "Pk",
-      "price": 820
-    },
-    {
-      "id": 109,
-      "product": "HAVUÇ MİNİ",
-      "unit": "Pk",
-      "price": 720
-    },
-    {
-      "id": 110,
-      "product": "KABAK MİNİ",
-      "unit": "250 Gr",
-      "price": 720
-    },
-    {
-      "id": 111,
-      "product": "KABAK MİNİ SARI",
-      "unit": "250 Gr",
-      "price": 990
-    },
-    {
-      "id": 112,
-      "product": "PATLICAN MİNİ",
-      "unit": "200 Gr",
-      "price": 720
-    },
-    {
-      "id": 113,
-      "product": "AKDENİZ SALATA",
-      "unit": "150 Gr",
-      "price": 520
-    },
-    {
-      "id": 114,
-      "product": "KUZU KULAGI PAKET",
-      "unit": "Pk",
-      "price": 550
-    },
-    {
-      "id": 115,
-      "product": "MASKOLİN SALAT",
-      "unit": "150 Gr",
-      "price": 550
-    },
-    {
-      "id": 116,
-      "product": "MİNİ ISPANAK",
-      "unit": "Pk",
-      "price": 550
-    },
-    {
-      "id": 117,
-      "product": "EGE OTLARI",
-      "unit": "Pk",
-      "price": 690
-    },
-    {
-      "id": 118,
-      "product": "CİBES",
-      "unit": "Pk",
-      "price": 690
-    },
-    {
-      "id": 119,
-      "product": "EBE GÖMECİ",
-      "unit": "Pk",
-      "price": 690
-    },
-    {
-      "id": 120,
-      "product": "HARDAL OTU",
-      "unit": "Pk",
-      "price": 690
-    },
-    {
-      "id": 121,
-      "product": "ISIRGAN OTU",
-      "unit": "Pk",
-      "price": 690
-    },
-    {
-      "id": 122,
-      "product": "RADİKA",
-      "unit": "Pk",
-      "price": 690
-    },
-    {
-      "id": 123,
-      "product": "SOYA FİLİZİ",
-      "unit": "Kg",
-      "price": 2650
-    },
-    {
-      "id": 124,
-      "product": "DEREOTU",
-      "unit": "Bağ",
-      "price": 90
-    },
-    {
-      "id": 125,
-      "product": "FESLEĞEN",
-      "unit": "Bağ",
-      "price": 85
-    },
-    {
-      "id": 126,
-      "product": "LAHANA KARADENİZ",
-      "unit": "Bağ",
-      "price": 90
-    },
-    {
-      "id": 127,
-      "product": "KUZU KULAĞI",
-      "unit": "Bağ",
-      "price": 85
-    },
-    {
-      "id": 128,
-      "product": "MARUL ICEBERG",
-      "unit": "Adet",
-      "price": 120
-    },
-    {
-      "id": 129,
-      "product": "MARUL DÜZ",
-      "unit": "Adet",
-      "price": 150
-    },
-    {
-      "id": 130,
-      "product": "MARUL KIVIRCIK",
-      "unit": "Adet",
-      "price": 150
-    },
-    {
-      "id": 131,
-      "product": "MAYDONOZ",
-      "unit": "Bağ",
-      "price": 85
-    },
-    {
-      "id": 132,
-      "product": "NANE",
-      "unit": "Bağ",
-      "price": 85
-    },
-    {
-      "id": 133,
-      "product": "PAZI YAPRAGI",
-      "unit": "Bağ",
-      "price": 90
-    },
-    {
-      "id": 134,
-      "product": "ROKA",
-      "unit": "Bağ",
-      "price": 85
-    },
-    {
-      "id": 135,
-      "product": "SEMİZOTU",
-      "unit": "Bağ",
-      "price": 85
-    },
-    {
-      "id": 136,
-      "product": "TERE",
-      "unit": "Bağ",
-      "price": 100
-    },
-    {
-      "id": 137,
-      "product": "TERE SU",
-      "unit": "Bağ",
-      "price": 100
-    },
-    {
-      "id": 138,
-      "product": "TURP FINDIK",
-      "unit": "Bağ",
-      "price": 125
-    },
-    {
-      "id": 139,
       "product": "BİBER KALİFORNİYA",
       "unit": "Kg",
-      "price": 500
+      "price": "500,00"
+    },
+    {
+      "product": "BİBER CİN (BİBERİYE)",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER DOLMA",
+      "unit": "Kg",
+      "price": "300,00"
+    },
+    {
+      "product": "BİBER KAPYA",
+      "unit": "Kg",
+      "price": "260,00"
+    },
+    {
+      "product": "BİBER ÇARLİSTON",
+      "unit": "Kg",
+      "price": "450,00"
+    },
+    {
+      "product": "BİBER SİVRİ",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER ÜÇBURUN(KÖY)",
+      "unit": "Kg",
+      "price": "360,00"
+    },
+    {
+      "product": "BROKOLİ",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "FASULYE",
+      "unit": "Kg",
+      "price": "450,00"
+    },
+    {
+      "product": "DOMATES",
+      "unit": "Kg",
+      "price": "165,00"
+    },
+    {
+      "product": "DOMATES BEEF",
+      "unit": "Kg",
+      "price": "170,00"
+    },
+    {
+      "product": "DOMATES CHERRY",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "DOMATES KOKTEYL",
+      "unit": "Kg",
+      "price": "240,00"
+    },
+    {
+      "product": "DOMATES PEMBE",
+      "unit": "Kg",
+      "price": "300,00"
+    },
+    {
+      "product": "HAVUÇ BEYPAZARI",
+      "unit": "Kg",
+      "price": "170,00"
+    },
+    {
+      "product": "SALATALIK SİLOR PAKET",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "HIYAR YAYLA",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "ISPANAK",
+      "unit": "Kg",
+      "price": "450,00"
+    },
+    {
+      "product": "KABAK BAL DEKORLUK",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KABAK SAKIZ",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "KARNABAHAR",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "LAHANA BEYAZ",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "LAHANA KIRMIZI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "MANTAR TAZE",
+      "unit": "Kg",
+      "price": "410,00"
+    },
+    {
+      "product": "PANCAR KIRMIZI",
+      "unit": "Kg",
+      "price": "160,00"
+    },
+    {
+      "product": "PATATES BABY",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATATES TAZE",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "PATATES KUMPİR",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "PATLICAN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "PATLICAN BOSTAN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "PIRASA",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "SOĞAN ARPACIK",
+      "unit": "Kg",
+      "price": "160,00"
+    },
+    {
+      "product": "SOĞAN KIRMIZI",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "SOĞAN KURU",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "SOĞAN TAZE",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "TURP JAPON",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "TURP KIRMIZI",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "KEREVİZ",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "SARIMSAK KURU",
+      "unit": "Kg ",
+      "price": "700,00"
+    },
+    {
+      "product": "MISIR SOYULMUŞ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "ÜZÜM SİYAH",
+      "unit": "Kg",
+      "price": "600,00"
+    },
+    {
+      "product": "ÜZÜM BEYAZ",
+      "unit": "Kg",
+      "price": "600,00"
+    },
+    {
+      "product": "KARPUZ",
+      "unit": "Kg",
+      "price": "125,00"
+    },
+    {
+      "product": "KAVUN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KİRAZ",
+      "unit": "Kg",
+      "price": "600,00"
+    },
+    {
+      "product": "KAYISI",
+      "unit": "Kg",
+      "price": "320,00"
+    },
+    {
+      "product": "NEKTARİN",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ŞEFTALİ",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ERİK PAPAZ",
+      "unit": "Kg",
+      "price": "580,00"
+    },
+    {
+      "product": "ERİK ANJELİKA",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "ÇİLEK",
+      "unit": "Kg",
+      "price": "550,00"
+    },
+    {
+      "product": "MUZ YERLİ",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "GREYFURT",
+      "unit": "Kg",
+      "price": "150,00"
+    },
+    {
+      "product": "LİMON",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ARMUT SANDAMARİA",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "ELMA GOLDEN",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "ELMA STARKING",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "PORTAKAL MEYVELİK PAKET",
+      "unit": "Kg",
+      "price": "185,00"
+    },
+    {
+      "product": "PORTAKAL SIKMALIK",
+      "unit": "Kg",
+      "price": "150,00"
+    },
+    {
+      "product": "ANANAS İTHAL",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "AVAKADO İTHAL",
+      "unit": "Adet",
+      "price": "300,00"
+    },
+    {
+      "product": "HİNDİSTAN CEVİZİ",
+      "unit": "Adet",
+      "price": "400,00"
+    },
+    {
+      "product": "PEPİNO",
+      "unit": "Adet",
+      "price": "650,00"
+    },
+    {
+      "product": "MANGO",
+      "unit": "Adet",
+      "price": "600,00"
+    },
+    {
+      "product": "BLUE BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "350,00"
+    },
+    {
+      "product": "PAPAYA",
+      "unit": "Adet",
+      "price": "1.000,00"
+    },
+    {
+      "product": "ALTIN ÇİLEK",
+      "unit": "Pk / 100 Gr",
+      "price": "220,00"
+    },
+    {
+      "product": "RED BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "1.400,00"
+    },
+    {
+      "product": "AHUDUDU",
+      "unit": "Pk / 125 Gr",
+      "price": "900,00"
+    },
+    {
+      "product": "BÖĞÜRTLEN",
+      "unit": "Pk / 125 Gr",
+      "price": "480,00"
+    },
+    {
+      "product": "ELMA GRANSİMİT",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "KİVİ",
+      "unit": "Kg",
+      "price": "800,00"
+    },
+    {
+      "product": "LİMON LİME",
+      "unit": "Kg",
+      "price": "800,00"
+    },
+    {
+      "product": "MUZ İTHAL",
+      "unit": "Kg",
+      "price": "470,00"
+    },
+    {
+      "product": "SARIMSAK İTHAL",
+      "unit": "Kg",
+      "price": "660,00"
+    },
+    {
+      "product": "ZENCEFİL",
+      "unit": "Kg",
+      "price": "850,00"
+    },
+    {
+      "product": "DOMATES CHERRY PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "DOMATES CHERRY SARI PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "KEKİK TAZE",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "FESLEĞEN PAKET",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "FESLEĞEN KIRMIZI",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "MAYDONOZ FRENK",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "KİŞNİŞ",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ROZMARİN",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ADAÇAYI",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "ŞİNİKLAV",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "LİMON ÇİÇEĞİ",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MAJARON",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "TARHUN OTU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "OREGANO KEKİK",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "KEKİK LİMONLU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "SEBZE FİLİZİ",
+      "unit": "25 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "ENDİVYEN",
+      "unit": "Adet",
+      "price": "330,00"
+    },
+    {
+      "product": "LOLOROSSO",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "LOLOROSSO YEŞİL",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "KIRMIZI YAPRAK",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "PALAMUT",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "CORN SALAT",
+      "unit": "Adet",
+      "price": "360,00"
+    },
+    {
+      "product": "FENÇEL",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "POLOROSSO",
+      "unit": "Adet",
+      "price": "430,00"
+    },
+    {
+      "product": "KEREVİZ SAP",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "PAKCOY",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "MİNİ YEDİKULE",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "DENİZ BÖRÜLCESİ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
+      "unit": "Adet",
+      "price": "520,00"
+    },
+    {
+      "product": "LİMON GRASS",
+      "unit": "Bağ",
+      "price": "770,00"
+    },
+    {
+      "product": "YENİLEBİLİR ÇİÇEK",
+      "unit": "Pk",
+      "price": "390,00"
+    },
+    {
+      "product": "MİCRO FİLİZİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK ÇİÇEĞİ",
+      "unit": "Pk",
+      "price": "820,00"
+    },
+    {
+      "product": "HAVUÇ MİNİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ",
+      "unit": "250 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ SARI",
+      "unit": "250 Gr",
+      "price": "990,00"
+    },
+    {
+      "product": "PATLICAN MİNİ",
+      "unit": "200 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "AKDENİZ SALATA",
+      "unit": "150 Gr",
+      "price": "520,00"
+    },
+    {
+      "product": "KUZU KULAGI PAKET",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "MASKOLİN SALAT",
+      "unit": "150 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MİNİ ISPANAK",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "EGE OTLARI",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "CİBES",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "EBE GÖMECİ",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "HARDAL OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "ISIRGAN OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "RADİKA",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "SOYA FİLİZİ",
+      "unit": "Kg",
+      "price": "2.650,00"
+    },
+    {
+      "product": "DEREOTU",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "FESLEĞEN",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "LAHANA KARADENİZ",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "KUZU KULAĞI",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "MARUL ICEBERG",
+      "unit": "Adet",
+      "price": "120,00"
+    },
+    {
+      "product": "MARUL DÜZ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MARUL KIVIRCIK",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MAYDONOZ",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "NANE",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "PAZI YAPRAGI",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "ROKA",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "SEMİZOTU",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "TERE",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TERE SU",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TURP FINDIK",
+      "unit": "Bağ",
+      "price": "125,00"
+    },
+    {
+      "product": "BİBER KALİFORNİYA",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "BİBER CİN (BİBERİYE)",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER DOLMA",
+      "unit": "Kg",
+      "price": "320,00"
+    },
+    {
+      "product": "BİBER KAPYA",
+      "unit": "Kg",
+      "price": "270,00"
+    },
+    {
+      "product": "BİBER ÇARLİSTON",
+      "unit": "Kg",
+      "price": "490,00"
+    },
+    {
+      "product": "BİBER SİVRİ",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER ÜÇBURUN(KÖY)",
+      "unit": "Kg",
+      "price": "390,00"
+    },
+    {
+      "product": "BROKOLİ",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "FASULYE",
+      "unit": "Kg",
+      "price": "450,00"
+    },
+    {
+      "product": "DOMATES",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "DOMATES BEEF",
+      "unit": "Kg",
+      "price": "215,00"
+    },
+    {
+      "product": "DOMATES CHERRY",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "DOMATES KOKTEYL",
+      "unit": "Kg",
+      "price": "260,00"
+    },
+    {
+      "product": "DOMATES PEMBE",
+      "unit": "Kg",
+      "price": "300,00"
+    },
+    {
+      "product": "HAVUÇ BEYPAZARI",
+      "unit": "Kg",
+      "price": "170,00"
+    },
+    {
+      "product": "SALATALIK SİLOR PAKET",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "HIYAR YAYLA",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "ISPANAK",
+      "unit": "Kg",
+      "price": "450,00"
+    },
+    {
+      "product": "KABAK BAL DEKORLUK",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KABAK SAKIZ",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "KARNABAHAR",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "LAHANA BEYAZ",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "LAHANA KIRMIZI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "MANTAR TAZE",
+      "unit": "Kg",
+      "price": "410,00"
+    },
+    {
+      "product": "PANCAR KIRMIZI",
+      "unit": "Kg",
+      "price": "170,00"
+    },
+    {
+      "product": "PATATES BABY",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATATES TAZE",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "PATATES KUMPİR",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "PATLICAN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "PATLICAN BOSTAN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "PIRASA",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "SOĞAN ARPACIK",
+      "unit": "Kg",
+      "price": "160,00"
+    },
+    {
+      "product": "SOĞAN KIRMIZI",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "SOĞAN KURU",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "SOĞAN TAZE",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "TURP JAPON",
+      "unit": "Kg",
+      "price": "310,00"
+    },
+    {
+      "product": "TURP KIRMIZI",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "KEREVİZ",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "SARIMSAK KURU",
+      "unit": "Kg ",
+      "price": "700,00"
+    },
+    {
+      "product": "MISIR SOYULMUŞ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "ÜZÜM SİYAH",
+      "unit": "Kg",
+      "price": "600,00"
+    },
+    {
+      "product": "ÜZÜM BEYAZ",
+      "unit": "Kg",
+      "price": "600,00"
+    },
+    {
+      "product": "KARPUZ",
+      "unit": "Kg",
+      "price": "125,00"
+    },
+    {
+      "product": "KAVUN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KİRAZ",
+      "unit": "Kg",
+      "price": "600,00"
+    },
+    {
+      "product": "KAYISI",
+      "unit": "Kg",
+      "price": "320,00"
+    },
+    {
+      "product": "NEKTARİN",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ŞEFTALİ",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ERİK PAPAZ",
+      "unit": "Kg",
+      "price": "630,00"
+    },
+    {
+      "product": "ERİK ANJELİKA",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "ÇİLEK",
+      "unit": "Kg",
+      "price": "550,00"
+    },
+    {
+      "product": "MUZ YERLİ",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "GREYFURT",
+      "unit": "Kg",
+      "price": "150,00"
+    },
+    {
+      "product": "LİMON",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ARMUT SANDAMARİA",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "ELMA GOLDEN",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "ELMA STARKING",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "PORTAKAL MEYVELİK PAKET",
+      "unit": "Kg",
+      "price": "185,00"
+    },
+    {
+      "product": "PORTAKAL SIKMALIK",
+      "unit": "Kg",
+      "price": "150,00"
+    },
+    {
+      "product": "ANANAS İTHAL",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "AVAKADO İTHAL",
+      "unit": "Adet",
+      "price": "300,00"
+    },
+    {
+      "product": "HİNDİSTAN CEVİZİ",
+      "unit": "Adet",
+      "price": "400,00"
+    },
+    {
+      "product": "PEPİNO",
+      "unit": "Adet",
+      "price": "650,00"
+    },
+    {
+      "product": "MANGO",
+      "unit": "Adet",
+      "price": "600,00"
+    },
+    {
+      "product": "BLUE BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "350,00"
+    },
+    {
+      "product": "PAPAYA",
+      "unit": "Adet",
+      "price": "1.000,00"
+    },
+    {
+      "product": "ALTIN ÇİLEK",
+      "unit": "Pk / 100 Gr",
+      "price": "220,00"
+    },
+    {
+      "product": "RED BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "1.400,00"
+    },
+    {
+      "product": "AHUDUDU",
+      "unit": "Pk / 125 Gr",
+      "price": "900,00"
+    },
+    {
+      "product": "BÖĞÜRTLEN",
+      "unit": "Pk / 125 Gr",
+      "price": "480,00"
+    },
+    {
+      "product": "ELMA GRANSİMİT",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "KİVİ",
+      "unit": "Kg",
+      "price": "800,00"
+    },
+    {
+      "product": "LİMON LİME",
+      "unit": "Kg",
+      "price": "800,00"
+    },
+    {
+      "product": "MUZ İTHAL",
+      "unit": "Kg",
+      "price": "470,00"
+    },
+    {
+      "product": "SARIMSAK İTHAL",
+      "unit": "Kg",
+      "price": "660,00"
+    },
+    {
+      "product": "ZENCEFİL",
+      "unit": "Kg",
+      "price": "850,00"
+    },
+    {
+      "product": "DOMATES CHERRY PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "DOMATES CHERRY SARI PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "KEKİK TAZE",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "FESLEĞEN PAKET",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "FESLEĞEN KIRMIZI",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "MAYDONOZ FRENK",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "KİŞNİŞ",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ROZMARİN",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ADAÇAYI",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "ŞİNİKLAV",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "LİMON ÇİÇEĞİ",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MAJARON",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "TARHUN OTU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "OREGANO KEKİK",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "KEKİK LİMONLU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "SEBZE FİLİZİ",
+      "unit": "25 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "ENDİVYEN",
+      "unit": "Adet",
+      "price": "330,00"
+    },
+    {
+      "product": "LOLOROSSO",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "LOLOROSSO YEŞİL",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "KIRMIZI YAPRAK",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "PALAMUT",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "CORN SALAT",
+      "unit": "Adet",
+      "price": "360,00"
+    },
+    {
+      "product": "FENÇEL",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "POLOROSSO",
+      "unit": "Adet",
+      "price": "430,00"
+    },
+    {
+      "product": "KEREVİZ SAP",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "PAKCOY",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "MİNİ YEDİKULE",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "DENİZ BÖRÜLCESİ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
+      "unit": "Adet",
+      "price": "520,00"
+    },
+    {
+      "product": "LİMON GRASS",
+      "unit": "Bağ",
+      "price": "770,00"
+    },
+    {
+      "product": "YENİLEBİLİR ÇİÇEK",
+      "unit": "Pk",
+      "price": "390,00"
+    },
+    {
+      "product": "MİCRO FİLİZİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK ÇİÇEĞİ",
+      "unit": "Pk",
+      "price": "820,00"
+    },
+    {
+      "product": "HAVUÇ MİNİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ",
+      "unit": "250 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ SARI",
+      "unit": "250 Gr",
+      "price": "990,00"
+    },
+    {
+      "product": "PATLICAN MİNİ",
+      "unit": "200 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "AKDENİZ SALATA",
+      "unit": "150 Gr",
+      "price": "520,00"
+    },
+    {
+      "product": "KUZU KULAGI PAKET",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "MASKOLİN SALAT",
+      "unit": "150 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MİNİ ISPANAK",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "EGE OTLARI",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "CİBES",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "EBE GÖMECİ",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "HARDAL OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "ISIRGAN OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "RADİKA",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "SOYA FİLİZİ",
+      "unit": "Kg",
+      "price": "2.650,00"
+    },
+    {
+      "product": "DEREOTU",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "FESLEĞEN",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "LAHANA KARADENİZ",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "KUZU KULAĞI",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "MARUL ICEBERG",
+      "unit": "Adet",
+      "price": "120,00"
+    },
+    {
+      "product": "MARUL DÜZ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MARUL KIVIRCIK",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MAYDONOZ",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "NANE",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "PAZI YAPRAGI",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "ROKA",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "SEMİZOTU",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "TERE",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TERE SU",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TURP FINDIK",
+      "unit": "Bağ",
+      "price": "125,00"
+    },
+    {
+      "product": "BİBER KALİFORNİYA",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "BİBER CİN (BİBERİYE)",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER DOLMA",
+      "unit": "Kg",
+      "price": "320,00"
+    },
+    {
+      "product": "BİBER KAPYA",
+      "unit": "Kg",
+      "price": "270,00"
+    },
+    {
+      "product": "BİBER ÇARLİSTON",
+      "unit": "Kg",
+      "price": "490,00"
+    },
+    {
+      "product": "BİBER SİVRİ",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER ÜÇBURUN(KÖY)",
+      "unit": "Kg",
+      "price": "390,00"
+    },
+    {
+      "product": "BROKOLİ",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "FASULYE",
+      "unit": "Kg",
+      "price": "440,00"
+    },
+    {
+      "product": "DOMATES",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "DOMATES BEEF",
+      "unit": "Kg",
+      "price": "215,00"
+    },
+    {
+      "product": "DOMATES CHERRY",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "DOMATES KOKTEYL",
+      "unit": "Kg",
+      "price": "260,00"
+    },
+    {
+      "product": "DOMATES PEMBE",
+      "unit": "Kg",
+      "price": "300,00"
+    },
+    {
+      "product": "HAVUÇ BEYPAZARI",
+      "unit": "Kg",
+      "price": "170,00"
+    },
+    {
+      "product": "SALATALIK SİLOR PAKET",
+      "unit": "Kg",
+      "price": "190,00"
+    },
+    {
+      "product": "HIYAR YAYLA",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "ISPANAK",
+      "unit": "Kg",
+      "price": "450,00"
+    },
+    {
+      "product": "KABAK BAL DEKORLUK",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KABAK SAKIZ",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KARNABAHAR",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "LAHANA BEYAZ",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "LAHANA KIRMIZI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "MANTAR TAZE",
+      "unit": "Kg",
+      "price": "410,00"
+    },
+    {
+      "product": "PANCAR KIRMIZI",
+      "unit": "Kg",
+      "price": "170,00"
+    },
+    {
+      "product": "PATATES BABY",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATATES TAZE",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "PATATES KUMPİR",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "PATLICAN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "PATLICAN BOSTAN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "PIRASA",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "SOĞAN ARPACIK",
+      "unit": "Kg",
+      "price": "160,00"
+    },
+    {
+      "product": "SOĞAN KIRMIZI",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "SOĞAN KURU",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "SOĞAN TAZE",
+      "unit": "Kg",
+      "price": "490,00"
+    },
+    {
+      "product": "TURP JAPON",
+      "unit": "Kg",
+      "price": "310,00"
+    },
+    {
+      "product": "TURP KIRMIZI",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "KEREVİZ",
+      "unit": "Kg",
+      "price": "330,00"
+    },
+    {
+      "product": "SARIMSAK KURU",
+      "unit": "Kg ",
+      "price": "700,00"
+    },
+    {
+      "product": "MISIR SOYULMUŞ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "ÜZÜM SİYAH",
+      "unit": "Kg",
+      "price": "580,00"
+    },
+    {
+      "product": "ÜZÜM BEYAZ",
+      "unit": "Kg",
+      "price": "580,00"
+    },
+    {
+      "product": "KARPUZ",
+      "unit": "Kg",
+      "price": "125,00"
+    },
+    {
+      "product": "KAVUN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KİRAZ",
+      "unit": "Kg",
+      "price": "600,00"
+    },
+    {
+      "product": "KAYISI",
+      "unit": "Kg",
+      "price": "320,00"
+    },
+    {
+      "product": "NEKTARİN",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ŞEFTALİ",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ERİK PAPAZ",
+      "unit": "Kg",
+      "price": "630,00"
+    },
+    {
+      "product": "ERİK ANJELİKA",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "ÇİLEK",
+      "unit": "Kg",
+      "price": "550,00"
+    },
+    {
+      "product": "MUZ YERLİ",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "GREYFURT",
+      "unit": "Kg",
+      "price": "150,00"
+    },
+    {
+      "product": "LİMON",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ARMUT SANDAMARİA",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "ELMA GOLDEN",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "ELMA STARKING",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "PORTAKAL MEYVELİK PAKET",
+      "unit": "Kg",
+      "price": "185,00"
+    },
+    {
+      "product": "PORTAKAL SIKMALIK",
+      "unit": "Kg",
+      "price": "150,00"
+    },
+    {
+      "product": "ANANAS İTHAL",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "AVAKADO İTHAL",
+      "unit": "Adet",
+      "price": "300,00"
+    },
+    {
+      "product": "HİNDİSTAN CEVİZİ",
+      "unit": "Adet",
+      "price": "400,00"
+    },
+    {
+      "product": "PEPİNO",
+      "unit": "Adet",
+      "price": "650,00"
+    },
+    {
+      "product": "MANGO",
+      "unit": "Adet",
+      "price": "600,00"
+    },
+    {
+      "product": "BLUE BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "350,00"
+    },
+    {
+      "product": "PAPAYA",
+      "unit": "Adet",
+      "price": "1.000,00"
+    },
+    {
+      "product": "ALTIN ÇİLEK",
+      "unit": "Pk / 100 Gr",
+      "price": "220,00"
+    },
+    {
+      "product": "RED BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "1.400,00"
+    },
+    {
+      "product": "AHUDUDU",
+      "unit": "Pk / 125 Gr",
+      "price": "900,00"
+    },
+    {
+      "product": "BÖĞÜRTLEN",
+      "unit": "Pk / 125 Gr",
+      "price": "480,00"
+    },
+    {
+      "product": "ELMA GRANSİMİT",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "KİVİ",
+      "unit": "Kg",
+      "price": "800,00"
+    },
+    {
+      "product": "LİMON LİME",
+      "unit": "Kg",
+      "price": "800,00"
+    },
+    {
+      "product": "MUZ İTHAL",
+      "unit": "Kg",
+      "price": "470,00"
+    },
+    {
+      "product": "SARIMSAK İTHAL",
+      "unit": "Kg",
+      "price": "660,00"
+    },
+    {
+      "product": "ZENCEFİL",
+      "unit": "Kg",
+      "price": "850,00"
+    },
+    {
+      "product": "DOMATES CHERRY PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "DOMATES CHERRY SARI PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "KEKİK TAZE",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "FESLEĞEN PAKET",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "FESLEĞEN KIRMIZI",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "MAYDONOZ FRENK",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "KİŞNİŞ",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ROZMARİN",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ADAÇAYI",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "ŞİNİKLAV",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "LİMON ÇİÇEĞİ",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MAJARON",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "TARHUN OTU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "OREGANO KEKİK",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "KEKİK LİMONLU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "SEBZE FİLİZİ",
+      "unit": "25 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "ENDİVYEN",
+      "unit": "Adet",
+      "price": "330,00"
+    },
+    {
+      "product": "LOLOROSSO",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "LOLOROSSO YEŞİL",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "KIRMIZI YAPRAK",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "PALAMUT",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "CORN SALAT",
+      "unit": "Adet",
+      "price": "360,00"
+    },
+    {
+      "product": "FENÇEL",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "POLOROSSO",
+      "unit": "Adet",
+      "price": "430,00"
+    },
+    {
+      "product": "KEREVİZ SAP",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "PAKCOY",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "MİNİ YEDİKULE",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "DENİZ BÖRÜLCESİ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
+      "unit": "Adet",
+      "price": "520,00"
+    },
+    {
+      "product": "LİMON GRASS",
+      "unit": "Bağ",
+      "price": "770,00"
+    },
+    {
+      "product": "YENİLEBİLİR ÇİÇEK",
+      "unit": "Pk",
+      "price": "390,00"
+    },
+    {
+      "product": "MİCRO FİLİZİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK ÇİÇEĞİ",
+      "unit": "Pk",
+      "price": "820,00"
+    },
+    {
+      "product": "HAVUÇ MİNİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ",
+      "unit": "250 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ SARI",
+      "unit": "250 Gr",
+      "price": "990,00"
+    },
+    {
+      "product": "PATLICAN MİNİ",
+      "unit": "200 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "AKDENİZ SALATA",
+      "unit": "150 Gr",
+      "price": "520,00"
+    },
+    {
+      "product": "KUZU KULAGI PAKET",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "MASKOLİN SALAT",
+      "unit": "150 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MİNİ ISPANAK",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "EGE OTLARI",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "CİBES",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "EBE GÖMECİ",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "HARDAL OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "ISIRGAN OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "RADİKA",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "SOYA FİLİZİ",
+      "unit": "Kg",
+      "price": "2.650,00"
+    },
+    {
+      "product": "DEREOTU",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "FESLEĞEN",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "LAHANA KARADENİZ",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "KUZU KULAĞI",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "MARUL ICEBERG",
+      "unit": "Adet",
+      "price": "120,00"
+    },
+    {
+      "product": "MARUL DÜZ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MARUL KIVIRCIK",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MAYDONOZ",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "NANE",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "PAZI YAPRAGI",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "ROKA",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "SEMİZOTU",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "TERE",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TERE SU",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TURP FINDIK",
+      "unit": "Bağ",
+      "price": "125,00"
+    },
+    {
+      "product": "BİBER KALİFORNİYA",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "BİBER CİN (BİBERİYE)",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER DOLMA",
+      "unit": "Kg",
+      "price": "360,00"
+    },
+    {
+      "product": "BİBER KAPYA",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "BİBER ÇARLİSTON",
+      "unit": "Kg",
+      "price": "490,00"
+    },
+    {
+      "product": "BİBER SİVRİ",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER ÜÇBURUN(KÖY)",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BROKOLİ",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "FASULYE",
+      "unit": "Kg",
+      "price": "440,00"
+    },
+    {
+      "product": "DOMATES",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "DOMATES BEEF",
+      "unit": "Kg",
+      "price": "215,00"
+    },
+    {
+      "product": "DOMATES CHERRY",
+      "unit": "Kg",
+      "price": "480,00"
+    },
+    {
+      "product": "DOMATES KOKTEYL",
+      "unit": "Kg",
+      "price": "260,00"
+    },
+    {
+      "product": "DOMATES PEMBE",
+      "unit": "Kg",
+      "price": "300,00"
+    },
+    {
+      "product": "HAVUÇ BEYPAZARI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "SALATALIK SİLOR PAKET",
+      "unit": "Kg",
+      "price": "190,00"
+    },
+    {
+      "product": "HIYAR YAYLA",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "ISPANAK",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "KABAK BAL DEKORLUK",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KABAK SAKIZ",
+      "unit": "Kg",
+      "price": "170,00"
+    },
+    {
+      "product": "KARNABAHAR",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "LAHANA BEYAZ",
+      "unit": "Kg",
+      "price": "140,00"
+    },
+    {
+      "product": "LAHANA KIRMIZI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "MANTAR TAZE",
+      "unit": "Kg",
+      "price": "410,00"
+    },
+    {
+      "product": "PANCAR KIRMIZI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATATES BABY",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATATES TAZE",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "PATATES KUMPİR",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "PATLICAN",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATLICAN BOSTAN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "PIRASA",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "SOĞAN ARPACIK",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "SOĞAN KIRMIZI",
+      "unit": "Kg",
+      "price": "240,00"
+    },
+    {
+      "product": "SOĞAN KURU",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "SOĞAN TAZE",
+      "unit": "Kg",
+      "price": "490,00"
+    },
+    {
+      "product": "TURP JAPON",
+      "unit": "Kg",
+      "price": "360,00"
+    },
+    {
+      "product": "TURP KIRMIZI",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "KEREVİZ",
+      "unit": "Kg",
+      "price": "300,00"
+    },
+    {
+      "product": "SARIMSAK KURU",
+      "unit": "Kg ",
+      "price": "700,00"
+    },
+    {
+      "product": "MISIR SOYULMUŞ",
+      "unit": "Adet",
+      "price": "140,00"
+    },
+    {
+      "product": "ÜZÜM SİYAH",
+      "unit": "Kg",
+      "price": "560,00"
+    },
+    {
+      "product": "ÜZÜM BEYAZ",
+      "unit": "Kg",
+      "price": "560,00"
+    },
+    {
+      "product": "KARPUZ",
+      "unit": "Kg",
+      "price": "125,00"
+    },
+    {
+      "product": "KAVUN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KİRAZ",
+      "unit": "Kg",
+      "price": "600,00"
+    },
+    {
+      "product": "KAYISI",
+      "unit": "Kg",
+      "price": "330,00"
+    },
+    {
+      "product": "NEKTARİN",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ŞEFTALİ",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ERİK PAPAZ",
+      "unit": "Kg",
+      "price": "630,00"
+    },
+    {
+      "product": "ERİK ANJELİKA",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "ÇİLEK",
+      "unit": "Kg",
+      "price": "550,00"
+    },
+    {
+      "product": "MUZ YERLİ",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "GREYFURT",
+      "unit": "Kg",
+      "price": "160,00"
+    },
+    {
+      "product": "LİMON",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ARMUT SANDAMARİA",
+      "unit": "Kg",
+      "price": "410,00"
+    },
+    {
+      "product": "ELMA GOLDEN",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "ELMA STARKING",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "PORTAKAL MEYVELİK PAKET",
+      "unit": "Kg",
+      "price": "185,00"
+    },
+    {
+      "product": "PORTAKAL SIKMALIK",
+      "unit": "Kg",
+      "price": "150,00"
+    },
+    {
+      "product": "ANANAS İTHAL",
+      "unit": "Adet",
+      "price": "500,00"
+    },
+    {
+      "product": "AVAKADO İTHAL",
+      "unit": "Adet",
+      "price": "300,00"
+    },
+    {
+      "product": "HİNDİSTAN CEVİZİ",
+      "unit": "Adet",
+      "price": "400,00"
+    },
+    {
+      "product": "PEPİNO",
+      "unit": "Adet",
+      "price": "650,00"
+    },
+    {
+      "product": "MANGO",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "BLUE BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "360,00"
+    },
+    {
+      "product": "PAPAYA",
+      "unit": "Adet",
+      "price": "1.000,00"
+    },
+    {
+      "product": "ALTIN ÇİLEK",
+      "unit": "Pk / 100 Gr",
+      "price": "220,00"
+    },
+    {
+      "product": "RED BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "1.400,00"
+    },
+    {
+      "product": "AHUDUDU",
+      "unit": "Pk / 125 Gr",
+      "price": "900,00"
+    },
+    {
+      "product": "BÖĞÜRTLEN",
+      "unit": "Pk / 125 Gr",
+      "price": "480,00"
+    },
+    {
+      "product": "ELMA GRANSİMİT",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "KİVİ",
+      "unit": "Kg",
+      "price": "850,00"
+    },
+    {
+      "product": "LİMON LİME",
+      "unit": "Kg",
+      "price": "840,00"
+    },
+    {
+      "product": "MUZ İTHAL",
+      "unit": "Kg",
+      "price": "480,00"
+    },
+    {
+      "product": "SARIMSAK İTHAL",
+      "unit": "Kg",
+      "price": "660,00"
+    },
+    {
+      "product": "ZENCEFİL",
+      "unit": "Kg",
+      "price": "860,00"
+    },
+    {
+      "product": "DOMATES CHERRY PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "DOMATES CHERRY SARI PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "KEKİK TAZE",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "FESLEĞEN PAKET",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "FESLEĞEN KIRMIZI",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "MAYDONOZ FRENK",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "KİŞNİŞ",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ROZMARİN",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ADAÇAYI",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "ŞİNİKLAV",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "LİMON ÇİÇEĞİ",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MAJARON",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "TARHUN OTU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "OREGANO KEKİK",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "KEKİK LİMONLU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "SEBZE FİLİZİ",
+      "unit": "25 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "ENDİVYEN",
+      "unit": "Adet",
+      "price": "330,00"
+    },
+    {
+      "product": "LOLOROSSO",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "LOLOROSSO YEŞİL",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "KIRMIZI YAPRAK",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "PALAMUT",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "CORN SALAT",
+      "unit": "Adet",
+      "price": "360,00"
+    },
+    {
+      "product": "FENÇEL",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "POLOROSSO",
+      "unit": "Adet",
+      "price": "430,00"
+    },
+    {
+      "product": "KEREVİZ SAP",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "PAKCOY",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "MİNİ YEDİKULE",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "DENİZ BÖRÜLCESİ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
+      "unit": "Adet",
+      "price": "520,00"
+    },
+    {
+      "product": "LİMON GRASS",
+      "unit": "Bağ",
+      "price": "770,00"
+    },
+    {
+      "product": "YENİLEBİLİR ÇİÇEK",
+      "unit": "Pk",
+      "price": "390,00"
+    },
+    {
+      "product": "MİCRO FİLİZİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK ÇİÇEĞİ",
+      "unit": "Pk",
+      "price": "820,00"
+    },
+    {
+      "product": "HAVUÇ MİNİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ",
+      "unit": "250 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ SARI",
+      "unit": "250 Gr",
+      "price": "990,00"
+    },
+    {
+      "product": "PATLICAN MİNİ",
+      "unit": "200 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "AKDENİZ SALATA",
+      "unit": "150 Gr",
+      "price": "520,00"
+    },
+    {
+      "product": "KUZU KULAGI PAKET",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "MASKOLİN SALAT",
+      "unit": "150 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MİNİ ISPANAK",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "EGE OTLARI",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "CİBES",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "EBE GÖMECİ",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "HARDAL OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "ISIRGAN OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "RADİKA",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "SOYA FİLİZİ",
+      "unit": "Kg",
+      "price": "2.650,00"
+    },
+    {
+      "product": "DEREOTU",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "FESLEĞEN",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "LAHANA KARADENİZ",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "KUZU KULAĞI",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "MARUL ICEBERG",
+      "unit": "Adet",
+      "price": "120,00"
+    },
+    {
+      "product": "MARUL DÜZ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MARUL KIVIRCIK",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MAYDONOZ",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "NANE",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "PAZI YAPRAGI",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "ROKA",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "SEMİZOTU",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "TERE",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TERE SU",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TURP FINDIK",
+      "unit": "Bağ",
+      "price": "125,00"
+    },
+    {
+      "product": "BİBER KALİFORNİYA",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "BİBER CİN (BİBERİYE)",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER DOLMA",
+      "unit": "Kg",
+      "price": "360,00"
+    },
+    {
+      "product": "BİBER KAPYA",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "BİBER ÇARLİSTON",
+      "unit": "Kg",
+      "price": "490,00"
+    },
+    {
+      "product": "BİBER SİVRİ",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BİBER ÜÇBURUN(KÖY)",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "BROKOLİ",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "FASULYE",
+      "unit": "Kg",
+      "price": "440,00"
+    },
+    {
+      "product": "DOMATES",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "DOMATES BEEF",
+      "unit": "Kg",
+      "price": "215,00"
+    },
+    {
+      "product": "DOMATES CHERRY",
+      "unit": "Kg",
+      "price": "480,00"
+    },
+    {
+      "product": "DOMATES KOKTEYL",
+      "unit": "Kg",
+      "price": "260,00"
+    },
+    {
+      "product": "DOMATES PEMBE",
+      "unit": "Kg",
+      "price": "300,00"
+    },
+    {
+      "product": "HAVUÇ BEYPAZARI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "SALATALIK SİLOR PAKET",
+      "unit": "Kg",
+      "price": "190,00"
+    },
+    {
+      "product": "HIYAR YAYLA",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "ISPANAK",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "KABAK BAL DEKORLUK",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KABAK SAKIZ",
+      "unit": "Kg",
+      "price": "170,00"
+    },
+    {
+      "product": "KARNABAHAR",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "LAHANA BEYAZ",
+      "unit": "Kg",
+      "price": "140,00"
+    },
+    {
+      "product": "LAHANA KIRMIZI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "MANTAR TAZE",
+      "unit": "Kg",
+      "price": "410,00"
+    },
+    {
+      "product": "PANCAR KIRMIZI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATATES BABY",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATATES TAZE",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "PATATES KUMPİR",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "PATLICAN",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATLICAN BOSTAN",
+      "unit": "Kg",
+      "price": "190,00"
+    },
+    {
+      "product": "PIRASA",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "SOĞAN ARPACIK",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "SOĞAN KIRMIZI",
+      "unit": "Kg",
+      "price": "240,00"
+    },
+    {
+      "product": "SOĞAN KURU",
+      "unit": "Kg",
+      "price": "260,00"
+    },
+    {
+      "product": "SOĞAN TAZE",
+      "unit": "Kg",
+      "price": "520,00"
+    },
+    {
+      "product": "TURP JAPON",
+      "unit": "Kg",
+      "price": "360,00"
+    },
+    {
+      "product": "TURP KIRMIZI",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "KEREVİZ",
+      "unit": "Kg",
+      "price": "300,00"
+    },
+    {
+      "product": "SARIMSAK KURU",
+      "unit": "Kg ",
+      "price": "700,00"
+    },
+    {
+      "product": "MISIR SOYULMUŞ",
+      "unit": "Adet",
+      "price": "140,00"
+    },
+    {
+      "product": "ÜZÜM SİYAH",
+      "unit": "Kg",
+      "price": "560,00"
+    },
+    {
+      "product": "ÜZÜM BEYAZ",
+      "unit": "Kg",
+      "price": "560,00"
+    },
+    {
+      "product": "KARPUZ",
+      "unit": "Kg",
+      "price": "125,00"
+    },
+    {
+      "product": "KAVUN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KİRAZ",
+      "unit": "Kg",
+      "price": "600,00"
+    },
+    {
+      "product": "KAYISI",
+      "unit": "Kg",
+      "price": "330,00"
+    },
+    {
+      "product": "NEKTARİN",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ŞEFTALİ",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ERİK PAPAZ",
+      "unit": "Kg",
+      "price": "630,00"
+    },
+    {
+      "product": "ERİK ANJELİKA",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "ÇİLEK",
+      "unit": "Kg",
+      "price": "550,00"
+    },
+    {
+      "product": "MUZ YERLİ",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "GREYFURT",
+      "unit": "Kg",
+      "price": "160,00"
+    },
+    {
+      "product": "LİMON",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ARMUT SANDAMARİA",
+      "unit": "Kg",
+      "price": "410,00"
+    },
+    {
+      "product": "ELMA GOLDEN",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "ELMA STARKING",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "PORTAKAL MEYVELİK PAKET",
+      "unit": "Kg",
+      "price": "185,00"
+    },
+    {
+      "product": "PORTAKAL SIKMALIK",
+      "unit": "Kg",
+      "price": "150,00"
+    },
+    {
+      "product": "ANANAS İTHAL",
+      "unit": "Adet",
+      "price": "500,00"
+    },
+    {
+      "product": "AVAKADO İTHAL",
+      "unit": "Adet",
+      "price": "300,00"
+    },
+    {
+      "product": "HİNDİSTAN CEVİZİ",
+      "unit": "Adet",
+      "price": "400,00"
+    },
+    {
+      "product": "PEPİNO",
+      "unit": "Adet",
+      "price": "650,00"
+    },
+    {
+      "product": "MANGO",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "BLUE BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "360,00"
+    },
+    {
+      "product": "PAPAYA",
+      "unit": "Adet",
+      "price": "1.000,00"
+    },
+    {
+      "product": "ALTIN ÇİLEK",
+      "unit": "Pk / 100 Gr",
+      "price": "230,00"
+    },
+    {
+      "product": "RED BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "1.400,00"
+    },
+    {
+      "product": "AHUDUDU",
+      "unit": "Pk / 125 Gr",
+      "price": "900,00"
+    },
+    {
+      "product": "BÖĞÜRTLEN",
+      "unit": "Pk / 125 Gr",
+      "price": "480,00"
+    },
+    {
+      "product": "ELMA GRANSİMİT",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "KİVİ",
+      "unit": "Kg",
+      "price": "850,00"
+    },
+    {
+      "product": "LİMON LİME",
+      "unit": "Kg",
+      "price": "950,00"
+    },
+    {
+      "product": "MUZ İTHAL",
+      "unit": "Kg",
+      "price": "480,00"
+    },
+    {
+      "product": "SARIMSAK İTHAL",
+      "unit": "Kg",
+      "price": "660,00"
+    },
+    {
+      "product": "ZENCEFİL",
+      "unit": "Kg",
+      "price": "860,00"
+    },
+    {
+      "product": "DOMATES CHERRY PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "DOMATES CHERRY SARI PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "KEKİK TAZE",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "FESLEĞEN PAKET",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "FESLEĞEN KIRMIZI",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "MAYDONOZ FRENK",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "KİŞNİŞ",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ROZMARİN",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ADAÇAYI",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "ŞİNİKLAV",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "LİMON ÇİÇEĞİ",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MAJARON",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "TARHUN OTU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "OREGANO KEKİK",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "KEKİK LİMONLU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "SEBZE FİLİZİ",
+      "unit": "25 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "ENDİVYEN",
+      "unit": "Adet",
+      "price": "330,00"
+    },
+    {
+      "product": "LOLOROSSO",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "LOLOROSSO YEŞİL",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "KIRMIZI YAPRAK",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "PALAMUT",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "CORN SALAT",
+      "unit": "Adet",
+      "price": "360,00"
+    },
+    {
+      "product": "FENÇEL",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "POLOROSSO",
+      "unit": "Adet",
+      "price": "430,00"
+    },
+    {
+      "product": "KEREVİZ SAP",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "PAKCOY",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "MİNİ YEDİKULE",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "DENİZ BÖRÜLCESİ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
+      "unit": "Adet",
+      "price": "520,00"
+    },
+    {
+      "product": "LİMON GRASS",
+      "unit": "Bağ",
+      "price": "770,00"
+    },
+    {
+      "product": "YENİLEBİLİR ÇİÇEK",
+      "unit": "Pk",
+      "price": "390,00"
+    },
+    {
+      "product": "MİCRO FİLİZİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK ÇİÇEĞİ",
+      "unit": "Pk",
+      "price": "820,00"
+    },
+    {
+      "product": "HAVUÇ MİNİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ",
+      "unit": "250 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ SARI",
+      "unit": "250 Gr",
+      "price": "990,00"
+    },
+    {
+      "product": "PATLICAN MİNİ",
+      "unit": "200 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "AKDENİZ SALATA",
+      "unit": "150 Gr",
+      "price": "520,00"
+    },
+    {
+      "product": "KUZU KULAGI PAKET",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "MASKOLİN SALAT",
+      "unit": "150 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MİNİ ISPANAK",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "EGE OTLARI",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "CİBES",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "EBE GÖMECİ",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "HARDAL OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "ISIRGAN OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "RADİKA",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "SOYA FİLİZİ",
+      "unit": "Kg",
+      "price": "2.650,00"
+    },
+    {
+      "product": "DEREOTU",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "FESLEĞEN",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "LAHANA KARADENİZ",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "KUZU KULAĞI",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "MARUL ICEBERG",
+      "unit": "Adet",
+      "price": "120,00"
+    },
+    {
+      "product": "MARUL DÜZ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MARUL KIVIRCIK",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MAYDONOZ",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "NANE",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "PAZI YAPRAGI",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "ROKA",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "SEMİZOTU",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "TERE",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TERE SU",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TURP FINDIK",
+      "unit": "Bağ",
+      "price": "125,00"
+    },
+    {
+      "product": "BİBER KALİFORNİYA",
+      "unit": "Kg",
+      "price": "480,00"
+    },
+    {
+      "product": "BİBER CİN (BİBERİYE)",
+      "unit": "Kg",
+      "price": "370,00"
+    },
+    {
+      "product": "BİBER DOLMA",
+      "unit": "Kg",
+      "price": "370,00"
+    },
+    {
+      "product": "BİBER KAPYA",
+      "unit": "Kg",
+      "price": "330,00"
+    },
+    {
+      "product": "BİBER ÇARLİSTON",
+      "unit": "Kg",
+      "price": "450,00"
+    },
+    {
+      "product": "BİBER SİVRİ",
+      "unit": "Kg",
+      "price": "410,00"
+    },
+    {
+      "product": "BİBER ÜÇBURUN(KÖY)",
+      "unit": "Kg",
+      "price": "370,00"
+    },
+    {
+      "product": "BROKOLİ",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "FASULYE",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "DOMATES",
+      "unit": "Kg",
+      "price": "210,00"
+    },
+    {
+      "product": "DOMATES BEEF",
+      "unit": "Kg",
+      "price": "215,00"
+    },
+    {
+      "product": "DOMATES CHERRY",
+      "unit": "Kg",
+      "price": "460,00"
+    },
+    {
+      "product": "DOMATES KOKTEYL",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "DOMATES PEMBE",
+      "unit": "Kg",
+      "price": "270,00"
+    },
+    {
+      "product": "HAVUÇ BEYPAZARI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "SALATALIK SİLOR PAKET",
+      "unit": "Kg",
+      "price": "190,00"
+    },
+    {
+      "product": "HIYAR YAYLA",
+      "unit": "Kg",
+      "price": "120,00"
+    },
+    {
+      "product": "ISPANAK",
+      "unit": "Kg",
+      "price": "400,00"
+    },
+    {
+      "product": "KABAK BAL DEKORLUK",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KABAK SAKIZ",
+      "unit": "Kg",
+      "price": "170,00"
+    },
+    {
+      "product": "KARNABAHAR",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "LAHANA BEYAZ",
+      "unit": "Kg",
+      "price": "140,00"
+    },
+    {
+      "product": "LAHANA KIRMIZI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "MANTAR TAZE",
+      "unit": "Kg",
+      "price": "490,00"
+    },
+    {
+      "product": "PANCAR KIRMIZI",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATATES BABY",
+      "unit": "Kg",
+      "price": "190,00"
+    },
+    {
+      "product": "PATATES TAZE",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "PATATES KUMPİR",
+      "unit": "Kg",
+      "price": "220,00"
+    },
+    {
+      "product": "PATLICAN",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "PATLICAN BOSTAN",
+      "unit": "Kg",
+      "price": "190,00"
+    },
+    {
+      "product": "PIRASA",
+      "unit": "Kg",
+      "price": "360,00"
+    },
+    {
+      "product": "SOĞAN ARPACIK",
+      "unit": "Kg",
+      "price": "190,00"
+    },
+    {
+      "product": "SOĞAN KIRMIZI",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "SOĞAN KURU",
+      "unit": "Kg",
+      "price": "280,00"
+    },
+    {
+      "product": "SOĞAN TAZE",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "TURP JAPON",
+      "unit": "Kg",
+      "price": "360,00"
+    },
+    {
+      "product": "TURP KIRMIZI",
+      "unit": "Kg",
+      "price": "340,00"
+    },
+    {
+      "product": "KEREVİZ",
+      "unit": "Kg",
+      "price": "300,00"
+    },
+    {
+      "product": "SARIMSAK KURU",
+      "unit": "Kg ",
+      "price": "700,00"
+    },
+    {
+      "product": "MISIR SOYULMUŞ",
+      "unit": "Adet",
+      "price": "140,00"
+    },
+    {
+      "product": "ÜZÜM SİYAH",
+      "unit": "Kg",
+      "price": "520,00"
+    },
+    {
+      "product": "ÜZÜM BEYAZ",
+      "unit": "Kg",
+      "price": "520,00"
+    },
+    {
+      "product": "KARPUZ",
+      "unit": "Kg",
+      "price": "125,00"
+    },
+    {
+      "product": "KAVUN",
+      "unit": "Kg",
+      "price": "200,00"
+    },
+    {
+      "product": "KİRAZ",
+      "unit": "Kg",
+      "price": "550,00"
+    },
+    {
+      "product": "KAYISI",
+      "unit": "Kg",
+      "price": "330,00"
+    },
+    {
+      "product": "NEKTARİN",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ŞEFTALİ",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ERİK PAPAZ",
+      "unit": "Kg",
+      "price": "630,00"
+    },
+    {
+      "product": "ERİK ANJELİKA",
+      "unit": "Kg",
+      "price": "330,00"
+    },
+    {
+      "product": "ÇİLEK",
+      "unit": "Kg",
+      "price": "550,00"
+    },
+    {
+      "product": "MUZ YERLİ",
+      "unit": "Kg",
+      "price": "250,00"
+    },
+    {
+      "product": "GREYFURT",
+      "unit": "Kg",
+      "price": "180,00"
+    },
+    {
+      "product": "LİMON",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ARMUT SANDAMARİA",
+      "unit": "Kg",
+      "price": "420,00"
+    },
+    {
+      "product": "ELMA GOLDEN",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "ELMA STARKING",
+      "unit": "Kg",
+      "price": "350,00"
+    },
+    {
+      "product": "PORTAKAL MEYVELİK PAKET",
+      "unit": "Kg",
+      "price": "185,00"
+    },
+    {
+      "product": "PORTAKAL SIKMALIK",
+      "unit": "Kg",
+      "price": "150,00"
+    },
+    {
+      "product": "ANANAS İTHAL",
+      "unit": "Adet",
+      "price": "500,00"
+    },
+    {
+      "product": "AVAKADO İTHAL",
+      "unit": "Adet",
+      "price": "300,00"
+    },
+    {
+      "product": "HİNDİSTAN CEVİZİ",
+      "unit": "Adet",
+      "price": "400,00"
+    },
+    {
+      "product": "PEPİNO",
+      "unit": "Adet",
+      "price": "650,00"
+    },
+    {
+      "product": "MANGO",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "BLUE BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "360,00"
+    },
+    {
+      "product": "PAPAYA",
+      "unit": "Adet",
+      "price": "1.000,00"
+    },
+    {
+      "product": "ALTIN ÇİLEK",
+      "unit": "Pk / 100 Gr",
+      "price": "250,00"
+    },
+    {
+      "product": "RED BERRY",
+      "unit": "Pk / 125 Gr",
+      "price": "1.300,00"
+    },
+    {
+      "product": "AHUDUDU",
+      "unit": "Pk / 125 Gr",
+      "price": "900,00"
+    },
+    {
+      "product": "BÖĞÜRTLEN",
+      "unit": "Pk / 125 Gr",
+      "price": "480,00"
+    },
+    {
+      "product": "ELMA GRANSİMİT",
+      "unit": "Kg",
+      "price": "500,00"
+    },
+    {
+      "product": "KİVİ",
+      "unit": "Kg",
+      "price": "850,00"
+    },
+    {
+      "product": "LİMON LİME",
+      "unit": "Kg",
+      "price": "980,00"
+    },
+    {
+      "product": "MUZ İTHAL",
+      "unit": "Kg",
+      "price": "490,00"
+    },
+    {
+      "product": "SARIMSAK İTHAL",
+      "unit": "Kg",
+      "price": "660,00"
+    },
+    {
+      "product": "ZENCEFİL",
+      "unit": "Kg",
+      "price": "860,00"
+    },
+    {
+      "product": "DOMATES CHERRY PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "DOMATES CHERRY SARI PAKET",
+      "unit": "250 Gr",
+      "price": "430,00"
+    },
+    {
+      "product": "KEKİK TAZE",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "FESLEĞEN PAKET",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "FESLEĞEN KIRMIZI",
+      "unit": "25 Gr",
+      "price": "260,00"
+    },
+    {
+      "product": "MAYDONOZ FRENK",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "KİŞNİŞ",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ROZMARİN",
+      "unit": "25 Gr",
+      "price": "300,00"
+    },
+    {
+      "product": "ADAÇAYI",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "ŞİNİKLAV",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "LİMON ÇİÇEĞİ",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MAJARON",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "TARHUN OTU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "OREGANO KEKİK",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "KEKİK LİMONLU",
+      "unit": "25 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "SEBZE FİLİZİ",
+      "unit": "25 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "ENDİVYEN",
+      "unit": "Adet",
+      "price": "330,00"
+    },
+    {
+      "product": "LOLOROSSO",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "LOLOROSSO YEŞİL",
+      "unit": "Adet",
+      "price": "230,00"
+    },
+    {
+      "product": "KIRMIZI YAPRAK",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "PALAMUT",
+      "unit": "Adet",
+      "price": "440,00"
+    },
+    {
+      "product": "CORN SALAT",
+      "unit": "Adet",
+      "price": "360,00"
+    },
+    {
+      "product": "FENÇEL",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "POLOROSSO",
+      "unit": "Adet",
+      "price": "430,00"
+    },
+    {
+      "product": "KEREVİZ SAP",
+      "unit": "Adet",
+      "price": "490,00"
+    },
+    {
+      "product": "PAKCOY",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "MİNİ YEDİKULE",
+      "unit": "Adet",
+      "price": "620,00"
+    },
+    {
+      "product": "DENİZ BÖRÜLCESİ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "SAKSI BAHARTALAR ÇEŞİTLERİ",
+      "unit": "Adet",
+      "price": "520,00"
+    },
+    {
+      "product": "LİMON GRASS",
+      "unit": "Bağ",
+      "price": "770,00"
+    },
+    {
+      "product": "YENİLEBİLİR ÇİÇEK",
+      "unit": "Pk",
+      "price": "390,00"
+    },
+    {
+      "product": "MİCRO FİLİZİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK ÇİÇEĞİ",
+      "unit": "Pk",
+      "price": "820,00"
+    },
+    {
+      "product": "HAVUÇ MİNİ",
+      "unit": "Pk",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ",
+      "unit": "250 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "KABAK MİNİ SARI",
+      "unit": "250 Gr",
+      "price": "990,00"
+    },
+    {
+      "product": "PATLICAN MİNİ",
+      "unit": "200 Gr",
+      "price": "720,00"
+    },
+    {
+      "product": "AKDENİZ SALATA",
+      "unit": "150 Gr",
+      "price": "520,00"
+    },
+    {
+      "product": "KUZU KULAGI PAKET",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "MASKOLİN SALAT",
+      "unit": "150 Gr",
+      "price": "550,00"
+    },
+    {
+      "product": "MİNİ ISPANAK",
+      "unit": "Pk",
+      "price": "550,00"
+    },
+    {
+      "product": "EGE OTLARI",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "CİBES",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "EBE GÖMECİ",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "HARDAL OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "ISIRGAN OTU",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "RADİKA",
+      "unit": "Pk",
+      "price": "690,00"
+    },
+    {
+      "product": "SOYA FİLİZİ",
+      "unit": "Kg",
+      "price": "2.650,00"
+    },
+    {
+      "product": "DEREOTU",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "FESLEĞEN",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "LAHANA KARADENİZ",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "KUZU KULAĞI",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "MARUL ICEBERG",
+      "unit": "Adet",
+      "price": "120,00"
+    },
+    {
+      "product": "MARUL DÜZ",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MARUL KIVIRCIK",
+      "unit": "Adet",
+      "price": "150,00"
+    },
+    {
+      "product": "MAYDONOZ",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "NANE",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "PAZI YAPRAGI",
+      "unit": "Bağ",
+      "price": "90,00"
+    },
+    {
+      "product": "ROKA",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "SEMİZOTU",
+      "unit": "Bağ",
+      "price": "85,00"
+    },
+    {
+      "product": "TERE",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TERE SU",
+      "unit": "Bağ",
+      "price": "100,00"
+    },
+    {
+      "product": "TURP FINDIK",
+      "unit": "Bağ",
+      "price": "125,00"
     }
   ],
   "accounts": [
     {
-      "type": "supplier",
-      "name": "KUMLUCA HAL"
+      "name": "KUMLUCA HAL",
+      "type": "supplier"
     },
     {
-      "type": "supplier",
-      "name": "ANTALYA HAL"
+      "name": "AMBASSADOR",
+      "type": "hotel"
     },
     {
-      "type": "supplier",
-      "name": "MSD07 TAR ÜR"
+      "name": "GRAND MİRAMOR",
+      "type": "hotel"
     },
     {
-      "type": "supplier",
-      "name": "ÜRETİCİ"
+      "name": "ANTALYA HAL",
+      "type": "supplier"
     },
     {
-      "type": "supplier",
-      "name": "SÜLEYMAN ASKEROĞLU"
+      "name": "CASAFORA",
+      "type": "hotel"
     },
     {
-      "type": "supplier",
-      "name": "METİN DALKIRAN"
+      "name": "SEAPHORİA",
+      "type": "hotel"
     },
     {
-      "type": "hotel",
-      "name": "AMBASSADOR"
+      "name": "MSD07 TAR ÜR",
+      "type": "supplier"
     },
     {
-      "type": "hotel",
-      "name": "GRAND MİRAMOR"
+      "name": "ÜRETİCİ",
+      "type": "supplier"
     },
     {
-      "type": "hotel",
-      "name": "CASAFORA"
+      "name": "SÜLEYMAN ASKEROĞLU",
+      "type": "supplier"
     },
     {
-      "type": "hotel",
-      "name": "SEAPHORİA"
+      "name": "MİRAMOR GARDEN",
+      "type": "hotel"
     },
     {
-      "type": "hotel",
-      "name": "MİRAMOR GARDEN"
+      "name": "ASTORİA",
+      "type": "hotel"
     },
     {
-      "type": "hotel",
-      "name": "ASTORİA"
+      "name": "STELLA",
+      "type": "hotel"
     },
     {
-      "type": "hotel",
-      "name": "STELLA"
+      "name": " METİN DALKIRAN",
+      "type": "supplier"
+    },
+    {
+      "name": "METİN DALKIRAN",
+      "type": "supplier"
     }
   ]
 };

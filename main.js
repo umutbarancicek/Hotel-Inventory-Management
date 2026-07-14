@@ -96,6 +96,7 @@ document.getElementById('q-v-save').addEventListener('click', () => {
     hotel: document.getElementById('q-v-hotel').value,
     product: document.getElementById('q-v-product').value,
     qty: Number(document.getElementById('q-v-qty').value),
+    adet: document.getElementById('q-v-adet').value || '-',
     buyPrice: Number(document.getElementById('q-v-buy').value),
     supplyPrice: Number(document.getElementById('q-v-supply').value)
   });
@@ -136,13 +137,13 @@ function renderVeri() {
   viewTitle.innerText = 'VERİ (İşlemler)';
   const txs = DataService.getData().transactions;
   let html = `<table>
-    <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>ALIŞ FİAT</th><th>TEDA FİAT</th><th>HAL TUTAR</th><th>TEDARİK TUTAR</th><th>FARK</th></tr></thead>
+    <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>ADET (TÜTED)</th><th>ALIŞ FİAT</th><th>TEDA FİAT</th><th>HAL TUTAR</th><th>TEDARİK TUTAR</th><th>FARK</th></tr></thead>
     <tbody>`;
   txs.reverse().forEach(tx => {
     const hal = tx.qty * tx.buyPrice;
     const ted = tx.qty * tx.supplyPrice;
     html += `<tr>
-      <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td><td>${tx.qty}</td><td>${tx.hotel}</td>
+      <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td><td>${tx.qty}</td><td>${tx.hotel}</td><td>${tx.adet || '-'}</td>
       <td>${formatCurrency(tx.buyPrice)}</td><td>${formatCurrency(tx.supplyPrice)}</td>
       <td>${formatCurrency(hal)}</td><td>${formatCurrency(ted)}</td>
       <td><span class="${ted-hal >= 0 ? 'success' : 'danger'}">${formatCurrency(ted-hal)}</span></td>
@@ -224,7 +225,12 @@ function showAccountDetail(acc) {
   `;
   
   const allEvents = [
-    ...txs.map(t => ({ date: t.date, desc: `${t.qty} Kg ${t.product}`, amount: acc.type === 'supplier' ? (t.qty*t.buyPrice) : (t.qty*t.supplyPrice), type: 'Alım/Satım' })),
+    ...txs.map(t => ({ 
+      date: t.date, 
+      desc: `${t.qty} Kg ${t.product} (${formatCurrency(acc.type === 'supplier' ? t.buyPrice : t.supplyPrice)}/Kg)`, 
+      amount: acc.type === 'supplier' ? (t.qty*t.buyPrice) : (t.qty*t.supplyPrice), 
+      type: 'Alım/Satım' 
+    })),
     ...pms.map(p => ({ date: p.date, desc: p.description, amount: p.amount, type: 'Ödeme' }))
   ].sort((a,b) => new Date(b.date) - new Date(a.date));
   
