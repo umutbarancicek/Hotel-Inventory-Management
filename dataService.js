@@ -1,18 +1,44 @@
 import { INITIAL_DATA } from './initialData.js';
+import { db } from './firebaseConfig.js';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
+
+let localData = null;
 
 export const DataService = {
-  init() {
-    if (!localStorage.getItem('otel_app_data_v8')) {
-      localStorage.setItem('otel_app_data_v8', JSON.stringify(INITIAL_DATA));
+  async init() {
+    try {
+      const docRef = doc(db, 'storage', 'appData');
+      const docSnap = await getDoc(docRef);
+      
+      if (docSnap.exists()) {
+        localData = docSnap.data();
+      } else {
+        localData = INITIAL_DATA;
+        await setDoc(docRef, INITIAL_DATA);
+      }
+    } catch (error) {
+      console.error("Firebase connection error:", error);
+      alert("Bulut sistemine bağlanılamadı. Veriler geçici olarak cihaza kaydediliyor.");
+      if (!localStorage.getItem('otel_app_data_v8')) {
+        localStorage.setItem('otel_app_data_v8', JSON.stringify(INITIAL_DATA));
+      }
+      localData = JSON.parse(localStorage.getItem('otel_app_data_v8'));
     }
   },
   
   getData() {
-    return JSON.parse(localStorage.getItem('otel_app_data_v8'));
+    return localData || INITIAL_DATA;
   },
   
-  saveData(data) {
-    localStorage.setItem('otel_app_data_v8', JSON.stringify(data));
+  async saveData(data) {
+    localData = data;
+    try {
+      const docRef = doc(db, 'storage', 'appData');
+      await setDoc(docRef, data);
+    } catch (error) {
+      console.error("Firebase save error:", error);
+      localStorage.setItem('otel_app_data_v8', JSON.stringify(data));
+    }
   },
   
   addTransaction(tx) {

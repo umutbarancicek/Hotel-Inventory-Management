@@ -2,28 +2,44 @@ import * as XLSX from 'xlsx';
 import './style.css';
 import { DataService } from './dataService.js';
 
-DataService.init();
-
 // AUTHENTICATION LOGIC
 const appContainer = document.getElementById('app');
 const loginContainer = document.getElementById('login-container');
+const btnLogin = document.getElementById('btn-login');
 
-if (sessionStorage.getItem('otel_auth') === 'true') {
-  appContainer.style.display = 'block';
-  loginContainer.style.display = 'none';
-} else {
-  appContainer.style.display = 'none';
-  loginContainer.style.display = 'flex';
+async function checkAuthAndInit() {
+  if (sessionStorage.getItem('otel_auth') === 'true') {
+    appContainer.style.display = 'none'; // hide until loaded
+    loginContainer.style.display = 'none';
+    
+    await DataService.init();
+    
+    appContainer.style.display = 'block';
+    renderDashboard();
+  } else {
+    appContainer.style.display = 'none';
+    loginContainer.style.display = 'flex';
+  }
 }
+checkAuthAndInit();
 
-document.getElementById('btn-login').addEventListener('click', () => {
+btnLogin.addEventListener('click', async () => {
   const id = document.getElementById('login-id').value;
   const pass = document.getElementById('login-pass').value;
+  
   if (id === 'mcakir' && pass === '1234') {
+    btnLogin.innerText = 'Yükleniyor...';
+    btnLogin.disabled = true;
+    
+    await DataService.init();
+    
     sessionStorage.setItem('otel_auth', 'true');
     appContainer.style.display = 'block';
     loginContainer.style.display = 'none';
     document.getElementById('login-error').style.display = 'none';
+    
+    btnLogin.innerText = 'Giriş Yap';
+    btnLogin.disabled = false;
     renderDashboard();
   } else {
     document.getElementById('login-error').style.display = 'block';
@@ -475,10 +491,7 @@ window.setPivotFilter = (key, val) => {
   renderPivot();
 };
 
-// Init
-if (sessionStorage.getItem('otel_auth') === 'true') {
-  renderDashboard();
-}
+// Init is now handled in checkAuthAndInit at the top.
 
 function initTableFeatures() {
    const container = document.getElementById('view-content');
