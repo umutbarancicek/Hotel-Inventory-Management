@@ -478,40 +478,59 @@ window.qeSave = () => {
   setTimeout(() => toast.remove(), 4000);
 };
 
-window.qeClear = () => { qeState.kilos = {}; qeState.selectedProducts = []; qeState.overridePrices = {}; renderVeri(); };
-
-
-
-
-let odemeFilters = { account: null };
-window.setOdemeFilter = (key, val) => { odemeFilters[key] = val; renderOdemeler(); };
-
-function renderOdemeler() {
-  viewTitle.innerText = 'ÖDEMELER';
-  const allPy = DataService.getData().payments;
-  
-  const accounts = [...new Set(allPy.map(p => p.account))].sort();
-  
-  const py = allPy.filter(p => {
-    if (odemeFilters.account && p.account !== odemeFilters.account) return false;
-    return true;
-  });
-
-  let html = `
-    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px;">
-      ${renderDropdownHtml('CARİ ADI', accounts, odemeFilters.account, 'setOdemeFilter', 'account')}
-    </div>
-    <table>
-    <thead><tr><th>TARİH</th><th>CARİ ADI</th><th>ÖDEME TUTARI</th><th>AÇIKLAMA</th><th>İŞLEM</th></tr></thead>
-    <tbody>`;
-  py.reverse().forEach(p => {
-    html += `<tr><td>${formatAppDate(p.date)}</td><td>${p.account}</td><td>${formatCurrency(p.amount)}</td><td>${p.description}</td></tr>`;
-  });
-  html += `</tbody></table>`;
-  viewContent.innerHTML = html;
-  initTableFeatures();
-}
-
+window.qeClear = () => { qeState.kilos = {}; qeState.selectedProducts = []; qeState.overridePrices = {}; renderVeri(); };
+
+
+let odemeFilters = { account: null, dateFrom: null, dateTo: null };
+window.setOdemeFilter = (key, val) => { odemeFilters[key] = val; renderOdemeler(); };
+
+function renderOdemeler() {
+  viewTitle.innerText = 'ÖDEMELER';
+  const allPy = DataService.getData().payments;
+  
+  if (!odemeFilters.dateFrom) {
+    const now = new Date();
+    odemeFilters.dateFrom = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-01`;
+    odemeFilters.dateTo = now.toISOString().split('T')[0];
+  }
+  
+  const accounts = [...new Set(allPy.map(p => p.account))].sort();
+  
+  const py = allPy.filter(p => {
+    if (odemeFilters.account && p.account !== odemeFilters.account) return false;
+    if (odemeFilters.dateFrom && p.date < odemeFilters.dateFrom) return false;
+    if (odemeFilters.dateTo && p.date > odemeFilters.dateTo) return false;
+    return true;
+  });
+
+  let html = `
+    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px; flex-wrap: wrap; gap: 16px;">
+      <div style="flex:1; display:flex; gap:16px; flex-wrap:wrap;">
+        ${renderDropdownHtml('CARİ ADI', accounts, odemeFilters.account, 'setOdemeFilter', 'account')}
+        <div class="top-filter-group">
+          <label>BAŞLA</label>
+          <input type="date" value="${odemeFilters.dateFrom}" onchange="window.setOdemeFilter('dateFrom', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+        <div class="top-filter-group">
+          <label>BİTİŞ</label>
+          <input type="date" value="${odemeFilters.dateTo}" onchange="window.setOdemeFilter('dateTo', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+        <div class="top-filter-group">
+          <label>&nbsp;</label>
+          <button onclick="window.setOdemeFilter('dateFrom', null); window.setOdemeFilter('dateTo', null); odemeFilters.dateFrom = null; odemeFilters.dateTo = null; renderOdemeler();" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;">Tüm Zamanlar</button>
+        </div>
+      </div>
+    </div>
+    <table>
+    <thead><tr><th>TARİH</th><th>CARİ ADI</th><th>ÖDEME TUTARI</th><th>AÇIKLAMA</th></tr></thead>
+    <tbody>`;
+  py.sort((a, b) => new Date(b.date) - new Date(a.date)).forEach(p => {
+    html += `<tr><td>${formatAppDate(p.date)}</td><td>${p.account}</td><td><span style="color:#eab308;font-weight:700;">${formatCurrency(p.amount)}</span></td><td>${p.description}</td></tr>`;
+  });
+  html += `</tbody></table>`;
+  viewContent.innerHTML = html;
+  initTableFeatures();
+}
 let selectedFiyatDate = null;
 
 function renderFiyat() {
