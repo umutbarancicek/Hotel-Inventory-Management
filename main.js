@@ -365,7 +365,11 @@ function renderVeri() {
 window.qeOpenModal = () => {
   const latestPrices = DataService.getLatestPrices();
   if (latestPrices.length === 0) {
-    alert('Önce Fiyat Listesi sayfasından TUTED fiyatları çekin.');
+    const toast = document.createElement('div');
+    toast.style.cssText = 'position:fixed;top:32px;right:32px;background:#ef4444;color:white;padding:16px 24px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:slideIn 0.3s ease;';
+    toast.innerHTML = '<i class="fa-solid fa-triangle-exclamation" style="margin-right:8px;"></i>Önce Fiyat Listesi sayfasından TUTED fiyatları çekin!';
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 4000);
     return;
   }
   const selectedSet = new Set(qeState.selectedProducts.map(p => p.product));
