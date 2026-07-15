@@ -522,10 +522,16 @@ function renderOdemeler() {
       </div>
     </div>
     <table>
-    <thead><tr><th>TARİH</th><th>CARİ ADI</th><th>ÖDEME TUTARI</th><th>AÇIKLAMA</th></tr></thead>
+    <thead><tr><th>TARİH</th><th>CARİ ADI</th><th>ÖDEME TUTARI</th><th>AÇIKLAMA</th><th>İŞLEM</th></tr></thead>
     <tbody>`;
   py.sort((a, b) => new Date(b.date) - new Date(a.date)).forEach(p => {
-    html += `<tr><td>${formatAppDate(p.date)}</td><td>${p.account}</td><td><span style="color:#eab308;font-weight:700;">${formatCurrency(p.amount)}</span></td><td>${p.description}</td></tr>`;
+    html += `<tr>
+      <td>${formatAppDate(p.date)}</td><td>${p.account}</td><td><span style="color:#eab308;font-weight:700;">${formatCurrency(p.amount)}</span></td><td>${p.description}</td>
+      <td style="white-space:nowrap;">
+        <button onclick="window.editPayment(${p.id})" title="Düzenle" style="background:rgba(96,165,250,.15);color:#60a5fa;border:1px solid rgba(96,165,250,.3);border-radius:6px;padding:4px 8px;cursor:pointer;margin-right:4px;"><i class="fa-solid fa-pen"></i></button>
+        <button onclick="window.deletePayment(${p.id})" title="Sil" style="background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:6px;padding:4px 8px;cursor:pointer;"><i class="fa-solid fa-trash"></i></button>
+      </td>
+    </tr>`;
   });
   html += `</tbody></table>`;
   viewContent.innerHTML = html;
