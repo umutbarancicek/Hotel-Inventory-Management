@@ -85,7 +85,7 @@ export const DataService = {
     const balances = {};
     
     data.accounts.forEach(acc => {
-      balances[acc.name] = { name: acc.name, type: acc.type, totalBought: 0, totalPaid: 0, balance: 0 };
+      balances[acc.name] = { name: acc.name, type: acc.type, totalBought: 0, totalPaid: 0, balance: 0, lastTxDate: null };
     });
     
     // Filter transactions by date range if provided
@@ -98,8 +98,18 @@ export const DataService = {
     txs.forEach(tx => {
       const supplyTotal = tx.qty * tx.supplyPrice;
       const halTotal = tx.qty * tx.buyPrice;
-      if (balances[tx.supplier]) balances[tx.supplier].totalBought += halTotal;
-      if (balances[tx.hotel]) balances[tx.hotel].totalBought += supplyTotal;
+      if (balances[tx.supplier]) {
+        balances[tx.supplier].totalBought += halTotal;
+        if (!balances[tx.supplier].lastTxDate || balances[tx.supplier].lastTxDate < tx.date) {
+          balances[tx.supplier].lastTxDate = tx.date;
+        }
+      }
+      if (balances[tx.hotel]) {
+        balances[tx.hotel].totalBought += supplyTotal;
+        if (!balances[tx.hotel].lastTxDate || balances[tx.hotel].lastTxDate < tx.date) {
+          balances[tx.hotel].lastTxDate = tx.date;
+        }
+      }
     });
     
     // Filter payments by date range if provided
@@ -112,6 +122,9 @@ export const DataService = {
     pays.forEach(p => {
       if (balances[p.account]) {
         balances[p.account].totalPaid += Number(p.amount);
+        if (!balances[p.account].lastTxDate || balances[p.account].lastTxDate < p.date) {
+          balances[p.account].lastTxDate = p.date;
+        }
       }
     });
     
