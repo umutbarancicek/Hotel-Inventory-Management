@@ -317,7 +317,7 @@ function renderVeri() {
       <!-- SELECTED PRODUCTS TABLE -->
       ${qeState.selectedProducts.length > 0 ? `
         <table class="qe-table" style="margin-top:4px;">
-          <thead><tr><th>MAL</th><th>FİYAT</th><th>KİLO</th><th>TUTAR</th></tr></thead>
+          <thead><tr><th>MAL</th><th>ALIŞ F.</th><th>TEDARİK F.</th><th>KİLO</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th></tr></thead>
           <tbody>${selectedRows}</tbody>
         </table>
       ` : `
@@ -336,7 +336,7 @@ function renderVeri() {
         ${renderDropdownHtml('MAL', txProds, veriFilters.product, 'setVeriFilter', 'product')}
       </div>
       <table>
-        <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>ALIŞ F.</th><th>TEDA F.</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th></tr></thead>
+        <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>ALIŞ F.</th><th>TEDA F.</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th><th>İŞLEM</th></tr></thead>
         <tbody>${txRows}</tbody>
       </table>
     </div>
@@ -478,7 +478,7 @@ window.qeSave = () => {
   setTimeout(() => toast.remove(), 4000);
 };
 
-window.qeClear = () => { qeState.kilos = {}; qeState.selectedProducts = []; renderVeri(); };
+window.qeClear = () => { qeState.kilos = {}; qeState.selectedProducts = []; qeState.overridePrices = {}; renderVeri(); };
 
 
 let odemeFilters = { account: null, dateFrom: null, dateTo: null };
@@ -531,7 +531,6 @@ function renderOdemeler() {
   viewContent.innerHTML = html;
   initTableFeatures();
 }
-
 let selectedFiyatDate = null;
 
 function renderFiyat() {
@@ -601,7 +600,7 @@ window.selectFiyatDate = (d) => {
   renderFiyat();
 };
 
-let ozetFilters = { type: null, dateFrom: null, dateTo: null };
+let ozetFilters = { type: null, name: null, dateFrom: null, dateTo: null };
 window.setOzetFilter = (key, val) => { ozetFilters[key] = val; renderOzet(); };
 
 function renderOzet() {
@@ -617,10 +616,13 @@ function renderOzet() {
   const allBalances = DataService.getAccountBalances(ozetFilters.dateFrom, ozetFilters.dateTo);
   const types = ['Tedarikçi', 'Müşteri'];
   
+  const allNames = allBalances.map(b => b.name).sort();
+
   const balances = allBalances.filter(b => {
     if (b.totalBought === 0 && b.totalPaid === 0) return false;
     const tName = b.type === 'supplier' ? 'Tedarikçi' : 'Müşteri';
     if (ozetFilters.type && tName !== ozetFilters.type) return false;
+    if (ozetFilters.name && b.name !== ozetFilters.name) return false;
     return true;
   });
 
@@ -644,6 +646,7 @@ function renderOzet() {
     <div class="top-filter-bar glass-panel" style="margin-bottom: 16px; flex-wrap: wrap; gap: 16px;">
       <div style="flex:1; display:flex; gap:16px; flex-wrap:wrap;">
         ${renderDropdownHtml('CARİ TİPİ', types, ozetFilters.type, 'setOzetFilter', 'type')}
+        ${renderDropdownHtml('CARİ ADI', allNames, ozetFilters.name, 'setOzetFilter', 'name')}
         <div class="top-filter-group">
           <label>BAŞLA</label>
           <input type="date" id="ozet-from" value="${ozetFilters.dateFrom}" onchange="window.setOzetFilter('dateFrom', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
@@ -740,94 +743,6 @@ function showAccountDetail(acc) {
   initTableFeatures();
 }
 
-let sevkDate = new Date().toISOString().split('T')[0];
-function renderSevk() {
-  viewTitle.innerText = 'SEVK RAPORU';
-  const data = DataService.getData();
-  
-  // Filter by date
-  const filtered = data.transactions.filter(t => t.date === sevkDate);
-  
-  // Group by Hotel -> Product
-  const grouped = {};
-  filtered.forEach(t => {
-    if (!grouped[t.hotel]) grouped[t.hotel] = { sumKg: 0, sumTed: 0, sumHal: 0, prods: {} };
-    if (!grouped[t.hotel].prods[t.product]) grouped[t.hotel].prods[t.product] = { sumKg: 0, sumTed: 0, sumHal: 0 };
-    
-    const hal = t.qty * t.buyPrice;
-    const ted = t.qty * t.supplyPrice;
-    
-    grouped[t.hotel].prods[t.product].sumKg += t.qty;
-    grouped[t.hotel].prods[t.product].sumHal += hal;
-    grouped[t.hotel].prods[t.product].sumTed += ted;
-    
-    grouped[t.hotel].sumKg += t.qty;
-    grouped[t.hotel].sumHal += hal;
-    grouped[t.hotel].sumTed += ted;
-  });
-  
-  let html = `
-    <div style="margin-bottom: 20px; background: rgba(0,0,0,0.2); padding: 16px; border-radius: 8px; display: flex; align-items: center; gap: 16px;">
-       <strong>Rapor Tarihi Seçin:</strong>
-       <input type="date" id="sevk-date-picker" value="${sevkDate}" class="form-control" style="max-width: 200px; padding: 10px; background: rgba(255,255,255,0.1); color: white; border: 1px solid var(--panel-border); border-radius: 6px;">
-       <button id="btn-sevk-filter" class="dash-btn btn-green" style="margin-bottom: 0;"><i class="fa-solid fa-filter"></i> Raporu Getir</button>
-    </div>
-  `;
-  
-  if (Object.keys(grouped).length === 0) {
-     html += `<p style="text-align: center; padding: 40px; color: #9ca3af; font-size: 1.1rem;">${formatAppDate(sevkDate)} tarihinde herhangi bir sevkiyat (işlem) bulunmamaktadır.</p>`;
-     viewContent.innerHTML = html;
-  } else {
-     html += `<table>
-       <thead>
-         <tr><th>Satır Etiketleri</th><th>Toplam KİLO</th><th>Toplam TEDARİK</th><th>Toplam HAL</th><th>Toplam FARK</th></tr>
-       </thead>
-       <tbody>
-     `;
-     
-     let gKg = 0, gHal = 0, gTed = 0;
-     
-     Object.keys(grouped).sort().forEach(h => {
-       const d = grouped[h];
-       const hFark = d.sumTed - d.sumHal;
-       gKg += d.sumKg; gHal += d.sumHal; gTed += d.sumTed;
-       
-       html += `<tr class="pivot-row-group">
-         <td><i class="fa-solid fa-hotel" style="margin-right: 8px;"></i> ${h}</td>
-         <td>${d.sumKg}</td><td>${formatCurrency(d.sumTed)}</td><td>${formatCurrency(d.sumHal)}</td><td><span class="${hFark >= 0 ? 'success' : 'danger'}">${formatCurrency(hFark)}</span></td>
-       </tr>`;
-       
-       Object.keys(d.prods).sort().forEach(p => {
-         const pd = d.prods[p];
-         const pFark = pd.sumTed - pd.sumHal;
-         html += `<tr>
-           <td style="padding-left: 32px;"><i class="fa-solid fa-angle-right" style="font-size: 0.8rem; opacity: 0.5; margin-right: 6px;"></i> ${p}</td>
-           <td>${pd.sumKg}</td><td>${formatCurrency(pd.sumTed)}</td><td>${formatCurrency(pd.sumHal)}</td><td><span class="${pFark >= 0 ? 'success' : 'danger'}">${formatCurrency(pFark)}</span></td>
-         </tr>`;
-       });
-     });
-     
-     const gFark = gTed - gHal;
-     html += `<tr class="pivot-row-group" style="background: rgba(96, 165, 250, 0.2);">
-         <td>GENEL TOPLAM</td>
-         <td>${gKg}</td><td>${formatCurrency(gTed)}</td><td>${formatCurrency(gHal)}</td><td><span class="${gFark >= 0 ? 'success' : 'danger'}">${formatCurrency(gFark)}</span></td>
-       </tr></tbody></table>`;
-     
-     viewContent.innerHTML = html;
-     initTableFeatures();
-  }
-  
-  // Attach event listener
-  setTimeout(() => {
-     const btn = document.getElementById('btn-sevk-filter');
-     if (btn) {
-         btn.onclick = () => {
-             sevkDate = document.getElementById('sevk-date-picker').value;
-             renderSevk();
-         };
-     }
-  }, 50);
-}
 
 let pivotFilters = { hotel: null, supplier: null, product: null };
 function renderPivot() {
@@ -982,6 +897,136 @@ function initTableFeatures() {
    });
 }
 
+// ── EDIT / DELETE / ÖDEME MODAL FUNCTIONS ───────────────────────────────
+
+const modalInputStyle = 'width:100%;box-sizing:border-box;padding:10px 14px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:8px;color:white;font-family:Outfit,sans-serif;font-size:.95rem;outline:none;';
+
+function openGenericModal(html, id = 'generic-modal') {
+  const m = document.createElement('div');
+  m.id = id;
+  m.innerHTML = `<div class="modal-overlay" onclick="if(event.target===this){document.getElementById('${id}').remove();}">${html}</div>`;
+  document.body.appendChild(m);
+}
+
+// Ödeme Ekle Modal
+window.openOdemeModal = (existing) => {
+  const data = DataService.getData();
+  const accounts = data.accounts.map(a => `<option value="${a.name}" ${existing&&existing.account===a.name?'selected':''}>${a.name}</option>`).join('');
+  const today = new Date().toISOString().split('T')[0];
+  openGenericModal(`
+    <div class="modal-box" style="max-width:480px;">
+      <div class="modal-header">
+        <span><i class="fa-solid fa-money-bill-wave" style="margin-right:8px;color:#7c3aed;"></i>${existing?'Ödeme Düzenle':'Ödeme Ekle'}</span>
+        <button onclick="document.getElementById('odeme-modal').remove()" style="background:none;border:none;color:#9ca3af;font-size:1.4rem;cursor:pointer;">✕</button>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px;margin-top:16px;">
+        <div class="top-filter-group" style="flex:1;">
+          <label>TARİH</label>
+          <input type="date" id="om-date" value="${existing?existing.date:today}" style="${modalInputStyle}">
+        </div>
+        <div class="top-filter-group" style="flex:1;">
+          <label>CARİ ADI</label>
+          <select id="om-account" style="${modalInputStyle}">${accounts}</select>
+        </div>
+        <div class="top-filter-group" style="flex:1;">
+          <label>ÖDEME TUTARI (₺)</label>
+          <input type="number" id="om-amount" value="${existing?existing.amount:''}" placeholder="0.00" step="0.01" style="${modalInputStyle}">
+        </div>
+        <div class="top-filter-group" style="flex:1;">
+          <label>AÇIKLAMA</label>
+          <input type="text" id="om-desc" value="${existing?existing.description:'NAKİT'}" style="${modalInputStyle}">
+        </div>
+        <button onclick="window.saveOdemeModal(${existing?existing.id:'null'})" class="dash-btn btn-green" style="margin:0;padding:12px;">
+          <i class="fa-solid fa-floppy-disk"></i> KAYDET
+        </button>
+      </div>
+    </div>
+  `, 'odeme-modal');
+};
+
+window.saveOdemeModal = (existingId) => {
+  const date    = document.getElementById('om-date').value;
+  const account = document.getElementById('om-account').value;
+  const amount  = Number(document.getElementById('om-amount').value);
+  const description = document.getElementById('om-desc').value || 'NAKİT';
+  if (!date || !account || !amount) { alert('Lütfen tüm alanları doldurun.'); return; }
+
+  if (existingId && existingId !== 'null') {
+    DataService.updatePayment(existingId, { date, account, amount, description });
+  } else {
+    DataService.addPayment({ date, account, amount, description });
+  }
+  document.getElementById('odeme-modal').remove();
+  renderOdemeler();
+  renderDashboard();
+};
+
+// Ödeme Düzenle
+window.editPayment = (id) => {
+  const p = DataService.getData().payments.find(x => x.id === id);
+  if (!p) return;
+  window.openOdemeModal(p);
+};
+
+// Ödeme Sil
+window.deletePayment = (id) => {
+  if (!confirm('Bu ödeme kaydını silmek istediğinizden emin misiniz?')) return;
+  DataService.deletePayment(id);
+  renderOdemeler();
+  renderDashboard();
+};
+
+// Transaction Düzenle
+window.editTransaction = (id) => {
+  const tx = DataService.getData().transactions.find(t => t.id === id);
+  if (!tx) return;
+  const data = DataService.getData();
+  const suppliers = data.accounts.filter(a => a.type === 'supplier').map(a => `<option value="${a.name}" ${a.name===tx.supplier?'selected':''}>${a.name}</option>`).join('');
+  const hotels    = data.accounts.filter(a => a.type === 'hotel').map(a => `<option value="${a.name}" ${a.name===tx.hotel?'selected':''}>${a.name}</option>`).join('');
+  openGenericModal(`
+    <div class="modal-box" style="max-width:520px;">
+      <div class="modal-header">
+        <span><i class="fa-solid fa-pen" style="margin-right:8px;color:#60a5fa;"></i>İşlem Düzenle</span>
+        <button onclick="document.getElementById('tx-edit-modal').remove()" style="background:none;border:none;color:#9ca3af;font-size:1.4rem;cursor:pointer;">✕</button>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px;margin-top:16px;">
+        <div class="top-filter-group"><label>TARİH</label><input type="date" id="te-date" value="${tx.date}" style="${modalInputStyle}"></div>
+        <div class="top-filter-group"><label>MÜSTAHSİL</label><select id="te-supplier" style="${modalInputStyle}">${suppliers}</select></div>
+        <div class="top-filter-group"><label>ÜRÜN</label><input type="text" id="te-product" value="${tx.product}" style="${modalInputStyle}"></div>
+        <div class="top-filter-group"><label>GİTTİĞİ YER</label><select id="te-hotel" style="${modalInputStyle}">${hotels}</select></div>
+        <div class="top-filter-group"><label>KİLO</label><input type="number" id="te-qty" value="${tx.qty}" step="0.01" style="${modalInputStyle}"></div>
+        <div class="top-filter-group"><label>ALIŞ FİYATI (HAL)</label><input type="number" id="te-buy" value="${tx.buyPrice}" step="0.01" style="${modalInputStyle}"></div>
+        <div class="top-filter-group"><label>TEDARİK FİYATI</label><input type="number" id="te-supply" value="${tx.supplyPrice}" step="0.01" style="${modalInputStyle}"></div>
+        <button onclick="window.saveTxEdit(${tx.id})" class="dash-btn btn-green" style="margin:0;padding:12px;">
+          <i class="fa-solid fa-floppy-disk"></i> KAYDET
+        </button>
+      </div>
+    </div>
+  `, 'tx-edit-modal');
+};
+
+window.saveTxEdit = (id) => {
+  const date        = document.getElementById('te-date').value;
+  const supplier    = document.getElementById('te-supplier').value;
+  const product     = document.getElementById('te-product').value;
+  const hotel       = document.getElementById('te-hotel').value;
+  const qty         = Number(document.getElementById('te-qty').value);
+  const buyPrice    = Number(document.getElementById('te-buy').value);
+  const supplyPrice = Number(document.getElementById('te-supply').value);
+  DataService.updateTransaction(id, { date, supplier, product, hotel, qty, buyPrice, supplyPrice });
+  document.getElementById('tx-edit-modal').remove();
+  renderVeri();
+  renderDashboard();
+};
+
+// Transaction Sil
+window.deleteTransaction = (id) => {
+  if (!confirm('Bu işlem kaydını silmek istediğinizden emin misiniz?')) return;
+  DataService.deleteTransaction(id);
+  renderVeri();
+  renderDashboard();
+};
+
 // TUTED FETCH LOGIC
 document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) => {
    const btn = e.target;

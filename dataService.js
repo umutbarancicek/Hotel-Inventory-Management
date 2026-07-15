@@ -155,5 +155,39 @@ export const DataService = {
       totalSupply,
       profit
     };
+  },
+
+  updateTransaction(id, fields) {
+    const data = this.getData();
+    const idx = data.transactions.findIndex(t => t.id === id);
+    if (idx !== -1) {
+      data.transactions[idx] = { ...data.transactions[idx], ...fields };
+      this.saveData(data);
+      return true;
+    }
+    return false;
+  },
+
+  deleteTransaction(id) {
+    const data = this.getData();
+    data.transactions = data.transactions.filter(t => t.id !== id);
+    this.saveData(data);
+  },
+
+  updatePayment(id, fields) {
+    const data = this.getData();
+    const idx = data.payments.findIndex(p => p.id === id);
+    if (idx !== -1) {
+      data.payments[idx] = { ...data.payments[idx], ...fields };
+      this.saveData(data);
+      return true;
+    }
+    return false;
+  },
+
+  deletePayment(id) {
+    const data = this.getData();
+    data.payments = data.payments.filter(p => p.id !== id);
+    this.saveData(data);
   }
 };
