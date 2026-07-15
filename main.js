@@ -231,8 +231,12 @@ function renderVeri() {
 
   const selectedRows = qeState.selectedProducts.map(p => {
     const kilo = qeState.kilos[p.product] || '';
-    const priceVal = parsePrice(p.price);
-    const total = kilo && Number(kilo) > 0 ? formatCurrency(priceVal * Number(kilo)) : '—';
+    const ov = qeState.overridePrices[p.product] || {};
+    const buyVal = ov.buy !== undefined ? ov.buy : parsePrice(p.price);
+    const supplyVal = ov.supply !== undefined ? ov.supply : parsePrice(p.price);
+    const hal = kilo && Number(kilo) > 0 ? formatCurrency(buyVal * Number(kilo)) : '—';
+    const ted = kilo && Number(kilo) > 0 ? formatCurrency(supplyVal * Number(kilo)) : '—';
+    const fark = (kilo && Number(kilo) > 0) ? formatCurrency((supplyVal - buyVal) * Number(kilo)) : '—';
     const safe = p.product.replace(/'/g,"\\'");
     return `
       <tr class="${kilo && Number(kilo) > 0 ? 'qe-row-active' : ''}">
@@ -241,13 +245,22 @@ function renderVeri() {
             style="background:none;border:none;color:#ef4444;cursor:pointer;font-size:1rem;padding:0 6px 0 0;">✕</button>
           <strong>${p.product}</strong>
         </td>
-        <td style="color:#60a5fa;">${formatCurrency(priceVal)}<span style="opacity:.6;font-size:.8rem"> /${p.unit}</span></td>
-        <td style="width:120px;">
+        <td style="width:90px;">
+          <input type="number" style="width:80px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;color:white;padding:4px 6px;font-family:Outfit,sans-serif;font-size:.85rem;" placeholder="Alış ₺" value="${buyVal}"
+            oninput="window.qeSetPrice('${safe}','buy',this.value)" onclick="this.select()">
+        </td>
+        <td style="width:90px;">
+          <input type="number" style="width:80px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;color:white;padding:4px 6px;font-family:Outfit,sans-serif;font-size:.85rem;" placeholder="Tedarik ₺" value="${supplyVal}"
+            oninput="window.qeSetPrice('${safe}','supply',this.value)" onclick="this.select()">
+        </td>
+        <td style="width:100px;">
           <input type="number" class="qe-table-input" placeholder="kg" value="${kilo}" min="0"
             oninput="window.qeSetKilo('${safe}', this.value)"
             onclick="this.select()">
         </td>
-        <td style="color:#10b981;font-weight:700;min-width:110px;">${total}</td>
+        <td style="color:#60a5fa;font-weight:700;min-width:90px;">${hal}</td>
+        <td style="color:#10b981;font-weight:700;min-width:90px;">${ted}</td>
+        <td style="color:${fark==='—'?'#9ca3af':(supplyVal>=buyVal?'#10b981':'#ef4444')};font-weight:700;min-width:80px;">${fark}</td>
       </tr>`;
   }).join('');
 
@@ -270,7 +283,11 @@ function renderVeri() {
       <td>${tx.qty}</td><td>${tx.hotel}</td>
       <td>${formatCurrency(tx.buyPrice)}</td><td>${formatCurrency(tx.supplyPrice)}</td>
       <td>${formatCurrency(hal)}</td><td>${formatCurrency(ted)}</td>
-      <td><span class="${ted-hal>=0?'success':'danger'}">${formatCurrency(ted-hal)}</span></td>
+      <td><span class="${ted-hal>=0?'success':'danger'}">${formatCurrency(ted-hal)}</span></td>
+      <td style="white-space:nowrap;">
+        <button onclick="window.editTransaction(${tx.id})" title="Düzenle" style="background:rgba(96,165,250,.15);color:#60a5fa;border:1px solid rgba(96,165,250,.3);border-radius:6px;padding:4px 8px;cursor:pointer;margin-right:4px;"><i class="fa-solid fa-pen"></i></button>
+        <button onclick="window.deleteTransaction(${tx.id})" title="Sil" style="background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:6px;padding:4px 8px;cursor:pointer;"><i class="fa-solid fa-trash"></i></button>
+      </td>
     </tr>`;
   }).join('');
 
