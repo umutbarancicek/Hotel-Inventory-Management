@@ -14,7 +14,7 @@ async function checkAuthAndInit() {
     
     await DataService.init();
     
-    appContainer.style.display = 'block';
+    appContainer.style.display = 'flex';
     renderDashboard();
   } else {
     appContainer.style.display = 'none';
@@ -34,7 +34,7 @@ btnLogin.addEventListener('click', async () => {
     await DataService.init();
     
     sessionStorage.setItem('otel_auth', 'true');
-    appContainer.style.display = 'block';
+    appContainer.style.display = 'flex';
     loginContainer.style.display = 'none';
     document.getElementById('login-error').style.display = 'none';
     
