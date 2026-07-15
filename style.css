@@ -239,8 +239,11 @@ body {
 
 .view-container {
   display: none;
-  height: 100%;
-  width: 100%;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
   overflow-y: auto;
   overflow-x: hidden;
   padding-bottom: 40px;
