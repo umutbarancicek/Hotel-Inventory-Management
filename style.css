@@ -232,21 +232,16 @@ body {
 .main-content {
   flex: 1;
   position: relative;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   padding: 16px;
   min-height: 0;
 }
 
 .view-container {
   display: none;
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  right: 16px;
-  bottom: 16px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-bottom: 40px;
+  height: 100%;
+  width: 100%;
   box-sizing: border-box;
 }
 .view-container.active {
