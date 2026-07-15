@@ -182,7 +182,7 @@ document.querySelectorAll('.dash-btn[data-nav]').forEach(btn => {
     else if (nav === 'fiyat') renderFiyat();
     else if (nav === 'pivot') renderPivot();
     else if (nav === 'ozet') renderOzet();
-    else if (nav === 'sevk') renderSevk();
+    else if (nav === 'sevk') renderPivot();
     else {
       viewTitle.innerText = nav.toUpperCase();
       viewContent.innerHTML = '<p>Bu modül yapım aşamasındadır.</p>';
@@ -771,7 +771,7 @@ function showAccountDetail(acc) {
 }
 
 
-let pivotFilters = { hotel: null, supplier: null, product: null };
+let pivotFilters = { hotel: null, supplier: null, product: null, dateFrom: null, dateTo: null };
 function renderPivot() {
   viewTitle.innerText = 'PİVOT TABLO';
   const data = DataService.getData();
