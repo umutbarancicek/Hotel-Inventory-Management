@@ -594,90 +594,132 @@ function renderOzet() {
     ozetFilters.dateTo = now.toISOString().split('T')[0];
   }
 
-  const allBalances = DataService.getAccountBalances(ozetFilters.dateFrom, ozetFilters.dateTo);
-  const types = ['Tedarikçi', 'Müşteri'];
-  
-  const balances = allBalances.filter(b => {
-    if (b.totalBought === 0 && b.totalPaid === 0) return false; // hide empty
-    const tName = b.type === 'supplier' ? 'Tedarikçi' : 'Müşteri';
-    if (ozetFilters.type && tName !== ozetFilters.type) return false;
-    return true;
-  });
-
-  let html = `
-    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px; flex-wrap: wrap; gap: 16px;">
-      ${renderDropdownHtml('CARİ TİPİ', types, ozetFilters.type, 'setOzetFilter', 'type')}
-      <div class="top-filter-group">
-        <label>BAŞLA</label>
-        <input type="date" id="ozet-from" value="${ozetFilters.dateFrom}" onchange="window.setOzetFilter('dateFrom', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
-      </div>
-      <div class="top-filter-group">
-        <label>BİTİŞ</label>
-        <input type="date" id="ozet-to" value="${ozetFilters.dateTo}" onchange="window.setOzetFilter('dateTo', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
-      </div>
-      <div class="top-filter-group">
-        <label>&nbsp;</label>
-        <button onclick="window.setOzetFilter('dateFrom', null); ozetFilters.dateFrom = null; renderOzet();" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;">Tüm Zamanlar</button>
-      </div>
-    </div>
-    <table>
-    <thead><tr><th>CARİ TİPİ</th><th>CARİ ADI</th><th>İŞLEM HACMİ</th><th>ÖDENEN</th><th>BAKİYE</th></tr></thead>
-    <tbody>`;
-  balances.forEach(b => {
-    html += `<tr>
-      <td>${b.type === 'supplier' ? 'Tedarikçi' : 'Müşteri'}</td>
-      <td><strong>${b.name}</strong></td>
-      <td>${formatCurrency(b.totalBought)}</td>
-      <td>${formatCurrency(b.totalPaid)}</td>
-      <td><span class="${b.balance >= 0 ? 'success' : 'danger'}">${formatCurrency(b.balance)}</span></td>
-    </tr>`;
-  });
-  html += `</tbody></table>`;
-  viewContent.innerHTML = html;
-  initTableFeatures();
-}
-
-function showAccountDetail(acc) {
-  viewDash.classList.remove('active');
-  viewOther.classList.add('active');
-  viewTitle.innerText = `${acc.name} - HESAP EKSTRESİ`;
-  
-  const data = DataService.getData();
-  const txs = data.transactions.filter(t => t.hotel === acc.name || t.supplier === acc.name);
-  const pms = data.payments.filter(p => p.account === acc.name);
-  
-  const balances = DataService.getAccountBalances();
-  const b = balances.find(x => x.name === acc.name);
-  
-  let html = `
-    <div style="display: flex; gap: 24px; margin-bottom: 24px;">
-      <div class="glass-panel" style="flex: 1; text-align: center;"><h3>TOPLAM İŞLEM</h3><h2 style="color: #60a5fa;">${formatCurrency(b.totalBought)}</h2></div>
-      <div class="glass-panel" style="flex: 1; text-align: center;"><h3>TOPLAM ÖDENEN</h3><h2 style="color: #eab308;">${formatCurrency(b.totalPaid)}</h2></div>
-      <div class="glass-panel" style="flex: 1; text-align: center;"><h3>KALAN BAKİYE</h3><h2 style="color: ${b.balance >= 0 ? '#10b981' : '#ef4444'};">${formatCurrency(b.balance)}</h2></div>
-    </div>
-    <h3>Son İşlemler</h3>
-    <table><thead><tr><th>Tarih</th><th>Ürün/Açıklama</th><th>Tutar</th><th>Tip</th></tr></thead><tbody>
-  `;
-  
-  const allEvents = [
-    ...txs.map(t => ({ 
-      date: t.date, 
-      desc: `${t.qty} Kg ${t.product} (${formatCurrency(acc.type === 'supplier' ? t.buyPrice : t.supplyPrice)}/Kg)`, 
-      amount: acc.type === 'supplier' ? (t.qty*t.buyPrice) : (t.qty*t.supplyPrice), 
-      type: 'Alım/Satım' 
-    })),
-    ...pms.map(p => ({ date: p.date, desc: p.description, amount: p.amount, type: 'Ödeme' }))
-  ].sort((a,b) => new Date(b.date) - new Date(a.date));
-  
-  allEvents.forEach(e => {
-    html += `<tr><td>${formatAppDate(e.date)}</td><td>${e.desc}</td><td>${formatCurrency(e.amount)}</td><td>${e.type}</td></tr>`;
-  });
-  
-  html += `</tbody></table>`;
-  viewContent.innerHTML = html;
-  initTableFeatures();
-}
-
+  const allBalances = DataService.getAccountBalances(ozetFilters.dateFrom, ozetFilters.dateTo);
+  const types = ['Tedarikçi', 'Müşteri'];
+  
+  const balances = allBalances.filter(b => {
+    if (b.totalBought === 0 && b.totalPaid === 0) return false;
+    const tName = b.type === 'supplier' ? 'Tedarikçi' : 'Müşteri';
+    if (ozetFilters.type && tName !== ozetFilters.type) return false;
+    return true;
+  });
+
+  // Calculate totals for the selected date range
+  let sumTedIslem = 0;
+  let sumMusIslem = 0;
+  let sumOdenen = 0;
+  let sumTahsil = 0;
+
+  balances.forEach(b => {
+    if (b.type === 'supplier') {
+      sumTedIslem += b.totalBought;
+      sumOdenen += b.totalPaid;
+    } else {
+      sumMusIslem += b.totalBought;
+      sumTahsil += b.totalPaid;
+    }
+  });
+
+  let html = `
+    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px; flex-wrap: wrap; gap: 16px;">
+      <div style="flex:1; display:flex; gap:16px; flex-wrap:wrap;">
+        ${renderDropdownHtml('CARİ TİPİ', types, ozetFilters.type, 'setOzetFilter', 'type')}
+        <div class="top-filter-group">
+          <label>BAŞLA</label>
+          <input type="date" id="ozet-from" value="${ozetFilters.dateFrom}" onchange="window.setOzetFilter('dateFrom', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+        <div class="top-filter-group">
+          <label>BİTİŞ</label>
+          <input type="date" id="ozet-to" value="${ozetFilters.dateTo}" onchange="window.setOzetFilter('dateTo', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+        <div class="top-filter-group">
+          <label>&nbsp;</label>
+          <button onclick="window.setOzetFilter('dateFrom', null); ozetFilters.dateFrom = null; renderOzet();" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;">Tüm Zamanlar</button>
+        </div>
+      </div>
+    </div>
+    
+    <div style="display: flex; gap: 16px; margin-bottom: 24px; flex-wrap:wrap;">
+      <div class="glass-panel" style="flex: 1; min-width:200px; padding:16px;">
+        <h4 style="color:#9ca3af;font-size:0.8rem;margin:0 0 8px 0;">TEDARİKÇİ İŞLEM HACMİ</h4>
+        <h2 style="color:#60a5fa;margin:0;">${formatCurrency(sumTedIslem)}</h2>
+      </div>
+      <div class="glass-panel" style="flex: 1; min-width:200px; padding:16px;">
+        <h4 style="color:#9ca3af;font-size:0.8rem;margin:0 0 8px 0;">MÜŞTERİ İŞLEM HACMİ</h4>
+        <h2 style="color:#10b981;margin:0;">${formatCurrency(sumMusIslem)}</h2>
+      </div>
+      <div class="glass-panel" style="flex: 1; min-width:200px; padding:16px;">
+        <h4 style="color:#9ca3af;font-size:0.8rem;margin:0 0 8px 0;">TEDARİKÇİYE ÖDENEN</h4>
+        <h2 style="color:#eab308;margin:0;">${formatCurrency(sumOdenen)}</h2>
+      </div>
+      <div class="glass-panel" style="flex: 1; min-width:200px; padding:16px;">
+        <h4 style="color:#9ca3af;font-size:0.8rem;margin:0 0 8px 0;">MÜŞTERİDEN TAHSİLAT</h4>
+        <h2 style="color:#8b5cf6;margin:0;">${formatCurrency(sumTahsil)}</h2>
+      </div>
+    </div>
+
+    <div class="glass-panel">
+      <table>
+      <thead><tr><th>CARİ TİPİ</th><th>CARİ ADI</th><th>SON İŞLEM</th><th>İŞLEM HACMİ</th><th>ÖDENEN / TAHSİL</th><th>BAKİYE</th></tr></thead>
+      <tbody>`;
+  balances.forEach(b => {
+    html += `<tr onclick="window.showAccountDetail({name:'${b.name.replace(/'/g,"\\'")}',type:'${b.type}'})" style="cursor:pointer;" class="hover-row">
+      <td>${b.type === 'supplier' ? 'Tedarikçi' : 'Müşteri'}</td>
+      <td><strong>${b.name}</strong></td>
+      <td style="color:#9ca3af;">${formatAppDate(b.lastTxDate)}</td>
+      <td>${formatCurrency(b.totalBought)}</td>
+      <td>${formatCurrency(b.totalPaid)}</td>
+      <td><span class="${b.balance >= 0 ? 'success' : 'danger'}">${formatCurrency(b.balance)}</span></td>
+    </tr>`;
+  });
+  html += `</tbody></table>
+    </div>`;
+  viewContent.innerHTML = html;
+  initTableFeatures();
+}
+
+function showAccountDetail(acc) {
+  viewDash.classList.remove('active');
+  viewOther.classList.add('active');
+  viewTitle.innerText = `${acc.name} - HESAP EKSTRESİ`;
+  
+  const data = DataService.getData();
+  const txs = data.transactions.filter(t => t.hotel === acc.name || t.supplier === acc.name);
+  const pms = data.payments.filter(p => p.account === acc.name);
+  
+  const balances = DataService.getAccountBalances();
+  const b = balances.find(x => x.name === acc.name);
+  
+  let html = `
+    <div style="display: flex; gap: 24px; margin-bottom: 24px;">
+      <div class="glass-panel" style="flex: 1; text-align: center;"><h3>TOPLAM İŞLEM</h3><h2 style="color: #60a5fa;">${formatCurrency(b.totalBought)}</h2></div>
+      <div class="glass-panel" style="flex: 1; text-align: center;"><h3>TOPLAM ÖDENEN</h3><h2 style="color: #eab308;">${formatCurrency(b.totalPaid)}</h2></div>
+      <div class="glass-panel" style="flex: 1; text-align: center;"><h3>KALAN BAKİYE</h3><h2 style="color: ${b.balance >= 0 ? '#10b981' : '#ef4444'};">${formatCurrency(b.balance)}</h2></div>
+    </div>
+    <div class="glass-panel">
+      <h3>Son İşlemler</h3>
+      <table><thead><tr><th>Tarih</th><th>Ürün/Açıklama</th><th>Tutar</th><th>Tip</th></tr></thead><tbody>
+  `;
+  
+  const allEvents = [
+    ...txs.map(t => ({ 
+      date: t.date, 
+      desc: `${t.qty} Kg ${t.product} (${formatCurrency(acc.type === 'supplier' ? t.buyPrice : t.supplyPrice)}/Kg)`, 
+      amount: acc.type === 'supplier' ? (t.qty*t.buyPrice) : (t.qty*t.supplyPrice), 
+      type: 'Alım/Satım' 
+    })),
+    ...pms.map(p => ({ date: p.date, desc: p.description, amount: p.amount, type: 'Ödeme' }))
+  ].sort((a,b) => new Date(b.date) - new Date(a.date));
+  
+  allEvents.forEach(e => {
+    html += `<tr><td>${formatAppDate(e.date)}</td><td>${e.desc}</td><td>${formatCurrency(e.amount)}</td><td>${e.type}</td></tr>`;
+  });
+  
+  html += `</tbody></table></div>`;
+  viewContent.innerHTML = html;
+  initTableFeatures();
+}
+
 let sevkDate = new Date().toISOString().split('T')[0];
 function renderSevk() {
   viewTitle.innerText = 'SEVK RAPORU';
@@ -1013,4 +1055,5 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
    }
 });
 
+
 
