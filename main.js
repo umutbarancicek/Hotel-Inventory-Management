@@ -521,6 +521,42 @@ window.qeRemoveProduct = (product) => {
   renderVeri();
 };
 
+window.qeSave = () => {
+  const priceMap = {};
+  qeState.selectedProducts.forEach(p => { priceMap[p.product] = p; });
+  let saved = 0;
+  Object.entries(qeState.kilos).forEach(([product, kiloStr]) => {
+    const kilo = parseFloat(String(kiloStr).replace(',','.')) || 0;
+    if (!kilo || kilo <= 0) return;
+    
+    const p = priceMap[product] || { product, price: 0 };
+    const ov = qeState.overridePrices[product] || {};
+    
+    const basePrice = typeof p.price === 'number' ? p.price : (parseFloat(String(p.price).replace(/\./g,'').replace(',','.')) || 0);
+    const buyPrice = ov.buy !== undefined ? ov.buy : basePrice;
+    const supplyPrice = ov.supply !== undefined ? ov.supply : basePrice;
+    
+    DataService.addTransaction({
+      date: qeState.date,
+      supplier: qeState.supplier,
+      hotel: qeState.hotel,
+      product,
+      qty: kilo,
+      adet: '-',
+      buyPrice,
+      supplyPrice
+    });
+    saved++;
+  });
+  renderVeri();
+  renderDashboard();
+  const toast = document.createElement('div');
+  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#10b981;color:white;padding:16px 24px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:slideIn 0.3s ease;';
+  toast.innerHTML = `<i class="fa-solid fa-check" style="margin-right:8px;"></i>${saved} kalem kaydedildi! Ekran temizlenmedi, başka otel için devam edebilirsiniz.`;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 4000);
+};
+
 window.qeClear = () => { qeState.kilos = {}; qeState.selectedProducts = []; qeState.overridePrices = {}; renderVeri(); };
 
 
