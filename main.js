@@ -209,7 +209,7 @@ let qeState = {
   supplier: null,
   hotel: null,
   selectedProducts: [], // [{product, price, unit}] — user-selected from modal
-  kilos: {}             // productName -> kg value
+  kilos: {}, overridePrices: {}
 };
 
 function renderVeri() {
@@ -227,19 +227,19 @@ function renderVeri() {
   const parsePrice = str => typeof str === 'number' ? str : parseFloat(String(str).replace(/\./g,'').replace(',','.')) || 0;
 
   // Selected product rows (those the user picked from modal)
-  const pendingCount = qeState.selectedProducts.filter(p => qeState.kilos[p.product] && Number(qeState.kilos[p.product]) > 0).length;
+  const pendingCount = qeState.selectedProducts.filter(p => qeState.kilos[p.product] && (parseFloat(String(qeState.kilos[p.product]).replace(',','.'))||0) > 0).length;
 
   const selectedRows = qeState.selectedProducts.map(p => {
     const kilo = qeState.kilos[p.product] || '';
     const ov = qeState.overridePrices[p.product] || {};
     const buyVal = ov.buy !== undefined ? ov.buy : parsePrice(p.price);
     const supplyVal = ov.supply !== undefined ? ov.supply : parsePrice(p.price);
-    const hal = kilo && Number(kilo) > 0 ? formatCurrency(buyVal * Number(kilo)) : '—';
-    const ted = kilo && Number(kilo) > 0 ? formatCurrency(supplyVal * Number(kilo)) : '—';
-    const fark = (kilo && Number(kilo) > 0) ? formatCurrency((supplyVal - buyVal) * Number(kilo)) : '—';
+    const hal = kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0 ? formatCurrency(buyVal * (parseFloat(String(kilo).replace(',','.'))||0)) : '—';
+    const ted = kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0 ? formatCurrency(supplyVal * (parseFloat(String(kilo).replace(',','.'))||0)) : '—';
+    const fark = (kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0) ? formatCurrency((supplyVal - buyVal) * (parseFloat(String(kilo).replace(',','.'))||0)) : '—';
     const safe = p.product.replace(/'/g,"\\'");
     return `
-      <tr class="${kilo && Number(kilo) > 0 ? 'qe-row-active' : ''}">
+      <tr class="${kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0 ? 'qe-row-active' : ''}">
         <td>
           <button onclick="window.qeRemoveProduct('${safe}')" title="Kaldır"
             style="background:none;border:none;color:#ef4444;cursor:pointer;font-size:1rem;padding:0 6px 0 0;">✕</button>
@@ -418,72 +418,130 @@ window.qeCloseModal = () => {
   if (m) m.remove();
 };
 
-window.qeConfirmModal = () => {
-  const latestPrices = DataService.getLatestPrices();
-  const priceMap = {};
-  latestPrices.forEach(p => { priceMap[p.product] = p; });
-
-  const selected = [...document.querySelectorAll('.modal-chip-sel')].map(c => c.dataset.product);
-  // Keep existing kilos for already-selected products; add new ones
-  const newSelected = selected.map(name => priceMap[name]).filter(Boolean);
-  // Remove kilos for deselected products
-  const newSelectedNames = new Set(newSelected.map(p => p.product));
-  Object.keys(qeState.kilos).forEach(k => { if (!newSelectedNames.has(k)) delete qeState.kilos[k]; });
-  qeState.selectedProducts = newSelected;
-  window.qeCloseModal();
-  renderVeri();
-  // Focus first kilo input
-  setTimeout(() => { const first = document.querySelector('.qe-table-input'); if (first) first.focus(); }, 100);
-};
-
+window.qeConfirmModal = () => {
+  const latestPrices = DataService.getLatestPrices();
+  const priceMap = {};
+  latestPrices.forEach(p => { priceMap[p.product] = p; });
+
+  const selected = [...document.querySelectorAll('.modal-chip-sel')].map(c => c.dataset.product);
+  
+  // Keep existing kilos for already-selected products; add new ones
+  // We MUST support manual products! Manual products have price=0.
+  // Let's look up the current qeState.selectedProducts to find manual ones
+  const currentMap = {};
+  qeState.selectedProducts.forEach(p => { currentMap[p.product] = p; });
+
+  const newSelected = selected.map(name => {
+    if (priceMap[name]) return priceMap[name];
+    if (currentMap[name]) return currentMap[name]; // It's a manual product!
+    return { product: name, price: 0, unit: 'KG' }; // Fallback
+  }).filter(Boolean);
+
+  // Remove kilos and overrides for deselected products
+  const newSelectedNames = new Set(newSelected.map(p => p.product));
+  Object.keys(qeState.kilos).forEach(k => { if (!newSelectedNames.has(k)) delete qeState.kilos[k]; });
+  Object.keys(qeState.overridePrices).forEach(k => { if (!newSelectedNames.has(k)) delete qeState.overridePrices[k]; });
+  
+  qeState.selectedProducts = newSelected;
+  window.qeCloseModal();
+  renderVeri();
+  setTimeout(() => { const first = document.querySelector('.qe-table-input'); if (first) first.focus(); }, 100);
+};
+
 window.qeSet = (key, val) => { qeState[key] = val; renderVeri(); };
 
-window.qeSetKilo = (product, val) => {
-  qeState.kilos[product] = val;
-  // Update total cell in-place
-  const rows = document.querySelectorAll('.qe-table tbody tr');
-  rows.forEach(row => {
-    const nameCell = row.cells[0];
-    if (!nameCell || !nameCell.textContent.trim().includes(product)) return;
-    const kilo = Number(val);
-    row.classList.toggle('qe-row-active', kilo > 0);
-    const totalCell = row.cells[3];
-    if (!totalCell) return;
-    if (kilo > 0) {
-      const priceCell = row.cells[1];
-      const pt = priceCell ? priceCell.innerText.replace(/[₺\s]/g,'').replace(/\./g,'').replace(',','.') : '0';
-      totalCell.textContent = formatCurrency((parseFloat(pt)||0) * kilo);
-      totalCell.style.color = '#10b981';
-    } else {
-      totalCell.textContent = '—';
-    }
-  });
-  // Update save button count
-  const pending = qeState.selectedProducts.filter(p => qeState.kilos[p.product] && Number(qeState.kilos[p.product]) > 0).length;
-  const btn = document.querySelector('.dash-btn.btn-green');
-  if (btn) { btn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> KAYDET (${pending})`; btn.disabled = pending===0; }
-};
-
-window.qeRemoveProduct = (product) => {
-  qeState.selectedProducts = qeState.selectedProducts.filter(p => p.product !== product);
-  delete qeState.kilos[product];
-  renderVeri();
-};
-
+window.qeSetKilo = (product, val) => {
+  qeState.kilos[product] = val;
+  const rows = document.querySelectorAll('.qe-table tbody tr');
+  rows.forEach(row => {
+    const nameCell = row.cells[0];
+    if (!nameCell || !nameCell.textContent.trim().includes(product)) return;
+    
+    const kilo = parseFloat(String(val).replace(',','.')) || 0;
+    row.classList.toggle('qe-row-active', kilo > 0);
+    
+    const buyInput = row.cells[1].querySelector('input');
+    const supplyInput = row.cells[2].querySelector('input');
+    const buyVal = buyInput && buyInput.value ? parseFloat(String(buyInput.value).replace(',','.')) : 0;
+    const supplyVal = supplyInput && supplyInput.value ? parseFloat(String(supplyInput.value).replace(',','.')) : 0;
+    
+    const halCell = row.cells[4];
+    const tedCell = row.cells[5];
+    const farkCell = row.cells[6];
+    
+    if (kilo > 0) {
+      if (halCell) halCell.textContent = formatCurrency(buyVal * kilo);
+      if (tedCell) tedCell.textContent = formatCurrency(supplyVal * kilo);
+      if (farkCell) {
+        farkCell.textContent = formatCurrency((supplyVal - buyVal) * kilo);
+        farkCell.style.color = (supplyVal >= buyVal) ? '#10b981' : '#ef4444';
+      }
+    } else {
+      if (halCell) halCell.textContent = '—';
+      if (tedCell) tedCell.textContent = '—';
+      if (farkCell) {
+        farkCell.textContent = '—';
+        farkCell.style.color = '#9ca3af';
+      }
+    }
+  });
+
+  const pending = qeState.selectedProducts.filter(p => {
+    const k = parseFloat(String(qeState.kilos[p.product]).replace(',','.')) || 0;
+    return k > 0;
+  }).length;
+  const btn = document.querySelector('.dash-btn.btn-green');
+  if (btn) {
+    btn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> KAYDET (${pending})`;
+    btn.disabled = pending === 0;
+  }
+};
+
+window.qeSetPrice = (product, type, val) => {
+  if (!qeState.overridePrices[product]) qeState.overridePrices[product] = {};
+  if (val === '') {
+    qeState.overridePrices[product][type] = undefined;
+  } else {
+    qeState.overridePrices[product][type] = parseFloat(String(val).replace(',', '.'));
+  }
+  // Recalculate totals in DOM without losing focus
+  window.qeSetKilo(product, qeState.kilos[product] || '');
+};
+
+window.qeRemoveProduct = (product) => {
+  qeState.selectedProducts = qeState.selectedProducts.filter(p => p.product !== product);
+  delete qeState.kilos[product];
+  delete qeState.overridePrices[product];
+  renderVeri();
+};
+
 window.qeSave = () => {
   const priceMap = {};
   qeState.selectedProducts.forEach(p => { priceMap[p.product] = p; });
   let saved = 0;
   Object.entries(qeState.kilos).forEach(([product, kiloStr]) => {
-    const kilo = Number(kiloStr);
+    const kilo = parseFloat(String(kiloStr).replace(',','.')) || 0;
     if (!kilo || kilo <= 0) return;
-    const p = priceMap[product];
-    const buyPrice = p ? (typeof p.price==='number' ? p.price : parseFloat(String(p.price).replace(/\./g,'').replace(',','.'))) : 0;
-    DataService.addTransaction({ date: qeState.date, supplier: qeState.supplier, hotel: qeState.hotel, product, qty: kilo, adet: '-', buyPrice, supplyPrice: buyPrice });
+    
+    const p = priceMap[product] || { product, price: 0 };
+    const ov = qeState.overridePrices[product] || {};
+    
+    const basePrice = typeof p.price === 'number' ? p.price : (parseFloat(String(p.price).replace(/\./g,'').replace(',','.')) || 0);
+    const buyPrice = ov.buy !== undefined ? ov.buy : basePrice;
+    const supplyPrice = ov.supply !== undefined ? ov.supply : basePrice;
+    
+    DataService.addTransaction({
+      date: qeState.date,
+      supplier: qeState.supplier,
+      hotel: qeState.hotel,
+      product,
+      qty: kilo,
+      adet: '-',
+      buyPrice,
+      supplyPrice
+    });
     saved++;
   });
-  // Do NOT clear qeState.kilos and qeState.selectedProducts here!
-  // This allows the user to easily change the hotel and click Save again.
   renderVeri();
   renderDashboard();
   const toast = document.createElement('div');
