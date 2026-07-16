@@ -209,7 +209,7 @@ let qeState = {
   supplier: null,
   hotel: null,
   selectedProducts: [], // [{product, price, unit}] — user-selected from modal
-  kilos: {}             // productName -> kg value
+  kilos: {}, overridePrices: {}
 };
 
 function renderVeri() {
@@ -424,24 +424,36 @@ window.qeCloseModal = () => {
   if (m) m.remove();
 };
 
-window.qeConfirmModal = () => {
-  const latestPrices = DataService.getLatestPrices();
-  const priceMap = {};
-  latestPrices.forEach(p => { priceMap[p.product] = p; });
-
-  const selected = [...document.querySelectorAll('.modal-chip-sel')].map(c => c.dataset.product);
-  // Keep existing kilos for already-selected products; add new ones
-  const newSelected = selected.map(name => priceMap[name]).filter(Boolean);
-  // Remove kilos for deselected products
-  const newSelectedNames = new Set(newSelected.map(p => p.product));
-  Object.keys(qeState.kilos).forEach(k => { if (!newSelectedNames.has(k)) delete qeState.kilos[k]; });
-  qeState.selectedProducts = newSelected;
-  window.qeCloseModal();
-  renderVeri();
-  // Focus first kilo input
-  setTimeout(() => { const first = document.querySelector('.qe-table-input'); if (first) first.focus(); }, 100);
-};
-
+window.qeConfirmModal = () => {
+  const latestPrices = DataService.getLatestPrices();
+  const priceMap = {};
+  latestPrices.forEach(p => { priceMap[p.product] = p; });
+
+  const selected = [...document.querySelectorAll('.modal-chip-sel')].map(c => c.dataset.product);
+  
+  // Keep existing kilos for already-selected products; add new ones
+  // We MUST support manual products! Manual products have price=0.
+  // Let's look up the current qeState.selectedProducts to find manual ones
+  const currentMap = {};
+  qeState.selectedProducts.forEach(p => { currentMap[p.product] = p; });
+
+  const newSelected = selected.map(name => {
+    if (priceMap[name]) return priceMap[name];
+    if (currentMap[name]) return currentMap[name]; // It's a manual product!
+    return { product: name, price: 0, unit: 'KG' }; // Fallback
+  }).filter(Boolean);
+
+  // Remove kilos and overrides for deselected products
+  const newSelectedNames = new Set(newSelected.map(p => p.product));
+  Object.keys(qeState.kilos).forEach(k => { if (!newSelectedNames.has(k)) delete qeState.kilos[k]; });
+  Object.keys(qeState.overridePrices).forEach(k => { if (!newSelectedNames.has(k)) delete qeState.overridePrices[k]; });
+  
+  qeState.selectedProducts = newSelected;
+  window.qeCloseModal();
+  renderVeri();
+  setTimeout(() => { const first = document.querySelector('.qe-table-input'); if (first) first.focus(); }, 100);
+};
+
 window.qeSet = (key, val) => { qeState[key] = val; renderVeri(); };
 
 window.qeSetKilo = (product, val) => {
