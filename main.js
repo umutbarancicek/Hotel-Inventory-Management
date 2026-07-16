@@ -1221,3 +1221,18 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
 
 
 
+
+window.qeToggleChip = (el, product) => {
+  el.classList.toggle('modal-chip-sel');
+  const count = document.querySelectorAll('.modal-chip-sel').length;
+  const counter = document.getElementById('modal-sel-count');
+  if (counter) counter.textContent = `${count} seçili`;
+};
+
+window.qeModalSearch = (query) => {
+  const q = query.toLowerCase();
+  document.querySelectorAll('.modal-chip').forEach(el => {
+    const p = el.getAttribute('data-product').toLowerCase();
+    el.style.display = p.includes(q) ? 'inline-block' : 'none';
+  });
+};
