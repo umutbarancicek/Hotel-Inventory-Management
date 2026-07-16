@@ -227,19 +227,19 @@ function renderVeri() {
   const parsePrice = str => typeof str === 'number' ? str : parseFloat(String(str).replace(/\./g,'').replace(',','.')) || 0;
 
   // Selected product rows (those the user picked from modal)
-  const pendingCount = qeState.selectedProducts.filter(p => qeState.kilos[p.product] && Number(qeState.kilos[p.product]) > 0).length;
+  const pendingCount = qeState.selectedProducts.filter(p => qeState.kilos[p.product] && (parseFloat(String(qeState.kilos[p.product]).replace(',','.'))||0) > 0).length;
 
   const selectedRows = qeState.selectedProducts.map(p => {
     const kilo = qeState.kilos[p.product] || '';
     const ov = qeState.overridePrices[p.product] || {};
     const buyVal = ov.buy !== undefined ? ov.buy : parsePrice(p.price);
     const supplyVal = ov.supply !== undefined ? ov.supply : parsePrice(p.price);
-    const hal = kilo && Number(kilo) > 0 ? formatCurrency(buyVal * Number(kilo)) : '—';
-    const ted = kilo && Number(kilo) > 0 ? formatCurrency(supplyVal * Number(kilo)) : '—';
-    const fark = (kilo && Number(kilo) > 0) ? formatCurrency((supplyVal - buyVal) * Number(kilo)) : '—';
+    const hal = kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0 ? formatCurrency(buyVal * (parseFloat(String(kilo).replace(',','.'))||0)) : '—';
+    const ted = kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0 ? formatCurrency(supplyVal * (parseFloat(String(kilo).replace(',','.'))||0)) : '—';
+    const fark = (kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0) ? formatCurrency((supplyVal - buyVal) * (parseFloat(String(kilo).replace(',','.'))||0)) : '—';
     const safe = p.product.replace(/'/g,"\\'");
     return `
-      <tr class="${kilo && Number(kilo) > 0 ? 'qe-row-active' : ''}">
+      <tr class="${kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0 ? 'qe-row-active' : ''}">
         <td>
           <button onclick="window.qeRemoveProduct('${safe}')" title="Kaldır"
             style="background:none;border:none;color:#ef4444;cursor:pointer;font-size:1rem;padding:0 6px 0 0;">✕</button>
@@ -463,7 +463,7 @@ window.qeSetKilo = (product, val) => {
   rows.forEach(row => {
     const nameCell = row.cells[0];
     if (!nameCell || !nameCell.textContent.trim().includes(product)) return;
-    const kilo = Number(val);
+    const kilo = parseFloat(String(val).replace(',','.')) || 0;
     row.classList.toggle('qe-row-active', kilo > 0);
     const totalCell = row.cells[3];
     if (!totalCell) return;
@@ -477,7 +477,7 @@ window.qeSetKilo = (product, val) => {
     }
   });
   // Update save button count
-  const pending = qeState.selectedProducts.filter(p => qeState.kilos[p.product] && Number(qeState.kilos[p.product]) > 0).length;
+  const pending = qeState.selectedProducts.filter(p => qeState.kilos[p.product] && (parseFloat(String(qeState.kilos[p.product]).replace(',','.'))||0) > 0).length;
   const btn = document.querySelector('.dash-btn.btn-green');
   if (btn) { btn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> KAYDET (${pending})`; btn.disabled = pending===0; }
 };
@@ -493,7 +493,7 @@ window.qeSave = () => {
   qeState.selectedProducts.forEach(p => { priceMap[p.product] = p; });
   let saved = 0;
   Object.entries(qeState.kilos).forEach(([product, kiloStr]) => {
-    const kilo = Number(kiloStr);
+    const kilo = parseFloat(String(kiloStr).replace(',','.')) || 0;
     if (!kilo || kilo <= 0) return;
     const p = priceMap[product];
     const buyPrice = p ? (typeof p.price==='number' ? p.price : parseFloat(String(p.price).replace(/\./g,'').replace(',','.'))) : 0;
