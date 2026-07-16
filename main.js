@@ -265,9 +265,9 @@ function renderVeri() {
   }).join('');
 
   // TX list
-  const txSuppliers = [...new Set(allTxs.map(t => t.supplier))].sort();
-  const txHotels    = [...new Set(allTxs.map(t => t.hotel))].sort();
-  const txProds     = [...new Set(allTxs.map(t => t.product))].sort();
+  const txSuppliers = [...new Set(allTxs.map(t => (t.supplier||'').trim()))].sort();
+  const txHotels    = [...new Set(allTxs.map(t => (t.hotel||'').trim()))].sort();
+  const txProds     = [...new Set(allTxs.map(t => (t.product||'').trim()))].sort();
 
   const txs = [...allTxs].filter(t => {
     if (veriFilters.supplier && t.supplier !== veriFilters.supplier) return false;
@@ -567,7 +567,7 @@ function renderOdemeler() {
     odemeFilters.dateTo = now.toISOString().split('T')[0];
   }
   
-  const accounts = [...new Set(allPy.map(p => p.account))].sort();
+  const accounts = [...new Set(allPy.map(p => (p.account||'').trim()))].sort();
   
   const py = allPy.filter(p => {
     if (odemeFilters.account && p.account !== odemeFilters.account) return false;
@@ -835,9 +835,9 @@ function renderPivot() {
   }
   
   // Extract unique values
-  const hotels = [...new Set(data.transactions.map(t => t.hotel))];
-  const suppliers = [...new Set(data.transactions.map(t => t.supplier))];
-  const prods = [...new Set(data.transactions.map(t => t.product))];
+  const hotels = [...new Set(data.transactions.map(t => (t.hotel||'').trim()))];
+  const suppliers = [...new Set(data.transactions.map(t => (t.supplier||'').trim()))];
+  const prods = [...new Set(data.transactions.map(t => (t.product||'').trim()))];
   
   const renderDropdownSlicer = (title, items, key) => `
     <div class="top-filter-group">
