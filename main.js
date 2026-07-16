@@ -363,10 +363,11 @@ function renderVeri() {
 
 // ── MODAL ─────────────────────────────────────────────────────────────────
 window.qeOpenModal = () => {
-  const latestPrices = DataService.getLatestPrices();
+  const data = DataService.getData();
+  const priceList = qeState.priceDate ? (data.priceLists[qeState.priceDate] || data.prices || []) : (data.prices || []);
   const selectedSet = new Set(qeState.selectedProducts.map(p => p.product));
 
-  const chips = latestPrices.map(p => {
+  const chips = priceList.map(p => {
     const sel = selectedSet.has(p.product);
     return `<div class="modal-chip ${sel?'modal-chip-sel':''}" data-product="${p.product}" onclick="window.qeToggleChip(this,'${p.product.replace(/'/g,"\\'")}')">${p.product}</div>`;
   }).join('');
@@ -419,9 +420,10 @@ window.qeCloseModal = () => {
 };
 
 window.qeConfirmModal = () => {
-  const latestPrices = DataService.getLatestPrices();
+  const data = DataService.getData();
+  const priceList = qeState.priceDate ? (data.priceLists[qeState.priceDate] || data.prices || []) : (data.prices || []);
   const priceMap = {};
-  latestPrices.forEach(p => { priceMap[p.product] = p; });
+  priceList.forEach(p => { priceMap[p.product] = p; });
 
   const selected = [...document.querySelectorAll('.modal-chip-sel')].map(c => c.dataset.product);
   
@@ -448,7 +450,83 @@ window.qeConfirmModal = () => {
   setTimeout(() => { const first = document.querySelector('.qe-table-input'); if (first) first.focus(); }, 100);
 };
 
-window.qeSet = (key, val) => { qeState[key] = val; renderVeri(); };
+window.qeSet = (key, val) => {
+  qeState[key] = val;
+  if (key === 'date') {
+    const data = DataService.getData();
+    if (data.priceLists && data.priceLists[val]) {
+      qeState.priceDate = val;
+      window.qeUpdateSelectedProductPrices();
+      renderVeri();
+    } else {
+      window.qePromptPriceList(val);
+    }
+  } else {
+    renderVeri();
+  }
+};
+
+window.qeUpdateSelectedProductPrices = () => {
+  const data = DataService.getData();
+  const priceList = qeState.priceDate ? (data.priceLists[qeState.priceDate] || data.prices || []) : (data.prices || []);
+  const priceMap = {};
+  priceList.forEach(p => { priceMap[p.product] = p; });
+  
+  qeState.selectedProducts = qeState.selectedProducts.map(p => {
+    if (priceMap[p.product]) {
+      return { ...p, price: priceMap[p.product].price, unit: priceMap[p.product].unit };
+    }
+    return p;
+  });
+};
+
+window.qePromptPriceList = (targetDate) => {
+  const data = DataService.getData();
+  const priceLists = data.priceLists || {};
+  const sortedDates = Object.keys(priceLists).sort((a, b) => b.localeCompare(a));
+  
+  if (sortedDates.length === 0) {
+    alert("Kayıtlı herhangi bir fiyat listesi bulunamadı! Lütfen önce Fiyat Listesi sayfasından fiyatları çekin.");
+    return;
+  }
+  
+  const options = sortedDates.map(d => `<option value="${d}">${formatAppDate(d)}</option>`).join('');
+  const modalInputStyle = 'width:100%;box-sizing:border-box;padding:10px 14px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:8px;color:white;font-family:Outfit,sans-serif;font-size:.95rem;outline:none;';
+  
+  // Custom modal for selecting price list date
+  const m = document.createElement('div');
+  m.id = 'price-select-modal';
+  m.innerHTML = `<div class="modal-overlay" onclick="if(event.target===this){document.getElementById('price-select-modal').remove(); renderVeri();}">
+    <div class="modal-box" style="max-width:420px; text-align: center;">
+      <div class="modal-header">
+        <span><i class="fa-solid fa-triangle-exclamation" style="margin-right:8px;color:#eab308;"></i>Fiyat Listesi Seçin</span>
+        <button onclick="document.getElementById('price-select-modal').remove(); renderVeri();" style="background:none;border:none;color:#9ca3af;font-size:1.4rem;cursor:pointer;">✕</button>
+      </div>
+      <p style="color:#e2e8f0; margin:16px 0; font-size:0.95rem; line-height: 1.5;">
+        <strong>${formatAppDate(targetDate)}</strong> tarihine ait bir fiyat listesi bulunamadı.<br>
+        İşlem için hangi tarihin fiyat listesini kullanmak istersiniz?
+      </p>
+      <div style="margin-bottom:20px;">
+        <select id="ps-date" style="${modalInputStyle}">
+          ${options}
+        </select>
+      </div>
+      <button onclick="window.qeConfirmPriceListDate('${targetDate}')" class="dash-btn btn-green" style="margin:0;padding:12px;width:100%;">
+        <i class="fa-solid fa-check"></i> FİYAT LİSTESİNİ KULLAN
+      </button>
+    </div>
+  </div>`;
+  document.body.appendChild(m);
+};
+
+window.qeConfirmPriceListDate = (targetDate) => {
+  const selectedDate = document.getElementById('ps-date').value;
+  qeState.priceDate = selectedDate;
+  window.qeUpdateSelectedProductPrices();
+  const modal = document.getElementById('price-select-modal');
+  if (modal) modal.remove();
+  renderVeri();
+};
 
 window.qeSetKilo = (product, val) => {
   qeState.kilos[product] = val;
