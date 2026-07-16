@@ -8429,7 +8429,7 @@ export const INITIAL_DATA = {
     {
       "id": 768,
       "date": "2026-06-08",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 500,
       "hotel": "AMBASSADOR",
@@ -8440,7 +8440,7 @@ export const INITIAL_DATA = {
     {
       "id": 769,
       "date": "2026-06-08",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 830,
       "hotel": "GRAND MİRAMOR",
@@ -8451,7 +8451,7 @@ export const INITIAL_DATA = {
     {
       "id": 770,
       "date": "2026-06-08",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 230,
       "hotel": "STELLA",
@@ -8462,7 +8462,7 @@ export const INITIAL_DATA = {
     {
       "id": 771,
       "date": "2026-06-08",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 740,
       "hotel": "MİRAMOR GARDEN",
@@ -8616,7 +8616,7 @@ export const INITIAL_DATA = {
     {
       "id": 785,
       "date": "2026-06-10",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1000,
       "hotel": "SEAPHORİA",
@@ -8627,7 +8627,7 @@ export const INITIAL_DATA = {
     {
       "id": 786,
       "date": "2026-06-10",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1000,
       "hotel": "CASAFORA",
@@ -10167,7 +10167,7 @@ export const INITIAL_DATA = {
     {
       "id": 926,
       "date": "2026-06-12",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 770,
       "hotel": "GRAND MİRAMOR",
@@ -10178,7 +10178,7 @@ export const INITIAL_DATA = {
     {
       "id": 927,
       "date": "2026-06-12",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 480,
       "hotel": "MİRAMOR GARDEN",
@@ -10189,7 +10189,7 @@ export const INITIAL_DATA = {
     {
       "id": 928,
       "date": "2026-06-12",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 190,
       "hotel": "ASTORİA",
@@ -10200,7 +10200,7 @@ export const INITIAL_DATA = {
     {
       "id": 929,
       "date": "2026-06-12",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 330,
       "hotel": "STELLA",
@@ -10211,7 +10211,7 @@ export const INITIAL_DATA = {
     {
       "id": 930,
       "date": "2026-06-12",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1180,
       "hotel": "AMBASSADOR",
@@ -11960,7 +11960,7 @@ export const INITIAL_DATA = {
     {
       "id": 1089,
       "date": "2026-06-15",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1700,
       "hotel": "CASAFORA",
@@ -11971,7 +11971,7 @@ export const INITIAL_DATA = {
     {
       "id": 1090,
       "date": "2026-06-15",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 550,
       "hotel": "SEAPHORİA",
@@ -12818,7 +12818,7 @@ export const INITIAL_DATA = {
     {
       "id": 1167,
       "date": "2026-06-17",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 980,
       "hotel": "MİRAMOR GARDEN",
@@ -12829,7 +12829,7 @@ export const INITIAL_DATA = {
     {
       "id": 1168,
       "date": "2026-06-17",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1050,
       "hotel": "MİRAMOR GARDEN",
@@ -13841,7 +13841,7 @@ export const INITIAL_DATA = {
     {
       "id": 1260,
       "date": "2026-06-20",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 2030,
       "hotel": "CASAFORA",
@@ -14160,7 +14160,7 @@ export const INITIAL_DATA = {
     {
       "id": 1289,
       "date": "2026-06-20",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 500,
       "hotel": "SEAPHORİA",
@@ -14820,7 +14820,7 @@ export const INITIAL_DATA = {
     {
       "id": 1349,
       "date": "2026-06-22",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 0,
       "hotel": "SEAPHORİA",
@@ -14831,7 +14831,7 @@ export const INITIAL_DATA = {
     {
       "id": 1350,
       "date": "2026-06-22",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 685,
       "hotel": "MİRAMOR GARDEN",
@@ -14842,7 +14842,7 @@ export const INITIAL_DATA = {
     {
       "id": 1351,
       "date": "2026-06-22",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 507,
       "hotel": "AMBASSADOR",
@@ -18263,7 +18263,7 @@ export const INITIAL_DATA = {
     {
       "id": 1662,
       "date": "2026-06-30",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 697,
       "hotel": "GRAND MİRAMOR",
@@ -18274,7 +18274,7 @@ export const INITIAL_DATA = {
     {
       "id": 1663,
       "date": "2026-06-30",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1175,
       "hotel": "CASAFORA",
@@ -18285,7 +18285,7 @@ export const INITIAL_DATA = {
     {
       "id": 1664,
       "date": "2026-06-30",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 500,
       "hotel": "AMBASSADOR",
@@ -18296,7 +18296,7 @@ export const INITIAL_DATA = {
     {
       "id": 1665,
       "date": "2026-06-30",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 615,
       "hotel": "MİRAMOR GARDEN",
@@ -18307,7 +18307,7 @@ export const INITIAL_DATA = {
     {
       "id": 1666,
       "date": "2026-06-30",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 424,
       "hotel": "ASTORİA",
@@ -19242,7 +19242,7 @@ export const INITIAL_DATA = {
     {
       "id": 1751,
       "date": "2026-07-02",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 980,
       "hotel": "CASAFORA",
@@ -19253,7 +19253,7 @@ export const INITIAL_DATA = {
     {
       "id": 1752,
       "date": "2026-07-02",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1000,
       "hotel": "SEAPHORİA",
@@ -19550,7 +19550,7 @@ export const INITIAL_DATA = {
     {
       "id": 1779,
       "date": "2026-07-03",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1000,
       "hotel": "GRAND MİRAMOR",
@@ -22113,7 +22113,7 @@ export const INITIAL_DATA = {
     {
       "id": 2012,
       "date": "2026-07-06",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 928,
       "hotel": "MİRAMOR GARDEN",
@@ -22124,7 +22124,7 @@ export const INITIAL_DATA = {
     {
       "id": 2013,
       "date": "2026-07-06",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 525,
       "hotel": "ASTORİA",
@@ -22135,7 +22135,7 @@ export const INITIAL_DATA = {
     {
       "id": 2014,
       "date": "2026-07-06",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 500,
       "hotel": "GRAND MİRAMOR",
@@ -22146,7 +22146,7 @@ export const INITIAL_DATA = {
     {
       "id": 2015,
       "date": "2026-07-06",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 995,
       "hotel": "AMBASSADOR",
@@ -22157,7 +22157,7 @@ export const INITIAL_DATA = {
     {
       "id": 2016,
       "date": "2026-07-06",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 414,
       "hotel": "STELLA",
@@ -22168,7 +22168,7 @@ export const INITIAL_DATA = {
     {
       "id": 2017,
       "date": "2026-07-08",
-      "supplier": " METİN DALKIRAN",
+      "supplier": "METİN DALKIRAN",
       "product": "KARPUZ",
       "qty": 1539,
       "hotel": "GRAND MİRAMOR",
@@ -29105,10 +29105,6 @@ export const INITIAL_DATA = {
     {
       "name": "STELLA",
       "type": "hotel"
-    },
-    {
-      "name": " METİN DALKIRAN",
-      "type": "supplier"
     },
     {
       "name": "METİN DALKIRAN",

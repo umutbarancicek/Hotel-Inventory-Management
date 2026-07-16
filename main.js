@@ -783,38 +783,109 @@ function renderOzet() {
 function showAccountDetail(acc) {
   viewDash.classList.remove('active');
   viewOther.classList.add('active');
-  viewTitle.innerText = `${acc.name} - HESAP EKSTRESİ`;
+  viewTitle.innerText = `${acc.name.trim()} - HESAP EKSTRESİ`;
   
   const data = DataService.getData();
-  const txs = data.transactions.filter(t => t.hotel === acc.name || t.supplier === acc.name);
-  const pms = data.payments.filter(p => p.account === acc.name);
+  const txs = data.transactions.filter(t => (t.hotel||'').trim() === acc.name.trim() || (t.supplier||'').trim() === acc.name.trim());
+  const pms = data.payments.filter(p => (p.account||'').trim() === acc.name.trim());
   
   const balances = DataService.getAccountBalances();
-  const b = balances.find(x => x.name === acc.name);
+  const b = balances.find(x => x.name.trim() === acc.name.trim()) || { totalBought: 0, totalPaid: 0, balance: 0 };
+  
+  const totalQty = txs.reduce((sum, t) => sum + t.qty, 0);
   
   let html = `
-    <div style="display: flex; gap: 24px; margin-bottom: 24px;">
-      <div class="glass-panel" style="flex: 1; text-align: center;"><h3>TOPLAM İŞLEM</h3><h2 style="color: #60a5fa;">${formatCurrency(b.totalBought)}</h2></div>
-      <div class="glass-panel" style="flex: 1; text-align: center;"><h3>TOPLAM ÖDENEN</h3><h2 style="color: #eab308;">${formatCurrency(b.totalPaid)}</h2></div>
-      <div class="glass-panel" style="flex: 1; text-align: center;"><h3>KALAN BAKİYE</h3><h2 style="color: ${b.balance >= 0 ? '#10b981' : '#ef4444'};">${formatCurrency(b.balance)}</h2></div>
+    <div style="display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap;">
+      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
+        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM KİLO</h3>
+        <h2 style="color: #a855f7;margin:0;">${totalQty.toLocaleString('tr-TR')}</h2>
+      </div>
+      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
+        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM TUTAR</h3>
+        <h2 style="color: #60a5fa;margin:0;">${formatCurrency(b.totalBought)}</h2>
+      </div>
+      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
+        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM ÖDEME</h3>
+        <h2 style="color: #eab308;margin:0;">${formatCurrency(b.totalPaid)}</h2>
+      </div>
+      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
+        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">KALAN BAKİYE</h3>
+        <h2 style="color: ${b.balance >= 0 ? '#10b981' : '#ef4444'};margin:0;">${formatCurrency(b.balance)}</h2>
+      </div>
     </div>
     <div class="glass-panel">
-      <h3>Son İşlemler</h3>
-      <table><thead><tr><th>Tarih</th><th>Ürün/Açıklama</th><th>Tutar</th><th>Tip</th></tr></thead><tbody>
+      <h3 style="margin-bottom:16px;">Son İşlemler</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Tarih</th>
+            <th>Mal / İşlem</th>
+            <th>Kilo</th>
+            <th>Birim Fiyat</th>
+            <th>Tutar</th>
+            <th>Ödeme</th>
+            <th>Bakiye</th>
+          </tr>
+        </thead>
+        <tbody>
   `;
   
   const allEvents = [
-    ...txs.map(t => ({ 
-      date: t.date, 
-      desc: `${t.qty} Kg ${t.product} (${formatCurrency(acc.type === 'supplier' ? t.buyPrice : t.supplyPrice)}/Kg)`, 
-      amount: acc.type === 'supplier' ? (t.qty*t.buyPrice) : (t.qty*t.supplyPrice), 
-      type: 'Alım/Satım' 
-    })),
-    ...pms.map(p => ({ date: p.date, desc: p.description, amount: p.amount, type: 'Ödeme' }))
-  ].sort((a,b) => new Date(b.date) - new Date(a.date));
-  
+    ...txs.map(t => {
+      const kilo = t.qty;
+      const price = acc.type === 'supplier' ? t.buyPrice : t.supplyPrice;
+      const tutar = kilo * price;
+      return {
+        date: t.date,
+        desc: t.product,
+        kilo: kilo,
+        price: price,
+        tutar: tutar,
+        odeme: 0,
+        type: 'tx'
+      };
+    }),
+    ...pms.map(p => ({
+      date: p.date,
+      desc: p.description || 'NAKİT',
+      kilo: 0,
+      price: 0,
+      tutar: 0,
+      odeme: p.amount,
+      type: 'pm'
+    }))
+  ].sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  let runningBalance = 0;
   allEvents.forEach(e => {
-    html += `<tr><td>${formatAppDate(e.date)}</td><td>${e.desc}</td><td>${formatCurrency(e.amount)}</td><td>${e.type}</td></tr>`;
+    runningBalance += e.tutar - e.odeme;
+    e.bakiye = runningBalance;
+  });
+
+  const displayEvents = [...allEvents].reverse();
+
+  displayEvents.forEach(e => {
+    if (e.type === 'tx') {
+      html += `<tr>
+        <td>${formatAppDate(e.date)}</td>
+        <td><strong>${e.desc}</strong></td>
+        <td>${e.kilo.toLocaleString('tr-TR')}</td>
+        <td>${formatCurrency(e.price)}</td>
+        <td>${formatCurrency(e.tutar)}</td>
+        <td>—</td>
+        <td><span class="${e.bakiye >= 0 ? 'success' : 'danger'}">${formatCurrency(e.bakiye)}</span></td>
+      </tr>`;
+    } else {
+      html += `<tr>
+        <td>${formatAppDate(e.date)}</td>
+        <td><em>${e.desc}</em></td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td><span style="color:#eab308;font-weight:700;">${formatCurrency(e.odeme)}</span></td>
+        <td><span class="${e.bakiye >= 0 ? 'success' : 'danger'}">${formatCurrency(e.bakiye)}</span></td>
+      </tr>`;
+    }
   });
   
   html += `</tbody></table></div>`;
@@ -822,7 +893,6 @@ function showAccountDetail(acc) {
   initTableFeatures();
 }
 
-
 let pivotFilters = { hotel: null, supplier: null, product: null, dateFrom: null, dateTo: null };
 function renderPivot() {
   viewTitle.innerText = 'PİVOT TABLO (SEVK RAPORU)';
