@@ -182,7 +182,7 @@ document.querySelectorAll('.dash-btn[data-nav]').forEach(btn => {
     else if (nav === 'fiyat') renderFiyat();
     else if (nav === 'pivot') renderPivot();
     else if (nav === 'ozet') renderOzet();
-    else if (nav === 'sevk') renderSevk();
+    else if (nav === 'sevk') renderPivot();
     else {
       viewTitle.innerText = nav.toUpperCase();
       viewContent.innerHTML = '<p>Bu modül yapım aşamasındadır.</p>';
@@ -771,10 +771,16 @@ function showAccountDetail(acc) {
 }
 
 
-let pivotFilters = { hotel: null, supplier: null, product: null };
-function renderPivot() {
-  viewTitle.innerText = 'PİVOT TABLO';
-  const data = DataService.getData();
+let pivotFilters = { hotel: null, supplier: null, product: null, dateFrom: null, dateTo: null };
+function renderPivot() {
+  viewTitle.innerText = 'PİVOT TABLO (SEVK RAPORU)';
+  const data = DataService.getData();
+  
+  if (!pivotFilters.dateFrom) {
+    const now = new Date();
+    pivotFilters.dateFrom = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-01`;
+    pivotFilters.dateTo = now.toISOString().split('T')[0];
+  }
   
   // Extract unique values
   const hotels = [...new Set(data.transactions.map(t => t.hotel))];
@@ -792,11 +798,13 @@ function renderPivot() {
   `;
   
   // Filter Data
-  let filtered = data.transactions.filter(t => {
-    if (pivotFilters.hotel && t.hotel !== pivotFilters.hotel) return false;
-    if (pivotFilters.supplier && t.supplier !== pivotFilters.supplier) return false;
-    if (pivotFilters.product && t.product !== pivotFilters.product) return false;
-    return true;
+  let filtered = data.transactions.filter(t => {
+    if (pivotFilters.hotel && t.hotel !== pivotFilters.hotel) return false;
+    if (pivotFilters.supplier && t.supplier !== pivotFilters.supplier) return false;
+    if (pivotFilters.product && t.product !== pivotFilters.product) return false;
+    if (pivotFilters.dateFrom && t.date < pivotFilters.dateFrom) return false;
+    if (pivotFilters.dateTo && t.date > pivotFilters.dateTo) return false;
+    return true;
   });
   
   // Group Data by Hotel -> Product
@@ -850,11 +858,23 @@ function renderPivot() {
     </tr></tbody></table>`;
 
   viewContent.innerHTML = `
-    <div class="pivot-layout-new">
-      <div class="top-filter-bar glass-panel">
-        ${renderDropdownSlicer('GİTTİĞİ YER', hotels, 'hotel')}
-        ${renderDropdownSlicer('MÜSTAHSİL', suppliers, 'supplier')}
-        ${renderDropdownSlicer('MAL', prods, 'product')}
+    <div class="pivot-layout-new">
+      <div class="top-filter-bar glass-panel" style="flex-wrap: wrap; gap: 16px;">
+        ${renderDropdownSlicer('GİTTİĞİ YER', hotels, 'hotel')}
+        ${renderDropdownSlicer('MÜSTAHSİL', suppliers, 'supplier')}
+        ${renderDropdownSlicer('MAL', prods, 'product')}
+        <div class="top-filter-group">
+          <label>BAŞLANGIÇ</label>
+          <input type="date" value="${pivotFilters.dateFrom}" onchange="window.setPivotFilter('dateFrom', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+        <div class="top-filter-group">
+          <label>BİTİŞ</label>
+          <input type="date" value="${pivotFilters.dateTo}" onchange="window.setPivotFilter('dateTo', this.value)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+        <div class="top-filter-group">
+          <label>&nbsp;</label>
+          <button onclick="window.setPivotFilter('dateFrom', null); window.setPivotFilter('dateTo', null);" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;">Tüm Zamanlar</button>
+        </div>
       </div>
       <div class="pivot-table-container glass-panel" style="margin-top:0;">
         ${tableHtml}
