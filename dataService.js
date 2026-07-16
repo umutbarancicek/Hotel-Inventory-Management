@@ -5,6 +5,42 @@ import { doc, getDoc, setDoc } from 'firebase/firestore';
 let localData = null;
 
 export const DataService = {
+  cleanData(data) {
+    let changed = false;
+    
+    // Trim transactions
+    if (data.transactions) {
+      data.transactions.forEach(t => {
+        if (t.supplier && t.supplier !== t.supplier.trim()) { t.supplier = t.supplier.trim(); changed = true; }
+        if (t.hotel && t.hotel !== t.hotel.trim()) { t.hotel = t.hotel.trim(); changed = true; }
+        if (t.product && t.product !== t.product.trim()) { t.product = t.product.trim(); changed = true; }
+      });
+    }
+
+    // Trim payments
+    if (data.payments) {
+      data.payments.forEach(p => {
+        if (p.account && p.account !== p.account.trim()) { p.account = p.account.trim(); changed = true; }
+      });
+    }
+
+    // Trim and unique accounts
+    if (data.accounts) {
+      const uniqueAccs = {};
+      const origCount = data.accounts.length;
+      data.accounts.forEach(acc => {
+        const name = acc.name.trim();
+        if (!uniqueAccs[name]) {
+          uniqueAccs[name] = { name, type: acc.type };
+        }
+      });
+      data.accounts = Object.values(uniqueAccs);
+      if (data.accounts.length !== origCount) changed = true;
+    }
+    
+    return changed;
+  },
+
   async init() {
     try {
       const docRef = doc(db, 'storage', 'appData');
@@ -12,6 +48,9 @@ export const DataService = {
       
       if (docSnap.exists()) {
         localData = docSnap.data();
+        if (this.cleanData(localData)) {
+          await setDoc(docRef, localData);
+        }
       } else {
         const existingLocalData = localStorage.getItem('otel_app_data_v8');
         if (existingLocalData) {
@@ -19,6 +58,7 @@ export const DataService = {
         } else {
           localData = INITIAL_DATA;
         }
+        this.cleanData(localData);
         await setDoc(docRef, localData);
       }
     } catch (error) {
@@ -28,6 +68,9 @@ export const DataService = {
         localStorage.setItem('otel_app_data_v8', JSON.stringify(INITIAL_DATA));
       }
       localData = JSON.parse(localStorage.getItem('otel_app_data_v8'));
+      if (this.cleanData(localData)) {
+        localStorage.setItem('otel_app_data_v8', JSON.stringify(localData));
+      }
     }
   },
   
