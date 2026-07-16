@@ -456,59 +456,69 @@ window.qeConfirmModal = () => {
 
 window.qeSet = (key, val) => { qeState[key] = val; renderVeri(); };
 
-window.qeSetKilo = (product, val) => {
-  qeState.kilos[product] = val;
-  // Update total cell in-place
-  const rows = document.querySelectorAll('.qe-table tbody tr');
-  rows.forEach(row => {
-    const nameCell = row.cells[0];
-    if (!nameCell || !nameCell.textContent.trim().includes(product)) return;
-    const kilo = parseFloat(String(val).replace(',','.')) || 0;
-    row.classList.toggle('qe-row-active', kilo > 0);
-    const totalCell = row.cells[3];
-    if (!totalCell) return;
-    if (kilo > 0) {
-      const priceCell = row.cells[1];
-      const pt = priceCell ? priceCell.innerText.replace(/[₺\s]/g,'').replace(/\./g,'').replace(',','.') : '0';
-      totalCell.textContent = formatCurrency((parseFloat(pt)||0) * kilo);
-      totalCell.style.color = '#10b981';
-    } else {
-      totalCell.textContent = '—';
-    }
-  });
-  // Update save button count
-  const pending = qeState.selectedProducts.filter(p => qeState.kilos[p.product] && (parseFloat(String(qeState.kilos[p.product]).replace(',','.'))||0) > 0).length;
-  const btn = document.querySelector('.dash-btn.btn-green');
-  if (btn) { btn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> KAYDET (${pending})`; btn.disabled = pending===0; }
-};
-
-window.qeRemoveProduct = (product) => {
-  qeState.selectedProducts = qeState.selectedProducts.filter(p => p.product !== product);
-  delete qeState.kilos[product];
-  renderVeri();
-};
-
-window.qeSave = () => {
-  const priceMap = {};
-  qeState.selectedProducts.forEach(p => { priceMap[p.product] = p; });
-  let saved = 0;
-  Object.entries(qeState.kilos).forEach(([product, kiloStr]) => {
-    const kilo = parseFloat(String(kiloStr).replace(',','.')) || 0;
-    if (!kilo || kilo <= 0) return;
-    const p = priceMap[product];
-    const buyPrice = p ? (typeof p.price==='number' ? p.price : parseFloat(String(p.price).replace(/\./g,'').replace(',','.'))) : 0;
-    DataService.addTransaction({ date: qeState.date, supplier: qeState.supplier, hotel: qeState.hotel, product, qty: kilo, adet: '-', buyPrice, supplyPrice: buyPrice });
-    saved++;
+window.qeSetKilo = (product, val) => {
+  qeState.kilos[product] = val;
+  const rows = document.querySelectorAll('.qe-table tbody tr');
+  rows.forEach(row => {
+    const nameCell = row.cells[0];
+    if (!nameCell || !nameCell.textContent.trim().includes(product)) return;
+    
+    const kilo = parseFloat(String(val).replace(',','.')) || 0;
+    row.classList.toggle('qe-row-active', kilo > 0);
+    
+    const buyInput = row.cells[1].querySelector('input');
+    const supplyInput = row.cells[2].querySelector('input');
+    const buyVal = buyInput && buyInput.value ? parseFloat(String(buyInput.value).replace(',','.')) : 0;
+    const supplyVal = supplyInput && supplyInput.value ? parseFloat(String(supplyInput.value).replace(',','.')) : 0;
+    
+    const halCell = row.cells[4];
+    const tedCell = row.cells[5];
+    const farkCell = row.cells[6];
+    
+    if (kilo > 0) {
+      if (halCell) halCell.textContent = formatCurrency(buyVal * kilo);
+      if (tedCell) tedCell.textContent = formatCurrency(supplyVal * kilo);
+      if (farkCell) {
+        farkCell.textContent = formatCurrency((supplyVal - buyVal) * kilo);
+        farkCell.style.color = (supplyVal >= buyVal) ? '#10b981' : '#ef4444';
+      }
+    } else {
+      if (halCell) halCell.textContent = '—';
+      if (tedCell) tedCell.textContent = '—';
+      if (farkCell) {
+        farkCell.textContent = '—';
+        farkCell.style.color = '#9ca3af';
+      }
+    }
   });
-  // Do NOT clear qeState.kilos and qeState.selectedProducts here!
-  // This allows the user to easily change the hotel and click Save again.
+
+  const pending = qeState.selectedProducts.filter(p => {
+    const k = parseFloat(String(qeState.kilos[p.product]).replace(',','.')) || 0;
+    return k > 0;
+  }).length;
+  const btn = document.querySelector('.dash-btn.btn-green');
+  if (btn) {
+    btn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> KAYDET (${pending})`;
+    btn.disabled = pending === 0;
+  }
+};
+
+window.qeSetPrice = (product, type, val) => {
+  if (!qeState.overridePrices[product]) qeState.overridePrices[product] = {};
+  if (val === '') {
+    qeState.overridePrices[product][type] = undefined;
+  } else {
+    qeState.overridePrices[product][type] = parseFloat(String(val).replace(',', '.'));
+  }
+  // Recalculate totals in DOM without losing focus
+  window.qeSetKilo(product, qeState.kilos[product] || '');
+};
+
+window.qeRemoveProduct = (product) => {
+  qeState.selectedProducts = qeState.selectedProducts.filter(p => p.product !== product);
+  delete qeState.kilos[product];
+  delete qeState.overridePrices[product];
   renderVeri();
-  renderDashboard();
-  const toast = document.createElement('div');
-  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#10b981;color:white;padding:16px 24px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:slideIn 0.3s ease;';
-  toast.innerHTML = `<i class="fa-solid fa-check" style="margin-right:8px;"></i>${saved} kalem kaydedildi! Ekran temizlenmedi, başka otel için devam edebilirsiniz.`;
-  document.body.appendChild(toast);
-  setTimeout(() => toast.remove(), 4000);
 };
 
 window.qeClear = () => { qeState.kilos = {}; qeState.selectedProducts = []; qeState.overridePrices = {}; renderVeri(); };
