@@ -1011,8 +1011,8 @@ let pivotState = {
   groupBy: 'hotel_product', // 'hotel_product', 'supplier_product', 'date_product', 'product'
   fieldSearch: '',
   fields: {
-    supplier: false,
-    date: false,
+    supplier: true,
+    date: true,
     product: true,
     kilo: true,
     hotel: true,
@@ -1082,63 +1082,65 @@ function renderPivot() {
     return true;
   });
   
-  // Dynamic Grouping
-  const grouped = {};
+  const f = pivotState.fields;
+
+  // 1. Collect Active Dimensions (Row Columns)
+  const activeDims = [];
+  if (f.supplier) activeDims.push({ key: 'supplier', label: 'MÜSTAHSİL' });
+  if (f.date) activeDims.push({ key: 'date', label: 'TARİH', format: formatAppDate });
+  if (f.product) activeDims.push({ key: 'product', label: 'MAL' });
+  if (f.hotel) activeDims.push({ key: 'hotel', label: 'GİTTİĞİ YER' });
+
+  // 2. Collect Active Metrics (Value Columns)
+  const activeMetrics = [];
+  if (f.kilo) activeMetrics.push({ key: 'kilo', label: 'Toplam KİLO' });
+  if (f.tuted) activeMetrics.push({ key: 'tuted', label: 'Ort. TÜTED' });
+  if (f.buyPrice) activeMetrics.push({ key: 'buyPrice', label: 'Ort. ALIŞ FİAT' });
+  if (f.supplyPrice) activeMetrics.push({ key: 'supplyPrice', label: 'Ort. TEDA FİAT' });
+  if (f.hal) activeMetrics.push({ key: 'hal', label: 'Toplam HAL TUTAR' });
+  if (f.supply) activeMetrics.push({ key: 'supply', label: 'Toplam TEDARİK TUTAR' });
+  if (f.fark) activeMetrics.push({ key: 'fark', label: 'Toplam FARK' });
+
+  // Fallbacks if user unchecks all
+  const displayDims = activeDims.length > 0 ? activeDims : [{ key: 'product', label: 'MAL' }];
+  const displayMetrics = activeMetrics.length > 0 ? activeMetrics : [{ key: 'kilo', label: 'Toplam KİLO' }];
+
+  // Build Table Header
+  let tableHeaderHtml = '<thead><tr>';
+  displayDims.forEach(d => { tableHeaderHtml += `<th>${d.label}</th>`; });
+  displayMetrics.forEach(m => { tableHeaderHtml += `<th>${m.label}</th>`; });
+  tableHeaderHtml += '</tr></thead>';
+
+  // Dynamic Row Grouping
+  const rowGroups = {};
   let gKg = 0, gHal = 0, gTed = 0, gFark = 0, gTutedSum = 0, gCount = 0;
 
-  const getGroupKey = (t) => {
-    if (pivotState.groupBy === 'supplier_product') return t.supplier || 'Bilinmiyor';
-    if (pivotState.groupBy === 'date_product') return formatAppDate(t.date);
-    if (pivotState.groupBy === 'product') return 'TÜM ÜRÜNLER';
-    return t.hotel || 'Bilinmiyor'; // default hotel_product
-  };
-
-  const getSubKey = (t) => {
-    return t.product || 'Bilinmiyor';
-  };
-  
   filtered.forEach(t => {
-    const primaryKey = getGroupKey(t);
-    const subKey = getSubKey(t);
-
     const priceList = (data.priceLists && data.priceLists[t.date]) ? data.priceLists[t.date] : (data.prices || []);
     const pMatch = priceList.find(p => (p.product||'').trim() === (t.product||'').trim());
     const tutedVal = pMatch ? parsePrice(pMatch.price) : 0;
-
     const hal = t.qty * t.buyPrice;
     const ted = t.qty * t.supplyPrice;
     const fark = ted - hal;
 
-    if (!grouped[primaryKey]) grouped[primaryKey] = { sumKg: 0, sumHal: 0, sumTed: 0, sumFark: 0, sumTuted: 0, count: 0, sub: {} };
-    if (!grouped[primaryKey].sub[subKey]) grouped[primaryKey].sub[subKey] = { sumKg: 0, sumHal: 0, sumTed: 0, sumFark: 0, sumTuted: 0, count: 0 };
-    
-    grouped[primaryKey].sub[subKey].sumKg += t.qty;
-    grouped[primaryKey].sub[subKey].sumHal += hal;
-    grouped[primaryKey].sub[subKey].sumTed += ted;
-    grouped[primaryKey].sub[subKey].sumFark += fark;
-    grouped[primaryKey].sub[subKey].sumTuted += tutedVal;
-    grouped[primaryKey].sub[subKey].count += 1;
-    
-    grouped[primaryKey].sumKg += t.qty;
-    grouped[primaryKey].sumHal += hal;
-    grouped[primaryKey].sumTed += ted;
-    grouped[primaryKey].sumFark += fark;
-    grouped[primaryKey].sumTuted += tutedVal;
-    grouped[primaryKey].count += 1;
-    
+    const compKey = displayDims.map(d => t[d.key] || '').join('___');
+
+    if (!rowGroups[compKey]) {
+      rowGroups[compKey] = {
+        dimVals: displayDims.map(d => ({ key: d.key, val: d.format ? d.format(t[d.key]) : (t[d.key] || '-') })),
+        sumKg: 0, sumHal: 0, sumTed: 0, sumFark: 0, sumTuted: 0, count: 0
+      };
+    }
+
+    rowGroups[compKey].sumKg += t.qty;
+    rowGroups[compKey].sumHal += hal;
+    rowGroups[compKey].sumTed += ted;
+    rowGroups[compKey].sumFark += fark;
+    rowGroups[compKey].sumTuted += tutedVal;
+    rowGroups[compKey].count += 1;
+
     gKg += t.qty; gHal += hal; gTed += ted; gFark += fark; gTutedSum += tutedVal; gCount += 1;
   });
-
-  const f = pivotState.fields;
-  
-  let tableHeaderCols = '<th>Satır Etiketleri</th>';
-  if (f.kilo) tableHeaderCols += '<th>Toplam KİLO</th>';
-  if (f.tuted) tableHeaderCols += '<th>Ort. TÜTED</th>';
-  if (f.buyPrice) tableHeaderCols += '<th>Ort. ALIŞ FİAT</th>';
-  if (f.supplyPrice) tableHeaderCols += '<th>Ort. TEDA FİAT</th>';
-  if (f.hal) tableHeaderCols += '<th>Toplam HAL TUTAR</th>';
-  if (f.supply) tableHeaderCols += '<th>Toplam TEDARİK TUTAR</th>';
-  if (f.fark) tableHeaderCols += '<th>Toplam FARK</th>';
 
   const renderMetricCells = (d) => {
     let res = '';
@@ -1146,43 +1148,35 @@ function renderPivot() {
     const avgSupply = d.sumKg > 0 ? (d.sumTed / d.sumKg) : 0;
     const avgTuted = d.count > 0 ? (d.sumTuted / d.count) : 0;
 
-    if (f.kilo) res += `<td>${d.sumKg.toLocaleString('tr-TR')}</td>`;
-    if (f.tuted) res += `<td>${avgTuted > 0 ? formatCurrency(avgTuted) : '—'}</td>`;
-    if (f.buyPrice) res += `<td>${avgBuy > 0 ? formatCurrency(avgBuy) : '—'}</td>`;
-    if (f.supplyPrice) res += `<td>${avgSupply > 0 ? formatCurrency(avgSupply) : '—'}</td>`;
-    if (f.hal) res += `<td>${formatCurrency(d.sumHal)}</td>`;
-    if (f.supply) res += `<td>${formatCurrency(d.sumTed)}</td>`;
-    if (f.fark) res += `<td><span class="${d.sumFark>=0?'success':'danger'}">${formatCurrency(d.sumFark)}</span></td>`;
+    displayMetrics.forEach(m => {
+      if (m.key === 'kilo') res += `<td>${d.sumKg.toLocaleString('tr-TR')}</td>`;
+      if (m.key === 'tuted') res += `<td>${avgTuted > 0 ? formatCurrency(avgTuted) : '—'}</td>`;
+      if (m.key === 'buyPrice') res += `<td>${avgBuy > 0 ? formatCurrency(avgBuy) : '—'}</td>`;
+      if (m.key === 'supplyPrice') res += `<td>${avgSupply > 0 ? formatCurrency(avgSupply) : '—'}</td>`;
+      if (m.key === 'hal') res += `<td>${formatCurrency(d.sumHal)}</td>`;
+      if (m.key === 'supply') res += `<td>${formatCurrency(d.sumTed)}</td>`;
+      if (m.key === 'fark') res += `<td><span class="${d.sumFark>=0?'success':'danger'}">${formatCurrency(d.sumFark)}</span></td>`;
+    });
     return res;
   };
 
-  let tableHtml = `<table>
-    <thead><tr>${tableHeaderCols}</tr></thead>
-    <tbody>`;
-    
-  Object.keys(grouped).sort().forEach(pk => {
-    const d = grouped[pk];
-    if (pivotState.groupBy !== 'product') {
-      tableHtml += `<tr class="pivot-row-group">
-        <td><i class="fa-solid fa-minus" style="font-size:0.75rem;margin-right:4px;"></i> <strong>${pk}</strong></td>
-        ${renderMetricCells(d)}
-      </tr>`;
-    }
-    
-    Object.keys(d.sub).sort().forEach(sk => {
-      const pd = d.sub[sk];
-      tableHtml += `<tr>
-        <td style="padding-left: ${pivotState.groupBy === 'product' ? '12px' : '32px'};">${sk}</td>
-        ${renderMetricCells(pd)}
-      </tr>`;
+  let tableRowsHtml = '<tbody>';
+  Object.values(rowGroups).forEach(rg => {
+    tableRowsHtml += '<tr>';
+    rg.dimVals.forEach((dv, idx) => {
+      tableRowsHtml += `<td>${idx === 0 ? '<strong>' + dv.val + '</strong>' : dv.val}</td>`;
     });
+    tableRowsHtml += renderMetricCells(rg);
+    tableRowsHtml += '</tr>';
   });
-  
+
   const grandTotalObj = { sumKg: gKg, sumTed: gTed, sumHal: gHal, sumFark: gFark, sumTuted: gTutedSum, count: gCount };
-  tableHtml += `<tr class="pivot-row-group" style="background: rgba(96, 165, 250, 0.2);">
-      <td><strong>Genel Toplam</strong></td>
+  tableRowsHtml += `<tr class="pivot-row-group" style="background: rgba(96, 165, 250, 0.2);">
+      <td colspan="${displayDims.length}"><strong>Genel Toplam (${Object.keys(rowGroups).length} Satır)</strong></td>
       ${renderMetricCells(grandTotalObj)}
-    </tr></tbody></table>`;
+    </tr></tbody>`;
+
+  let tableHtml = `<table>${tableHeaderHtml}${tableRowsHtml}</table>`;
 
   const hasActiveSlicers = pivotFilters.hotel || pivotFilters.supplier || pivotFilters.product;
 
@@ -1307,24 +1301,13 @@ function renderPivot() {
 
           <!-- CHECKBOXES LIST -->
           <div class="pivot-field-sec-title"><i class="fa-solid fa-list-check"></i> Alan Listesi (11 Alan)</div>
-          <div style="max-height:220px;overflow-y:auto;background:rgba(0,0,0,0.2);border:1px solid var(--panel-border);border-radius:8px;padding:8px;margin-bottom:16px;">
+          <div style="max-height:260px;overflow-y:auto;background:rgba(0,0,0,0.2);border:1px solid var(--panel-border);border-radius:8px;padding:8px;margin-bottom:16px;">
             ${visibleFields.map(fd => `
               <label class="pivot-field-checkbox">
                 <input type="checkbox" ${pivotState.fields[fd.key] ? 'checked' : ''} onchange="window.togglePivotField('${fd.key}')">
                 <span style="${pivotState.fields[fd.key] ? 'color:#10b981;font-weight:700;' : ''}">${fd.label}</span>
               </label>
             `).join('')}
-          </div>
-
-          <!-- SATIRLAR (GRUPLAMA) -->
-          <div class="pivot-field-section">
-            <div class="pivot-field-sec-title"><i class="fa-solid fa-bars-staggered"></i> Satırlar (Gruplama Hiyerarşisi)</div>
-            <select onchange="window.setPivotGroupBy(this.value)" class="pivot-field-select">
-              <option value="hotel_product" ${pivotState.groupBy==='hotel_product'?'selected':''}>GİTTİĞİ YER ➔ MAL</option>
-              <option value="supplier_product" ${pivotState.groupBy==='supplier_product'?'selected':''}>MÜSTAHSİL ➔ MAL</option>
-              <option value="date_product" ${pivotState.groupBy==='date_product'?'selected':''}>TARİH ➔ MAL</option>
-              <option value="product" ${pivotState.groupBy==='product'?'selected':''}>SADECE MAL</option>
-            </select>
           </div>
         </div>` : ''}
       </div>
