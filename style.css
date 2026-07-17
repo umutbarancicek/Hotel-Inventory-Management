@@ -899,3 +899,19 @@ body.light-theme .pivot-field-select {
   background: #f8fafc;
   color: #0f172a;
 }
+
+
+/* FIX FOR DROPDOWN OPTIONS IN DARK THEME */
+select.pivot-field-select option,
+.pivot-field-select option,
+select option {
+  background-color: #1e293b !important;
+  color: #ffffff !important;
+  padding: 8px !important;
+}
+body.light-theme select.pivot-field-select option,
+body.light-theme .pivot-field-select option,
+body.light-theme select option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
