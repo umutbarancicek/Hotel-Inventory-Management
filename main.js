@@ -334,7 +334,7 @@ function renderVeri() {
       <!-- SELECTED PRODUCTS TABLE -->
       ${qeState.selectedProducts.length > 0 ? `
         <table class="qe-table" style="margin-top:4px;">
-          <thead><tr><th>MAL</th><th>ALIŞ F.</th><th>TEDARİK F.</th><th>KİLO</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th></tr></thead>
+          <thead><tr><th>MAL</th><th>TÜTED</th><th>ALIŞ F.</th><th>TEDARİK F.</th><th>KİLO</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th></tr></thead>
           <tbody>${selectedRows}</tbody>
         </table>
       ` : `
@@ -538,21 +538,30 @@ window.qeSetKilo = (product, val) => {
     const kilo = parseFloat(String(val).replace(',','.')) || 0;
     row.classList.toggle('qe-row-active', kilo > 0);
     
-    const buyInput = row.cells[1].querySelector('input');
-    const supplyInput = row.cells[2].querySelector('input');
-    const buyVal = buyInput && buyInput.value ? parseFloat(String(buyInput.value).replace(',','.')) : 0;
-    const supplyVal = supplyInput && supplyInput.value ? parseFloat(String(supplyInput.value).replace(',','.')) : 0;
+    // Index 0: MAL, Index 1: TÜTED, Index 2: ALIŞ F., Index 3: TEDARİK F., Index 4: KİLO, Index 5: HAL TUTAR, Index 6: TEDARİK, Index 7: FARK
+    const buyInput = row.cells[2] ? row.cells[2].querySelector('input') : null;
+    const supplyInput = row.cells[3] ? row.cells[3].querySelector('input') : null;
     
-    const halCell = row.cells[4];
-    const tedCell = row.cells[5];
-    const farkCell = row.cells[6];
+    const hasBuy = buyInput && buyInput.value !== '';
+    const hasSupply = supplyInput && supplyInput.value !== '';
+    const buyVal = hasBuy ? parseFloat(String(buyInput.value).replace(',','.')) : 0;
+    const supplyVal = hasSupply ? parseFloat(String(supplyInput.value).replace(',','.')) : 0;
+    
+    const halCell = row.cells[5];
+    const tedCell = row.cells[6];
+    const farkCell = row.cells[7];
     
     if (kilo > 0) {
-      if (halCell) halCell.textContent = formatCurrency(buyVal * kilo);
-      if (tedCell) tedCell.textContent = formatCurrency(supplyVal * kilo);
+      if (halCell) halCell.textContent = hasBuy ? formatCurrency(buyVal * kilo) : '—';
+      if (tedCell) tedCell.textContent = hasSupply ? formatCurrency(supplyVal * kilo) : '—';
       if (farkCell) {
-        farkCell.textContent = formatCurrency((supplyVal - buyVal) * kilo);
-        farkCell.style.color = (supplyVal >= buyVal) ? '#10b981' : '#ef4444';
+        if (hasBuy && hasSupply) {
+          farkCell.textContent = formatCurrency((supplyVal - buyVal) * kilo);
+          farkCell.style.color = (supplyVal >= buyVal) ? '#10b981' : '#ef4444';
+        } else {
+          farkCell.textContent = '—';
+          farkCell.style.color = '#9ca3af';
+        }
       }
     } else {
       if (halCell) halCell.textContent = '—';
@@ -601,12 +610,10 @@ window.qeSave = () => {
     const kilo = parseFloat(String(kiloStr).replace(',','.')) || 0;
     if (!kilo || kilo <= 0) return;
     
-    const p = priceMap[product] || { product, price: 0 };
     const ov = qeState.overridePrices[product] || {};
     
-    const basePrice = typeof p.price === 'number' ? p.price : (parseFloat(String(p.price).replace(/\./g,'').replace(',','.')) || 0);
-    const buyPrice = ov.buy !== undefined ? ov.buy : basePrice;
-    const supplyPrice = ov.supply !== undefined ? ov.supply : basePrice;
+    const buyPrice = ov.buy !== undefined ? ov.buy : 0;
+    const supplyPrice = ov.supply !== undefined ? ov.supply : 0;
     
     DataService.addTransaction({
       date: qeState.date,
