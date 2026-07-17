@@ -236,19 +236,28 @@ function renderVeri() {
   const selectedRows = qeState.selectedProducts.map(p => {
     const kilo = qeState.kilos[p.product] || '';
     const ov = qeState.overridePrices[p.product] || {};
-    const buyVal = ov.buy !== undefined ? ov.buy : parsePrice(p.price);
-    const supplyVal = ov.supply !== undefined ? ov.supply : parsePrice(p.price);
-    const hal = kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0 ? formatCurrency(buyVal * (parseFloat(String(kilo).replace(',','.'))||0)) : '—';
-    const ted = kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0 ? formatCurrency(supplyVal * (parseFloat(String(kilo).replace(',','.'))||0)) : '—';
-    const fark = (kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0) ? formatCurrency((supplyVal - buyVal) * (parseFloat(String(kilo).replace(',','.'))||0)) : '—';
+    const buyVal = ov.buy !== undefined ? ov.buy : '';
+    const supplyVal = ov.supply !== undefined ? ov.supply : '';
+    const tutedVal = parsePrice(p.price);
+    const tutedStr = tutedVal > 0 ? formatCurrency(tutedVal) : '—';
+    
+    const numKilo = parseFloat(String(kilo).replace(',','.')) || 0;
+    const numBuy = parseFloat(String(buyVal).replace(',','.')) || 0;
+    const numSupply = parseFloat(String(supplyVal).replace(',','.')) || 0;
+    
+    const hal = (numKilo > 0 && buyVal !== '') ? formatCurrency(numBuy * numKilo) : '—';
+    const ted = (numKilo > 0 && supplyVal !== '') ? formatCurrency(numSupply * numKilo) : '—';
+    const fark = (numKilo > 0 && buyVal !== '' && supplyVal !== '') ? formatCurrency((numSupply - numBuy) * numKilo) : '—';
     const safe = p.product.replace(/'/g,"\\'");
+    
     return `
-      <tr class="${kilo && (parseFloat(String(kilo).replace(',','.'))||0) > 0 ? 'qe-row-active' : ''}">
+      <tr class="${numKilo > 0 ? 'qe-row-active' : ''}">
         <td>
           <button onclick="window.qeRemoveProduct('${safe}')" title="Kaldır"
             style="background:none;border:none;color:#ef4444;cursor:pointer;font-size:1rem;padding:0 6px 0 0;">✕</button>
           <strong>${p.product}</strong>
         </td>
+        <td style="color:#9ca3af;font-size:0.85rem;min-width:70px;">${tutedStr}</td>
         <td style="width:90px;">
           <input type="number" style="width:80px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;color:white;padding:4px 6px;font-family:Outfit,sans-serif;font-size:.85rem;" placeholder="Alış ₺" value="${buyVal}"
             oninput="window.qeSetPrice('${safe}','buy',this.value)" onclick="this.select()">
@@ -264,7 +273,7 @@ function renderVeri() {
         </td>
         <td style="color:#60a5fa;font-weight:700;min-width:90px;">${hal}</td>
         <td style="color:#10b981;font-weight:700;min-width:90px;">${ted}</td>
-        <td style="color:${fark==='—'?'#9ca3af':(supplyVal>=buyVal?'#10b981':'#ef4444')};font-weight:700;min-width:80px;">${fark}</td>
+        <td style="color:${fark==='—'?'#9ca3af':(numSupply>=numBuy?'#10b981':'#ef4444')};font-weight:700;min-width:80px;">${fark}</td>
       </tr>`;
   }).join('');
 
@@ -557,7 +566,7 @@ window.qeSetKilo = (product, val) => {
     const kilo = parseFloat(String(val).replace(',','.')) || 0;
     row.classList.toggle('qe-row-active', kilo > 0);
     
-    // Index 0: MAL, Index 1: TÜTED, Index 2: ALIŞ F., Index 3: TEDARİK F., Index 4: KİLO, Index 5: HAL TUTAR, Index 6: TEDARİK, Index 7: FARK
+    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: ALIŞ F., Cell 3: TEDARİK F., Cell 4: KİLO, Cell 5: HAL TUTAR, Cell 6: TEDARİK, Cell 7: FARK
     const buyInput = row.cells[2] ? row.cells[2].querySelector('input') : null;
     const supplyInput = row.cells[3] ? row.cells[3].querySelector('input') : null;
     
@@ -1118,7 +1127,7 @@ window.setPivotFilter = (key, val) => {
 
 function initTableFeatures() {
    const container = document.getElementById('view-content');
-   const table = container.querySelector('table');
+   const table = container.querySelector('table:not(.qe-table)');
    if(!table) return;
    
    if(!document.getElementById('table-search-box')) {
