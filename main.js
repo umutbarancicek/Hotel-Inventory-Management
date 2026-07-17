@@ -353,7 +353,7 @@ function renderVeri() {
         ${renderDropdownHtml('MAL', txProds, veriFilters.product, 'setVeriFilter', 'product')}
       </div>
       <table>
-        <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>ALIŞ F.</th><th>TEDA F.</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th><th>İŞLEM</th></tr></thead>
+        <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>TÜTED</th><th>ALIŞ F.</th><th>TEDA F.</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th><th>İŞLEM</th></tr></thead>
         <tbody>${txRows}</tbody>
       </table>
     </div>
