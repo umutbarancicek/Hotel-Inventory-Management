@@ -770,3 +770,132 @@ th.desc::after {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+
+/* EXCEL PIVOT SLICERS & FIELD PANEL STYLES */
+.excel-slicer-card {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+body.light-theme .excel-slicer-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.excel-slicer-head {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.excel-slicer-head button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+.excel-slicer-head button:hover { opacity: 1; }
+
+.excel-slicer-body {
+  max-height: 140px;
+  overflow-y: auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.excel-slicer-chip {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+body.light-theme .excel-slicer-chip {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+}
+.excel-slicer-chip:hover {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: #3b82f6;
+}
+.excel-slicer-chip.active {
+  background: #2563eb !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  border-color: #3b82f6 !important;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.4);
+}
+
+.pivot-field-panel {
+  padding: 16px;
+  background: rgba(15, 23, 42, 0.85);
+  border-left: 3px solid #3b82f6;
+  border-radius: 12px;
+}
+body.light-theme .pivot-field-panel {
+  background: #ffffff;
+}
+.pivot-field-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+.pivot-field-sec-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #60a5fa;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.pivot-field-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 6px;
+  transition: background 0.15s;
+}
+.pivot-field-checkbox:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+.pivot-field-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #2563eb;
+  cursor: pointer;
+}
+.pivot-field-select {
+  width: 100%;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+body.light-theme .pivot-field-select {
+  background: #f8fafc;
+  color: #0f172a;
+}
