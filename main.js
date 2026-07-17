@@ -1009,7 +1009,20 @@ function showAccountDetail(acc) {
 let pivotFilters = { hotel: null, supplier: null, product: null, dateFrom: null, dateTo: null };
 let pivotState = {
   groupBy: 'hotel_product', // 'hotel_product', 'supplier_product', 'date_product', 'product'
-  metrics: { kilo: true, supply: true, hal: true, fark: true },
+  fieldSearch: '',
+  fields: {
+    supplier: false,
+    date: false,
+    product: true,
+    kilo: true,
+    hotel: true,
+    tuted: false,
+    buyPrice: false,
+    supplyPrice: false,
+    hal: true,
+    supply: true,
+    fark: true
+  },
   showFieldPanel: true
 };
 
@@ -1029,8 +1042,12 @@ window.togglePivotFieldPanel = () => {
   pivotState.showFieldPanel = !pivotState.showFieldPanel;
   renderPivot();
 };
-window.togglePivotMetric = (key) => {
-  pivotState.metrics[key] = !pivotState.metrics[key];
+window.togglePivotField = (key) => {
+  pivotState.fields[key] = !pivotState.fields[key];
+  renderPivot();
+};
+window.setPivotFieldSearch = (val) => {
+  pivotState.fieldSearch = val;
   renderPivot();
 };
 window.setPivotGroupBy = (val) => {
@@ -1051,6 +1068,9 @@ function renderPivot() {
   const hotels = [...new Set(data.transactions.map(t => (t.hotel||'').trim()))].sort();
   const suppliers = [...new Set(data.transactions.map(t => (t.supplier||'').trim()))].sort();
   const prods = [...new Set(data.transactions.map(t => (t.product||'').trim()))].sort();
+  const dates = [...new Set(data.transactions.map(t => t.date))].sort().reverse();
+
+  const parsePrice = str => typeof str === 'number' ? str : parseFloat(String(str).replace(/\./g,'').replace(',','.')) || 0;
   
   // Filter Data
   let filtered = data.transactions.filter(t => {
@@ -1064,7 +1084,7 @@ function renderPivot() {
   
   // Dynamic Grouping
   const grouped = {};
-  let gKg = 0, gHal = 0, gTed = 0, gFark = 0;
+  let gKg = 0, gHal = 0, gTed = 0, gFark = 0, gTutedSum = 0, gCount = 0;
 
   const getGroupKey = (t) => {
     if (pivotState.groupBy === 'supplier_product') return t.supplier || 'Bilinmiyor';
@@ -1074,48 +1094,65 @@ function renderPivot() {
   };
 
   const getSubKey = (t) => {
-    if (pivotState.groupBy === 'product') return t.product;
-    return t.product;
+    return t.product || 'Bilinmiyor';
   };
   
   filtered.forEach(t => {
     const primaryKey = getGroupKey(t);
     const subKey = getSubKey(t);
 
-    if (!grouped[primaryKey]) grouped[primaryKey] = { sumKg: 0, sumHal: 0, sumTed: 0, sumFark: 0, sub: {} };
-    if (!grouped[primaryKey].sub[subKey]) grouped[primaryKey].sub[subKey] = { sumKg: 0, sumHal: 0, sumTed: 0, sumFark: 0 };
-    
+    const priceList = (data.priceLists && data.priceLists[t.date]) ? data.priceLists[t.date] : (data.prices || []);
+    const pMatch = priceList.find(p => (p.product||'').trim() === (t.product||'').trim());
+    const tutedVal = pMatch ? parsePrice(pMatch.price) : 0;
+
     const hal = t.qty * t.buyPrice;
     const ted = t.qty * t.supplyPrice;
     const fark = ted - hal;
+
+    if (!grouped[primaryKey]) grouped[primaryKey] = { sumKg: 0, sumHal: 0, sumTed: 0, sumFark: 0, sumTuted: 0, count: 0, sub: {} };
+    if (!grouped[primaryKey].sub[subKey]) grouped[primaryKey].sub[subKey] = { sumKg: 0, sumHal: 0, sumTed: 0, sumFark: 0, sumTuted: 0, count: 0 };
     
     grouped[primaryKey].sub[subKey].sumKg += t.qty;
     grouped[primaryKey].sub[subKey].sumHal += hal;
     grouped[primaryKey].sub[subKey].sumTed += ted;
     grouped[primaryKey].sub[subKey].sumFark += fark;
+    grouped[primaryKey].sub[subKey].sumTuted += tutedVal;
+    grouped[primaryKey].sub[subKey].count += 1;
     
     grouped[primaryKey].sumKg += t.qty;
     grouped[primaryKey].sumHal += hal;
     grouped[primaryKey].sumTed += ted;
     grouped[primaryKey].sumFark += fark;
+    grouped[primaryKey].sumTuted += tutedVal;
+    grouped[primaryKey].count += 1;
     
-    gKg += t.qty; gHal += hal; gTed += ted; gFark += fark;
+    gKg += t.qty; gHal += hal; gTed += ted; gFark += fark; gTutedSum += tutedVal; gCount += 1;
   });
 
-  const m = pivotState.metrics;
+  const f = pivotState.fields;
   
   let tableHeaderCols = '<th>Satır Etiketleri</th>';
-  if (m.kilo) tableHeaderCols += '<th>Toplam KİLO</th>';
-  if (m.supply) tableHeaderCols += '<th>Toplam TEDARİK</th>';
-  if (m.hal) tableHeaderCols += '<th>Toplam HAL</th>';
-  if (m.fark) tableHeaderCols += '<th>Toplam FARK</th>';
+  if (f.kilo) tableHeaderCols += '<th>Toplam KİLO</th>';
+  if (f.tuted) tableHeaderCols += '<th>Ort. TÜTED</th>';
+  if (f.buyPrice) tableHeaderCols += '<th>Ort. ALIŞ FİAT</th>';
+  if (f.supplyPrice) tableHeaderCols += '<th>Ort. TEDA FİAT</th>';
+  if (f.hal) tableHeaderCols += '<th>Toplam HAL TUTAR</th>';
+  if (f.supply) tableHeaderCols += '<th>Toplam TEDARİK TUTAR</th>';
+  if (f.fark) tableHeaderCols += '<th>Toplam FARK</th>';
 
   const renderMetricCells = (d) => {
     let res = '';
-    if (m.kilo) res += `<td>${d.sumKg.toLocaleString('tr-TR')}</td>`;
-    if (m.supply) res += `<td>${formatCurrency(d.sumTed)}</td>`;
-    if (m.hal) res += `<td>${formatCurrency(d.sumHal)}</td>`;
-    if (m.fark) res += `<td><span class="${d.sumFark>=0?'success':'danger'}">${formatCurrency(d.sumFark)}</span></td>`;
+    const avgBuy = d.sumKg > 0 ? (d.sumHal / d.sumKg) : 0;
+    const avgSupply = d.sumKg > 0 ? (d.sumTed / d.sumKg) : 0;
+    const avgTuted = d.count > 0 ? (d.sumTuted / d.count) : 0;
+
+    if (f.kilo) res += `<td>${d.sumKg.toLocaleString('tr-TR')}</td>`;
+    if (f.tuted) res += `<td>${avgTuted > 0 ? formatCurrency(avgTuted) : '—'}</td>`;
+    if (f.buyPrice) res += `<td>${avgBuy > 0 ? formatCurrency(avgBuy) : '—'}</td>`;
+    if (f.supplyPrice) res += `<td>${avgSupply > 0 ? formatCurrency(avgSupply) : '—'}</td>`;
+    if (f.hal) res += `<td>${formatCurrency(d.sumHal)}</td>`;
+    if (f.supply) res += `<td>${formatCurrency(d.sumTed)}</td>`;
+    if (f.fark) res += `<td><span class="${d.sumFark>=0?'success':'danger'}">${formatCurrency(d.sumFark)}</span></td>`;
     return res;
   };
 
@@ -1127,7 +1164,7 @@ function renderPivot() {
     const d = grouped[pk];
     if (pivotState.groupBy !== 'product') {
       tableHtml += `<tr class="pivot-row-group">
-        <td><i class="fa-solid fa-minus"></i> <strong>${pk}</strong></td>
+        <td><i class="fa-solid fa-minus" style="font-size:0.75rem;margin-right:4px;"></i> <strong>${pk}</strong></td>
         ${renderMetricCells(d)}
       </tr>`;
     }
@@ -1141,13 +1178,31 @@ function renderPivot() {
     });
   });
   
-  const grandTotalObj = { sumKg: gKg, sumTed: gTed, sumHal: gHal, sumFark: gFark };
+  const grandTotalObj = { sumKg: gKg, sumTed: gTed, sumHal: gHal, sumFark: gFark, sumTuted: gTutedSum, count: gCount };
   tableHtml += `<tr class="pivot-row-group" style="background: rgba(96, 165, 250, 0.2);">
       <td><strong>Genel Toplam</strong></td>
       ${renderMetricCells(grandTotalObj)}
     </tr></tbody></table>`;
 
   const hasActiveSlicers = pivotFilters.hotel || pivotFilters.supplier || pivotFilters.product;
+
+  // Field definitions for the PivotTable Alanları panel
+  const allFieldDefs = [
+    { key: 'supplier', label: 'MÜSTAHSİL' },
+    { key: 'date', label: 'TARİH' },
+    { key: 'product', label: 'MAL' },
+    { key: 'kilo', label: 'KİLO' },
+    { key: 'hotel', label: 'GİTTİĞİ YER' },
+    { key: 'tuted', label: 'TÜTED' },
+    { key: 'buyPrice', label: 'ALIŞ FİAT' },
+    { key: 'supplyPrice', label: 'TEDA FİAT' },
+    { key: 'hal', label: 'HAL TUTAR' },
+    { key: 'supply', label: 'TEDARİK TUTAR' },
+    { key: 'fark', label: 'FARK' }
+  ];
+
+  const fieldSearchLower = (pivotState.fieldSearch || '').toLowerCase();
+  const visibleFields = allFieldDefs.filter(fd => fd.label.toLowerCase().includes(fieldSearchLower));
 
   viewContent.innerHTML = `
     <div class="pivot-wrapper">
@@ -1167,7 +1222,7 @@ function renderPivot() {
         <div style="display:flex;gap:12px;align-items:center;">
           ${hasActiveSlicers ? `
           <button onclick="window.clearPivotSlicers()" style="background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.85rem;">
-            <i class="fa-solid fa-filter-circle-xmark" style="margin-right:4px;"></i>Filtreleri Temizle
+            <i class="fa-solid fa-filter-circle-xmark" style="margin-right:4px;"></i>Dilimleyicileri Temizle
           </button>` : ''}
           <button onclick="window.togglePivotFieldPanel()" class="dash-btn ${pivotState.showFieldPanel ? 'btn-green' : 'btn-black'}" style="margin:0;padding:8px 16px;">
             <i class="fa-solid fa-sliders"></i> PivotTable Alanları (${pivotState.showFieldPanel ? 'Açık' : 'Kapalı'})
@@ -1176,7 +1231,7 @@ function renderPivot() {
       </div>
 
       <!-- EXCEL SLICERS ROW (DİLİMLEYİCİLER) -->
-      <div class="pivot-slicers-container" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:16px;margin-bottom:16px;">
+      <div class="pivot-slicers-container" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(210px, 1fr));gap:14px;margin-bottom:16px;">
         <!-- GİTTİĞİ YER SLICER -->
         <div class="excel-slicer-card">
           <div class="excel-slicer-head">
@@ -1212,6 +1267,18 @@ function renderPivot() {
             ${prods.map(p => `<div class="excel-slicer-chip ${pivotFilters.product === p ? 'active' : ''}" onclick="window.setPivotFilter('product', '${p}')">${p}</div>`).join('')}
           </div>
         </div>
+
+        <!-- TARİH SLICER -->
+        <div class="excel-slicer-card">
+          <div class="excel-slicer-head">
+            <span><i class="fa-solid fa-calendar-days" style="margin-right:6px;"></i>TARİH</span>
+            ${pivotFilters.dateFrom || pivotFilters.dateTo ? `<button onclick="window.clearPivotFilters()" title="Filtreyi Temizle">✕</button>` : ''}
+          </div>
+          <div class="excel-slicer-body">
+            <div class="excel-slicer-chip ${!pivotFilters.dateFrom && !pivotFilters.dateTo ? 'active' : ''}" onclick="window.clearPivotFilters()">(Tümü)</div>
+            ${dates.slice(0, 15).map(d => `<div class="excel-slicer-chip ${pivotFilters.dateFrom === d && pivotFilters.dateTo === d ? 'active' : ''}" onclick="window.setPivotFilter('dateFrom', '${d}'); window.setPivotFilter('dateTo', '${d}');">${formatAppDate(d)}</div>`).join('')}
+          </div>
+        </div>
       </div>
 
       <!-- MAIN GRID AREA: TABLE + FIELD PANEL -->
@@ -1221,37 +1288,37 @@ function renderPivot() {
           ${tableHtml}
         </div>
 
-        <!-- PIVOT FIELD PANEL (SAĞ YAN PANEL) -->
+        <!-- PIVOT FIELD PANEL (EXCEL STYLE SAĞ YAN PANEL) -->
         ${pivotState.showFieldPanel ? `
-        <div class="glass-panel pivot-field-panel" style="width:260px;flex-shrink:0;margin:0;">
-          <div class="pivot-field-head">
-            <i class="fa-solid fa-table-cells" style="color:#3b82f6;"></i>
-            <strong>PivotTable Alanları</strong>
+        <div class="glass-panel pivot-field-panel" style="width:280px;flex-shrink:0;margin:0;">
+          <div class="pivot-field-head" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
+            <div style="display:flex;align-items:center;gap:8px;">
+              <strong style="font-size:1.05rem;">PivotTable Alanları</strong>
+            </div>
+            <i class="fa-solid fa-gear" style="color:#9ca3af;cursor:pointer;" title="Ayarlar"></i>
           </div>
-          <p style="font-size:0.78rem;color:#9ca3af;margin-bottom:14px;">Rapora eklenecek alanları seçin:</p>
+          <p style="font-size:0.8rem;color:#9ca3af;margin-bottom:10px;">Rapora eklenecek alanları seçin:</p>
           
-          <div class="pivot-field-section">
-            <div class="pivot-field-sec-title"><i class="fa-solid fa-calculator"></i> Değerler (Sütunlar)</div>
-            <label class="pivot-field-checkbox">
-              <input type="checkbox" ${pivotState.metrics.kilo ? 'checked' : ''} onchange="window.togglePivotMetric('kilo')">
-              <span>Toplam KİLO</span>
-            </label>
-            <label class="pivot-field-checkbox">
-              <input type="checkbox" ${pivotState.metrics.supply ? 'checked' : ''} onchange="window.togglePivotMetric('supply')">
-              <span>Toplam TEDARİK</span>
-            </label>
-            <label class="pivot-field-checkbox">
-              <input type="checkbox" ${pivotState.metrics.hal ? 'checked' : ''} onchange="window.togglePivotMetric('hal')">
-              <span>Toplam HAL</span>
-            </label>
-            <label class="pivot-field-checkbox">
-              <input type="checkbox" ${pivotState.metrics.fark ? 'checked' : ''} onchange="window.togglePivotMetric('fark')">
-              <span>Toplam FARK</span>
-            </label>
+          <!-- SEARCH INPUT -->
+          <div style="position:relative;margin-bottom:12px;">
+            <input type="text" placeholder="Ara..." value="${pivotState.fieldSearch || ''}" oninput="window.setPivotFieldSearch(this.value)" style="width:100%;background:rgba(255,255,255,0.08);border:1px solid var(--panel-border);border-radius:6px;padding:6px 28px 6px 10px;color:white;font-size:0.85rem;font-family:Outfit,sans-serif;">
+            <i class="fa-solid fa-magnifying-glass" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);color:#9ca3af;font-size:0.8rem;"></i>
           </div>
 
-          <div class="pivot-field-section" style="margin-top:16px;">
-            <div class="pivot-field-sec-title"><i class="fa-solid fa-bars-staggered"></i> Satırlar (Gruplama)</div>
+          <!-- CHECKBOXES LIST -->
+          <div class="pivot-field-sec-title"><i class="fa-solid fa-list-check"></i> Alan Listesi (11 Alan)</div>
+          <div style="max-height:220px;overflow-y:auto;background:rgba(0,0,0,0.2);border:1px solid var(--panel-border);border-radius:8px;padding:8px;margin-bottom:16px;">
+            ${visibleFields.map(fd => `
+              <label class="pivot-field-checkbox">
+                <input type="checkbox" ${pivotState.fields[fd.key] ? 'checked' : ''} onchange="window.togglePivotField('${fd.key}')">
+                <span style="${pivotState.fields[fd.key] ? 'color:#10b981;font-weight:700;' : ''}">${fd.label}</span>
+              </label>
+            `).join('')}
+          </div>
+
+          <!-- SATIRLAR (GRUPLAMA) -->
+          <div class="pivot-field-section">
+            <div class="pivot-field-sec-title"><i class="fa-solid fa-bars-staggered"></i> Satırlar (Gruplama Hiyerarşisi)</div>
             <select onchange="window.setPivotGroupBy(this.value)" class="pivot-field-select">
               <option value="hotel_product" ${pivotState.groupBy==='hotel_product'?'selected':''}>GİTTİĞİ YER ➔ MAL</option>
               <option value="supplier_product" ${pivotState.groupBy==='supplier_product'?'selected':''}>MÜSTAHSİL ➔ MAL</option>
