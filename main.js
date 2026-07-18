@@ -931,10 +931,9 @@ window.qeSave = () => {
     return;
   }
 
-  // Clear kilos and override prices after successful save
+  // Clear kilos and override prices after successful save (keep selectedProducts for next hotel entry)
   qeState.kilos = {};
   qeState.overridePrices = {};
-  qeState.selectedProducts = [];
 
   renderVeri();
   renderDashboard();
