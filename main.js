@@ -1925,7 +1925,7 @@ window.openPivotReportModal = () => {
   const m = document.createElement('div');
   m.id = 'pivot-report-modal-root';
   m.innerHTML = `<div class="modal-overlay" style="display:flex;align-items:center;justify-content:center;padding:20px;overflow-y:auto;" onclick="if(event.target===this){document.getElementById('pivot-report-modal-root').remove();}">
-    <div class="modal-box" style="max-width:920px; width:100%; max-height:90vh; overflow-y:auto; padding:24px; background:#0f172a; border:1px solid rgba(255,255,255,0.15);">
+    <div class="modal-box" style="max-width:1150px; width:95vw; max-height:90vh; overflow-y:auto; padding:24px; background:#0f172a; border:1px solid rgba(255,255,255,0.15);">
       
       <!-- TOP TOOLBAR -->
       <div class="report-modal-toolbar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;background:rgba(255,255,255,0.05);padding:12px 16px;border-radius:12px;">
