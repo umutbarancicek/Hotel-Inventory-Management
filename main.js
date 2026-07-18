@@ -381,11 +381,22 @@ function renderVeri() {
     const kilo = qeState.kilos[p.product] || '';
     const ov = qeState.overridePrices[p.product] || {};
     const buyVal = ov.buy !== undefined ? ov.buy : '';
-    const supplyVal = ov.supply !== undefined ? ov.supply : '';
     
     const pMatch = datePriceList.find(dp => (dp.product||'').trim() === (p.product||'').trim());
     const tutedVal = pMatch ? parsePrice(pMatch.price) : parsePrice(p.price);
     const tutedStr = tutedVal > 0 ? formatCurrency(tutedVal) : '—';
+    
+    // Auto calculate Tedarik Fiyatı based on Hotel (Sephoria & Casafora = 22%, Others = 18%)
+    const hUpper = (qeState.hotel || '').toUpperCase().trim();
+    const isSpecialHotel = hUpper.includes('SEPHORIA') || hUpper.includes('SEAPHORİA') || hUpper.includes('CASAFORA');
+    const marginRate = isSpecialHotel ? 0.22 : 0.18;
+    
+    let defaultSupply = '';
+    if (tutedVal > 0) {
+      defaultSupply = (Math.round(tutedVal * marginRate * 100) / 100).toString();
+    }
+    
+    const supplyVal = ov.supply !== undefined ? ov.supply : defaultSupply;
     
     const numKilo = parseFloat(String(kilo).replace(',','.')) || 0;
     const numBuy = parseFloat(String(buyVal).replace(',','.')) || 0;
@@ -828,7 +839,19 @@ window.qeSave = () => {
     const ov = qeState.overridePrices[product] || {};
     
     const buyPrice = ov.buy !== undefined ? ov.buy : 0;
-    const supplyPrice = ov.supply !== undefined ? ov.supply : 0;
+    
+    let supplyPrice = ov.supply !== undefined ? ov.supply : 0;
+    if (ov.supply === undefined) {
+      const datePriceList = getPriceListForDate(qeState.date);
+      const pMatch = datePriceList.find(dp => (dp.product||'').trim() === product.trim());
+      const tutedVal = pMatch ? parsePrice(pMatch.price) : 0;
+      if (tutedVal > 0) {
+        const hUpper = (qeState.hotel || '').toUpperCase().trim();
+        const isSpecial = hUpper.includes('SEPHORIA') || hUpper.includes('SEAPHORİA') || hUpper.includes('CASAFORA');
+        const rate = isSpecial ? 0.22 : 0.18;
+        supplyPrice = Math.round(tutedVal * rate * 100) / 100;
+      }
+    }
     
     DataService.addTransaction({
       date: qeState.date,
