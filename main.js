@@ -212,7 +212,7 @@ let qeState = {
   date: new Date().toISOString().split('T')[0],
   supplier: null,
   hotel: null,
-  selectedProducts: [], // [{product, price, unit}] — user-selected from modal
+  selectedProducts: [], selectionOrder: [], // [{product, price, unit}] — user-selected from modal
   kilos: {}, overridePrices: {}
 };
 
@@ -554,6 +554,7 @@ function renderVeri() {
 
 // ── MODAL ─────────────────────────────────────────────────────────────────
 window.qeOpenModal = () => {
+  qeState.selectionOrder = qeState.selectedProducts.map(p => p.product);
   const data = DataService.getData();
   const priceList = qeState.priceDate ? (data.priceLists[qeState.priceDate] || data.prices || []) : (data.prices || []);
   const selectedSet = new Set(qeState.selectedProducts.map(p => p.product));
@@ -616,15 +617,12 @@ window.qeConfirmModal = () => {
   const priceMap = {};
   priceList.forEach(p => { priceMap[p.product] = p; });
 
-  const selected = [...document.querySelectorAll('.modal-chip-sel')].map(c => c.dataset.product);
-  
-  // Keep existing kilos for already-selected products; add new ones
-  // We MUST support manual products! Manual products have price=0.
-  // Let's look up the current qeState.selectedProducts to find manual ones
   const currentMap = {};
   qeState.selectedProducts.forEach(p => { currentMap[p.product] = p; });
 
-  const newSelected = selected.map(name => {
+  // Use exact selectionOrder array to preserve the user's explicit click/selection order!
+  const orderedNames = qeState.selectionOrder || [];
+  const newSelected = orderedNames.map(name => {
     if (priceMap[name]) return priceMap[name];
     if (currentMap[name]) return currentMap[name]; // It's a manual product!
     return { product: name, price: 0, unit: 'KG' }; // Fallback
@@ -870,6 +868,9 @@ window.qeSetPrice = (product, type, val) => {
 
 window.qeRemoveProduct = (product) => {
   qeState.selectedProducts = qeState.selectedProducts.filter(p => p.product !== product);
+  if (qeState.selectionOrder) {
+    qeState.selectionOrder = qeState.selectionOrder.filter(p => p !== product);
+  }
   delete qeState.kilos[product];
   delete qeState.overridePrices[product];
   renderVeri();
@@ -1894,6 +1895,14 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
 
 window.qeToggleChip = (el, product) => {
   el.classList.toggle('modal-chip-sel');
+  if (!qeState.selectionOrder) qeState.selectionOrder = [];
+  if (el.classList.contains('modal-chip-sel')) {
+    if (!qeState.selectionOrder.includes(product)) {
+      qeState.selectionOrder.push(product);
+    }
+  } else {
+    qeState.selectionOrder = qeState.selectionOrder.filter(p => p !== product);
+  }
   const count = document.querySelectorAll('.modal-chip-sel').length;
   const counter = document.getElementById('modal-sel-count');
   if (counter) counter.textContent = `${count} seçili`;
