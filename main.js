@@ -1405,6 +1405,9 @@ function renderPivot() {
           <button onclick="window.clearPivotSlicers()" style="background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.85rem;">
             <i class="fa-solid fa-filter-circle-xmark" style="margin-right:4px;"></i>Dilimleyicileri Temizle
           </button>` : ''}
+          <button onclick="window.openPivotReportModal()" class="dash-btn btn-green" style="margin:0;padding:8px 16px;background:linear-gradient(135deg, #10b981 0%, #059669 100%);color:white;box-shadow: 0 4px 12px rgba(16,185,129,0.3);">
+            <i class="fa-solid fa-file-export" style="margin-right:6px;"></i> Rapor / Çıktı Al
+          </button>
           <button onclick="window.togglePivotFieldPanel()" class="dash-btn ${pivotState.showFieldPanel ? 'btn-green' : 'btn-black'}" style="margin:0;padding:8px 16px;">
             <i class="fa-solid fa-sliders"></i> PivotTable Alanları (${pivotState.showFieldPanel ? 'Açık' : 'Kapalı'})
           </button>
@@ -1799,4 +1802,237 @@ window.qeModalSearch = (query) => {
     const p = el.getAttribute('data-product').toLowerCase();
     el.style.display = p.includes(q) ? 'inline-block' : 'none';
   });
+};
+
+window.openPivotReportModal = () => {
+  const data = DataService.getData();
+  
+  // Filtered Data
+  let filtered = data.transactions.filter(t => {
+    if (pivotFilters.hotel && t.hotel !== pivotFilters.hotel) return false;
+    if (pivotFilters.supplier && t.supplier !== pivotFilters.supplier) return false;
+    if (pivotFilters.product && t.product !== pivotFilters.product) return false;
+    if (pivotFilters.dateFrom && t.date < pivotFilters.dateFrom) return false;
+    if (pivotFilters.dateTo && t.date > pivotFilters.dateTo) return false;
+    return true;
+  });
+
+  const f = pivotState.fields;
+
+  // Active Dimensions
+  const activeDims = [];
+  if (f.supplier) activeDims.push({ key: 'supplier', label: 'MÜSTAHSİL' });
+  if (f.date) activeDims.push({ key: 'date', label: 'TARİH', format: formatAppDate });
+  if (f.product) activeDims.push({ key: 'product', label: 'MAL' });
+  if (f.hotel) activeDims.push({ key: 'hotel', label: 'GİTTİĞİ YER' });
+
+  // Active Metrics
+  const activeMetrics = [];
+  if (f.kilo) activeMetrics.push({ key: 'kilo', label: 'Toplam KİLO' });
+  if (f.tuted) activeMetrics.push({ key: 'tuted', label: 'Ort. TÜTED' });
+  if (f.buyPrice) activeMetrics.push({ key: 'buyPrice', label: 'Ort. ALIŞ FİAT' });
+  if (f.supplyPrice) activeMetrics.push({ key: 'supplyPrice', label: 'Ort. TEDA FİAT' });
+  if (f.hal) activeMetrics.push({ key: 'hal', label: 'Toplam HAL TUTAR' });
+  if (f.supply) activeMetrics.push({ key: 'supply', label: 'Toplam TEDARİK TUTAR' });
+  if (f.fark) activeMetrics.push({ key: 'fark', label: 'Toplam FARK' });
+
+  const displayDims = activeDims.length > 0 ? activeDims : [{ key: 'product', label: 'MAL' }];
+  const displayMetrics = activeMetrics.length > 0 ? activeMetrics : [{ key: 'kilo', label: 'Toplam KİLO' }];
+
+  const parsePrice = str => typeof str === 'number' ? str : parseFloat(String(str).replace(/\./g,'').replace(',','.')) || 0;
+
+  // Build Table Header
+  let tableHeaderHtml = '<thead><tr>';
+  displayDims.forEach(d => { tableHeaderHtml += `<th>${d.label}</th>`; });
+  displayMetrics.forEach(m => { tableHeaderHtml += `<th>${m.label}</th>`; });
+  tableHeaderHtml += '</tr></thead>';
+
+  // Dynamic Row Grouping
+  const rowGroups = {};
+  let gKg = 0, gHal = 0, gTed = 0, gFark = 0, gTutedSum = 0, gCount = 0;
+
+  filtered.forEach(t => {
+    const priceList = (data.priceLists && data.priceLists[t.date]) ? data.priceLists[t.date] : (data.prices || []);
+    const pMatch = priceList.find(p => (p.product||'').trim() === (t.product||'').trim());
+    const tutedVal = pMatch ? parsePrice(pMatch.price) : 0;
+    const hal = t.qty * t.buyPrice;
+    const ted = t.qty * t.supplyPrice;
+    const fark = ted - hal;
+
+    const compKey = displayDims.map(d => t[d.key] || '').join('___');
+
+    if (!rowGroups[compKey]) {
+      rowGroups[compKey] = {
+        dimVals: displayDims.map(d => ({ key: d.key, val: d.format ? d.format(t[d.key]) : (t[d.key] || '-') })),
+        sumKg: 0, sumHal: 0, sumTed: 0, sumFark: 0, sumTuted: 0, count: 0
+      };
+    }
+
+    rowGroups[compKey].sumKg += t.qty;
+    rowGroups[compKey].sumHal += hal;
+    rowGroups[compKey].sumTed += ted;
+    rowGroups[compKey].sumFark += fark;
+    rowGroups[compKey].sumTuted += tutedVal;
+    rowGroups[compKey].count += 1;
+
+    gKg += t.qty; gHal += hal; gTed += ted; gFark += fark; gTutedSum += tutedVal; gCount += 1;
+  });
+
+  const renderMetricCells = (d) => {
+    let res = '';
+    const avgBuy = d.sumKg > 0 ? (d.sumHal / d.sumKg) : 0;
+    const avgSupply = d.sumKg > 0 ? (d.sumTed / d.sumKg) : 0;
+    const avgTuted = d.count > 0 ? (d.sumTuted / d.count) : 0;
+
+    displayMetrics.forEach(m => {
+      if (m.key === 'kilo') res += `<td>${d.sumKg.toLocaleString('tr-TR')}</td>`;
+      if (m.key === 'tuted') res += `<td>${avgTuted > 0 ? formatCurrency(avgTuted) : '—'}</td>`;
+      if (m.key === 'buyPrice') res += `<td>${avgBuy > 0 ? formatCurrency(avgBuy) : '—'}</td>`;
+      if (m.key === 'supplyPrice') res += `<td>${avgSupply > 0 ? formatCurrency(avgSupply) : '—'}</td>`;
+      if (m.key === 'hal') res += `<td>${formatCurrency(d.sumHal)}</td>`;
+      if (m.key === 'supply') res += `<td>${formatCurrency(d.sumTed)}</td>`;
+      if (m.key === 'fark') res += `<td><span style="color:${d.sumFark>=0?'#15803d':'#b91c1c'};font-weight:700;">${formatCurrency(d.sumFark)}</span></td>`;
+    });
+    return res;
+  };
+
+  let tableRowsHtml = '<tbody>';
+  Object.values(rowGroups).forEach(rg => {
+    tableRowsHtml += '<tr>';
+    rg.dimVals.forEach((dv, idx) => {
+      tableRowsHtml += `<td>${idx === 0 ? '<strong>' + dv.val + '</strong>' : dv.val}</td>`;
+    });
+    tableRowsHtml += renderMetricCells(rg);
+    tableRowsHtml += '</tr>';
+  });
+
+  const grandTotalObj = { sumKg: gKg, sumTed: gTed, sumHal: gHal, sumFark: gFark, sumTuted: gTutedSum, count: gCount };
+  tableRowsHtml += `<tr class="pivot-row-group">
+      <td colspan="${displayDims.length}"><strong>Genel Toplam (${Object.keys(rowGroups).length} Satır)</strong></td>
+      ${renderMetricCells(grandTotalObj)}
+    </tr></tbody>`;
+
+  const tableHtml = `<div class="report-table-box"><table>${tableHeaderHtml}${tableRowsHtml}</table></div>`;
+
+  const filterBadges = [];
+  if (pivotFilters.hotel) filterBadges.push(`Gittiği Yer: ${pivotFilters.hotel}`);
+  if (pivotFilters.supplier) filterBadges.push(`Müstahsil: ${pivotFilters.supplier}`);
+  if (pivotFilters.product) filterBadges.push(`Mal: ${pivotFilters.product}`);
+
+  const existing = document.getElementById('pivot-report-modal-root');
+  if (existing) existing.remove();
+
+  const m = document.createElement('div');
+  m.id = 'pivot-report-modal-root';
+  m.innerHTML = `<div class="modal-overlay" style="display:flex;align-items:center;justify-content:center;padding:20px;overflow-y:auto;" onclick="if(event.target===this){document.getElementById('pivot-report-modal-root').remove();}">
+    <div class="modal-box" style="max-width:920px; width:100%; max-height:90vh; overflow-y:auto; padding:24px; background:#0f172a; border:1px solid rgba(255,255,255,0.15);">
+      
+      <!-- TOP TOOLBAR -->
+      <div class="report-modal-toolbar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;background:rgba(255,255,255,0.05);padding:12px 16px;border-radius:12px;">
+        <span style="font-size:1rem;font-weight:700;color:white;"><i class="fa-solid fa-file-invoice" style="margin-right:8px;color:#10b981;"></i>RAPOR ÇIKTISI PANOLARI</span>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <button onclick="window.print()" class="dash-btn btn-green" style="margin:0;padding:8px 14px;font-size:0.85rem;">
+            <i class="fa-solid fa-print" style="margin-right:6px;"></i> Yazdır / PDF Yap
+          </button>
+          <button onclick="window.downloadPivotReportExcel()" class="dash-btn btn-black" style="margin:0;padding:8px 14px;font-size:0.85rem;background:#1e293b;color:#38bdf8;border:1px solid rgba(56,189,248,0.3);">
+            <i class="fa-solid fa-file-excel" style="margin-right:6px;"></i> Excel (.xlsx) İndir
+          </button>
+          <button onclick="window.downloadPivotReportImage()" class="dash-btn btn-black" style="margin:0;padding:8px 14px;font-size:0.85rem;background:#1e293b;color:#a78bfa;border:1px solid rgba(167,139,250,0.3);">
+            <i class="fa-solid fa-file-image" style="margin-right:6px;"></i> Görsel (PNG) İndir
+          </button>
+          <button onclick="document.getElementById('pivot-report-modal-root').remove()" style="background:none;border:none;color:#9ca3af;font-size:1.4rem;cursor:pointer;padding:0 6px;">✕</button>
+        </div>
+      </div>
+
+      <!-- PRINTABLE EXECUTIVE REPORT CARD -->
+      <div id="pivot-report-card" class="printable-report-card">
+        <div class="report-header-banner">
+          <div>
+            <h2 class="report-brand-title">OTEL ENVANTER & SEVKİYAT RAPORU</h2>
+            <div class="report-brand-sub">ÖZEL SEVKİYAT VE FARK ANALİZ ÇIKTISI</div>
+          </div>
+          <div class="report-meta-box">
+            <div><strong>Tarih Aralığı:</strong> ${pivotFilters.dateFrom ? formatAppDate(pivotFilters.dateFrom) : 'Tüm'} - ${pivotFilters.dateTo ? formatAppDate(pivotFilters.dateTo) : 'Tüm'}</div>
+            <div><strong>Rapor Tarihi:</strong> ${new Date().toLocaleDateString('tr-TR')}</div>
+            ${filterBadges.length > 0 ? `<div style="margin-top:2px;color:#2563eb;font-weight:700;">${filterBadges.join(' | ')}</div>` : ''}
+          </div>
+        </div>
+
+        <!-- SUMMARY KPIS -->
+        <div class="report-kpi-grid">
+          <div class="report-kpi-item">
+            <span>TOPLAM KİLO</span>
+            <h3>${gKg.toLocaleString('tr-TR')} kg</h3>
+          </div>
+          <div class="report-kpi-item">
+            <span>HAL MALİYETİ</span>
+            <h3>${formatCurrency(gHal)}</h3>
+          </div>
+          <div class="report-kpi-item">
+            <span>TEDARİK TUTARI</span>
+            <h3>${formatCurrency(gTed)}</h3>
+          </div>
+          <div class="report-kpi-item highlight-green">
+            <span>NET FARK / KÂR</span>
+            <h3>${formatCurrency(gFark)}</h3>
+          </div>
+        </div>
+
+        <!-- TABLE -->
+        ${tableHtml}
+      </div>
+
+    </div>
+  </div>`;
+
+  document.body.appendChild(m);
+};
+
+window.downloadPivotReportExcel = () => {
+  const table = document.querySelector('#pivot-report-card table');
+  if (!table) return;
+  const wb = XLSX.utils.table_to_book(table, { sheet: "Pivot Raporu" });
+  XLSX.writeFile(wb, `pivot_sevk_raporu_${new Date().toISOString().split('T')[0]}.xlsx`);
+};
+
+window.downloadPivotReportImage = () => {
+  const element = document.getElementById('pivot-report-card');
+  if (!element) return;
+  
+  const width = element.offsetWidth || 840;
+  const height = element.offsetHeight || 600;
+
+  const clone = element.cloneNode(true);
+  const wrapper = document.createElement('div');
+  wrapper.style.cssText = `width:${width}px;background:#ffffff;padding:24px;box-sizing:border-box;font-family:'Outfit',sans-serif;`;
+  wrapper.appendChild(clone);
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
+    <foreignObject width="100%" height="100%">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        ${wrapper.outerHTML}
+      </div>
+    </foreignObject>
+  </svg>`;
+
+  const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const img = new Image();
+  img.onload = () => {
+    const canvas = document.createElement('canvas');
+    canvas.width = width * 2;
+    canvas.height = height * 2;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(2, 2);
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, width, height);
+    ctx.drawImage(img, 0, 0);
+    
+    const a = document.createElement('a');
+    a.download = `pivot_sevk_raporu_${new Date().toISOString().split('T')[0]}.png`;
+    a.href = canvas.toDataURL('image/png');
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  img.src = url;
 };
