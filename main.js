@@ -417,16 +417,16 @@ function renderVeri() {
         <td style="color:#9ca3af;font-size:0.85rem;min-width:70px;">${tutedStr}</td>
         <td style="width:90px;">
           <input type="number" style="width:80px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;color:white;padding:4px 6px;font-family:Outfit,sans-serif;font-size:.85rem;" placeholder="Alış ₺" value="${buyVal}"
-            oninput="window.qeSetPrice('${safe}','buy',this.value)" onclick="this.select()">
-        </td>
-        <td style="width:90px;">
-          <input type="number" style="width:80px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;color:white;padding:4px 6px;font-family:Outfit,sans-serif;font-size:.85rem;" placeholder="Tedarik ₺" value="${supplyVal}"
-            oninput="window.qeSetPrice('${safe}','supply',this.value)" onclick="this.select()">
+            oninput="window.qeSetPrice('${safe}','buy',this.value)" onkeydown="window.handleQeKeydown(event,this)" onclick="this.select()">
         </td>
         <td style="width:100px;">
           <input type="number" class="qe-table-input" placeholder="kg" value="${kilo}" min="0"
-            oninput="window.qeSetKilo('${safe}', this.value)"
+            oninput="window.qeSetKilo('${safe}', this.value)" onkeydown="window.handleQeKeydown(event,this)"
             onclick="this.select()">
+        </td>
+        <td style="width:90px;">
+          <input type="number" style="width:80px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;color:white;padding:4px 6px;font-family:Outfit,sans-serif;font-size:.85rem;" placeholder="Tedarik ₺" value="${supplyVal}"
+            oninput="window.qeSetPrice('${safe}','supply',this.value)" onkeydown="window.handleQeKeydown(event,this)" onclick="this.select()">
         </td>
         <td style="color:#60a5fa;font-weight:700;min-width:90px;">${hal}</td>
         <td style="color:#10b981;font-weight:700;min-width:90px;">${ted}</td>
@@ -512,7 +512,7 @@ function renderVeri() {
       <!-- SELECTED PRODUCTS TABLE -->
       ${qeState.selectedProducts.length > 0 ? `
         <table class="qe-table" style="margin-top:4px;">
-          <thead><tr><th>MAL</th><th>TÜTED</th><th>ALIŞ F.</th><th>TEDARİK F.</th><th>KİLO</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th></tr></thead>
+          <thead><tr><th>MAL</th><th>TÜTED</th><th>ALIŞ F.</th><th>KİLO</th><th>TEDARİK F.</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th></tr></thead>
           <tbody>${selectedRows}</tbody>
         </table>
       ` : `
@@ -754,6 +754,53 @@ window.qeConfirmPriceListDate = (targetDate) => {
 };
 
 
+
+window.handleQeKeydown = (e, inputEl) => {
+  const key = e.key;
+  if (!['Enter', 'ArrowUp', 'ArrowDown'].includes(key)) return;
+
+  const currentCell = inputEl.closest('td');
+  const currentRow = inputEl.closest('tr');
+  if (!currentCell || !currentRow) return;
+
+  const colIdx = currentCell.cellIndex;
+  const table = currentRow.closest('table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const rowIdx = rows.indexOf(currentRow);
+
+  if (key === 'Enter') {
+    e.preventDefault();
+    const allInputs = Array.from(table.querySelectorAll('tbody input'));
+    const currentInputIdx = allInputs.indexOf(inputEl);
+    if (currentInputIdx !== -1 && currentInputIdx + 1 < allInputs.length) {
+      const nextInput = allInputs[currentInputIdx + 1];
+      nextInput.focus();
+      nextInput.select();
+    }
+  } else if (key === 'ArrowDown') {
+    e.preventDefault();
+    if (rowIdx + 1 < rows.length) {
+      const targetCell = rows[rowIdx + 1].cells[colIdx];
+      const targetInput = targetCell ? targetCell.querySelector('input') : null;
+      if (targetInput) {
+        targetInput.focus();
+        targetInput.select();
+      }
+    }
+  } else if (key === 'ArrowUp') {
+    e.preventDefault();
+    if (rowIdx > 0) {
+      const targetCell = rows[rowIdx - 1].cells[colIdx];
+      const targetInput = targetCell ? targetCell.querySelector('input') : null;
+      if (targetInput) {
+        targetInput.focus();
+        targetInput.select();
+      }
+    }
+  }
+};
+
+
 window.qeSetKilo = (product, val) => {
   qeState.kilos[product] = val;
   const rows = document.querySelectorAll('.qe-table tbody tr');
@@ -764,9 +811,9 @@ window.qeSetKilo = (product, val) => {
     const kilo = parseFloat(String(val).replace(',','.')) || 0;
     row.classList.toggle('qe-row-active', kilo > 0);
     
-    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: ALIŞ F., Cell 3: TEDARİK F., Cell 4: KİLO, Cell 5: HAL TUTAR, Cell 6: TEDARİK, Cell 7: FARK
+    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: ALIŞ F., Cell 3: KİLO, Cell 4: TEDARİK F., Cell 5: HAL TUTAR, Cell 6: TEDARİK, Cell 7: FARK
     const buyInput = row.cells[2] ? row.cells[2].querySelector('input') : null;
-    const supplyInput = row.cells[3] ? row.cells[3].querySelector('input') : null;
+    const supplyInput = row.cells[4] ? row.cells[4].querySelector('input') : null;
     
     const hasBuy = buyInput && buyInput.value !== '';
     const hasSupply = supplyInput && supplyInput.value !== '';
@@ -840,10 +887,10 @@ window.qeSave = () => {
     const product = strongEl ? strongEl.textContent.trim() : '';
     if (!product) return;
     
-    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: ALIŞ F., Cell 3: TEDARİK F., Cell 4: KİLO
+    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: ALIŞ F., Cell 3: KİLO, Cell 4: TEDARİK F.
     const buyInput = row.cells[2] ? row.cells[2].querySelector('input') : null;
-    const supplyInput = row.cells[3] ? row.cells[3].querySelector('input') : null;
-    const kiloInput = row.cells[4] ? row.cells[4].querySelector('input') : null;
+    const kiloInput = row.cells[3] ? row.cells[3].querySelector('input') : null;
+    const supplyInput = row.cells[4] ? row.cells[4].querySelector('input') : null;
     
     const kilo = kiloInput ? (parseFloat(String(kiloInput.value).replace(',','.')) || 0) : 0;
     if (kilo <= 0) return;
