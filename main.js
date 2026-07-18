@@ -415,14 +415,14 @@ function renderVeri() {
           <strong>${p.product}</strong>
         </td>
         <td style="color:#9ca3af;font-size:0.85rem;min-width:70px;">${tutedStr}</td>
-        <td style="width:90px;">
-          <input type="number" style="width:80px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;color:white;padding:4px 6px;font-family:Outfit,sans-serif;font-size:.85rem;" placeholder="Alış ₺" value="${buyVal}"
-            oninput="window.qeSetPrice('${safe}','buy',this.value)" onkeydown="window.handleQeKeydown(event,this)" onclick="this.select()">
-        </td>
         <td style="width:100px;">
           <input type="number" class="qe-table-input" placeholder="kg" value="${kilo}" min="0"
             oninput="window.qeSetKilo('${safe}', this.value)" onkeydown="window.handleQeKeydown(event,this)"
             onclick="this.select()">
+        </td>
+        <td style="width:90px;">
+          <input type="number" style="width:80px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;color:white;padding:4px 6px;font-family:Outfit,sans-serif;font-size:.85rem;" placeholder="Alış ₺" value="${buyVal}"
+            oninput="window.qeSetPrice('${safe}','buy',this.value)" onkeydown="window.handleQeKeydown(event,this)" onclick="this.select()">
         </td>
         <td style="width:90px;">
           <input type="number" style="width:80px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;color:white;padding:4px 6px;font-family:Outfit,sans-serif;font-size:.85rem;" placeholder="Tedarik ₺" value="${supplyVal}"
@@ -512,7 +512,7 @@ function renderVeri() {
       <!-- SELECTED PRODUCTS TABLE -->
       ${qeState.selectedProducts.length > 0 ? `
         <table class="qe-table" style="margin-top:4px;">
-          <thead><tr><th>MAL</th><th>TÜTED</th><th>ALIŞ F.</th><th>KİLO</th><th>TEDARİK F.</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th></tr></thead>
+          <thead><tr><th>MAL</th><th>TÜTED</th><th>KİLO</th><th>ALIŞ F.</th><th>TEDARİK F.</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th></tr></thead>
           <tbody>${selectedRows}</tbody>
         </table>
       ` : `
@@ -809,8 +809,8 @@ window.qeSetKilo = (product, val) => {
     const kilo = parseFloat(String(val).replace(',','.')) || 0;
     row.classList.toggle('qe-row-active', kilo > 0);
     
-    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: ALIŞ F., Cell 3: KİLO, Cell 4: TEDARİK F., Cell 5: HAL TUTAR, Cell 6: TEDARİK, Cell 7: FARK
-    const buyInput = row.cells[2] ? row.cells[2].querySelector('input') : null;
+    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: KİLO, Cell 3: ALIŞ F., Cell 4: TEDARİK F., Cell 5: HAL TUTAR, Cell 6: TEDARİK, Cell 7: FARK
+    const buyInput = row.cells[3] ? row.cells[3].querySelector('input') : null;
     const supplyInput = row.cells[4] ? row.cells[4].querySelector('input') : null;
     
     const hasBuy = buyInput && buyInput.value !== '';
@@ -888,9 +888,9 @@ window.qeSave = () => {
     const product = strongEl ? strongEl.textContent.trim() : '';
     if (!product) return;
     
-    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: ALIŞ F., Cell 3: KİLO, Cell 4: TEDARİK F.
-    const buyInput = row.cells[2] ? row.cells[2].querySelector('input') : null;
-    const kiloInput = row.cells[3] ? row.cells[3].querySelector('input') : null;
+    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: KİLO, Cell 3: ALIŞ F., Cell 4: TEDARİK F.
+    const kiloInput = row.cells[2] ? row.cells[2].querySelector('input') : null;
+    const buyInput = row.cells[3] ? row.cells[3].querySelector('input') : null;
     const supplyInput = row.cells[4] ? row.cells[4].querySelector('input') : null;
     
     const kilo = kiloInput ? (parseFloat(String(kiloInput.value).replace(',','.')) || 0) : 0;
