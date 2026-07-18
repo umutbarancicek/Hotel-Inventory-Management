@@ -216,6 +216,137 @@ let qeState = {
   kilos: {}, overridePrices: {}
 };
 
+
+window.getPriceListForDate = (dateStr) => {
+  if (!dateStr) return DataService.getLatestPrices();
+  const data = DataService.getData();
+  if (!data.priceLists || Object.keys(data.priceLists).length === 0) return data.prices || [];
+  
+  // Try exact match
+  if (data.priceLists[dateStr]) return data.priceLists[dateStr];
+  
+  // Try format conversion match (ISO vs DD.MM.YYYY)
+  let altDate = dateStr;
+  if (dateStr.includes('-')) {
+    const [y, m, d] = dateStr.split('-');
+    altDate = `${d}.${m}.${y}`;
+  } else if (dateStr.includes('.')) {
+    const [d, m, y] = dateStr.split('.');
+    altDate = `${y}-${m}-${d}`;
+  }
+  if (data.priceLists[altDate]) return data.priceLists[altDate];
+  
+  // Try finding closest available date on or before target date
+  const isoTarget = dateStr.includes('.') ? dateStr.split('.').reverse().join('-') : dateStr;
+  const availableDates = Object.keys(data.priceLists).map(d => {
+    const iso = d.includes('.') ? d.split('.').reverse().join('-') : d;
+    return { origKey: d, iso };
+  }).sort((a, b) => b.iso.localeCompare(a.iso));
+  
+  const match = availableDates.find(d => d.iso <= isoTarget) || availableDates[0];
+  if (match) return data.priceLists[match.origKey];
+  
+  return data.prices || [];
+};
+
+window.fetchTutedPriceListForDate = async (targetDateStr, showNotice = true) => {
+  if (!targetDateStr) return null;
+  const isoDate = targetDateStr.includes('.') ? targetDateStr.split('.').reverse().join('-') : targetDateStr;
+  const formattedDate = targetDateStr.includes('-') ? formatAppDate(targetDateStr) : targetDateStr;
+
+  const data = DataService.getData();
+  if (data.priceLists && (data.priceLists[isoDate] || data.priceLists[formattedDate])) {
+    return data.priceLists[isoDate] || data.priceLists[formattedDate];
+  }
+
+  let toast = null;
+  if (showNotice) {
+    toast = document.createElement('div');
+    toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#2563eb;color:white;padding:14px 22px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:slideIn 0.3s ease;display:flex;align-items:center;gap:10px;';
+    toast.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> ${formattedDate} tarihli TÜTED fiyat listesi indiriliyor...`;
+    document.body.appendChild(toast);
+  }
+
+  try {
+    const indexUrl = 'https://proxy.cors.sh/https://antalyatuted.org.tr/Fiyat/Index';
+    const response = await fetch(indexUrl);
+    if (!response.ok) throw new Error('Ağa bağlanılamadı');
+    const htmlText = await response.text();
+
+    const regex = /<td>\s*(\d{2}\.\d{2}\.\d{4})\s*<\/td>[\s\S]*?href="(\/Fiyat\/Index\?p=excel&id=\d+)"/g;
+    const dateMap = [];
+    let match;
+    while ((match = regex.exec(htmlText)) !== null) {
+      const [_, dStr, url] = match;
+      const [d, m, y] = dStr.split('.');
+      const iso = `${y}-${m}-${d}`;
+      dateMap.push({ dStr, iso, url });
+    }
+
+    let targetEntry = dateMap.find(entry => entry.iso === isoDate || entry.dStr === formattedDate);
+    if (!targetEntry) {
+      const sorted = dateMap.sort((a, b) => b.iso.localeCompare(a.iso));
+      targetEntry = sorted.find(entry => entry.iso <= isoDate) || sorted[0];
+    }
+
+    if (!targetEntry) throw new Error(`${formattedDate} tarihi için TÜTED Excel dosyası bulunamadı.`);
+
+    const targetExcelUrl = 'https://antalyatuted.org.tr' + targetEntry.url;
+    const excelRes = await fetch('https://proxy.cors.sh/' + targetExcelUrl);
+    if (!excelRes.ok) throw new Error('Excel dosyası indirilemedi');
+    const arrayBuffer = await excelRes.arrayBuffer();
+
+    const wb = XLSX.read(arrayBuffer, { type: 'array' });
+    const sheet = wb.Sheets[wb.SheetNames[0]];
+    const sheetData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+
+    const newPrices = [];
+    for (let i = 2; i < sheetData.length; i++) {
+      const row = sheetData[i];
+      if (!row || !row[2] || !row[3] || !row[4]) continue;
+      newPrices.push({
+        date: isoDate,
+        product: row[2].toString().trim(),
+        unit: row[3].toString().trim(),
+        price: row[4].toString().trim()
+      });
+    }
+
+    if (newPrices.length === 0) throw new Error('Excel içinde fiyat verisi bulunamadı.');
+
+    DataService.savePriceList(isoDate, newPrices);
+
+    if (toast) {
+      toast.style.background = '#10b981';
+      toast.innerHTML = `<i class="fa-solid fa-check"></i> ${formattedDate} TÜTED fiyatları başarıyla indirildi!`;
+      setTimeout(() => toast.remove(), 3000);
+    }
+
+    if (qeState.selectedProducts && qeState.selectedProducts.length > 0) {
+      const pMap = {};
+      newPrices.forEach(p => { pMap[p.product.trim()] = p.price; });
+      qeState.selectedProducts.forEach(p => {
+        if (pMap[p.product.trim()]) p.price = pMap[p.product.trim()];
+      });
+    }
+
+    renderVeri();
+    renderFiyat();
+    renderDashboard();
+
+    return newPrices;
+  } catch (err) {
+    console.error('Auto fetch TÜTED error:', err);
+    if (toast) {
+      toast.style.background = '#ef4444';
+      toast.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> ${formattedDate} fiyatı çekilemedi (${err.message})`;
+      setTimeout(() => toast.remove(), 4000);
+    }
+    return null;
+  }
+};
+
+
 function renderVeri() {
   viewTitle.innerText = 'VERİ (İşlemler)';
   const data = DataService.getData();
@@ -233,12 +364,15 @@ function renderVeri() {
   // Selected product rows (those the user picked from modal)
   const pendingCount = qeState.selectedProducts.filter(p => qeState.kilos[p.product] && (parseFloat(String(qeState.kilos[p.product]).replace(',','.'))||0) > 0).length;
 
+    const datePriceList = getPriceListForDate(qeState.date);
   const selectedRows = qeState.selectedProducts.map(p => {
     const kilo = qeState.kilos[p.product] || '';
     const ov = qeState.overridePrices[p.product] || {};
     const buyVal = ov.buy !== undefined ? ov.buy : '';
     const supplyVal = ov.supply !== undefined ? ov.supply : '';
-    const tutedVal = parsePrice(p.price);
+    
+    const pMatch = datePriceList.find(dp => (dp.product||'').trim() === (p.product||'').trim());
+    const tutedVal = pMatch ? parsePrice(pMatch.price) : parsePrice(p.price);
     const tutedStr = tutedVal > 0 ? formatCurrency(tutedVal) : '—';
     
     const numKilo = parseFloat(String(kilo).replace(',','.')) || 0;
@@ -291,11 +425,17 @@ function renderVeri() {
     return true;
   }).reverse();
 
-  const txRows = txs.map(tx => {
+    const txRows = txs.map(tx => {
     const hal = tx.qty * tx.buyPrice, ted = tx.qty * tx.supplyPrice;
+    const priceList = getPriceListForDate(tx.date);
+    const pMatch = priceList.find(p => (p.product||'').trim() === (tx.product||'').trim());
+    const tutedVal = pMatch ? parsePrice(pMatch.price) : 0;
+    const tutedStr = tutedVal > 0 ? formatCurrency(tutedVal) : '—';
+
     return `<tr>
       <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td>
       <td>${tx.qty}</td><td>${tx.hotel}</td>
+      <td style="color:#9ca3af;font-size:0.85rem;">${tutedStr}</td>
       <td>${formatCurrency(tx.buyPrice)}</td><td>${formatCurrency(tx.supplyPrice)}</td>
       <td>${formatCurrency(hal)}</td><td>${formatCurrency(ted)}</td>
       <td><span class="${ted-hal>=0?'success':'danger'}">${formatCurrency(ted-hal)}</span></td>
