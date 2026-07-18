@@ -1937,9 +1937,6 @@ window.openPivotReportModal = () => {
           <button onclick="window.downloadPivotReportExcel()" class="dash-btn btn-black" style="margin:0;padding:8px 14px;font-size:0.85rem;background:#1e293b;color:#38bdf8;border:1px solid rgba(56,189,248,0.3);">
             <i class="fa-solid fa-file-excel" style="margin-right:6px;"></i> Excel (.xlsx) İndir
           </button>
-          <button onclick="window.downloadPivotReportImage()" class="dash-btn btn-black" style="margin:0;padding:8px 14px;font-size:0.85rem;background:#1e293b;color:#a78bfa;border:1px solid rgba(167,139,250,0.3);">
-            <i class="fa-solid fa-file-image" style="margin-right:6px;"></i> Görsel (PNG) İndir
-          </button>
           <button onclick="document.getElementById('pivot-report-modal-root').remove()" style="background:none;border:none;color:#9ca3af;font-size:1.4rem;cursor:pointer;padding:0 6px;">✕</button>
         </div>
       </div>
@@ -1993,46 +1990,4 @@ window.downloadPivotReportExcel = () => {
   if (!table) return;
   const wb = XLSX.utils.table_to_book(table, { sheet: "Pivot Raporu" });
   XLSX.writeFile(wb, `pivot_sevk_raporu_${new Date().toISOString().split('T')[0]}.xlsx`);
-};
-
-window.downloadPivotReportImage = () => {
-  const element = document.getElementById('pivot-report-card');
-  if (!element) return;
-  
-  const width = element.offsetWidth || 840;
-  const height = element.offsetHeight || 600;
-
-  const clone = element.cloneNode(true);
-  const wrapper = document.createElement('div');
-  wrapper.style.cssText = `width:${width}px;background:#ffffff;padding:24px;box-sizing:border-box;font-family:'Outfit',sans-serif;`;
-  wrapper.appendChild(clone);
-
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
-    <foreignObject width="100%" height="100%">
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        ${wrapper.outerHTML}
-      </div>
-    </foreignObject>
-  </svg>`;
-
-  const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
-  const url = URL.createObjectURL(blob);
-  const img = new Image();
-  img.onload = () => {
-    const canvas = document.createElement('canvas');
-    canvas.width = width * 2;
-    canvas.height = height * 2;
-    const ctx = canvas.getContext('2d');
-    ctx.scale(2, 2);
-    ctx.fillStyle = '#ffffff';
-    ctx.fillRect(0, 0, width, height);
-    ctx.drawImage(img, 0, 0);
-    
-    const a = document.createElement('a');
-    a.download = `pivot_sevk_raporu_${new Date().toISOString().split('T')[0]}.png`;
-    a.href = canvas.toDataURL('image/png');
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-  img.src = url;
 };
