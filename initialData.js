@@ -25345,5 +25345,6 @@ export const INITIAL_DATA = {
       "type": "hotel",
       "name": "STELLA"
     }
-  ]
+  ],
+  "priceLists": {}
 };

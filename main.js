@@ -1424,7 +1424,10 @@ function renderPivot() {
           </div>
           <div class="excel-slicer-body">
             <div class="excel-slicer-chip ${pivotFilters.hotel === null ? 'active' : ''}" onclick="window.setPivotFilter('hotel', null)">(Tümü)</div>
-            ${hotels.map(h => `<div class="excel-slicer-chip ${pivotFilters.hotel === h ? 'active' : ''}" onclick="window.setPivotFilter('hotel', '${h}')">${h}</div>`).join('')}
+            ${hotels.map(h => {
+              const safeH = h.replace(/'/g, "\\'");
+              return `<div class="excel-slicer-chip ${pivotFilters.hotel === h ? 'active' : ''}" onclick="window.setPivotFilter('hotel', '${safeH}')">${h}</div>`;
+            }).join('')}
           </div>
         </div>
 
@@ -1436,7 +1439,10 @@ function renderPivot() {
           </div>
           <div class="excel-slicer-body">
             <div class="excel-slicer-chip ${pivotFilters.supplier === null ? 'active' : ''}" onclick="window.setPivotFilter('supplier', null)">(Tümü)</div>
-            ${suppliers.map(s => `<div class="excel-slicer-chip ${pivotFilters.supplier === s ? 'active' : ''}" onclick="window.setPivotFilter('supplier', '${s}')">${s}</div>`).join('')}
+            ${suppliers.map(s => {
+              const safeS = s.replace(/'/g, "\\'");
+              return `<div class="excel-slicer-chip ${pivotFilters.supplier === s ? 'active' : ''}" onclick="window.setPivotFilter('supplier', '${safeS}')">${s}</div>`;
+            }).join('')}
           </div>
         </div>
 
@@ -1448,7 +1454,10 @@ function renderPivot() {
           </div>
           <div class="excel-slicer-body">
             <div class="excel-slicer-chip ${pivotFilters.product === null ? 'active' : ''}" onclick="window.setPivotFilter('product', null)">(Tümü)</div>
-            ${prods.map(p => `<div class="excel-slicer-chip ${pivotFilters.product === p ? 'active' : ''}" onclick="window.setPivotFilter('product', '${p}')">${p}</div>`).join('')}
+            ${prods.map(p => {
+              const safeP = p.replace(/'/g, "\\'");
+              return `<div class="excel-slicer-chip ${pivotFilters.product === p ? 'active' : ''}" onclick="window.setPivotFilter('product', '${safeP}')">${p}</div>`;
+            }).join('')}
           </div>
         </div>
 

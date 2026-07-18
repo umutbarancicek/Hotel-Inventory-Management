@@ -8,6 +8,22 @@ export const DataService = {
   cleanData(data) {
     let changed = false;
     
+    // Purge transactions after 16.07.2026
+    if (data.transactions) {
+      const origLen = data.transactions.length;
+      data.transactions = data.transactions.filter(t => {
+        const iso = t.date.includes('.') ? t.date.split('.').reverse().join('-') : t.date;
+        return iso <= '2026-07-16';
+      });
+      if (data.transactions.length !== origLen) changed = true;
+    }
+
+    // Clear priceLists archive
+    if (data.priceLists && Object.keys(data.priceLists).length > 0) {
+      data.priceLists = {};
+      changed = true;
+    }
+
     // Trim transactions
     if (data.transactions) {
       data.transactions.forEach(t => {
