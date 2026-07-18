@@ -497,7 +497,7 @@ function renderVeri() {
             <button onclick="window.qeOpenModal()" class="dash-btn btn-black" style="margin:0;padding:10px 18px;">
               <i class="fa-solid fa-plus"></i> ÜRÜN SEÇ
             </button>
-            <button onclick="window.qeSave()" class="dash-btn btn-green" style="margin:0;padding:10px 18px;" ${pendingCount===0?'disabled':''}>
+            <button id="qe-btn-save" onclick="window.qeSave()" class="dash-btn btn-green" style="margin:0;padding:10px 18px;" ${pendingCount===0?'disabled':''}>
               <i class="fa-solid fa-floppy-disk"></i> KAYDET (${pendingCount})
             </button>
             ${qeState.selectedProducts.length > 0 ? `
@@ -803,7 +803,7 @@ window.qeSetKilo = (product, val) => {
     const k = parseFloat(String(qeState.kilos[p.product]).replace(',','.')) || 0;
     return k > 0;
   }).length;
-  const btn = document.querySelector('.dash-btn.btn-green');
+  const btn = document.getElementById('qe-btn-save');
   if (btn) {
     btn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> KAYDET (${pending})`;
     btn.disabled = pending === 0;
@@ -829,19 +829,31 @@ window.qeRemoveProduct = (product) => {
 };
 
 window.qeSave = () => {
-  const priceMap = {};
-  qeState.selectedProducts.forEach(p => { priceMap[p.product] = p; });
   let saved = 0;
-  Object.entries(qeState.kilos).forEach(([product, kiloStr]) => {
-    const kilo = parseFloat(String(kiloStr).replace(',','.')) || 0;
-    if (!kilo || kilo <= 0) return;
+  
+  // Read directly from DOM rows to guarantee we catch live input values!
+  const rows = document.querySelectorAll('.qe-table tbody tr');
+  rows.forEach(row => {
+    const nameCell = row.cells[0];
+    if (!nameCell) return;
+    const strongEl = nameCell.querySelector('strong');
+    const product = strongEl ? strongEl.textContent.trim() : '';
+    if (!product) return;
     
-    const ov = qeState.overridePrices[product] || {};
+    // Cell 0: MAL, Cell 1: TÜTED, Cell 2: ALIŞ F., Cell 3: TEDARİK F., Cell 4: KİLO
+    const buyInput = row.cells[2] ? row.cells[2].querySelector('input') : null;
+    const supplyInput = row.cells[3] ? row.cells[3].querySelector('input') : null;
+    const kiloInput = row.cells[4] ? row.cells[4].querySelector('input') : null;
     
-    const buyPrice = ov.buy !== undefined ? ov.buy : 0;
+    const kilo = kiloInput ? (parseFloat(String(kiloInput.value).replace(',','.')) || 0) : 0;
+    if (kilo <= 0) return;
     
-    let supplyPrice = ov.supply !== undefined ? ov.supply : 0;
-    if (ov.supply === undefined) {
+    const buyPrice = buyInput ? (parseFloat(String(buyInput.value).replace(',','.')) || 0) : 0;
+    
+    let supplyPrice = 0;
+    if (supplyInput && supplyInput.value !== '') {
+      supplyPrice = parseFloat(String(supplyInput.value).replace(',','.')) || 0;
+    } else {
       const datePriceList = getPriceListForDate(qeState.date);
       const pMatch = datePriceList.find(dp => (dp.product||'').trim() === product.trim());
       const tutedVal = pMatch ? parsePrice(pMatch.price) : 0;
@@ -852,7 +864,7 @@ window.qeSave = () => {
         supplyPrice = Math.round(tutedVal * rate * 100) / 100;
       }
     }
-    
+
     DataService.addTransaction({
       date: qeState.date,
       supplier: qeState.supplier,
@@ -865,11 +877,23 @@ window.qeSave = () => {
     });
     saved++;
   });
+
+  if (saved === 0) {
+    alert("Kaydedilecek miktar (kg) bulunamadı! Lütfen en az bir ürün için 'kg' miktarını girin.");
+    return;
+  }
+
+  // Clear kilos and override prices after successful save
+  qeState.kilos = {};
+  qeState.overridePrices = {};
+  qeState.selectedProducts = [];
+
   renderVeri();
   renderDashboard();
+
   const toast = document.createElement('div');
   toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#10b981;color:white;padding:16px 24px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:slideIn 0.3s ease;';
-  toast.innerHTML = `<i class="fa-solid fa-check" style="margin-right:8px;"></i>${saved} kalem kaydedildi! Ekran temizlenmedi, başka otel için devam edebilirsiniz.`;
+  toast.innerHTML = `<i class="fa-solid fa-check" style="margin-right:8px;"></i>Başarılı! ${saved} kalem sevkiyat veritabanına kaydedildi.`;
   document.body.appendChild(toast);
   setTimeout(() => toast.remove(), 4000);
 };
