@@ -254,6 +254,19 @@ window.fetchTutedPriceListForDate = async (targetDateStr, showNotice = true) => 
   const isoDate = targetDateStr.includes('.') ? targetDateStr.split('.').reverse().join('-') : targetDateStr;
   const formattedDate = targetDateStr.includes('-') ? formatAppDate(targetDateStr) : targetDateStr;
 
+  // Check if date is in the future relative to today
+  const todayIso = new Date().toISOString().split('T')[0];
+  if (isoDate > todayIso) {
+    if (showNotice) {
+      const toast = document.createElement('div');
+      toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#eab308;color:#0f172a;padding:14px 22px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.4);animation:slideIn 0.3s ease;display:flex;align-items:center;gap:10px;';
+      toast.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> <strong>${formattedDate}</strong> tarihi ileri bir tarih olduğu için henüz TÜTED borsa listesi yayınlanmamıştır.`;
+      document.body.appendChild(toast);
+      setTimeout(() => toast.remove(), 4500);
+    }
+    return null;
+  }
+
   const data = DataService.getData();
   if (data.priceLists && (data.priceLists[isoDate] || data.priceLists[formattedDate])) {
     return data.priceLists[isoDate] || data.priceLists[formattedDate];
@@ -345,7 +358,6 @@ window.fetchTutedPriceListForDate = async (targetDateStr, showNotice = true) => 
     return null;
   }
 };
-
 
 function renderVeri() {
   viewTitle.innerText = 'VERİ (İşlemler)';
@@ -674,7 +686,7 @@ window.qePromptPriceList = (targetDate) => {
   const sortedDates = Object.keys(priceLists).sort((a, b) => b.localeCompare(a));
   
   const options = sortedDates.length > 0
-    ? sortedDates.map(d => `<option value="${d}">${formatAppDate(d)} Arşiv Listesi</option>`).join('')
+    ? sortedDates.map(d => `<option value="${d}">${formatAppDate(d)}</option>`).join('')
     : '<option value="">Arşivde liste yok</option>';
 
   const modalInputStyle = 'width:100%;box-sizing:border-box;padding:10px 14px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:8px;color:white;font-family:Outfit,sans-serif;font-size:.95rem;outline:none;';
@@ -682,36 +694,38 @@ window.qePromptPriceList = (targetDate) => {
   const existingModal = document.getElementById('price-select-modal');
   if (existingModal) existingModal.remove();
 
+  const isoDate = targetDate.includes('.') ? targetDate.split('.').reverse().join('-') : targetDate;
+  const todayIso = new Date().toISOString().split('T')[0];
+  const isFuture = isoDate > todayIso;
+
   const m = document.createElement('div');
   m.id = 'price-select-modal';
   m.innerHTML = `<div class="modal-overlay" onclick="if(event.target===this){document.getElementById('price-select-modal').remove(); renderVeri();}">
     <div class="modal-box" style="max-width:440px; text-align: center; padding:24px;">
-      <div class="modal-header" style="margin-bottom:14px;">
-        <span><i class="fa-solid fa-triangle-exclamation" style="margin-right:8px;color:#eab308;"></i>Fiyat Listesi Seçin</span>
+      <div class="modal-header" style="margin-bottom:14px; display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-size:1.05rem; font-weight:700;"><i class="fa-solid fa-triangle-exclamation" style="margin-right:8px;color:#eab308;"></i>TÜTED Fiyat Listesi Bulunamadı</span>
         <button onclick="document.getElementById('price-select-modal').remove(); renderVeri();" style="background:none;border:none;color:#9ca3af;font-size:1.4rem;cursor:pointer;">✕</button>
       </div>
-      <p style="color:#e2e8f0; margin:0 0 20px 0; font-size:0.95rem; line-height: 1.5;">
-        <strong>${formatAppDate(targetDate)}</strong> tarihine ait kayıtlı fiyat listesi bulunamadı.<br>
-        Nasıl devam etmek istersiniz?
+      <p style="color:#e2e8f0; margin:16px 0 20px 0; font-size:0.95rem; line-height: 1.5;">
+        <strong>${formatAppDate(targetDate)}</strong> ${isFuture ? 'tarihi ileri bir tarih olduğu için henüz TÜTED fiyat listesi yayınlanmamıştır.' : 'tarihine ait bir TÜTED fiyat listesi bulunamadı.'}<br><br>
+        İşlem için hangi tarihin fiyat listesini kullanmak istersiniz?
       </p>
-      
-      <!-- DIRECT DOWNLOAD BUTTON -->
-      <button onclick="window.qeDownloadTutedForDate('${targetDate}')" class="dash-btn btn-green" style="margin:0 0 16px 0;padding:14px;width:100%;font-size:0.95rem;">
-        <i class="fa-solid fa-cloud-arrow-down" style="margin-right:8px;"></i> ${formatAppDate(targetDate)} FİYATLARINI İNTERNETTEN İNDİR
-      </button>
 
-      <div style="position:relative;margin:16px 0;border-top:1px solid rgba(255,255,255,0.12);">
-        <span style="position:absolute;top:-10px;left:50%;transform:translateX(-50%);background:#1e293b;padding:0 10px;color:#9ca3af;font-size:0.75rem;font-weight:600;">VEYA ARŞİVDEN SEÇİN</span>
-      </div>
-
-      <div style="margin-top:16px;">
+      <div style="margin-bottom:16px;">
         <select id="ps-date" style="${modalInputStyle}">
           ${options}
         </select>
-        <button onclick="window.qeConfirmPriceListDate('${targetDate}')" class="dash-btn btn-black" style="margin-top:10px;padding:10px;width:100%;">
-          <i class="fa-solid fa-check" style="margin-right:6px;"></i> Seçilen Arşiv Listesini Kullan
-        </button>
       </div>
+
+      <button onclick="window.qeConfirmPriceListDate('${targetDate}')" class="dash-btn btn-green" style="margin:0 0 12px 0;padding:12px;width:100%;font-size:0.95rem;">
+        <i class="fa-solid fa-check" style="margin-right:6px;"></i> FİYAT LİSTESİNİ KULLAN
+      </button>
+
+      ${!isFuture ? `
+      <button onclick="window.qeDownloadTutedForDate('${targetDate}')" class="dash-btn btn-black" style="margin:0;padding:8px;width:100%;font-size:0.82rem;color:#9ca3af;">
+        <i class="fa-solid fa-rotate" style="margin-right:6px;"></i> TÜTED'den Tekrar Çekmeyi Dene
+      </button>
+      ` : ''}
     </div>
   </div>`;
   document.body.appendChild(m);
