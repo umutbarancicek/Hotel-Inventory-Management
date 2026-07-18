@@ -8,20 +8,29 @@ export const DataService = {
   cleanData(data) {
     let changed = false;
     
-    // Purge transactions after 16.07.2026
-    if (data.transactions) {
-      const origLen = data.transactions.length;
-      data.transactions = data.transactions.filter(t => {
-        const iso = t.date.includes('.') ? t.date.split('.').reverse().join('-') : t.date;
-        return iso <= '2026-07-16';
-      });
-      if (data.transactions.length !== origLen) changed = true;
-    }
-
     // Clear priceLists archive
     if (data.priceLists && Object.keys(data.priceLists).length > 0) {
       data.priceLists = {};
       changed = true;
+    }
+
+    // Sync newly inserted initialData transactions into existing localData if missing
+    if (data.transactions) {
+      const existingSet = new Set(
+        data.transactions.map(t => `${t.date}_${(t.supplier||'').trim()}_${(t.hotel||'').trim()}_${(t.product||'').trim()}`)
+      );
+      const newFromInit = INITIAL_DATA.transactions.filter(t => {
+        const k = `${t.date}_${(t.supplier||'').trim()}_${(t.hotel||'').trim()}_${(t.product||'').trim()}`;
+        return !existingSet.has(k);
+      });
+      if (newFromInit.length > 0) {
+        let maxId = data.transactions.reduce((m, x) => Math.max(m, x.id || 0), 0);
+        newFromInit.forEach(mi => {
+          maxId++;
+          data.transactions.push({ ...mi, id: maxId });
+        });
+        changed = true;
+      }
     }
 
     // Trim transactions

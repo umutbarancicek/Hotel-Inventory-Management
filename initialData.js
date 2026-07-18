@@ -24109,6 +24109,296 @@ export const INITIAL_DATA = {
       "qty": 558,
       "buyPrice": 8,
       "supplyPrice": 22.5
+    },
+    {
+      "id": 2413,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "BİBER DOLMA",
+      "qty": 59,
+      "buyPrice": 70,
+      "supplyPrice": 83.6
+    },
+    {
+      "id": 2414,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "BİBER KAPYA",
+      "qty": 63,
+      "buyPrice": 40,
+      "supplyPrice": 74.8
+    },
+    {
+      "id": 2415,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "DOMATES",
+      "qty": 480,
+      "buyPrice": 25,
+      "supplyPrice": 47.3
+    },
+    {
+      "id": 2416,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "DOMATES KOKTEYL",
+      "qty": 42,
+      "buyPrice": 60,
+      "supplyPrice": 55
+    },
+    {
+      "id": 2417,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "HAVUÇ BEYPAZARI",
+      "qty": 70,
+      "buyPrice": 35,
+      "supplyPrice": 39.6
+    },
+    {
+      "id": 2418,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "SALATALIK SİLOR PAKET",
+      "qty": 275,
+      "buyPrice": 15,
+      "supplyPrice": 37.4
+    },
+    {
+      "id": 2419,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "LAHANA BEYAZ",
+      "qty": 69,
+      "buyPrice": 30,
+      "supplyPrice": 33
+    },
+    {
+      "id": 2420,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "LAHANA KIRMIZI",
+      "qty": 68,
+      "buyPrice": 30,
+      "supplyPrice": 39.6
+    },
+    {
+      "id": 2421,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "PATATES TAZE",
+      "qty": 102,
+      "buyPrice": 42,
+      "supplyPrice": 48.4
+    },
+    {
+      "id": 2422,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "PATLICAN",
+      "qty": 109,
+      "buyPrice": 18,
+      "supplyPrice": 37.4
+    },
+    {
+      "id": 2423,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "SOĞAN KURU",
+      "qty": 176,
+      "buyPrice": 70,
+      "supplyPrice": 61.6
+    },
+    {
+      "id": 2424,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "ÜZÜM BEYAZ",
+      "qty": 50,
+      "buyPrice": 50,
+      "supplyPrice": 105.6
+    },
+    {
+      "id": 2425,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "KAYISI",
+      "qty": 103,
+      "buyPrice": 45,
+      "supplyPrice": 72.6
+    },
+    {
+      "id": 2426,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "NEKTARİN",
+      "qty": 40,
+      "buyPrice": 40,
+      "supplyPrice": 83.6
+    },
+    {
+      "id": 2427,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "ŞEFTALİ",
+      "qty": 109,
+      "buyPrice": 40,
+      "supplyPrice": 83.6
+    },
+    {
+      "id": 2428,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "ERİK PAPAZ",
+      "qty": 66,
+      "buyPrice": 45,
+      "supplyPrice": 138.6
+    },
+    {
+      "id": 2429,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "MUZ YERLİ",
+      "qty": 41,
+      "buyPrice": 45,
+      "supplyPrice": 55
+    },
+    {
+      "id": 2430,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "GREYFURT",
+      "qty": 43,
+      "buyPrice": 25,
+      "supplyPrice": 39.6
+    },
+    {
+      "id": 2431,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "LİMON",
+      "qty": 127,
+      "buyPrice": 60,
+      "supplyPrice": 90.2
+    },
+    {
+      "id": 2432,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "PORTAKAL SIKMALIK",
+      "qty": 108,
+      "buyPrice": 20,
+      "supplyPrice": 33
+    },
+    {
+      "id": 2433,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "LOLOROSSO",
+      "qty": 16,
+      "buyPrice": 25,
+      "supplyPrice": 50.6
+    },
+    {
+      "id": 2434,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "DEREOTU",
+      "qty": 80,
+      "buyPrice": 10,
+      "supplyPrice": 19.8
+    },
+    {
+      "id": 2435,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "FESLEĞEN",
+      "qty": 50,
+      "buyPrice": 10,
+      "supplyPrice": 18.7
+    },
+    {
+      "id": 2436,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "MARUL DÜZ",
+      "qty": 56,
+      "buyPrice": 20,
+      "supplyPrice": 34.1
+    },
+    {
+      "id": 2437,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "MARUL KIVIRCIK",
+      "qty": 56,
+      "buyPrice": 20,
+      "supplyPrice": 34.1
+    },
+    {
+      "id": 2438,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "MAYDONOZ",
+      "qty": 120,
+      "buyPrice": 9,
+      "supplyPrice": 18.7
+    },
+    {
+      "id": 2439,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "NANE",
+      "qty": 150,
+      "buyPrice": 9,
+      "supplyPrice": 18.7
+    },
+    {
+      "id": 2440,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "ROKA",
+      "qty": 80,
+      "buyPrice": 9,
+      "supplyPrice": 18.7
+    },
+    {
+      "id": 2441,
+      "date": "2026-07-18",
+      "supplier": "MSD07 TAR ÜR",
+      "hotel": "CASAFORA",
+      "product": "SEMİZOTU",
+      "qty": 100,
+      "buyPrice": 9,
+      "supplyPrice": 18.7
     }
   ],
   "payments": [
