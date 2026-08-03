@@ -2101,3 +2101,226 @@ window.downloadPivotReportExcel = () => {
   const wb = XLSX.utils.table_to_book(table, { sheet: "Pivot Raporu" });
   XLSX.writeFile(wb, `pivot_sevk_raporu_${new Date().toISOString().split('T')[0]}.xlsx`);
 };
+
+// ── AYARLAR MODAL ─────────────────────────────────────────────────────────────
+window.openAyarlarModal = () => {
+  const existing = document.getElementById('ayarlar-modal');
+  if (existing) existing.remove();
+
+  const data = DataService.getData();
+  const suppliers = data.accounts.filter(a => a.type === 'supplier');
+  const hotels = data.accounts.filter(a => a.type === 'hotel');
+
+  const renderList = (items, type) => items.map((a, i) => `
+    <div class="ayarlar-list-item" id="ayarlar-item-${type}-${i}">
+      <span class="ayarlar-item-name">${a.name}</span>
+      <button class="ayarlar-delete-btn" onclick="window.ayarlarDeleteAccount('${a.name.replace(/'/g,"\\'")}','${type}')" title="Sil">
+        <i class="fa-solid fa-trash"></i>
+      </button>
+    </div>
+  `).join('');
+
+  const modal = document.createElement('div');
+  modal.id = 'ayarlar-modal';
+  modal.innerHTML = `
+    <div class="modal-overlay" onclick="if(event.target===this) window.closeAyarlarModal()" style="z-index:10000;">
+      <div class="modal-box" style="max-width:560px;width:95%;padding:0;overflow:hidden;">
+        
+        <!-- Header -->
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:20px 24px;background:rgba(59,130,246,0.15);border-bottom:1px solid rgba(255,255,255,0.1);">
+          <span style="font-size:1.15rem;font-weight:700;display:flex;align-items:center;gap:10px;">
+            <i class="fa-solid fa-gear" style="color:#3b82f6;"></i> CARİ HESAP YÖNETİMİ
+          </span>
+          <button onclick="window.closeAyarlarModal()" style="background:none;border:none;color:#9ca3af;font-size:1.5rem;cursor:pointer;line-height:1;">×</button>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;max-height:70vh;overflow:hidden;">
+          
+          <!-- Müstahsil Sütunu -->
+          <div style="padding:20px;border-right:1px solid rgba(255,255,255,0.1);display:flex;flex-direction:column;gap:12px;">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#10b981;"></div>
+              <strong style="font-size:0.95rem;">MÜSTAHSİLLER</strong>
+              <span style="background:rgba(16,185,129,0.2);color:#10b981;border-radius:20px;padding:1px 8px;font-size:0.75rem;font-weight:700;">${suppliers.length}</span>
+            </div>
+            
+            <div style="display:flex;gap:6px;">
+              <input type="text" id="ayarlar-new-supplier" placeholder="Yeni müstahsil adı..." 
+                style="flex:1;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:8px 10px;color:white;font-family:Outfit,sans-serif;font-size:0.85rem;outline:none;"
+                onkeydown="if(event.key==='Enter') window.ayarlarAddAccount('supplier')">
+              <button onclick="window.ayarlarAddAccount('supplier')" 
+                style="background:rgba(16,185,129,0.2);border:1px solid #10b981;color:#10b981;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:0.9rem;font-weight:700;white-space:nowrap;">
+                + Ekle
+              </button>
+            </div>
+            
+            <div id="ayarlar-supplier-list" style="flex:1;overflow-y:auto;max-height:340px;display:flex;flex-direction:column;gap:4px;">
+              ${renderList(suppliers, 'supplier')}
+            </div>
+          </div>
+
+          <!-- Otel Sütunu -->
+          <div style="padding:20px;display:flex;flex-direction:column;gap:12px;">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#3b82f6;"></div>
+              <strong style="font-size:0.95rem;">OTELLER</strong>
+              <span style="background:rgba(59,130,246,0.2);color:#3b82f6;border-radius:20px;padding:1px 8px;font-size:0.75rem;font-weight:700;">${hotels.length}</span>
+            </div>
+            
+            <div style="display:flex;gap:6px;">
+              <input type="text" id="ayarlar-new-hotel" placeholder="Yeni otel adı..."
+                style="flex:1;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:8px 10px;color:white;font-family:Outfit,sans-serif;font-size:0.85rem;outline:none;"
+                onkeydown="if(event.key==='Enter') window.ayarlarAddAccount('hotel')">
+              <button onclick="window.ayarlarAddAccount('hotel')" 
+                style="background:rgba(59,130,246,0.2);border:1px solid #3b82f6;color:#3b82f6;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:0.9rem;font-weight:700;white-space:nowrap;">
+                + Ekle
+              </button>
+            </div>
+            
+            <div id="ayarlar-hotel-list" style="flex:1;overflow-y:auto;max-height:340px;display:flex;flex-direction:column;gap:4px;">
+              ${renderList(hotels, 'hotel')}
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="padding:14px 24px;background:rgba(0,0,0,0.2);border-top:1px solid rgba(255,255,255,0.1);display:flex;justify-content:flex-end;">
+          <button onclick="window.closeAyarlarModal()" class="dash-btn btn-green" style="margin:0;padding:10px 28px;">
+            <i class="fa-solid fa-check" style="margin-right:6px;"></i> Kapat
+          </button>
+        </div>
+
+      </div>
+    </div>
+  `;
+
+  // Inject styles
+  if (!document.getElementById('ayarlar-styles')) {
+    const style = document.createElement('style');
+    style.id = 'ayarlar-styles';
+    style.textContent = `
+      .ayarlar-list-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 12px;
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 8px;
+        transition: background 0.15s;
+      }
+      .ayarlar-list-item:hover { background: rgba(255,255,255,0.09); }
+      .ayarlar-item-name { font-size: 0.88rem; font-weight: 600; letter-spacing: 0.02em; }
+      .ayarlar-delete-btn {
+        background: none;
+        border: none;
+        color: #6b7280;
+        cursor: pointer;
+        padding: 4px 6px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        transition: color 0.15s, background 0.15s;
+      }
+      .ayarlar-delete-btn:hover { color: #ef4444; background: rgba(239,68,68,0.1); }
+    `;
+    document.head.appendChild(style);
+  }
+
+  document.body.appendChild(modal);
+  setTimeout(() => document.getElementById('ayarlar-new-supplier').focus(), 100);
+};
+
+window.closeAyarlarModal = () => {
+  const m = document.getElementById('ayarlar-modal');
+  if (m) m.remove();
+};
+
+window.ayarlarAddAccount = async (type) => {
+  const inputId = type === 'supplier' ? 'ayarlar-new-supplier' : 'ayarlar-new-hotel';
+  const input = document.getElementById(inputId);
+  if (!input) return;
+  const name = input.value.trim().toUpperCase();
+  if (!name) { input.focus(); return; }
+
+  const data = DataService.getData();
+  const exists = data.accounts.find(a => a.name.trim().toUpperCase() === name);
+  if (exists) {
+    alert(`"${name}" zaten kayıtlı!`);
+    input.focus();
+    return;
+  }
+
+  data.accounts.push({ type, name });
+  await DataService.saveData(data);
+  renderDashboard();
+  input.value = '';
+  input.focus();
+
+  // Refresh the list inside the modal
+  const listId = type === 'supplier' ? 'ayarlar-supplier-list' : 'ayarlar-hotel-list';
+  const list = document.getElementById(listId);
+  if (list) {
+    const items = data.accounts.filter(a => a.type === type);
+    list.innerHTML = items.map((a, i) => `
+      <div class="ayarlar-list-item">
+        <span class="ayarlar-item-name">${a.name}</span>
+        <button class="ayarlar-delete-btn" onclick="window.ayarlarDeleteAccount('${a.name.replace(/'/g,"\\'")}','${type}')" title="Sil">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </div>
+    `).join('');
+  }
+
+  // Update count badge
+  const countBadge = list ? list.parentElement.querySelector('span[style*="border-radius:20px"]') : null;
+  if (countBadge) countBadge.textContent = data.accounts.filter(a => a.type === type).length;
+
+  // Toast
+  const toast = document.createElement('div');
+  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#10b981;color:white;padding:14px 22px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:99999;box-shadow:0 8px 24px rgba(0,0,0,0.4);';
+  toast.innerHTML = `<i class="fa-solid fa-check" style="margin-right:8px;"></i>"${name}" eklendi!`;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 2500);
+};
+
+window.ayarlarDeleteAccount = async (name, type) => {
+  const data = DataService.getData();
+
+  // Check if account has any transactions or payments
+  const txCount = data.transactions.filter(t => 
+    (type === 'supplier' && (t.supplier||'').trim() === name) ||
+    (type === 'hotel' && (t.hotel||'').trim() === name)
+  ).length;
+
+  const label = type === 'supplier' ? 'müstahsil' : 'otel';
+  let msg = `"${name}" ${label}sini silmek istediğinizden emin misiniz?`;
+  if (txCount > 0) {
+    msg += `\n\n⚠️ Bu hesaba ait ${txCount} adet işlem kaydı var. Hesap silinirse bu işlemler yalnız kalır (silinmez, sadece hesap listesinden çıkar).`;
+  }
+  if (!confirm(msg)) return;
+
+  data.accounts = data.accounts.filter(a => !(a.name.trim() === name.trim() && a.type === type));
+  await DataService.saveData(data);
+  renderDashboard();
+
+  // Refresh modal list
+  const listId = type === 'supplier' ? 'ayarlar-supplier-list' : 'ayarlar-hotel-list';
+  const list = document.getElementById(listId);
+  if (list) {
+    const items = data.accounts.filter(a => a.type === type);
+    list.innerHTML = items.map((a, i) => `
+      <div class="ayarlar-list-item">
+        <span class="ayarlar-item-name">${a.name}</span>
+        <button class="ayarlar-delete-btn" onclick="window.ayarlarDeleteAccount('${a.name.replace(/'/g,"\\'")}','${type}')" title="Sil">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </div>
+    `).join('');
+  }
+
+  const toast = document.createElement('div');
+  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#ef4444;color:white;padding:14px 22px;border-radius:12px;font-weight:700;font-family:Outfit,sans-serif;z-index:99999;box-shadow:0 8px 24px rgba(0,0,0,0.4);';
+  toast.innerHTML = `<i class="fa-solid fa-trash" style="margin-right:8px;"></i>"${name}" silindi.`;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 2500);
+};
