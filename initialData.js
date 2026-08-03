@@ -25608,6 +25608,10 @@ export const INITIAL_DATA = {
       "name": "METİN DALKIRAN"
     },
     {
+      "type": "supplier",
+      "name": "ERTAŞLAR"
+    },
+    {
       "type": "hotel",
       "name": "AMBASSADOR"
     },
