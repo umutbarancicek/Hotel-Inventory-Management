@@ -245,7 +245,8 @@ body {
   box-sizing: border-box;
 }
 .view-container.active {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 /* DASHBOARD GRID */
@@ -253,7 +254,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 16px;
-  height: 100%;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .dash-col {
@@ -262,6 +265,7 @@ body {
   gap: 8px;
   overflow-y: auto;
   padding-right: 8px;
+  height: 100%;
 }
 
 /* 3D BUTTONS */
