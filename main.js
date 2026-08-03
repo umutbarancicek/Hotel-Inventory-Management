@@ -2113,7 +2113,7 @@ window.openAyarlarModal = () => {
 
   const renderList = (items, type) => items.map((a, i) => `
     <div class="ayarlar-list-item" id="ayarlar-item-${type}-${i}">
-      <span class="ayarlar-item-name">${a.name}</span>
+      <span class="ayarlar-item-name" title="${a.name}">${a.name}</span>
       <button class="ayarlar-delete-btn" onclick="window.ayarlarDeleteAccount('${a.name.replace(/'/g,"\\'")}','${type}')" title="Sil">
         <i class="fa-solid fa-trash"></i>
       </button>
@@ -2124,10 +2124,10 @@ window.openAyarlarModal = () => {
   modal.id = 'ayarlar-modal';
   modal.innerHTML = `
     <div class="modal-overlay" onclick="if(event.target===this) window.closeAyarlarModal()" style="z-index:10000;">
-      <div class="modal-box" style="max-width:560px;width:95%;padding:0;overflow:hidden;">
+      <div class="modal-box" style="max-width:680px;width:95%;padding:0;overflow:hidden;">
         
         <!-- Header -->
-        <div style="display:flex;justify-content:space-between;align-items:center;padding:20px 24px;background:rgba(59,130,246,0.15);border-bottom:1px solid rgba(255,255,255,0.1);">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:18px 24px;background:rgba(59,130,246,0.15);border-bottom:1px solid rgba(255,255,255,0.1);">
           <span style="font-size:1.15rem;font-weight:700;display:flex;align-items:center;gap:10px;">
             <i class="fa-solid fa-gear" style="color:#3b82f6;"></i> CARİ HESAP YÖNETİMİ
           </span>
@@ -2137,47 +2137,47 @@ window.openAyarlarModal = () => {
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;max-height:70vh;overflow:hidden;">
           
           <!-- Müstahsil Sütunu -->
-          <div style="padding:20px;border-right:1px solid rgba(255,255,255,0.1);display:flex;flex-direction:column;gap:12px;">
-            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
-              <div style="width:10px;height:10px;border-radius:50%;background:#10b981;"></div>
+          <div style="padding:16px;border-right:1px solid rgba(255,255,255,0.1);display:flex;flex-direction:column;gap:12px;min-width:0;">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:2px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#10b981;flex-shrink:0;"></div>
               <strong style="font-size:0.95rem;">MÜSTAHSİLLER</strong>
               <span style="background:rgba(16,185,129,0.2);color:#10b981;border-radius:20px;padding:1px 8px;font-size:0.75rem;font-weight:700;">${suppliers.length}</span>
             </div>
             
-            <div style="display:flex;gap:6px;">
+            <div style="display:flex;gap:6px;min-width:0;">
               <input type="text" id="ayarlar-new-supplier" placeholder="Yeni müstahsil adı..." 
-                style="flex:1;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:8px 10px;color:white;font-family:Outfit,sans-serif;font-size:0.85rem;outline:none;"
+                style="flex:1;min-width:0;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:8px 10px;color:white;font-family:Outfit,sans-serif;font-size:0.85rem;outline:none;"
                 onkeydown="if(event.key==='Enter') window.ayarlarAddAccount('supplier')">
               <button onclick="window.ayarlarAddAccount('supplier')" 
-                style="background:rgba(16,185,129,0.2);border:1px solid #10b981;color:#10b981;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:0.9rem;font-weight:700;white-space:nowrap;">
+                style="flex-shrink:0;background:rgba(16,185,129,0.2);border:1px solid #10b981;color:#10b981;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:0.85rem;font-weight:700;white-space:nowrap;">
                 + Ekle
               </button>
             </div>
             
-            <div id="ayarlar-supplier-list" style="flex:1;overflow-y:auto;max-height:340px;display:flex;flex-direction:column;gap:4px;">
+            <div id="ayarlar-supplier-list" style="flex:1;overflow-y:auto;max-height:340px;display:flex;flex-direction:column;gap:6px;padding-right:4px;">
               ${renderList(suppliers, 'supplier')}
             </div>
           </div>
 
           <!-- Otel Sütunu -->
-          <div style="padding:20px;display:flex;flex-direction:column;gap:12px;">
-            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
-              <div style="width:10px;height:10px;border-radius:50%;background:#3b82f6;"></div>
+          <div style="padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0;">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:2px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#3b82f6;flex-shrink:0;"></div>
               <strong style="font-size:0.95rem;">OTELLER</strong>
               <span style="background:rgba(59,130,246,0.2);color:#3b82f6;border-radius:20px;padding:1px 8px;font-size:0.75rem;font-weight:700;">${hotels.length}</span>
             </div>
             
-            <div style="display:flex;gap:6px;">
+            <div style="display:flex;gap:6px;min-width:0;">
               <input type="text" id="ayarlar-new-hotel" placeholder="Yeni otel adı..."
-                style="flex:1;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:8px 10px;color:white;font-family:Outfit,sans-serif;font-size:0.85rem;outline:none;"
+                style="flex:1;min-width:0;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:8px 10px;color:white;font-family:Outfit,sans-serif;font-size:0.85rem;outline:none;"
                 onkeydown="if(event.key==='Enter') window.ayarlarAddAccount('hotel')">
               <button onclick="window.ayarlarAddAccount('hotel')" 
-                style="background:rgba(59,130,246,0.2);border:1px solid #3b82f6;color:#3b82f6;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:0.9rem;font-weight:700;white-space:nowrap;">
+                style="flex-shrink:0;background:rgba(59,130,246,0.2);border:1px solid #3b82f6;color:#3b82f6;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:0.85rem;font-weight:700;white-space:nowrap;">
                 + Ekle
               </button>
             </div>
             
-            <div id="ayarlar-hotel-list" style="flex:1;overflow-y:auto;max-height:340px;display:flex;flex-direction:column;gap:4px;">
+            <div id="ayarlar-hotel-list" style="flex:1;overflow-y:auto;max-height:340px;display:flex;flex-direction:column;gap:6px;padding-right:4px;">
               ${renderList(hotels, 'hotel')}
             </div>
           </div>
@@ -2203,14 +2203,25 @@ window.openAyarlarModal = () => {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 8px;
         padding: 8px 12px;
         background: rgba(255,255,255,0.05);
         border: 1px solid rgba(255,255,255,0.08);
         border-radius: 8px;
+        min-width: 0;
         transition: background 0.15s;
       }
       .ayarlar-list-item:hover { background: rgba(255,255,255,0.09); }
-      .ayarlar-item-name { font-size: 0.88rem; font-weight: 600; letter-spacing: 0.02em; }
+      .ayarlar-item-name {
+        font-size: 0.88rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        flex: 1;
+        min-width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
       .ayarlar-delete-btn {
         background: none;
         border: none;
@@ -2219,6 +2230,7 @@ window.openAyarlarModal = () => {
         padding: 4px 6px;
         border-radius: 4px;
         font-size: 0.8rem;
+        flex-shrink: 0;
         transition: color 0.15s, background 0.15s;
       }
       .ayarlar-delete-btn:hover { color: #ef4444; background: rgba(239,68,68,0.1); }
