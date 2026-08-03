@@ -49,6 +49,16 @@ export const DataService = {
       });
     }
 
+    // Sync newly added accounts from initialData into existing data
+    if (data.accounts && INITIAL_DATA.accounts) {
+      const existingNames = new Set(data.accounts.map(a => a.name.trim()));
+      const newAccounts = INITIAL_DATA.accounts.filter(a => !existingNames.has(a.name.trim()));
+      if (newAccounts.length > 0) {
+        data.accounts.push(...newAccounts);
+        changed = true;
+      }
+    }
+
     // Trim and unique accounts
     if (data.accounts) {
       const uniqueAccs = {};
