@@ -7,12 +7,6 @@ let localData = null;
 export const DataService = {
   cleanData(data) {
     let changed = false;
-    
-    // Clear priceLists archive
-    if (data.priceLists && Object.keys(data.priceLists).length > 0) {
-      data.priceLists = {};
-      changed = true;
-    }
 
     // Sync newly inserted initialData transactions into existing localData if missing
     if (data.transactions) {
