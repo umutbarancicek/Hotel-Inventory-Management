@@ -453,25 +453,27 @@ function renderVeri() {
     const priceList = getPriceListForDate(tx.date);
     const txProd = (tx.product||'').trim().toUpperCase();
     
-    // 1. Direct match in priceList
-    let pMatch = priceList.find(p => (p.product||'').trim().toUpperCase() === txProd);
+    const hUpper = (tx.hotel || '').toUpperCase().trim();
+    const isSpecialHotel = hUpper.includes('SEPHORIA') || hUpper.includes('SEAPHORİA') || hUpper.includes('CASAFORA');
+    const marginRate = isSpecialHotel ? 0.22 : 0.18;
     
-    // 2. Partial/alias match in priceList if direct fails
-    if (!pMatch && priceList.length > 0) {
-      pMatch = priceList.find(p => {
-        const pName = (p.product||'').trim().toUpperCase();
-        return pName.includes(txProd) || txProd.includes(pName);
-      });
+    let tutedVal = 0;
+    
+    // 1. Direct back-calculation from transaction's supplyPrice
+    if (tx.supplyPrice > 0) {
+      tutedVal = Math.round((tx.supplyPrice / marginRate) * 100) / 100;
     }
     
-    let tutedVal = pMatch ? parsePrice(pMatch.price) : 0;
-    
-    // 3. Fallback: derive TÜTED price directly from supplyPrice / marginRate
-    if (tutedVal === 0 && tx.supplyPrice > 0) {
-      const hUpper = (tx.hotel || '').toUpperCase().trim();
-      const isSpecialHotel = hUpper.includes('SEPHORIA') || hUpper.includes('SEAPHORİA') || hUpper.includes('CASAFORA');
-      const marginRate = isSpecialHotel ? 0.22 : 0.18;
-      tutedVal = Math.round((tx.supplyPrice / marginRate) * 100) / 100;
+    // 2. Fallback to priceList if supplyPrice is 0
+    if (tutedVal === 0) {
+      let pMatch = priceList.find(p => (p.product||'').trim().toUpperCase() === txProd);
+      if (!pMatch && priceList.length > 0) {
+        pMatch = priceList.find(p => {
+          const pName = (p.product||'').trim().toUpperCase();
+          return pName.includes(txProd) || txProd.includes(pName);
+        });
+      }
+      if (pMatch) tutedVal = parsePrice(pMatch.price);
     }
     
     const tutedStr = tutedVal > 0 ? formatCurrency(tutedVal) : '—';
