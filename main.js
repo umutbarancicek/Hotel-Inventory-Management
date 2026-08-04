@@ -477,14 +477,17 @@ function renderVeri() {
     }
     
     const tutedStr = tutedVal > 0 ? formatCurrency(tutedVal) : '—';
+    const supplyStr = tx.supplyPrice > 0 ? formatCurrency(tx.supplyPrice) : '—';
+    const tedStr = ted > 0 ? formatCurrency(ted) : '—';
+    const farkStr = ted > 0 ? `<span class="${ted-hal>=0?'success':'danger'}">${formatCurrency(ted-hal)}</span>` : '—';
 
     return `<tr>
       <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td>
       <td>${tx.qty}</td><td>${tx.hotel}</td>
       <td style="color:#9ca3af;font-size:0.85rem;">${tutedStr}</td>
-      <td>${formatCurrency(tx.buyPrice)}</td><td>${formatCurrency(tx.supplyPrice)}</td>
-      <td>${formatCurrency(hal)}</td><td>${formatCurrency(ted)}</td>
-      <td><span class="${ted-hal>=0?'success':'danger'}">${formatCurrency(ted-hal)}</span></td>
+      <td>${formatCurrency(tx.buyPrice)}</td><td>${supplyStr}</td>
+      <td>${formatCurrency(hal)}</td><td>${tedStr}</td>
+      <td>${farkStr}</td>
       <td style="white-space:nowrap;">
         <button onclick="window.editTransaction(${tx.id})" title="Düzenle" style="background:rgba(96,165,250,.15);color:#60a5fa;border:1px solid rgba(96,165,250,.3);border-radius:6px;padding:4px 8px;cursor:pointer;margin-right:4px;"><i class="fa-solid fa-pen"></i></button>
         <button onclick="window.deleteTransaction(${tx.id})" title="Sil" style="background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:6px;padding:4px 8px;cursor:pointer;"><i class="fa-solid fa-trash"></i></button>
