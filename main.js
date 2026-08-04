@@ -449,7 +449,7 @@ function renderVeri() {
   }).reverse();
 
     const txRows = txs.map(tx => {
-    const hal = tx.qty * tx.buyPrice, ted = tx.qty * tx.supplyPrice;
+    const hal = tx.qty * tx.buyPrice;
     const priceList = getPriceListForDate(tx.date);
     const txProd = (tx.product||'').trim().toUpperCase();
     
@@ -476,10 +476,15 @@ function renderVeri() {
       if (pMatch) tutedVal = parsePrice(pMatch.price);
     }
     
-    const tutedStr = tutedVal > 0 ? formatCurrency(tutedVal) : '—';
-    const supplyStr = tx.supplyPrice > 0 ? formatCurrency(tx.supplyPrice) : '—';
-    const tedStr = ted > 0 ? formatCurrency(ted) : '—';
-    const farkStr = ted > 0 ? `<span class="${ted-hal>=0?'success':'danger'}">${formatCurrency(ted-hal)}</span>` : '—';
+    const hasTuted = tutedVal > 0 && tx.supplyPrice > 0;
+    const effectiveSupplyPrice = hasTuted ? tx.supplyPrice : tx.buyPrice;
+    const ted = tx.qty * effectiveSupplyPrice;
+    const diff = ted - hal;
+
+    const tutedStr = hasTuted ? formatCurrency(tutedVal) : '—';
+    const supplyStr = formatCurrency(effectiveSupplyPrice);
+    const tedStr = formatCurrency(ted);
+    const farkStr = `<span class="${diff >= 0 ? 'success' : 'danger'}">${formatCurrency(diff)}</span>`;
 
     return `<tr>
       <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td>
