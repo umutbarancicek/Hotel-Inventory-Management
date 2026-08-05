@@ -359,6 +359,272 @@ window.fetchTutedPriceListForDate = async (targetDateStr, showNotice = true) => 
   }
 };
 
+window.selectedTxIds = window.selectedTxIds || new Set();
+
+window.toggleTxSelect = (txId, isChecked) => {
+  if (isChecked) window.selectedTxIds.add(txId);
+  else window.selectedTxIds.delete(txId);
+  renderVeri();
+};
+
+window.toggleAllTxSelect = (isChecked, currentFilteredIdsJson) => {
+  const ids = JSON.parse(currentFilteredIdsJson);
+  if (isChecked) ids.forEach(id => window.selectedTxIds.add(id));
+  else ids.forEach(id => window.selectedTxIds.delete(id));
+  renderVeri();
+};
+
+window.clearTxSelection = () => {
+  window.selectedTxIds.clear();
+  renderVeri();
+};
+
+window.recalculateTxSupplyPrice = (tx, data) => {
+  const hUpper = (tx.hotel || '').toUpperCase().trim();
+  const isSpecialHotel = hUpper.includes('SEPHORIA') || hUpper.includes('SEAPHORİA') || hUpper.includes('CASAFORA');
+  const marginRate = isSpecialHotel ? 0.22 : 0.18;
+
+  const priceList = data.priceLists ? (data.priceLists[tx.date] || []) : [];
+  const txProd = (tx.product || '').trim().toUpperCase();
+
+  let tutedVal = 0;
+  if (priceList.length > 0) {
+    let pMatch = priceList.find(p => (p.product || '').trim().toUpperCase() === txProd);
+    if (!pMatch) {
+      pMatch = priceList.find(p => {
+        const pName = (p.product || '').trim().toUpperCase();
+        return pName.includes(txProd) || txProd.includes(pName);
+      });
+    }
+    if (pMatch) tutedVal = parsePrice(pMatch.price);
+  }
+
+  if (tutedVal > 0) {
+    tx.supplyPrice = Math.round(tutedVal * marginRate * 100) / 100;
+  } else {
+    tx.supplyPrice = tx.buyPrice;
+  }
+};
+
+window.applyBulkHotelChange = async () => {
+  const selectEl = document.getElementById('bulkHotelSelect');
+  if (!selectEl || !selectEl.value) {
+    alert('Lütfen hedef oteli seçin!');
+    return;
+  }
+  const targetHotel = selectEl.value;
+  const count = window.selectedTxIds.size;
+  if (count === 0) return;
+
+  const data = DataService.getData();
+  data.transactions.forEach(tx => {
+    if (window.selectedTxIds.has(tx.id)) {
+      tx.hotel = targetHotel;
+      window.recalculateTxSupplyPrice(tx, data);
+    }
+  });
+
+  await DataService.saveData(data);
+  alert(`${count} adet işlemin Gittiği Yer "${targetHotel}" olarak güncellendi!`);
+  window.selectedTxIds.clear();
+  renderVeri();
+};
+
+window.applyBulkSupplierChange = async () => {
+  const selectEl = document.getElementById('bulkSupplierSelect');
+  if (!selectEl || !selectEl.value) {
+    alert('Lütfen hedef müstahsili seçin!');
+    return;
+  }
+  const targetSupplier = selectEl.value;
+  const count = window.selectedTxIds.size;
+  if (count === 0) return;
+
+  const data = DataService.getData();
+  data.transactions.forEach(tx => {
+    if (window.selectedTxIds.has(tx.id)) {
+      tx.supplier = targetSupplier;
+    }
+  });
+
+  await DataService.saveData(data);
+  alert(`${count} adet işlemin Müstahsili "${targetSupplier}" olarak güncellendi!`);
+  window.selectedTxIds.clear();
+  renderVeri();
+};
+
+window.applyBulkDelete = async () => {
+  const count = window.selectedTxIds.size;
+  if (count === 0) return;
+  if (!confirm(`Seçilen ${count} adet işlemi silmek istediğinize emin misiniz?`)) return;
+
+  const data = DataService.getData();
+  data.transactions = data.transactions.filter(tx => !window.selectedTxIds.has(tx.id));
+
+  await DataService.saveData(data);
+  alert(`${count} adet işlem başarıyla silindi!`);
+  window.selectedTxIds.clear();
+  renderVeri();
+};
+
+window.openTopluDegistirModal = () => {
+  const data = DataService.getData();
+  const hotels = data.hotels.map(h => h.name);
+  const suppliers = data.suppliers.map(s => s.name);
+
+  const existingModal = document.getElementById('toplu-degistir-modal');
+  if (existingModal) existingModal.remove();
+
+  const modal = document.createElement('div');
+  modal.id = 'toplu-degistir-modal';
+  modal.className = 'modal-backdrop';
+  modal.style.display = 'flex';
+
+  modal.innerHTML = `
+    <div class="modal-box glass-panel" style="width:580px;max-width:95vw;border:1px solid rgba(168,85,247,0.3);">
+      <div class="modal-header" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:12px;">
+        <h3 style="margin:0;color:#c084fc;font-family:'Outfit',sans-serif;display:flex;align-items:center;gap:10px;">
+          <i class="fa-solid fa-arrows-rotate"></i> Toplu Bul ve Değiştir
+        </h3>
+        <button onclick="document.getElementById('toplu-degistir-modal').remove()" style="background:transparent;border:none;color:#94a3b8;font-size:1.4rem;cursor:pointer;">&times;</button>
+      </div>
+
+      <div class="modal-body" style="display:flex;flex-direction:column;gap:16px;">
+        <div style="background:rgba(168,85,247,0.1);border:1px solid rgba(168,85,247,0.2);border-radius:10px;padding:12px;font-size:0.88rem;color:#e9d5ff;">
+          <i class="fa-solid fa-circle-info" style="margin-right:6px;"></i>
+          Yanlış girilen otel veya müstahsil bilgilerini tek tıkla topluca başka bir otel/müstahsil ile değiştirebilirsiniz.
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+          <div class="top-filter-group">
+            <label style="color:#a7f3d0;font-weight:600;">MEVCUT OTEL (DEĞİŞTİRİLECEK)</label>
+            <select id="tdFromHotel" onchange="window.updateTopluDegistirPreview()" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:10px;">
+              <option value="">-- Tüm Oteller --</option>
+              ${hotels.map(h => `<option value="${h}">${h}</option>`).join('')}
+            </select>
+          </div>
+          <div class="top-filter-group">
+            <label style="color:#60a5fa;font-weight:600;">YENİ HEDEF OTEL</label>
+            <select id="tdToHotel" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:10px;">
+              <option value="">-- Değiştirilmeyecek --</option>
+              ${hotels.map(h => `<option value="${h}">${h}</option>`).join('')}
+            </select>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+          <div class="top-filter-group">
+            <label style="color:#fde047;font-weight:600;">MÜSTAHSİL FİLTRESİ</label>
+            <select id="tdSupplier" onchange="window.updateTopluDegistirPreview()" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:10px;">
+              <option value="">-- Tümü --</option>
+              ${suppliers.map(s => `<option value="${s}">${s}</option>`).join('')}
+            </select>
+          </div>
+          <div class="top-filter-group">
+            <label style="color:#cbd5e1;">HEDEF MÜSTAHSİL (İSTEĞE BAĞLI)</label>
+            <select id="tdToSupplier" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:10px;">
+              <option value="">-- Değiştirilmeyecek --</option>
+              ${suppliers.map(s => `<option value="${s}">${s}</option>`).join('')}
+            </select>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+          <div class="top-filter-group">
+            <label style="color:#94a3b8;">BAŞLANGIÇ TARİHİ</label>
+            <input type="date" id="tdDateFrom" onchange="window.updateTopluDegistirPreview()" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:10px;">
+          </div>
+          <div class="top-filter-group">
+            <label style="color:#94a3b8;">BİTİŞ TARİHİ</label>
+            <input type="date" id="tdDateTo" onchange="window.updateTopluDegistirPreview()" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:10px;">
+          </div>
+        </div>
+
+        <div id="tdPreviewText" style="text-align:center;padding:12px;background:rgba(255,255,255,0.05);border-radius:8px;font-weight:600;color:#38bdf8;">
+          Seçilen kriterlere uyan 0 adet işlem bulundu.
+        </div>
+      </div>
+
+      <div class="modal-footer" style="display:flex;justify-content:flex-end;gap:12px;margin-top:20px;border-top:1px solid rgba(255,255,255,0.1);padding-top:16px;">
+        <button onclick="document.getElementById('toplu-degistir-modal').remove()" class="dash-btn btn-black" style="padding:10px 18px;">İptal</button>
+        <button onclick="window.executeTopluDegistir()" class="dash-btn btn-green" style="padding:10px 20px;background:linear-gradient(135deg, #a855f7, #7c3aed);border:none;">
+          <i class="fa-solid fa-check"></i> Toplu Güncelle
+        </button>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(modal);
+  window.updateTopluDegistirPreview();
+};
+
+window.getMatchingTopluDegistirTxs = () => {
+  const data = DataService.getData();
+  const fromHotel = (document.getElementById('tdFromHotel')?.value || '').trim();
+  const supplier = (document.getElementById('tdSupplier')?.value || '').trim();
+  const dateFrom = document.getElementById('tdDateFrom')?.value || '';
+  const dateTo = document.getElementById('tdDateTo')?.value || '';
+
+  return data.transactions.filter(t => {
+    if (fromHotel && t.hotel !== fromHotel) return false;
+    if (supplier && t.supplier !== supplier) return false;
+    if (dateFrom && t.date < dateFrom) return false;
+    if (dateTo && t.date > dateTo) return false;
+    return true;
+  });
+};
+
+window.updateTopluDegistirPreview = () => {
+  const matches = window.getMatchingTopluDegistirTxs();
+  const previewEl = document.getElementById('tdPreviewText');
+  if (previewEl) {
+    previewEl.innerHTML = `<i class="fa-solid fa-layer-group" style="margin-right:6px;"></i>Kriterlere uyan <strong>${matches.length}</strong> adet işlem bulundu.`;
+  }
+};
+
+window.executeTopluDegistir = async () => {
+  const matches = window.getMatchingTopluDegistirTxs();
+  const toHotel = (document.getElementById('tdToHotel')?.value || '').trim();
+  const toSupplier = (document.getElementById('tdToSupplier')?.value || '').trim();
+
+  if (!toHotel && !toSupplier) {
+    alert('Lütfen değiştirilecek yeni bir otel veya müstahsil seçin!');
+    return;
+  }
+
+  if (matches.length === 0) {
+    alert('Kriterlere uyan hiç işlem bulunamadı!');
+    return;
+  }
+
+  const confirmMsg = `Toplam ${matches.length} adet işlem güncellenecek.\n` +
+    (toHotel ? `• Gittiği Yer: "${toHotel}"\n` : '') +
+    (toSupplier ? `• Müstahsil: "${toSupplier}"\n` : '') +
+    `Onaylıyor musunuz?`;
+
+  if (!confirm(confirmMsg)) return;
+
+  const data = DataService.getData();
+  const matchIds = new Set(matches.map(m => m.id));
+
+  data.transactions.forEach(tx => {
+    if (matchIds.has(tx.id)) {
+      if (toHotel) {
+        tx.hotel = toHotel;
+        window.recalculateTxSupplyPrice(tx, data);
+      }
+      if (toSupplier) {
+        tx.supplier = toSupplier;
+      }
+    }
+  });
+
+  await DataService.saveData(data);
+  document.getElementById('toplu-degistir-modal')?.remove();
+  alert(`${matches.length} adet işlem başarıyla güncellendi!`);
+  renderVeri();
+};
+
 function renderVeri() {
   viewTitle.innerText = 'VERİ (İşlemler)';
   const data = DataService.getData();
@@ -448,7 +714,12 @@ function renderVeri() {
     return true;
   }).reverse();
 
-    const txRows = txs.map(tx => {
+  const filteredTxIds = txs.map(t => t.id);
+  const allSelected = filteredTxIds.length > 0 && filteredTxIds.every(id => window.selectedTxIds.has(id));
+  const selectedCount = window.selectedTxIds.size;
+
+  const txRows = txs.map(tx => {
+    const isSelected = window.selectedTxIds.has(tx.id);
     const hal = tx.qty * tx.buyPrice;
     const priceList = getPriceListForDate(tx.date);
     const txProd = (tx.product||'').trim().toUpperCase();
@@ -458,13 +729,10 @@ function renderVeri() {
     const marginRate = isSpecialHotel ? 0.22 : 0.18;
     
     let tutedVal = 0;
-    
-    // 1. Direct back-calculation from transaction's supplyPrice
     if (tx.supplyPrice > 0) {
       tutedVal = Math.round((tx.supplyPrice / marginRate) * 100) / 100;
     }
     
-    // 2. Fallback to priceList if supplyPrice is 0
     if (tutedVal === 0) {
       let pMatch = priceList.find(p => (p.product||'').trim().toUpperCase() === txProd);
       if (!pMatch && priceList.length > 0) {
@@ -486,7 +754,10 @@ function renderVeri() {
     const tedStr = formatCurrency(ted);
     const farkStr = `<span class="${diff >= 0 ? 'success' : 'danger'}">${formatCurrency(diff)}</span>`;
 
-    return `<tr>
+    return `<tr style="${isSelected?'background:rgba(59,130,246,0.12);':''}">
+      <td style="text-align:center;width:40px;">
+        <input type="checkbox" onchange="window.toggleTxSelect(${tx.id}, this.checked)" ${isSelected?'checked':''} style="width:16px;height:16px;cursor:pointer;accent-color:#3b82f6;">
+      </td>
       <td>${formatAppDate(tx.date)}</td><td>${tx.supplier}</td><td>${tx.product}</td>
       <td>${tx.qty}</td><td>${tx.hotel}</td>
       <td style="color:#9ca3af;font-size:0.85rem;">${tutedStr}</td>
@@ -499,6 +770,41 @@ function renderVeri() {
       </td>
     </tr>`;
   }).join('');
+
+  const bulkActionBarHtml = selectedCount > 0 ? `
+    <div class="bulk-action-bar" style="background:rgba(30,41,59,0.9);border:1px solid rgba(59,130,246,0.4);border-radius:10px;padding:10px 16px;margin-bottom:12px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;box-shadow:0 4px 16px rgba(0,0,0,0.3);">
+      <div style="font-weight:600;color:#60a5fa;display:flex;align-items:center;gap:8px;font-size:0.95rem;">
+        <i class="fa-solid fa-check-double"></i>
+        <span><strong>${selectedCount}</strong> İşlem Seçildi</span>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+        <div style="display:flex;gap:6px;align-items:center;">
+          <select id="bulkHotelSelect" style="background:#0f172a;color:white;border:1px solid #334155;border-radius:8px;padding:6px 10px;font-family:'Outfit',sans-serif;font-size:0.85rem;">
+            <option value="">-- Otel Seç --</option>
+            ${hotels.map(h => `<option value="${h}">${h}</option>`).join('')}
+          </select>
+          <button onclick="window.applyBulkHotelChange()" class="dash-btn btn-black" style="padding:6px 12px;margin:0;font-size:0.85rem;background:#3b82f6;border-color:#3b82f6;">
+            <i class="fa-solid fa-building"></i> Oteli Değiştir
+          </button>
+        </div>
+        <div style="display:flex;gap:6px;align-items:center;">
+          <select id="bulkSupplierSelect" style="background:#0f172a;color:white;border:1px solid #334155;border-radius:8px;padding:6px 10px;font-family:'Outfit',sans-serif;font-size:0.85rem;">
+            <option value="">-- Müstahsil Seç --</option>
+            ${suppliers.map(s => `<option value="${s}">${s}</option>`).join('')}
+          </select>
+          <button onclick="window.applyBulkSupplierChange()" class="dash-btn btn-black" style="padding:6px 12px;margin:0;font-size:0.85rem;background:#0284c7;border-color:#0284c7;">
+            <i class="fa-solid fa-truck"></i> Müstahsili Değiştir
+          </button>
+        </div>
+        <button onclick="window.applyBulkDelete()" style="background:rgba(239,68,68,0.2);color:#ef4444;border:1px solid rgba(239,68,68,0.4);border-radius:8px;padding:6px 12px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.85rem;font-weight:600;">
+          <i class="fa-solid fa-trash"></i> Seçilenleri Sil
+        </button>
+        <button onclick="window.clearTxSelection()" style="background:transparent;color:#94a3b8;border:1px solid #475569;border-radius:8px;padding:6px 12px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.85rem;">
+          Seçimi Temizle
+        </button>
+      </div>
+    </div>
+  ` : '';
 
   viewContent.innerHTML = `
     <!-- QUICK ENTRY PANEL -->
@@ -573,15 +879,32 @@ function renderVeri() {
           <label>&nbsp;</label>
           <button onclick="window.clearVeriFilters()" style="background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:8px;padding:8px 12px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.85rem;"><i class="fa-solid fa-filter-circle-xmark" style="margin-right:4px;"></i>Filtreleri Temizle</button>
         </div>` : ''}
+
+        <div style="margin-left:auto;align-self:flex-end;">
+          <button onclick="window.openTopluDegistirModal()" style="background:rgba(168,85,247,0.15);color:#c084fc;border:1px solid rgba(168,85,247,0.3);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.85rem;font-weight:600;display:flex;align-items:center;gap:6px;">
+            <i class="fa-solid fa-arrows-rotate"></i> Toplu Bul & Değiştir
+          </button>
+        </div>
       </div>
+
+      ${bulkActionBarHtml}
+
       <table>
-        <thead><tr><th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>TÜTED</th><th>ALIŞ F.</th><th>TEDA F.</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th><th>İŞLEM</th></tr></thead>
+        <thead>
+          <tr>
+            <th style="text-align:center;width:40px;">
+              <input type="checkbox" onchange="window.toggleAllTxSelect(this.checked, '${JSON.stringify(filteredTxIds).replace(/'/g, "\\'")}')" ${allSelected?'checked':''} style="width:16px;height:16px;cursor:pointer;accent-color:#3b82f6;">
+            </th>
+            <th>TARİH</th><th>MÜSTAHSİL</th><th>MAL</th><th>KİLO</th><th>GİTTİĞİ YER</th><th>TÜTED</th><th>ALIŞ F.</th><th>TEDA F.</th><th>HAL TUTAR</th><th>TEDARİK</th><th>FARK</th><th>İŞLEM</th>
+          </tr>
+        </thead>
         <tbody>${txRows}</tbody>
       </table>
     </div>
   `;
   initTableFeatures();
 }
+
 
 // ── MODAL ─────────────────────────────────────────────────────────────────
 window.qeOpenModal = () => {
