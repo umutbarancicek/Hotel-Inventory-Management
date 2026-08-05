@@ -1539,41 +1539,218 @@ function renderOzet() {
   initTableFeatures();
 }
 
+let ekstreFilters = {
+  accountName: null,
+  accountType: null,
+  dateFrom: null,
+  dateTo: null,
+  product: null,
+  eventKind: null
+};
+
+window.setEkstreFilter = (key, val) => {
+  ekstreFilters[key] = (val === '' || val === 'null' || val === undefined) ? null : val;
+  if (ekstreFilters.accountName) {
+    showAccountDetail({ name: ekstreFilters.accountName, type: ekstreFilters.accountType });
+  }
+};
+
+window.clearEkstreFilters = () => {
+  ekstreFilters.dateFrom = null;
+  ekstreFilters.dateTo = null;
+  ekstreFilters.product = null;
+  ekstreFilters.eventKind = null;
+  if (ekstreFilters.accountName) {
+    showAccountDetail({ name: ekstreFilters.accountName, type: ekstreFilters.accountType });
+  }
+};
+
 function showAccountDetail(acc) {
   viewDash.classList.remove('active');
   viewOther.classList.add('active');
-  viewTitle.innerText = `${acc.name.trim()} - HESAP EKSTRESİ`;
+  
+  if (!acc || !acc.name) return;
+  const accName = acc.name.trim();
+
+  // Reset or update ekstreFilters account if switching account
+  if (ekstreFilters.accountName !== accName) {
+    ekstreFilters.accountName = accName;
+    ekstreFilters.accountType = acc.type || 'supplier';
+    ekstreFilters.dateFrom = null;
+    ekstreFilters.dateTo = null;
+    ekstreFilters.product = null;
+    ekstreFilters.eventKind = null;
+  }
+
+  viewTitle.innerText = `${accName} - HESAP EKSTRESİ`;
   
   const data = DataService.getData();
-  const txs = data.transactions.filter(t => (t.hotel||'').trim() === acc.name.trim() || (t.supplier||'').trim() === acc.name.trim());
-  const pms = data.payments.filter(p => (p.account||'').trim() === acc.name.trim());
-  
-  const balances = DataService.getAccountBalances();
-  const b = balances.find(x => x.name.trim() === acc.name.trim()) || { totalBought: 0, totalPaid: 0, balance: 0 };
-  
-  const totalQty = txs.reduce((sum, t) => sum + t.qty, 0);
-  
+  const allAccounts = data.accounts.map(a => a.name.trim()).sort();
+
+  // All transactions & payments for this account
+  const rawTxs = data.transactions.filter(t => (t.hotel||'').trim() === accName || (t.supplier||'').trim() === accName);
+  const rawPms = data.payments.filter(p => (p.account||'').trim() === accName);
+
+  // Unique products for this account
+  const accountProducts = [...new Set(rawTxs.map(t => t.product).filter(Boolean))].sort();
+
+  // Filter by Date Range, Product, and Event Kind
+  const filteredTxs = rawTxs.filter(t => {
+    if (ekstreFilters.dateFrom && t.date < ekstreFilters.dateFrom) return false;
+    if (ekstreFilters.dateTo && t.date > ekstreFilters.dateTo) return false;
+    if (ekstreFilters.product && t.product !== ekstreFilters.product) return false;
+    if (ekstreFilters.eventKind === 'pm') return false;
+    return true;
+  });
+
+  const filteredPms = rawPms.filter(p => {
+    if (ekstreFilters.dateFrom && p.date < ekstreFilters.dateFrom) return false;
+    if (ekstreFilters.dateTo && p.date > ekstreFilters.dateTo) return false;
+    if (ekstreFilters.product) return false; // Payments don't have products
+    if (ekstreFilters.eventKind === 'tx') return false;
+    return true;
+  });
+
+  // Calculate opening balance before dateFrom (Devreden Bakiye)
+  let devredenBakiye = 0;
+  if (ekstreFilters.dateFrom) {
+    rawTxs.forEach(t => {
+      if (t.date < ekstreFilters.dateFrom) {
+        const price = (t.supplier || '').trim() === accName ? t.buyPrice : t.supplyPrice;
+        devredenBakiye += (t.qty * price);
+      }
+    });
+    rawPms.forEach(p => {
+      if (p.date < ekstreFilters.dateFrom) {
+        devredenBakiye -= p.amount;
+      }
+    });
+  }
+
+  // Combined timeline events
+  const allEvents = [
+    ...filteredTxs.map(t => {
+      const kilo = t.qty;
+      const isSupplier = (t.supplier || '').trim() === accName;
+      const price = isSupplier ? t.buyPrice : t.supplyPrice;
+      const tutar = kilo * price;
+      return {
+        date: t.date,
+        desc: t.product,
+        kilo: kilo,
+        price: price,
+        tutar: tutar,
+        odeme: 0,
+        type: 'tx'
+      };
+    }),
+    ...filteredPms.map(p => ({
+      date: p.date,
+      desc: p.description || 'NAKİT',
+      kilo: 0,
+      price: 0,
+      tutar: 0,
+      odeme: p.amount,
+      type: 'pm'
+    }))
+  ].sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  // Compute running balance
+  let runningBalance = devredenBakiye;
+  allEvents.forEach(e => {
+    runningBalance += e.tutar - e.odeme;
+    e.bakiye = runningBalance;
+  });
+
+  const filteredKilo = filteredTxs.reduce((sum, t) => sum + t.qty, 0);
+  const filteredTutar = filteredTxs.reduce((sum, t) => {
+    const isSupplier = (t.supplier || '').trim() === accName;
+    const price = isSupplier ? t.buyPrice : t.supplyPrice;
+    return sum + (t.qty * price);
+  }, 0);
+  const filteredOdeme = filteredPms.reduce((sum, p) => sum + p.amount, 0);
+  const finalBakiye = runningBalance;
+
+  // Account selector dropdown HTML
+  const accountSelectOptions = allAccounts.map(n => `<option value="${n}" ${n === accName ? 'selected' : ''}>${n}</option>`).join('');
+
+  // Product selector dropdown HTML
+  const productSelectOptions = accountProducts.map(p => `<option value="${p}" ${ekstreFilters.product === p ? 'selected' : ''}>${p}</option>`).join('');
+
   let html = `
+    <!-- TOP FILTER BAR FOR EKSTRE -->
+    <div class="top-filter-bar glass-panel" style="margin-bottom: 16px; flex-wrap: wrap; gap: 14px; align-items: flex-end;">
+      <div style="flex:1; display:flex; gap:14px; flex-wrap:wrap; align-items:flex-end;">
+        
+        <div class="top-filter-group">
+          <label>CARİ ADI</label>
+          <select onchange="window.showAccountDetail({name: this.value, type: '${ekstreFilters.accountType}'})" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;max-width:200px;">
+            ${accountSelectOptions}
+          </select>
+        </div>
+
+        <div class="top-filter-group">
+          <label>BAŞLANGIÇ</label>
+          <input type="date" value="${ekstreFilters.dateFrom || ''}" onchange="window.setEkstreFilter('dateFrom', this.value || null)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+
+        <div class="top-filter-group">
+          <label>BİTİŞ</label>
+          <input type="date" value="${ekstreFilters.dateTo || ''}" onchange="window.setEkstreFilter('dateTo', this.value || null)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+
+        <div class="top-filter-group">
+          <label>ÜRÜN / MAL</label>
+          <select onchange="window.setEkstreFilter('product', this.value || null)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;max-width:180px;">
+            <option value="">(Tüm Ürünler)</option>
+            ${productSelectOptions}
+          </select>
+        </div>
+
+        <div class="top-filter-group">
+          <label>İŞLEM TİPİ</label>
+          <select onchange="window.setEkstreFilter('eventKind', this.value || null)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+            <option value="" ${!ekstreFilters.eventKind ? 'selected' : ''}>Tüm İşlemler</option>
+            <option value="tx" ${ekstreFilters.eventKind === 'tx' ? 'selected' : ''}>Yalnız Sevkiyatlar</option>
+            <option value="pm" ${ekstreFilters.eventKind === 'pm' ? 'selected' : ''}>Yalnız Ödemeler</option>
+          </select>
+        </div>
+
+        <div class="top-filter-group">
+          <label>&nbsp;</label>
+          <button onclick="window.clearEkstreFilters()" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.85rem;">
+            <i class="fa-solid fa-rotate-left" style="margin-right:4px;"></i>Tüm Zamanlar
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SUMMARY KPI CARDS -->
     <div style="display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap;">
       <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
         <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM KİLO</h3>
-        <h2 style="color: #a855f7;margin:0;">${totalQty.toLocaleString('tr-TR')}</h2>
+        <h2 style="color: #a855f7;margin:0;">${filteredKilo.toLocaleString('tr-TR')}</h2>
       </div>
       <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
         <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM TUTAR</h3>
-        <h2 style="color: #60a5fa;margin:0;">${formatCurrency(b.totalBought)}</h2>
+        <h2 style="color: #60a5fa;margin:0;">${formatCurrency(filteredTutar)}</h2>
       </div>
       <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
         <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM ÖDEME</h3>
-        <h2 style="color: #eab308;margin:0;">${formatCurrency(b.totalPaid)}</h2>
+        <h2 style="color: #eab308;margin:0;">${formatCurrency(filteredOdeme)}</h2>
       </div>
       <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
         <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">KALAN BAKİYE</h3>
-        <h2 style="color: ${b.balance >= 0 ? '#10b981' : '#ef4444'};margin:0;">${formatCurrency(b.balance)}</h2>
+        <h2 style="color: ${finalBakiye >= 0 ? '#10b981' : '#ef4444'};margin:0;">${formatCurrency(finalBakiye)}</h2>
       </div>
     </div>
+
+    <!-- TABLE -->
     <div class="glass-panel">
-      <h3 style="margin-bottom:16px;">Son İşlemler</h3>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+        <h3 style="margin:0;">Hesap Ekstresi Detayı (${allEvents.length} İşlem)</h3>
+      </div>
       <table>
         <thead>
           <tr>
@@ -1589,37 +1766,17 @@ function showAccountDetail(acc) {
         <tbody>
   `;
   
-  const allEvents = [
-    ...txs.map(t => {
-      const kilo = t.qty;
-      const price = acc.type === 'supplier' ? t.buyPrice : t.supplyPrice;
-      const tutar = kilo * price;
-      return {
-        date: t.date,
-        desc: t.product,
-        kilo: kilo,
-        price: price,
-        tutar: tutar,
-        odeme: 0,
-        type: 'tx'
-      };
-    }),
-    ...pms.map(p => ({
-      date: p.date,
-      desc: p.description || 'NAKİT',
-      kilo: 0,
-      price: 0,
-      tutar: 0,
-      odeme: p.amount,
-      type: 'pm'
-    }))
-  ].sort((a, b) => new Date(a.date) - new Date(b.date));
-
-  let runningBalance = 0;
-  allEvents.forEach(e => {
-    runningBalance += e.tutar - e.odeme;
-    e.bakiye = runningBalance;
-  });
+  if (ekstreFilters.dateFrom && devredenBakiye !== 0) {
+    html += `<tr style="background:rgba(255,255,255,0.04);font-weight:bold;">
+      <td>${formatAppDate(ekstreFilters.dateFrom)} Öncesi</td>
+      <td><em>DEVREDEN BAKİYE</em></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="${devredenBakiye >= 0 ? 'success' : 'danger'}">${formatCurrency(devredenBakiye)}</span></td>
+    </tr>`;
+  }
 
   const displayEvents = [...allEvents].reverse();
 
@@ -1646,6 +1803,10 @@ function showAccountDetail(acc) {
       </tr>`;
     }
   });
+
+  if (allEvents.length === 0) {
+    html += `<tr><td colspan="7" style="text-align:center;padding:30px;color:#9ca3af;">Seçilen filtrelere uygun işlem bulunamadı.</td></tr>`;
+  }
   
   html += `</tbody></table></div>`;
   viewContent.innerHTML = html;
@@ -1987,13 +2148,19 @@ function initTableFeatures() {
       searchBox.id = 'table-search-box';
       searchBox.placeholder = 'Tabloda ara...';
       searchBox.className = 'table-search';
+      
+      let searchTimer = null;
       searchBox.onkeyup = function(e) {
-         const val = e.target.value.toLowerCase();
-         const rows = table.querySelectorAll('tbody tr:not(.pivot-row-group)');
-         rows.forEach(r => {
-             const text = r.innerText.toLowerCase();
-             r.style.display = text.includes(val) ? '' : 'none';
-         });
+         clearTimeout(searchTimer);
+         const val = e.target.value.toLowerCase().trim();
+         searchTimer = setTimeout(() => {
+           const rows = table.querySelectorAll('tbody tr:not(.pivot-row-group)');
+           rows.forEach(r => {
+               // Use textContent for 100x faster execution without forcing browser reflow/layout freeze
+               const text = r.textContent.toLowerCase();
+               r.style.display = text.includes(val) ? '' : 'none';
+           });
+         }, 150);
       };
       table.parentNode.insertBefore(searchBox, table);
    }
