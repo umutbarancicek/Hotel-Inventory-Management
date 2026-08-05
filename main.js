@@ -469,8 +469,15 @@ window.applyBulkDelete = async () => {
 
 window.openTopluDegistirModal = () => {
   const data = DataService.getData();
-  const hotels = data.hotels.map(h => h.name);
-  const suppliers = data.suppliers.map(s => s.name);
+  const allTxs = data.transactions || [];
+  
+  const accSuppliers = (data.accounts || []).filter(a => a.type === 'supplier').map(a => a.name);
+  const txSuppliers = allTxs.map(t => t.supplier);
+  const suppliers = [...new Set([...accSuppliers, ...txSuppliers].filter(Boolean).map(s => s.trim()))].sort();
+
+  const accHotels = (data.accounts || []).filter(a => a.type === 'hotel').map(a => a.name);
+  const txHotels = allTxs.map(t => t.hotel);
+  const hotels = [...new Set([...accHotels, ...txHotels].filter(Boolean).map(h => h.trim()))].sort();
 
   const existingModal = document.getElementById('toplu-degistir-modal');
   if (existingModal) existingModal.remove();
@@ -631,8 +638,13 @@ function renderVeri() {
   const allTxs = data.transactions;
   const latestPrices = DataService.getLatestPrices();
 
-  const suppliers = data.accounts.filter(a => a.type === 'supplier').map(a => a.name).sort();
-  const hotels    = data.accounts.filter(a => a.type === 'hotel').map(a => a.name).sort();
+  const accSuppliers = (data.accounts || []).filter(a => a.type === 'supplier').map(a => a.name);
+  const allTxSuppliers = (allTxs || []).map(t => t.supplier);
+  const suppliers = [...new Set([...accSuppliers, ...allTxSuppliers].filter(Boolean).map(s => s.trim()))].sort();
+
+  const accHotels = (data.accounts || []).filter(a => a.type === 'hotel').map(a => a.name);
+  const allTxHotels = (allTxs || []).map(t => t.hotel);
+  const hotels = [...new Set([...accHotels, ...allTxHotels].filter(Boolean).map(h => h.trim()))].sort();
 
   if (!qeState.supplier && suppliers.length > 0) qeState.supplier = suppliers[0];
   if (!qeState.hotel    && hotels.length    > 0) qeState.hotel    = hotels[0];
