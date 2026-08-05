@@ -382,7 +382,7 @@ window.clearTxSelection = () => {
 window.recalculateTxSupplyPrice = (tx, data) => {
   const hUpper = (tx.hotel || '').toUpperCase().trim();
   const isSpecialHotel = hUpper.includes('SEPHORIA') || hUpper.includes('SEAPHORİA') || hUpper.includes('CASAFORA');
-  const marginRate = isSpecialHotel ? 0.22 : 0.18;
+  const marginRate = isSpecialHotel ? 1.22 : 1.18;
 
   const priceList = data.priceLists ? (data.priceLists[tx.date] || []) : [];
   const txProd = (tx.product || '').trim().toUpperCase();
@@ -667,7 +667,7 @@ function renderVeri() {
     // Auto calculate Tedarik Fiyatı based on Hotel (Sephoria & Casafora = 22%, Others = 18%)
     const hUpper = (qeState.hotel || '').toUpperCase().trim();
     const isSpecialHotel = hUpper.includes('SEPHORIA') || hUpper.includes('SEAPHORİA') || hUpper.includes('CASAFORA');
-    const marginRate = isSpecialHotel ? 0.22 : 0.18;
+    const marginRate = isSpecialHotel ? 1.22 : 1.18;
     
     let defaultSupply = '';
     if (tutedVal > 0) {
@@ -1406,11 +1406,7 @@ function renderFiyat() {
     <thead><tr><th>MAL</th><th>BİRİM</th><th>FİYAT</th></tr></thead>
     <tbody>`;
     currentList.forEach(p => {
-      let priceVal = p.price;
-      if (typeof priceVal === 'string') {
-        priceVal = parseFloat(priceVal.replace(/\./g, '').replace(',', '.'));
-      }
-      if (isNaN(priceVal)) priceVal = 0;
+      let priceVal = parsePrice(p.price);
       tableHtml += `<tr><td>${p.product}</td><td>${p.unit}</td><td>${formatCurrency(priceVal)}</td></tr>`;
     });
     tableHtml += `</tbody></table>`;
