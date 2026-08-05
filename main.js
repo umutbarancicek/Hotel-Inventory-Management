@@ -484,8 +484,8 @@ window.openTopluDegistirModal = () => {
 
   const modal = document.createElement('div');
   modal.id = 'toplu-degistir-modal';
-  modal.className = 'modal-backdrop';
-  modal.style.display = 'flex';
+  modal.className = 'modal-overlay';
+  modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.75);backdrop-filter:blur(6px);z-index:10000;display:flex;align-items:center;justify-content:center;padding:16px;';
 
   modal.innerHTML = `
     <div class="modal-box glass-panel" style="width:580px;max-width:95vw;border:1px solid rgba(168,85,247,0.3);">
