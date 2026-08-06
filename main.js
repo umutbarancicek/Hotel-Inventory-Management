@@ -1536,20 +1536,9 @@ function showAccountDetail(acc) {
   viewTitle.innerText = `${acc.name.trim()} - HESAP EKSTRESİ`;
   
   const data = DataService.getData();
-  const accNameClean = acc.name.trim().toUpperCase();
-  const txs = data.transactions.filter(t => {
-    const sClean = (t.supplier||'').trim().toUpperCase();
-    const hClean = (t.hotel||'').trim().toUpperCase();
-    if (hClean === accNameClean || sClean === accNameClean) return true;
-    if ((accNameClean.includes('ERTA') || accNameClean.includes('MSD07')) && (sClean.includes('ERTA') || sClean.includes('MSD07'))) return true;
-    return false;
-  });
-  const pms = data.payments.filter(p => {
-    const pAcc = (p.account||'').trim().toUpperCase();
-    if (pAcc === accNameClean) return true;
-    if ((accNameClean.includes('ERTA') || accNameClean.includes('MSD07')) && (pAcc.includes('ERTA') || pAcc.includes('MSD07'))) return true;
-    return false;
-  });
+  const accName = acc.name.trim();
+  const txs = data.transactions.filter(t => (t.hotel||'').trim() === accName || (t.supplier||'').trim() === accName);
+  const pms = data.payments.filter(p => (p.account||'').trim() === accName);
   
   const balances = DataService.getAccountBalances();
   const b = balances.find(x => x.name.trim() === acc.name.trim()) || { totalBought: 0, totalPaid: 0, balance: 0 };
