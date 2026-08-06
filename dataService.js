@@ -8,23 +8,15 @@ export const DataService = {
   cleanData(data) {
     let changed = false;
 
-    // Sync newly inserted initialData transactions into existing localData if missing
-    if (data.transactions) {
-      const existingSet = new Set(
-        data.transactions.map(t => `${t.date}_${(t.supplier||'').trim()}_${(t.hotel||'').trim()}_${(t.product||'').trim()}`)
-      );
-      const newFromInit = INITIAL_DATA.transactions.filter(t => {
-        const k = `${t.date}_${(t.supplier||'').trim()}_${(t.hotel||'').trim()}_${(t.product||'').trim()}`;
-        return !existingSet.has(k);
-      });
-      if (newFromInit.length > 0) {
-        let maxId = data.transactions.reduce((m, x) => Math.max(m, x.id || 0), 0);
-        newFromInit.forEach(mi => {
-          maxId++;
-          data.transactions.push({ ...mi, id: maxId });
-        });
-        changed = true;
-      }
+    // Initialize collections if they are completely missing or empty
+    if (!data.transactions || data.transactions.length === 0) {
+      data.transactions = JSON.parse(JSON.stringify(INITIAL_DATA.transactions || []));
+      changed = true;
+    }
+
+    if (!data.accounts || data.accounts.length === 0) {
+      data.accounts = JSON.parse(JSON.stringify(INITIAL_DATA.accounts || []));
+      changed = true;
     }
 
     // Trim transactions
@@ -41,16 +33,6 @@ export const DataService = {
       data.payments.forEach(p => {
         if (p.account && p.account !== p.account.trim()) { p.account = p.account.trim(); changed = true; }
       });
-    }
-
-    // Sync newly added accounts from initialData into existing data
-    if (data.accounts && INITIAL_DATA.accounts) {
-      const existingNames = new Set(data.accounts.map(a => a.name.trim()));
-      const newAccounts = INITIAL_DATA.accounts.filter(a => !existingNames.has(a.name.trim()));
-      if (newAccounts.length > 0) {
-        data.accounts.push(...newAccounts);
-        changed = true;
-      }
     }
 
     // Trim and unique accounts
