@@ -739,11 +739,12 @@ function renderVeri() {
       });
     }
     if (pMatch) {
-      tutedVal = parsePrice(pMatch.price);
-      if (tutedVal > 250) tutedVal = tutedVal / 100.0;
+      let p = parsePrice(pMatch.price);
+      if (p > 0 && p < 10 && tx.supplyPrice > 20) p = p * 100;
+      tutedVal = p;
     }
-    if (tutedVal === 0 && tx.supplyPrice > 0) {
-      tutedVal = tx.supplyPrice;
+    if (tutedVal <= 0 && tx.supplyPrice > 0) {
+      tutedVal = Math.round((tx.supplyPrice / marginRate) * 100) / 100;
     }
     
     const hasTuted = tutedVal > 0 && tx.supplyPrice > 0;
