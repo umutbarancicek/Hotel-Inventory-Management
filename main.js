@@ -419,8 +419,7 @@ window.recalculateTxSupplyPrice = (tx, data) => {
   }
 
   if (tutedVal > 0) {
-    const realTl = tutedVal > 250 ? tutedVal / 100.0 : tutedVal;
-    const calcSupply = Math.round(realTl * marginRate * 100) / 100;
+    const calcSupply = Math.round(tutedVal * marginRate * 100) / 100;
     tx.supplyPrice = calcSupply;
   } else {
     tx.supplyPrice = tx.buyPrice;
