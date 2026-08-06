@@ -317,11 +317,13 @@ window.fetchTutedPriceListForDate = async (targetDateStr, showNotice = true) => 
     for (let i = 2; i < sheetData.length; i++) {
       const row = sheetData[i];
       if (!row || !row[2] || !row[3] || !row[4]) continue;
+      let rawP = parsePrice(row[4]);
+      if (rawP > 250) rawP = rawP / 100;
       newPrices.push({
         date: isoDate,
         product: row[2].toString().trim(),
         unit: row[3].toString().trim(),
-        price: row[4].toString().trim()
+        price: rawP.toFixed(2)
       });
     }
 
