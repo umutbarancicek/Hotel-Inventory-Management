@@ -287,9 +287,9 @@ body {
   box-shadow: inset 0px 2px 0px rgba(255,255,255,0.2), inset 0px -2px 0px rgba(0,0,0,0.3), 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.btn-blue { background-color: var(--blue-btn); color: #fbbf24; }
-.btn-green { background-color: var(--green-btn); color: #000; text-shadow: none; }
-.btn-black { background-color: var(--black-btn); color: white; border: 1px solid #333; }
+.btn-blue { background-color: var(--blue-btn); color: #ffffff; font-weight: 700; }
+.btn-green { background-color: var(--green-btn); color: #052e16; font-weight: 800; text-shadow: none; }
+.btn-black { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); color: #ffffff !important; border: 1px solid rgba(255,255,255,0.25); font-weight: 700; box-shadow: 0 4px 12px rgba(0,0,0,0.4); text-shadow: 0 1px 3px rgba(0,0,0,0.8); }
 
 /* QUICK FORM */
 .quick-form-container {
