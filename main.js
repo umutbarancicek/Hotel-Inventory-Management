@@ -1548,7 +1548,28 @@ function renderOzet() {
   initTableFeatures();
 }
 
-function showAccountDetail(acc) {
+let activeAccount = null;
+let ekstreFilters = { dateFrom: null, dateTo: null, type: 'all', search: '' };
+
+window.setEkstreFilter = (key, val) => {
+  ekstreFilters[key] = val;
+  renderAccountDetail();
+};
+
+window.clearEkstreFilters = () => {
+  ekstreFilters = { dateFrom: null, dateTo: null, type: 'all', search: '' };
+  renderAccountDetail();
+};
+
+window.showAccountDetail = (acc) => {
+  activeAccount = acc;
+  ekstreFilters = { dateFrom: null, dateTo: null, type: 'all', search: '' };
+  renderAccountDetail();
+};
+
+function renderAccountDetail() {
+  if (!activeAccount) return;
+  const acc = activeAccount;
   viewDash.classList.remove('active');
   viewOther.classList.add('active');
   viewTitle.innerText = `${acc.name.trim()} - HESAP EKSTRESİ`;
@@ -1557,47 +1578,6 @@ function showAccountDetail(acc) {
   const accName = acc.name.trim();
   const txs = data.transactions.filter(t => (t.hotel||'').trim() === accName || (t.supplier||'').trim() === accName);
   const pms = data.payments.filter(p => (p.account||'').trim() === accName);
-  
-  const balances = DataService.getAccountBalances();
-  const b = balances.find(x => x.name.trim() === acc.name.trim()) || { totalBought: 0, totalPaid: 0, balance: 0 };
-  
-  const totalQty = txs.reduce((sum, t) => sum + t.qty, 0);
-  
-  let html = `
-    <div style="display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap;">
-      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
-        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM KİLO</h3>
-        <h2 style="color: #a855f7;margin:0;">${totalQty.toLocaleString('tr-TR')}</h2>
-      </div>
-      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
-        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM TUTAR</h3>
-        <h2 style="color: #60a5fa;margin:0;">${formatCurrency(b.totalBought)}</h2>
-      </div>
-      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
-        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM ÖDEME</h3>
-        <h2 style="color: #eab308;margin:0;">${formatCurrency(b.totalPaid)}</h2>
-      </div>
-      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
-        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">KALAN BAKİYE</h3>
-        <h2 style="color: ${b.balance >= 0 ? '#10b981' : '#ef4444'};margin:0;">${formatCurrency(b.balance)}</h2>
-      </div>
-    </div>
-    <div class="glass-panel">
-      <h3 style="margin-bottom:16px;">Son İşlemler</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Tarih</th>
-            <th>Mal / İşlem</th>
-            <th>Kilo</th>
-            <th>Birim Fiyat</th>
-            <th>Tutar</th>
-            <th>Ödeme</th>
-            <th>Bakiye</th>
-          </tr>
-        </thead>
-        <tbody>
-  `;
   
   const allEvents = [
     ...txs.map(t => {
@@ -1631,32 +1611,124 @@ function showAccountDetail(acc) {
     e.bakiye = runningBalance;
   });
 
-  const displayEvents = [...allEvents].reverse();
-
-  displayEvents.forEach(e => {
-    if (e.type === 'tx') {
-      html += `<tr>
-        <td>${formatAppDate(e.date)}</td>
-        <td><strong>${e.desc}</strong></td>
-        <td>${e.kilo.toLocaleString('tr-TR')}</td>
-        <td>${formatCurrency(e.price)}</td>
-        <td>${formatCurrency(e.tutar)}</td>
-        <td>—</td>
-        <td><span class="${e.bakiye >= 0 ? 'success' : 'danger'}">${formatCurrency(e.bakiye)}</span></td>
-      </tr>`;
-    } else {
-      html += `<tr>
-        <td>${formatAppDate(e.date)}</td>
-        <td><em>${e.desc}</em></td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td><span style="color:#eab308;font-weight:700;">${formatCurrency(e.odeme)}</span></td>
-        <td><span class="${e.bakiye >= 0 ? 'success' : 'danger'}">${formatCurrency(e.bakiye)}</span></td>
-      </tr>`;
+  const f = ekstreFilters;
+  const filteredEvents = allEvents.filter(e => {
+    if (f.dateFrom && e.date < f.dateFrom) return false;
+    if (f.dateTo && e.date > f.dateTo) return false;
+    if (f.type === 'tx' && e.type !== 'tx') return false;
+    if (f.type === 'pm' && e.type !== 'pm') return false;
+    if (f.search) {
+      const sLower = f.search.toLowerCase();
+      if (!e.desc.toLowerCase().includes(sLower)) return false;
     }
+    return true;
   });
-  
+
+  const filteredTxs = filteredEvents.filter(e => e.type === 'tx');
+  const filteredPms = filteredEvents.filter(e => e.type === 'pm');
+
+  const displayQty = filteredTxs.reduce((sum, e) => sum + e.kilo, 0);
+  const displayBought = filteredTxs.reduce((sum, e) => sum + e.tutar, 0);
+  const displayPaid = filteredPms.reduce((sum, e) => sum + e.odeme, 0);
+  const displayBalance = displayBought - displayPaid;
+
+  let html = `
+    <!-- FILTER BAR -->
+    <div class="glass-panel" style="margin-bottom:16px;padding:14px 20px;display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);">
+      <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;">
+        <div class="top-filter-group">
+          <label>BAŞLANGIÇ</label>
+          <input type="date" value="${f.dateFrom || ''}" onchange="window.setEkstreFilter('dateFrom', this.value || null)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+        <div class="top-filter-group">
+          <label>BİTİŞ</label>
+          <input type="date" value="${f.dateTo || ''}" onchange="window.setEkstreFilter('dateTo', this.value || null)" style="background:rgba(255,255,255,0.1);color:white;border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+        </div>
+        <div class="top-filter-group">
+          <label>İŞLEM TİPİ</label>
+          <select onchange="window.setEkstreFilter('type', this.value)" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+            <option value="all" ${f.type === 'all' ? 'selected' : ''}>-- Tümü --</option>
+            <option value="tx" ${f.type === 'tx' ? 'selected' : ''}>Sadece Ürün Alış/Tedarik</option>
+            <option value="pm" ${f.type === 'pm' ? 'selected' : ''}>Sadece Ödemeler</option>
+          </select>
+        </div>
+        <div class="top-filter-group">
+          <label>ÜRÜN / AÇIKLAMA ARA</label>
+          <input type="text" placeholder="Ürün veya açıklama..." value="${f.search || ''}" oninput="window.setEkstreFilter('search', this.value)" style="background:rgba(255,255,255,0.08);border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;color:white;font-family:'Outfit',sans-serif;width:200px;">
+        </div>
+      </div>
+      <div>
+        <button onclick="window.clearEkstreFilters()" style="background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:8px;padding:8px 14px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.85rem;"><i class="fa-solid fa-filter-circle-xmark" style="margin-right:4px;"></i>Filtreleri Sıfırla</button>
+      </div>
+    </div>
+
+    <!-- KPI CARDS -->
+    <div style="display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap;">
+      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
+        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM KİLO</h3>
+        <h2 style="color: #a855f7;margin:0;">${displayQty.toLocaleString('tr-TR')} kg</h2>
+      </div>
+      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
+        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM TUTAR</h3>
+        <h2 style="color: #60a5fa;margin:0;">${formatCurrency(displayBought)}</h2>
+      </div>
+      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
+        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">TOPLAM ÖDEME</h3>
+        <h2 style="color: #eab308;margin:0;">${formatCurrency(displayPaid)}</h2>
+      </div>
+      <div class="glass-panel" style="flex: 1; min-width: 150px; text-align: center; padding: 16px;">
+        <h3 style="font-size:0.85rem;color:var(--text-secondary);margin:0 0 6px 0;">KALAN BAKİYE</h3>
+        <h2 style="color: ${displayBalance >= 0 ? '#10b981' : '#ef4444'};margin:0;">${formatCurrency(displayBalance)}</h2>
+      </div>
+    </div>
+
+    <div class="glass-panel">
+      <h3 style="margin-bottom:16px;">Son İşlemler (${filteredEvents.length} Kayıt)</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Tarih</th>
+            <th>Mal / İşlem</th>
+            <th>Kilo</th>
+            <th>Birim Fiyat</th>
+            <th>Tutar</th>
+            <th>Ödeme</th>
+            <th>Bakiye</th>
+          </tr>
+        </thead>
+        <tbody>
+  `;
+
+  const displayEvents = [...filteredEvents].reverse();
+
+  if (displayEvents.length === 0) {
+    html += `<tr><td colspan="7" style="text-align:center;color:#9ca3af;padding:24px;">Kriterlere uygun hareket bulunamadı.</td></tr>`;
+  } else {
+    displayEvents.forEach(e => {
+      if (e.type === 'tx') {
+        html += `<tr>
+          <td>${formatAppDate(e.date)}</td>
+          <td><strong>${e.desc}</strong></td>
+          <td>${e.kilo.toLocaleString('tr-TR')}</td>
+          <td>${formatCurrency(e.price)}</td>
+          <td>${formatCurrency(e.tutar)}</td>
+          <td>—</td>
+          <td><span class="${e.bakiye >= 0 ? 'success' : 'danger'}">${formatCurrency(e.bakiye)}</span></td>
+        </tr>`;
+      } else {
+        html += `<tr>
+          <td>${formatAppDate(e.date)}</td>
+          <td><em>${e.desc}</em></td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td><span style="color:#eab308;font-weight:700;">${formatCurrency(e.odeme)}</span></td>
+          <td><span class="${e.bakiye >= 0 ? 'success' : 'danger'}">${formatCurrency(e.bakiye)}</span></td>
+        </tr>`;
+      }
+    });
+  }
+
   html += `</tbody></table></div>`;
   viewContent.innerHTML = html;
   initTableFeatures();
@@ -2508,18 +2580,19 @@ window.openPivotReportModal = () => {
   if (f.product) activeDims.push({ key: 'product', label: 'MAL' });
   if (f.hotel) activeDims.push({ key: 'hotel', label: 'GİTTİĞİ YER' });
 
-  // Active Metrics
-  const activeMetrics = [];
-  if (f.kilo) activeMetrics.push({ key: 'kilo', label: 'Toplam KİLO' });
-  if (f.tuted) activeMetrics.push({ key: 'tuted', label: 'Ort. TÜTED' });
-  if (f.buyPrice) activeMetrics.push({ key: 'buyPrice', label: 'Ort. ALIŞ FİAT' });
-  if (f.supplyPrice) activeMetrics.push({ key: 'supplyPrice', label: 'Ort. TEDA FİAT' });
-  if (f.hal) activeMetrics.push({ key: 'hal', label: 'Toplam HAL TUTAR' });
-  if (f.supply) activeMetrics.push({ key: 'supply', label: 'Toplam TEDARİK TUTAR' });
-  if (f.fark) activeMetrics.push({ key: 'fark', label: 'Toplam FARK' });
+  // Active Metrics - Always include all essential metrics in prints & Excel exports
+  const activeMetrics = [
+    { key: 'kilo', label: 'Toplam KİLO' },
+    { key: 'tuted', label: 'Ort. TÜTED' },
+    { key: 'buyPrice', label: 'Ort. ALIŞ FİAT' },
+    { key: 'supplyPrice', label: 'Ort. TEDA FİAT' },
+    { key: 'hal', label: 'Toplam HAL TUTAR' },
+    { key: 'supply', label: 'Toplam TEDARİK TUTAR' },
+    { key: 'fark', label: 'Toplam FARK' }
+  ];
 
   const displayDims = activeDims.length > 0 ? activeDims : [{ key: 'product', label: 'MAL' }];
-  const displayMetrics = activeMetrics.length > 0 ? activeMetrics : [{ key: 'kilo', label: 'Toplam KİLO' }];
+  const displayMetrics = activeMetrics;
 
   const parsePrice = str => typeof str === 'number' ? str : parseFloat(String(str).replace(/\./g,'').replace(',','.')) || 0;
 
