@@ -402,7 +402,9 @@ window.recalculateTxSupplyPrice = (tx, data) => {
   }
 
   if (tutedVal > 0) {
-    tx.supplyPrice = Math.round(tutedVal * marginRate * 100) / 100;
+    const realTl = tutedVal > 250 ? tutedVal / 100.0 : tutedVal;
+    const calcSupply = Math.round(realTl * marginRate * 100) / 100;
+    tx.supplyPrice = Math.max(calcSupply, tx.buyPrice);
   } else {
     tx.supplyPrice = tx.buyPrice;
   }
@@ -661,7 +663,9 @@ function renderVeri() {
     
     let defaultSupply = '';
     if (tutedVal > 0) {
-      defaultSupply = (Math.round(tutedVal * marginRate * 100) / 100).toString();
+      const realTl = tutedVal > 250 ? tutedVal / 100.0 : tutedVal;
+      const calcSupply = Math.round(realTl * marginRate * 100) / 100;
+      defaultSupply = Math.max(calcSupply, numBuy).toString();
     }
     
     const supplyVal = ov.supply !== undefined ? ov.supply : defaultSupply;
