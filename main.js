@@ -69,10 +69,29 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
 // Format Currency
 const formatCurrency = (val) => new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY' }).format(val);
 
-const formatAppDate = (isoDate) => {
-  if (!isoDate) return '-';
-  const [y, m, d] = isoDate.split('-');
-  return `${d}.${m}.${y}`;
+function formatAppDate(dateStr) {
+  if (!dateStr) return '';
+  const str = String(dateStr).trim();
+  if (str.includes('.')) return str;
+  if (str.includes('-')) {
+    const parts = str.split('-');
+    if (parts.length === 3) {
+      const y = parts[0];
+      const m = parts[1].padStart(2, '0');
+      const d = parts[2].padStart(2, '0');
+      return `${d}.${m}.${y}`;
+    }
+  }
+  if (str.includes('/')) {
+    const parts = str.split('/');
+    if (parts.length === 3) {
+      const p0 = parts[0].padStart(2, '0');
+      const p1 = parts[1].padStart(2, '0');
+      const y = parts[2].length === 2 ? '20' + parts[2] : parts[2];
+      return `${p0}.${p1}.${y}`;
+    }
+  }
+  return str;
 };
 
 function renderDashboard() {
