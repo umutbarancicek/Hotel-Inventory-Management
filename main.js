@@ -2319,9 +2319,29 @@ window.openPivotReportModal = () => {
   let gKg = 0, gHal = 0, gTed = 0, gFark = 0, gTutedSum = 0, gCount = 0;
 
   filtered.forEach(t => {
+    const hUpper = (t.hotel || '').toUpperCase().trim();
+    const isSpecialHotel = hUpper.includes('SEPHORIA') || hUpper.includes('SEAPHORİA') || hUpper.includes('CASAFORA');
+    const marginRate = isSpecialHotel ? 0.22 : 0.18;
+
     const priceList = (data.priceLists && data.priceLists[t.date]) ? data.priceLists[t.date] : (data.prices || []);
-    const pMatch = priceList.find(p => (p.product||'').trim() === (t.product||'').trim());
-    const tutedVal = pMatch ? parsePrice(pMatch.price) : 0;
+    const txProd = (t.product||'').trim().toUpperCase();
+    let pMatch = priceList.find(p => (p.product||'').trim().toUpperCase() === txProd);
+    if (!pMatch && priceList.length > 0) {
+      pMatch = priceList.find(p => {
+        const pName = (p.product||'').trim().toUpperCase();
+        return pName.includes(txProd) || txProd.includes(pName);
+      });
+    }
+    let tutedVal = 0;
+    if (pMatch) {
+      let p = parsePrice(pMatch.price);
+      if (p > 0 && p < 10 && t.supplyPrice > 20) p = p * 100;
+      tutedVal = p;
+    }
+    if (tutedVal <= 0 && t.supplyPrice > 0) {
+      tutedVal = Math.round((t.supplyPrice / marginRate) * 100) / 100;
+    }
+
     const hal = t.qty * t.buyPrice;
     const ted = t.qty * t.supplyPrice;
     const fark = ted - hal;
