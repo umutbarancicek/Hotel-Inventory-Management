@@ -1536,8 +1536,9 @@ function showAccountDetail(acc) {
   viewTitle.innerText = `${acc.name.trim()} - HESAP EKSTRESİ`;
   
   const data = DataService.getData();
-  const txs = data.transactions.filter(t => (t.hotel||'').trim() === acc.name.trim() || (t.supplier||'').trim() === acc.name.trim());
-  const pms = data.payments.filter(p => (p.account||'').trim() === acc.name.trim());
+  const accName = acc.name.trim();
+  const txs = data.transactions.filter(t => (t.hotel||'').trim() === accName || (t.supplier||'').trim() === accName);
+  const pms = data.payments.filter(p => (p.account||'').trim() === accName);
   
   const balances = DataService.getAccountBalances();
   const b = balances.find(x => x.name.trim() === acc.name.trim()) || { totalBought: 0, totalPaid: 0, balance: 0 };
