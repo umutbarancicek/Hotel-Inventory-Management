@@ -2153,6 +2153,92 @@ window.deleteTransaction = (id) => {
   renderDashboard();
 };
 
+// ── TOPLU BUL & DEĞİŞTİR MODAL ───────────────────────────────────────────────
+window.openTopluDegistirModal = () => {
+  const data = DataService.getData();
+  const suppliers = data.accounts.filter(a => a.type === 'supplier').map(a => a.name);
+  const hotels = data.accounts.filter(a => a.type === 'hotel').map(a => a.name);
+
+  const existing = document.getElementById('toplu-degistir-modal');
+  if (existing) existing.remove();
+
+  openGenericModal(`
+    <div class="modal-box" style="max-width:540px;">
+      <div class="modal-header">
+        <span><i class="fa-solid fa-arrows-rotate" style="margin-right:8px;color:#c084fc;"></i>Toplu Bul & Değiştir</span>
+        <button onclick="document.getElementById('toplu-degistir-modal').remove()" style="background:none;border:none;color:#9ca3af;font-size:1.4rem;cursor:pointer;">✕</button>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px;margin-top:16px;">
+        <div class="top-filter-group">
+          <label>DEĞİŞTİRİLECEK ALAN</label>
+          <select id="td-field" style="${modalInputStyle}">
+            <option value="hotel">Gittiği Yer (Otel)</option>
+            <option value="supplier">Müstahsil (Tedarikçi)</option>
+            <option value="product">Mal (Ürün Adı)</option>
+            <option value="date">Tarih (YYYY-AA-GG)</option>
+          </select>
+        </div>
+
+        <div class="top-filter-group">
+          <label>ARANAN / DEĞİŞTİRİLECEK ESKİ DEĞER</label>
+          <input type="text" id="td-old-val" placeholder="Örn: MSD07 TAR ÜR..." style="${modalInputStyle}">
+        </div>
+
+        <div class="top-filter-group">
+          <label>YENİ DEĞER</label>
+          <input type="text" id="td-new-val" placeholder="Örn: ERTAŞLAR..." style="${modalInputStyle}">
+        </div>
+
+        <div style="background:rgba(168,85,247,0.1);border:1px solid rgba(168,85,247,0.3);border-radius:8px;padding:12px;color:#e9d5ff;font-size:0.85rem;">
+          <i class="fa-solid fa-circle-info" style="color:#c084fc;margin-right:6px;"></i>
+          Veri listesindeki eşleşen tüm kayıtlarda aranan eski değer yeni değer ile topluca güncellenecektir.
+        </div>
+
+        <button onclick="window.applyTopluDegistir()" class="dash-btn btn-green" style="margin:0;padding:12px;">
+          <i class="fa-solid fa-check"></i> TOPLU DEĞİŞTİR VE UYGULA
+        </button>
+      </div>
+    </div>
+  `, 'toplu-degistir-modal');
+};
+
+window.applyTopluDegistir = async () => {
+  const field = document.getElementById('td-field').value;
+  const oldVal = (document.getElementById('td-old-val').value || '').trim().toUpperCase();
+  const newVal = (document.getElementById('td-new-val').value || '').trim().toUpperCase();
+
+  if (!oldVal || !newVal) {
+    alert('Lütfen hem aranan eski değeri hem de yeni değeri giriniz!');
+    return;
+  }
+
+  const data = DataService.getData();
+  let count = 0;
+
+  data.transactions.forEach(t => {
+    const curVal = (t[field] || '').trim().toUpperCase();
+    if (curVal === oldVal || curVal.includes(oldVal)) {
+      t[field] = newVal;
+      count++;
+    }
+  });
+
+  if (count === 0) {
+    alert(`"${oldVal}" değeriyle eşleşen herhangi bir işlem kaydı bulunamadı.`);
+    return;
+  }
+
+  if (!confirm(`Eşleşen ${count} adet işlem kaydındaki "${oldVal}" alanı "${newVal}" olarak değiştirilecek. Onaylıyor musunuz?`)) return;
+
+  await DataService.saveData(data);
+  const m = document.getElementById('toplu-degistir-modal');
+  if (m) m.remove();
+  renderVeri();
+  renderDashboard();
+
+  alert(`Başarılı! ${count} adet işlemdeki "${oldVal}" değeri "${newVal}" olarak topluca değiştirildi.`);
+};
+
 // TUTED FETCH LOGIC
 document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) => {
    const btn = e.target;
