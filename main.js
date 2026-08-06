@@ -194,7 +194,7 @@ document.querySelectorAll('.dash-btn[data-nav]').forEach(btn => {
     
     // Manage fetch button visibility
     const tutedBtn = document.getElementById('btn-fetch-tuted');
-    tutedBtn.style.display = nav === 'fiyat' ? 'block' : 'none';
+    tutedBtn.style.display = 'none';
     
     if (nav === 'veri') renderVeri();
     else if (nav === 'odemeler') renderOdemeler();
@@ -1430,6 +1430,18 @@ function renderFiyat() {
   viewContent.innerHTML = `
     <div class="fiyat-archive-layout">
       <div class="fiyat-date-panel glass-panel">
+        
+        <!-- YENİ LİSTE İNDİR KUTUSU -->
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 12px; margin-bottom: 20px;">
+          <div style="font-weight:700;font-size:0.75rem;color:var(--text-secondary);margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px;">Tarih Seçip Borsa Listesini İndir</div>
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+            <input type="date" id="tuted-fetch-date" value="${new Date().toISOString().split('T')[0]}" style="flex:1;background:rgba(255,255,255,0.08);color:white;border:1px solid var(--panel-border);border-radius:6px;padding:6px 10px;font-family:'Outfit',sans-serif;font-size:0.85rem;height:34px;box-sizing:border-box;cursor:pointer;">
+            <button onclick="window.fetchTutedForDate()" class="dash-btn btn-green" style="margin:0;padding:6px 12px;font-size:0.8rem;height:34px;white-space:nowrap;display:flex;align-items:center;gap:6px;">
+              <i class="fa-solid fa-cloud-arrow-down"></i> Fiyatları Çek
+            </button>
+          </div>
+        </div>
+
         <div style="font-weight:700;font-size:0.85rem;color:var(--text-secondary);margin-bottom:12px;">FİYAT LİSTESİ ARŞİVİ</div>
         ${sortedDates.length > 0 ? dateCards : '<p style="color:#9ca3af;font-size:0.85rem;">Henüz kayıt yok</p>'}
       </div>
@@ -1445,6 +1457,34 @@ function renderFiyat() {
 window.selectFiyatDate = (d) => {
   selectedFiyatDate = d;
   renderFiyat();
+};
+
+window.fetchTutedForDate = async () => {
+  const dateInput = document.getElementById('tuted-fetch-date');
+  if (!dateInput) return;
+  const targetDate = dateInput.value;
+  if (!targetDate) {
+    alert('Lütfen geçerli bir tarih seçin.');
+    return;
+  }
+  
+  const btn = document.querySelector('button[onclick="window.fetchTutedForDate()"]');
+  const originalText = btn.innerHTML;
+  btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Çekiliyor...';
+  btn.disabled = true;
+  
+  try {
+    const res = await window.fetchTutedPriceListForDate(targetDate, true);
+    if (res) {
+      selectedFiyatDate = targetDate;
+      renderFiyat();
+    }
+  } catch (err) {
+    alert('Hata: ' + err.message);
+  } finally {
+    btn.innerHTML = originalText;
+    btn.disabled = false;
+  }
 };
 
 let ozetFilters = { type: null, name: null, dateFrom: null, dateTo: null };
