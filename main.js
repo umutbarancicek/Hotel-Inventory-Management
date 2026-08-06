@@ -2153,82 +2153,172 @@ window.deleteTransaction = (id) => {
   renderDashboard();
 };
 
-// ── TOPLU BUL & DEĞİŞTİR MODAL ───────────────────────────────────────────────
+// ── TOPLU BUL VE DEĞİŞTİR MODAL (BİREBİR KULLANICI TASARIMI) ─────────────────
 window.openTopluDegistirModal = () => {
   const data = DataService.getData();
-  const suppliers = data.accounts.filter(a => a.type === 'supplier').map(a => a.name);
-  const hotels = data.accounts.filter(a => a.type === 'hotel').map(a => a.name);
+  const suppliers = data.accounts.filter(a => a.type === 'supplier').map(a => a.name).sort();
+  const hotels = data.accounts.filter(a => a.type === 'hotel').map(a => a.name).sort();
 
   const existing = document.getElementById('toplu-degistir-modal');
   if (existing) existing.remove();
 
+  const hotelOptions = hotels.map(h => `<option value="${h}">${h}</option>`).join('');
+  const supplierOptions = suppliers.map(s => `<option value="${s}">${s}</option>`).join('');
+
   openGenericModal(`
-    <div class="modal-box" style="max-width:540px;">
-      <div class="modal-header">
-        <span><i class="fa-solid fa-arrows-rotate" style="margin-right:8px;color:#c084fc;"></i>Toplu Bul & Değiştir</span>
+    <div class="modal-box" style="max-width:620px;width:95vw;padding:24px;background:#181825;border:1px solid rgba(255,255,255,0.15);border-radius:16px;">
+      
+      <!-- HEADER -->
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+        <span style="font-size:1.2rem;font-weight:700;color:white;display:flex;align-items:center;gap:10px;">
+          <i class="fa-solid fa-arrows-rotate" style="color:#d946ef;"></i> Toplu Bul ve Değiştir
+        </span>
         <button onclick="document.getElementById('toplu-degistir-modal').remove()" style="background:none;border:none;color:#9ca3af;font-size:1.4rem;cursor:pointer;">✕</button>
       </div>
-      <div style="display:flex;flex-direction:column;gap:14px;margin-top:16px;">
-        <div class="top-filter-group">
-          <label>DEĞİŞTİRİLECEK ALAN</label>
-          <select id="td-field" style="${modalInputStyle}">
-            <option value="hotel">Gittiği Yer (Otel)</option>
-            <option value="supplier">Müstahsil (Tedarikçi)</option>
-            <option value="product">Mal (Ürün Adı)</option>
-            <option value="date">Tarih (YYYY-AA-GG)</option>
+
+      <!-- INFO BANNER -->
+      <div style="background:rgba(217,70,239,0.12);border:1px solid rgba(217,70,239,0.25);border-radius:10px;padding:12px 14px;color:#f472b6;font-size:0.85rem;line-height:1.4;margin-bottom:20px;display:flex;align-items:flex-start;gap:8px;">
+        <i class="fa-solid fa-circle-info" style="margin-top:2px;flex-shrink:0;"></i>
+        <span>Yanlış girilen otel veya müstahsil bilgilerini tek tıkla topluca başka bir otel/müstahsil ile değiştirebilirsiniz.</span>
+      </div>
+
+      <!-- FORM GRID -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px;">
+        
+        <!-- ROW 1: OTEL -->
+        <div>
+          <label style="display:block;font-size:0.75rem;font-weight:700;color:#eab308;margin-bottom:6px;letter-spacing:0.03em;">MEVCUT OTEL (DEĞİŞTİRİLECEK)</label>
+          <select id="td-mevcut-otel" onchange="window.updateTopluDegistirCount()" style="${modalInputStyle}">
+            <option value="">-- Tüm Oteller --</option>
+            ${hotelOptions}
           </select>
         </div>
 
-        <div class="top-filter-group">
-          <label>ARANAN / DEĞİŞTİRİLECEK ESKİ DEĞER</label>
-          <input type="text" id="td-old-val" placeholder="Örn: MSD07 TAR ÜR..." style="${modalInputStyle}">
+        <div>
+          <label style="display:block;font-size:0.75rem;font-weight:700;color:#60a5fa;margin-bottom:6px;letter-spacing:0.03em;">YENİ HEDEF OTEL</label>
+          <select id="td-yeni-otel" style="${modalInputStyle}">
+            <option value="">-- Değiştirilmeyecek --</option>
+            ${hotelOptions}
+          </select>
         </div>
 
-        <div class="top-filter-group">
-          <label>YENİ DEĞER</label>
-          <input type="text" id="td-new-val" placeholder="Örn: ERTAŞLAR..." style="${modalInputStyle}">
+        <!-- ROW 2: MÜSTAHSİL -->
+        <div>
+          <label style="display:block;font-size:0.75rem;font-weight:700;color:#eab308;margin-bottom:6px;letter-spacing:0.03em;">MÜSTAHSİL FİLTRESİ</label>
+          <select id="td-mevcut-mustahsil" onchange="window.updateTopluDegistirCount()" style="${modalInputStyle}">
+            <option value="">-- Tümü --</option>
+            ${supplierOptions}
+          </select>
         </div>
 
-        <div style="background:rgba(168,85,247,0.1);border:1px solid rgba(168,85,247,0.3);border-radius:8px;padding:12px;color:#e9d5ff;font-size:0.85rem;">
-          <i class="fa-solid fa-circle-info" style="color:#c084fc;margin-right:6px;"></i>
-          Veri listesindeki eşleşen tüm kayıtlarda aranan eski değer yeni değer ile topluca güncellenecektir.
+        <div>
+          <label style="display:block;font-size:0.75rem;font-weight:700;color:#60a5fa;margin-bottom:6px;letter-spacing:0.03em;">HEDEF MÜSTAHSİL (İSTEĞE BAĞLI)</label>
+          <select id="td-yeni-mustahsil" style="${modalInputStyle}">
+            <option value="">-- Değiştirilmeyecek --</option>
+            ${supplierOptions}
+          </select>
         </div>
 
-        <button onclick="window.applyTopluDegistir()" class="dash-btn btn-green" style="margin:0;padding:12px;">
-          <i class="fa-solid fa-check"></i> TOPLU DEĞİŞTİR VE UYGULA
+        <!-- ROW 3: TARİH ARALIĞI -->
+        <div>
+          <label style="display:block;font-size:0.75rem;font-weight:700;color:#9ca3af;margin-bottom:6px;letter-spacing:0.03em;">BAŞLANGIÇ TARİHİ</label>
+          <input type="date" id="td-date-from" onchange="window.updateTopluDegistirCount()" style="${modalInputStyle}">
+        </div>
+
+        <div>
+          <label style="display:block;font-size:0.75rem;font-weight:700;color:#9ca3af;margin-bottom:6px;letter-spacing:0.03em;">BİTİŞ TARİHİ</label>
+          <input type="date" id="td-date-to" onchange="window.updateTopluDegistirCount()" style="${modalInputStyle}">
+        </div>
+
+      </div>
+
+      <!-- LIVE COUNT BANNER -->
+      <div id="td-count-banner" style="background:rgba(2,132,199,0.15);border:1px solid rgba(2,132,199,0.3);border-radius:10px;padding:12px;text-align:center;color:#38bdf8;font-weight:700;font-size:0.9rem;margin-bottom:20px;display:flex;align-items:center;justify-content:center;gap:8px;">
+        <i class="fa-solid fa-layer-group"></i>
+        <span id="td-count-text">Kriterlere uyan 0 adet işlem bulundu.</span>
+      </div>
+
+      <!-- FOOTER BUTTONS -->
+      <div style="display:flex;justify-content:flex-end;gap:12px;">
+        <button onclick="document.getElementById('toplu-degistir-modal').remove()" 
+          style="background:rgba(255,255,255,0.08);color:white;border:1px solid rgba(255,255,255,0.2);border-radius:10px;padding:10px 22px;font-family:Outfit,sans-serif;font-weight:600;cursor:pointer;">
+          İPTAL
+        </button>
+        <button onclick="window.applyTopluDegistir()" 
+          style="background:linear-gradient(135deg, #a855f7, #d946ef);color:white;border:none;border-radius:10px;padding:10px 24px;font-family:Outfit,sans-serif;font-weight:700;cursor:pointer;box-shadow:0 4px 14px rgba(217,70,239,0.4);display:flex;align-items:center;gap:8px;">
+          <i class="fa-solid fa-check"></i> TOPLU GÜNCELLE
         </button>
       </div>
+
     </div>
   `, 'toplu-degistir-modal');
+
+  window.updateTopluDegistirCount();
+};
+
+window.updateTopluDegistirCount = () => {
+  const data = DataService.getData();
+  const txs = data.transactions || [];
+
+  const mOtel = (document.getElementById('td-mevcut-otel')?.value || '').trim();
+  const mMustahsil = (document.getElementById('td-mevcut-mustahsil')?.value || '').trim();
+  const dateFrom = document.getElementById('td-date-from')?.value || null;
+  const dateTo = document.getElementById('td-date-to')?.value || null;
+
+  const count = txs.filter(t => {
+    if (mOtel && t.hotel !== mOtel) return false;
+    if (mMustahsil && t.supplier !== mMustahsil) return false;
+    if (dateFrom && t.date < dateFrom) return false;
+    if (dateTo && t.date > dateTo) return false;
+    return true;
+  }).length;
+
+  const textEl = document.getElementById('td-count-text');
+  if (textEl) textEl.textContent = `Kriterlere uyan ${count} adet işlem bulundu.`;
 };
 
 window.applyTopluDegistir = async () => {
-  const field = document.getElementById('td-field').value;
-  const oldVal = (document.getElementById('td-old-val').value || '').trim().toUpperCase();
-  const newVal = (document.getElementById('td-new-val').value || '').trim().toUpperCase();
+  const data = DataService.getData();
+  const txs = data.transactions || [];
 
-  if (!oldVal || !newVal) {
-    alert('Lütfen hem aranan eski değeri hem de yeni değeri giriniz!');
+  const mOtel = (document.getElementById('td-mevcut-otel')?.value || '').trim();
+  const yOtel = (document.getElementById('td-yeni-otel')?.value || '').trim();
+
+  const mMustahsil = (document.getElementById('td-mevcut-mustahsil')?.value || '').trim();
+  const yMustahsil = (document.getElementById('td-yeni-mustahsil')?.value || '').trim();
+
+  const dateFrom = document.getElementById('td-date-from')?.value || null;
+  const dateTo = document.getElementById('td-date-to')?.value || null;
+
+  if (!yOtel && !yMustahsil) {
+    alert('Lütfen en az bir tane yeni hedef değer seçiniz (Yeni Hedef Otel veya Hedef Müstahsil)!');
     return;
   }
 
-  const data = DataService.getData();
-  let count = 0;
-
-  data.transactions.forEach(t => {
-    const curVal = (t[field] || '').trim().toUpperCase();
-    if (curVal === oldVal || curVal.includes(oldVal)) {
-      t[field] = newVal;
-      count++;
-    }
+  const matchingTxs = txs.filter(t => {
+    if (mOtel && t.hotel !== mOtel) return false;
+    if (mMustahsil && t.supplier !== mMustahsil) return false;
+    if (dateFrom && t.date < dateFrom) return false;
+    if (dateTo && t.date > dateTo) return false;
+    return true;
   });
 
-  if (count === 0) {
-    alert(`"${oldVal}" değeriyle eşleşen herhangi bir işlem kaydı bulunamadı.`);
+  if (matchingTxs.length === 0) {
+    alert('Seçilen kriterlere uyan herhangi bir işlem kaydı bulunamadı.');
     return;
   }
 
-  if (!confirm(`Eşleşen ${count} adet işlem kaydındaki "${oldVal}" alanı "${newVal}" olarak değiştirilecek. Onaylıyor musunuz?`)) return;
+  let msg = `Kriterlere uyan ${matchingTxs.length} adet işlem kaydında:`;
+  if (yOtel) msg += `\n- Otel bilgisi "${yOtel}" olarak güncellenecek.`;
+  if (yMustahsil) msg += `\n- Müstahsil bilgisi "${yMustahsil}" olarak güncellenecek.`;
+  msg += `\n\nOnaylıyor musunuz?`;
+
+  if (!confirm(msg)) return;
+
+  matchingTxs.forEach(t => {
+    if (yOtel) t.hotel = yOtel;
+    if (yMustahsil) t.supplier = yMustahsil;
+  });
 
   await DataService.saveData(data);
   const m = document.getElementById('toplu-degistir-modal');
@@ -2236,7 +2326,7 @@ window.applyTopluDegistir = async () => {
   renderVeri();
   renderDashboard();
 
-  alert(`Başarılı! ${count} adet işlemdeki "${oldVal}" değeri "${newVal}" olarak topluca değiştirildi.`);
+  alert(`Başarılı! ${matchingTxs.length} adet işlem kaydı topluca güncellendi.`);
 };
 
 // TUTED FETCH LOGIC
