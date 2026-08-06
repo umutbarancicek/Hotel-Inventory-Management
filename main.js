@@ -729,19 +729,19 @@ function renderVeri() {
     const marginRate = isSpecialHotel ? 0.22 : 0.18;
     
     let tutedVal = 0;
-    if (tx.supplyPrice > 0) {
-      tutedVal = Math.round((tx.supplyPrice / marginRate) * 100) / 100;
+    let pMatch = priceList.find(p => (p.product||'').trim().toUpperCase() === txProd);
+    if (!pMatch && priceList.length > 0) {
+      pMatch = priceList.find(p => {
+        const pName = (p.product||'').trim().toUpperCase();
+        return pName.includes(txProd) || txProd.includes(pName);
+      });
     }
-    
-    if (tutedVal === 0) {
-      let pMatch = priceList.find(p => (p.product||'').trim().toUpperCase() === txProd);
-      if (!pMatch && priceList.length > 0) {
-        pMatch = priceList.find(p => {
-          const pName = (p.product||'').trim().toUpperCase();
-          return pName.includes(txProd) || txProd.includes(pName);
-        });
-      }
-      if (pMatch) tutedVal = parsePrice(pMatch.price);
+    if (pMatch) {
+      tutedVal = parsePrice(pMatch.price);
+      if (tutedVal > 250) tutedVal = tutedVal / 100.0;
+    }
+    if (tutedVal === 0 && tx.supplyPrice > 0) {
+      tutedVal = tx.supplyPrice;
     }
     
     const hasTuted = tutedVal > 0 && tx.supplyPrice > 0;
