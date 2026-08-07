@@ -1589,7 +1589,7 @@ function renderOzet() {
 }
 
 let activeAccount = null;
-let ekstreFilters = { dateFrom: null, dateTo: null, type: 'all', search: '' };
+let ekstreFilters = { dateFrom: null, dateTo: null, type: 'all', search: '', hotel: null, supplier: null, product: null };
 
 window.setEkstreFilter = (key, val) => {
   ekstreFilters[key] = val;
@@ -1597,13 +1597,13 @@ window.setEkstreFilter = (key, val) => {
 };
 
 window.clearEkstreFilters = () => {
-  ekstreFilters = { dateFrom: null, dateTo: null, type: 'all', search: '' };
+  ekstreFilters = { dateFrom: null, dateTo: null, type: 'all', search: '', hotel: null, supplier: null, product: null };
   renderAccountDetail();
 };
 
 window.showAccountDetail = (acc) => {
   activeAccount = acc;
-  ekstreFilters = { dateFrom: null, dateTo: null, type: 'all', search: '' };
+  ekstreFilters = { dateFrom: null, dateTo: null, type: 'all', search: '', hotel: null, supplier: null, product: null };
   renderAccountDetail();
 };
 
@@ -1619,6 +1619,11 @@ function renderAccountDetail() {
   const txs = data.transactions.filter(t => (t.hotel||'').trim() === accName || (t.supplier||'').trim() === accName);
   const pms = data.payments.filter(p => (p.account||'').trim() === accName);
   
+  // Extract unique filter lists
+  const uniqueProducts = [...new Set(txs.map(t => t.product).filter(Boolean))].sort();
+  const uniqueHotels = [...new Set(txs.map(t => t.hotel).filter(Boolean))].sort();
+  const uniqueSuppliers = [...new Set(txs.map(t => t.supplier).filter(Boolean))].sort();
+
   const allEvents = [
     ...txs.map(t => {
       const kilo = t.qty;
@@ -1631,7 +1636,10 @@ function renderAccountDetail() {
         price: price,
         tutar: tutar,
         odeme: 0,
-        type: 'tx'
+        type: 'tx',
+        product: t.product,
+        hotel: t.hotel,
+        supplier: t.supplier
       };
     }),
     ...pms.map(p => ({
@@ -1641,7 +1649,10 @@ function renderAccountDetail() {
       price: 0,
       tutar: 0,
       odeme: p.amount,
-      type: 'pm'
+      type: 'pm',
+      product: '',
+      hotel: '',
+      supplier: ''
     }))
   ].sort((a, b) => new Date(a.date) - new Date(b.date));
 
@@ -1657,6 +1668,9 @@ function renderAccountDetail() {
     if (f.dateTo && e.date > f.dateTo) return false;
     if (f.type === 'tx' && e.type !== 'tx') return false;
     if (f.type === 'pm' && e.type !== 'pm') return false;
+    if (f.product && e.product !== f.product) return false;
+    if (acc.type === 'supplier' && f.hotel && e.hotel !== f.hotel) return false;
+    if (acc.type === 'hotel' && f.supplier && e.supplier !== f.supplier) return false;
     if (f.search) {
       const sLower = f.search.toLowerCase();
       if (!e.desc.toLowerCase().includes(sLower)) return false;
@@ -1693,8 +1707,32 @@ function renderAccountDetail() {
           </select>
         </div>
         <div class="top-filter-group">
-          <label>ÜRÜN / AÇIKLAMA ARA</label>
-          <input type="text" placeholder="Ürün veya açıklama..." value="${f.search || ''}" oninput="window.setEkstreFilter('search', this.value)" style="background:rgba(255,255,255,0.08);border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;color:white;font-family:'Outfit',sans-serif;width:200px;">
+          <label>ÜRÜN FİLTRESİ</label>
+          <select onchange="window.setEkstreFilter('product', this.value || null)" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+            <option value="">-- Tümü --</option>
+            ${uniqueProducts.map(p => `<option value="${p}" ${f.product === p ? 'selected' : ''}>${p}</option>`).join('')}
+          </select>
+        </div>
+        ${acc.type === 'supplier' ? `
+        <div class="top-filter-group">
+          <label>GİTTİĞİ YER (OTEL)</label>
+          <select onchange="window.setEkstreFilter('hotel', this.value || null)" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+            <option value="">-- Tümü --</option>
+            ${uniqueHotels.map(h => `<option value="${h}" ${f.hotel === h ? 'selected' : ''}>${h}</option>`).join('')}
+          </select>
+        </div>
+        ` : `
+        <div class="top-filter-group">
+          <label>MÜSTAHSİL / TEDARİKÇİ</label>
+          <select onchange="window.setEkstreFilter('supplier', this.value || null)" style="background:#1e293b;color:white;border:1px solid #334155;border-radius:8px;padding:8px 12px;font-family:'Outfit',sans-serif;cursor:pointer;">
+            <option value="">-- Tümü --</option>
+            ${uniqueSuppliers.map(s => `<option value="${s}" ${f.supplier === s ? 'selected' : ''}>${s}</option>`).join('')}
+          </select>
+        </div>
+        `}
+        <div class="top-filter-group">
+          <label>AÇIKLAMA ARA</label>
+          <input type="text" placeholder="Açıklama..." value="${f.search || ''}" oninput="window.setEkstreFilter('search', this.value)" style="background:rgba(255,255,255,0.08);border:1px solid var(--panel-border);border-radius:8px;padding:8px 12px;color:white;font-family:'Outfit',sans-serif;width:150px;">
         </div>
       </div>
       <div>
