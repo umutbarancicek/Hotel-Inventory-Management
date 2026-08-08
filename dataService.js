@@ -1,6 +1,6 @@
 import { INITIAL_DATA } from './initialData.js';
 import { db } from './firebaseConfig.js';
-import { doc, getDoc, setDoc } from 'firebase/firestore';
+import { doc, getDoc, setDoc, collection, getDocs } from 'firebase/firestore';
 
 let localData = null;
 
@@ -59,8 +59,34 @@ export const DataService = {
       
       if (docSnap.exists()) {
         localData = docSnap.data();
+        
+        // Fetch all priceLists from the Firestore collection and merge them into memory
+        const priceLists = {};
+        const plSnap = await getDocs(collection(db, 'priceLists'));
+        plSnap.forEach(d => {
+          const docData = d.data();
+          const targetDate = d.id;
+          
+          let list = [];
+          if (docData.items && Array.isArray(docData.items)) {
+            list = docData.items.map(item => ({
+              ...item,
+              date: targetDate
+            }));
+          } else if (docData.prices && typeof docData.prices === 'object') {
+            list = Object.keys(docData.prices).map(prod => ({
+              product: prod,
+              price: docData.prices[prod],
+              unit: 'Kg',
+              date: targetDate
+            }));
+          }
+          priceLists[targetDate] = list;
+        });
+        localData.priceLists = priceLists;
+
         if (this.cleanData(localData)) {
-          await setDoc(docRef, localData);
+          await this.saveData(localData);
         }
       } else {
         const existingLocalData = localStorage.getItem('otel_app_data_v8');
@@ -70,7 +96,7 @@ export const DataService = {
           localData = INITIAL_DATA;
         }
         this.cleanData(localData);
-        await setDoc(docRef, localData);
+        await this.saveData(localData);
       }
     } catch (error) {
       console.error("Firebase connection error:", error);
@@ -93,7 +119,9 @@ export const DataService = {
     localData = data;
     try {
       const docRef = doc(db, 'storage', 'appData');
-      await setDoc(docRef, data);
+      // Create a shallow copy without priceLists to avoid 1MB document size limit
+      const { priceLists, ...appDataToSave } = data;
+      await setDoc(docRef, appDataToSave);
     } catch (error) {
       console.error("Firebase save error:", error);
       localStorage.setItem('otel_app_data_v8', JSON.stringify(data));
@@ -115,13 +143,27 @@ export const DataService = {
   },
 
   // Save a full price list snapshot for a given date
-  savePriceList(dateStr, prices) {
+  async savePriceList(dateStr, prices) {
     const data = this.getData();
     if (!data.priceLists) data.priceLists = {};
     data.priceLists[dateStr] = prices;
     // Also keep a flat prices[] for backward compat (used by quick-entry form)
     data.prices = prices;
-    this.saveData(data);
+
+    // Save to Firestore collection
+    try {
+      const plistDocRef = doc(db, 'priceLists', dateStr);
+      await setDoc(plistDocRef, {
+        items: prices,
+        date: dateStr,
+        fetchedAt: new Date().toISOString(),
+        source: 'user'
+      });
+    } catch (e) {
+      console.error("Error saving price list to collection:", e);
+    }
+
+    await this.saveData(data);
   },
 
   // Return the latest price list as a flat array (for forms/dropdowns)

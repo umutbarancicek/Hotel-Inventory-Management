@@ -2297,6 +2297,13 @@ window.editTransaction = (id) => {
   const data = DataService.getData();
   const suppliers = data.accounts.filter(a => a.type === 'supplier').map(a => `<option value="${a.name}" ${a.name===tx.supplier?'selected':''}>${a.name}</option>`).join('');
   const hotels    = data.accounts.filter(a => a.type === 'hotel').map(a => `<option value="${a.name}" ${a.name===tx.hotel?'selected':''}>${a.name}</option>`).join('');
+  
+  // Extract unique products from transactions and borsa lists
+  const allProducts = [...new Set([
+    ...data.transactions.map(t => (t.product || '').trim().toUpperCase()),
+    ...Object.values(data.priceLists || {}).flatMap(list => (list || []).map(item => (item.product || '').trim().toUpperCase()))
+  ])].filter(Boolean).sort();
+
   openGenericModal(`
     <div class="modal-box" style="max-width:520px;">
       <div class="modal-header">
@@ -2304,19 +2311,99 @@ window.editTransaction = (id) => {
         <button onclick="document.getElementById('tx-edit-modal').remove()" style="background:none;border:none;color:#9ca3af;font-size:1.4rem;cursor:pointer;">✕</button>
       </div>
       <div style="display:flex;flex-direction:column;gap:14px;margin-top:16px;">
-        <div class="top-filter-group"><label>TARİH</label><input type="date" id="te-date" value="${tx.date}" style="${modalInputStyle}"></div>
-        <div class="top-filter-group"><label>MÜSTAHSİL</label><select id="te-supplier" style="${modalInputStyle}">${suppliers}</select></div>
-        <div class="top-filter-group"><label>ÜRÜN</label><input type="text" id="te-product" value="${tx.product}" style="${modalInputStyle}"></div>
-        <div class="top-filter-group"><label>GİTTİĞİ YER</label><select id="te-hotel" style="${modalInputStyle}">${hotels}</select></div>
-        <div class="top-filter-group"><label>KİLO</label><input type="number" id="te-qty" value="${tx.qty}" step="0.01" style="${modalInputStyle}"></div>
-        <div class="top-filter-group"><label>ALIŞ FİYATI (HAL)</label><input type="number" id="te-buy" value="${tx.buyPrice}" step="0.01" style="${modalInputStyle}"></div>
-        <div class="top-filter-group"><label>TEDARİK FİYATI</label><input type="number" id="te-supply" value="${tx.supplyPrice}" step="0.01" style="${modalInputStyle}"></div>
+        <div class="top-filter-group">
+          <label>TARİH</label>
+          <input type="date" id="te-date" value="${tx.date}" onchange="window.updateEditModalSupplyPrice()" style="${modalInputStyle}">
+        </div>
+        <div class="top-filter-group">
+          <label>MÜSTAHSİL</label>
+          <select id="te-supplier" style="${modalInputStyle}">${suppliers}</select>
+        </div>
+        <div class="top-filter-group">
+          <label>ÜRÜN</label>
+          <select id="te-product" onchange="window.updateEditModalSupplyPrice()" style="${modalInputStyle}">
+            ${allProducts.map(p => `<option value="${p}" ${p === (tx.product || '').trim().toUpperCase() ? 'selected' : ''}>${p}</option>`).join('')}
+          </select>
+        </div>
+        <div class="top-filter-group">
+          <label>GİTTİĞİ YER</label>
+          <select id="te-hotel" onchange="window.updateEditModalSupplyPrice()" style="${modalInputStyle}">${hotels}</select>
+        </div>
+        <div class="top-filter-group">
+          <label>KİLO</label>
+          <input type="number" id="te-qty" value="${tx.qty}" step="0.01" style="${modalInputStyle}">
+        </div>
+        <div class="top-filter-group">
+          <label>ALIŞ FİYATI (HAL)</label>
+          <input type="number" id="te-buy" value="${tx.buyPrice}" step="0.01" oninput="window.updateEditModalSupplyPrice()" style="${modalInputStyle}">
+        </div>
+        <div class="top-filter-group">
+          <label style="display:flex;justify-content:space-between;align-items:center;">
+            <span>TEDARİK FİYATI</span>
+            <span id="te-tuted-indicator" style="font-size:0.75rem;font-weight:normal;"></span>
+          </label>
+          <input type="number" id="te-supply" value="${tx.supplyPrice}" step="0.01" style="${modalInputStyle}">
+        </div>
         <button onclick="window.saveTxEdit(${tx.id})" class="dash-btn btn-green" style="margin:0;padding:12px;">
           <i class="fa-solid fa-floppy-disk"></i> KAYDET
         </button>
       </div>
     </div>
   `, 'tx-edit-modal');
+
+  // Trigger price fetch once when modal opens
+  setTimeout(() => {
+    window.updateEditModalSupplyPrice();
+  }, 100);
+};
+
+window.updateEditModalSupplyPrice = () => {
+  const dateInput = document.getElementById('te-date');
+  const prodInput = document.getElementById('te-product');
+  const hotelSelect = document.getElementById('te-hotel');
+  const buyInput = document.getElementById('te-buy');
+  const supplyInput = document.getElementById('te-supply');
+  const indicator = document.getElementById('te-tuted-indicator');
+
+  if (!dateInput || !prodInput || !hotelSelect || !buyInput || !supplyInput) return;
+
+  const date = dateInput.value;
+  const prod = prodInput.value.trim().toUpperCase();
+  const hotel = hotelSelect.value;
+  const buyPrice = Number(buyInput.value) || 0;
+
+  const data = DataService.getData();
+  const hUpper = (hotel || '').toUpperCase().trim();
+  const isSpecialHotel = hUpper.includes('SEPHORIA') || hUpper.includes('SEAPHORİA') || hUpper.includes('CASAFORA');
+  const marginRate = isSpecialHotel ? 0.22 : 0.18;
+
+  const parsePrice = str => typeof str === 'number' ? str : parseFloat(String(str).replace(/\./g,'').replace(',','.')) || 0;
+
+  const priceList = data.priceLists ? (data.priceLists[date] || []) : [];
+  let tutedVal = 0;
+  if (priceList.length > 0 && prod) {
+    let pMatch = priceList.find(p => (p.product || '').trim().toUpperCase() === prod);
+    if (!pMatch) {
+      pMatch = priceList.find(p => {
+        const pName = (p.product || '').trim().toUpperCase();
+        return pName.includes(prod) || prod.includes(pName);
+      });
+    }
+    if (pMatch) tutedVal = parsePrice(pMatch.price);
+  }
+
+  if (tutedVal > 0) {
+    const calcSupply = Math.round(tutedVal * marginRate * 100) / 100;
+    supplyInput.value = calcSupply;
+    if (indicator) {
+      indicator.innerHTML = `<span style="color:#10b981;display:flex;align-items:center;gap:4px;"><i class="fa-solid fa-circle-check"></i> TÜTED: ₺${(tutedVal/10).toFixed(2)} (${tutedVal})</span>`;
+    }
+  } else {
+    supplyInput.value = buyPrice;
+    if (indicator) {
+      indicator.innerHTML = `<span style="color:#f59e0b;display:flex;align-items:center;gap:4px;"><i class="fa-solid fa-triangle-exclamation"></i> TÜTED yok (Alış Fiyatı)</span>`;
+    }
+  }
 };
 
 window.saveTxEdit = (id) => {
