@@ -60,6 +60,25 @@ export const DataService = {
       if (docSnap.exists()) {
         localData = docSnap.data();
         
+        // Fetch all transactions from monthly partitioned collection 'transactions'
+        const transactions = [];
+        const txSnap = await getDocs(collection(db, 'transactions'));
+        txSnap.forEach(d => {
+          const docData = d.data();
+          if (docData.items && Array.isArray(docData.items)) {
+            transactions.push(...docData.items);
+          }
+        });
+        
+        // If we found partitioned transactions, use them. Otherwise, fallback to appData for migration.
+        if (transactions.length > 0) {
+          // Sort transactions by date to maintain chronological order
+          transactions.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+          localData.transactions = transactions;
+        } else {
+          localData.transactions = localData.transactions || [];
+        }
+        
         // Fetch all priceLists from the Firestore collection and merge them into memory
         const priceLists = {};
         const plSnap = await getDocs(collection(db, 'priceLists'));
@@ -119,9 +138,28 @@ export const DataService = {
     localData = data;
     try {
       const docRef = doc(db, 'storage', 'appData');
-      // Create a shallow copy without priceLists to avoid 1MB document size limit
-      const { priceLists, ...appDataToSave } = data;
+      // Create a shallow copy without priceLists and transactions to avoid 1MB document size limit
+      const { priceLists, transactions, ...appDataToSave } = data;
       await setDoc(docRef, appDataToSave);
+
+      // Partition and save transactions by YYYY-MM
+      const partitions = {};
+      const txList = transactions || [];
+      txList.forEach(tx => {
+        const dateStr = tx.date || '';
+        let yearMonth = 'unknown';
+        if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+          yearMonth = dateStr.slice(0, 7);
+        }
+        if (!partitions[yearMonth]) partitions[yearMonth] = [];
+        partitions[yearMonth].push(tx);
+      });
+
+      // Save each month to its own document
+      for (const [ym, items] of Object.entries(partitions)) {
+        const monthlyRef = doc(db, 'transactions', ym);
+        await setDoc(monthlyRef, { items });
+      }
     } catch (error) {
       console.error("Firebase save error:", error);
       localStorage.setItem('otel_app_data_v8', JSON.stringify(data));
