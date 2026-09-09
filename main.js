@@ -300,7 +300,7 @@ window.fetchTutedPriceListForDate = async (targetDateStr, showNotice = true) => 
   }
 
   try {
-    const indexUrl = 'https://proxy.cors.sh/https://antalyatuted.org.tr/Fiyat/Index';
+    const indexUrl = 'https://tuted-proxy.cicekumutbaran.workers.dev/proxy/Fiyat/Index';
     const response = await fetch(indexUrl);
     if (!response.ok) throw new Error('Ağa bağlanılamadı');
     const htmlText = await response.text();
@@ -323,8 +323,7 @@ window.fetchTutedPriceListForDate = async (targetDateStr, showNotice = true) => 
 
     if (!targetEntry) throw new Error(`${formattedDate} tarihi için TÜTED Excel dosyası bulunamadı.`);
 
-    const targetExcelUrl = 'https://antalyatuted.org.tr' + targetEntry.url;
-    const excelRes = await fetch('https://proxy.cors.sh/' + targetExcelUrl);
+    const excelRes = await fetch('https://tuted-proxy.cicekumutbaran.workers.dev/proxy' + targetEntry.url);
     if (!excelRes.ok) throw new Error('Excel dosyası indirilemedi');
     const arrayBuffer = await excelRes.arrayBuffer();
 
@@ -348,10 +347,37 @@ window.fetchTutedPriceListForDate = async (targetDateStr, showNotice = true) => 
 
     DataService.savePriceList(isoDate, newPrices);
 
+    // ── AUTO-RECALCULATE supply prices for existing transactions on this date ──
+    // Uses window.recalculateTxSupplyPrice which has partial product name matching
+    const data = DataService.getData();
+
+    // Force priceLists[isoDate] to reflect the freshly fetched prices in memory
+    // (savePriceList may have saved to Firestore but localData.priceLists might lag)
+    if (!data.priceLists) data.priceLists = {};
+    data.priceLists[isoDate] = newPrices;
+
+    let recalcCount = 0;
+    data.transactions.forEach(tx => {
+      if (tx.date !== isoDate) return;
+      // Never touch zero-price (freebie/eşantiyon) transactions
+      if (!tx.buyPrice || tx.buyPrice === 0) return;
+      if (tx.supplyPrice === 0) return;
+
+      const oldSupply = tx.supplyPrice;
+      window.recalculateTxSupplyPrice(tx, data);
+      if (tx.supplyPrice !== oldSupply) recalcCount++;
+    });
+
+    if (recalcCount > 0) {
+      await DataService.saveData(data);
+    }
+
     if (toast) {
       toast.style.background = '#10b981';
-      toast.innerHTML = `<i class="fa-solid fa-check"></i> ${formattedDate} TÜTED fiyatları başarıyla indirildi!`;
-      setTimeout(() => toast.remove(), 3000);
+      toast.innerHTML = recalcCount > 0
+        ? `<i class="fa-solid fa-check"></i> ${formattedDate} TÜTED indirildi — <strong>${recalcCount} işlemin</strong> tedarik fiyatı güncellendi!`
+        : `<i class="fa-solid fa-check"></i> ${formattedDate} TÜTED fiyatları başarıyla indirildi!`;
+      setTimeout(() => toast.remove(), 4000);
     }
 
     if (qeState.selectedProducts && qeState.selectedProducts.length > 0) {
@@ -2612,8 +2638,8 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
    btn.disabled = true;
    
    try {
-       // 1. Fetch index page using cors proxy to bypass CORS on GitHub Pages
-       const indexUrl = 'https://proxy.cors.sh/https://antalyatuted.org.tr/Fiyat/Index';
+       // 1. Fetch index page using Cloudflare Worker proxy to bypass CORS on GitHub Pages
+       const indexUrl = 'https://tuted-proxy.cicekumutbaran.workers.dev/proxy/Fiyat/Index';
        const response = await fetch(indexUrl);
        if (!response.ok) throw new Error('Ağa bağlanılamadı');
        const htmlText = await response.text();
@@ -2621,8 +2647,7 @@ document.getElementById('btn-fetch-tuted').addEventListener('click', async (e) =
        // 2. Find excel link
        const match = htmlText.match(/href="(\/Fiyat\/Index\?p=excel&id=\d+)"/);
        if (!match) throw new Error('Güncel Excel dosyası bulunamadı!');
-       const targetExcelUrl = 'https://antalyatuted.org.tr' + match[1];
-       const excelUrl = 'https://proxy.cors.sh/' + targetExcelUrl;
+       const excelUrl = 'https://tuted-proxy.cicekumutbaran.workers.dev/proxy' + match[1];
        
        // 3. Fetch excel file
        const excelRes = await fetch(excelUrl);

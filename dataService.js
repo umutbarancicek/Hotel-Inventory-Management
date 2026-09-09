@@ -8,12 +8,7 @@ export const DataService = {
   cleanData(data) {
     let changed = false;
 
-    // Initialize collections if they are completely missing or empty
-    if (!data.transactions || data.transactions.length === 0) {
-      data.transactions = JSON.parse(JSON.stringify(INITIAL_DATA.transactions || []));
-      changed = true;
-    }
-
+    // Only initialize accounts if completely missing
     if (!data.accounts || data.accounts.length === 0) {
       data.accounts = JSON.parse(JSON.stringify(INITIAL_DATA.accounts || []));
       changed = true;
@@ -60,7 +55,7 @@ export const DataService = {
       if (docSnap.exists()) {
         localData = docSnap.data();
         
-        // Fetch all transactions from monthly partitioned collection 'transactions'
+        // ── TRANSACTIONS: Load from monthly partitioned collection (single source of truth) ──
         const transactions = [];
         const txSnap = await getDocs(collection(db, 'transactions'));
         txSnap.forEach(d => {
@@ -70,16 +65,19 @@ export const DataService = {
           }
         });
         
-        // If we found partitioned transactions, use them. Otherwise, fallback to appData for migration.
         if (transactions.length > 0) {
-          // Sort transactions by date to maintain chronological order
+          // Sort chronologically
           transactions.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
           localData.transactions = transactions;
+        } else if (localData.transactions && localData.transactions.length > 0) {
+          // One-time migration: appData still has transactions, move them to monthly collection
+          console.log('Migrating transactions from appData to monthly collection...');
+          await this._saveTransactionsPartitioned(localData.transactions);
         } else {
-          localData.transactions = localData.transactions || [];
+          localData.transactions = [];
         }
         
-        // Fetch all priceLists from the Firestore collection and merge them into memory
+        // ── PRICE LISTS: Load from priceLists collection ──
         const priceLists = {};
         const plSnap = await getDocs(collection(db, 'priceLists'));
         plSnap.forEach(d => {
@@ -104,16 +102,12 @@ export const DataService = {
         });
         localData.priceLists = priceLists;
 
+        // Only save non-transaction data (accounts, payments, etc.) if needed
         if (this.cleanData(localData)) {
           await this.saveData(localData);
         }
       } else {
-        const existingLocalData = localStorage.getItem('otel_app_data_v8');
-        if (existingLocalData) {
-          localData = JSON.parse(existingLocalData);
-        } else {
-          localData = INITIAL_DATA;
-        }
+        localData = { ...(INITIAL_DATA || {}), transactions: [], accounts: [], payments: [] };
         this.cleanData(localData);
         await this.saveData(localData);
       }
@@ -129,7 +123,25 @@ export const DataService = {
       }
     }
   },
-  
+
+  // Internal helper: partition and write transactions to monthly Firestore documents
+  async _saveTransactionsPartitioned(txList) {
+    const partitions = {};
+    (txList || []).forEach(tx => {
+      const dateStr = tx.date || '';
+      let yearMonth = 'unknown';
+      if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+        yearMonth = dateStr.slice(0, 7);
+      }
+      if (!partitions[yearMonth]) partitions[yearMonth] = [];
+      partitions[yearMonth].push(tx);
+    });
+    for (const [ym, items] of Object.entries(partitions)) {
+      const monthlyRef = doc(db, 'transactions', ym);
+      await setDoc(monthlyRef, { items });
+    }
+  },
+
   getData() {
     return localData || INITIAL_DATA;
   },
@@ -138,28 +150,12 @@ export const DataService = {
     localData = data;
     try {
       const docRef = doc(db, 'storage', 'appData');
-      // Create a shallow copy without priceLists and transactions to avoid 1MB document size limit
+      // Save only metadata (accounts, payments, etc.) — never transactions or priceLists
       const { priceLists, transactions, ...appDataToSave } = data;
       await setDoc(docRef, appDataToSave);
 
-      // Partition and save transactions by YYYY-MM
-      const partitions = {};
-      const txList = transactions || [];
-      txList.forEach(tx => {
-        const dateStr = tx.date || '';
-        let yearMonth = 'unknown';
-        if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
-          yearMonth = dateStr.slice(0, 7);
-        }
-        if (!partitions[yearMonth]) partitions[yearMonth] = [];
-        partitions[yearMonth].push(tx);
-      });
-
-      // Save each month to its own document
-      for (const [ym, items] of Object.entries(partitions)) {
-        const monthlyRef = doc(db, 'transactions', ym);
-        await setDoc(monthlyRef, { items });
-      }
+      // Save transactions to monthly partitioned collection
+      await this._saveTransactionsPartitioned(transactions);
     } catch (error) {
       console.error("Firebase save error:", error);
       localStorage.setItem('otel_app_data_v8', JSON.stringify(data));
